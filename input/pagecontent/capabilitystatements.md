@@ -1,0 +1,2 @@
+
+{% include table-capabilitystatements.xhtml %}
