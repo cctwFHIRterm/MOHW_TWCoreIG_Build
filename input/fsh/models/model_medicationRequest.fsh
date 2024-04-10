@@ -2,7 +2,7 @@ Logical: TWMedicationRequestModel
 Id: TWMedicationRequest
 Title: "臺灣核心-藥品請求(TW Core MedicationRequest) 之資料模型"
 Description: "臺灣核心-藥品請求(TW Core MedicationRequest) 之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * identifier 0..1 Identifier "藥品請求的外部識別碼。" "藥品請求的外部識別碼。"
 * status 1..1 code "藥品請求的狀態。" "藥品請求的狀態。"
 * intent 1..1 code "藥品請求的意圖。" "藥品請求的意圖。"

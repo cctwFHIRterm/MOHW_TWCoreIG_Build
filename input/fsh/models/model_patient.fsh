@@ -2,7 +2,7 @@ Logical: TWPatientModel
 Id: TWPatient
 Title: "臺灣核心-病人(TW Core Patient)之資料模型"
 Description: "臺灣核心-病人(TW Core Patient)之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * identifier 1..* Identifier "身份識別碼(病歷號、身分證字號、護照號碼、居留證號碼等)" "身份識別碼(病歷號、身分證字號、護照號碼、居留證號碼等)。"
 * active 0..1 boolean "此基本資料是否使用中。" "此基本資料是否使用中。"
 * name 0..* HumanName "姓名，包括病人身分證或護照上的姓名、新生兒報戶口（戶籍登記）前的暫時性姓名、或研究用之匿名化病人姓名等。" "姓名，包括病人身分證或護照上的姓名、新生兒報戶口（戶籍登記）前的暫時性姓名、或研究用之匿名化病人姓名等。"

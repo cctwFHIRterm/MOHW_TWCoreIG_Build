@@ -5,7 +5,7 @@ Title:          "TW Core Practitioner"
 Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。
 
 此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * communication ^example.label = "Value"

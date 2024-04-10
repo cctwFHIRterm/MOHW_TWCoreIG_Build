@@ -2,7 +2,7 @@ Logical: TWOrganizationModel
 Id: TWOrganization
 Title: "臺灣核心-機構(TW Core Organization)之資料模型"
 Description: "臺灣核心-機構(TW Core Organization)之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * identifier 1..* Identifier "機構唯一識別碼(例如：醫事機構代碼、政府機關代號、統一編碼等)。" "機構唯一識別碼(例如：醫事機構代碼、政府機關代號、統一編碼等)。"
 * active 0..1 boolean "此機構基本資料是否使用中。" "此機構基本資料是否使用中。"
 * organizationType 0..1 CodeableConcept "機構種類。" "機構種類。"

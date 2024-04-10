@@ -2,7 +2,7 @@ Logical: TWPractitionerModel
 Id: TWPractitioner
 Title: "臺灣核心-健康照護服務提供者(TW Core Practitioner)之資料模型"
 Description: "臺灣核心-健康照護服務提供者(TW Core Practitioner)之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * identifier 1..* Identifier "人員識別碼(例如：員工編號等)。" "人員識別碼(例如：員工編號等)。"
 * active 0..1 boolean "此健康照護服務人員的基本資料是否使用中。" "此健康照護服務人員的基本資料是否使用中。"
 * name 1..* HumanName "姓名。" "姓名。"

@@ -3,7 +3,7 @@ Id: identifier-suffix
 Title: "Identifier Suffix"
 Description: "識別碼後綴詞"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/identifier-suffix"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Patient.identifier.type.coding.code"

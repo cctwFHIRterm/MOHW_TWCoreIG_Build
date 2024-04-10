@@ -3,7 +3,7 @@ Id: tw-lane
 Title: "TW Lane"
 Description: "臺灣地址欄位-巷"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-lane"
-* ^version = "0.2.2"
+* ^version = "0.2.1"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"
