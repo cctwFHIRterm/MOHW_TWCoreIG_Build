@@ -1,12 +1,12 @@
 Instance: health-department-sta-tw
 InstanceOf: ConceptMap
 Title: "臺灣衛生福利部統計處診療科別代碼對應SNOMED CT"
-//Description :  "臺灣衛生福利部統計處診療科別代碼對應至SNOMED CT代碼，當代碼無法對應至國際標準碼時將以普遍被使用的健保署臺灣標準碼為主，概念對應出版日期：2024-01-05；資料所屬單位：衛生福利部。"
+Description :  "- 2024/4/9異動說明：AF（血液腫瘤科）代碼不對應，以符合用情境。"
 Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-05"
-* version = "0.2.0"
+* version = "0.2.2"
 * name = "TWHealthDepartmentSTA"
 * title = "臺灣衛生福利部統計處診療科別代碼對應SNOMED CT"
 * description = "此對應表為臺灣衛生福利部統計處診療科別代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
@@ -32,7 +32,7 @@ Usage: #definition
 * group[=].element[+].code = #4
 * group[=].element[=].display = "小兒科"
 * group[=].element[=].target.code = #24251000087109
-* group[=].element[=].target.display = "General pediatric specialty (qualifier value)"
+* group[=].element[=].target.display = "General pediatric specialty"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #5
 * group[=].element[=].display = "婦產科"
@@ -42,7 +42,7 @@ Usage: #definition
 * group[=].element[+].code = #6
 * group[=].element[=].display = "骨科"
 * group[=].element[=].target.code = #24241000087106
-* group[=].element[=].target.display = "General orthopedic specialty (qualifier value)"
+* group[=].element[=].target.display = "General orthopedic specialty"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #7
 * group[=].element[=].display = "神經外科"
@@ -92,22 +92,22 @@ Usage: #definition
 * group[=].element[+].code = #22
 * group[=].element[=].display = "急診醫學科"
 * group[=].element[=].target.code = #773568002
-* group[=].element[=].target.display = "Emergency medicine (qualifier value)"
+* group[=].element[=].target.display = "Emergency medicine"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #2B
 * group[=].element[=].display = "洗腎科"
 * group[=].element[=].target.code = #394589003
-* group[=].element[=].target.display = "Nephrology (qualifier value)"
+* group[=].element[=].target.display = "Nephrology"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #40
 * group[=].element[=].display = "牙科"
 * group[=].element[=].target.code = #722163006
-* group[=].element[=].target.display = "Dentistry (qualifier value)"
+* group[=].element[=].target.display = "Dentistry"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #GA
 * group[=].element[=].display = "口腔顏面外科"
 * group[=].element[=].target.code = #408465003
-* group[=].element[=].target.display = "Oral and maxillofacial surgery (qualifier value)"
+* group[=].element[=].target.display = "Oral and maxillofacial surgery"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #81
 * group[=].element[=].display = "麻醉科"
@@ -137,7 +137,7 @@ Usage: #definition
 * group[=].element[+].code = #AA
 * group[=].element[=].display = "消化內科"
 * group[=].element[=].target.code = #394584008
-* group[=].element[=].target.display = "Gastroenterology (qualifier value)"
+* group[=].element[=].target.display = "Gastroenterology"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #AB
 * group[=].element[=].display = "心臟血管內科"
@@ -152,13 +152,13 @@ Usage: #definition
 * group[=].element[+].code = #AE
 * group[=].element[=].display = "風濕免疫科"
 * group[=].element[=].target.code = #394810000
-* group[=].element[=].target.display = "Rheumatology (qualifier value)"
+* group[=].element[=].target.display = "Rheumatology"
 * group[=].element[=].target.equivalence = #equal
-* group[=].element[+].code = #AF
-* group[=].element[=].display = "血液腫瘤科"
-* group[=].element[=].target.code = #23981000087108
-* group[=].element[=].target.display = "Pediatric hematology oncology specialty (qualifier value)"
-* group[=].element[=].target.equivalence = #equal
+//* group[=].element[+].code = #AF
+//* group[=].element[=].display = "血液腫瘤科"
+//* group[=].element[=].target.code = #23981000087108
+//* group[=].element[=].target.display = "Pediatric hematology oncology specialty"
+//* group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #AG
 * group[=].element[=].display = "內分泌科"
 * group[=].element[=].target.code = #394583002
@@ -167,12 +167,12 @@ Usage: #definition
 * group[=].element[+].code = #AH
 * group[=].element[=].display = "感染科"
 * group[=].element[=].target.code = #394807007
-* group[=].element[=].target.display = "Infectious diseases (specialty) (qualifier value)"
+* group[=].element[=].target.display = "Infectious diseases"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #AI
 * group[=].element[=].display = "潛醫科"
 * group[=].element[=].target.code = #410005002
-* group[=].element[=].target.display = "Dive medicine (qualifier value)"
+* group[=].element[=].target.display = "Dive medicine"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #AK
 * group[=].element[=].display = "老人醫學科"
@@ -192,12 +192,12 @@ Usage: #definition
 * group[=].element[+].code = #BC
 * group[=].element[=].display = "胸腔外科"
 * group[=].element[=].target.code = #408456005
-* group[=].element[=].target.display = "Thoracic surgery (qualifier value)"
+* group[=].element[=].target.display = "Thoracic surgery"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #BD
 * group[=].element[=].display = "消化外科"
 * group[=].element[=].target.code = #1284928005
-* group[=].element[=].target.display = "Gastrointestinal surgery (qualifier value)"
+* group[=].element[=].target.display = "Gastrointestinal surgery"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #CA
 * group[=].element[=].display = "小兒外科"
@@ -207,7 +207,7 @@ Usage: #definition
 * group[=].element[+].code = #CB
 * group[=].element[=].display = "新生兒科"
 * group[=].element[=].target.code = #408445005
-* group[=].element[=].target.display = "Neonatology (qualifier value)"
+* group[=].element[=].target.display = "Neonatology"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #DA
 * group[=].element[=].display = "疼痛科"

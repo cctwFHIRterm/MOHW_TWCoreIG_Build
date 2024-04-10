@@ -1,26 +1,10 @@
 {
   "package-id" : "tw.gov.mohw.twcore",
-  "version" : "0.2.0",
-  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.0",
+  "version" : "0.2.2",
+  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.1",
   "mode" : "milestone",
-  "status" : "trial-use",
+  "status" : "ci-build",
   "sequence" : "Releases",
-  "descmd" : "- 2024/4/8 (詳細說明請參照[應用說明](https://twcore.mohw.gov.tw/ig/twcore/0.2.0))：  
-  1.新增十二個Profile  
-  2.修改Resource Profile：TW Core Condition  
-  3.修改Resource Profile：TW Core DiagnosticReport  
-  4.修改Resource Profile：TW Core Encounter  
-  5.修改Resource Profile：TW Core MedicationRequest  
-  6.修改Resource Profile：TW Core Observation  
-  7.修改Resource Profile：TW Core Organization  
-  8.修改Resource Profile：TW Core Patient  
-  9.修改Resource Profile：TW Core Practitioner  
-  10.修改Resource Profile：TW Core Procedure  
-  11.新增值集(Value Sets)  
-  12.新增代碼系統(Code Systems)  
-  13.修改代碼系統(Code Systems)  
-  14.新增概念對應(ConceptMap)  
-  15.專門術語名稱調整  
-  16.頁面與其名稱調整",
-  "first" : false
+  "first" : false,
+  "ci-build" : " http://build.fhir.org/ig/TWCore/tw.gov.mohw.twcore",
 }

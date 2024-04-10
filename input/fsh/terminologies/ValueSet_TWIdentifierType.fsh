@@ -5,7 +5,7 @@ Title: "IdentifierType + 臺灣衛福部資訊處識別碼類型值集"
 Description: "IdentifierType + 臺灣衛福部資訊處識別碼類型值集"
 * ^experimental = false
 * ^date = "2022-07-31"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * include codes from system http://terminology.hl7.org/CodeSystem/v2-0203
 * $identifier-type#GOI "Government Organization Identifier"
 //* $identifier-type#HOI "Healthcare Organization Identifier"

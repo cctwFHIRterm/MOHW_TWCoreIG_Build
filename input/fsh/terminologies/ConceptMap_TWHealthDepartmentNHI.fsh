@@ -6,7 +6,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-05"
-* version = "0.2.0"
+* version = "0.2.2"
 * name = "TWHealthDepartmentNHI"
 * title = "臺灣健保署診療科別代碼對應SNOMED CT"
 * description = "此對應表為臺灣健保署診療科別代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
@@ -32,7 +32,7 @@ Usage: #definition
 * group[=].element[+].code = #4
 * group[=].element[=].display = "小兒科"
 * group[=].element[=].target.code = #24251000087109
-* group[=].element[=].target.display = "General pediatric specialty (qualifier value)"
+* group[=].element[=].target.display = "General pediatric specialty"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #5
 * group[=].element[=].display = "婦產科"
@@ -42,7 +42,7 @@ Usage: #definition
 * group[=].element[+].code = #6
 * group[=].element[=].display = "骨科"
 * group[=].element[=].target.code = #24241000087106
-* group[=].element[=].target.display = "General orthopedic specialty (qualifier value)"
+* group[=].element[=].target.display = "General orthopedic specialty"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #7
 * group[=].element[=].display = "神經外科"
@@ -92,32 +92,32 @@ Usage: #definition
 * group[=].element[+].code = #22
 * group[=].element[=].display = "急診醫學科"
 * group[=].element[=].target.code = #773568002
-* group[=].element[=].target.display = "Emergency medicine (qualifier value)"
+* group[=].element[=].target.display = "Emergency medicine"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #2B
 * group[=].element[=].display = "洗腎科"
 * group[=].element[=].target.code = #394589003
-* group[=].element[=].target.display = "Nephrology (qualifier value)"
+* group[=].element[=].target.display = "Nephrology"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #40
 * group[=].element[=].display = "牙科"
 * group[=].element[=].target.code = #722163006
-* group[=].element[=].target.display = "Dentistry (qualifier value)"
+* group[=].element[=].target.display = "Dentistry"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #42
 * group[=].element[=].display = "牙髓病科"
 * group[=].element[=].target.code = #408441001
-* group[=].element[=].target.display = "Endodontics - specialty (qualifier value)"
+* group[=].element[=].target.display = "Endodontics"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #43
 * group[=].element[=].display = "牙週病科"
 * group[=].element[=].target.code = #408461007
-* group[=].element[=].target.display = "Periodontics (qualifier value)"
+* group[=].element[=].target.display = "Periodontics"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #45
 * group[=].element[=].display = "齒顎矯正科"
 * group[=].element[=].target.code = #394608004
-* group[=].element[=].target.display = "Orthodontics (qualifier value)"
+* group[=].element[=].target.display = "Orthodontics"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #46
 * group[=].element[=].display = "兒童牙科"
@@ -127,7 +127,7 @@ Usage: #definition
 * group[=].element[+].code = #47
 * group[=].element[=].display = "口腔顎面外科"
 * group[=].element[=].target.code = #408465003
-* group[=].element[=].target.display = "Oral and maxillofacial surgery (qualifier value)"
+* group[=].element[=].target.display = "Oral and maxillofacial surgery"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #81
 * group[=].element[=].display = "麻醉科"
@@ -157,11 +157,11 @@ Usage: #definition
 * group[=].element[+].code = #87
 * group[=].element[=].display = "解剖病理科"
 * group[=].element[=].target.code = #1255732006
-* group[=].element[=].target.display = "Anatomic pathology (qualifier value)"
+* group[=].element[=].target.display = "Anatomic pathology"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #88
 * group[=].element[=].display = "臨床病理科"
 * group[=].element[=].target.code = #1255736009
-* group[=].element[=].target.display = "Clinical pathology (qualifier value)"
+* group[=].element[=].target.display = "Clinical pathology"
 * group[=].element[=].target.equivalence = #equal
 

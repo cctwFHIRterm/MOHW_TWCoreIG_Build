@@ -8,7 +8,7 @@ Description: "HL7 TimingAbbreviation + 臺灣衛福部統計處藥品使用頻�
 此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣健保署標準碼表述，請實作者留意。"
 * ^experimental = false
 * ^date = "2024-01-16"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * ^copyright = "衛生福利部統計處"
 * ^experimental = false
 * include codes from system http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation

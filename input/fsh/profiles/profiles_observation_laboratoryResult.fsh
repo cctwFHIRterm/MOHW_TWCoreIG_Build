@@ -5,14 +5,8 @@ Profile:        TWCoreObservationLaboratoryResult
 Parent:         Observation
 Id:             Observation-laboratoryResult-twcore
 Title:          "TW Core Observation Laboratory Result"
-Description:    "- 2024/4/8異動說明：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用
-    1. bodySite
-    2. method
-
-
-此臺灣核心-檢驗檢查（TW Core Observation Laboratory Result) Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現檢驗檢查資料。
-"
-* ^version = "0.2.0"
+Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory Result) Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現檢驗檢查資料。"
+* ^version = "0.2.2"
 //* status and category and category.coding and category.coding.code and category.coding.system and category.text and text MS
 * status and category MS
 * category ^slicing.discriminator.type = #pattern
@@ -159,9 +153,9 @@ Description:    "- 2024/4/8異動說明：以下欄位之值集綁定強度由ex
 * category[ObservationCategoryCodes].coding.system ^short = "專門術語系統（terminology system）的識別"
 * category[ObservationCategoryCodes].coding.system ^definition = "定義代碼中符號意義的代碼系統識別。"
 * category[ObservationCategoryCodes].coding.system ^requirements = "需要明確說明符號定義的來源"
-* category[ObservationCategoryCodes].coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* category[ObservationCategoryCodes].coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * category[ObservationCategoryCodes].coding.version ^short  = "系統的版本—如果相關的話"
-* category[ObservationCategoryCodes].coding.version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* category[ObservationCategoryCodes].coding.version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * category[ObservationCategoryCodes].coding.version ^comment  = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * category[ObservationCategoryCodes].coding.code ^short  = "系統定義的語法之符號"
 * category[ObservationCategoryCodes].coding.code ^definition  = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"
@@ -208,9 +202,9 @@ Description:    "- 2024/4/8異動說明：以下欄位之值集綁定強度由ex
 * code.coding[LOINCObservationCode].system ^short = "專門術語系統（terminology system）的識別"
 * code.coding[LOINCObservationCode].system ^definition = "定義代碼中符號意義的代碼系統識別。"
 * code.coding[LOINCObservationCode].system ^requirements = "需要明確說明符號定義的來源"
-* code.coding[LOINCObservationCode].system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* code.coding[LOINCObservationCode].system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * code.coding[LOINCObservationCode].version ^short  = "系統的版本—如果相關的話"
-* code.coding[LOINCObservationCode].version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* code.coding[LOINCObservationCode].version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * code.coding[LOINCObservationCode].version ^comment  = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * code.coding[LOINCObservationCode].code ^short  = "系統定義的語法之符號"
 * code.coding[LOINCObservationCode].code ^definition  = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"
@@ -235,9 +229,9 @@ Description:    "- 2024/4/8異動說明：以下欄位之值集綁定強度由ex
 * code.coding[TWLaboratoryCategory].system ^short = "專門術語系統（terminology system）的識別"
 * code.coding[TWLaboratoryCategory].system ^definition = "定義代碼中符號意義的代碼系統識別。"
 * code.coding[TWLaboratoryCategory].system ^requirements = "需要明確說明符號定義的來源"
-* code.coding[TWLaboratoryCategory].system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* code.coding[TWLaboratoryCategory].system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * code.coding[TWLaboratoryCategory].version ^short  = "系統的版本—如果相關的話"
-* code.coding[TWLaboratoryCategory].version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* code.coding[TWLaboratoryCategory].version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * code.coding[TWLaboratoryCategory].version ^comment  = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * code.coding[TWLaboratoryCategory].code ^short  = "系統定義的語法之符號"
 * code.coding[TWLaboratoryCategory].code ^definition  = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"

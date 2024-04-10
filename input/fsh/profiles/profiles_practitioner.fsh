@@ -2,16 +2,10 @@ Profile:        TWCorePractitioner
 Parent:         Practitioner
 Id:             Practitioner-twcore
 Title:          "TW Core Practitioner"
-Description:    "- 2024/4/8異動說明：
-                    1. qualification.code綁定新增的「ValueSet: SNOMED CT + 臺灣醫事司醫事人員類別值集」。
+Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。
 
-                    2. identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。
-
-
-此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。
-
-"
-* ^version = "0.2.0"
+此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * communication ^example.label = "Value"
@@ -204,9 +198,9 @@ Description:    "- 2024/4/8異動說明：
 * identifier[idCardNumber].type.coding.system ^short = "專門術語系統（terminology system）的識別"
 * identifier[idCardNumber].type.coding.system ^definition = "定義代碼中符號意義的代碼系統識別"
 * identifier[idCardNumber].type.coding.system ^requirements = "需要明確說明符號定義的來源"
-* identifier[idCardNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* identifier[idCardNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * identifier[idCardNumber].type.coding.version ^short = "系統的版本—如果相關的話"
-* identifier[idCardNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* identifier[idCardNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * identifier[idCardNumber].type.coding.version ^comment = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * identifier[idCardNumber].type.coding.code ^short = "系統定義的語法之符號"
 * identifier[idCardNumber].type.coding.code ^definition = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"
@@ -258,9 +252,9 @@ Description:    "- 2024/4/8異動說明：
 * identifier[passportNumber].type.coding.system ^short = "專門術語系統（terminology system）的識別"
 * identifier[passportNumber].type.coding.system ^definition = "定義代碼中符號意義的代碼系統識別"
 * identifier[passportNumber].type.coding.system ^requirements = "需要明確說明符號定義的來源"
-* identifier[passportNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* identifier[passportNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * identifier[passportNumber].type.coding.version ^short = "系統的版本—如果相關的話"
-* identifier[passportNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* identifier[passportNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * identifier[passportNumber].type.coding.version ^comment = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * identifier[passportNumber].type.coding.code ^short = "系統定義的語法之符號"
 * identifier[passportNumber].type.coding.code ^definition = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"
@@ -310,9 +304,9 @@ Description:    "- 2024/4/8異動說明：
 * identifier[residentNumber].type.coding.system ^short = "專門術語系統（terminology system）的識別"
 * identifier[residentNumber].type.coding.system ^definition = "定義代碼中符號意義的代碼系統識別"
 * identifier[residentNumber].type.coding.system ^requirements = "需要明確說明符號定義的來源"
-* identifier[residentNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* identifier[residentNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * identifier[residentNumber].type.coding.version ^short = "系統的版本—如果相關的話"
-* identifier[residentNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* identifier[residentNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * identifier[residentNumber].type.coding.version ^comment = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * identifier[residentNumber].type.coding.code ^short = "系統定義的語法之符號"
 * identifier[residentNumber].type.coding.code ^definition = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"

@@ -3,7 +3,7 @@ Id: tw-alley
 Title: "TW Alley"
 Description: "臺灣地址欄位-弄"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-alley"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

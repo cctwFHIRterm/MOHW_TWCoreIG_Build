@@ -61,7 +61,7 @@
         <td><strong>pat-1</strong></td>
         <td><a href="https://hl7.org/fhir/R4/conformance-rules.html#rule">Rule</a></td>
         <td>Patient.contact</td>
-        <td>必須(SHALL)至少包含聯絡的細節或參照至一個機構</td>
+        <td>必須（SHALL）至少包含聯絡的細節或參照至一個機構</td>
         <td>name.exists() or telecom.exists() or address.exists() or organization.exists()</td>
         </tr>
     </tbody>
@@ -376,7 +376,7 @@ POST [base]/Patient/$match
      [包括指定 content-type 為 XML 或 JSON 的一些表頭（headers）]
      [帶有內含 Patitne resoruce 的參數主體]
 ```
-當你使用 MPI 的 $match 功能來尋找病人時，它會回傳一系列的病人紀錄。這些紀錄會按照匹配的可能性高低來排序，從最可能的匹配到最不可能的匹配。如果沒有找到任何匹配的病人，MPI **必須(SHALL)** 回傳一個沒有任何記錄的空結果集，這時不會報錯，但它可能會附加一個提供額外建議的 [操作結果(operation outcome)](https://hl7.org/fhir/R4/operationoutcome.html)。每筆病人記錄都會被打上一個從 0 到 1 的分數，這裡的 1 代表最確定的匹配。此外，還會有一個名為 [「match-grade」](https://hl7.org/fhir/R4/extension-match-grade.html) 的 [擴充的資料項目(extension)](https://hl7.org/fhir/R4/extensibility.html)，用來表示 MPI 對這次匹配的品質。
+當你使用 MPI 的 $match 功能來尋找病人時，它會回傳一系列的病人紀錄。這些紀錄會按照匹配的可能性高低來排序，從最可能的匹配到最不可能的匹配。如果沒有找到任何匹配的病人，MPI **必須（SHALL）** 回傳一個沒有任何記錄的空結果集，這時不會報錯，但它可能會附加一個提供額外建議的 [操作結果(operation outcome)](https://hl7.org/fhir/R4/operationoutcome.html)。每筆病人記錄都會被打上一個從 0 到 1 的分數，這裡的 1 代表最確定的匹配。此外，還會有一個名為 [「match-grade」](https://hl7.org/fhir/R4/extension-match-grade.html) 的 [擴充的資料項目(extension)](https://hl7.org/fhir/R4/extensibility.html)，用來表示 MPI 對這次匹配的品質。
 
 ```xml
  <entry> 

@@ -2,31 +2,9 @@ Profile: TWCoreMedicationRequest
 Parent: MedicationRequest
 Id: MedicationRequest-twcore
 Title: "TW Core MedicationRequest"
-Description: "- 2024/4/8異動說明：
-    1. 值集綁定強度修改，以下欄位之值集綁定強度由example改為extensible，以利實務專案使用
+Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。"
 
-        1-1. performerType
-
-        1-2. reasonCode
-
-        1-3. dosageInstruction.additionalInstruction
-
-        1-4. dosageInstruction.asNeeded[x]
-
-        1-5. dosageInstruction.site
-
-        1-6. .dosageInstruction.method
-        
-    2. dosageInstruction.time.codeing欄位改綁定「ValueSet:HL7 TimingAbbreviation + 臺灣衛福部統計處藥品使用頻率值集」，以提高資料國際互通性。
-    3. dosageInstruction.route.codeing欄位改綁定「ValueSet:SNOMED CT + 臺灣衛福部統計處給藥途徑值集」，以提高資料國際互通性。
-
-
-
-此臺灣核心-藥品請求（TW Core MedicationRequest) Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。
-
-"
-
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and intent and category and subject and encounter and requester and dosageInstruction and dosageInstruction.text and dosageInstruction.route and medication[x] and dosageInstruction.timing and reasonReference and identifier and authoredOn and note and dispenseRequest and dispenseRequest.validityPeriod and dispenseRequest.numberOfRepeatsAllowed and dispenseRequest.expectedSupplyDuration MS

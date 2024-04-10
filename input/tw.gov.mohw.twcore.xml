@@ -2,7 +2,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="tw.gov.mohw.twcore"/>
 	<url value="https://twcore.mohw.gov.tw/ig/twcore/ImplementationGuide/tw.gov.mohw.twcore"/>
-	<version value="0.2.0"/>
+	<version value="0.2.2"/>
 	<name value="TWCore"/>
 	<title value="臺灣核心實作指引(TW Core IG)"/>
 	<status value="active"/>
@@ -1525,7 +1525,7 @@
 		</parameter>
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="Trial Use"/>
+			<value value="CI Build"/>
 		</parameter>
 		<parameter>
 			<code value="find-other-resources"/>

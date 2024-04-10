@@ -8,18 +8,9 @@ Profile:        TWCoreCondition
 Parent:         Condition
 Id:             Condition-twcore
 Title:          "TW Core Condition"
-Description:    "
-- 2024/4/8異動說明：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用 
-    1. severity
-    2. bodySite
-    3. stage.summary
-    4. stage.type
-    5. evidence.code
-
-
-此臺灣核心-病情、問題或診斷（TW Core Condition) Profile說明本IG如何進一步定義FHIR的Condition Resource以呈現有關病情、問題或診斷的詳細資料。
+Description:    "此臺灣核心-病情、問題或診斷（TW Core Condition) Profile說明本IG如何進一步定義FHIR的Condition Resource以呈現有關病情、問題或診斷的詳細資料。
 "
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * subject only Reference(TWCorePatient or Group)
 * encounter only Reference(TWCoreEncounter)
 * bodySite MS
@@ -41,7 +32,7 @@ Description:    "
 
 * clinicalStatus 1.. MS
 * verificationStatus MS
-* verificationStatus ^comment = "This element is labeled as a modifier because the status contains the code refuted and entered-in-error that mark the Condition as not currently valid."
+//* verificationStatus ^comment = "This element is labeled as a modifier because the status contains the code refuted and entered-in-error that mark the Condition as not currently valid."
 * category 1..1 MS
 //* category from $problem-type-uv-ips (extensible)
 * severity MS
@@ -118,16 +109,16 @@ Description:    "
 * identifier ^definition = "由執行者或其他系統指定給此病情、問題或診斷的業務用識別碼，即使此resource作更新及在伺服器之間的傳遞，此識別碼仍保持不變。"
 * identifier ^requirements = "允許識別各參與系統所知的此病情、問題或診斷資訊，並在各伺服器之間保持一致的方式。"
 * identifier ^comment = "這是一個業務識別碼，不是一個resource識別碼（詳見討論）。最好的做法是該識別碼只出現在單個resource實例上，但是業務實務有可能會規定可以在多個resource實例中具有相同識別碼—甚至可能具有不同的resource型例。例如：多個 「Patient（病人）」和 「Person（個人）」resource實例可能共用同一個社會保險號碼。"
-* clinicalStatus ^short = "active | recurrence | relapse | inactive | remission | resolved"
-* clinicalStatus ^binding.description = "病情、問題或診斷的臨床狀態；應填入所綁定值集中的其中一個代碼。"
+* clinicalStatus ^short = "active | recurrence | relapse | inactive | remission | resolved ，病情、問題或診斷的臨床狀態。"
+* clinicalStatus ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * clinicalStatus ^definition = "此病情、問題或診斷的臨床狀態"
 * clinicalStatus ^comment = "data type是CodeableConcept，因為clinicalStatus涉及到一些臨床判斷，例如：可能需要比所需的FHIR值集更多的特殊性。例如：SNOMED編碼可能允許更多的特殊性。"
-* verificationStatus ^short = "unconfirmed | provisional | differential | confirmed | refuted | entered-in-error"
-* verificationStatus ^binding.description = "支持或拒絕病情、問題或診斷的臨床狀態的驗證狀態；應填入所綁定值集中的其中一個代碼。"
+* verificationStatus ^short = "unconfirmed | provisional | differential | confirmed | refuted | entered-in-error ，支持或拒絕病情、問題或診斷的臨床狀態的驗證狀態。"
+* verificationStatus ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * verificationStatus ^definition = "支持此病情、問題或診斷的臨床狀態之驗證狀態"
 * verificationStatus ^comment = "verificationStatus不是必須的。例如：當病人在急診室出現腹痛時，不可能出現驗證狀態。資料類型是CodeableConcept，因為verificationStatus涉及到一些臨床判斷，因此可能需要比所需的FHIR值集更多的特殊性。例如：SNOMED編碼可能允許更多的特殊性。"
-* category ^short = "problem-list-item | encounter-diagnosis"
-* category ^binding.description = "指定病情、問題或診斷的類別；應填入所綁定值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。"
+* category ^short = "problem-list-item | encounter-diagnosis ，指定病情、問題或診斷的類別。"
+* category ^binding.description = "應填入所綁定值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。"
 * category ^definition = "指定此病情、問題或診斷的類別"
 * category ^comment = "這種分類往往具有很強的情境性，在其他情境下可能顯得區分度不高，或沒有什麼用處。"
 * severity ^short = "病情、問題或診斷的主觀嚴重程度"

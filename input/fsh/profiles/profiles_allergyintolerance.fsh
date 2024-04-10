@@ -3,7 +3,7 @@ Parent: AllergyIntolerance
 Id: AllergyIntolerance-twcore
 Title: "TW Core AllergyIntolerance"
 Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) Profile說明本IG如何進一步定義FHIR的AllergyIntolerance Resource以呈現過敏與不耐症的詳細資料。"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * clinicalStatus and verificationStatus and code and patient and reaction and reaction.manifestation and recordedDate and recorder and note MS
@@ -60,12 +60,12 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) P
 * identifier ^requirements = "允許各參與系統按照一致的方式，在不同伺服器之間確認並識別 AllergyIntolerance。"
 * identifier ^comment = "這是過敏或不耐症紀錄的業務識別碼，不是一個 resource 識別碼（請參見討論小節）。最好的做法是該識別碼只出現在單一個resource實例上，但是實務上有時會要求具有相同識別碼的多個resource實例共存，這些 resources 實例甚至可能屬於不同的resource類型。例如：多個 Patient及一個Person resource實例可能共用同一個社會保險碼(此處是指美國民眾會有唯一可識別的社會保險碼)。"
 
-* clinicalStatus ^short = "過過敏或不耐症的臨床狀態，active | inactive | resolved"
+* clinicalStatus ^short = "active | inactive | resolved ，過過敏或不耐症的臨床狀態。"
 * clinicalStatus ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * clinicalStatus ^definition = "過敏或不耐症的臨床狀態"
 * clinicalStatus ^comment = "如果 clincalStatus 缺少資料，請查閱討論小節。其資料類型是CodeableConcept，這是因為clinicalStatus涉及到一些臨床判斷，可能需要的具體性超過FHIR值集所要求的範圍。例如：SNOMED代碼可能提供額外的的具體性。"
 
-* verificationStatus ^short = "一個人對特定物質產生反應的可能性或風險有多確定的陳述。unconfirmed | confirmed | refuted | entered-in-error"
+* verificationStatus ^short = "unconfirmed | confirmed | refuted | entered-in-error ，一個人對特定物質產生反應的可能性或風險有多確定的陳述。"
 * verificationStatus ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * verificationStatus ^definition = "一個人對某已識別物質（包括醫藥產品）產生反應的可能性或風險有多確定的陳述"
 
@@ -153,8 +153,8 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) P
 * reaction.onset ^short = "症狀顯現的日期（/時間）"
 * reaction.onset ^definition = "記錄反應開始的日期和/或時間"
 
-* reaction.severity ^short = "mild | moderate | severe （整個事件的程度）"
-* reaction.severity  ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+* reaction.severity ^short = "mild | moderate | severe"
+* reaction.severity  ^binding.description = "整個事件的程度，應填入所綁定值集中的其中一個代碼。"
 * reaction.severity ^definition = "對整個反應事件的臨床評估，可能會考慮多個不同的表現，以確定反應的嚴重程度。"
 * reaction.severity ^comment = "這種評估是非常主觀的。可能有一些特定的實務領域已經應用了客觀的評分標準，客觀的評分標準可以作為擴充資料項目包含在這個模型中。"
 

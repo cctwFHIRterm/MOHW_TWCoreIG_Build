@@ -3,7 +3,7 @@ Parent: Composition
 Id: Composition-twcore
 Title: "TW Core Composition"
 Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile說明本IG如何進一步定義FHIR的Composition Resource以呈現臨床文件架構的詳細資料。"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and status and subject and attester and type and date and author and custodian and title and section and section.code and section.text and section.entry MS
@@ -47,10 +47,10 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * contained ^definition = "這些resource內嵌(contains)的resource不會另外存於任何FHIR伺服器，意即它們無法在任何FHIR伺服器中被找到，也無法有自己獨立的資料異動／交易(transaction)範圍。"
 * contained ^comment = "內嵌(contained)的resource沒有敘述，非內嵌(contained)的resource則 **建議應該(SHOULD)** 有敘述。在某些情況下，resource可能只有文字表述，很少或沒有額外的離散資料(只要滿足所有minOccurs=1的資料項目)。這對於來自舊有系統的資料可能是必要的，在這些系統中，從 「文字表述區塊(text blob) 」獲取訊息，或者文字表述是額外的原始輸入或敘述，而編碼訊息是後來添加的。"
 * extension ^short = "擴充的資料項目"
-* extension ^definition = "可用於表示不屬於此資料項目基本定義的附加資訊。為了擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。"
+* extension ^definition = "可用於表示不屬於此資料項目基本定義的附加資訊。為了擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。"
 * extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何污名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 * modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。  
+* modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。  
 修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
 * modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互操作性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
 * modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何污名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
@@ -116,7 +116,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * attester.extension ^definition = "擴充的資料項目"
 * attester.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 * attester.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* attester.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
+* attester.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
  修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
 * attester.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
 * attester.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
@@ -151,7 +151,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * relatesTo.extension ^definition = "擴充的資料項目"
 * relatesTo.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 * relatesTo.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* relatesTo.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
+* relatesTo.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
  修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
 * relatesTo.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
 * relatesTo.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
@@ -177,7 +177,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * event.extension ^definition = "擴充的資料項目"
 * event.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 * event.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* event.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
+* event.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
  修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
 * event.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
 * event.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
@@ -205,7 +205,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * section.extension ^definition = "擴充的資料項目"
 * section.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 * section.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* section.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須(SHALL)** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
+* section.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
  修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
 * section.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
 * section.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
@@ -226,7 +226,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * section.author ^requirements = "指明誰對內容負責"
 
 * section.focus ^short = "當小節與composition描述的對象無關時，此小節是關於誰/什麼。"
-* section.focus ^definition = "當小節的實際焦點不是composition描述的對象，而是代表與對象相關的某事物或某人時，例如：（對於病人對象）配偶、父母、胎兒或捐贈者。如果沒有指定焦點，則假定焦點為父小節的焦點，或者對於Composition本身中的小節，為Composition的對象。具有焦點的小節只 **必須(SHALL)** 包含對象（病人、對象、焦點等）與小節焦點相匹配的resources，或者是沒有對象的resources（少數resources）。"
+* section.focus ^definition = "當小節的實際焦點不是composition描述的對象，而是代表與對象相關的某事物或某人時，例如：（對於病人對象）配偶、父母、胎兒或捐贈者。如果沒有指定焦點，則假定焦點為父小節的焦點，或者對於Composition本身中的小節，為Composition的對象。具有焦點的小節只 **必須（SHALL）** 包含對象（病人、對象、焦點等）與小節焦點相匹配的resources，或者是沒有對象的resources（少數resources）。"
 * section.focus ^comment = "通常，文件中的小節是關於該文件的描述對象，無論是病人、一群病人、位置、設備或其他。對於某些種類的文件，有些小節實際上包含有關的實體資料。典型的例子包括新生兒出院病摘中關於母親的小節，或者家族病史文件中關於每個家庭成員的小節，當然還有很多其他例子。"
 
 * section.text ^short = "將文件中特定小節的內容簡化成容易理解的文字形式，便於人類閱讀和解釋。"

@@ -2,11 +2,8 @@ Profile:        TWCoreEncounter
 Parent:         Encounter
 Id:             Encounter-twcore
 Title:          "TW Core Encounter"
-Description:    "- 2024/4/8異動說明：serviceType欄位之改綁定「ValueSet:SNOMED CT + 臺灣健保署 + 衛福部統計處診療科別值集」，以提高資料國際互通性及實務專案使用。
-
-
-此臺灣核心-就醫事件（TW Core Encounter) Profile說明本IG如何進一步定義FHIR的Encounter Resource以呈現就醫事件。"
-* ^version = "0.2.0"
+Description:    "此臺灣核心-就醫事件（TW Core Encounter) Profile說明本IG如何進一步定義FHIR的Encounter Resource以呈現就醫事件。"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and identifier.system and identifier.value and period and reasonCode MS

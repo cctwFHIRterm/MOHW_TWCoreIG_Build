@@ -80,7 +80,7 @@
 
 在這些例子中，雖然文件主要對象是一位病人，但一些細節實際上與其他人或實體有關。當出現這種情況時，這些其他相關的人員或實體會在 <code>Composition.section.focus</code>資料項目中被具體說明。如果沒有明確指出<code>focus</code>，那麼預設Composition的主要<code>suject</code>即是<code>focus</code>。
 
-如果明確指定了<code>focus</code>，那麼與該小節相關的resources **必須(SHALL)** 當遵守以下其中一項條件：
+如果明確指定了<code>focus</code>，那麼與該小節相關的resources **必須（SHALL）** 當遵守以下其中一項條件：
 
 * 它們應該明確表示其<code>subject</code>（不管是以病人或其他名稱標示）或如果有<code>focus</code>資料項目，則該資料項目應該是所指的focus。此外，這些resources不應該包含subject資料項目。
 * 有些Composition實際上涉及多個對象—即不同小節關於不同的對象。在這種情況下，<code>Composition.subject</code>應該省略，並且在每個小節中使用[section-subject](https://hl7.org/fhir/R4/extension-composition-section-subject.html)這個擴充資料項目來指示相應的對象。

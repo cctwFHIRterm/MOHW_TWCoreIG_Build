@@ -3,7 +3,7 @@ Parent:  MedicationStatement
 Id:  MedicationStatement-twcore
 Title: "TW Core  MedicationStatement"
 Description: "此臺灣核心-用藥聲明（TW Core  MedicationStatement) Profile說明本IG如何進一步定義FHIR的MedicationStatement Resource以呈現用藥聲明的詳細資料。"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and context and status and category and medication[x] and subject and effective[x] and dosage and dosage.text and dosage.timing and dosage.sequence and dosage.patientInstruction and dosage.route and dosage.doseAndRate.dose[x] and dosage.doseAndRate.rate[x] MS 

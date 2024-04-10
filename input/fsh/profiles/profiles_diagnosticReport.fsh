@@ -2,13 +2,8 @@ Profile: TWCoreDiagnosticReport
 Parent: DiagnosticReport
 Id: DiagnosticReport-twcore
 Title: "TW Core DiagnosticReport"
-Description: "- 2024/4/8異動說明：conclusionCode欄位之值集綁定強度由example改為extensible，以利實務專案使用。
-
-
-此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile說明本IG如何進一步定義FHIR的DiagnosticReport Resource以呈現診斷報告。
-
-"
-* ^version = "0.2.0"
+Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile說明本IG如何進一步定義FHIR的DiagnosticReport Resource以呈現診斷報告。"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and category and code and subject and effective[x] and issued MS
@@ -108,7 +103,7 @@ Description: "- 2024/4/8異動說明：conclusionCode欄位之值集綁定強度
 * code ^definition = "描述該診斷報告的代碼或名稱"
 * subject ^short = "報告的對象—通常但不總是病人"
 * subject ^definition = "報告的對象體，通常但不總是病人。然而，診斷服務也對從其他各種來源收集的檢體進行分析。"
-* subject ^requirements = " **必須(SHALL)** 知道對象的背景"
+* subject ^requirements = " **必須（SHALL）** 知道對象的背景"
 * encounter ^short = "請求檢驗時的健康照護事件"
 * encounter ^definition = "此DiagnosticReport所涉及的健康照護事件（例如：病人和健康照護服務提供者的互動）。"
 * encounter ^requirements = "將此服務請求連接就醫（Encounter）情境"

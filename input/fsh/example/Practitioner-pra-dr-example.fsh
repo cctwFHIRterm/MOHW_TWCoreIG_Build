@@ -30,7 +30,8 @@ Usage: #example
 * address.postalCode.extension.valueCodeableConcept.coding.code = #330
 * photo.contentType = #image/png
 * photo.data = "TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCBieSB0aGlzIHNpbmd1bGFyIHBhc3Npb24gZnJvbSBvdGhlciBhbmltYWxzLCB3aGljaCBpcyBhIGx1c3Qgb2YgdGhlIG1pbmQsIHRoYXQgYnkgYSBwZXJzZXZlcmFuY2Ugb2YgZGVsaWdodCBpbiB0aGUgY29udGludWVkIGFuZCBpbmRlZmF0aWdhYmxlIGdlbmVyYXRpb24gb2Yga25vd2xlZGdlLCBleGNlZWRzIHRoZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4="
-* photo.url = "https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png"
+//* photo.url = "https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png"
+* photo.url = "doctor.png"
 * qualification.code = http://snomed.info/sct#394802001 "General medicine"
 * qualification.period.start = "2005-05-25"
 * text.status = #generated
@@ -74,7 +75,7 @@ Usage: #example
      <b>資格證書的開始日期</b>：2005-05-25
   </p>
   <p>
-    <b>照護服務提供人員影像</b>： <a href=\"https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png\">https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png</a>
+    <b>照護服務提供人員影像</b>： <a href=\"https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png\">doctor.png</a>
     <br />
     <img src=\"https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png\" width=\"250px\" />
   </p>

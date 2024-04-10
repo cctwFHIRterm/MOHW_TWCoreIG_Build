@@ -3,7 +3,7 @@ Id: tw-village
 Title: "TW Village"
 Description: "臺灣地址欄位-村(里)"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-village"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

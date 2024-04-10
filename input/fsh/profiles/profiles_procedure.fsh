@@ -4,22 +4,10 @@ Profile:        TWCoreProcedure
 Parent:         Procedure
 Id:             Procedure-twcore
 Title:          "TW Core Procedure"
-Description:    "- 2024/4/8異動說明：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用 
-    1. statusReason
-    2. category
-    3. performer.function
-    4. reasonCode
-    5. bodySite
-    6. outcome
-    7. complication
-    8. followUp
-    9. usedCode
-
-
-此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
+Description:    "此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
 
 "
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and subject and performed[x] and asserter and  bodySite MS

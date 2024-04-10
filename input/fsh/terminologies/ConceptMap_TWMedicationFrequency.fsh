@@ -6,7 +6,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-16"
-* version = "0.2.0"
+* version = "0.2.2"
 * name = "TWHealthProfessional"
 * title = "臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
 * description = "此對應表為臺灣衛福部統計處藥品使用頻率代碼對應至國際標準碼HL7 TimingAbbreviation，供實作者於撰寫程式以自動化對應或轉代碼時使用。"

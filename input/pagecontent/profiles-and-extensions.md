@@ -7,7 +7,7 @@
 #### Bundle
 - [臺灣核心-資料交換基本單位（TW Core Bundle）](StructureDefinition-Bundle-twcore.html) 
   - [臺灣核心-資料交換基本單位-文件 （TW Core Bundle Document）](StructureDefinition-Bundle-document-twcore.html) 
-  - [臺灣核心-資料交換基本單位-訊息-表頭 （TW Core Bundle Message）](StructureDefinition-Bundle-message-twcore.html) 
+  - [臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message）](StructureDefinition-Bundle-message-twcore.html) 
 
 #### Composition
 - [臺灣核心-臨床文件架構（TW Core Composition）](StructureDefinition-Composition-twcore.html) 

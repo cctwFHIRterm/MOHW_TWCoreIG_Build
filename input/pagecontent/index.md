@@ -1,129 +1,3 @@
-<div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
-因考量實作需求，於2024/4/8異動以下內容：
-    <ol>
-        <li>新增十二個Profiles:
-            <ol>
-                <li><a href="StructureDefinition-AllergyIntolerance-twcore.html">臺灣核心-過敏或不耐症（TW Core AllergyIntolerance）</a></li>
-                <li><a href="StructureDefinition-Bundle-twcore.html">臺灣核心-資料交換基本單位（TW Core Bundle）</a>
-                    <ol>
-                        <li><a href="StructureDefinition-Bundle-document-twcore.html">臺灣核心-資料交換基本單位-文件 （TW Core Bundle Document）</a></li>
-                        <li><a href="StructureDefinition-Bundle-message-twcore.html">臺灣核心-資料交換基本單位訊息（W Core Bundle Message）</a></li>
-                    </ol>
-                </li>
-                <li><a href="StructureDefinition-Composition-twcore.html">臺灣核心-臨床文件架構（TW Core Composition）</a></li>
-                <li><a href="StructureDefinition-ImagingStudy-twcore.html">臺灣核心-影像檢查（TW Core ImagingStudy）</a></li>
-                <li><a href="StructureDefinition-DocumentReference-twcore.html">臺灣核心-文件參照（TW Core DocumentReference）</a></li>
-                <li><a href="StructureDefinition-Location-twcore.html">臺灣核心-地點（TW Core Location）</a></li>
-                <li><a href="StructureDefinition-Media-twcore.html">臺灣核心-多媒體（TW Core Media）</a></li>
-                <li><a href="StructureDefinition-MedicationDispense-twcore.html">臺灣核心-配藥或藥品調劑（TW Core MedicationDispense）</a></li>        
-                <li><a href="StructureDefinition-MedicationStatement-twcore.html">臺灣核心-用藥聲明（TW Core MedicationStatement）</a></li>
-				<li><a href="StructureDefinition-MessageHeader-twcore.html">臺灣核心-訊息表頭（TW Core MessageHeader）</a></li>
-                <li><a href="StructureDefinition-Specimen-twcore.html">臺灣核心-檢體（TW Core Specimen）</a></li>
-                <li><a href="StructureDefinition-PractitionerRole-twcore.html">臺灣核心-健康照護服務提供者角色（TW Core PractitionerRole）</a></li>
-            </ol>
-        </li>
-		<li>修改<a href="StructureDefinition-Condition-twcore.html">Resource Profile: 臺灣核心-病情、問題或診斷（TW Core Condition）</a>：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用：
-                    <ol>
-                        <li>Condition.severity</li>
-                        <li>Condition.bodySite</li>
-                        <li>Condition.stage.summary</li>
-                        <li>Condition.stage.type</li>
-                        <li>Condition.evidence.code</li>
-                    </ol>
-        </li>
-        <li>修改<a href="StructureDefinition-DiagnosticReport-twcore.html">Resource Profile: 臺灣核心-診斷報告（TW Core DiagnosticReport）</a>：conclusionCode欄位之值集綁定強度由example改為extensible，以利實務專案使用。
-        </li>
-		<li>修改<a href="StructureDefinition-Encounter-twcore.html">Resource Profile: 臺灣核心-就醫事件（TW Core Encounter）</a>：serviceType欄位之改綁定「<a href="ValueSet-health-department-sct-tw.html">ValueSet:SNOMED CT + 臺灣健保署 + 衛福部統計處診療科別值集</a>」，以提高資料國際互通性及實務專案使用。
-        </li>
-        <li>修改<a href="StructureDefinition-MedicationRequest-twcore.html">Resource Profile: 臺灣核心-藥品請求（TW Core MedicationRequest）</a>：
-            <ol>
-                <li>以下欄位之值集綁定強度由example改為extensible，以利實務專案使用：
-                    <ol>
-                        <li>MedicationRequest.performerType</li>
-                        <li>MedicationRequest.reasonCode</li>
-                        <li>MedicationRequest.dosageInstruction.additionalInstruction</li>
-                        <li>MedicationRequest.dosageInstruction.asNeeded[x]</li>
-                        <li>MedicationRequest.dosageInstruction.site</li>
-                        <li>MedicationRequest.dosageInstruction.method</li>
-                    </ol>
-                </li>
-                <li>MedicationRequest.dosageInstruction.time.codeing欄位改綁定「<a href="ValueSet-medication-frequency-hl7-tw.html">ValueSet:HL7 TimingAbbreviation + 臺灣衛福部統計處藥品使用頻率值集」</a>，以提高資料國際互通性及實務專案使用。</li>
-                <li>MedicationRequest.dosageInstruction.route.codeing欄位改綁定「<a href="ValueSet-medication-path-sct-tw.html">ValueSet:SNOMED CT + 臺灣衛福部統計處給藥途徑值集</a>」，以提高資料國際互通性及實務專案使用。</li>
-            </ol>
-        </li>
-		<li>修改<a href="StructureDefinition-Observation-laboratoryResult-twcore.html">Resource Profile: 臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）</a>：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用：
-                    <ol>
-                        <li>Observation.bodySite</li>
-                        <li>Observation.method</li>
-                    </ol>
-        </li>
-		<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：identifier.type欄位之值集綁定強度由required改為extensible，以利實務專案使用。
-		</li>
-		<li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient）</a>：identifier.type欄位之值集綁定強度由required改為extensible，以利實務專案使用。
-		 </li>
-		<li>修改<a href="StructureDefinition-Practitioner-twcore.html">Resource Profile: 臺灣核心-健康照護服務提供者（TW Core Practitioner）</a>：
-			<ol>
-				<li>qualification.code綁定新增的「<a href="StructureDefinition-Practitioner-twcore.html">ValueSet: SNOMED CT + 臺灣醫事司醫事人員類別值集</a>」</li>
-				<li>identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。</li>
-			</ol>
-        </li>
-        <li>修改<a href="StructureDefinition-Procedure-twcore.html">Resource Profile: 臺灣核心-處置或手術（TW Core Procedure）</a>：以下欄位之值集綁定強度由example改為extensible，以利實務專案使用：
-                    <ol>
-                        <li>Procedure.statusReason</li>
-                        <li>Procedure.category</li>
-                        <li>Procedure.performer.function</li>
-                        <li>Procedure.reasonCode</li>
-                        <li>Procedure.bodySite</li>
-                        <li>Procedure.outcome</li>
-                        <li>Procedure.complication</li>
-                        <li>Procedure.followUp</li>
-                        <li>Procedure.usedCode</li>
-                    </ol>
-        </li>
-		<li>新增值集（ValueSets）:
-        <ol>
-            <li><a href="ValueSet-health-department-nhi-tw.html">臺灣健保署診療科別值集</a></li>
-            <li><a href="ValueSet-health-department-sta-tw.html">臺灣衛福部統計處診療科別值集</a></li>
-            <li><a href="ValueSet-health-department-sct-tw.html">SNOMED CT + 臺灣健保署 + 衛福部統計處診療科別值集</a></li>
-            <li><a href="ValueSet-medication-path-sct-tw.html">SNOMED CT + 臺灣衛福部統計處給藥途徑值集</a></li>
-            <li><a href="ValueSet-medication-frequency-hl7-tw.html">HL7 TimingAbbreviation + 臺灣衛福部統計處藥品使用頻率值集</a></li>
-            <li><a href="ValueSet-health-professional-sct-tw.html">SNOMED CT + 臺灣醫事司醫事人員類別值集</a></li>
-        </ol>
-		</li>
-        <li>新增代碼系統（CodeSystems）:
-        <ol>
-            <li><a href="CodeSystem-health-department-nhi-tw.html">臺灣健保署診療科別</a></li>
-            <li><a href="CodeSystem-health-department-sta-tw.html">臺灣衛生福利部統計處診療科別</a></li>
-        </ol>
-		</li>
-		<li>修改代碼系統（CodeSystems）:
-        <ol>
-		    <li><a href="terminologies.html">所有代碼系統皆新增兩個Properties:將所有的代碼系統皆加上Property</a> - 異動日期（updateDate）、異動方式（event）。</li>
-            <li><a href="CodeSystem-postal-code3-tw.html">臺灣中華郵政3碼郵遞區號代碼系統</a>：2023.12.28的新版3碼郵遞區號代碼中有修改部分代碼。</li>
-            <li><a href="CodeSystem-postal-code6-tw.html">臺灣中華郵政6碼郵遞區號代碼系統</a>：2023.12.28的新版6碼郵遞區號代碼中有新增、刪除、修改部分代碼。</li>
-        </ol>
-		</li>
-        <li>新增概念對應（ConceptMaps）:
-        <ol>
-            <li><a href="ConceptMap-health-department-nhi-tw.html">臺灣健保署診療科別代碼對應SNOMED CT</a></li>
-            <li><a href="ConceptMap-health-department-sta-tw.html">臺灣衛生福利部統計處診療科別代碼對應SNOMED CT</a></li>
-            <li><a href="ConceptMap-medication-path-tw.html">臺灣衛福部統計處給藥途徑代碼對應SNOMED CT</a></li>
-            <li><a href="ConceptMap-medication-frequency-tw.html">臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation</a></li>
-            <li><a href="ConceptMap-health-professional-tw.html">臺灣醫事司醫事人員類別代碼對應SNOMED CT</a></li>
-        </ol>
-		</li>
-		<li><a href="terminologies.html">專門術語</a>名稱調整:將所有的專門術語之名稱加上代碼來源，如：ValueSet: 臺灣醫事機構代碼值集 ->  ValueSet: 臺灣健保署醫事機構代碼值集。</li>
-		<li>頁面與其名稱調整:
-		<ol>
-            <li>首頁 －> 應用說明</li>
-            <li>文件索引 －> 規範文件</li>
-        </ol>
-		</li>
-    </ol>
-    請留意這些異動，以避免影響您的實作。
-</div>
-
-
 ### 介紹
 
 <div style="padding-left: 10px;">
@@ -448,7 +322,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
+      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1</td>
 			<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
 			（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
@@ -462,7 +336,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-    		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
+    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -482,7 +356,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-     		 <td style="vertical-align: middle;">v0.2.0</td>
+     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>

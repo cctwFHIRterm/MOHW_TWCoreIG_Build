@@ -1,5 +1,4 @@
 Alias: $medicationdispense-category = http://hl7.org/fhir/R4/codesystem-medicationdispense-category.html
-
 Instance: med-dis-ref-example
 InstanceOf: TWCoreMedicationDispense
 Usage: #example

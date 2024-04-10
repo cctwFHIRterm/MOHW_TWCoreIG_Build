@@ -2,7 +2,7 @@ Logical: TWDocumentReferenceModel
 Id: TWDocumentReference
 Title: "臺灣核心-文件參照(TW Core DocumentReference) 之資料模型"
 Description: "臺灣核心-文件參照(TW Core DocumentReference) 之資料模型"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 /* author 0..* BackboneElement "誰以及/或什麼創建了文件。" "誰以及/或什麼創建了文件。"
 * author.practitioner 0..*  Practitioner "某健康照護服務提供者創建這個文件。" "某健康照護服務提供者創建這個臨床文件。"
 * author.practitionerRole 0..*  PractitionerRole "某健康照護服務角色創建這個文件。" "健康照護服務角色創建這個文件。"

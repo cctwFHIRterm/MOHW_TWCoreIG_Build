@@ -3,7 +3,7 @@ Parent:         http://hl7.org/fhir/StructureDefinition/vitalsigns
 Id:             Observation-vitalSigns-twcore
 Title:          "TW Core Observation Vital Signs"
 Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs) Profile說明本IG如何進一步定義FHIR的Vital Signs Profile以呈現生命體徵資料。"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * status MS
 * category ..* MS
 * category only CodeableConceptTW
@@ -154,9 +154,9 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs)
 * category[VSCat].coding.system ^short = "專門術語系統（terminology system）的識別"
 * category[VSCat].coding.system ^definition = "定義代碼中符號意義的代碼系統識別。"
 * category[VSCat].coding.system ^requirements = "需要明確說明符號定義的來源"
-* category[VSCat].coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須(SHALL)** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* category[VSCat].coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
 * category[VSCat].coding.version ^short  = "系統的版本—如果相關的話"
-* category[VSCat].coding.version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須(SHALL)** 將版本資訊也一併作交換。"
+* category[VSCat].coding.version ^definition  = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
 * category[VSCat].coding.version ^comment  = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
 * category[VSCat].coding.code ^short  = "系統定義的語法之符號"
 * category[VSCat].coding.code ^definition  = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"

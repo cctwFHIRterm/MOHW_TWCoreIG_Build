@@ -3,7 +3,7 @@ Parent: Bundle
 Id: Bundle-twcore
 Title: "TW Core Bundle"
 Description: "此臺灣核心-資料交換基本單位（TW Core Bundle） Profile說明本IG如何進一步定義FHIR的Bundle Resource以呈現資料交換基本單位的詳細資料。"
-* ^version = "0.2.0"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and timestamp MS 
@@ -25,7 +25,7 @@ Description: "此臺灣核心-資料交換基本單位（TW Core Bundle） Profi
 
 * identifier ^short = "一組Resources的資料交換基本單位（Bundle）的識別碼。"
 * identifier ^definition = "Bundle的永久識別碼，識別碼不會因為Bundle從一個伺服器複製到另一個伺服器而改變。。"
-* identifier ^comment = "永久的識別通常只對Document、Message和Collection的批次處理是重要。它通常不會被填入到searh和history的結果中，伺服器在處理batches和transactions時會忽略Bundle.identifier。但對於Documents的identifier **必須(SHALL)** 被填入，其為全球唯一的識別碼。"
+* identifier ^comment = "永久的識別通常只對Document、Message和Collection的批次處理是重要。它通常不會被填入到searh和history的結果中，伺服器在處理batches和transactions時會忽略Bundle.identifier。但對於Documents的identifier **必須（SHALL）** 被填入，其為全球唯一的識別碼。"
 
 * type ^short = "document | message | transaction | transaction-response | batch | batch-response | history | searchset | collection"
 * type ^binding.description = "Bundle類型；應填入所綁定值集中的其中一個代碼。"
@@ -70,8 +70,8 @@ transaction | transaction-response | batch | batch-response | collection : 沒�
 * link.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名（stigma）。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 */
 
-* link.relation ^short = "參見 [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1]（http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1）"
-* link.relation ^definition = "詳細說明該連結功能用途的名稱 - 參見 [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1]（http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1）"
+* link.relation ^short = "參見 [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1)"
+* link.relation ^definition = "詳細說明該連結功能用途的名稱 - 參見[http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1)"
 
 * link.url ^short = "連結的參照細節"
 * link.url ^definition = "連結的參照細節"
@@ -101,7 +101,7 @@ transaction | transaction-response | batch | batch-response | collection : 沒�
 在 POST 時，fullUrl 可以為空（雖然在 bundle 中包含暫時 id 時，fullUrl 不需要為空）
 操作結果可能涉及未被識別的resources。"
 
-* entry.fullUrl ^comment = "fullUrl 在resource上下文中可能不是唯一的。請注意：由於 FHIR resource不需要透過 FHIR API 提供服務，因此 fullURL 可能是一個 URN 或絕對 URL，而不是以resource的邏輯 id（Resource.id）結尾。但是，如果 fullUrl 看起來確實像 RESTful 伺服器 URL（例如：符合正則表達式regex，則 fullUrl 的 「id」部分 **必須(SHALL)** 以 Resource.id 結尾。
+* entry.fullUrl ^comment = "fullUrl 在resource上下文中可能不是唯一的。請注意：由於 FHIR resource不需要透過 FHIR API 提供服務，因此 fullURL 可能是一個 URN 或絕對 URL，而不是以resource的邏輯 id（Resource.id）結尾。但是，如果 fullUrl 看起來確實像 RESTful 伺服器 URL（例如：符合正則表達式regex，則 fullUrl 的 「id」部分 **必須（SHALL）** 以 Resource.id 結尾。
 
 請注意：fullUrl 與 canonical URL（正準URL） 並不相同，fullUrl是為resource提供服務的端點的絕對 URL（這些在為 resource 帶有 canonical URL 的 Canonical 伺服器上將具有相同的值）。"
 
@@ -188,7 +188,7 @@ transaction | transaction-response | batch | batch-response | collection : 沒�
 */
 
 * entry.response.status ^short = "狀態回應代碼（文字選填）"
-* entry.response.status ^definition = "處理此條目時返回的狀態編碼。狀態 **必須(SHALL)** 以三位 HTTP 編碼（如 404）開頭，並可包含與狀態編碼相關的標準 HTTP 描述。"
+* entry.response.status ^definition = "處理此條目時返回的狀態編碼。狀態 **必須（SHALL）** 以三位 HTTP 編碼（如 404）開頭，並可包含與狀態編碼相關的標準 HTTP 描述。"
 
 * entry.response.location ^short = "位置（如果操作返回位置）"
 * entry.response.location ^definition = "處理該操作時創建的位置表頭（location header），如果該操作返回位置，則填入該位地置表頭。"
