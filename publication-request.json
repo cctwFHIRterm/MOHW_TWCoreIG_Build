@@ -6,5 +6,5 @@
   "status" : "ci-build",
   "sequence" : "Releases",
   "first" : false,
-  "ci-build" : " http://build.fhir.org/ig/TWCore/tw.gov.mohw.twcore",
+  "ci-build" : "http://build.fhir.org/ig/TWCore/tw.gov.mohw.twcore",
 }
