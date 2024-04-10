@@ -24,7 +24,7 @@
 <p>TW Core IG 中所有Profiles的FMM等級如下：
 
 
-<li>0.1.1版之10個 Profiles 屬 FMM 2：Condition、DiagnosticReport、Encounter、Medication、MedicationRequest、Observation、Organization、Patient、Practitioner、Procedure。</li>
+<li>0.1.0版之10個 Profiles 屬 FMM 2：Condition、DiagnosticReport、Encounter、Medication、MedicationRequest、Observation、Organization、Patient、Practitioner、Procedure。</li>
 
 <li>0.2.0版 新增之12個 Profiles 屬 FMM 1：AllergyIntolerance、Bundle、Composition、ImagingStudy、DocumentReference、Location、Media、MedicationDispense、MedicationStatement、MessageHeader、Specimen、PractitionerRole。</li>
 </p>
@@ -308,187 +308,185 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 ### 作者與貢獻者
 
 <div  style="padding-left: 10px;">
-<table class="grid rwd-table">
-	<thead>
-		<tr class="header">
-			<th style="width:10%; vertical-align: middle;">角色</th>
-      <th style="width:10%; vertical-align: middle;">貢獻版次</th>
-			<th style="width:25%; vertical-align: middle;">機構名稱</th>
-			<th style="width:15%; vertical-align: middle;">姓名</th>
-			<th style="width:30%; vertical-align: middle;">所屬單位</th>
-			<th style="vertical-align: middle;">聯絡方式</th>
-		</tr>
-	</thead>
-	<tbody>
-			<tr>
-			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1</td>
-			<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
-			（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
-			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
-			<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
-			（Department of Health Care Management, National Taipei University of Nursing and Health Sciences）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:cclhlee@gmail.com">cclhlee@gmail.com</a>
-				<br />
-				<a href="mailto:cclhlee@ntunhs.edu.tw">cclhlee@ntunhs.edu.tw</a>
-			</td>
+	<table class="grid rwd-table">
+		<thead>
+			<tr class="header">
+				<th style="width:10%; vertical-align: middle;">角色</th>
+				<th style="width:10%; vertical-align: middle;">貢獻版次</th>
+				<th style="width:25%; vertical-align: middle;">機構名稱</th>
+				<th style="width:15%; vertical-align: middle;">姓名</th>
+				<th style="width:30%; vertical-align: middle;">所屬單位</th>
+				<th style="vertical-align: middle;">聯絡方式</th>
 			</tr>
-			<tr>
-			<td style="vertical-align: middle;">作者</td>
-    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1</td>
-			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
-				<br />
-				<a href="mailto:102116007@ntunhs.edu.tw">102116007@ntunhs.edu.tw</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
-			<td style="vertical-align: middle;">林伃瑤（Yu-Yao Lin）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:yujia151645@gmail.com">a28485251@gmail.com</a>
-				<br />
-				<a href="mailto:082114224@ntunhs.edu.tw">082114224@ntunhs.edu.tw</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">作者</td>
-     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1</td>
-			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>
-				<br />
-				<a href="mailto:072114216@ntunhs.edu.tw">072114216@ntunhs.edu.tw</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">歐陽渝（Yang-Yu Ou）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:ouyangyu0326@gmail.com">ouyangyu0326@gmail.com</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
-			<td style="vertical-align: middle;">連中岳（Chung-Yueh Lien）</td>
-			<td rowspan="9" style="vertical-align: middle;">國立臺北護理健康大學－資訊管理系<br />
-			（Department of Information Management, National Taipei University of Nursing and Health Sciences）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:chungyueh@ntunhs.edu.tw">chungyueh@ntunhs.edu.tw</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">徐建業（Chien-Yeh Hsu）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:cyhsu@ntunhs.edu.tw">cyhsu@ntunhs.edu.tw</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">陳欣怡（Hsin-Yi Chen）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:c86976@gmail.com">c86976@gmail.com</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">郭俐君（Li-Chun Kuo）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:lily220487@gmail.com">lily220487@gmail.com</a>
-			</td>
-			</tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">丁子芸（Tzu-Yun Ting）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:aewqoo832456@gmail.com">aewqoo832456@gmail.com</a>
-			</td>
-			</tr>
-   			 <tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
-			<td style="vertical-align: middle;">陳杏宜（Hsin-Yi Chen）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:aewqoo832456@gmail.com">bii901231@gmail.com</a>
-			</td>
-			</tr>
-    		<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
-			<td style="vertical-align: middle;">蔡姍紜（Shan-Yun Tsai）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:aewqoo832456@gmail.com">appletsai319@gmail.com</a>
-			</td>
-			</tr>
-			<tr>
-				<td style="vertical-align: middle;">貢獻者</td>
-		  	<td style="vertical-align: middle;">v0.2.0</td>
-				<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
+		</thead>
+		<tbody>
+				<tr>
+				<td style="vertical-align: middle;">作者</td>
+				<td style="vertical-align: middle;">v0.1.0、v0.1.1、v0.2.0、v0.2.1</td>
+				<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
+				（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
+				<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
+				<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
+				（Department of Health Care Management, National Taipei University of Nursing and Health Sciences）</td>
 				<td style="vertical-align: middle;">
-					<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
+					<a href="mailto:cclhlee@gmail.com">cclhlee@gmail.com</a>
+					<br />
+					<a href="mailto:cclhlee@ntunhs.edu.tw">cclhlee@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">作者</td>
+				<td style="vertical-align: middle;">v0.1.0、v0.1.1、v0.2.0、v0.2.1</td>
+				<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
+					<br />
+					<a href="mailto:102116007@ntunhs.edu.tw">102116007@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">作者</td>
+				<td style="vertical-align: middle;">v0.1.0、v0.2.0</td>
+				<td style="vertical-align: middle;">林伃瑤（Yu-Yao Lin）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:yujia151645@gmail.com">a28485251@gmail.com</a>
+					<br />
+					<a href="mailto:082114224@ntunhs.edu.tw">082114224@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">作者</td>
+				<td style="vertical-align: middle;">v0.2.0、v0.2.1</td>
+				<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>
+					<br />
+					<a href="mailto:072114216@ntunhs.edu.tw">072114216@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">歐陽渝（Yang-Yu Ou）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:ouyangyu0326@gmail.com">ouyangyu0326@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0、v0.2.0</td>
+				<td style="vertical-align: middle;">連中岳（Chung-Yueh Lien）</td>
+				<td rowspan="9" style="vertical-align: middle;">國立臺北護理健康大學－資訊管理系<br />
+				（Department of Information Management, National Taipei University of Nursing and Health Sciences）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:chungyueh@ntunhs.edu.tw">chungyueh@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">徐建業（Chien-Yeh Hsu）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:cyhsu@ntunhs.edu.tw">cyhsu@ntunhs.edu.tw</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">陳欣怡（Hsin-Yi Chen）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:c86976@gmail.com">c86976@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">郭俐君（Li-Chun Kuo）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:lily220487@gmail.com">lily220487@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">丁子芸（Tzu-Yun Ting）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:aewqoo832456@gmail.com">aewqoo832456@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.2.0</td>
+				<td style="vertical-align: middle;">陳杏宜（Hsin-Yi Chen）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:bii901231@gmail.com">bii901231@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.2.0</td>
+				<td style="vertical-align: middle;">蔡姍紜（Shan-Yun Tsai）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:appletsai319@gmail.com">appletsai319@gmail.com</a>
+				</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.2.0</td>
+					<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
+					<td style="vertical-align: middle;">
+						<a href="mailto:a27114171@gmail.com">a27114171@gmail.com</a>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">李祥豪（Siang-Hao Lee）</td>
+				<td style="vertical-align: middle;">康統醫學科技股份有限公司（KENKONE）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:shvoidlee@gmail.com">shvoidlee@gmail.com</a>
 				</td>
 			</tr>
 			<tr>
-			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">李祥豪（Siang-Hao Lee）</td>
-			<td style="vertical-align: middle;">康統醫學科技股份有限公司（KENKONE）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:shvoidlee@gmail.com">shvoidlee@gmail.com</a>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
-			<td style="vertical-align: middle;">李修安（Hsiu-An Lee）</td>
-			<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所<br />
-			（National Health Research Institutes - The National Institute of Cancer Research）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:billy72325@gmail.com">billy72325@gmail.com</a>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
-			<td style="vertical-align: middle;">劉貞沂（Zhen-Yi Liu）</td>
-			<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所 <br />
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0、v0.2.0</td>
+				<td style="vertical-align: middle;">李修安（Hsiu-An Lee）</td>
+				<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所<br />
 				（National Health Research Institutes - The National Institute of Cancer Research）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
-			<td style="vertical-align: middle;">燕洛嫺（Luo-Xian Yan）</td>
-			<td style="vertical-align: middle;">社團法人台灣醫學資訊學會<br />
-				（Taiwan Association for Medical Information）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
-			</td>
-		</tr>
-		<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
-			（Medical Informatics Taiwan Connectathon, MI-TW Connectathon）</td>
-			<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
-			<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
-			</td>
-		</tr>
-	</tbody>
-</table>
+				<td style="vertical-align: middle;">
+					<a href="mailto:billy72325@gmail.com">billy72325@gmail.com</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.2.0</td>
+				<td style="vertical-align: middle;">劉貞沂（Zhen-Yi Liu）</td>
+				<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所 <br />
+					（National Health Research Institutes - The National Institute of Cancer Research）</td>
+				<td style="vertical-align: middle;">
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.2.0</td>
+				<td style="vertical-align: middle;">燕洛嫺（Luo-Xian Yan）</td>
+				<td style="vertical-align: middle;">社團法人台灣醫學資訊學會<br />
+					（Taiwan Association for Medical Information）</td>
+				<td style="vertical-align: middle;">
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
+				（Medical Informatics Taiwan Connectathon, MI-TW Connectathon）</td>
+				<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
+				<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
