@@ -340,8 +340,6 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 				<td style="vertical-align: middle;">
 					<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
-					<br />
-					<a href="mailto:102116007@ntunhs.edu.tw">102116007@ntunhs.edu.tw</a>
 				</td>
 				</tr>
 				<tr>
@@ -349,9 +347,9 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<td style="vertical-align: middle;">v0.1.0、v0.2.0</td>
 				<td style="vertical-align: middle;">林伃瑤（Yu-Yao Lin）</td>
 				<td style="vertical-align: middle;">
-					<a href="mailto:yujia151645@gmail.com">a28485251@gmail.com</a>
+					<a href="mailto:a28485251@gmail.com">a28485251@gmail.com</a>
 					<br />
-					<a href="mailto:082114224@ntunhs.edu.tw">082114224@ntunhs.edu.tw</a>
+					<a href="mailto:122116006@ntunhs.edu.tw">122116006@ntunhs.edu.tw</a>
 				</td>
 				</tr>
 				<tr>
@@ -438,7 +436,6 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 						<a href="mailto:a27114171@gmail.com">a27114171@gmail.com</a>
 					</td>
 				</tr>
-				<tr>
 				<tr>
 				<td style="vertical-align: middle;">貢獻者</td>
 				<td style="vertical-align: middle;">v0.1.0</td>
