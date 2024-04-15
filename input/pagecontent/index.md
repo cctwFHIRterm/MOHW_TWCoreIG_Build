@@ -323,7 +323,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<tr>
 				<td style="vertical-align: middle;">作者</td>
 				<td style="vertical-align: middle;">v0.1.0、v0.1.1、v0.2.0、v0.2.1</td>
-				<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
+				<td rowspan="17" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
 				（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
 				<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
 				<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
@@ -374,7 +374,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<td style="vertical-align: middle;">貢獻者</td>
 				<td style="vertical-align: middle;">v0.1.0、v0.2.0</td>
 				<td style="vertical-align: middle;">連中岳（Chung-Yueh Lien）</td>
-				<td rowspan="9" style="vertical-align: middle;">國立臺北護理健康大學－資訊管理系<br />
+				<td rowspan="8" style="vertical-align: middle;">國立臺北護理健康大學－資訊管理系<br />
 				（Department of Information Management, National Taipei University of Nursing and Health Sciences）</td>
 				<td style="vertical-align: middle;">
 					<a href="mailto:chungyueh@ntunhs.edu.tw">chungyueh@ntunhs.edu.tw</a>
@@ -476,9 +476,9 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<tr>
 				<td style="vertical-align: middle;">貢獻者</td>
 				<td style="vertical-align: middle;">v0.1.0</td>
+				<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 				<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
 				（Medical Informatics Taiwan Connectathon, MI-TW Connectathon）</td>
-				<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 				<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
 				<td style="vertical-align: middle;">
 					<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
