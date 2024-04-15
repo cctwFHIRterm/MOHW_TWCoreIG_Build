@@ -476,9 +476,9 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<tr>
 				<td style="vertical-align: middle;">貢獻者</td>
 				<td style="vertical-align: middle;">v0.1.0</td>
-				<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 				<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
 				（Medical Informatics Taiwan Connectathon, MI-TW Connectathon）</td>
+				<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 				<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
 				<td style="vertical-align: middle;">
 					<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
