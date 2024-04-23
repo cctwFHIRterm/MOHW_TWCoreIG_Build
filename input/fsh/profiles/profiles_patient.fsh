@@ -18,11 +18,13 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * extension[nationality] ^short = "病人所屬國籍"
 
 * identifier 1..* MS
-* identifier ^slicing.discriminator[0].type = #value
+//* identifier ^slicing.discriminator[0].type = #value
 //* identifier ^slicing.discriminator[=].path = "type.coding.code"
-* identifier ^slicing.discriminator[=].path = "system"
 //* identifier ^slicing.discriminator[+].type = #value
 //* identifier ^slicing.discriminator[=].path = "type.coding.system"
+* identifier ^slicing.discriminator[0].type = #pattern
+* identifier ^slicing.discriminator[=].path = "system"
+* identifier ^slicing.discriminator[+].type = #pattern
 * identifier ^slicing.discriminator[=].path = "value"
 * identifier ^slicing.rules = #open
 * identifier contains
