@@ -23,6 +23,7 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier ^slicing.discriminator[=].path = "system"
 //* identifier ^slicing.discriminator[+].type = #value
 //* identifier ^slicing.discriminator[=].path = "type.coding.system"
+* identifier ^slicing.discriminator[=].path = "value"
 * identifier ^slicing.rules = #open
 * identifier contains
     idCardNumber 0..1 MS and
