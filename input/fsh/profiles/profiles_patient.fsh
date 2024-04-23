@@ -18,12 +18,11 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * extension[nationality] ^short = "病人所屬國籍"
 
 * identifier 1..* MS
-//* identifier ^slicing.discriminator.type = #pattern
-//* identifier ^slicing.discriminator.path = "type"
 * identifier ^slicing.discriminator[0].type = #value
-* identifier ^slicing.discriminator[=].path = "type.coding.code"
-* identifier ^slicing.discriminator[+].type = #value
-* identifier ^slicing.discriminator[=].path = "type.coding.system"
+//* identifier ^slicing.discriminator[=].path = "type.coding.code"
+* identifier ^slicing.discriminator[=].path = "system"
+//* identifier ^slicing.discriminator[+].type = #value
+//* identifier ^slicing.discriminator[=].path = "type.coding.system"
 * identifier ^slicing.rules = #open
 * identifier contains
     idCardNumber 0..1 MS and
@@ -40,7 +39,8 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[idCardNumber].use MS
 * identifier[idCardNumber].use = #official
 * identifier[idCardNumber].type only CodeableConceptTW
-* identifier[idCardNumber].type 1..1 MS
+//* identifier[idCardNumber].type 1..1 MS
+* identifier[idCardNumber].type 0..1 MS
 * identifier[idCardNumber].type from TWIdentifierType (extensible)
 //* identifier[idCardNumber].type.coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/v2-0203"
 //* identifier[idCardNumber].type.coding.code = #NNTWN
@@ -58,7 +58,8 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[passportNumber].use MS
 * identifier[passportNumber].use = #official
 * identifier[passportNumber].type only CodeableConceptTW
-* identifier[passportNumber].type 1..1 MS
+//* identifier[passportNumber].type 1..1 MS
+* identifier[passportNumber].type 0..1 MS
 * identifier[passportNumber].type.text MS
 * identifier[passportNumber].type from TWIdentifierType (extensible)
 //* identifier[passportNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#PPN
@@ -74,7 +75,8 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[residentNumber].use MS
 * identifier[residentNumber].use = #official
 * identifier[residentNumber].type only CodeableConceptTW
-* identifier[residentNumber].type 1..1 MS
+//* identifier[residentNumber].type 1..1 MS
+* identifier[residentNumber].type 0..1 MS
 * identifier[residentNumber].type.coding.code MS
 * identifier[residentNumber].type.coding.system MS
 * identifier[residentNumber].type.coding.display MS
@@ -90,7 +92,8 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[medicalRecord].use MS
 * identifier[medicalRecord].use = #official
 * identifier[medicalRecord].type only CodeableConceptTW
-* identifier[medicalRecord].type 1..1 MS
+//* identifier[medicalRecord].type 1..1 MS
+* identifier[medicalRecord].type 0..1 MS
 * identifier[medicalRecord].type.coding.code MS
 * identifier[medicalRecord].type.coding.system MS
 * identifier[medicalRecord].type.coding.display MS
