@@ -34,6 +34,7 @@ Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile�
 * code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * basedOn only Reference(CarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* subject 1..1 MS
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * encounter only Reference(TWCoreEncounter)
 * effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
