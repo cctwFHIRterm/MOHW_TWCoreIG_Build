@@ -4,7 +4,7 @@ Id:             Organization-twcore
 Title:          "TW Core Organization"
 Description:    "此臺灣核心-機構（TW Core Organization）Profile說明本IG如何進一步定義FHIR的Organization Resource以呈現機構基本資料。
 "
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * name 1..1 MS

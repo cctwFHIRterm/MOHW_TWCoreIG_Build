@@ -7,7 +7,7 @@ Title:          "TW Core Procedure"
 Description:    "此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
 
 "
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and subject and performed[x] and asserter and  bodySite MS
@@ -30,14 +30,14 @@ Description:    "此臺灣核心-處置或手術（TW Core Procedure) Profile說
 * code.coding contains
     icd10-pcs-2021 0..1 MS and
     icd10-pcs-2014 0..1 MS and
-    icd9-cm-2001 0..1 MS and
     medical-service-payment 0..1 MS and
-    sct-procedures 0..1 MS
+    sct-procedures 0..1 MS and 
+    loinc-procedures 0..1 MS 
 * code.coding[icd10-pcs-2021] from TW2021ICD10PCS (required)
 * code.coding[icd10-pcs-2014] from TW2014ICD10PCS (required)
-* code.coding[icd9-cm-2001] from TW2001ICD9CM (required)
-* code.coding[medical-service-payment] from TWMedicationFrequency (required)
+* code.coding[medical-service-payment] from TWMedicalServicePayment (required)
 * code.coding[sct-procedures] from $sct-procedures (required)
+* code.coding[loinc-procedures] from LOINCProcedureCodes (required)
 
 * performed[x] only dateTime or Period or string or Age or Range
 * performed[x] MS

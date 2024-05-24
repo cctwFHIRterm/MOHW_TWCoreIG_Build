@@ -44,7 +44,7 @@ Usage: #example
 	<p><b>系列(series)實例</b>：</p>
     <p>
     <b>DICOM系列實例UID</b>：2.16.886.103.102695.7661805881534741258144674448294792877 <br />
-	<b>所使用的成像儀器</b>： Positron emission tomography <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://dicom.nema.org/resources/ontology/DCM\">CID 29 Acquisition Modality</a>#SM) </span><br />
+	<b>所使用的成像儀器</b>： Slide Microscopy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://dicom.nema.org/resources/ontology/DCM\">CID 29 Acquisition Modality</a>#SM) </span><br />
 	</p>
     </blockquote>
 </div>"

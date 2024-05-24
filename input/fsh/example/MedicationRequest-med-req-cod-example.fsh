@@ -1,7 +1,7 @@
 Instance: med-req-cod-example
 InstanceOf: TWCoreMedicationRequest
 Usage: #example
-* identifier.system = "http://www.moi.gov.tw/"
+* identifier.system = "http://www.moi.gov.tw"
 * identifier.value = "7077"
 * status = #active
 * statusReason = http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason#clarif
@@ -27,7 +27,7 @@ Usage: #example
 		<b>藥品請求的詳細資料</b>
 	</h3>
 	<p>
-		<b>藥品請求的識別碼</b>：7077 （http://www.moi.gov.tw/）
+		<b>藥品請求的識別碼</b>：7077 （http://www.moi.gov.tw）
 	</p>
 	<p>
 		<b>藥品請求的狀態</b>：Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason\">MedicationRequest Status Reason Codes</a>#clarif) </span>

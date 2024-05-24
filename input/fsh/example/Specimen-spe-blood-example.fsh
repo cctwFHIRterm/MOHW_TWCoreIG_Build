@@ -37,11 +37,11 @@ Usage: #example
 * container.specimenQuantity.unit = "mL"
 * container.specimenQuantity.system = "http://unitsofmeasure.org"
 * container.specimenQuantity.code = http://unitsofmeasure.org#mL
-* note.text = "此血液樣本來自患者的最後一次例行檢查"
+* note.text = "此血液檢體來自患者的最後一次例行檢查"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 	<h3>
-		<b>血液樣本</b>
+		<b>血液檢體</b>
 	</h3>
 	<p>
 		<b>檢體狀態</b>：Available <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/specimen-status\">SpecimenStatus</a>#available) </span>
@@ -91,6 +91,6 @@ Usage: #example
 	</p>	
     </blockquote>
     <p>
-		<b>備註</b>：此血液樣本來自患者的最後一次例行檢查
+		<b>備註</b>：此血液檢體來自患者的最後一次例行檢查
     </p>    
 </div>"

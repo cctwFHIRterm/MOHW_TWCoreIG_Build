@@ -5,7 +5,7 @@ Instance: med-sta-example
 InstanceOf: TWCoreMedicationStatement
 Usage: #example
 * status = #active
-* category.coding = http://hl7.org/fhir/R4/codesystem-medication-statement-category.html#outpatient "outpatient"
+* category.coding = http://terminology.hl7.org/CodeSystem/medication-statement-category#outpatient "outpatient"
 * category.text = "門診" 
 * medicationCodeableConcept = $medication-nhi-tw#A003092100 "ASPIRIN TABLETS 500MG \"S.Y.\""
 * medicationCodeableConcept.text = "阿司匹林"

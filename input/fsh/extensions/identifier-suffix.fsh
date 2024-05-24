@@ -3,10 +3,12 @@ Id: identifier-suffix
 Title: "Identifier Suffix"
 Description: "識別碼後綴詞"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/identifier-suffix"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * ^status = #active
-* ^context.type = #element
-* ^context.expression = "Patient.identifier.type.coding.code"
+* ^context[0].type = #element
+* ^context[=].expression = "Patient.identifier.type.coding.code"
+* ^context[+].type = #element
+* ^context[=].expression = "Practitioner.identifier.type.coding.code"
 * extension contains
     suffix 0..1 and
     valueSet 0..1

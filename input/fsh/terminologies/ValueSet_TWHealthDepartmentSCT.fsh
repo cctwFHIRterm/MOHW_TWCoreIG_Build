@@ -9,7 +9,7 @@ Description: "SNOMED CT + 臺灣健保署 + 衛福部統計處診療科別值集
 "
 * ^experimental = false
 * ^date = "2024-01-05"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * $TWHealthDepartmentNHI#0 "不分科"
 * $TWHealthDepartmentNHI#2A "結核科"
 * $TWHealthDepartmentNHI#41 "牙體復形科"

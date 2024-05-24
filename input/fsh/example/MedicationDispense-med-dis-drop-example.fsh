@@ -1,4 +1,4 @@
-Alias: $medicationdispense-category = http://hl7.org/fhir/R4/codesystem-medicationdispense-category.html
+Alias: $medicationdispense-category = http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category
 Alias: $medication-fda-tw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-fda-tw
 
 Instance: med-dis-drop-example

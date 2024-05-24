@@ -6,8 +6,10 @@ Usage: #example
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#PRENC
 * type = http://terminology.hl7.org/CodeSystem/encounter-type#ADMS
-* serviceType = http://terminology.hl7.org/CodeSystem/service-type#318 "Diabetes"
-* serviceType.text = "糖尿病"
+//* serviceType = http://terminology.hl7.org/CodeSystem/service-type#318 "Diabetes"
+//* serviceType.text = "糖尿病"
+* serviceType = http://snomed.info/sct#394589003 "Nephrology"
+* serviceType.text = "腎臟內科"
 * subject = Reference(Patient/pat-example)
 * participant.type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PPRF
 * participant.period.start = "2022-08-01T17:00:14+08:00"
@@ -36,7 +38,7 @@ Usage: #example
 		<b>就醫種類</b>：Annual diabetes mellitus screening <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-type.html\">Encounter type</a>#ADMS) </span>
 	</p>
 	<p>
-		<b>服務型別</b>：糖尿病(Diabetes) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/service-type\">Service type</a>#318) </span>
+		<b>服務型別</b>：腎臟內科(Nephrology) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">Service type</a>#394589003) </span>
 	</p>
 	<p>
 		<b>病人</b>：<a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"

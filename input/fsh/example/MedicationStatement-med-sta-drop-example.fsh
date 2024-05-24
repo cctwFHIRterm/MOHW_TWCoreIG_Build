@@ -4,7 +4,7 @@ Instance: med-sta-drop-example
 InstanceOf: TWCoreMedicationStatement
 Usage: #example
 * status = #active
-* category.coding = http://hl7.org/fhir/R4/codesystem-medication-statement-category.html#outpatient "outpatient"
+* category.coding = http://terminology.hl7.org/CodeSystem/medication-statement-category#outpatient "outpatient"
 * category.text = "門診" 
 * medicationCodeableConcept = $medication-fda-tw#衛署藥輸字第005728號 "每瞳令-普益點眼液"
 * medicationCodeableConcept.text = "每瞳令-普益點眼液"

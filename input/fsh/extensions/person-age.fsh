@@ -3,7 +3,7 @@ Id: person-age
 Title: "Person Age"
 Description: "年齡"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/person-age"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Patient"

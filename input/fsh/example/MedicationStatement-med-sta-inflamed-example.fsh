@@ -4,7 +4,7 @@ Instance: med-sta-inflamed-example
 InstanceOf: TWCoreMedicationStatement
 Usage: #example
 * status = #active
-* category.coding = http://hl7.org/fhir/R4/codesystem-medication-statement-category.html#outpatient "outpatient"
+* category.coding = http://terminology.hl7.org/CodeSystem/medication-statement-category#outpatient "outpatient"
 * category.text = "門診" 
 * medicationCodeableConcept = $medication-fda-tw#內衛藥製字第006008號 "鹽酸四環素眼藥膏"
 * medicationCodeableConcept.text = "鹽酸四環素眼藥膏"

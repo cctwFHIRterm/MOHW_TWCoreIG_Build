@@ -1,7 +1,7 @@
 CodeSystem: TWHealthDepartmentNHI
 Id: health-department-nhi-tw
 Title: "臺灣健保署診療科別"
-Description: "臺灣健保署診療科別，參照至[https://www.nhi.gov.tw/DL.aspx?sitessn=292&u=LzAwMS9VcGxvYWQvMjkyL3JlbGZpbGUvMC84NDc3L2N1cmVfdHlwZS5wZGY%3d&n=Y3VyZV90eXBlLnBkZg%3d%3d](https://www.nhi.gov.tw/DL.aspx?sitessn=292&u=LzAwMS9VcGxvYWQvMjkyL3JlbGZpbGUvMC84NDc3L2N1cmVfdHlwZS5wZGY%3d&n=Y3VyZV90eXBlLnBkZg%3d%3d)  
+Description: "臺灣健保署診療科別，參照至[https://www.nhi.gov.tw/ch/cp-5548-135e8-2931-1](https://www.nhi.gov.tw/ch/cp-5548-135e8-2931-1.html)  
 代碼出版日期：2024-01-04；資料所屬單位：衛生福利部中央健康保險署。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*"

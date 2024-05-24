@@ -3,7 +3,7 @@ Id: tw-postal-code
 Title: "TW Postal code"
 Description: "臺灣郵遞區號"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-postal-code"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address.postalCode"
@@ -14,17 +14,17 @@ Description: "臺灣郵遞區號"
 * valueCodeableConcept.coding ^slicing.rules = #open
 * valueCodeableConcept.coding contains PostalCode3 0..1 MS and PostalCode5 0..1 MS and PostalCode6 0..1 MS
 * valueCodeableConcept.coding[PostalCode3] from TWPostalCode3
-* valueCodeableConcept.coding[PostalCode3].code MS
+* valueCodeableConcept.coding[PostalCode3].code 1.. MS
 * valueCodeableConcept.coding[PostalCode3].system MS
 * valueCodeableConcept.coding[PostalCode3].display MS
 * valueCodeableConcept.coding[PostalCode3].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code3-tw"
 * valueCodeableConcept.coding[PostalCode5] from TWPostalCode5
-* valueCodeableConcept.coding[PostalCode5].code MS
+* valueCodeableConcept.coding[PostalCode5].code 1.. MS
 * valueCodeableConcept.coding[PostalCode5].system MS
 * valueCodeableConcept.coding[PostalCode5].display MS
 * valueCodeableConcept.coding[PostalCode5].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code5-tw"
 * valueCodeableConcept.coding[PostalCode6] from TWPostalCode6
-* valueCodeableConcept.coding[PostalCode6].code MS
+* valueCodeableConcept.coding[PostalCode6].code 1.. MS
 * valueCodeableConcept.coding[PostalCode6].system MS
 * valueCodeableConcept.coding[PostalCode6].display MS
 * valueCodeableConcept.coding[PostalCode6].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code6-tw"

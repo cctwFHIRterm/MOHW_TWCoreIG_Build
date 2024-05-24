@@ -1,7 +1,7 @@
 CodeSystem: TWMedicalServicePayment
 Id: medical-service-payment-tw
 Title: "臺灣健保署醫療服務給付項目"
-Description: "臺灣健保署醫療服務給付項目，參照至[https://www.nhi.gov.tw/Content_List.aspx?n=58ED9C8D8417D00B](https://www.nhi.gov.tw/Content_List.aspx?n=58ED9C8D8417D00B)  
+Description: "臺灣健保署醫療服務給付項目，參照至[https://www.nhi.gov.tw/ch/lp-2466-1](https://www.nhi.gov.tw/ch/lp-2466-1.html)  
 代碼出版日期：2022-07-01；資料所屬單位：衛生福利部中央健康保險署。
 
 *因原始資料無代碼版本資訊，故使用其「生效日期」作為版本資訊。*

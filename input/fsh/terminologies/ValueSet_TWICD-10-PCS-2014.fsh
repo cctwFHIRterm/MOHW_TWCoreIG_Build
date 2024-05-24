@@ -1,7 +1,7 @@
 ValueSet: TW2014ICD10PCS
 Id: icd-10-pcs-2014-tw
 Title: "臺灣健保署2014年中文版ICD-10-PCS值集"
-Description: "臺灣健保署2014年中文版ICD-10-PCS值集，參照至[https://www.nhi.gov.tw/Content_List.aspx?n=3C0BD93EC042CC67&topn=23C660CAACAA159D](https://www.nhi.gov.tw/Content_List.aspx?n=3C0BD93EC042CC67&topn=23C660CAACAA159D)
+Description: "臺灣健保署2014年中文版ICD-10-PCS值集，參照至[https://www.nhi.gov.tw/ch/np-3049-1](https://www.nhi.gov.tw/ch/np-3049-1.html)
 資料所屬單位：衛生福利部中央健康保險署。
 
 此值集所涵蓋代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－臺灣健保署2014年中文版ICD-10-PCS值集](https://twcore.mohw.gov.tw/ts/valuesetRead.jsp?id=icd-10-pcs-2014-tw&status=active&version=2017-07-19&metaId=1&composeId=0&composeSystem=0&composeVersion=0&pageSet=preview)查閱"

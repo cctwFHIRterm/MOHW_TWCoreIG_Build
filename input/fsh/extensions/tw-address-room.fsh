@@ -3,7 +3,7 @@ Id: tw-room
 Title: "TW Room"
 Description: "臺灣地址欄位-室"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-room"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

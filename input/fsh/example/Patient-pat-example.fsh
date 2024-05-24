@@ -10,7 +10,7 @@ Usage: #example
 * identifier[idCardNumber].type.coding.code.extension.extension[=].valueString = "TWN"
 * identifier[idCardNumber].type.coding.code.extension.extension[+].url = "valueSet"
 * identifier[idCardNumber].type.coding.code.extension.extension[=].valueCanonical = "http://hl7.org/fhir/ValueSet/iso3166-1-3"
-* identifier[idCardNumber].system = "http://www.moi.gov.tw/"
+* identifier[idCardNumber].system = "http://www.moi.gov.tw"
 * identifier[idCardNumber].value = "A123456789"
 * identifier[medicalRecord].use = #official
 * identifier[medicalRecord].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
@@ -89,14 +89,14 @@ Usage: #example
 		<p>
 			<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx <b>[extension: <a href=\"StructureDefinition-identifier-suffix.html\">Identifier Suffix</a>]：</b>TWN） </span>
 			<br />
-			<b>身分證字號（official）</b>：A123456789 （http://www.moi.gov.tw/）
+			<b>身分證字號（official）</b>：A123456789 （http://www.moi.gov.tw）
 		</p>
 	</blockquote>
 	<blockquote>
 		<p>
 			<b>識別碼型別</b>：Medical record number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#MR） </span>
 			<br />
-			<b>病歷號（official）</b>：8862168 （https://www.tph.mohw.gov.tw/）
+			<b>病歷號（official）</b>：8862168 （https://www.tph.mohw.gov.tw）
 		</p>
 	</blockquote>
 	<p>

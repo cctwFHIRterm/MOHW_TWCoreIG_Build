@@ -2,7 +2,7 @@ Logical: TWDiagnosticReportModel
 Id: TWDiagnosticReport
 Title: "臺灣核心-診斷報告(TW Core DiagnosticReport) 之資料模型"
 Description: "臺灣核心-診斷報告(TW Core DiagnosticReport) 之資料模型"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * status 1..1 code "診斷報告的狀態。" "診斷報告的狀態。"
 * category 0..1 CodeableConcept "診斷報告的類別。" "診斷報告的類別。"
 * code 1..1 CodeableConcept "診斷報告。" "診斷報告。"

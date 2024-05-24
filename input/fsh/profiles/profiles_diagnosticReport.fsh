@@ -3,11 +3,11 @@ Parent: DiagnosticReport
 Id: DiagnosticReport-twcore
 Title: "TW Core DiagnosticReport"
 Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile說明本IG如何進一步定義FHIR的DiagnosticReport Resource以呈現診斷報告。"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and category and code and subject and effective[x] and issued MS
-* category = http://terminology.hl7.org/CodeSystem/v2-0074#LAB
+//* category = http://terminology.hl7.org/CodeSystem/v2-0074#LAB
 * category from DiagnosticServiceSectionCodes (extensible)
 //* category ^slicing.discriminator.type = #pattern
 //* category ^slicing.discriminator.path = "$this"
@@ -20,7 +20,8 @@ Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile�
 * code.coding ^slicing.rules = #open
 * code.coding contains
     LOINCObservationCode 0..1 MS and
-    TWLaboratoryCategory 0..1 MS
+    TWLaboratoryCategory 0..1 MS and
+    TW2021ICD10PCS 0..1 MS
 * code.coding[LOINCObservationCode] from LOINCObservationCode (required)
 * code.coding[LOINCObservationCode].system = "http://loinc.org"
 * code.coding[LOINCObservationCode].system MS
@@ -29,12 +30,19 @@ Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile�
 * code.coding[TWLaboratoryCategory].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw"
 * code.coding[TWLaboratoryCategory].system MS
 * code.coding[TWLaboratoryCategory].code 1..1 MS
+* code.coding[TW2021ICD10PCS] from TW2021ICD10PCS (required)
+* code.coding[TW2021ICD10PCS].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2021-tw"
+* code.coding[TW2021ICD10PCS].system MS
+* code.coding[TW2021ICD10PCS].code 1..1 MS
 * code.coding[LOINCObservationCode] ^short = "LOINC®為Regenstrief Institute, Inc.維護的檢驗事件描述代碼，可免費使用，可優先選用此代碼。"
 * code.coding[LOINCObservationCode] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+* code.coding[TW2021ICD10PCS] ^short = "此為臺灣健保署2021年中文版ICD-10-PCS，可免費使用，可依情境選用此代碼。"
+* code.coding[TW2021ICD10PCS] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+
 * basedOn only Reference(CarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
-* subject 1..1 MS
+* subject 1..
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * encounter only Reference(TWCoreEncounter)
 * effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"

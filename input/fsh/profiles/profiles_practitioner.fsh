@@ -5,7 +5,7 @@ Title:          "TW Core Practitioner"
 Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。
 
 此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * communication ^example.label = "Value"
@@ -27,12 +27,14 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier contains
     idCardNumber 0..1 MS and
     passportNumber 0..1 MS and
-    residentNumber 0..1 MS 
+    residentNumber 0..1 MS and
+    medicalLicenseNumber 0..1 MS
 * identifier[idCardNumber].type.coding 1..*
 * identifier[passportNumber].type.coding 1..*
 * identifier[residentNumber].type.coding 1..*
+* identifier[medicalLicenseNumber].type.coding 1..*
 * identifier[idCardNumber].system 1.. MS
-* identifier[idCardNumber].system = "http://www.moi.gov.tw/"
+* identifier[idCardNumber].system = "http://www.moi.gov.tw"
 * identifier[idCardNumber].use MS
 * identifier[idCardNumber].use = #official
 * identifier[idCardNumber].type only CodeableConceptTW
@@ -76,16 +78,30 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[residentNumber].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier[residentNumber].type.coding.code = #PRC
 * identifier[residentNumber].value 1.. MS
+* identifier[medicalLicenseNumber].system 1.. MS
+* identifier[medicalLicenseNumber].use MS
+* identifier[medicalLicenseNumber].use = #official
+* identifier[medicalLicenseNumber].type only CodeableConceptTW
+* identifier[medicalLicenseNumber].type 1..1 MS
+* identifier[medicalLicenseNumber].type.coding.code MS
+* identifier[medicalLicenseNumber].type.coding.system MS
+* identifier[medicalLicenseNumber].type.coding.display MS
+* identifier[medicalLicenseNumber].type.text MS
+* identifier[medicalLicenseNumber].type from TWIdentifierType (extensible)
+* identifier[medicalLicenseNumber].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* identifier[medicalLicenseNumber].type.coding.code = #MD
+* identifier[medicalLicenseNumber].value 1.. MS
 * identifier[idCardNumber].assigner only Reference(TWCoreOrganization)
 * identifier[passportNumber].assigner only Reference(TWCoreOrganization)
 * identifier[residentNumber].assigner only Reference(TWCoreOrganization)
+* identifier[medicalLicenseNumber].assigner only Reference(TWCoreOrganization)
 
 * qualification.issuer only Reference(TWCoreOrganization)
 * active and address MS
 * name obeys tw-core-1
-* name 1..* MS
+* name MS
 * name.use MS
-* name.use = #official
+//* name.use = #official
 * name.text MS
 * name.text ^example.label = "General"
 * name.text ^example.valueString = "王依昇"
@@ -217,7 +233,7 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[idCardNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
 * identifier[idCardNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
 * identifier[idCardNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace）
-例如：身分證字號='http://www.moi.gov.tw/'"
+例如：身分證字號='http://www.moi.gov.tw'"
 * identifier[idCardNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
 * identifier[idCardNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
 * identifier[idCardNumber].system ^comment = "Identifier.system總是區分大小寫"
@@ -335,6 +351,57 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[residentNumber].assigner ^short = "簽發identifier的機構（可以只是文字表述）"
 * identifier[residentNumber].assigner ^definition = "簽發／管理識別碼的機構"
 * identifier[residentNumber].assigner ^comment = "Identifier.assigner可以省略.reference資料項目，只包含一個.display資料項目，反映指定機構的名稱或其他文字表述資訊。"
+
+* identifier[medicalLicenseNumber] ^short = "適用員工編號"
+* identifier[medicalLicenseNumber] ^definition = "適用於員工編號"
+* identifier[medicalLicenseNumber] ^requirements = "通常此人員總是被指定一個特定的數值型的唯一識別碼（identifier）"
+* identifier[medicalLicenseNumber].use ^short = "usual ｜ official ｜ temp ｜ secondary ｜ old （如果知道）"
+* identifier[medicalLicenseNumber].use ^binding.description = "如果知道，請說明此識別碼的目的；應填入所綁定值集中的其中一個代碼。"
+* identifier[medicalLicenseNumber].use ^definition = "這個唯一識別碼（identifier）的用途"
+* identifier[medicalLicenseNumber].use ^requirements = "允許從一組識別碼中為特定的使用情境選擇適當的識別碼"
+* identifier[medicalLicenseNumber].use ^comment = "應用程式可以假定一個識別碼是永久的，除非它明確說它是暫時的。"
+* identifier[medicalLicenseNumber].type ^short = "身份識別碼（identifier）的型別說明"
+* identifier[medicalLicenseNumber].type ^binding.description = "識別碼的型別，用於決定特定目的所適用的識別碼；應填入所綁定值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。"
+* identifier[medicalLicenseNumber].type ^definition = "識別碼的代碼型別，用於決定特定目適用的識別碼。"
+* identifier[medicalLicenseNumber].type ^requirements = "允許使用者在不知道識別碼系統的情況下利用識別碼"
+* identifier[medicalLicenseNumber].type ^comment = "這個資料項目只涉及識別碼的一般類別。它 **必須沒有（SHALL NOT）** 被用於與Identifier.system 1..1對應的代碼。一些識別碼可能由於常見的用法而屬於多個類別。在系統是已知的情況下，型別是不必要的，因為型別總是系統定義的一部分。然而，系統經常需要處理系統不為人知的識別碼。型別和系統之間不是1:1的關係，因為許多不同的系統有相同的型別。"
+* identifier[medicalLicenseNumber].type.coding ^short = "由專門術語系統（terminology system）定義的代碼"
+* identifier[medicalLicenseNumber].type.coding ^definition = "由專門術語系統（terminology system）所定義之代碼的參照"
+* identifier[medicalLicenseNumber].type.coding ^requirements = "允許代碼系統中的替代編碼，以及翻譯到其他編碼系統。"
+* identifier[medicalLicenseNumber].type.coding ^comment = "代碼可以在列舉清單（enumerations）或代碼清單（code lists）中非常隨意地定義，直至有非常正式的定義，例如：SNOMED CT—更多資訊見HL7 v3核心原則（Core Principles）。編碼的排序是未定義的因而 **必須沒有（SHALL NOT）** 被用來推斷意義。一般來說，最多只有一個編碼值（coding values）會被標記為UserSelected = true。"
+* identifier[medicalLicenseNumber].type.coding.system ^short = "專門術語系統（terminology system）的識別"
+* identifier[medicalLicenseNumber].type.coding.system ^definition = "定義代碼中符號意義的代碼系統識別"
+* identifier[medicalLicenseNumber].type.coding.system ^requirements = "需要明確說明符號定義的來源"
+* identifier[medicalLicenseNumber].type.coding.system ^comment = "URI可以是一個OID（urn:oid:...）或一個UUID（urn:uuid:...）；OID和UUID **必須（SHALL）** 參照HL7 OID註冊中心；否則，URI應該來自HL7的FHIR定義的特殊URI列表，或者它應該參照一些明確建立的系统定義。"
+* identifier[medicalLicenseNumber].type.coding.version ^short = "系統的版本—如果相關的話"
+* identifier[medicalLicenseNumber].type.coding.version ^definition = "選擇此代碼時使用的代碼系統版本；請注意，一個維護良好的代碼系統不需要版本報告，因為代碼的意義在不同系統版本中是一致的；然而，不能始終保證這點，當不能保證意義一致時， **必須（SHALL）** 將版本資訊也一併作交換。"
+* identifier[medicalLicenseNumber].type.coding.version ^comment = "如果專門術語沒有明確定義應該使用什麼字串來識別代碼系統的版本，建議使用版本正式發布的日期（用FHIR日期格式表示）作為版本日期。"
+* identifier[medicalLicenseNumber].type.coding.code ^short = "系統定義的語法之符號"
+* identifier[medicalLicenseNumber].type.coding.code ^definition = "系統定義的語法之符號；符號可能是一個預先定義的代碼，也可能是代碼系統定義的語法中的表達式（如後組合配對／後組合式）。"
+* identifier[medicalLicenseNumber].type.coding.code ^requirements = "需要參照系統中的一個特定代碼"
+* identifier[medicalLicenseNumber].type.coding.display ^short = "由系統定義的表示法"
+* identifier[medicalLicenseNumber].type.coding.display ^definition = "遵循系統的規則以呈現代碼含義的表示法"
+* identifier[medicalLicenseNumber].type.coding.display ^requirements = "需要能為不了解此系統的讀者呈現可讀的代碼含義"
+* identifier[medicalLicenseNumber].type.coding.userSelected ^short = "此編碼是否由使用者直接選擇？"
+* identifier[medicalLicenseNumber].type.coding.userSelected ^definition = "表明此編碼是由使用者直接選擇，例如：從可用項目（代碼或顯示名稱）的清單中選擇。"
+* identifier[medicalLicenseNumber].type.coding.userSelected ^requirements = "已被確定為一個臨床安全準則—此確切的系統／代碼對(code pair)是被明確選擇的，而不是由系統根據一些規則或是程式語言處理判斷。"
+* identifier[medicalLicenseNumber].type.coding.userSelected ^comment = "在一系列備選方案中，直接選擇的代碼是新翻譯最合適的起點；關於「直接選擇」的確切意義，存在模糊不清之處，可能需要貿易夥伴的同意，以更完整澄清此資料項目的使用及其後果。"
+* identifier[medicalLicenseNumber].type.text ^short = "概念的文字表示法"
+* identifier[medicalLicenseNumber].type.text ^definition = "輸入資料的使用者所見／所選／所說的人類可讀文字表述，和（或）其代表使用者的預期含義。"
+* identifier[medicalLicenseNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
+* identifier[medicalLicenseNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
+* identifier[medicalLicenseNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace），可至 [twTerminology](https://twcore.mohw.gov.tw/ts/namingsystem.jsp?status=active&amp;type=0) 申請或查詢命名系統。"
+* identifier[medicalLicenseNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
+* identifier[medicalLicenseNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
+* identifier[medicalLicenseNumber].system ^comment = "Identifier.system總是區分大小寫"
+* identifier[medicalLicenseNumber].value ^short = "唯一值。 例如：員工編號為KP00017"
+* identifier[medicalLicenseNumber].value ^definition = "識別碼中通常與使用者有關的部分，在系統情境內是唯一的。"
+* identifier[medicalLicenseNumber].value ^comment = "如果此值是一個完整的URI，那麼此系統 **必須（SHALL）** 是urn:ietf:rfc:3986。此值的主要目的是為了可運算的對應。因此，為了比較的目的，它可能會被正規化（例如：去除不重要的空白、破折號等）。一個為人顯示的格式化的值可以使用[Rendered Value](http://hl7.org/fhir/R4/extension-rendered-value.html)擴充來傳達。除非對Identifier.system的了解使處理者確信不區分大小寫的處理是安全的，否則Identifier.value應被視為區分大小寫。"
+* identifier[medicalLicenseNumber].period ^short = "此身份識別碼（identifier）的使用效期"
+* identifier[medicalLicenseNumber].period ^definition = "識別碼有效／曾經有效使用的時段或期間"
+* identifier[medicalLicenseNumber].assigner ^short = "簽發identifier的機構（可以只是文字表述）"
+* identifier[medicalLicenseNumber].assigner ^definition = "簽發／管理識別碼的機構"
+* identifier[medicalLicenseNumber].assigner ^comment = "Identifier.assigner可以省略.reference資料項目，只包含一個.display資料項目，反映指定機構的名稱或其他文字表述資訊。"
 
 
 * active ^short = "此照護服務提供人員的紀錄是否在使用中"

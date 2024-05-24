@@ -2,7 +2,7 @@ Alias: $TWHealthDepartmentNHI = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/
 ValueSet: TWHealthDepartmentNHI
 Id: health-department-nhi-tw
 Title: "臺灣健保署診療科別值集"
-Description: "臺灣健保署診療科別值集，參照至[https://www.mohw.gov.tw/dl-37539-9c44013a-6d8e-414a-adec-c4ede90be51e.html](https://www.mohw.gov.tw/dl-37539-9c44013a-6d8e-414a-adec-c4ede90be51e.html)
+Description: "臺灣健保署診療科別值集，參照至[https://www.nhi.gov.tw/ch/cp-5548-135e8-2931-1](https://www.nhi.gov.tw/ch/cp-5548-135e8-2931-1.html)
 資料所屬單位：衛生福利部中央健康保險署。
 "
 

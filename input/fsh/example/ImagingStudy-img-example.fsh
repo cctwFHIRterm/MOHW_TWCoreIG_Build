@@ -10,7 +10,7 @@ Usage: #example
 * status = #available
 * identifier[+].use = #official
 * identifier[=].type = http://terminology.hl7.org/CodeSystem/v2-0203#ACSN "Accession ID"
-* identifier[=].system = "http://www.moi.gov.tw/"
+* identifier[=].system = "http://www.moi.gov.tw"
 * identifier[=].value = "2ffe0c20-50d8-49df-85f6-6452d1d201b9"
 * started = "2022-08-01T19:00:14+08:00"
 * subject = Reference(Patient/pat-example)

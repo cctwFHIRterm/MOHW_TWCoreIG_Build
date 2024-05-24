@@ -5,11 +5,16 @@ Usage: #example
 * name.family = "Wang"
 * name.given = "Yi Sheng"
 * name.text = "王依昇"
-* identifier.use = #official
-* identifier.type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
-* identifier.type.coding.code = #MD
-* identifier.value = "KP00017"
-* identifier.system = "https://www.tph.mohw.gov.tw"
+* identifier[idCardNumber].use = #official
+* identifier[idCardNumber].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* identifier[idCardNumber].type.coding.code = #NNxxx
+* identifier[idCardNumber].system = "http://www.moi.gov.tw"
+* identifier[idCardNumber].value = "D123456789"
+* identifier[medicalLicenseNumber].use = #official
+* identifier[medicalLicenseNumber].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
+* identifier[medicalLicenseNumber].type.coding.code = #MD
+* identifier[medicalLicenseNumber].value = "KP00017"
+* identifier[medicalLicenseNumber].system = "https://www.tph.mohw.gov.tw"
 * active = true
 * gender = #male
 * birthDate = "1980-11-11"
@@ -39,10 +44,19 @@ Usage: #example
   <h3>
     <b>醫師基本資料</b>
   </h3>
+	<blockquote>
+		<p>
+			<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx） </span>
+			<br />
+			<b>身分證字號（official）</b>：D123456789 （http://www.moi.gov.tw）
+		</p>
+	</blockquote>
+	<blockquote>
   <p>
     <b>識別碼型別</b>：Medical License number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#MD） </span><br/>
     <b>員工編號（official）</b>：KP00017 （https://www.tph.mohw.gov.tw/）
   </p>
+	</blockquote>
   <p>
     <b>健康照護服務提供者的紀錄（active）</b>：使用中
   </p>
@@ -62,12 +76,12 @@ Usage: #example
   </p>
   <p>
     <b>聯絡地址</b>：(330)桃園市桃園區五福五街31號 <br />
-    <b>  郵遞區號（postalCode）</b>[extension: <a href=\"StructureDefinition-tw-postal-code.html\">tw-postal-code</a>]： <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-postal-code3-tw.html\">330</a># </span>
+    <b>  郵遞區號（postalCode）[extension: <a href=\"StructureDefinition-tw-postal-code.html\">tw-postal-code</a>]</b>：<a href=\"CodeSystem-postal-code3-tw.html\">330</a>
     <br />
     <b>  縣/市（district）</b>：桃園市 <br />
     <b>  鄉/鎮/市/區（city）</b>：桃園區 <br />
     <b>  路/街（line）</b>：五福五街 <br />
-    <b>  號（number）</b>[extension: <a href=\"StructureDefinition-tw-number.html\">tw-number</a>]：31號 <br />
+    <b>  號（number）[extension: <a href=\"StructureDefinition-tw-number.html\">tw-number</a>]</b>：31號 <br />
     <b>  國家（country）</b>：臺灣 <br />
   </p>
   <p>

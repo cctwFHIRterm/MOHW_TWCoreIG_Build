@@ -6,7 +6,7 @@ Parent:         Patient
 Id:             Patient-twcore
 Title:          "TW Core Patient"
 Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如何進一步定義FHIR的Patient Resource以呈現基本資料。"
-* ^version = "0.2.1"
+* ^version = "0.2.2"
 * address only TWCoreAddress
 * address MS
 * language ^example.label = "Value"
@@ -18,14 +18,12 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * extension[nationality] ^short = "病人所屬國籍"
 
 * identifier 1..* MS
-//* identifier ^slicing.discriminator[0].type = #value
-//* identifier ^slicing.discriminator[=].path = "type.coding.code"
-//* identifier ^slicing.discriminator[+].type = #value
-//* identifier ^slicing.discriminator[=].path = "type.coding.system"
-//* identifier ^slicing.discriminator[0].type = #pattern
-//* identifier ^slicing.discriminator[=].path = "system"
-//* identifier ^slicing.discriminator[+].type = #pattern
-//* identifier ^slicing.discriminator[=].path = "value"
+//* identifier ^slicing.discriminator.type = #pattern
+//* identifier ^slicing.discriminator.path = "type"
+* identifier ^slicing.discriminator[0].type = #value
+* identifier ^slicing.discriminator[=].path = "type.coding.code"
+* identifier ^slicing.discriminator[+].type = #value
+* identifier ^slicing.discriminator[=].path = "type.coding.system"
 * identifier ^slicing.rules = #open
 * identifier contains
     idCardNumber 0..1 MS and
@@ -38,12 +36,11 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[medicalRecord].type.coding 1..*
 
 * identifier[idCardNumber].system 1.. MS
-* identifier[idCardNumber].system = "http://www.moi.gov.tw/"
+* identifier[idCardNumber].system = "http://www.moi.gov.tw"
 * identifier[idCardNumber].use MS
 * identifier[idCardNumber].use = #official
 * identifier[idCardNumber].type only CodeableConceptTW
-//* identifier[idCardNumber].type 1..1 MS
-* identifier[idCardNumber].type 0..1 MS
+* identifier[idCardNumber].type 1..1 MS
 * identifier[idCardNumber].type from TWIdentifierType (extensible)
 //* identifier[idCardNumber].type.coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/v2-0203"
 //* identifier[idCardNumber].type.coding.code = #NNTWN
@@ -61,8 +58,7 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[passportNumber].use MS
 * identifier[passportNumber].use = #official
 * identifier[passportNumber].type only CodeableConceptTW
-//* identifier[passportNumber].type 1..1 MS
-* identifier[passportNumber].type 0..1 MS
+* identifier[passportNumber].type 1..1 MS
 * identifier[passportNumber].type.text MS
 * identifier[passportNumber].type from TWIdentifierType (extensible)
 //* identifier[passportNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#PPN
@@ -78,8 +74,7 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[residentNumber].use MS
 * identifier[residentNumber].use = #official
 * identifier[residentNumber].type only CodeableConceptTW
-//* identifier[residentNumber].type 1..1 MS
-* identifier[residentNumber].type 0..1 MS
+* identifier[residentNumber].type 1..1 MS
 * identifier[residentNumber].type.coding.code MS
 * identifier[residentNumber].type.coding.system MS
 * identifier[residentNumber].type.coding.display MS
@@ -95,8 +90,7 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[medicalRecord].use MS
 * identifier[medicalRecord].use = #official
 * identifier[medicalRecord].type only CodeableConceptTW
-//* identifier[medicalRecord].type 1..1 MS
-* identifier[medicalRecord].type 0..1 MS
+* identifier[medicalRecord].type 1..1 MS
 * identifier[medicalRecord].type.coding.code MS
 * identifier[medicalRecord].type.coding.system MS
 * identifier[medicalRecord].type.coding.display MS
@@ -297,7 +291,7 @@ Description:    "此臺灣核心-病人（TW Core Patient) Profile說明本IG如
 * identifier[idCardNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
 * identifier[idCardNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
 * identifier[idCardNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace）
-例如：身分證字號='http://www.moi.gov.tw/'"
+例如：身分證字號='http://www.moi.gov.tw'"
 * identifier[idCardNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
 * identifier[idCardNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
 * identifier[idCardNumber].system ^comment = "Identifier.system總是區分大小寫"

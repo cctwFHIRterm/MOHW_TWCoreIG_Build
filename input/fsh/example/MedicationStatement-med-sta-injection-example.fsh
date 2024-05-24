@@ -4,7 +4,7 @@ Instance: med-sta-injection-example
 InstanceOf: TWCoreMedicationStatement
 Usage: #example
 * status = #active
-* category.coding = http://hl7.org/fhir/R4/codesystem-medication-statement-category.html#outpatient "outpatient"
+* category.coding = http://terminology.hl7.org/CodeSystem/medication-statement-category#outpatient "outpatient"
 * category.text = "門診" 
 * medicationCodeableConcept = $medication-fda-tw#衛部菌疫輸字第001080號 "爽胰達注射劑100單位+50微克"
 * medicationCodeableConcept.text = "爽胰達注射劑100單位+50微克"
