@@ -33,7 +33,7 @@
     `GET [base]/Patient?identifier={system|}[code]`
 
     例子：  
-      (1) GET [base]/Patient?identifier=http://www.moi.gov.tw/|A123456789
+      (1) GET [base]/Patient?identifier=http://www.moi.gov.tw|A123456789
 
 
 5. **建議應該（SHOULD）** 支援透過查詢參數 **[`name`](SearchParameter-Patient-name.html)** 查詢所有Patient，該查詢可能與 HumanName 中的任何字串匹配，包括完整的中文姓名(text)、英文姓(family)、英文名(given)、姓名前面的頭銜(prefix)、姓名後面的稱謂(suffix)：                 

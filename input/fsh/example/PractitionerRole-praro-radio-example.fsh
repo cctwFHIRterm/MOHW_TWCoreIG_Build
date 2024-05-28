@@ -13,7 +13,7 @@ Usage: #example
 * period.end = "2024-07-31"
 * practitioner = Reference(Practitioner/pra-radio-example) "王曉明"
 * code = http://snomed.info/sct#159016003 "Medical radiographer"
-* specialty = http://snomed.info/sct#394914008 "Radiology - specialty"
+* specialty = http://snomed.info/sct#394914008 "Radiology"
 * location = Reference(Location/loc-hrad-example) "衛生福利部臺北醫院X光室"
 * telecom.system = #phone
 * telecom.value = "0993277827"

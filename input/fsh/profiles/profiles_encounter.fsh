@@ -15,7 +15,18 @@ Description:    "此臺灣核心-就醫事件（TW Core Encounter) Profile說明
 //* serviceType from http://hl7.org/fhir/ValueSet/service-type (extensible)
 //* serviceType ^example.label = "Value"
 //* serviceType ^example.valueString = "397(Outpatients)；557(Inpatients)"
-* serviceType from TWHealthDepartmentSCT (extensible)
+//* serviceType from TWHealthDepartmentSCT (extensible)
+* serviceType.coding ^slicing.discriminator.type = #pattern
+* serviceType.coding ^slicing.discriminator.path = "system"
+* serviceType.coding ^slicing.rules = #open
+* serviceType.coding contains
+    TWMedicalConsultationDepartmentSCT 0..1 MS and
+    TWMedicalTreatmentDepartmentSCT 0..1 MS 
+* serviceType.coding[TWMedicalConsultationDepartmentSCT] from TWMedicalConsultationDepartmentSCT (required)
+* serviceType.coding[TWMedicalConsultationDepartmentSCT].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-sct-tw"
+* serviceType.coding[TWMedicalTreatmentDepartmentSCT] from TWMedicalTreatmentDepartmentSCT (required)
+* serviceType.coding[TWMedicalTreatmentDepartmentSCT].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-sct-tw"
+
 * subject only Reference(TWCorePatient or Group)
 * participant and participant.type and participant.period and participant.individual MS
 * participant.individual only Reference(TWCorePractitioner or TWCorePractitionerRole or RelatedPerson)

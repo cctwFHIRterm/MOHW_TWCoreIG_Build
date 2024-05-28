@@ -10,22 +10,17 @@ Usage: #definition
 * name = "TWHealthProfessional"
 * title = "臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
 * description = "此對應表為臺灣衛福部統計處藥品使用頻率代碼對應至國際標準碼HL7 TimingAbbreviation，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
-* sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-tw"
+* sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-nhi-tw"
 * targetUri = "http://hl7.org/fhir/ValueSet/timing-abbreviation"
-* group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-tw"
+* group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-nhi-tw"
 * group[=].target = "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"
 * group[=].element[0].code = #QW(x,y,z..)
 * group[=].element[=].display = "每星期x,y,z…使用(x,y,z為一至六、日)"
 * group[=].element[=].target.code = #WK
 * group[=].element[=].target.display = "weekly"
 * group[=].element[=].target.equivalence = #equal
-* group[=].element[+].code = #yWzD
-* group[=].element[=].display = "每y星期用z天(y,z=1,2,3….)"
-* group[=].element[=].target.code = #QOD
-* group[=].element[=].target.display = "QOD"
-* group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #QxD
-* group[=].element[=].display = "每x日一次(x=2,3,4,….)"
+* group[=].element[=].display = "每x日一次(x=2,3,4,…)"
 * group[=].element[=].target.code = #QD
 * group[=].element[=].target.display = "QD"
 * group[=].element[=].target.equivalence = #equal
@@ -88,4 +83,14 @@ Usage: #definition
 * group[=].element[=].display = "每日四次"
 * group[=].element[=].target.code = #QID
 * group[=].element[=].target.display = "QID"
+* group[=].element[=].target.equivalence = #equal
+* group[=].element[+].code = #HS
+* group[=].element[=].display = "睡前一次"
+* group[=].element[=].target.code = #BED
+* group[=].element[=].target.display = "at bedtime"
+* group[=].element[=].target.equivalence = #equal
+* group[=].element[+].code = #QOD
+* group[=].element[=].display = "隔日使用一次"
+* group[=].element[=].target.code = #QOD
+* group[=].element[=].target.display = "QOD"
 * group[=].element[=].target.equivalence = #equal

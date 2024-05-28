@@ -71,28 +71,28 @@
 <tr>
 <td><a href="http://hl7.org/fhir/R4/heartrate.html">心率（Heart rate）</a></td>
 <td>8867-4</td>
-<td>心率 - 為了更完整地記錄這項生命徵象，<strong>可能可以（MAY）</strong>選擇性地加入 8887-2 - 心率設備類型（device type）作為一個附加的檢驗檢查數據。</td>
+<td>心率 - 為了更完整地記錄這項生命徵象，**可能可以(MAY)** 選擇性地加入 8887-2 - 心率設備類型（device type）作為一個附加的檢驗檢查數據。</td>
 <td>/分鐘</td>
 <td><a href="http://hl7.org/fhir/R4/observation-example-heart-rate.html">心率範例（Heart Rate Example）</a></td>
 </tr>
 <tr>
 <td><a href="http://hl7.org/fhir/R4/oxygensat.html">血氧飽和度（Oxygen saturation）</a></td>
 <td>2708-6</td>
-<td>動脈血氧飽和度 - 此代碼用來取代了原有的代碼 59408-5，即透過脈搏血氧儀測量的動脈血中氧飽和度，59408-5 <strong>可能可以（MAY）</strong>作為一個額外的檢驗檢查代碼被納入。</td>
+<td>動脈血氧飽和度 - 此代碼用來取代了原有的代碼 59408-5，即透過脈搏血氧儀測量的動脈血中氧飽和度，59408-5 **可能可以（MAY）** 作為一個額外的檢驗檢查代碼被納入。</td>
 <td>%</td>
 <td><a href="http://hl7.org/fhir/R4/observation-example-satO2.html">血氧飽和度範例</a></td>
 </tr>
 <tr>
 <td><a href="http://hl7.org/fhir/R4/bodytemp.html">體溫（Body temperature）</a></td>
 <td>8310-5</td>
-<td>體溫 - 為了進一步補充這項生命徵象的檢驗檢查資料，<strong>可能可以（MAY）</strong>使用代碼 8327-9 來指明體溫的測量部位（如口腔、額頭、直腸等），並且代碼 8326-1 可以用來描述測量體溫的類型，這些都可以作為附加的檢驗檢查資料。</td>
+<td>體溫 - 為了進一步補充這項生命徵象的檢驗檢查資料，**可能可以（MAY）** 使用代碼 8327-9 來指明體溫的測量部位（如口腔、額頭、直腸等），並且代碼 8326-1 可以用來描述測量體溫的類型，這些都可以作為附加的檢驗檢查資料。</td>
 <td>攝氏、[華氏]</td>
 <td><a href="http://hl7.org/fhir/R4/observation-example-body-temperature.html">體溫範例</a></td>
 </tr>
 <tr>
 <td><a href="http://hl7.org/fhir/R4/bodyheight.html">身高（Body height）</a></td>
 <td>8302-2</td>
-<td>身高 - 為了進一步補充這項生命徵象的檢驗檢查，代碼 8306-3，即躺著時的身體高度（亦即身體長度，這一測量通常用於嬰兒），<strong>可能可以（MAY）</strong>被作為一個附加的檢驗檢查代碼加入。</td>
+<td>身高 - 為了進一步補充這項生命徵象的檢驗檢查，代碼 8306-3，即躺著時的身體高度（亦即身體長度，這一測量通常用於嬰兒），**可能可以（MAY）** 被作為一個附加的檢驗檢查代碼加入。</td>
 <td>cm, [in_i]</td>
 <td><a href="http://hl7.org/fhir/R4/observation-example-body-height.html">身高範例</a></td>
 </tr>
@@ -106,12 +106,12 @@
 <tr>
 <td><a href="http://hl7.org/fhir/R4/bodyweight.html">體重（Body weight）</a></td>
 <td>29463-7</td>
-<td>體重 - 為了更全面地記錄這項生命徵象的檢驗檢查，代碼8352-7指的是測量時穿著的衣物，以及代碼 8361-8，指的是體重測量時身體相對於重力的位置（例如：站立、坐著、躺著等），<strong>可能都可以（MAY） </strong>作為額外的檢驗檢查代碼加入。</td>
+<td>體重 - 為了更全面地記錄這項生命徵象的檢驗檢查，代碼8352-7指的是測量時穿著的衣物，以及代碼 8361-8，指的是體重測量時身體相對於重力的位置（例如：站立、坐著、躺著等），**可能都可以（MAY）** 作為額外的檢驗檢查代碼加入。</td>
 <td>g, kg,[lb_av]</td>
 <td><a href="http://hl7.org/fhir/R4/observation-example.html">Body Weight Example</a></td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-Observation-bmi-twcore.html">身體質量指示（Body mass index）</a></td>
+<td><a href="StructureDefinition-Observation-bmi-twcore.html">身體質量指數（Body mass index）</a></td>
 <td>39156-5</td>
 <td>身體質量指數（Body mass index ，BMI）[比率（Ratio）]</td>
 <td>kg/m2</td>
@@ -120,7 +120,7 @@
 <tr>
 <td><a href="StructureDefinition-Observation-bloodPressure-twcore.html">收縮壓及舒張壓（Blood pressure systolic and diastolic）</a></td>
 <td>85354-9</td>
-<td>一組血壓檢查包含所有可選的子項目 - 這是一個由多個部分組成的檢查。在 <code>Observation.valueQuantity</code>中它不包含具體的值，但至少包括一個component，即收縮壓和/或舒張壓。為了進一步補充這項生命徵象檢驗檢查，可以使用以下額外的檢驗檢查項目：8478-0 - 表示平均血壓、8357-6 - 表示血壓測量方法、41904-4 - 表示血壓測量部位、8358-4 - 表示血壓計袖帶的大小、以及41901-0 - 表示使用的血壓計的類型，<strong>可能都可以（MAY）</strong>作為額外的檢驗檢查代碼加入。</td>
+<td>一組血壓檢查包含所有可選的子項目 - 這是一個由多個部分組成的檢查。在 <code>Observation.valueQuantity</code>中它不包含具體的值，但至少包括一個component，即收縮壓和/或舒張壓。為了進一步補充這項生命徵象檢驗檢查，可以使用以下額外的檢驗檢查項目：8478-0 - 表示平均血壓、8357-6 - 表示血壓測量方法、41904-4 - 表示血壓測量部位、8358-4 - 表示血壓計袖帶的大小、以及41901-0 - 表示使用的血壓計的類型，**可能都可以(MAY)** 作為額外的檢驗檢查代碼加入。</td>
 <td>-</td>
 <td><a href="Observation-obs-bloodPressure-example.html">一組血壓檢查範例</a>, <a href="http://hl7.org/fhir/R4/observation-example-bloodpressure-dar.html">一組血壓檢查範例但缺少舒張壓的值</a></td>
 </tr>

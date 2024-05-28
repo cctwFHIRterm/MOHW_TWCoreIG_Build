@@ -1,6 +1,6 @@
 Alias: $TWMedicalServicePayment = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw
 
-ValueSet: TWMedicalServicePayment
+ValueSet: TWLaboratoryCategory
 Id: laboratory-category-tw
 Title: "臺灣健保署醫療服務給付項目-檢驗值集"
 Description: "臺灣健保署醫療服務給付項目-檢驗值集，參照至[https://www.nhi.gov.tw/ch/lp-2466-1](https://www.nhi.gov.tw/ch/lp-2466-1.html)

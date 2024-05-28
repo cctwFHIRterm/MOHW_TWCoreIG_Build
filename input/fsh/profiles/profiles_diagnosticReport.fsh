@@ -26,7 +26,7 @@ Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport) Profile�
 * code.coding[LOINCObservationCode].system = "http://loinc.org"
 * code.coding[LOINCObservationCode].system MS
 * code.coding[LOINCObservationCode].code 1..1 MS
-* code.coding[TWLaboratoryCategory] from $laboratory-category-tw (required)
+* code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
 * code.coding[TWLaboratoryCategory].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw"
 * code.coding[TWLaboratoryCategory].system MS
 * code.coding[TWLaboratoryCategory].code 1..1 MS

@@ -1,4 +1,4 @@
-Alias: $laboratory-category-tw = https://twcore.mohw.gov.tw/ig/twcore/ValueSet/laboratory-category-tw
+//Alias: $laboratory-category-tw = https://twcore.mohw.gov.tw/ig/twcore/ValueSet/laboratory-category-tw
 Alias: $ResultsLabObservationUvIps = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
 
 Profile:        TWCoreObservationLaboratoryResult
@@ -25,7 +25,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
 * code.coding[LOINCObservationCode].system = "http://loinc.org"
 * code.coding[LOINCObservationCode].system MS
 * code.coding[LOINCObservationCode].code 1..1 MS
-* code.coding[TWLaboratoryCategory] from $laboratory-category-tw (required)
+* code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
 * code.coding[TWLaboratoryCategory].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw"
 * code.coding[TWLaboratoryCategory].system MS
 * code.coding[TWLaboratoryCategory].code 1..1 MS
@@ -45,13 +45,13 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
 * component.code.coding[LOINCObservationCode].system = "http://loinc.org"
 * component.code.coding[LOINCObservationCode].system MS
 * component.code.coding[LOINCObservationCode].code 1..1 MS
-* component.code.coding[TWLaboratoryCategory] from $laboratory-category-tw (required)
+* component.code.coding[TWLaboratoryCategory] from TWMedicalServicePayment (required)
 * component.code.coding[TWLaboratoryCategory].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw"
 * component.code.coding[TWLaboratoryCategory].system MS
 * component.code.coding[TWLaboratoryCategory].code 1..1 MS
 * component.code.coding[LOINCObservationCode] ^short = "LOINC®為Regenstrief Institute, Inc.維護的檢驗事件描述代碼，可免費使用，可優先選用此代碼。"
 * component.code.coding[LOINCObservationCode] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
-* component.code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
+* component.code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * component.code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 
 

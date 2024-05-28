@@ -6,7 +6,7 @@
 
 #### Bundle
 - [臺灣核心-資料交換基本單位（TW Core Bundle）](StructureDefinition-Bundle-twcore.html) 
-  - [臺灣核心-資料交換基本單位-文件 （TW Core Bundle Document）](StructureDefinition-Bundle-document-twcore.html) 
+  - [臺灣核心-資料交換基本單位-文件（TW Core Bundle Document）](StructureDefinition-Bundle-document-twcore.html) 
   - [臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message）](StructureDefinition-Bundle-message-twcore.html) 
 
 #### Composition
@@ -87,10 +87,10 @@
 
 ### Extensions
 以下[Extensions]({{site.data.fhir.path}}extensibility.html)已定義為臺灣核心實作指引（TW Core IG)的一部分。
-- [識別碼後綴詞(Identifier Suffix）](StructureDefinition-identifier-suffix.html)
-- [年齡(Person Age）](StructureDefinition-person-age.html)
+- [識別碼後綴詞（Identifier Suffix）](StructureDefinition-identifier-suffix.html)
+- [年齡（Person Age）](StructureDefinition-person-age.html)
 - [臺灣郵遞區號（TW Postal code）](StructureDefinition-tw-postal-code.html)
-- [臺灣地址欄位-村(里)（TW Village）](StructureDefinition-tw-village.html)
+- [臺灣地址欄位-村（里)（TW Village）](StructureDefinition-tw-village.html)
 - [臺灣地址欄位-鄰（TW Neighborhood）](StructureDefinition-tw-neighborhood.html)
 - [臺灣地址欄位-段（TW Section）](StructureDefinition-tw-section.html)
 - [臺灣地址欄位-巷（TW Lane）](StructureDefinition-tw-lane.html)

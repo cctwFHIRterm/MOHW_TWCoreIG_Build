@@ -14,7 +14,7 @@ Usage: #example
 * authoredOn = "2022-08-01T18:00:14+08:00"
 * requester = Reference(Practitioner/pra-dr-example)
 * reasonReference = Reference(Observation/obs-lab-example)
-* dosageInstruction.timing.code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-tw#PC
+* dosageInstruction.timing.code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-nhi-tw#PC
 * dosageInstruction.timing.code.text = "三餐飯後"
 * dosageInstruction.text = "三餐飯後，口服"
 * dosageInstruction.route.coding = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-path-tw#PO
