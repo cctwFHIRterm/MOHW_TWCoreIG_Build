@@ -8,6 +8,7 @@
             <li>code欄位加上「<a href="ValueSet-icd-10-pcs-2021-tw.html">臺灣健保署2021年中文版ICD-10-PCS值集</a>」的Slices，因實務專案會有此需求。</li>
         </ol>  
         </li>
+		<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：name、identifier欄位改為非必填，因有的實務專案可能不是必填項目。</li> 
         <li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient） </a>：
 			<ol>
             <li>identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw </li>
@@ -381,7 +382,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<thead>
 		<tr class="header">
 			<th style="width:10%; vertical-align: middle;">角色</th>
-      		<th style="width:10%; vertical-align: middle;">貢獻版次</th>
+      <th style="width:10%; vertical-align: middle;">貢獻版次</th>
 			<th style="width:25%; vertical-align: middle;">機構名稱</th>
 			<th style="width:15%; vertical-align: middle;">姓名</th>
 			<th style="width:30%; vertical-align: middle;">所屬單位</th>
@@ -500,12 +501,12 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</td>
 			</tr>
 			<tr>
-			<td style="vertical-align: middle;">貢獻者</td>
+				<td style="vertical-align: middle;">貢獻者</td>
 		  	<td style="vertical-align: middle;">v0.2.0</td>
-			<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
-			<td style="vertical-align: middle;">
-				<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
-			</td>
+				<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
+				<td style="vertical-align: middle;">
+					<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
+				</td>
 			</tr>
 		<tr>
 			<tr>
@@ -558,7 +559,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
 			</td>
 			</tr>
-		</tr>	
+		</tr>
 	</tbody>
 </table>
 </div>

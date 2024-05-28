@@ -1,10 +1,21 @@
 {
   "package-id" : "tw.gov.mohw.twcore",
-  "version" : "0.2.1",
-  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.1",
+  "version" : "0.2.2",
+  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.2",
   "mode" : "milestone",
-  "status" : "ci-build",
+  "status" : "trial-use",
   "sequence" : "Releases",
-  "first" : false,
-  "ci-build" : "http://build.fhir.org/ig/TWCore/tw.gov.mohw.twcore",
+  "descmd" : "2024/5/29 (詳細說明請參照[應用說明](https://twcore.mohw.gov.tw/ig/twcore/0.2.2))：  
+   1. 修改Resource Profile：TW Core DiagnosticReport  
+   2. 修改Resource Profile：TW Core Organization      
+   3. 修改Resource Profile：TW Core Patient    
+   4. 修改Resource Profile：TW Core Practitioner  
+   5. 修改Resource Profile：TW Core Procedure  
+   6. 修改Extension: Identifier Suffix   
+   7. Data Type Profile: 臺灣核心-地址（TW Core Address）  
+   8. 修改代碼系統(CodeSystems)  
+   9. 修改值集(ValueSets)  
+   10. 修改概念對應(ConceptMaps)  
+  ",
+  "first" : false
 }
