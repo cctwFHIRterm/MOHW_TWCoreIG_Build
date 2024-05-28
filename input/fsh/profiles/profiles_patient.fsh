@@ -5,8 +5,10 @@ Profile:        TWCorePatient
 Parent:         Patient
 Id:             Patient-twcore
 Title:          "TW Core Patient"
-Description:    "- 2024/5/29異動說明：identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw。  
-
+Description:    "- 2024/5/29異動說明：    
+1. identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw。  
+2. identifier:passportNumber欄位的identifier.system改為 = http://www.boca.gov.tw。  
+3. identifier:residentNumber欄位的identifier.system改為 = http://www.immigration.gov.tw。  
 
 此臺灣核心-病人（TW Core Patient) Profile說明本IG如何進一步定義FHIR的Patient Resource以呈現基本資料。"
 * ^version = "0.2.2"

@@ -8,12 +8,20 @@
             <li>code欄位加上「<a href="ValueSet-icd-10-pcs-2021-tw.html">臺灣健保署2021年中文版ICD-10-PCS值集</a>」的Slices，因實務專案會有此需求。</li>
         </ol>  
         </li>
-        <li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient） </a>：identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw 。</li> 
+        <li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient） </a>：
+			<ol>
+            <li>identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw </li>
+			<li>identifier:passportNumber欄位的identifier.system改為 = http://www.boca.gov.tw </li>
+			<li>identifier:residentNumber欄位的identifier.system改為 = http://www.immigration.gov.tw </li>   
+		</ol>     
+        </li> 
         <li>修改<a href="StructureDefinition-Practitioner-twcore.html">Resource Profile: 臺灣核心-健康照護服務提供者（TW Core Practitioner）</a>：
-         <ol>
+        <ol>
             <li>name欄位改為非必填、name.use欄位固定值取消，因有的實務專案可能不是必填項目。</li>
             <li>identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw </li>
-        </ol>     
+			<li>identifier:passportNumber欄位的identifier.system改為 = http://www.boca.gov.tw </li>
+			<li>identifier:residentNumber欄位的identifier.system改為 = http://www.immigration.gov.tw </li>   
+		</ol>     
         </li>   
 		<li>修改<a href="StructureDefinition-Procedure-twcore.html">Resource Profile: 臺灣核心-處置或手術（TW Core Procedure）</a>：
         <ol>
@@ -24,7 +32,6 @@
         </li>
         <li>修改<a href="StructureDefinition-identifier-suffix.html">Extension: Identifier Suffix </a>：增加Practitioner.identifier.type.coding.code欄位也可使用此Extension，以利實務專案使用。</li> 
  		<li>修改<a href="StructureDefinition-Address-twcore.html">Data Type Profile: 臺灣核心-地址（TW Core Address）</a>：postalCode.coding.code欄位的Card.改為1..1。</li>  
-  		<li>修改<a href="Practitioner-pra-dr-example.html">Example Practitioner: 醫師</a>：identifier欄位改以填入身份證字號演示，以增加範例多元性。</li> 
 		<li>修改<a href="terminologies.html">代碼系統(CodeSystems)</a>：
         <ol>
             <li>修改「<a href="CodeSystem-medical-treatment-department-nhi-tw.html">CodeSystems: 臺灣健保署診療科別」</a></li>   

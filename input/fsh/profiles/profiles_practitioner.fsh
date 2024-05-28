@@ -6,7 +6,8 @@ Description:    "
 - 2024/5/29異動說明：  
 1. name欄位改為非必填、name.use欄位固定值取消，因有的實務專案可能不是必填項目。  
 2. identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw。  
-
+3. identifier:passportNumber欄位的identifier.system改為 = http://www.boca.gov.tw。  
+4. identifier:residentNumber欄位的identifier.system改為 = http://www.immigration.gov.tw。  
 
 此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
 * ^version = "0.2.2"
