@@ -7,13 +7,13 @@ Description:    "此臺灣核心-機構（TW Core Organization）Profile說明�
 * ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
-* name 1..1 MS
+* name MS
 * type 0..1 MS
 * identifier.type from TWIdentifierType (extensible)
-* identifier 1.. MS
+* identifier MS
 * identifier.system MS
 * identifier.use and identifier.type MS
-* identifier.value 1..1 MS
+* identifier.value MS
 * address only TWCoreAddress
 * telecom MS
 * telecom.system MS
