@@ -2,10 +2,7 @@ Profile: TWCoreMessageHeader
 Parent: MessageHeader
 Id: MessageHeader-twcore
 Title: "TW Core MessageHeader"
-Description: "- 2024/4/9異動說明：查詢參數 author、sender的強制程度改為「建議應該(SHOULD)」，以利實務專案使用。
-
-
-此臺灣核心-訊息表頭（TW Core MessageHeader) Profile說明本IG如何進一步定義FHIR的MessageHeader Resource以呈現訊息表頭的詳細資料。"
+Description: "此臺灣核心-訊息表頭（TW Core MessageHeader) Profile說明本IG如何進一步定義FHIR的MessageHeader Resource以呈現訊息表頭的詳細資料。"
 * ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

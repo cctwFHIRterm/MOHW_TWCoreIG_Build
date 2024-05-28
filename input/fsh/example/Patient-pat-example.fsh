@@ -83,7 +83,7 @@ Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 	<h3>
-		<b>病人基本資料</b>
+		<b>病人基本資料-身分證字號</b>
 	</h3>
 	<blockquote>
 		<p>

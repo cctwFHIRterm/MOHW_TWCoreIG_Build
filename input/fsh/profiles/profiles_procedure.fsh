@@ -4,7 +4,15 @@ Profile:        TWCoreProcedure
 Parent:         Procedure
 Id:             Procedure-twcore
 Title:          "TW Core Procedure"
-Description:    "此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
+Description:    "
+- 2024/5/29異動說明：  
+1. code欄位增加「ValueSet: LOINC處置或手術值集」，以利實務專案使用。
+2. code欄位修正原所綁定的「ValueSet: 臺灣健保署醫療服務給付項目-檢驗值集」，以利實務專案使用。    
+3. code欄位取消原所綁定的「ValueSet: 臺灣2001年中文版ICD-9-CM值集」，因此值集為疾病相關代碼，實務上不會再此Profile中使用到。   
+ 
+
+ 
+此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
 
 "
 * ^version = "0.2.2"

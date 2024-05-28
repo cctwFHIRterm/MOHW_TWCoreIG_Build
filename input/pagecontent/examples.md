@@ -82,7 +82,8 @@
 - [公司行號基本資料](Organization-org-co-example.html)：依據臺灣核心-公司行號（TW Core Organization Insurance Company）Profile呈現公司行號基本資料之範例
 
 ### Patient 
-- [病人基本資料](Patient-pat-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人基本資料之範例
+- [病人基本資料-身分證字號](Patient-pat-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人基本資料之範例
+- [病人基本資料-居留證號碼](Patient-pat-residentNumber-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人基本資料之範例
 
 ### Practitioner
 - [醫師](Practitioner-pra-dr-example.html)：依據臺灣核心-健康照護服務提供者（TW Core Practitioner）Profile呈現醫師基本資料之範例

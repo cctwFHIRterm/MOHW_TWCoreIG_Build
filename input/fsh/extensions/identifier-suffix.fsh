@@ -1,7 +1,10 @@
 Extension: IdentifierSuffix
 Id: identifier-suffix
 Title: "Identifier Suffix"
-Description: "識別碼後綴詞"
+Description: "
+- 增加Practitioner.identifier.type.coding.code欄位也可使用此Extension，以利實務專案使用  
+
+識別碼後綴詞"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/identifier-suffix"
 * ^version = "0.2.2"
 * ^status = #active

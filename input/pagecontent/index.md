@@ -1,5 +1,5 @@
 <div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
-因考量實作需求，於2024/5/28異動以下內容：
+因考量實作需求，於2024/5/29異動以下內容：
     <ol>   
 		<li>修改<a href="StructureDefinition-DiagnosticReport-twcore.html">Resource Profile: 臺灣核心-診斷報告（TW Core DiagnosticReport）</a>：
         <ol>
@@ -8,7 +8,7 @@
             <li>code欄位加上「<a href="ValueSet-icd-10-pcs-2021-tw.html">臺灣健保署2021年中文版ICD-10-PCS值集</a>」的Slices，因實務專案會有此需求。</li>
         </ol>  
         </li>
-        <li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient) </a>：identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw 。</li> 
+        <li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient） </a>：identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw 。</li> 
         <li>修改<a href="StructureDefinition-Practitioner-twcore.html">Resource Profile: 臺灣核心-健康照護服務提供者（TW Core Practitioner）</a>：
          <ol>
             <li>name欄位改為非必填、name.use欄位固定值取消，因有的實務專案可能不是必填項目。</li>
@@ -25,7 +25,29 @@
         <li>修改<a href="StructureDefinition-identifier-suffix.html">Extension: Identifier Suffix </a>：增加Practitioner.identifier.type.coding.code欄位也可使用此Extension，以利實務專案使用。</li> 
  		<li>修改<a href="StructureDefinition-Address-twcore.html">Data Type Profile: 臺灣核心-地址（TW Core Address）</a>：postalCode.coding.code欄位的Card.改為1..1。</li>  
   		<li>修改<a href="Practitioner-pra-dr-example.html">Example Practitioner: 醫師</a>：identifier欄位改以填入身份證字號演示，以增加範例多元性。</li> 
- 		<li>修改<a href="ValueSet-loinc-observation-code.html">ValueSet: LOINC實驗室檢驗檢查值集</a>：將包含範圍擴大到LOINC CLASSTYPE = 1 或 2，以利實務專案使用。</li>
+		<li>修改<a href="terminologies.html">代碼系統(CodeSystems)</a>：
+        <ol>
+            <li>修改「<a href="CodeSystem-medical-treatment-department-nhi-tw.html">CodeSystems: 臺灣健保署診療科別」</a></li>   
+			<li>新增「<a href="CodeSystem-medication-frequency-nhi-tw.html">CodeSystems: 臺灣健保署藥品使用頻率」</a></li>   
+		    <li>新增「<a href="CodeSystem-medical-consultation-department-nhi-tw.html">CodeSystems: 臺灣健保署就醫科別」</a>並在<a href="StructureDefinition-Encounter-twcore.html">Encounter.serviceType</a>、<a href="StructureDefinition-PractitionerRole-twcore.html">PractitionerRole.specialty</a>中增加slice綁定此代碼。</li>        
+		</ol>  
+        </li>
+		<li>修改<a href="terminologies.html">值集(ValueSets)</a>：
+        <ol>
+			<li>修改「<a href="ValueSet-loinc-observation-code.html">ValueSet: LOINC實驗室檢驗檢查值集</a>」：將包含範圍擴大到LOINC CLASSTYPE = 1 或 2，以利實務專案使用</li>
+            <li>修改<a href="ValueSet-medical-treatment-department-nhi-tw.html">ValueSet: 臺灣健保署診療科別值集</a></li>
+            <li>修改<a href="ValueSet-medical-treatment-department-sct-tw.html">ValueSet: SNOMED CT + 臺灣健保署診療科別值集</a>並在<a href="StructureDefinition-Encounter-twcore.html">Encounter.serviceType</a>、<a href="StructureDefinition-PractitionerRole-twcore.html">PractitionerRole.specialty</a>中增加slice綁定此代碼。</li>
+			<li>新增<a href="ValueSet-medication-frequency-nhi-tw.html">ValueSet: 臺灣健保署藥品使用頻率值集</a></li>
+			<li>新增<a href="ValueSet-medical-consultation-department-sct-tw.html">ValueSet: SNOMED CT + 臺灣健保署就醫科別值集</a>並在<a href="StructureDefinition-Encounter-twcore.html">Encounter.serviceType</a>、<a href="StructureDefinition-PractitionerRole-twcore.html">PractitionerRole.specialty</a>中增加slice綁定此代碼。</li>
+			<li>新增<a href="ValueSet-procedure-tw.html">ValueSet: 臺灣健保署醫療服務給付項目-處置或手術值集</a>並在<a href="StructureDefinition-Procedure-twcore.html">Procedure.code</a>中的slice綁定此代碼。</li>
+		</ol>  
+        </li>
+		<li>修改<a href="terminologies.html">概念對應(ConceptMaps)</a>：
+        <ol>
+            <li>修改<a href="ConceptMap-medical-treatment-department-nhi-tw.html">ConceptMaps: 臺灣健保署診療科別代碼對應SNOMED CT</a></li>
+            <li>新增<a href="ConceptMap-medical-consultation-department-nhi-tw.html">ConceptMaps: 臺灣健保署就醫科別代碼對應SNOMED CT</a></li>
+		</ol>  
+        </li>
     </ol>
     請留意這些異動，以避免影響您的實作。
 </div>

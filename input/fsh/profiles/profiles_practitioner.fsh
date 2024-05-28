@@ -2,7 +2,11 @@ Profile:        TWCorePractitioner
 Parent:         Practitioner
 Id:             Practitioner-twcore
 Title:          "TW Core Practitioner"
-Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號、護照號碼、居留證號碼的設定，以利實務專案使用。
+Description:    "
+- 2024/5/29異動說明：  
+1. name欄位改為非必填、name.use欄位固定值取消，因有的實務專案可能不是必填項目。  
+2. identifier:idCardNumber欄位的identifier.system改為 = http://www.moi.gov.tw。  
+
 
 此臺灣核心-健康照護服務提供者（TW Core Practitioner) Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
 * ^version = "0.2.2"
@@ -50,7 +54,7 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[idCardNumber].type.coding.system MS
 * identifier[idCardNumber].type.coding.display MS
 * identifier[passportNumber].system 1.. MS
-* identifier[passportNumber].system = "http://www.boca.gov.tw/"
+* identifier[passportNumber].system = "http://www.boca.gov.tw"
 * identifier[passportNumber].use MS
 * identifier[passportNumber].use = #official
 * identifier[passportNumber].type only CodeableConceptTW
@@ -65,7 +69,7 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[passportNumber].type.coding.display MS
 * identifier[passportNumber].value 1.. MS
 * identifier[residentNumber].system 1.. MS
-* identifier[residentNumber].system = "http://www.immigration.gov.tw/"
+* identifier[residentNumber].system = "http://www.immigration.gov.tw"
 * identifier[residentNumber].use MS
 * identifier[residentNumber].use = #official
 * identifier[residentNumber].type only CodeableConceptTW
@@ -287,7 +291,7 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[passportNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
 * identifier[passportNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
 * identifier[passportNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace）
-例如：護照號碼='http://www.boca.gov.tw/。"
+例如：護照號碼='http://www.boca.gov.tw。"
 * identifier[passportNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
 * identifier[passportNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
 * identifier[passportNumber].system ^comment = "Identifier.system總是區分大小寫"
@@ -339,7 +343,7 @@ Description:    "- 2024/4/9異動說明：identifier欄位增加身分證字號�
 * identifier[residentNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
 * identifier[residentNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
 * identifier[residentNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace）
-例如：居留證號='http://www.immigration.gov.tw/'。"
+例如：居留證號='http://www.immigration.gov.tw'。"
 * identifier[residentNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
 * identifier[residentNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
 * identifier[residentNumber].system ^comment = "Identifier.system總是區分大小寫"
