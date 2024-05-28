@@ -28,7 +28,7 @@
         <ol>
             <li>code欄位增加「<a href="ValueSet-loinc-procedure-code.html">ValueSet: LOINC處置或手術值集</a>」，以利實務專案使用。</li>
             <li>code欄位修正原所綁定的「<a href="ValueSet-laboratory-category-tw.html">ValueSet: 臺灣健保署醫療服務給付項目-檢驗值集</a>」，以利實務專案使用。</li>  
-            <li>code欄位取消原所綁定的「<a href="ValueSet-icd-9-cm-2001-tw.html">ValueSet: 臺灣2001年中文版ICD-9-CM值集</a>」，因此值集為疾病相關代碼，實務上不會再此Profile中使用到。</li>
+            <li>code欄位取消原所綁定的「<a href="ValueSet-icd-9-cm-2001-tw.html">ValueSet: 臺灣2001年中文版ICD-9-CM值集</a>」，因此值集為疾病相關代碼，實務上不會在此Profile中使用到。</li>
         </ol>  
         </li>
         <li>修改<a href="StructureDefinition-identifier-suffix.html">Extension: Identifier Suffix </a>：增加Practitioner.identifier.type.coding.code欄位也可使用此Extension，以利實務專案使用。</li> 
