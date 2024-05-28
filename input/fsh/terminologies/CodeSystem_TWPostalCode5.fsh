@@ -70,7 +70,7 @@ Description: "臺灣中華郵政5碼郵遞區號，參照自[https://www.post.go
 * #10006 ^property[=].valueString = "2022-06"
 * #10006 ^property[+].code = #event
 * #10006 ^property[=].valueString = "新增"
-* #10007 "臺北市中正區重慶南路1段" "臺北市中正區重慶南路1段120號"
+/* #10007 "臺北市中正區重慶南路1段" "臺北市中正區重慶南路1段120號"
 * #10007 ^property[0].code = #district
 * #10007 ^property[=].valueString = "臺北市"
 * #10007 ^property[+].code = #city
@@ -52566,4 +52566,4 @@ Description: "臺灣中華郵政5碼郵遞區號，參照自[https://www.post.go
 * #98392 ^property[+].code = #updateDate
 * #98392 ^property[=].valueString = "2022-06"
 * #98392 ^property[+].code = #event
-* #98392 ^property[=].valueString = "新增"
+* #98392 ^property[=].valueString = "新增"*/

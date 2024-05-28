@@ -35,7 +35,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * ^copyright = "中華郵政"
 * ^caseSensitive = true
 * ^content = #complete
-* #100 "臺北市中正區"
+/* #100 "臺北市中正區"
 * #100 ^property[0].code = #event
 * #100 ^property[=].valueString = "新增"
 * #100 ^property[+].code = #district
@@ -43,7 +43,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #100 ^property[+].code = #city
 * #100 ^property[=].valueString = "中正區"
 * #100 ^property[+].code = #updateDate
-* #100 ^property[=].valueString = "2015-01"
+* #100 ^property[=].valueString = "2015-01"*/
 * #103 "臺北市大同區"
 * #103 ^property[0].code = #event
 * #103 ^property[=].valueString = "新增"
@@ -53,7 +53,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #103 ^property[=].valueString = "大同區"
 * #103 ^property[+].code = #updateDate
 * #103 ^property[=].valueString = "2015-01"
-* #104 "臺北市中山區"
+/* #104 "臺北市中山區"
 * #104 ^property[0].code = #event
 * #104 ^property[=].valueString = "新增"
 * #104 ^property[+].code = #district
@@ -61,7 +61,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #104 ^property[+].code = #city
 * #104 ^property[=].valueString = "中山區"
 * #104 ^property[+].code = #updateDate
-* #104 ^property[=].valueString = "2015-01"
+* #104 ^property[=].valueString = "2015-01"*/
 * #105 "臺北市松山區"
 * #105 ^property[0].code = #event
 * #105 ^property[=].valueString = "新增"
@@ -71,7 +71,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #105 ^property[=].valueString = "松山區"
 * #105 ^property[+].code = #updateDate
 * #105 ^property[=].valueString = "2015-01"
-* #106 "臺北市大安區"
+/* #106 "臺北市大安區"
 * #106 ^property[0].code = #event
 * #106 ^property[=].valueString = "新增"
 * #106 ^property[+].code = #district
@@ -797,7 +797,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #328 ^property[+].code = #event
 * #328 ^property[=].valueString = "新增"
 * #328 ^property[+].code = #updateDate
-* #328 ^property[=].valueString = "2015-01"
+* #328 ^property[=].valueString = "2015-01"*/
 * #330 "桃園市桃園區"
 * #330 ^property[0].code = #city
 * #330 ^property[=].valueString = "桃園區"
@@ -807,7 +807,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #330 ^property[=].valueString = "桃園市"
 * #330 ^property[+].code = #event
 * #330 ^property[=].valueString = "新增"
-* #333 "桃園市龜山區"
+/* #333 "桃園市龜山區"
 * #333 ^property[0].code = #event
 * #333 ^property[=].valueString = "新增"
 * #333 ^property[+].code = #city
@@ -1121,7 +1121,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #413 ^property[+].code = #district
 * #413 ^property[=].valueString = "臺中市"
 * #413 ^property[+].code = #city
-* #413 ^property[=].valueString = "霧峰區"
+* #413 ^property[=].valueString = "霧峰區"*/
 * #414 "臺中市烏日區"
 * #414 ^property[0].code = #event
 * #414 ^property[=].valueString = "新增"
@@ -1131,7 +1131,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #414 ^property[=].valueString = "2015-01"
 * #414 ^property[+].code = #district
 * #414 ^property[=].valueString = "臺中市"
-* #420 "臺中市豐原區"
+/* #420 "臺中市豐原區"
 * #420 ^property[0].code = #updateDate
 * #420 ^property[=].valueString = "2015-01"
 * #420 ^property[+].code = #event
@@ -2874,7 +2874,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #909 ^property[+].code = #updateDate
 * #909 ^property[=].valueString = "2023-12"
 * #909 ^property[+].code = #district
-* #909 ^property[=].valueString = "屏東縣"
+* #909 ^property[=].valueString = "屏東縣"*/
 * #911 "屏東縣竹田鄉"
 * #911 ^property[0].code = #event
 * #911 ^property[=].valueString = "修改"
@@ -2884,7 +2884,7 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #911 ^property[=].valueString = "屏東縣"
 * #911 ^property[+].code = #city
 * #911 ^property[=].valueString = "竹田"
-* #912 "屏東縣內埔鄉"
+/* #912 "屏東縣內埔鄉"
 * #912 ^property[0].code = #city
 * #912 ^property[=].valueString = "內埔"
 * #912 ^property[+].code = #event
@@ -3342,4 +3342,4 @@ Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.go
 * #983 ^property[+].code = #updateDate
 * #983 ^property[=].valueString = "2023-12"
 * #983 ^property[+].code = #event
-* #983 ^property[=].valueString = "修改"
+* #983 ^property[=].valueString = "修改"*/
