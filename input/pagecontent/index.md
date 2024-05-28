@@ -381,7 +381,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<thead>
 		<tr class="header">
 			<th style="width:10%; vertical-align: middle;">角色</th>
-      <th style="width:10%; vertical-align: middle;">貢獻版次</th>
+      		<th style="width:10%; vertical-align: middle;">貢獻版次</th>
 			<th style="width:25%; vertical-align: middle;">機構名稱</th>
 			<th style="width:15%; vertical-align: middle;">姓名</th>
 			<th style="width:30%; vertical-align: middle;">所屬單位</th>
@@ -483,7 +483,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 				<a href="mailto:aewqoo832456@gmail.com">aewqoo832456@gmail.com</a>
 			</td>
 			</tr>
-   			 <tr>
+   			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">陳杏宜（Hsin-Yi Chen）</td>
@@ -500,14 +500,14 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</td>
 			</tr>
 			<tr>
-				<td style="vertical-align: middle;">貢獻者</td>
+			<td style="vertical-align: middle;">貢獻者</td>
 		  	<td style="vertical-align: middle;">v0.2.0</td>
-				<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
-				<td style="vertical-align: middle;">
-					<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
-				</td>
+			<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
+			<td style="vertical-align: middle;">
+				<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
+			</td>
 			</tr>
-			<tr>
+		<tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.1.1</td>
@@ -516,8 +516,8 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">
 				<a href="mailto:shvoidlee@gmail.com">shvoidlee@gmail.com</a>
 			</td>
-		</tr>
-		<tr>
+			</tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
 			<td style="vertical-align: middle;">李修安（Hsiu-An Lee）</td>
@@ -526,8 +526,8 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">
 				<a href="mailto:billy72325@gmail.com">billy72325@gmail.com</a>
 			</td>
-		</tr>
-		<tr>
+			</tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">劉貞沂（Zhen-Yi Liu）</td>
@@ -536,8 +536,8 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">
 				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
 			</td>
-		</tr>
-		<tr>
+			</tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">燕洛嫺（Luo-Xian Yan）</td>
@@ -546,8 +546,8 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">
 				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
 			</td>
-		</tr>
-		<tr>
+			</tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
@@ -557,7 +557,8 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">
 				<a href="mailto:ceo@sita.tech">ceo@sita.tech</a>
 			</td>
-		</tr>
+			</tr>
+		</tr>	
 	</tbody>
 </table>
 </div>
