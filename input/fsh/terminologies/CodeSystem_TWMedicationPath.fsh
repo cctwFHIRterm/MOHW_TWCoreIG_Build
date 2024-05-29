@@ -199,11 +199,11 @@ Description: "臺灣衛福部統計處給藥途徑，參照至[https://dep.mohw.
 * #TOPI ^property[=].valueString = "新增"
 * #TOPI ^property[+].code = #updateDate
 * #TOPI ^property[=].valueString = "2014-03"
-* #TRN "全靜脈營養劑"
-* #TRN ^property[0].code = #event
-* #TRN ^property[=].valueString = "新增"
-* #TRN ^property[+].code = #updateDate
-* #TRN ^property[=].valueString = "2014-03"
+* #TPN "全靜脈營養劑"
+* #TPN ^property[0].code = #event
+* #TPN ^property[=].valueString = "新增"
+* #TPN ^property[+].code = #updateDate
+* #TPN ^property[=].valueString = "2014-03"
 * #VAG "陰道用"
 * #VAG ^property[0].code = #event
 * #VAG ^property[=].valueString = "新增"

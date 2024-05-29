@@ -38,6 +38,6 @@ Description: "SNOMED CT + 臺灣衛福部統計處給藥途徑值集。
 * $TWMedicationPath#SPI "脊髓"
 * SNOMED_CT#37161004
 * SNOMED_CT#6064005
-* $TWMedicationPath#TRN "全靜脈營養劑"
+* $TWMedicationPath#TPN "全靜脈營養劑"
 * SNOMED_CT#16857009 
 * $TWMedicationPath#IRRIG "沖洗(irrigation)"
