@@ -12,16 +12,13 @@ Description:    "此臺灣核心-健康照護服務提供者角色（TW Core Pra
 //* specialty from TWHealthDepartmentSCT (extensible)
 
 * specialty.coding ^slicing.discriminator.type = #pattern
-* specialty.coding ^slicing.discriminator.path = "system"
+* specialty.coding ^slicing.discriminator.path = "$this"
 * specialty.coding ^slicing.rules = #open
 * specialty.coding contains
     TWMedicalConsultationDepartmentSCT 0..1 MS and
     TWMedicalTreatmentDepartmentSCT 0..1 MS 
 * specialty.coding[TWMedicalConsultationDepartmentSCT] from TWMedicalConsultationDepartmentSCT (required)
-* specialty.coding[TWMedicalConsultationDepartmentSCT].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-sct-tw"
 * specialty.coding[TWMedicalTreatmentDepartmentSCT] from TWMedicalTreatmentDepartmentSCT (required)
-* specialty.coding[TWMedicalTreatmentDepartmentSCT].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-sct-tw"
-
 
 
 * telecom.system 1..
