@@ -44,12 +44,14 @@ Description:    "此臺灣核心-病情、問題或診斷（TW Core Condition) P
 * code.coding ^slicing.rules = #open
 //* code.coding ^definition = "Identification of the condition, problem or diagnosis or recording of \"problem absent\" or of \"problems unknown\"."
 * code.coding contains
+    icd10-cm-2023 0..1 MS and
     icd10-cm-2021 0..1 MS and
     icd10-cm-2014 0..1 MS and
     icd9-cm-2001 0..1 MS and
     absentOrUnknownProblem 0..1 MS and
     sct 0..1 MS
 * code.coding[absentOrUnknownProblem] from $absent-or-unknown-problems-uv-ips (required)
+* code.coding[icd10-cm-2023] from TW2023ICD10CM (required)
 * code.coding[icd10-cm-2021] from TW2021ICD10CM (required)
 * code.coding[icd10-cm-2014] from TW2014ICD10CM (required)
 * code.coding[icd9-cm-2001] from TW2001ICD9CM (required)

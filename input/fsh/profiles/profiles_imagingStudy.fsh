@@ -12,9 +12,11 @@ Description: "此臺灣核心-影像檢查（TW Core ImagingStudy) Profile說明
 * procedureCode.coding ^slicing.rules = #open
 * procedureCode.coding contains
     radLex-radiology-lexicon 0..1 MS and 
-    icd10-pcs-2021 0..1 MS 
+    icd10-pcs-2021 0..1 MS and
+    icd10-pcs-2023 0..1 MS
 * procedureCode.coding[radLex-radiology-lexicon] from http://www.rsna.org/RadLex_Playbook.aspx
 * procedureCode.coding[icd10-pcs-2021] from TW2021ICD10PCS
+* procedureCode.coding[icd10-pcs-2023] from TW2023ICD10PCS
 * procedureCode only CodeableConceptTW
 * reasonCode only CodeableConceptTW
 * reasonCode from http://hl7.org/fhir/ValueSet/procedure-reason (extensible)
