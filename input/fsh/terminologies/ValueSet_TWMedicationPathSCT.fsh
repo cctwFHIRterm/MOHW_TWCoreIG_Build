@@ -12,7 +12,6 @@ Description: "SNOMED CT + 臺灣衛福部統計處給藥途徑值集。
 * ^experimental = false
 * include codes from system SNOMED_CT where concept is-a #284009009
 * SNOMED_CT#10547007
-* $TWMedicationPath#CHEMO "化學治療"
 * $TWMedicationPath#ET "氣內切"
 * $TWMedicationPath#GAR "潄口用"
 * SNOMED_CT#1611000175109 

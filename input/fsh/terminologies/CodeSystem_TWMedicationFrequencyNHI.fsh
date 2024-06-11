@@ -24,7 +24,7 @@ Description: "臺灣健保署藥品使用頻率，參照至[https://www.nhi.gov.
 * ^property[+].code = #updateDate
 * ^property[=].description = "異動日期"
 * ^property[=].type = #string
-* ^copyright = "衛生福利部統計處"
+* ^copyright = "衛生福利部"
 * ^caseSensitive = true
 * ^content = #complete
 * #QW(x,y,z..) "每星期x,y,z…使用(x,y,z為一至六、日)"

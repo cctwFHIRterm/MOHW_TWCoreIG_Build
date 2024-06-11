@@ -2,14 +2,12 @@ Alias: $TWMedicationFrequencyNHI = https://twcore.mohw.gov.tw/ig/twcore/CodeSyst
 
 ValueSet: TWMedicationFrequencyHL7
 Id: medication-frequency-hl7-tw
-Title: "HL7 TimingAbbreviation + 臺灣健保署 + 臺灣衛福部統計處藥品使用頻率值集"
-Description: "HL7 TimingAbbreviation + 臺灣健保署 + 臺灣衛福部統計處藥品使用頻率值集。
-
-此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣健保署標準碼表述，請實作者留意。"
+Title: "HL7 TimingAbbreviation + 臺灣健保署藥品使用頻率值集"
+Description: "HL7 TimingAbbreviation + 臺灣健保署藥品使用頻率值集。"
 * ^experimental = false
 * ^date = "2024-01-16"
 * ^version = "0.2.2"
-* ^copyright = "衛生福利部統計處"
+* ^copyright = "衛生福利部"
 * ^experimental = false
 * include codes from system http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation
 * $TWMedicationFrequencyNHI#MCDxDy "月經第x天至第y天使用(x,y=1,2,3….)"

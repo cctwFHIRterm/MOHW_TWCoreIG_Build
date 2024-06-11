@@ -1,6 +1,6 @@
 Instance: medication-frequency-tw
 InstanceOf: ConceptMap
-Title: "臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
+Title: "臺灣健保署藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
 //Description :  "臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation，當代碼無法對應至國際標準碼時將以普遍被使用的臺灣衛福部統計處臺灣標準碼為主，概念對應出版日期：2024-01-16；資料所屬單位：衛生福利部。"
 Usage: #definition
 * experimental = false
@@ -8,8 +8,8 @@ Usage: #definition
 * date = "2024-01-16"
 * version = "0.2.2"
 * name = "TWHealthProfessional"
-* title = "臺灣衛福部統計處藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
-* description = "此對應表為臺灣衛福部統計處藥品使用頻率代碼對應至國際標準碼HL7 TimingAbbreviation，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
+* title = " 臺灣健保署藥品使用頻率代碼對應對應HL7 TimingAbbreviation"
+* description = "此對應表為臺灣健保署藥品使用頻率代碼對應對應HL7 TimingAbbreviation，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-frequency-nhi-tw"
 * targetUri = "http://hl7.org/fhir/ValueSet/timing-abbreviation"
 * group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-frequency-nhi-tw"
