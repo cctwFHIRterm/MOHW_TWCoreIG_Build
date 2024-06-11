@@ -13,7 +13,7 @@ Description:    "
 * name MS
 * type 0..1 MS
 * identifier.type from TWIdentifierType (extensible)
-* identifier 1.. MS
+* identifier MS
 * identifier.system MS
 * identifier.use and identifier.type MS
 * identifier.value MS

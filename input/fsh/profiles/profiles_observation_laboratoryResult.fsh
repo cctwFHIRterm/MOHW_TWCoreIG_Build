@@ -45,7 +45,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
 * component.code.coding[LOINCObservationCode].system = "http://loinc.org"
 * component.code.coding[LOINCObservationCode].system MS
 * component.code.coding[LOINCObservationCode].code 1..1 MS
-* component.code.coding[TWLaboratoryCategory] from TWMedicalServicePayment (required)
+* component.code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
 * component.code.coding[TWLaboratoryCategory].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw"
 * component.code.coding[TWLaboratoryCategory].system MS
 * component.code.coding[TWLaboratoryCategory].code 1..1 MS

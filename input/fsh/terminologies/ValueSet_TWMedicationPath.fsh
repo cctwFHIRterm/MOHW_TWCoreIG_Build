@@ -1,11 +1,11 @@
 ValueSet: TWMedicationPath
 Id: medication-path-tw
-Title: "臺灣衛福部統計處給藥途徑值集"
-Description: "臺灣衛福部統計處給藥途徑值集   
-資料所屬單位：衛生福利部統計處。"
-* ^date = "2014-03-05"
-* ^version = "2022-01-28"
-* ^copyright = "衛生福利部統計處"
+Title: "臺灣健保給藥途徑值集"
+Description: "臺灣健保給藥途徑值集   
+資料所屬單位：衛生福利部中央健康保險署。"
+* ^date = "2022-08-02"
+* ^version = "2024-06-04"
+* ^copyright = "衛生福利部中央健康保險署"
 * ^experimental = false
 * include codes from system TWMedicationPath
 * ^text.status = #generated

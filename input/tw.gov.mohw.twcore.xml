@@ -1534,7 +1534,7 @@
 		</parameter>
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="Trial Use"/>
+			<value value="Ci-Build Trial Use"/>
 		</parameter>
 		<parameter>
 			<code value="find-other-resources"/>
