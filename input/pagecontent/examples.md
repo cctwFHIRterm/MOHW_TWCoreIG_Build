@@ -9,6 +9,7 @@
 ### Bundle
 - [Transaction](Bundle-bun-example.html)：依據臺灣核心-資料交換基本單位（TW Core Bundle）Profile呈現資料交換基本單位 type=transaction之範例
 - [Document](Bundle-bun-document-example.html)：依據臺灣核心-資料交換基本單位-文件（TW Core Bundle Document）Profile呈現資料交換基本單位 type=document之範例
+- [Document（uuid）](Bundle-bun-document-uuid-example.html)：依據臺灣核心-資料交換基本單位-文件（TW Core Bundle Document）Profile呈現資料交換基本單位 type=document之範例
 - [Message request（傳送）](Bundle-bun-message-request-example.html)：依據臺灣核心-資料交換基本單位-訊息傳送（TW Core Bundle Message）Profile呈現資料交換基本單位 type=message request之範例
 - [Message response（回應）](Bundle-bun-message-response-example.html)：依據臺灣核心-資料交換基本單位-訊息傳送（TW Core Bundle Message）Profile呈現資料交換基本單位 type=message response之範例
 
