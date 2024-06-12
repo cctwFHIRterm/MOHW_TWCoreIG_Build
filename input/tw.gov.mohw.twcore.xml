@@ -92,6 +92,15 @@
 
 	<resource>
 			<reference>
+				<reference value="Bundle/bun-document-uuid-example"/>
+			</reference>
+			<name value="Document(uuid)"/>	
+			<description value="依據臺灣核心-資料交換基本單位-文件 (TW Core Bundle Document) Profile呈現資料交換基本單位 type=document之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore"/>
+	</resource>
+
+	<resource>
+			<reference>
 				<reference value="Bundle/bun-message-request-example"/>
 			</reference>
 			<name value="Message request(傳送)"/>	
