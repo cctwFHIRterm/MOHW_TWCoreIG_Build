@@ -154,7 +154,7 @@ Description: "臺灣健保給藥途徑，參照至[https://www.nhi.gov.tw/ch/cp-
 * #OD ^property[=].valueString = "新增"
 * #OD ^property[+].code = #updateDate
 * #OD ^property[=].valueString = "2022-08"
-* #ORO "口咽直接用藥(如噴劑、塗抹) "
+* #ORO "口咽直接用藥(如噴劑、塗抹)"
 * #ORO ^property[0].code = #event
 * #ORO ^property[=].valueString = "新增"
 * #ORO ^property[+].code = #updateDate
