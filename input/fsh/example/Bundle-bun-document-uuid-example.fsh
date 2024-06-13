@@ -114,7 +114,7 @@ Usage: #inline
 * contact.telecom.period.start = "2022-07-31"
 * contact.telecom.period.end = "2024-07-31"
 * communication.language = urn:ietf:bcp:47#zh-TW
-* managingOrganization.reference = Reference(urn:uuid:c89f7cb5-8755-4848-b96a-a9fa34120588)
+* managingOrganization = Reference(urn:uuid:c89f7cb5-8755-4848-b96a-a9fa34120588)
 
 
 Instance: Inline-Organization-example
@@ -202,9 +202,9 @@ Usage: #inline
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-service-payment-tw#09002C
 * code.text = "血中尿素氮"
-* subject.reference = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
+* subject = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
 * effectiveDateTime = "2022-07-31"
-* performer.reference = Reference(urn:uuid:c89f7cb5-8755-4848-b96a-a9fa34120588)
+* performer = Reference(urn:uuid:c89f7cb5-8755-4848-b96a-a9fa34120588)
 * valueQuantity.value = 16.6
 * valueQuantity.unit = "mg/dL"
 
@@ -216,7 +216,7 @@ Usage: #inline
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * code.text = "Blood pressure panel with all children optional"
-* subject.reference = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
+* subject = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
 * effectiveDateTime = "2022-07-31"
 * performer = Reference(urn:uuid:0511b38b-2841-473c-9843-4d04c0c9c30e)
 * component[Systolic].code = http://loinc.org#8480-6 "Systolic blood pressure"
