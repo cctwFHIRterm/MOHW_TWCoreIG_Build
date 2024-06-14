@@ -1,15 +1,25 @@
 Alias: $TWMedicalTreatmentDepartmentNHI = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw
-ValueSet: TWMedicalTreatmentDepartmentSCT
-Id: medical-treatment-department-sct-tw
-Title: "SNOMED CT + 臺灣健保署診療科別值集"
-Description: "SNOMED CT + 臺灣健保署診療科別值集。
+ValueSet: TWMedicalTreatmentDepartment
+Id: medical-treatment-department-tw
+Title: "臺灣健保署診療科別值集"
+Description: "臺灣健保署診療科別值集。
 
 此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣健保署標準碼表述，請實作者留意。
 "
 * ^experimental = false
 * ^date = "2024-05-27"
 * ^version = "0.2.2"
-* SNOMED_CT#419772000 "Family practice"
+* $TWMedicalTreatmentDepartmentNHI#00 "不分科"
+* $TWMedicalTreatmentDepartmentNHI#2A "結核科"
+* $TWMedicalTreatmentDepartmentNHI#41 "牙體復形科"
+* $TWMedicalTreatmentDepartmentNHI#44 "贋復補綴牙科"
+* $TWMedicalTreatmentDepartmentNHI#48 "口腔診斷科"
+* $TWMedicalTreatmentDepartmentNHI#49 "口腔病理科"
+* $TWMedicalTreatmentDepartmentNHI#50 "家庭牙醫科"
+* $TWMedicalTreatmentDepartmentNHI#51 "特殊需求者口腔醫學科"
+* $TWMedicalTreatmentDepartmentNHI#60 "中醫一般科"
+* $TWMedicalTreatmentDepartmentNHI#86 "放射診斷科"
+/* SNOMED_CT#419772000 "Family practice"
 * SNOMED_CT#419192003 "Internal medicine"
 * SNOMED_CT#394609007 "Surgery-general"
 * SNOMED_CT#24251000087109 "General pediatric specialty"
@@ -39,14 +49,4 @@ Description: "SNOMED CT + 臺灣健保署診療科別值集。
 * SNOMED_CT#394649004 "Nuclear medicine"
 * SNOMED_CT#419815003 "Radiation oncology"
 * SNOMED_CT#1255732006 "Anatomic pathology"
-* SNOMED_CT#1255736009 "Clinical pathology"
-* $TWMedicalTreatmentDepartmentNHI#00 "不分科"
-* $TWMedicalTreatmentDepartmentNHI#2A "結核科"
-* $TWMedicalTreatmentDepartmentNHI#41 "牙體復形科"
-* $TWMedicalTreatmentDepartmentNHI#44 "贋復補綴牙科"
-* $TWMedicalTreatmentDepartmentNHI#48 "口腔診斷科"
-* $TWMedicalTreatmentDepartmentNHI#49 "口腔病理科"
-* $TWMedicalTreatmentDepartmentNHI#50 "家庭牙醫科"
-* $TWMedicalTreatmentDepartmentNHI#51 "特殊需求者口腔醫學科"
-* $TWMedicalTreatmentDepartmentNHI#60 "中醫一般科"
-* $TWMedicalTreatmentDepartmentNHI#86 "放射診斷科"
+* SNOMED_CT#1255736009 "Clinical pathology"*/

@@ -12,14 +12,18 @@ Description:    "此臺灣核心-健康照護服務提供者角色（TW Core Pra
 //* specialty from TWHealthDepartmentSCT (extensible)
 
 * specialty.coding ^slicing.discriminator.type = #pattern
-* specialty.coding ^slicing.discriminator.path = "$this"
+* specialty.coding ^slicing.discriminator.path = "system"
 * specialty.coding ^slicing.rules = #open
 * specialty.coding contains
-    TWMedicalConsultationDepartmentSCT 0..1 MS and
-    TWMedicalTreatmentDepartmentSCT 0..1 MS 
-* specialty.coding[TWMedicalConsultationDepartmentSCT] from TWMedicalConsultationDepartmentSCT (required)
-* specialty.coding[TWMedicalTreatmentDepartmentSCT] from TWMedicalTreatmentDepartmentSCT (required)
-
+    TWMedicalConsultationDepartment 0..1 MS and
+    TWMedicalTreatmentDepartment 0..1 MS and
+    TWMedicalDepartmentSCT 0..1 MS
+* specialty.coding[TWMedicalConsultationDepartment] from TWMedicalConsultationDepartment (required)
+* specialty.coding[TWMedicalConsultationDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-tw"
+* specialty.coding[TWMedicalTreatmentDepartment] from TWMedicalTreatmentDepartment (required)
+* specialty.coding[TWMedicalTreatmentDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-tw"
+* specialty.coding[TWMedicalDepartmentSCT] from TWMedicalDepartmentSCT (required)
+* specialty.coding[TWMedicalDepartmentSCT].system = "http://snomed.info/sct"
 
 * telecom.system 1..
 * telecom.value 1..

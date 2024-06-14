@@ -2,6 +2,7 @@
 
 ### 值集(ValueSets)
 - [SNOMED CT診斷代碼值集](ValueSet-condition-code-sct-tw.html)
+- [SNOMED CT科別值集](ValueSet-medical-department-sct-tw.html)
 - [LOINC實驗室檢驗檢查值集](ValueSet-loinc-observation-code.html)
 - [生命體徵值集](ValueSet-vital-signs-tw.html)
 - [藥品劑型值集](ValueSet-v3-orderableDrugForm.html)
@@ -20,8 +21,8 @@
 - [臺灣健保署診療科別值集](ValueSet-medical-treatment-department-nhi-tw.html)
 - [臺灣健保署就醫科別值集](ValueSet-medical-consultation-department-nhi-tw.html)
 - [臺灣健保署藥品使用頻率值集](ValueSet-medication-frequency-nhi-tw.html)
-- [SNOMED CT + 臺灣健保署診療科別值集](ValueSet-medical-treatment-department-sct-tw.html)
-- [SNOMED CT + 臺灣健保署就醫科別值集](ValueSet-medical-consultation-department-sct-tw.html)
+- [臺灣健保署診療科別值集](ValueSet-medical-treatment-department-tw.html)
+- [臺灣健保署就醫科別值集](ValueSet-medical-consultation-department-tw.html)
 - [臺灣食藥署藥品及醫療器材代碼值集](ValueSet-medication-fda-tw.html)
 - [臺灣食藥署藥品藥理治療分類ATC碼值集](ValueSet-medcation-atc-tw.html)
 - [SNOMED CT + 臺灣衛福部統計處給藥途徑值集](ValueSet-medication-path-sct-tw.html)

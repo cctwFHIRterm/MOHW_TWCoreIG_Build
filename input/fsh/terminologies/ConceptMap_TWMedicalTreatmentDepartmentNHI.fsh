@@ -11,7 +11,7 @@ Usage: #definition
 * title = "臺灣健保署診療科別代碼對應SNOMED CT"
 * description = "此對應表為臺灣健保署診療科別代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-nhi-tw"
-* targetUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-sct-tw"
+* targetUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-tw"
 * group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw"
 * group[=].target = "http://snomed.info/sct"
 * group.element[0].code = #01

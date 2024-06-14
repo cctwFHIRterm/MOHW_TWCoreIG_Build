@@ -1,14 +1,11 @@
-Alias: $TWMedicalConsultationDepartmentNHI = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw
-ValueSet: TWMedicalConsultationDepartmentSCT
-Id: medical-consultation-department-sct-tw
-Title: "SNOMED CT + 臺灣健保署就醫科別值集"
-Description: "SNOMED CT + 臺灣健保署就醫科別值集。
-
-此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣健保署標準碼表述，請實作者留意。
-"
+ValueSet: TWMedicalDepartmentSCT
+Id: medical-department-sct-tw
+Title: "SNOMED CT科別值集"
+Description: "SNOMED CT科別值集。"
 * ^experimental = false
 * ^date = "2024-05-27"
 * ^version = "0.2.2"
+
 * SNOMED_CT#419772000 "Family practice"
 * SNOMED_CT#419192003 "Internal medicine"
 * SNOMED_CT#394609007 "Surgery-general"
@@ -48,13 +45,10 @@ Description: "SNOMED CT + 臺灣健保署就醫科別值集。
 * SNOMED_CT#408445005 "Neonatology"
 * SNOMED_CT#394882004 "Pain management"
 * SNOMED_CT#419815003 "Radiation oncology"
-* SNOMED_CT#408465003 "Oral and maxillofacial surgery" 
-* $TWMedicalConsultationDepartmentNHI#00 "不分科"
-* $TWMedicalConsultationDepartmentNHI#2A "結核科"
-* $TWMedicalConsultationDepartmentNHI#60 "中醫科"
-* $TWMedicalConsultationDepartmentNHI#AC "胸腔內科"
-* $TWMedicalConsultationDepartmentNHI#AJ "胸腔暨重症加護"
-* $TWMedicalConsultationDepartmentNHI#EA "居家照護"
-* $TWMedicalConsultationDepartmentNHI#FA "放射診斷科"
-* $TWMedicalConsultationDepartmentNHI#HA "脊椎骨科"
-* $TWMedicalConsultationDepartmentNHI#TB "肺結核"
+* SNOMED_CT#408465003 "Oral and maxillofacial surgery"
+* SNOMED_CT#408441001 "Endodontics - specialty"
+* SNOMED_CT#408461007 "Periodontics"
+* SNOMED_CT#394608004 "Orthodontics"
+* SNOMED_CT#394607009 "Pediatric dentistry"
+* SNOMED_CT#1255732006 "Anatomic pathology"
+* SNOMED_CT#1255736009 "Clinical pathology"
