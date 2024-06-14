@@ -186,7 +186,6 @@ INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[5]: This element doe
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[8]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[5].resource/*Organization/Inline-Organization-example*/.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 
 # HL7 Publisher，找不到 HL7 的CodeSystem API 服務，此屬於國際標準CodeSystem問題，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: Bundle/bun-document-example: Bundle.entry[6].resource/*MedicationRequest/med-req-cod-example*/.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
@@ -223,6 +222,9 @@ INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*Medicat
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*MedicationRequest/Inline-MedicationRequest-example*/.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7].resource/*Encounter/Inline-Encounter-example*/.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/encounter-type|1.0.0
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7].resource/*Encounter/Inline-Encounter-example*/.hospitalization.dischargeDisposition: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.0
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[5].resource/*Organization/Inline-Organization-example*/.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
+INFORMATION: StructureDefinition/Organization-co-twcore: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
+INFORMATION: StructureDefinition/Organization-govt-twcore: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 
 # HL7 Publisher，針對有property的CodeSystem，會提醒property沒有URI，希望實作者與IG設計者留意此設定需求，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: CodeSystem/health-professional-tw: CodeSystem.property[0]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
