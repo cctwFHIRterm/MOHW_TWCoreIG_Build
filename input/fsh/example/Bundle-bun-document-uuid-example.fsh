@@ -191,7 +191,7 @@ Usage: #inline
 * event.period.start = "2023-09-10T08:00:00Z"
 * event.period.end = "2023-09-15T09:30:00Z"
 * section.entry[0] = Reference(urn:uuid:0511b38b-2841-473c-9843-4d04c0c9c30e)
-* section.entry[1] = Reference(urn:uuid:6b744ffd-c264-4353-89ae-e9df7132536e)
+* section.entry[1] = Reference(urn:uuid:e874d417-c6e5-4872-8dd7-62e6c5a9d08e)
 * section.entry[2] = Reference(urn:uuid:7127fcd8-c858-4824-802b-51e0d472c6d2)
 
 
