@@ -24,7 +24,7 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs)
 * category[VSCat].coding.code only code
 * category[VSCat].coding.code = #vital-signs (exactly)
 * code MS
-//* code from TWVitalSigns
+* code from TWVitalSigns
 * code.text 0..1 MS
 * subject only Reference(TWCorePatient)
 * subject MS

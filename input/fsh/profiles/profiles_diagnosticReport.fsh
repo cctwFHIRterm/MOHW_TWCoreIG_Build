@@ -21,6 +21,7 @@ Description: "
 //* category contains DiagnosticServiceSectionCodes 0..1 MS
 //* category[DiagnosticServiceSectionCodes] = http://terminology.hl7.org/CodeSystem/v2-0074#LAB
 //* category = http://terminology.hl7.org/CodeSystem/v2-0074#LAB
+* code from LOINCCodes (preferred)
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open

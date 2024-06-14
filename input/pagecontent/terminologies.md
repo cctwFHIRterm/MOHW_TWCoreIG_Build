@@ -3,7 +3,10 @@
 ### 值集(ValueSets)
 - [SNOMED CT診斷代碼值集](ValueSet-condition-code-sct-tw.html)
 - [SNOMED CT科別值集](ValueSet-medical-department-sct-tw.html)
+- [LOINC Code值集](ValueSet-loinc-code.html)
 - [LOINC實驗室檢驗檢查值集](ValueSet-loinc-observation-code.html)
+- [LOINC Code Document Section值集](ValueSet-loinc-doc-section-code.html)
+- [LOINC Code Document Type值集](ValueSet-loinc-type-doc-code.html)
 - [生命體徵值集](ValueSet-vital-signs-tw.html)
 - [藥品劑型值集](ValueSet-v3-orderableDrugForm.html)
 - [RxNorm藥品代碼值集](ValueSet-medication-rxnorm-tw.html)
@@ -60,6 +63,7 @@
 - [臺灣中華郵政3碼郵遞區號](CodeSystem-postal-code3-tw.html)
 - [臺灣中華郵政5碼郵遞區號](CodeSystem-postal-code5-tw.html)
 - [臺灣中華郵政6碼郵遞區號](CodeSystem-postal-code6-tw.html)
+- [LOINC](CodeSystem-loinc-tw.html)
 
 ### 概念對應(ConceptMaps)
 - [臺灣健保署診療科別代碼對應SNOMED CT](ConceptMap-medical-treatment-department-nhi-tw.html)

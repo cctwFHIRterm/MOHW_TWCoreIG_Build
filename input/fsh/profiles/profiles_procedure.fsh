@@ -45,7 +45,7 @@ Description:    "
 * code.coding[icd10-pcs-2014] from TW2014ICD10PCS (required)
 * code.coding[medical-service-payment] from TWMedicalServicePayment (required)
 * code.coding[sct-procedures] from $sct-procedures (required)
-* code.coding[loinc-procedures] from LOINCProcedureCodes (required)
+* code.coding[loinc-procedures] from LOINCCodes (required)
 
 * performed[x] only dateTime or Period or string or Age or Range
 * performed[x] MS

@@ -20,9 +20,13 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * section.orderedBy only CodeableConceptTW 
 * section.emptyReason only CodeableConceptTW 
 
-* type from FHIRDocumentTypeCodes (extensible)
-* section.code from DocumentSectionCodes (extensible)
+//* type from FHIRDocumentTypeCodes (extensible)
+//* section.code from DocumentSectionCodes (extensible)
 * category from http://hl7.org/fhir/ValueSet/document-classcodes (extensible)
+
+* type from LOINCDocumentType (extensible)
+* section.code from LOINCDocumentSection (extensible)
+//* category from LOINCDocumentCategory (extensible)
 
 * . ^short = "將一組resources組成一份連貫的臨床聲明，並附有臨床證明。"
 * . ^definition = "一組與健康照護相關的資訊，這些訊息被組合成一個單一的邏輯套件，提供一個單一的連貫的意義陳述，建立自己的上下文，並且提供有關於是誰做出陳述的臨床認證。"
