@@ -20,7 +20,6 @@ Description: "LOINC Code Document Section值集，參照自[https://loinc.org/](
 * $loinctw#10210-3
 * $loinctw#10216-0
 * $loinctw#10218-6
-* $loinctw#10218-6
 * $loinctw#10223-6
 * $loinctw#10222-8
 * $loinctw#11329-0
