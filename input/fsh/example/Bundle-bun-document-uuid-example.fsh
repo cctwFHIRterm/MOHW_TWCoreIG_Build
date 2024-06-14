@@ -118,7 +118,7 @@ Usage: #inline
 
 
 Instance: Inline-Organization-example
-InstanceOf: TWCoreOrganizationHosp
+InstanceOf: TWCoreOrganization
 Usage: #inline
 * identifier.use = #official
 * identifier.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/organization-identifier-tw"

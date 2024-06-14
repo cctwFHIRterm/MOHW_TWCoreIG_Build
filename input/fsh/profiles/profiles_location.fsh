@@ -11,7 +11,7 @@ Description: "此臺灣核心-地點（TW Core  Location) Profile說明本IG如�
 * type only CodeableConceptTW 
 * address only TWCoreAddress
 * physicalType only CodeableConceptTW 
-* managingOrganization only Reference(TWCoreOrganization or TWCoreOrganizationGovt or TWCoreOrganizationHosp or TWCoreOrganizationCo)
+* managingOrganization only Reference(TWCoreOrganization)
 * partOf only Reference(TWCoreLocation)
 * type from http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType (extensible)
 
