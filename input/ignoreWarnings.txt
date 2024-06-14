@@ -222,6 +222,11 @@ INFORMATION: Encounter/enc-example: Encounter.serviceType.coding[0]: This elemen
 INFORMATION: PractitionerRole/praro-dr-example: PractitionerRole.specialty[0].coding[0]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/PractitionerRole-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: PractitionerRole/praro-nurse-example: PractitionerRole.specialty[0].coding[0]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/PractitionerRole-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: PractitionerRole/praro-radio-example: PractitionerRole.specialty[0].coding[0]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/PractitionerRole-twcore|0.2.2 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*MedicationRequest/Inline-MedicationRequest-example*/.statusReason: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason|1.0.0
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*MedicationRequest/Inline-MedicationRequest-example*/.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*MedicationRequest/Inline-MedicationRequest-example*/.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7].resource/*Encounter/Inline-Encounter-example*/.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/encounter-type|1.0.0
+INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7].resource/*Encounter/Inline-Encounter-example*/.hospitalization.dischargeDisposition: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.0
 
 # HL7 Publisher，針對有property的CodeSystem，會提醒property沒有URI，希望實作者與IG設計者留意此設定需求，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: CodeSystem/health-professional-tw: CodeSystem.property[0]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -277,6 +282,10 @@ INFORMATION: CodeSystem/icd-10-cm-2023-tw: CodeSystem.property[0]: This property
 INFORMATION: CodeSystem/icd-10-cm-2023-tw: CodeSystem.property[1]: This property has only a code ('event') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/icd-10-pcs-2023-tw: CodeSystem.property[0]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/icd-10-pcs-2023-tw: CodeSystem.property[1]: This property has only a code ('event') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/medication-nhi-tw: CodeSystem.property[0]: This property has only a code ('event') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/medication-nhi-tw: CodeSystem.property[1]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/organization-identifier-tw: CodeSystem.property[0]: This property has only a code ('event') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/organization-identifier-tw: CodeSystem.property[1]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 
 # TW Core IG的ValueSet中代碼量太大，使得 HL7 validator 無法正常辨識，但TW Core IG的代碼仍是完整的，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: ValueSet.where(id = 'loinc-observation-code'): The value set expansion is too large, and only a subset has been displayed

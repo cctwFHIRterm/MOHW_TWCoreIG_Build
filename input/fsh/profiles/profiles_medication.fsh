@@ -6,7 +6,7 @@ Description: "此臺灣核心-藥品（TW Core Medication) Profile說明本IG如
 * ^version = "0.2.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
-* manufacturer only Reference(TWCoreOrganizationCo)
+* manufacturer only Reference(TWCoreOrganization)
 * ingredient.item[x] only CodeableConceptTW or Reference(TWCoreMedication or Substance)
 * code MS
 * code.coding ^slicing.discriminator.type = #pattern

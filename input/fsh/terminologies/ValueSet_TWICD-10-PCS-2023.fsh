@@ -10,9 +10,3 @@ Description: "臺灣健保署2023年中文版ICD-10-PCS值集，參照至[https:
 * ^date = "2024-06-11"
 * ^version = "2024-01-31"
 * include codes from system TW2023ICD10PCS
-* ^text.status = #generated
-* ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<ul><li>Include all codes defined in <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw\">
-<code>https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw</code></a>
-</li></ul>
-</div>"
