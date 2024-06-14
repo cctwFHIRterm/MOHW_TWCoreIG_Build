@@ -139,7 +139,7 @@ Instance: Practitioner-id
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Practitioner-id"
-* name = "PractitionerActive"
+* name = "PractitionerID"
 * status = #active
 * version = "0.2.2"
 * date = "2022-07-31"
@@ -262,7 +262,7 @@ Instance: Observation-clinical-code
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-clinical-code"
-* name = "ClinicalCode"
+* name = "ObservationClinicalCode"
 * status = #active
 * version = "0.2.2"
 * date = "2022-07-31"
@@ -1134,7 +1134,7 @@ Instance: Composition-subject
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Composition-subject"
-* name = "Compositionsubject"
+* name = "CompositionSubject"
 * status = #active
 * version = "0.2.2"
 * date = "2023-11-25"
@@ -1180,7 +1180,7 @@ Instance: ImagingStudy-subject
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-subject"
-* name = "ImagingStudysubject"
+* name = "ImagingStudySubject"
 * status = #active
 * version = "0.2.2"
 * date = "2023-11-25"
@@ -1195,7 +1195,7 @@ Instance: ImagingStudy-encounter
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-encounter"
-* name = "ImagingStudyencounter"
+* name = "ImagingStudyEncounter"
 * status = #active
 * version = "0.2.2"
 * date = "2023-11-25"
@@ -1210,7 +1210,7 @@ Instance: ImagingStudy-started
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ImagingStudy-started"
-* name = "ImagingStudystarted"
+* name = "ImagingStudyStarted"
 * status = #active
 * version = "0.2.2"
 * date = "2023-11-25"
