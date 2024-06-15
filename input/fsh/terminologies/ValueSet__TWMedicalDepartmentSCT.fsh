@@ -1,3 +1,6 @@
+Alias: $scttw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw
+
+
 ValueSet: TWMedicalDepartmentSCT
 Id: medical-department-sct-tw
 Title: "SNOMED CT科別值集"
@@ -6,49 +9,49 @@ Description: "SNOMED CT科別值集。"
 * ^date = "2024-05-27"
 * ^version = "0.2.2"
 
-* SNOMED_CT#419772000 "Family practice"
-* SNOMED_CT#419192003 "Internal medicine"
-* SNOMED_CT#394609007 "Surgery-general"
-* SNOMED_CT#24251000087109 "General pediatric specialty" 
-* SNOMED_CT#394585009 "Obstetrics and gynecology"
-* SNOMED_CT#24241000087106 "General orthopedic specialty"
-* SNOMED_CT#394610002 "Surgery-Neurosurgery"
-* SNOMED_CT#394612005 "Urology"
-* SNOMED_CT#418960008 "Otolaryngology"
-* SNOMED_CT#394594003 "Ophthalmology"
-* SNOMED_CT#394582007 "Dermatology"
-* SNOMED_CT#394591006 "Neurology"
-* SNOMED_CT#394587001 "Psychiatry"
-* SNOMED_CT#394602003 "Rehabilitation"
-* SNOMED_CT#394611003 "Surgery-Plastic surgery"
-* SNOMED_CT#773568002 "Emergency medicine"
-* SNOMED_CT#394821009 "Occupational medicine"
-* SNOMED_CT#394589003 "Nephrology"
-* SNOMED_CT#722163006 "Dentistry" 
-* SNOMED_CT#394577000 "Anesthetics"
-* SNOMED_CT#394914008 "Radiology"
-* SNOMED_CT#394915009 "General pathology"
-* SNOMED_CT#394649004 "Nuclear medicine"
-* SNOMED_CT#394584008 "Gastroenterology" 
-* SNOMED_CT#394579002 "Cardiology"
-* SNOMED_CT#394810000 "Rheumatology"
-* SNOMED_CT#23981000087108 "Pediatric hematology oncology specialty"
-* SNOMED_CT#394583002 "Endocrinology"
-* SNOMED_CT#394807007 "Infectious diseases"
-* SNOMED_CT#410005002 "Dive medicine"
-* SNOMED_CT#394811001 "Geriatric medicine"
-* SNOMED_CT#408464004 "Surgery-Colorectal surgery"
-* SNOMED_CT#408466002 "Surgery-Cardiac surgery"
-* SNOMED_CT#408456005 "Thoracic surgery"
-* SNOMED_CT#1284928005 "Gastrointestinal surgery" 
-* SNOMED_CT#394539006 "Pediatric surgery"
-* SNOMED_CT#408445005 "Neonatology"
-* SNOMED_CT#394882004 "Pain management"
-* SNOMED_CT#419815003 "Radiation oncology"
-* SNOMED_CT#408465003 "Oral and maxillofacial surgery"
-* SNOMED_CT#408441001 "Endodontics - specialty"
-* SNOMED_CT#408461007 "Periodontics"
-* SNOMED_CT#394608004 "Orthodontics"
-* SNOMED_CT#394607009 "Pediatric dentistry"
-* SNOMED_CT#1255732006 "Anatomic pathology"
-* SNOMED_CT#1255736009 "Clinical pathology"
+* $scttw#419772000
+* $scttw#419192003
+* $scttw#394609007
+* SNOMED_CT#24251000087109 
+* $scttw#394585009
+* SNOMED_CT#24241000087106
+* $scttw#394610002
+* $scttw#394612005
+* $scttw#418960008
+* $scttw#394594003
+* $scttw#394582007
+* $scttw#394591006
+* $scttw#394587001
+* $scttw#394602003
+* $scttw#394611003
+* SNOMED_CT#773568002
+* $scttw#394821009
+* $scttw#394589003
+* $scttw#722163006
+* $scttw#394577000
+* $scttw#394914008
+* $scttw#394915009
+* $scttw#394649004
+* $scttw#394584008 
+* $scttw#394579002
+* $scttw#394810000
+* SNOMED_CT#23981000087108
+* $scttw#394583002
+* $scttw#394807007
+* $scttw#410005002
+* $scttw#394811001
+* $scttw#408464004
+* $scttw#408466002
+* $scttw#408456005
+* SNOMED_CT#1284928005
+* $scttw#394539006
+* $scttw#408445005
+* $scttw#394882004
+* $scttw#419815003
+* $scttw#408465003
+* $scttw#408441001
+* $scttw#408461007
+* $scttw#394608004
+* $scttw#394607009
+* SNOMED_CT#1255732006
+* SNOMED_CT#1255736009

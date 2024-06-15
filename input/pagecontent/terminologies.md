@@ -64,6 +64,7 @@
 - [臺灣中華郵政5碼郵遞區號](CodeSystem-postal-code5-tw.html)
 - [臺灣中華郵政6碼郵遞區號](CodeSystem-postal-code6-tw.html)
 - [LOINC](CodeSystem-loinc-tw.html)
+- [SNOMED CT Code](CodeSystem-sct-tw.html)
 
 ### 概念對應(ConceptMaps)
 - [臺灣健保署診療科別代碼對應SNOMED CT](ConceptMap-medical-treatment-department-nhi-tw.html)
