@@ -52,7 +52,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile�
     timing-abb 0..1 MS 
 * dosageInstruction.timing.code.coding[medication-frequency] from TWMedicationFrequency (required)
 * dosageInstruction.timing.code.coding[timing-abb] from http://hl7.org/fhir/ValueSet/timing-abbreviation (required)*/
-* dosageInstruction.timing.code.coding from TWMedicationFrequencyHL7 (extensible)
+* dosageInstruction.timing.code from TWMedicationFrequencyHL7 (extensible)
 * dosageInstruction.timing.code MS
 * dosageInstruction.timing.code.text 0..1 MS
 * dispenseRequest.performer only Reference(TWCoreOrganization)
