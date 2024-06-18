@@ -28,10 +28,10 @@ Usage: #example
 		<b>臨床狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/composition-status\">CompositionStatus</a>#final) </span>
 	</p>
 	<p>
-		<b>種類</b>：Medical records <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#11503-0) </span>
+		<b>種類</b>：Medical records <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11503-0) </span>
 	</p>
     <p>
-		<b>分類</b>： Hospital Admission history and physical note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#47039-3) </span>
+		<b>分類</b>： Hospital Admission history and physical note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#47039-3) </span>
 	</p>
     <p>
 		<b>病人</b>：<a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"

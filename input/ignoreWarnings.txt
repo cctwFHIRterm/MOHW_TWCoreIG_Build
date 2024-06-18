@@ -196,8 +196,6 @@ INFORMATION: MedicationRequest/med-req-cod-example: MedicationRequest.category[0
 INFORMATION: MedicationRequest/med-req-ref-example: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
 INFORMATION: StructureDefinition/Observation-laboratoryResult-twcore: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
 INFORMATION: StructureDefinition/Observation-laboratoryResult-twcore: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
-INFORMATION: ConceptMap/medical-consultation-department-nhi-tw: ConceptMap.group[0].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
-INFORMATION: ConceptMap/medical-treatment-department-nhi-tw: ConceptMap.group[0].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
 
 # 使用預設的 HL7 CodeSystem，但 HL7 validator 無法辨識CodeSystem，此屬於HL7 validator 程式本身問題，非IG 設計問題，此提示訊息不影響實作與實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: MedicationRequest/med-req-cod-example: MedicationRequest.statusReason: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason|1.0.0
@@ -288,6 +286,8 @@ INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[4]: This property has only
 INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[5]: This property has only a code ('CLASS') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[6]: This property has only a code ('CLASSTYPE') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[7]: This property has only a code ('STATUS') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/sct-tw: CodeSystem.property[0]: This property has only a code ('effectiveTime') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/sct-tw: CodeSystem.property[1]: This property has only a code ('active') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 
 # TW Core IG的ValueSet中代碼量太大，使得 HL7 validator 無法正常辨識，但TW Core IG的代碼仍是完整的，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: ValueSet/medcation-atc-tw: ValueSet.compose.include[0]: The value set include has too many codes to validate (3,242), so each individual code has not been checked

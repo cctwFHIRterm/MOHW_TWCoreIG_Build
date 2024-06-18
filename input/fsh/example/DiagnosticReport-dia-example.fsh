@@ -32,7 +32,7 @@ Usage: #example
 		<b>診斷報告時間</b>：2022-08-01 06:00:14-0500
 	</p>
 	<p>
-		<b>病情、問題或診斷識別</b>：血中尿素氮<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#09002C) </span>
+		<b>病情、問題或診斷識別</b>：血中尿素氮<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#09002C) </span>
 	</p>
 	<p>
 		<b>診斷結果</b>：<a href=\"Observation-obs-lab-example.html\">Observation/obs-lab-example</a>

@@ -15,7 +15,7 @@ Usage: #example
 		<b>訊息回應識別碼</b>: efdd266b-0e09-4164-883e-35cf3871715f
 	</p> 
 	<p>
-		<b>訊息回應的事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#11502-2) </span>
+		<b>訊息回應的事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11502-2) </span>
 	</p>
     <p>
 		<b>訊息回應來源</b>: https://www.cdc.gov.tw/

@@ -24,7 +24,7 @@ Usage: #example
     <b>分類</b>：Vital Signs <span style=\"background: LightGoldenRodYellow; margin：4px; border：1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-observation-category.html\">Observation Category Codes</a>#vital-signs) </span>
   </p>
   <p>
-    <b>檢驗項目</b>：Blood pressure panel with all children optional <span style=\"background: LightGoldenRodYellow; margin：4px; border：1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#85354-9 \"Blood pressure panel with all children optional\") </span>
+    <b>檢驗項目</b>：Blood pressure panel with all children optional <span style=\"background: LightGoldenRodYellow; margin：4px; border：1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#85354-9 \"Blood pressure panel with all children optional\") </span>
   </p>
   <p>
     <b>病人</b>： <a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"
@@ -40,7 +40,7 @@ Usage: #example
   </p>
   <blockquote>
     <p>
-      <b>檢驗項目</b>：Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#8480-6) </span>
+      <b>檢驗項目</b>：Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#8480-6) </span>
     </p>
     <p>
       <b>檢驗值</b>：110 mmHg <span style=\"background: LightGoldenRodYellow\"></span>
@@ -48,7 +48,7 @@ Usage: #example
   </blockquote>
   <blockquote>
     <p>
-      <b>檢驗項目</b>：Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#8462-4) </span>
+      <b>檢驗項目</b>：Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#8462-4) </span>
     </p>
     <p>
       <b>檢驗值</b>：56 mmHg

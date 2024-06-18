@@ -13,7 +13,7 @@ Usage: #example
 	</h3>
         
 	<p>
-		<b>訊息事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#11502-2) </span>
+		<b>訊息事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11502-2) </span>
 	</p>
     <p>
 		<b>訊息發送來源</b>: https://tpech.gov.taipei/

@@ -300,7 +300,7 @@ GET /Patient/001?_revinclude=Linkage:item
 
 * **性別認同（Gender Identity）** - 病人表達他們自認為的性別。這可能影響病人希望如何被照顧者和其他人稱呼。可以使用標準的 <code>[genderIdentity](https://hl7.org/fhir/R4/extension-patient-genderidentity.html)</code> 擴充資料項目來傳遞這個屬性。當性別認同是公開知道的時候，使用這個擴充資料項目是恰當的。
 
-* **出生時指定的性別（Sex assigned at Birth）** - 出生登記上紀錄的性別。有些國家允許登記時選擇如「未決定( not yet determined )」、「未知( unknown )」或「無法區分( undifferentiated )」等選項，而有些則不允許。有些國家還允許更改出生登記上的資訊。美國為這個特性定義了一個特定的擴充資料項目。或者，如果你想用檢驗檢查來表示這個概念，你可以使用LOINC代碼 [76689-9](https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw/76689-9)。
+* **出生時指定的性別（Sex assigned at Birth）** - 出生登記上紀錄的性別。有些國家允許登記時選擇如「未決定( not yet determined )」、「未知( unknown )」或「無法區分( undifferentiated )」等選項，而有些則不允許。有些國家還允許更改出生登記上的資訊。美國為這個特性定義了一個特定的擴充資料項目。或者，如果你想用檢驗檢查來表示這個概念，你可以使用LOINC代碼 [76689-9](http://loinc.org/76689-9)。
 
 * **法律性別（Legal Sex）** - 地區和國家通常使用單一的法律性別值來分類公民。病人的法律性別可能因地區和國家的不同而有所不同。一個病人在不同的司法管轄區可能同時有多個法律性別值。如果<code>Patient.gender</code>行政屬性不足以傳達法律性別，則應使用特定領域的擴充資料項目。
 
