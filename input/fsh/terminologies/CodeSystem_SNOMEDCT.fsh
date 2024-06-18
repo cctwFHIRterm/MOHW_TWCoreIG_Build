@@ -2,7 +2,7 @@ CodeSystem: SNOMEDCTCode
 Id: sct-tw
 Title: "SNOMED CT Code"
 Description: "SNOMED CT Code
-因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－臺灣健保署2001年中文版ICD-9-CM](https://twcore.mohw.gov.tw/ts/codesystemRead.jsp?id=icd-9-cm-2001-tw&status=active&version=2023-05-09&metaId=1&codeStatus=use&show=Y)查閱
+因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[SNOMED CT Code](https://twcore.mohw.gov.tw/ts/codesystemRead.jsp)查閱
 "
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
 * ^experimental = false
@@ -76,22 +76,22 @@ Description: "SNOMED CT Code
 * #394587001 ^designation[=].value = "20030131"
 * #394587001 ^designation[+].language = #active
 * #394587001 ^designation[=].value = "1"
-* #394602003 "Rehabilitation"
+/* #394602003 "Rehabilitation"
 * #394602003 ^designation[0].language = #effectiveTime
 * #394602003 ^designation[=].value = "20030131"
 * #394602003 ^designation[+].language = #active
-* #394602003 ^designation[=].value = "1"
+* #394602003 ^designation[=].value = "1"*/
 * #394602003 "Rehabilitation - specialty (qualifier value)"
 * #394602003 ^designation[0].language = #effectiveTime
 * #394602003 ^designation[=].value = "20030131"
 * #394602003 ^designation[+].language = #active
 * #394602003 ^designation[=].value = "1"
-* #394602003 "Rehabilitation - speciality"
+/* #394602003 "Rehabilitation - speciality"
 * #394602003 ^designation[0].language = #effectiveTime
 * #394602003 ^designation[=].value = "20030131"
 * #394602003 ^designation[+].language = #active
-* #394602003 ^designation[=].value = "1"
-* #394611003 "Plastic surgery - specialty"
+* #394602003 ^designation[=].value = "1"*/
+/* #394611003 "Plastic surgery - specialty"
 * #394611003 ^designation[0].language = #effectiveTime
 * #394611003 ^designation[=].value = "20030131"
 * #394611003 ^designation[+].language = #active
@@ -105,13 +105,13 @@ Description: "SNOMED CT Code
 * #394611003 ^property[0].code = #effectiveTime
 * #394611003 ^property[=].valueString = "20080131"
 * #394611003 ^property[+].code = #active
-* #394611003 ^property[=].valueString = "0"
+* #394611003 ^property[=].valueString = "0"*/
 * #394611003 "Plastic surgery - specialty (qualifier value)"
 * #394611003 ^property[0].code = #effectiveTime
 * #394611003 ^property[=].valueString = "20080131"
 * #394611003 ^property[+].code = #active
 * #394611003 ^property[=].valueString = "1"
-* #394611003 "Plastic surgery - speciality (qualifier value)"
+/* #394611003 "Plastic surgery - speciality (qualifier value)"
 * #394611003 ^designation[0].language = #effectiveTime
 * #394611003 ^designation[=].value = "20030131"
 * #394611003 ^designation[+].language = #active
@@ -120,13 +120,13 @@ Description: "SNOMED CT Code
 * #394821009 ^designation[0].language = #effectiveTime
 * #394821009 ^designation[=].value = "20030131"
 * #394821009 ^designation[+].language = #active
-* #394821009 ^designation[=].value = "1"
+* #394821009 ^designation[=].value = "1"*/
 * #394821009 "Occupational medicine (qualifier value)"
 * #394821009 ^designation[0].language = #effectiveTime
 * #394821009 ^designation[=].value = "20030131"
 * #394821009 ^designation[+].language = #active
 * #394821009 ^designation[=].value = "1"
-* #394589003 "Nephrology"
+/* #394589003 "Nephrology"
 * #394589003 ^designation[0].language = #effectiveTime
 * #394589003 ^designation[=].value = "20030131"
 * #394589003 ^designation[+].language = #active
@@ -135,7 +135,7 @@ Description: "SNOMED CT Code
 * #394589003 ^designation[0].language = #effectiveTime
 * #394589003 ^designation[=].value = "20030131"
 * #394589003 ^designation[+].language = #active
-* #394589003 ^designation[=].value = "1"
+* #394589003 ^designation[=].value = "1"*/
 * #394589003 "Nephrology (qualifier value)"
 * #394589003 ^designation[0].language = #effectiveTime
 * #394589003 ^designation[=].value = "20030131"
@@ -146,12 +146,12 @@ Description: "SNOMED CT Code
 * #722163006 ^property[=].valueString = "20170131"
 * #722163006 ^property[+].code = #active
 * #722163006 ^property[=].valueString = "1"
-* #722163006 "Dentistry"
+/* #722163006 "Dentistry"
 * #722163006 ^property[0].code = #effectiveTime
 * #722163006 ^property[=].valueString = "20170131"
 * #722163006 ^property[+].code = #active
-* #722163006 ^property[=].valueString = "1"
-* #394577000 "Anaesthetics (qualifier value)"
+* #722163006 ^property[=].valueString = "1"*/
+/* #394577000 "Anaesthetics (qualifier value)"
 * #394577000 ^designation[0].language = #effectiveTime
 * #394577000 ^designation[=].value = "20030131"
 * #394577000 ^designation[+].language = #active
@@ -175,7 +175,7 @@ Description: "SNOMED CT Code
 * #394577000 ^property[0].code = #effectiveTime
 * #394577000 ^property[=].valueString = "20060731"
 * #394577000 ^property[+].code = #active
-* #394577000 ^property[=].valueString = "1"
+* #394577000 ^property[=].valueString = "1"*/
 * #394577000 "Anesthetics (qualifier value)"
 * #394577000 ^property[0].code = #effectiveTime
 * #394577000 ^property[=].valueString = "20080131"
@@ -186,7 +186,7 @@ Description: "SNOMED CT Code
 * #394914008 ^designation[=].value = "20030131"
 * #394914008 ^designation[+].language = #active
 * #394914008 ^designation[=].value = "1"
-* #394914008 "Radiology - speciality"
+/* #394914008 "Radiology - speciality"
 * #394914008 ^designation[0].language = #effectiveTime
 * #394914008 ^designation[=].value = "20030131"
 * #394914008 ^designation[+].language = #active
@@ -195,13 +195,13 @@ Description: "SNOMED CT Code
 * #394914008 ^designation[0].language = #effectiveTime
 * #394914008 ^designation[=].value = "20030131"
 * #394914008 ^designation[+].language = #active
-* #394914008 ^designation[=].value = "1"
+* #394914008 ^designation[=].value = "1"*/
 * #394915009 "General pathology (specialty) (qualifier value)"
 * #394915009 ^designation[0].language = #effectiveTime
 * #394915009 ^designation[=].value = "20030131"
 * #394915009 ^designation[+].language = #active
 * #394915009 ^designation[=].value = "1"
-* #394915009 "General pathology (specialty)"
+/* #394915009 "General pathology (specialty)"
 * #394915009 ^designation[0].language = #effectiveTime
 * #394915009 ^designation[=].value = "20030131"
 * #394915009 ^designation[+].language = #active
@@ -210,13 +210,13 @@ Description: "SNOMED CT Code
 * #394649004 ^designation[0].language = #effectiveTime
 * #394649004 ^designation[=].value = "20030131"
 * #394649004 ^designation[+].language = #active
-* #394649004 ^designation[=].value = "1"
+* #394649004 ^designation[=].value = "1"*/
 * #394649004 "Nuclear medicine - specialty (qualifier value)"
 * #394649004 ^designation[0].language = #effectiveTime
 * #394649004 ^designation[=].value = "20030131"
 * #394649004 ^designation[+].language = #active
 * #394649004 ^designation[=].value = "1"
-* #394649004 "Nuclear medicine - speciality"
+/* #394649004 "Nuclear medicine - speciality"
 * #394649004 ^designation[0].language = #effectiveTime
 * #394649004 ^designation[=].value = "20030131"
 * #394649004 ^designation[+].language = #active
@@ -230,17 +230,17 @@ Description: "SNOMED CT Code
 * #394584008 ^designation[0].language = #effectiveTime
 * #394584008 ^designation[=].value = "20030131"
 * #394584008 ^designation[+].language = #active
-* #394584008 ^designation[=].value = "1"
+* #394584008 ^designation[=].value = "1"*/
 * #394584008 "Gastroenterology (qualifier value)"
 * #394584008 ^designation[0].language = #effectiveTime
 * #394584008 ^designation[=].value = "20030131"
 * #394584008 ^designation[+].language = #active
 * #394584008 ^designation[=].value = "1"
-* #394579002 "Cardiology"
+/* #394579002 "Cardiology"
 * #394579002 ^designation[0].language = #effectiveTime
 * #394579002 ^designation[=].value = "20030131"
 * #394579002 ^designation[+].language = #active
-* #394579002 ^designation[=].value = "1"
+* #394579002 ^designation[=].value = "1"*/
 * #394579002 "Cardiology (qualifier value)"
 * #394579002 ^designation[0].language = #effectiveTime
 * #394579002 ^designation[=].value = "20030131"
@@ -251,22 +251,25 @@ Description: "SNOMED CT Code
 * #394810000 ^designation[=].value = "20030131"
 * #394810000 ^designation[+].language = #active
 * #394810000 ^designation[=].value = "1"
-* #394810000 "Rheumatology"
+/* #394810000 "Rheumatology"
 * #394810000 ^designation[0].language = #effectiveTime
 * #394810000 ^designation[=].value = "20030131"
 * #394810000 ^designation[+].language = #active
-* #394810000 ^designation[=].value = "1"
+* #394810000 ^designation[=].value = "1"*/
 * #394583002 "Endocrinology (qualifier value)"
 * #394583002 ^designation[0].language = #effectiveTime
 * #394583002 ^designation[=].value = "20030131"
 * #394583002 ^designation[+].language = #active
 * #394583002 ^designation[=].value = "1"
-* #394583002 "Endocrinology"
+/* #394583002 "Endocrinology"
 * #394583002 ^designation[0].language = #effectiveTime
 * #394583002 ^designation[=].value = "20030131"
 * #394583002 ^designation[+].language = #active
-* #394583002 ^designation[=].value = "1"
-* #394807007 "Infectious diseases (specialty)"
+* #394583002 ^designation[=].value = "1"*/
+
+
+/*未確認重複*/
+/* #394807007 "Infectious diseases (specialty)"
 * #394807007 ^designation[0].language = #effectiveTime
 * #394807007 ^designation[=].value = "20030131"
 * #394807007 ^designation[+].language = #active
@@ -456,3 +459,4 @@ Description: "SNOMED CT Code
 * #394607009 ^designation[=].value = "20030131"
 * #394607009 ^designation[+].language = #active
 * #394607009 ^designation[=].value = "1"
+*/
