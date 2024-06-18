@@ -55,6 +55,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile�
 * dosageInstruction.timing.code from TWMedicationFrequencyHL7 (extensible)
 * dosageInstruction.timing.code MS
 * dosageInstruction.timing.code.text 0..1 MS
+* dosageInstruction.timing.code.coding MS
 * dispenseRequest.performer only Reference(TWCoreOrganization)
 * priorPrescription only Reference(TWCoreMedicationRequest)
 
@@ -360,7 +361,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile�
 
 //* dosageInstruction.timing.code.coding ^short = "由專門術語系統（terminology system）定義的代碼。此資料項目為可擴充綁定預設國際標準值集，但實作者可視實務專案需求只綁定以下slices中的任一值集。目前未只限定綁定預設值集是因為尚無slice值集與預設國際標準值集的代碼對應表，待後續有相對的代碼對應表後將建議採用國際標準值集作為唯一綁定值集並針對該值集進行擴充與管理，以利進行跨國與跨系統之資料交換。"
 * dosageInstruction.timing.code.coding ^definition = "由專門術語系統（terminology system）所定義之代碼的參照"
-* dosageInstruction.timing.code.coding ^binding.description = "應填入所綁定值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。"
+//* dosageInstruction.timing.code.coding ^binding.description = "應填入所綁定值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。"
 * dosageInstruction.timing.code.coding ^requirements = "允許代碼系統中的替代編碼，以及翻譯到其他編碼系統。"
 * dosageInstruction.timing.code.coding ^comment = "代碼可以在列舉清單（enumerations）或代碼清單（code lists）中非常隨意地定義，直至有非常正式的定義，例如：SNOMED CT—更多資訊見HL7 v3核心原則（Core Principles）。編碼的排序是未定義的因而 **必須沒有（SHALL NOT）** 被用來推斷意義。一般來說，最多只有一個編碼值（coding values）會被標記為UserSelected = true。"
 //* dosageInstruction.timing.code.coding[medication-frequency] ^short = "由專門術語系統（terminology system）定義的代碼"

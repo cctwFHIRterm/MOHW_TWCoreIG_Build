@@ -13,7 +13,7 @@ Usage: #example
 * period.end = "2024-07-31"
 * practitioner = Reference(Practitioner/pra-radio-example) "王曉明"
 * code = http://snomed.info/sct#159016003 "Medical radiographer"
-* specialty = http://snomed.info/sct#394914008 "Radiology"
+* specialty = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw#394914008 "Radiology - specialty (qualifier value)"
 * location = Reference(Location/loc-hrad-example) "衛生福利部臺北醫院X光室"
 * telecom.system = #phone
 * telecom.value = "0993277827"
@@ -55,7 +55,7 @@ Usage: #example
     <b>角色</b>： 醫學放射技師（Medical radiographer) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#159016003） </span>
   </p>
   <p>
-    <b>角色專業</b>：放射線科(Radiology - specialty) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#394914008） </span>
+    <b>角色專業</b>：放射線科(Radiology - specialty (qualifier value)) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#394914008） </span>
   </p>
 
   <p>

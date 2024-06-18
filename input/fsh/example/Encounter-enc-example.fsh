@@ -8,7 +8,7 @@ Usage: #example
 * type = http://terminology.hl7.org/CodeSystem/encounter-type#ADMS
 //* serviceType = http://terminology.hl7.org/CodeSystem/service-type#318 "Diabetes"
 //* serviceType.text = "糖尿病"
-* serviceType = http://snomed.info/sct#394589003 "Nephrology"
+* serviceType = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw#394589003 "Nephrology (qualifier value)"
 * serviceType.text = "腎臟內科"
 * subject = Reference(Patient/pat-example)
 * participant.type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PPRF
@@ -38,7 +38,7 @@ Usage: #example
 		<b>就醫種類</b>：Annual diabetes mellitus screening <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-type.html\">Encounter type</a>#ADMS) </span>
 	</p>
 	<p>
-		<b>服務型別</b>：腎臟內科(Nephrology) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">Service type</a>#394589003) </span>
+		<b>服務型別</b>：腎臟內科(Nephrology (qualifier value)) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://snomed.info/sct\">Service type</a>#394589003) </span>
 	</p>
 	<p>
 		<b>病人</b>：<a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"

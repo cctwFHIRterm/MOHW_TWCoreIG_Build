@@ -11,7 +11,7 @@ Usage: #example
 * period.end = "2024-07-31"
 * practitioner = Reference(Practitioner/pra-dr-example) "王依昇"
 * code = http://snomed.info/sct#394802001 "General medicine"
-* specialty = http://snomed.info/sct#418960008 "Otolaryngology"
+* specialty = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw#418960008 "Otolaryngology (qualifier value)"
 * location = Reference(Location/loc-ent-example) "衛生福利部臺北醫院耳鼻喉科"
 * telecom.system = #phone
 * telecom.value = "0993277826"
@@ -53,7 +53,7 @@ Usage: #example
     <b>角色</b>：西醫師(General medicine) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#394802001） </span>
   </p>
   <p>
-    <b>角色專業</b>：耳鼻喉科(Otolaryngology) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#418960008） </span>
+    <b>角色專業</b>：耳鼻喉科(Otolaryngology (qualifier value)) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#418960008） </span>
   </p>
 
   <p>

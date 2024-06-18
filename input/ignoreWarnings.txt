@@ -280,6 +280,14 @@ INFORMATION: CodeSystem/medication-nhi-tw: CodeSystem.property[0]: This property
 INFORMATION: CodeSystem/medication-nhi-tw: CodeSystem.property[1]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/organization-identifier-tw: CodeSystem.property[0]: This property has only a code ('event') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/organization-identifier-tw: CodeSystem.property[1]: This property has only a code ('updateDate') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[0]: This property has only a code ('PROPERTY') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[1]: This property has only a code ('TIME_ASPCT') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[2]: This property has only a code ('SYSTEM') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[3]: This property has only a code ('SCALE_TYP') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[4]: This property has only a code ('METHOD_TYP') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[5]: This property has only a code ('CLASS') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[6]: This property has only a code ('CLASSTYPE') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/loinc-tw: CodeSystem.property[7]: This property has only a code ('STATUS') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 
 # TW Core IG的ValueSet中代碼量太大，使得 HL7 validator 無法正常辨識，但TW Core IG的代碼仍是完整的，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: ValueSet/medcation-atc-tw: ValueSet.compose.include[0]: The value set include has too many codes to validate (3,242), so each individual code has not been checked
