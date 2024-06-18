@@ -15,9 +15,9 @@ Description:    "此臺灣核心-健康照護服務提供者角色（TW Core Pra
 * specialty.coding ^slicing.discriminator.path = "system"
 * specialty.coding ^slicing.rules = #open
 * specialty.coding contains
+    TWMedicalDepartmentSCT 0..1 MS and
     TWMedicalConsultationDepartment 0..1 MS and
-    TWMedicalTreatmentDepartment 0..1 MS and
-    TWMedicalDepartmentSCT 0..1 MS
+    TWMedicalTreatmentDepartment 0..1 MS
 * specialty.coding[TWMedicalConsultationDepartment] from TWMedicalConsultationDepartment (required)
 * specialty.coding[TWMedicalConsultationDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-tw"
 * specialty.coding[TWMedicalTreatmentDepartment] from TWMedicalTreatmentDepartment (required)

@@ -20,9 +20,9 @@ Description:    "此臺灣核心-就醫事件（TW Core Encounter) Profile說明
 * serviceType.coding ^slicing.discriminator.path = "system"
 * serviceType.coding ^slicing.rules = #open
 * serviceType.coding contains
+    TWMedicalDepartmentSCT 0..1 MS and
     TWMedicalConsultationDepartment 0..1 MS and
-    TWMedicalTreatmentDepartment 0..1 MS and
-    TWMedicalDepartmentSCT 0..1 MS
+    TWMedicalTreatmentDepartment 0..1 MS
 * serviceType.coding[TWMedicalConsultationDepartment] from TWMedicalConsultationDepartment (required)
 * serviceType.coding[TWMedicalConsultationDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-tw"
 * serviceType.coding[TWMedicalTreatmentDepartment] from TWMedicalTreatmentDepartment (required)
