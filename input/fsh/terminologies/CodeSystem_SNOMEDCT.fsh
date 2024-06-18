@@ -32,24 +32,24 @@ Description: "SNOMED CT Code
 * #419192003 ^property[+].code = #active
 * #419192003 ^property[=].valueString = "1"
 * #394609007 "General surgery (qualifier value)"
-* #394609007 ^property[0].language = #effectiveTime
+* #394609007 ^property[0].code = #effectiveTime
 * #394609007 ^property[=].value = "20030131"
-* #394609007 ^property[+].language = #active
+* #394609007 ^property[+].code = #active
 * #394609007 ^property[=].value = "1"
 * #394585009 "Obstetrics and gynaecology (qualifier value)"
-* #394585009 ^property[0].language = #effectiveTime
+* #394585009 ^property[0].code = #effectiveTime
 * #394585009 ^property[=].value = "20030131"
-* #394585009 ^property[+].language = #active
+* #394585009 ^property[+].code = #active
 * #394585009 ^property[=].value = "1"
 * #394610002 "Neurosurgery (qualifier value)"
-* #394610002 ^property[0].language = #effectiveTime
+* #394610002 ^property[0].code = #effectiveTime
 * #394610002 ^property[=].value = "20030131"
-* #394610002 ^property[+].language = #active
+* #394610002 ^property[+].code = #active
 * #394610002 ^property[=].value = "1"
 * #394612005 "Urology"
-* #394612005 ^property[0].language = #effectiveTime
+* #394612005 ^property[0].code = #effectiveTime
 * #394612005 ^property[=].value = "20030131"
-* #394612005 ^property[+].language = #active
+* #394612005 ^property[+].code = #active
 * #394612005 ^property[=].value = "1"
 * #418960008 "Otolaryngology (qualifier value)"
 * #418960008 ^property[0].code = #effectiveTime
@@ -57,49 +57,49 @@ Description: "SNOMED CT Code
 * #418960008 ^property[+].code = #active
 * #418960008 ^property[=].valueString = "1"
 * #394594003 "Ophthalmology (qualifier value)"
-* #394594003 ^property[0].language = #effectiveTime
+* #394594003 ^property[0].code = #effectiveTime
 * #394594003 ^property[=].value = "20030131"
-* #394594003 ^property[+].language = #active
+* #394594003 ^property[+].code = #active
 * #394594003 ^property[=].value = "1"
 * #394582007 "Dermatology (qualifier value)"
-* #394582007 ^property[0].language = #effectiveTime
+* #394582007 ^property[0].code = #effectiveTime
 * #394582007 ^property[=].value = "20030131"
-* #394582007 ^property[+].language = #active
+* #394582007 ^property[+].code = #active
 * #394582007 ^property[=].value = "1"
 * #394591006 "Neurology (qualifier value)"
-* #394591006 ^property[0].language = #effectiveTime
+* #394591006 ^property[0].code = #effectiveTime
 * #394591006 ^property[=].value = "20030131"
-* #394591006 ^property[+].language = #active
+* #394591006 ^property[+].code = #active
 * #394591006 ^property[=].value = "1"
 * #394587001 "Psychiatry (qualifier value)"
-* #394587001 ^property[0].language = #effectiveTime
+* #394587001 ^property[0].code = #effectiveTime
 * #394587001 ^property[=].value = "20030131"
-* #394587001 ^property[+].language = #active
+* #394587001 ^property[+].code = #active
 * #394587001 ^property[=].value = "1"
 /* #394602003 "Rehabilitation"
-* #394602003 ^property[0].language = #effectiveTime
+* #394602003 ^property[0].code = #effectiveTime
 * #394602003 ^property[=].value = "20030131"
-* #394602003 ^property[+].language = #active
+* #394602003 ^property[+].code = #active
 * #394602003 ^property[=].value = "1"*/
 * #394602003 "Rehabilitation - specialty (qualifier value)"
-* #394602003 ^property[0].language = #effectiveTime
+* #394602003 ^property[0].code = #effectiveTime
 * #394602003 ^property[=].value = "20030131"
-* #394602003 ^property[+].language = #active
+* #394602003 ^property[+].code = #active
 * #394602003 ^property[=].value = "1"
 /* #394602003 "Rehabilitation - speciality"
-* #394602003 ^property[0].language = #effectiveTime
+* #394602003 ^property[0].code = #effectiveTime
 * #394602003 ^property[=].value = "20030131"
-* #394602003 ^property[+].language = #active
+* #394602003 ^property[+].code = #active
 * #394602003 ^property[=].value = "1"*/
 /* #394611003 "Plastic surgery - specialty"
-* #394611003 ^property[0].language = #effectiveTime
+* #394611003 ^property[0].code = #effectiveTime
 * #394611003 ^property[=].value = "20030131"
-* #394611003 ^property[+].language = #active
+* #394611003 ^property[+].code = #active
 * #394611003 ^property[=].value = "1"
 * #394611003 "Plastic surgery"
-* #394611003 ^property[0].language = #effectiveTime
+* #394611003 ^property[0].code = #effectiveTime
 * #394611003 ^property[=].value = "20030131"
-* #394611003 ^property[+].language = #active
+* #394611003 ^property[+].code = #active
 * #394611003 ^property[=].value = "1"
 * #394611003 "Plastic surgery - speciality (qualifier value)"
 * #394611003 ^property[0].code = #effectiveTime
@@ -112,34 +112,34 @@ Description: "SNOMED CT Code
 * #394611003 ^property[+].code = #active
 * #394611003 ^property[=].valueString = "1"
 /* #394611003 "Plastic surgery - speciality (qualifier value)"
-* #394611003 ^property[0].language = #effectiveTime
+* #394611003 ^property[0].code = #effectiveTime
 * #394611003 ^property[=].value = "20030131"
-* #394611003 ^property[+].language = #active
+* #394611003 ^property[+].code = #active
 * #394611003 ^property[=].value = "1"
 * #394821009 "Occupational medicine"
-* #394821009 ^property[0].language = #effectiveTime
+* #394821009 ^property[0].code = #effectiveTime
 * #394821009 ^property[=].value = "20030131"
-* #394821009 ^property[+].language = #active
+* #394821009 ^property[+].code = #active
 * #394821009 ^property[=].value = "1"*/
 * #394821009 "Occupational medicine (qualifier value)"
-* #394821009 ^property[0].language = #effectiveTime
+* #394821009 ^property[0].code = #effectiveTime
 * #394821009 ^property[=].value = "20030131"
-* #394821009 ^property[+].language = #active
+* #394821009 ^property[+].code = #active
 * #394821009 ^property[=].value = "1"
 /* #394589003 "Nephrology"
-* #394589003 ^property[0].language = #effectiveTime
+* #394589003 ^property[0].code = #effectiveTime
 * #394589003 ^property[=].value = "20030131"
-* #394589003 ^property[+].language = #active
+* #394589003 ^property[+].code = #active
 * #394589003 ^property[=].value = "1"
 * #394589003 "Renal medicine"
-* #394589003 ^property[0].language = #effectiveTime
+* #394589003 ^property[0].code = #effectiveTime
 * #394589003 ^property[=].value = "20030131"
-* #394589003 ^property[+].language = #active
+* #394589003 ^property[+].code = #active
 * #394589003 ^property[=].value = "1"*/
 * #394589003 "Nephrology (qualifier value)"
-* #394589003 ^property[0].language = #effectiveTime
+* #394589003 ^property[0].code = #effectiveTime
 * #394589003 ^property[=].value = "20030131"
-* #394589003 ^property[+].language = #active
+* #394589003 ^property[+].code = #active
 * #394589003 ^property[=].value = "1"
 * #722163006 "Dentistry (qualifier value)"
 * #722163006 ^property[0].code = #effectiveTime
@@ -152,14 +152,14 @@ Description: "SNOMED CT Code
 * #722163006 ^property[+].code = #active
 * #722163006 ^property[=].valueString = "1"*/
 /* #394577000 "Anaesthetics (qualifier value)"
-* #394577000 ^property[0].language = #effectiveTime
+* #394577000 ^property[0].code = #effectiveTime
 * #394577000 ^property[=].value = "20030131"
-* #394577000 ^property[+].language = #active
+* #394577000 ^property[+].code = #active
 * #394577000 ^property[=].value = "1"
 * #394577000 "Anaesthetics"
-* #394577000 ^property[0].language = #effectiveTime
+* #394577000 ^property[0].code = #effectiveTime
 * #394577000 ^property[=].value = "20030131"
-* #394577000 ^property[+].language = #active
+* #394577000 ^property[+].code = #active
 * #394577000 ^property[=].value = "1"
 * #394577000 "Anaesthetics (qualifier value)"
 * #394577000 ^property[0].code = #effectiveTime
@@ -182,99 +182,99 @@ Description: "SNOMED CT Code
 * #394577000 ^property[+].code = #active
 * #394577000 ^property[=].valueString = "1"
 * #394914008 "Radiology - specialty (qualifier value)"
-* #394914008 ^property[0].language = #effectiveTime
+* #394914008 ^property[0].code = #effectiveTime
 * #394914008 ^property[=].value = "20030131"
-* #394914008 ^property[+].language = #active
+* #394914008 ^property[+].code = #active
 * #394914008 ^property[=].value = "1"
 /* #394914008 "Radiology - speciality"
-* #394914008 ^property[0].language = #effectiveTime
+* #394914008 ^property[0].code = #effectiveTime
 * #394914008 ^property[=].value = "20030131"
-* #394914008 ^property[+].language = #active
+* #394914008 ^property[+].code = #active
 * #394914008 ^property[=].value = "1"
 * #394914008 "Radiology"
-* #394914008 ^property[0].language = #effectiveTime
+* #394914008 ^property[0].code = #effectiveTime
 * #394914008 ^property[=].value = "20030131"
-* #394914008 ^property[+].language = #active
+* #394914008 ^property[+].code = #active
 * #394914008 ^property[=].value = "1"*/
 * #394915009 "General pathology (specialty) (qualifier value)"
-* #394915009 ^property[0].language = #effectiveTime
+* #394915009 ^property[0].code = #effectiveTime
 * #394915009 ^property[=].value = "20030131"
-* #394915009 ^property[+].language = #active
+* #394915009 ^property[+].code = #active
 * #394915009 ^property[=].value = "1"
 /* #394915009 "General pathology (specialty)"
-* #394915009 ^property[0].language = #effectiveTime
+* #394915009 ^property[0].code = #effectiveTime
 * #394915009 ^property[=].value = "20030131"
-* #394915009 ^property[+].language = #active
+* #394915009 ^property[+].code = #active
 * #394915009 ^property[=].value = "1"
 * #394649004 "Nuclear medicine"
-* #394649004 ^property[0].language = #effectiveTime
+* #394649004 ^property[0].code = #effectiveTime
 * #394649004 ^property[=].value = "20030131"
-* #394649004 ^property[+].language = #active
+* #394649004 ^property[+].code = #active
 * #394649004 ^property[=].value = "1"*/
 * #394649004 "Nuclear medicine - specialty (qualifier value)"
-* #394649004 ^property[0].language = #effectiveTime
+* #394649004 ^property[0].code = #effectiveTime
 * #394649004 ^property[=].value = "20030131"
-* #394649004 ^property[+].language = #active
+* #394649004 ^property[+].code = #active
 * #394649004 ^property[=].value = "1"
 /* #394649004 "Nuclear medicine - speciality"
-* #394649004 ^property[0].language = #effectiveTime
+* #394649004 ^property[0].code = #effectiveTime
 * #394649004 ^property[=].value = "20030131"
-* #394649004 ^property[+].language = #active
+* #394649004 ^property[+].code = #active
 * #394649004 ^property[=].value = "1"
 * #394584008 "Gastroenterology"
-* #394584008 ^property[0].language = #effectiveTime
+* #394584008 ^property[0].code = #effectiveTime
 * #394584008 ^property[=].value = "20030131"
-* #394584008 ^property[+].language = #active
+* #394584008 ^property[+].code = #active
 * #394584008 ^property[=].value = "1"
 * #394584008 "GE - Gastroenterology"
-* #394584008 ^property[0].language = #effectiveTime
+* #394584008 ^property[0].code = #effectiveTime
 * #394584008 ^property[=].value = "20030131"
-* #394584008 ^property[+].language = #active
+* #394584008 ^property[+].code = #active
 * #394584008 ^property[=].value = "1"*/
 * #394584008 "Gastroenterology (qualifier value)"
-* #394584008 ^property[0].language = #effectiveTime
+* #394584008 ^property[0].code = #effectiveTime
 * #394584008 ^property[=].value = "20030131"
-* #394584008 ^property[+].language = #active
+* #394584008 ^property[+].code = #active
 * #394584008 ^property[=].value = "1"
 /* #394579002 "Cardiology"
-* #394579002 ^property[0].language = #effectiveTime
+* #394579002 ^property[0].code = #effectiveTime
 * #394579002 ^property[=].value = "20030131"
-* #394579002 ^property[+].language = #active
+* #394579002 ^property[+].code = #active
 * #394579002 ^property[=].value = "1"*/
 * #394579002 "Cardiology (qualifier value)"
-* #394579002 ^property[0].language = #effectiveTime
+* #394579002 ^property[0].code = #effectiveTime
 * #394579002 ^property[=].value = "20030131"
-* #394579002 ^property[+].language = #active
+* #394579002 ^property[+].code = #active
 * #394579002 ^property[=].value = "1"
 * #394810000 "Rheumatology (qualifier value)"
-* #394810000 ^property[0].language = #effectiveTime
+* #394810000 ^property[0].code = #effectiveTime
 * #394810000 ^property[=].value = "20030131"
-* #394810000 ^property[+].language = #active
+* #394810000 ^property[+].code = #active
 * #394810000 ^property[=].value = "1"
 /* #394810000 "Rheumatology"
-* #394810000 ^property[0].language = #effectiveTime
+* #394810000 ^property[0].code = #effectiveTime
 * #394810000 ^property[=].value = "20030131"
-* #394810000 ^property[+].language = #active
+* #394810000 ^property[+].code = #active
 * #394810000 ^property[=].value = "1"*/
 * #394583002 "Endocrinology (qualifier value)"
-* #394583002 ^property[0].language = #effectiveTime
+* #394583002 ^property[0].code = #effectiveTime
 * #394583002 ^property[=].value = "20030131"
-* #394583002 ^property[+].language = #active
+* #394583002 ^property[+].code = #active
 * #394583002 ^property[=].value = "1"
 /* #394583002 "Endocrinology"
-* #394583002 ^property[0].language = #effectiveTime
+* #394583002 ^property[0].code = #effectiveTime
 * #394583002 ^property[=].value = "20030131"
-* #394583002 ^property[+].language = #active
+* #394583002 ^property[+].code = #active
 * #394583002 ^property[=].value = "1"*/
 /* #394807007 "Infectious diseases (specialty)"
-* #394807007 ^property[0].language = #effectiveTime
+* #394807007 ^property[0].code = #effectiveTime
 * #394807007 ^property[=].value = "20030131"
-* #394807007 ^property[+].language = #active
+* #394807007 ^property[+].code = #active
 * #394807007 ^property[=].value = "1"*/
 * #394807007 "Infectious diseases (specialty) (qualifier value)"
-* #394807007 ^property[0].language = #effectiveTime
+* #394807007 ^property[0].code = #effectiveTime
 * #394807007 ^property[=].value = "20030131"
-* #394807007 ^property[+].language = #active
+* #394807007 ^property[+].code = #active
 * #394807007 ^property[=].value = "1"
 * #410005002 "Dive medicine (qualifier value)"
 * #410005002 ^property[0].code = #effectiveTime
@@ -287,14 +287,14 @@ Description: "SNOMED CT Code
 * #410005002 ^property[+].code = #active
 * #410005002 ^property[=].valueString = "1"*/
 * #394811001 "Geriatric medicine (qualifier value)"
-* #394811001 ^property[0].language = #effectiveTime
+* #394811001 ^property[0].code = #effectiveTime
 * #394811001 ^property[=].value = "20030131"
-* #394811001 ^property[+].language = #active
+* #394811001 ^property[+].code = #active
 * #394811001 ^property[=].value = "1"
 /* #394811001 "Geriatric medicine"
-* #394811001 ^property[0].language = #effectiveTime
+* #394811001 ^property[0].code = #effectiveTime
 * #394811001 ^property[=].value = "20030131"
-* #394811001 ^property[+].language = #active
+* #394811001 ^property[+].code = #active
 * #394811001 ^property[=].value = "1"*/
 * #408464004 "Colorectal surgery (qualifier value)"
 * #408464004 ^property[0].code = #effectiveTime
@@ -332,14 +332,14 @@ Description: "SNOMED CT Code
 * #394539006 ^property[+].code = #active
 * #394539006 ^property[=].valueString = "1"
 /* #394539006 "Paediatric surgery (qualifier value)"
-* #394539006 ^property[0].language = #effectiveTime
+* #394539006 ^property[0].code = #effectiveTime
 * #394539006 ^property[=].value = "20030131"
-* #394539006 ^property[+].language = #active
+* #394539006 ^property[+].code = #active
 * #394539006 ^property[=].value = "1"
 * #394539006 "Paediatric surgery"
-* #394539006 ^property[0].language = #effectiveTime
+* #394539006 ^property[0].code = #effectiveTime
 * #394539006 ^property[=].value = "20030131"
-* #394539006 ^property[+].language = #active
+* #394539006 ^property[+].code = #active
 * #394539006 ^property[=].value = "1"
 * #394539006 "Paediatric surgery (qualifier value)"
 * #394539006 ^property[0].code = #effectiveTime
@@ -357,14 +357,14 @@ Description: "SNOMED CT Code
 * #408445005 ^property[+].code = #active
 * #408445005 ^property[=].valueString = "1"*/
 * #394882004 "Pain management (specialty) (qualifier value)"
-* #394882004 ^property[0].language = #effectiveTime
+* #394882004 ^property[0].code = #effectiveTime
 * #394882004 ^property[=].value = "20030131"
-* #394882004 ^property[+].language = #active
+* #394882004 ^property[+].code = #active
 * #394882004 ^property[=].value = "1"
 /* #394882004 "Pain management (specialty)"
-* #394882004 ^property[0].language = #effectiveTime
+* #394882004 ^property[0].code = #effectiveTime
 * #394882004 ^property[=].value = "20030131"
-* #394882004 ^property[+].language = #active
+* #394882004 ^property[+].code = #active
 * #394882004 ^property[=].value = "1"*/
 * #419815003 "Radiation oncology (qualifier value)"
 * #419815003 ^property[0].code = #effectiveTime
@@ -432,14 +432,14 @@ Description: "SNOMED CT Code
 * #408461007 ^property[+].code = #active
 * #408461007 ^property[=].valueString = "1"*/
 * #394608004 "Orthodontics (qualifier value)"
-* #394608004 ^property[0].language = #effectiveTime
+* #394608004 ^property[0].code = #effectiveTime
 * #394608004 ^property[=].value = "20030131"
-* #394608004 ^property[+].language = #active
+* #394608004 ^property[+].code = #active
 * #394608004 ^property[=].value = "1"
 /* #394608004 "Orthodontics"
-* #394608004 ^property[0].language = #effectiveTime
+* #394608004 ^property[0].code = #effectiveTime
 * #394608004 ^property[=].value = "20030131"
-* #394608004 ^property[+].language = #active
+* #394608004 ^property[+].code = #active
 * #394608004 ^property[=].value = "1"*/
 
 
@@ -452,13 +452,13 @@ Description: "SNOMED CT Code
 * #394607009 ^property[+].code = #active
 * #394607009 ^property[=].valueString = "0"
 * #394607009 "Paediatric dentistry (qualifier value)"
-* #394607009 ^property[0].language = #effectiveTime
+* #394607009 ^property[0].code = #effectiveTime
 * #394607009 ^property[=].value = "20030131"
-* #394607009 ^property[+].language = #active
+* #394607009 ^property[+].code = #active
 * #394607009 ^property[=].value = "1"
 * #394607009 "Paediatric dentistry"
-* #394607009 ^property[0].language = #effectiveTime
+* #394607009 ^property[0].code = #effectiveTime
 * #394607009 ^property[=].value = "20030131"
-* #394607009 ^property[+].language = #active
+* #394607009 ^property[+].code = #active
 * #394607009 ^property[=].value = "1"
 */
