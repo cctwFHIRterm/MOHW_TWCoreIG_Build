@@ -176,8 +176,8 @@ Instance: Inline-Composition-example
 InstanceOf: TWCoreComposition
 Usage: #inline
 * status = http://hl7.org/fhir/composition-status#final
-* type = http://loinc.org#11503-0 "Medical records"
-* category = http://loinc.org#47039-3
+* type = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#11503-0 "Medical records"
+* category = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#47039-3
 * subject = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
 * date = "2023-09-10T10:30:00Z"
 * author = Reference(urn:uuid:0511b38b-2841-473c-9843-4d04c0c9c30e)
@@ -214,14 +214,14 @@ InstanceOf: TWCoreObservationBloodPressure
 Usage: #inline
 * status = #final
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
-* code = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
+* code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#85354-9 "Blood pressure panel with all children optional"
 * code.text = "Blood pressure panel with all children optional"
 * subject = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
 * effectiveDateTime = "2022-07-31"
 * performer = Reference(urn:uuid:0511b38b-2841-473c-9843-4d04c0c9c30e)
-* component[Systolic].code = http://loinc.org#8480-6 "Systolic blood pressure"
+* component[Systolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#8480-6 "Systolic blood pressure"
 * component[Systolic].valueQuantity = 110 'mm[Hg]' "mmHg"
-* component[Diastolic].code = http://loinc.org#8462-4 "Diastolic blood pressure"
+* component[Diastolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#8462-4 "Diastolic blood pressure"
 * component[Diastolic].valueQuantity = 56 'mm[Hg]' "mmHg"
 
 

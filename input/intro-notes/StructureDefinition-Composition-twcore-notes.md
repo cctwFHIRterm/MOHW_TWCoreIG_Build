@@ -23,7 +23,7 @@
     `GET [base]/Composition?type={system|}[code]`
 
     例子：  
-      (1) GET [base]/Composition?type=http://loinc.org|18842-5  
+      (1) GET [base]/Composition?type=https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw|18842-5  
 
 4. **建議應該（SHOULD）** 支援透過查詢參數 **[`subject`](SearchParameter-Composition-subject.html)** 查詢所有Composition：  
     ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))  

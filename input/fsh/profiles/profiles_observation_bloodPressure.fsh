@@ -5,7 +5,7 @@ Title:          "TW Core Observation Blood Pressure"
 Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure) Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs) Profile以呈現血壓資料。"
 * ^version = "0.2.2"
 * code only CodeableConceptTW
-* code = http://loinc.org#85354-9
+* code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#85354-9
 * code MS
 * code ^short = "血壓"
 * component ..* MS
@@ -18,7 +18,7 @@ Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure) Pr
     Diastolic 1..1 MS
 * component[Systolic] ^short = "收縮壓"
 * component[Systolic].code 1..1 MS
-* component[Systolic].code = http://loinc.org#8480-6
+* component[Systolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#8480-6
 * component[Systolic].code ^short = "收縮壓代碼"
 * component[Systolic].value[x] only Quantity
 * component[Systolic].valueQuantity only Quantity
@@ -35,7 +35,7 @@ Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure) Pr
 * component[Systolic].valueQuantity.code = #mm[Hg] (exactly)
 * component[Diastolic] ^short = "舒張壓"
 * component[Diastolic].code 1..1 MS
-* component[Diastolic].code = http://loinc.org#8462-4
+* component[Diastolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#8462-4
 * component[Diastolic].code ^short = "舒張壓代碼"
 * component[Diastolic].value[x] only Quantity
 * component[Diastolic].valueQuantity only Quantity

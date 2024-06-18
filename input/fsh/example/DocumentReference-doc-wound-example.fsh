@@ -1,10 +1,8 @@
-Alias: $loinc = http://loinc.org
-
 Instance: doc-wound-example
 InstanceOf: TWCoreDocumentReference
 Usage: #example
 * status = #current
-* type = $loinc#74209-8 "Injury event summary Document"
+* type = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#74209-8 "Injury event summary Document"
 * type.text = "驗傷報告"
 * subject = Reference(Patient/pat-example)
 * date = "2024-01-23T15:45:00Z"
@@ -23,7 +21,7 @@ Usage: #example
 		<b>狀態</b>：Current <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/R4/codesystem-document-reference-status.html\">DocumentReferenceStatus</a>#current) </span>
 	</p>
 	<p>
-		<b>類型(type)</b>：驗傷報告(Injury event summary Document) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#74209-8) </span>
+		<b>類型(type)</b>：驗傷報告(Injury event summary Document) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw\">LOINC</a>#74209-8) </span>
 	</p>
 	<p>
 		<b>病人</b>：<a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"

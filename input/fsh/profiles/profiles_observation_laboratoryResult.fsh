@@ -23,7 +23,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
     LOINCObservationCode 0..1 MS and
     TWLaboratoryCategory 0..1 MS
 * code.coding[LOINCObservationCode] from LOINCObservationCode (required)
-* code.coding[LOINCObservationCode].system = "http://loinc.org"
+* code.coding[LOINCObservationCode].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw"
 * code.coding[LOINCObservationCode].system MS
 * code.coding[LOINCObservationCode].code 1..1 MS
 * code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
@@ -44,7 +44,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
     LOINCObservationCode 0..1 MS and
     TWLaboratoryCategory 0..1 MS
 * component.code.coding[LOINCObservationCode] from LOINCObservationCode (required)
-* component.code.coding[LOINCObservationCode].system = "http://loinc.org"
+* component.code.coding[LOINCObservationCode].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw"
 * component.code.coding[LOINCObservationCode].system MS
 * component.code.coding[LOINCObservationCode].code 1..1 MS
 * component.code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
