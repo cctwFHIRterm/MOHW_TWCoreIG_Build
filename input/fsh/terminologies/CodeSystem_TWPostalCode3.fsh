@@ -1,7 +1,7 @@
 CodeSystem: TWPostalCode3
 Id: postal-code3-tw
 Title: "臺灣中華郵政3碼郵遞區號"
-Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=2292)。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。   
+Description: "臺灣中華郵政3碼郵遞區號，參照自[https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306)。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。   
 代碼出版日期：2015-01-22；資料所屬單位：中華郵政。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*
