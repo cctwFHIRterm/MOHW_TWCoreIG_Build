@@ -1,8 +1,8 @@
 Alias: $TWMedicalConsultationDepartmentNHI = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw
 ValueSet: TWMedicalConsultationDepartment
 Id: medical-consultation-department-tw
-Title: "臺灣健保署就醫科別值集"
-Description: "臺灣健保署就醫科別值集。
+Title: "無法對應至SNOMED CT之臺灣健保署就醫科別值集"
+Description: "無法對應至SNOMED CT之臺灣健保署就醫科別值集。
 
 此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣健保署標準碼表述，請實作者留意。
 "
