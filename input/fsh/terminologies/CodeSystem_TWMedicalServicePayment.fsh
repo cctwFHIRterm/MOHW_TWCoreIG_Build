@@ -9544,7 +9544,7 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #33130B ^property[=].valueString = "2022-07"
 * #33130B ^property[+].code = #event
 * #33130B ^property[=].valueString = "新增"
-* #33131B "經皮導管血管內\心臟內異物移除術(適用於留置異物處血管大小直徑為>7mm者)" "1.因遺失或移位而造成之血管內或心臟內異物。2.各種材質之診斷性或治療性器械，導管或導絲因斷落、掉落或移位而留置於血管或心臟內所形成之異物，需移除或取出至體外者。由於各類夾取器之實際選擇尚得考量待取出異物之大小、長度、材質及材料硬度，本項目使用時機原則如下:適合使用於留置異物處血管大小直徑為>7mm之異物夾取器(如standard、6-7Fr.等型號)。3.提升兒童加成項目。4.含一般材料費及單一使用拋棄式之心臟血管異物取出器。"
+* #33131B "經皮導管血管內/心臟內異物移除術(適用於留置異物處血管大小直徑為>7mm者)" "1.因遺失或移位而造成之血管內或心臟內異物。2.各種材質之診斷性或治療性器械，導管或導絲因斷落、掉落或移位而留置於血管或心臟內所形成之異物，需移除或取出至體外者。由於各類夾取器之實際選擇尚得考量待取出異物之大小、長度、材質及材料硬度，本項目使用時機原則如下:適合使用於留置異物處血管大小直徑為>7mm之異物夾取器(如standard、6-7Fr.等型號)。3.提升兒童加成項目。4.含一般材料費及單一使用拋棄式之心臟血管異物取出器。"
 * #33131B ^property[0].code = #updateDate
 * #33131B ^property[=].valueString = "2022-07"
 * #33131B ^property[+].code = #event
@@ -9559,7 +9559,7 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #33133B ^property[=].valueString = "2022-07"
 * #33133B ^property[+].code = #event
 * #33133B ^property[=].valueString = "新增"
-* #33135B "經皮導管血管內\心臟內異物移除術(適用於留置異物處血管大小直徑為≤7mm者)" "1.因遺失或移位而造成之血管內或心臟內異物。2各種材質之診斷性或治療性器械，導管或導絲因斷落、掉落或移位而留置於血管或心臟內所形成之異物，需移除或取出至體外者。由於各類夾取器之實際選擇尚得考量待取出異物之大小、長度、材質及材料硬度，本項目使用時機原則如下:適合使用於留置異物處血管大小直徑為≤7mm之異物夾取器(如mini、micro、3Fr.等型號)。3.提升兒童加成項目。4.含一般材料費及單一使用拋棄式之心臟血管異物取出器。"
+* #33135B "經皮導管血管內/心臟內異物移除術(適用於留置異物處血管大小直徑為≤7mm者)" "1.因遺失或移位而造成之血管內或心臟內異物。2各種材質之診斷性或治療性器械，導管或導絲因斷落、掉落或移位而留置於血管或心臟內所形成之異物，需移除或取出至體外者。由於各類夾取器之實際選擇尚得考量待取出異物之大小、長度、材質及材料硬度，本項目使用時機原則如下:適合使用於留置異物處血管大小直徑為≤7mm之異物夾取器(如mini、micro、3Fr.等型號)。3.提升兒童加成項目。4.含一般材料費及單一使用拋棄式之心臟血管異物取出器。"
 * #33135B ^property[0].code = #updateDate
 * #33135B ^property[=].valueString = "2022-07"
 * #33135B ^property[+].code = #event
@@ -10109,22 +10109,22 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #42 ^property[=].valueString = "2022-07"
 * #42 ^property[+].code = #event
 * #42 ^property[=].valueString = "新增"
-* #42002B "簡單治療－簡單" "簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷\熱敷Hot\coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
+* #42002B "簡單治療－簡單" "簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷/熱敷Hot/coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
 * #42002B ^property[0].code = #updateDate
 * #42002B ^property[=].valueString = "2022-07"
 * #42002B ^property[+].code = #event
 * #42002B ^property[=].valueString = "新增"
-* #42003C "簡單治療－簡單" "簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷\熱敷Hot\coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
+* #42003C "簡單治療－簡單" "簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷/熱敷Hot/coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
 * #42003C ^property[0].code = #updateDate
 * #42003C ^property[=].valueString = "2022-07"
 * #42003C ^property[+].code = #event
 * #42003C ^property[=].valueString = "新增"
-* #42005B "簡單治療－中度" "指實施簡單治療項目二項以上，且合計時間超過三十分鐘。註:簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷\熱敷Hot\coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
+* #42005B "簡單治療－中度" "指實施簡單治療項目二項以上，且合計時間超過三十分鐘。註:簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷/熱敷Hot/coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
 * #42005B ^property[0].code = #updateDate
 * #42005B ^property[=].valueString = "2022-07"
 * #42005B ^property[+].code = #event
 * #42005B ^property[=].valueString = "新增"
-* #42006C "簡單治療－中度" "指實施簡單治療項目二項以上，且合計時間超過三十分鐘。註:簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷\熱敷Hot\coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
+* #42006C "簡單治療－中度" "指實施簡單治療項目二項以上，且合計時間超過三十分鐘。註:簡單治療項目PTS1.牽引Traction(Intermittent)PTS2.治療性冷/熱敷Hot/coldpackPTS3.紅外線InfraredPTS4.石蠟浴ParaffinbathPTS5.超音波UltrasoundPTS6.短波ShortwavediathermyPTS7.微波MicrowavediathermyPTS8.向量干擾InterferentialtherapyPTS9.經皮神經電剌激TENSPTS10.超高頻HighfrequencydischargePTS11.低能雷射治療LowpowerlaserPTS12.紫外線UltravioletPTS13.磁場治療MagneticfieldtherapyPTS14.循環治療CirculatorPTS15.其他經保險人核可者"
 * #42006C ^property[0].code = #updateDate
 * #42006C ^property[=].valueString = "2022-07"
 * #42006C ^property[+].code = #event
@@ -17054,7 +17054,7 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #72059B ^property[=].valueString = "2022-07"
 * #72059B ^property[+].code = #event
 * #72059B ^property[=].valueString = "新增"
-* #73 "兒童預防保健服務補助時程:四至十個月第三次建議年齡:四至九個月" "1.身體檢查:身長、體重、頭圍、營養狀態、一般檢查、眼位瞳孔及固視能力、髖關節篩檢、疝氣、隱睪、外生殖器、對聲音之反應、心雜音、口腔檢查。2.問診項目:餵食方法、副食品添加3.發展診察:翻身、伸手拿東西、對聲音敏銳、用手拿開蓋在臉上的手帕(四至八個月)、會爬、扶站、表達“再見”、發ㄅㄚ、ㄇㄚ音(八至九個月)。註:1.本項業務自95.1.1起移歸國民健康署管理。2.自106年5月1日起將修正申報代碼，醫院與診所醫令代碼相同。"
+* #73 "兒童預防保健服務補助時程:四至十個月第三次建議年齡:四至九個月" "1.身體檢查:身長、體重、頭圍、營養狀態、一般檢查、眼位瞳孔及固視能力、髖關節篩檢、疝氣、隱睪、外生殖器、對聲音之反應、心雜音、口腔檢查。2.問診項目:餵食方法、副食品添加3.發展診察:翻身、伸手拿東西、對聲音敏銳、用手拿開蓋在臉上的手帕(四至八個月)、會爬、扶站、表達\"再見\"、發ㄅㄚ、ㄇㄚ音(八至九個月)。註:1.本項業務自95.1.1起移歸國民健康署管理。2.自106年5月1日起將修正申報代碼，醫院與診所醫令代碼相同。"
 * #73 ^property[0].code = #updateDate
 * #73 ^property[=].valueString = "2022-07"
 * #73 ^property[+].code = #event
@@ -25449,12 +25449,12 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #N21602 ^property[=].valueString = "2022-07"
 * #N21602 ^property[+].code = #event
 * #N21602 ^property[=].valueString = "新增"
-* #N21701 "”瑪佐”雷納生機械手臂輔助導引定位系統" "HTA評估項目"
+* #N21701 "\"瑪佐\"雷納生機械手臂輔助導引定位系統" "HTA評估項目"
 * #N21701 ^property[0].code = #updateDate
 * #N21701 ^property[=].valueString = "2022-07"
 * #N21701 ^property[+].code = #event
 * #N21701 ^property[=].valueString = "新增"
-* #N21801 "“PediGuard”機器人輔助經皮椎弓根螺釘定位合併脊椎融合術" "HTA評估項目"
+* #N21801 "\"PediGuard\"機器人輔助經皮椎弓根螺釘定位合併脊椎融合術" "HTA評估項目"
 * #N21801 ^property[0].code = #updateDate
 * #N21801 ^property[=].valueString = "2022-07"
 * #N21801 ^property[+].code = #event
@@ -27579,12 +27579,12 @@ Description: "臺灣健保署醫療服務給付項目，參照至[全民健康�
 * #P4611B ^property[=].valueString = "2022-07"
 * #P4611B ^property[+].code = #event
 * #P4611B ^property[=].valueString = "新增"
-* #P4612B "重大外傷照護獎勵_2小時內進開刀房" "1.適用對象:(1)符合下列主診斷碼且ISS≧16之急診病人:T07、S00-S01、S03-S11、S13-S17、S19-S21、S23-S51、S53-S61、S63-S71、S73-S81、S83-S91、S93-S99、T79(前述第7位碼皆須為"A")、S02、S12、S22、S32、S42、S62、S92(前述第7位碼皆須為"A"或"B")、S52、S72、S82(前述第7位碼皆須為"A"或"B"或"C")。(2)體表面積>20%之重大燒傷，診斷為下列代碼之急診病人:T31.20-T31.99、T20.30XA-T20.39XA、T20.70XA-T20.79XA、T32.20-T32.99、T26.00XA-T26.92XA。2.支付條件及規範:從進入急診後2小時或4小時內進入開刀房接受緊急搶救手術或處置(詳附表一)。3.限擇一申報。※全民健康保險急診品質提升方案"
+* #P4612B "重大外傷照護獎勵_2小時內進開刀房" "1.適用對象:(1)符合下列主診斷碼且ISS≧16之急診病人:T07、S00-S01、S03-S11、S13-S17、S19-S21、S23-S51、S53-S61、S63-S71、S73-S81、S83-S91、S93-S99、T79(前述第7位碼皆須為\"A\")、S02、S12、S22、S32、S42、S62、S92(前述第7位碼皆須為\"A\"或\"B\")、S52、S72、S82(前述第7位碼皆須為\"A\"或\"B\"或\"C\")。(2)體表面積>20%之重大燒傷，診斷為下列代碼之急診病人:T31.20-T31.99、T20.30XA-T20.39XA、T20.70XA-T20.79XA、T32.20-T32.99、T26.00XA-T26.92XA。2.支付條件及規範:從進入急診後2小時或4小時內進入開刀房接受緊急搶救手術或處置(詳附表一)。3.限擇一申報。※全民健康保險急診品質提升方案"
 * #P4612B ^property[0].code = #updateDate
 * #P4612B ^property[=].valueString = "2022-07"
 * #P4612B ^property[+].code = #event
 * #P4612B ^property[=].valueString = "新增"
-* #P4613B "重大外傷照護獎勵_4小時內進開刀房" "1.適用對象:(1)符合下列主診斷碼且ISS≧16之急診病人:T07、S00-S01、S03-S11、S13-S17、S19-S21、S23-S51、S53-S61、S63-S71、S73-S81、S83-S91、S93-S99、T79(前述第7位碼皆須為"A")、S02、S12、S22、S32、S42、S62、S92(前述第7位碼皆須為"A"或"B")、S52、S72、S82(前述第7位碼皆須為"A"或"B"或"C")。(2)體表面積>20%之重大燒傷，診斷為下列代碼之急診病人:T31.20-T31.99、T20.30XA-T20.39XA、T20.70XA-T20.79XA、T32.20-T32.99、T26.00XA-T26.92XA。2.支付條件及規範:從進入急診後2小時或4小時內進入開刀房接受緊急搶救手術或處置(詳附表一)。3.限擇一申報。※全民健康保險急診品質提升方案"
+* #P4613B "重大外傷照護獎勵_4小時內進開刀房" "1.適用對象:(1)符合下列主診斷碼且ISS≧16之急診病人:T07、S00-S01、S03-S11、S13-S17、S19-S21、S23-S51、S53-S61、S63-S71、S73-S81、S83-S91、S93-S99、T79(前述第7位碼皆須為\"A\")、S02、S12、S22、S32、S42、S62、S92(前述第7位碼皆須為\"A\"或\"B\")、S52、S72、S82(前述第7位碼皆須為\"A\"或\"B\"或\"C\")。(2)體表面積>20%之重大燒傷，診斷為下列代碼之急診病人:T31.20-T31.99、T20.30XA-T20.39XA、T20.70XA-T20.79XA、T32.20-T32.99、T26.00XA-T26.92XA。2.支付條件及規範:從進入急診後2小時或4小時內進入開刀房接受緊急搶救手術或處置(詳附表一)。3.限擇一申報。※全民健康保險急診品質提升方案"
 * #P4613B ^property[0].code = #updateDate
 * #P4613B ^property[=].valueString = "2022-07"
 * #P4613B ^property[+].code = #event
