@@ -49,7 +49,7 @@ Description: "臺灣健保署醫療服務給付項目-處置或手術值集，�
 * $TWMedicalServicePayment#18007C
 * $TWMedicalServicePayment#18008C
 * $TWMedicalServicePayment#18009B
-* $TWMedicalServicePayment#18010B
+//* $TWMedicalServicePayment#18010B
 * $TWMedicalServicePayment#18011B
 * $TWMedicalServicePayment#18012B
 * $TWMedicalServicePayment#18013C
@@ -771,7 +771,7 @@ Description: "臺灣健保署醫療服務給付項目-處置或手術值集，�
 * $TWMedicalServicePayment#39004C
 * $TWMedicalServicePayment#39005C
 * $TWMedicalServicePayment#39006C
-* $TWMedicalServicePayment#39007C
+//* $TWMedicalServicePayment#39007C
 * $TWMedicalServicePayment#39008C
 * $TWMedicalServicePayment#39009C
 * $TWMedicalServicePayment#39010C
@@ -1017,7 +1017,7 @@ Description: "臺灣健保署醫療服務給付項目-處置或手術值集，�
 * $TWMedicalServicePayment#49011C
 * $TWMedicalServicePayment#49012C
 * $TWMedicalServicePayment#49013C
-* $TWMedicalServicePayment#49014C
+//* $TWMedicalServicePayment#49014C
 * $TWMedicalServicePayment#49015C
 * $TWMedicalServicePayment#49016C
 * $TWMedicalServicePayment#49017C
@@ -1255,7 +1255,7 @@ Description: "臺灣健保署醫療服務給付項目-處置或手術值集，�
 * $TWMedicalServicePayment#56038B
 * $TWMedicalServicePayment#56039B
 * $TWMedicalServicePayment#56040B
-* $TWMedicalServicePayment#56041K
+//* $TWMedicalServicePayment#56041K
 * $TWMedicalServicePayment#56042B
 * $TWMedicalServicePayment#56043C
 * $TWMedicalServicePayment#57001B
@@ -3820,11 +3820,11 @@ Description: "臺灣健保署醫療服務給付項目-處置或手術值集，�
 * $TWMedicalServicePayment#P5507B
 * $TWMedicalServicePayment#P5508B
 * $TWMedicalServicePayment#P5509B
-* $TWMedicalServicePayment#P6702C
-* $TWMedicalServicePayment#P6703C
-* $TWMedicalServicePayment#P6704C
-* $TWMedicalServicePayment#P6705C
-* $TWMedicalServicePayment#P7301C
+//* $TWMedicalServicePayment#P6702C
+//* $TWMedicalServicePayment#P6703C
+//* $TWMedicalServicePayment#P6704C
+//* $TWMedicalServicePayment#P6705C
+//* $TWMedicalServicePayment#P7301C
 * $TWMedicalServicePayment#36022B
 * $TWMedicalServicePayment#36023B
 * $TWMedicalServicePayment#36014B

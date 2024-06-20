@@ -728,7 +728,7 @@ Description: "臺灣健保署醫療服務給付項目-檢驗值集，參照至[h
 * $TWMedicalServicePayment#14079C
 * $TWMedicalServicePayment#14080C
 * $TWMedicalServicePayment#14081B
-* $TWMedicalServicePayment#14082B
+//* $TWMedicalServicePayment#14082B
 * $TWMedicalServicePayment#14083C
 * $TWMedicalServicePayment#15001C
 * $TWMedicalServicePayment#15007C
