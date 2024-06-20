@@ -43,7 +43,7 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) P
 * text ^short = "AllergyIntolerance Resource之內容摘要以供人閱讀"
 * text ^definition = "人可讀的敘述，包含resource的摘要，可用於向人表述resource的內容。敘述不需要對所有的結構化資料進行編碼，但需要包含足夠的細節使人在閱讀敘述時理解「臨床安全性」。resource定義有哪些內容應該在敘述中表示，以確保臨床安全。"
 * text ^comment = "內嵌（contained）的resource沒有敘述，非內嵌（contained）的resource則 **建議應該（SHOULD）** 有敘述。有時resource可能只有文字表述，很少或沒有額外的結構化資料（只要滿足所有minOccurs=1的資料項目）。這可能出現在舊系統的資料，當資訊以 「文字表述區塊（text blob） 」的形式被取得，或者文字表述是原始輸入或說明，而編碼資訊稍後再添加。"
-* contained ^short = "內嵌的（contained）、行內的Resources"
+/* contained ^short = "內嵌的（contained）、行內的Resources"
 * contained ^definition = "這些resource內嵌（contains）的resource不會另外存於任何FHIR伺服器，意即它們無法在任何FHIR伺服器中被找到，也無法有自己獨立的資料異動／交易（transaction）範圍。"
 * contained ^comment = "當內容可以從任何FHIR伺服器找到時，不應該以內嵌（contained）resource的方式呈現，因為一旦失去識別，再次恢復它是非常困難的（並且取決於情境）。內嵌（contained）的resource可在它們的meta資料項目中表述profiles和tag，但不應該有安全標號（security labels）。"
 * extension ^short = "擴充的資料項目"
@@ -53,14 +53,14 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) P
 * modifierExtension ^definition = "可以用來表示不屬於此resource的基本定義的額外資訊，並修改包含它所內嵌（contained）的資料項目的理解和/或對包含資料項目之後續使用的理解。通常修飾用的資料項目提供否定或限定的資訊。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。雖然任何實作者都可以定義一個擴充，但在定義擴充時 **必須（SHALL）** 滿足一組要求。處理resource的應用程式需要檢查修飾用的擴充資料項目。  
 修飾用的擴充資料項目 **必須沒有（SHALL NOT）** 改變resource或DomainResource上任何資料項目的含義（包括不能改變modifierExtension本身的含義）。"
 * modifierExtension ^requirements = "修飾用的資料項目擴充允許將不能安全地忽略的擴充，與絕大多數可以安全地忽略的擴充明確區分開來。這樣做有助於促進可互操作性，因為無需禁止實作者使用擴充，想要瞭解更多資訊，請參見[修飾用的資料項目擴充之定義]（http://hl7.org/fhir/R4/extensibility.html#modifierExtension）。"
-* modifierExtension ^comment = "任何應用程式、專案或標準使用擴充時，都不應該帶有任何負面的聯想。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
+* modifierExtension ^comment = "任何應用程式、專案或標準使用擴充時，都不應該帶有任何負面的聯想。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"*/
 
 * identifier ^short = "過敏或不耐症之外部識別碼"
 * identifier ^definition = "由執行者或其他系統指定給這個AllergyIntolerance的業務識別碼，隨著resource更新和從伺服器到伺服器的傳送，這些識別碼保持不變。"
 * identifier ^requirements = "允許各參與系統按照一致的方式，在不同伺服器之間確認並識別 AllergyIntolerance。"
 * identifier ^comment = "這是過敏或不耐症紀錄的業務識別碼，不是一個 resource 識別碼（請參見討論小節）。最好的做法是該識別碼只出現在單一個resource實例上，但是實務上有時會要求具有相同識別碼的多個resource實例共存，這些 resources 實例甚至可能屬於不同的resource類型。例如：多個 Patient及一個Person resource實例可能共用同一個社會保險碼(此處是指美國民眾會有唯一可識別的社會保險碼)。"
 
-* clinicalStatus ^short = "active | inactive | resolved ，過過敏或不耐症的臨床狀態。"
+* clinicalStatus ^short = "active | inactive | resolved ，過敏或不耐症的臨床狀態。"
 * clinicalStatus ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * clinicalStatus ^definition = "過敏或不耐症的臨床狀態"
 * clinicalStatus ^comment = "如果 clincalStatus 缺少資料，請查閱討論小節。其資料類型是CodeableConcept，這是因為clinicalStatus涉及到一些臨床判斷，可能需要的具體性超過FHIR值集所要求的範圍。例如：SNOMED代碼可能提供額外的的具體性。"

@@ -10,4 +10,4 @@ Description: "LOINC實驗室檢驗檢查值集，參照自[https://loinc.org/](h
 * ^copyright = "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"
 * ^experimental = false
 * include codes from system $loinctw where CLASSTYPE = "1" 
-//* include codes from system $loinctw where CLASSTYPE = "2"
+* include codes from system $loinctw where CLASSTYPE = "2"

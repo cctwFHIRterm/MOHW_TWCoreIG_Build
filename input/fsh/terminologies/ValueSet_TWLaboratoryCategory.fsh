@@ -890,3 +890,9 @@ Description: "臺灣健保署醫療服務給付項目-檢驗值集，參照至[h
 * $TWMedicalServicePayment#30524B
 * $TWMedicalServicePayment#30525B
 * $TWMedicalServicePayment#30526B
+* $TWMedicalServicePayment#24007B
+* $TWMedicalServicePayment#25013B
+* $TWMedicalServicePayment#17009B
+* $TWMedicalServicePayment#22015B
+* $TWMedicalServicePayment#22001C
+* $TWMedicalServicePayment#22025B

@@ -28,9 +28,10 @@ Description: "
 * code.coding contains
     LOINCObservationCode 0..1 MS and
     TWLaboratoryCategory 0..1 MS and
-    TW2021ICD10PCS 0..1 MS
+    TW2021ICD10PCS 0..1 MS and
+    TW2023ICD10PCS 0..1 MS
 * code.coding[LOINCObservationCode] from LOINCObservationCode (required)
-* code.coding[LOINCObservationCode].system = "http://loinc.org"
+* code.coding[LOINCObservationCode].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw"
 * code.coding[LOINCObservationCode].system MS
 * code.coding[LOINCObservationCode].code 1..1 MS
 * code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)
@@ -41,12 +42,18 @@ Description: "
 * code.coding[TW2021ICD10PCS].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2021-tw"
 * code.coding[TW2021ICD10PCS].system MS
 * code.coding[TW2021ICD10PCS].code 1..1 MS
+* code.coding[TW2023ICD10PCS] from TW2023ICD10PCS (required)
+* code.coding[TW2023ICD10PCS].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw"
+* code.coding[TW2023ICD10PCS].system MS
+* code.coding[TW2023ICD10PCS].code 1..1 MS
 * code.coding[LOINCObservationCode] ^short = "LOINC®為Regenstrief Institute, Inc.維護的檢驗事件描述代碼，可免費使用，可優先選用此代碼。"
 * code.coding[LOINCObservationCode] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目-檢驗相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * code.coding[TW2021ICD10PCS] ^short = "此為臺灣健保署2021年中文版ICD-10-PCS，可免費使用，可依情境選用此代碼。"
 * code.coding[TW2021ICD10PCS] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+* code.coding[TW2023ICD10PCS] ^short = "此為臺灣健保署2023年中文版ICD-10-PCS，可免費使用，可依情境選用此代碼。"
+* code.coding[TW2023ICD10PCS] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 
 * basedOn only Reference(CarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
 * subject 1..
@@ -85,7 +92,7 @@ Description: "
 * text ^short = "DiagnosticReport Resource之內容摘要以供人閱讀"
 * text ^definition = "人可讀的敘述，包含resource的摘要，可用於向人表述resource的內容。敘述不需要對所有的結構化資料進行編碼，但需要包含足夠的細節使人在閱讀敘述時理解「臨床安全性」。resource定義有哪些內容應該在敘述中表示，以確保臨床安全。"
 * text ^comment = "內嵌（contained）的resource沒有敘述，非內嵌（contained）的resource則 **建議應該（SHOULD）** 有敘述。有時resource可能只有文字表述，很少或沒有額外的結構化資料（只要滿足所有minOccurs=1的資料項目）。這可能出現在舊系統的資料，當資訊以 「文字表述區塊（text blob） 」的形式被取得，或者文字表述是原始輸入或說明，而編碼資訊稍後再添加。"
-* contained ^short = "內嵌的（contained）、行內的Resources"
+/* contained ^short = "內嵌的（contained）、行內的Resources"
 * contained ^definition = "這些resource內嵌（contains）的resource不會另外存於任何FHIR伺服器，意即它們無法在任何FHIR伺服器中被找到，也無法有自己獨立的資料異動／交易（transaction）範圍。"
 * contained ^comment = "當內容可以從任何FHIR伺服器找到時，不應該以內嵌（contained）resource的方式呈現，因為一旦失去識別，再次恢復它是非常困難的（並且取決於情境）。內嵌（contained）的resource可在它們的meta資料項目中表述profiles和tag，但不應該有安全標號（security labels）。"
 * extension ^short = "擴充的資料項目"
@@ -95,7 +102,7 @@ Description: "
 * modifierExtension ^definition = "可以用來表示不屬於此resource的基本定義的額外資訊，並修改包含它所內嵌（contained）的資料項目的理解和/或對包含資料項目之後續使用的理解。通常修飾用的資料項目提供否定或限定的資訊。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。雖然任何實作者都可以定義一個擴充，但在定義擴充時 **必須（SHALL）** 滿足一組要求。處理resource的應用程式需要檢查修飾用的擴充資料項目。  
 修飾用的擴充資料項目 **必須沒有（SHALL NOT）** 改變resource或DomainResource上任何資料項目的含義（包括不能改變modifierExtension本身的含義）。"
 * modifierExtension ^requirements = "修飾用的資料項目擴充允許將不能安全地忽略的擴充，與絕大多數可以安全地忽略的擴充明確區分開來。這樣做有助於促進可互操作性，因為無需禁止實作者使用擴充，想要瞭解更多資訊，請參見[修飾用的資料項目擴充之定義]（http://hl7.org/fhir/R4/extensibility.html#modifierExtension）。"
-* modifierExtension ^comment = "任何應用程式、專案或標準使用擴充時，都不應該帶有任何負面的聯想。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
+* modifierExtension ^comment = "任何應用程式、專案或標準使用擴充時，都不應該帶有任何負面的聯想。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"*/
 
 * identifier ^short = "報告的業務用識別碼"
 * identifier ^definition = "由執行者或其他系統指定給該報告的業務用識別碼"
