@@ -2,6 +2,7 @@ CodeSystem: TWMedcationATC
 Id: medcation-atc-tw
 Title: "臺灣食藥署藥品藥理治療分類ATC碼"
 Description: "臺灣食藥署藥品藥理治療分類ATC碼，參照至[藥品藥理治療分類ATC碼資料集](https://data.gov.tw/dataset/9119)，資料提供單位：衛生福利部食品藥物管理署。  
+
 此代碼為WHO ATC(http://www.whocc.no/atc)中未涵蓋之代碼，為符合國內代碼使用，故將未被定義之代碼另外呈現。  
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*"

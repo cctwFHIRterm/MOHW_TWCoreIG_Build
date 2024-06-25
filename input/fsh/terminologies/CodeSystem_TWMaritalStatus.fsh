@@ -2,6 +2,7 @@ CodeSystem: TWMaritalStatus
 Id: marital-status-tw
 Title: "臺灣戶政司婚姻狀態"
 Description: "臺灣戶政司婚姻狀態，參照至[戶役政資訊系統資料代碼內容清單](https://www.ris.gov.tw/documents/html/5/1/168.html)中的「婚姻狀況代碼」。 
+
 代碼出版日期：2019-05-22；資料所屬單位：內政部戶政司。
 
 代碼文字標示之施行法，係指司法院釋字第748號解釋施行法。 
