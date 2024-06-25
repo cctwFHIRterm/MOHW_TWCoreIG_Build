@@ -2,7 +2,7 @@ Alias: $loinc = http://loinc.org
 ValueSet: LOINCDocumentType
 Id: loinc-type-doc-code
 Title: "LOINC Code Document Type值集"
-Description: "LOINC Code Document Type值集，參照自[https://loinc.org/](https://loinc.org/)  
+Description: "LOINC Code Document Type值集。  
 代碼版本：2.77；代碼更新日期：2024-06-14；資料所屬單位：Regenstrief Institute。"
 * ^date = "2024-06-14"
 * ^version = "2.77"

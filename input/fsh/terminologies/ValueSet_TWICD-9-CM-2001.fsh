@@ -1,7 +1,7 @@
 ValueSet: TW2001ICD9CM
 Id: icd-9-cm-2001-tw
 Title: "臺灣健保署2001年中文版ICD-9-CM值集"
-Description: "臺灣健保署2001年中文版ICD-9-CM值集，參照至[https://www.nhi.gov.tw/ch/np-3049-1](https://www.nhi.gov.tw/ch/np-3049-1.html)
+Description: "臺灣健保署2001年中文版ICD-9-CM值集。
 資料所屬單位：衛生福利部中央健康保險署。
 
 

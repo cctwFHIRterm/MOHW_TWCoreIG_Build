@@ -1,7 +1,7 @@
 ValueSet: TW2014ICD10CM
 Id: icd-10-cm-2014-tw
 Title: "臺灣健保署2014年中文版ICD-10-CM值集"
-Description: "臺灣健保署2014年中文版ICD-10-CM值集，參照至[https://www.nhi.gov.tw/ch/np-3049-1](https://www.nhi.gov.tw/ch/np-3049-1.html)
+Description: "臺灣健保署2014年中文版ICD-10-CM值集。
 資料所屬單位：衛生福利部中央健康保險署。
 
 

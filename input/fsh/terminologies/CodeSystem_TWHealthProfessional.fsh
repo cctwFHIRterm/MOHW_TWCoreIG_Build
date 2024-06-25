@@ -1,7 +1,7 @@
 CodeSystem: TWHealthProfessional
 Id: health-professional-tw
 Title: "臺灣醫事司醫事人員類別"
-Description: "臺灣醫事司醫事人員類別，參照至[https://www.google.com/url?client=internal-element-cse&cx=012254495936870409035:lzvyrg0mtim&q=https://www.mohw.gov.tw/dl-40452-1441ca2e-cde9-4345-b681-f9a20d5176b5.html&sa=U&ved=2ahUKEwjg5MCYrZn5AhUTI6YKHV6mC_s4FBAWegQIBBAC&usg=AOvVaw1q62t2W0hhdi0WC6e_nh1m](https://www.google.com/url?client=internal-element-cse&cx=012254495936870409035:lzvyrg0mtim&q=https://www.mohw.gov.tw/dl-40452-1441ca2e-cde9-4345-b681-f9a20d5176b5.html&sa=U&ved=2ahUKEwjg5MCYrZn5AhUTI6YKHV6mC_s4FBAWegQIBBAC&usg=AOvVaw1q62t2W0hhdi0WC6e_nh1m)  
+Description: "臺灣醫事司醫事人員類別，參照至[醫事人員基本資料檔](https://www.google.com/url?client=internal-element-cse&cx=012254495936870409035:lzvyrg0mtim&q=https://www.mohw.gov.tw/dl-40452-1441ca2e-cde9-4345-b681-f9a20d5176b5.html&sa=U&ved=2ahUKEwjg5MCYrZn5AhUTI6YKHV6mC_s4FBAWegQIBBAC&usg=AOvVaw1q62t2W0hhdi0WC6e_nh1m)中的「人員類別（2022/01/28修訂）」。
 代碼出版日期：2022-01-28；資料所屬單位：衛生福利部醫事司。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*"

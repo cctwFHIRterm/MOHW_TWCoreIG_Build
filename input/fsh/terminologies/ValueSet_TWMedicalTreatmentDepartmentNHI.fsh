@@ -1,8 +1,7 @@
 ValueSet: TWMedicalTreatmentDepartmentNHI
 Id: medical-treatment-department-nhi-tw
 Title: "臺灣健保署診療科別值集"
-Description: "臺灣健保署診療科別值集，參照至參照至[https://www.nhi.gov.tw/ch/cp-1880-20811-3142-1.html](https://www.nhi.gov.tw/ch/cp-1880-20811-3142-1.html)  
-"
+Description: "臺灣健保署診療科別值集。"
 
 * ^experimental = false
 * ^date = "2024-05-27"

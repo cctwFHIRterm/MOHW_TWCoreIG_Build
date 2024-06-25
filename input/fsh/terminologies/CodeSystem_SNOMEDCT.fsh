@@ -2,7 +2,7 @@ CodeSystem: SNOMEDCTCode
 Id: sct-tw
 Title: "SNOMED CT Code"
 Description: "SNOMED CT Code
-因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[SNOMED CT Code](https://twcore.mohw.gov.tw/ts/codesystemRead.jsp)查閱
+因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－SNOMED CT Code](https://twcore.mohw.gov.tw/ts/codesystemRead.jsp)查閱
 "
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
 * ^experimental = false

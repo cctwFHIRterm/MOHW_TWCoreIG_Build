@@ -1,7 +1,7 @@
 CodeSystem: TWMedicationPath
 Id: medication-path-tw
 Title: "臺灣健保給藥途徑"
-Description: "臺灣健保給藥途徑，參照至[https://www.nhi.gov.tw/ch/cp-1880-20811-3142-1.html](https://www.nhi.gov.tw/ch/cp-1880-20811-3142-1.html)  
+Description: "臺灣健保給藥途徑，[健保署檔案譯碼簿](https://www.nhi.gov.tw/ch/cp-1880-20811-3142-1.html)中的「給藥途徑/作用部位（2022/8/2版本）」。
 代碼出版日期：2024-06-04；資料所屬單位：衛生福利部中央健康保險署。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*"

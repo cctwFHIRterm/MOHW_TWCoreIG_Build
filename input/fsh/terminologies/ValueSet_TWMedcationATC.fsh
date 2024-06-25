@@ -2,7 +2,7 @@ Alias: $atc = http://www.whocc.no/atc
 ValueSet: TWMedcationATC
 Id: medcation-atc-tw
 Title: "臺灣食藥署藥品藥理治療分類ATC碼值集"
-Description: "臺灣食藥署藥品藥理治療分類ATC碼值集，參照至[https://data.gov.tw/dataset/9119](https://data.gov.tw/dataset/9119)
+Description: "臺灣食藥署藥品藥理治療分類ATC碼值集。
 資料提供單位：衛生福利部食品藥物管理署。"
 * ^experimental = false
 * ^date = "2014-09-19"
