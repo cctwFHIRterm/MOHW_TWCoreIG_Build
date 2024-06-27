@@ -15,7 +15,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
 * category contains ObservationCategoryCodes 0..1 MS
 * category[ObservationCategoryCodes] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code 1..1 MS
-* code from LOINCCodes (example)
+* code from LOINCObservationCode (example)
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
@@ -36,7 +36,7 @@ Description:    "此臺灣核心-檢驗檢查（TW Core Observation Laboratory R
 * code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * code.text 0..1 MS
 
-* component.code from LOINCCodes (example)
+* component.code from LOINCObservationCode (example)
 * component.code.coding ^slicing.discriminator.type = #pattern
 * component.code.coding ^slicing.discriminator.path = "system"
 * component.code.coding ^slicing.rules = #open

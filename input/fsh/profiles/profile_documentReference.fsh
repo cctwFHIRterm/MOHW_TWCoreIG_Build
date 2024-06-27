@@ -22,9 +22,9 @@ Description: "此臺灣核心-文件參照（TW Core DocumentReference) Profile�
 * context.sourcePatientInfo	 only Reference(TWCorePatient)
 
 //* type from DocumentTypeValueSet (extensible)
-* category from DocumentClassValueSet (extensible)
+//* category from DocumentClassValueSet (extensible)
+* category from LOINCDocumentClass (extensible)
 * type from LOINCDocumentType (extensible)
-//* category from LOINCDocumentCategory (extensible)
 
 * . ^short = "文件的參照"
 * . ^definition = "這是對任何目的文件的參照。它提供了有關文件的metadata，以便能夠找到並管理此文件。文件的範圍包括任何具有MIME類型的序列物件(seralized object)，例如：以病人為中心的文件（CDA）、臨床註釋、掃描的紙張，以及非與病人有關的文件，像是政策文字表述。"

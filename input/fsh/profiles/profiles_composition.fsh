@@ -22,7 +22,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 
 //* type from FHIRDocumentTypeCodes (extensible)
 //* section.code from DocumentSectionCodes (extensible)
-* category from http://hl7.org/fhir/ValueSet/document-classcodes (extensible)
+* category from LOINCDocumentClass (extensible)
 
 * type from LOINCDocumentType (extensible)
 * section.code from LOINCDocumentSection (extensible)
