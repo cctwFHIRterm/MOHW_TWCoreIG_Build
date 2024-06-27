@@ -21,7 +21,7 @@
 - [臺灣健保署醫療服務給付項目-處置或手術值集](ValueSet-procedure-tw.html)
 - [臺灣健保署醫療服務給付項目-檢驗值集](ValueSet-laboratory-category-tw.html)
 - [臺灣健保署健保用藥品項代碼值集](ValueSet-medication-nhi-tw.html)
-- [臺灣健保署健保中藥用藥品項值集](ValueSet-nhi-medication-ch-herb-tw.html)
+<!-- - [臺灣健保署健保中藥用藥品項值集](ValueSet-nhi-medication-ch-herb-tw.html) -->
 - [臺灣健保署診療科別值集](ValueSet-medical-treatment-department-nhi-tw.html)
 - [臺灣健保署就醫科別值集](ValueSet-medical-consultation-department-nhi-tw.html)
 - [臺灣健保署藥品使用頻率值集](ValueSet-medication-frequency-nhi-tw.html)
@@ -51,7 +51,7 @@
 - [臺灣健保署醫事機構代碼](CodeSystem-organization-identifier-tw.html)
 - [臺灣健保署醫療服務給付項目](CodeSystem-medical-service-payment-tw.html)
 - [臺灣健保署健保用藥品項](CodeSystem-medication-nhi-tw.html)
-- [臺灣健保署健保中藥用藥品項](CodeSystem-nhi-medication-ch-herb-tw.html)
+<!-- -[臺灣健保署健保中藥用藥品項](CodeSystem-nhi-medication-ch-herb-tw.html)-->
 - [臺灣健保署診療科別](CodeSystem-medical-treatment-department-nhi-tw.html)
 - [臺灣健保署就醫科別](CodeSystem-medical-consultation-department-nhi-tw.html)
 - [臺灣健保署藥品使用頻率](CodeSystem-medication-frequency-nhi-tw.html)
