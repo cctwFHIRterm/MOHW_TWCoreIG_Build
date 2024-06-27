@@ -17,12 +17,14 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile�
 * medicationCodeableConcept.coding contains
     fda-medication-tw 0..1 MS and
     nhi-medication-tw 0..1 MS and
+    nhi-medication-ch-herb-tw 0..1 and
     rxnorm-medication-us-core 0..1 MS and
     atc-medication-code 0..1 MS and
     snomedct-medication-codes 0..1 MS
 * medicationCodeableConcept.coding[fda-medication-tw] from TWMedicationFDA (required)
 * medicationCodeableConcept.coding[rxnorm-medication-us-core] from TWMedicationRXNORM (required)
 * medicationCodeableConcept.coding[nhi-medication-tw] from TWMedicationNHI (required)
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] from TWCHHerbMedicationNHI (required)
 * medicationCodeableConcept.coding[atc-medication-code] from TWMedcationATC (required)
 * medicationCodeableConcept.coding[snomedct-medication-codes] from http://hl7.org/fhir/ValueSet/medication-codes (required)
 * medicationCodeableConcept.text 0..1 MS
@@ -173,6 +175,12 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile�
 * medicationCodeableConcept.coding[nhi-medication-tw] ^requirements = "允許代碼系統中的替代編碼，以及翻譯到其他編碼系統。"
 * medicationCodeableConcept.coding[nhi-medication-tw] ^comment = "代碼可以在列舉清單（enumerations）或代碼清單（code lists）中非常隨意地定義，直至有非常正式的定義，如SNOMED CT—更多資訊見HL7 v3核心原則（Core Principles）。編碼的排序是未定義的因而 **必須沒有（SHALL NOT）** 被用來推斷意義。一般來說，最多只有一個編碼值（coding values）會被標記為UserSelected = true。"
 * medicationCodeableConcept.coding[nhi-medication-tw] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] ^short = "此為中央健康保險署(NHI)維護之中藥藥品代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] ^definition = "由專門術語系統（terminology system）所定義之代碼的參照。"
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] ^requirements = "允許代碼系統中的替代編碼，以及翻譯到其他編碼系統。"
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] ^comment = "代碼可以在列舉清單（enumerations）或代碼清單（code lists）中非常隨意地定義，直至有非常正式的定義，如SNOMED CT—更多資訊見HL7 v3核心原則（Core Principles）。編碼的排序是未定義的因而 **必須沒有（SHALL NOT）** 被用來推斷意義。一般來說，最多只有一個編碼值（coding values）會被標記為UserSelected = true。"
+* medicationCodeableConcept.coding[nhi-medication-ch-herb-tw] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
+
 * medicationCodeableConcept.coding[rxnorm-medication-us-core] ^short = "RxNorm為美國Unified Medical Language System®中的藥品代碼，取得UMLS®授權即可免費使用，可依情境選用此代碼。"
 * medicationCodeableConcept.coding[rxnorm-medication-us-core] ^definition = "由專門術語系統（terminology system）所定義之代碼的參照。"
 * medicationCodeableConcept.coding[rxnorm-medication-us-core] ^requirements = "允許代碼系統中的替代編碼，以及翻譯到其他編碼系統。"
