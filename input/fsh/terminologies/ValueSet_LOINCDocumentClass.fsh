@@ -51,5 +51,5 @@ Description: "LOINC Document Class值集。
 * $loinctw#53576-5 "Personal health monitoring report Document"
 * $loinctw#56447-6 "Plan of care note"
 * $loinctw#18748-4 "Diagnostic imaging study"
-* $loinctw#11504-8 "Surgical operation note "
+* $loinctw#11504-8 "Surgical operation note"
 * $loinctw#57133-1 "Referral note"

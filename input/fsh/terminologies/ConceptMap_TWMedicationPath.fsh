@@ -90,7 +90,7 @@ Usage: #definition
 * group[=].element[=].target.display = "Ophthalmic use"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #PO
-* group[=].element[=].display = "口眼"
+* group[=].element[=].display = "口服"
 * group[=].element[=].target.code = #26643006
 * group[=].element[=].target.display = "Oral use"
 * group[=].element[=].target.equivalence = #equal
