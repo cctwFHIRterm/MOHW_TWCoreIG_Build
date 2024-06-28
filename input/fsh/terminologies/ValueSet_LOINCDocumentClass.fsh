@@ -1,3 +1,4 @@
+Alias: $loinctw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw
 ValueSet: LOINCDocumentClass
 Id: loinc-document-classcodes
 Title: "LOINC Document Class值集"
