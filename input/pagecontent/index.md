@@ -1,9 +1,27 @@
 <div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
-因考量實作需求，於2024/6/11異動以下內容：
+因考量實作需求，於2024/7/8異動以下內容：
     <ol>   
 		<li>修改<a href="StructureDefinition-Condition-twcore.html">Resource Profile: 臺灣核心-病情、問題或診斷（TW Core Condition）</a>：code欄位加上新版「<a href="ValueSet-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM值集</a>」的Slices。</li>
 		<li>修改<a href="StructureDefinition-DiagnosticReport-twcore.html">Resource Profile: 臺灣核心-診斷報告（TW Core DiagnosticReport）</a>：code欄位加上新版「<a href="ValueSet-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS值集</a>」的Slices。</li>
-		<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：name、identifier欄位改為非必填，因有的實務專案可能不是必填項目。</li>  
+		<li>修改<a href="StructureDefinition-Medication-twcore.html">Resource Profile: 臺灣核心-藥品（TW Core Medication）</a>：manufacturer欄位改參照<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>，以符合實務專案需求。</li>  
+		<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：name、identifier欄位改非必填，因有的實務專案可能不是必填項目。</li>  
+		<li>新增<a href="StructureDefinition-terminology.html">代碼系統(CodeSystem)</a>：
+			<ol>
+			<li><a href="CodeSystem-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM</a></li>   
+			<li><a href="CodeSystem-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS</a></li>   
+			<li><a href="CodeSystem-loinc-tw.html">LOINC</a></li>   
+			<li><a href="CodeSystem-sct-tw.html">SNOMED CT Code</a></li>   			
+			</ol>
+		</li> 
+		<li>修改<a href="StructureDefinition-terminology.html">代碼系統(CodeSystem)</a>：
+			<ol>
+			<li>將所有代碼系統的Property - 異動方式(event)改為狀態(status)</li> 
+			<li>將所有代碼系統的Property - 異動日期(updateDate)改為生效日期(effectiveDate)</li>     
+			<li><a href="CodeSystem-postal-code6-tw.html">臺灣中華郵政6碼郵遞區號</a>：2024-06-28的新版6碼郵遞區號代碼中有新增、刪除、修改部分代碼</li>    
+			<li><a href="CodeSystem-medication-fda-tw.html">臺灣食藥署藥品許可證</a>：2024-06-20的新版臺灣食藥署藥品許可證代碼中有新增、刪除、修改部分代碼</li>    
+			<li><a href="CodeSystem-medication-device-fda-tw.html">臺灣食藥署醫療器材許可證</a>：2024-06-06的新版臺灣食藥署醫療器材許可證代碼中有新增、刪除、修改部分代碼</li>    
+			</ol>
+		</li> 
     </ol>
     請留意這些異動，以避免影響您的實作。
 </div>
