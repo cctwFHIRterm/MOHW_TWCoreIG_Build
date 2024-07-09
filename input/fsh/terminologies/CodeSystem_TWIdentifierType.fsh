@@ -16,10 +16,10 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * ^contact.telecom[+].system = #email
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"
 * ^property[0].code = #updateDate
-* ^property[=].description = "異動日期"
+* ^property[=].description = "生效日期"
 * ^property[=].type = #string
 * ^property[+].code = #event
-* ^property[=].description = "異動方式"
+* ^property[=].description = "狀態"
 * ^property[=].type = #string
 * ^copyright = "衛生福利部資訊處"
 * ^caseSensitive = true
