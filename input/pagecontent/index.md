@@ -5,7 +5,7 @@
 		<li>修改<a href="StructureDefinition-DiagnosticReport-twcore.html">Resource Profile: 臺灣核心-診斷報告（TW Core DiagnosticReport）</a>：code欄位加上新版「<a href="ValueSet-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS值集</a>」的Slices。</li>
 		<li>修改<a href="StructureDefinition-Medication-twcore.html">Resource Profile: 臺灣核心-藥品（TW Core Medication）</a>：manufacturer欄位改參照<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>，以符合實務專案需求。</li>  
 		<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：name、identifier欄位改非必填，因有的實務專案可能不是必填項目。</li>  
-		<li>新增<a href="StructureDefinition-terminologies.html">代碼系統(CodeSystem)</a>：
+		<li>新增<a href="terminologies.html">代碼系統(CodeSystem)</a>：
 			<ol>
 			<li><a href="CodeSystem-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM</a></li>   
 			<li><a href="CodeSystem-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS</a></li>   
@@ -13,7 +13,7 @@
 			<li><a href="CodeSystem-sct-tw.html">SNOMED CT Code</a></li>   			
 			</ol>
 		</li> 
-		<li>修改<a href="StructureDefinition-terminologies.html">代碼系統(CodeSystem)</a>：
+		<li>修改<a href="terminologies.html">代碼系統(CodeSystem)</a>：
 			<ol>
 			<li>將所有代碼系統的Property - 異動方式(event)改為狀態(status)</li> 
 			<li>將所有代碼系統的Property - 異動日期(updateDate)改為生效日期(effectiveDate)</li>     

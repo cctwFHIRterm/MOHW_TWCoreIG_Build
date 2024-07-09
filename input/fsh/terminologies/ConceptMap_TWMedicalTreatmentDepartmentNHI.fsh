@@ -13,7 +13,7 @@ Usage: #definition
 * sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-treatment-department-nhi-tw"
 * targetUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medical-department-sct-tw"
 * group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw"
-* group[=].target = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw"
+* group[=].target = "http://snomed.info/sct"
 * group.element[0].code = #01
 * group.element[=].display = "家醫科"
 * group.element[=].target.code = #419772000
