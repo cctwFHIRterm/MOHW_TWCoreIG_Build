@@ -301,9 +301,9 @@ Binding：可參考Medication dispense status reason codes代碼表，但此代�
 * dosageInstruction.timing.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名（stigma）。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 */
 
-* dosageInstruction.timing.event ^short = "事件發生的時間"
-* dosageInstruction.timing.event ^definition = "指明事件發生的特定時間"
-* dosageInstruction.timing.event ^requirements = "例如：在一份用藥記錄中，你需要把一個一般的規範變成一個精確的規範。"
+* dosageInstruction.timing.status ^short = "事件發生的時間"
+* dosageInstruction.timing.status ^definition = "指明事件發生的特定時間"
+* dosageInstruction.timing.status ^requirements = "例如：在一份用藥記錄中，你需要把一個一般的規範變成一個精確的規範。"
 * dosageInstruction.timing.repeat ^short = "事件定期重複發生的時間"
 * dosageInstruction.timing.repeat ^definition = "一組描述事件何時被安排的規則"
 * dosageInstruction.timing.repeat ^requirements = "定期重複的時間安排"
@@ -354,7 +354,7 @@ Binding：可參考Medication dispense status reason codes代碼表，但此代�
 * dosageInstruction.timing.repeat.timeOfDay ^definition = "具體說明一天中活動進行的時間"
 * dosageInstruction.timing.repeat.timeOfDay ^comment = "當指定了一天中的時間時，就會推斷出該活動每天都會在指定的時間發生（由dayofWeek篩選）。資料項目when、frequency和period不能和timeOfDay一起使用。"
 * dosageInstruction.timing.repeat.when ^short = "事件發生的時間區間之代碼"
-* dosageInstruction.timing.repeat.when ^binding.description = "與時程表有關的真實世界事件；應填入EventTiming值集中的其中一個代碼"
+* dosageInstruction.timing.repeat.when ^binding.description = "與時程表有關的真實世界事件；應填入statusTiming值集中的其中一個代碼"
 * dosageInstruction.timing.repeat.when ^definition = "一天中的一個大致時段，可能與日常生活中的某一事件有關，表明該活動應在何時發生。"
 * dosageInstruction.timing.repeat.when ^requirements = "時間經常由特定事件的發生所決定，例如：起床、吃飯和睡覺。"
 * dosageInstruction.timing.repeat.when ^comment = "當一個以上的事件被列出，則此事件被綁定至合併的數個特定事件。"
@@ -493,6 +493,6 @@ Binding：一個編碼概念，指明在服用或用藥之前應滿足或評估�
 * detectedIssue ^definition = "表明病人的一項或多項實際或潛在的臨床行動之間存在的臨床問題，例如：藥品交互作用、重複治療、劑量警示等。"
 * detectedIssue ^comment = "此資料項目可包括決策支援系統或臨床醫生發現的問題，也可包括解決問題所採取步驟資訊。"
 
-* eventHistory ^short = "相關生命周期事件的清單"
-* eventHistory ^definition = "已發生的相關事件摘要，例如：配藥/調劑藥品是否已審核。"
-* eventHistory ^comment = "這可能不包括請求的所有版本的出處(Provenances) - 只包括那些被認為 「相關 」或重要的版本。 **必須沒有(SHALL NOT)** 包括與當前版本 resource 相關的 Provenance。(如果該Provenance被視為「相關 」的變更，則需要作為後續更新的一部分添加。在此之前，可以使用 _revinclude 直接查詢該版本的Provenance（所有Provenance都應以此請求的某個歷史版本作為其查詢對象）。"
+* statusHistory ^short = "相關生命周期事件的清單"
+* statusHistory ^definition = "已發生的相關事件摘要，例如：配藥/調劑藥品是否已審核。"
+* statusHistory ^comment = "這可能不包括請求的所有版本的出處(Provenances) - 只包括那些被認為 「相關 」或重要的版本。 **必須沒有(SHALL NOT)** 包括與當前版本 resource 相關的 Provenance。(如果該Provenance被視為「相關 」的變更，則需要作為後續更新的一部分添加。在此之前，可以使用 _revinclude 直接查詢該版本的Provenance（所有Provenance都應以此請求的某個歷史版本作為其查詢對象）。"

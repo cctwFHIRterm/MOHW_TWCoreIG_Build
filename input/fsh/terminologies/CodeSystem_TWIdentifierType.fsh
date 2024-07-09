@@ -15,11 +15,11 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * ^contact.telecom[=].value = "https://www.mohw.gov.tw/"
 * ^contact.telecom[+].system = #email
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"
-* ^property[0].code = #updateDate
-* ^property[=].description = "異動日期"
+* ^property[0].code = #effectiveDate
+* ^property[=].description = "生效日期"
 * ^property[=].type = #string
 * ^property[+].code = #event
-* ^property[=].description = "異動方式"
+* ^property[=].description = "狀態"
 * ^property[=].type = #string
 * ^copyright = "衛生福利部資訊處"
 * ^caseSensitive = true
@@ -27,14 +27,14 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * #GOI "Government Organization Identifier" "Government Organization Identifier number"
 * #GOI ^designation.language = #zh-TW
 * #GOI ^designation.value = "政府機關代號"
-* #GOI ^property[0].code = #updateDate
+* #GOI ^property[0].code = #effectiveDate
 * #GOI ^property[=].valueString = "2022-07"
 * #GOI ^property[+].code = #event
 * #GOI ^property[=].valueString = "新增"
 * #UBN "Unified Business number" "Unified Business number"
 * #UBN ^designation.language = #zh-TW
 * #UBN ^designation.value = "公司或企業統一編號"
-* #UBN ^property[0].code = #updateDate
+* #UBN ^property[0].code = #effectiveDate
 * #UBN ^property[=].valueString = "2022-07"
 * #UBN ^property[+].code = #event
 * #UBN ^property[=].valueString = "新增"

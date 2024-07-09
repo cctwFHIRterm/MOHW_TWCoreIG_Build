@@ -2,7 +2,7 @@ Alias: $CodeableConcept-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/
 Alias: $problem-type-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/problem-type-uv-ips
 Alias: $condition-severity-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/condition-severity-uv-ips
 Alias: $condition-severity-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/condition-severity-uv-ips
-Alias: $core-problem-finding-situation-event-gps-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/core-problem-finding-situation-event-gps-uv-ips
+Alias: $core-problem-finding-situation-status-gps-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/core-problem-finding-situation-status-gps-uv-ips
 Alias: $absent-or-unknown-problems-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
 Profile:        TWCoreCondition
 Parent:         Condition

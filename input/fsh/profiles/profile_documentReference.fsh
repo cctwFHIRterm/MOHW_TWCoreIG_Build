@@ -11,7 +11,7 @@ Description: "此臺灣核心-文件參照（TW Core DocumentReference) Profile�
 * type only CodeableConceptTW 
 * category only CodeableConceptTW 
 * securityLabel only CodeableConceptTW 
-* context.event only CodeableConceptTW 
+* context.status only CodeableConceptTW 
 * context.practiceSetting only CodeableConceptTW 
 * subject only Reference(TWCorePatient or TWCorePractitioner or Group or Device)
 * author only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or Device or TWCorePatient or RelatedPerson)
@@ -183,10 +183,10 @@ Description: "此臺灣核心-文件參照（TW Core DocumentReference) Profile�
 * context.encounter ^short = "文件內容的臨床背景"
 * context.encounter ^definition = "描述文件內容所關聯的臨床就醫事件或類型"
 
-* context.event ^short = "正在記錄的主要臨床行為"
-* context.event ^binding.description = "可參考所綁定值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。"
-* context.event ^definition = "這個代碼清單代表了正在記錄的主要臨床行為，例如：結腸鏡檢查或闌尾切除手術。在某些情況下，事件已經隱含在類型代碼中，例如在「病史和體檢報告」中，正在記錄的必然是「病史和體檢」行為。"
-* context.event ^comment = "事件可以進一步專注於類型中所隱含的行為，例如當它僅為「處置報告」，而該處置是「結腸鏡檢查」。如果包括一個或多個事件代碼，則它們不應與class或type資料項目中的值相衝突，因為這樣的衝突會導致情況變得模糊不清。"
+* context.status ^short = "正在記錄的主要臨床行為"
+* context.status ^binding.description = "可參考所綁定值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。"
+* context.status ^definition = "這個代碼清單代表了正在記錄的主要臨床行為，例如：結腸鏡檢查或闌尾切除手術。在某些情況下，事件已經隱含在類型代碼中，例如在「病史和體檢報告」中，正在記錄的必然是「病史和體檢」行為。"
+* context.status ^comment = "事件可以進一步專注於類型中所隱含的行為，例如當它僅為「處置報告」，而該處置是「結腸鏡檢查」。如果包括一個或多個事件代碼，則它們不應與class或type資料項目中的值相衝突，因為這樣的衝突會導致情況變得模糊不清。"
 
 * context.period ^short = "被記錄的服務時間"
 * context.period ^definition = "文件描述的是提供服務的時間範圍"
