@@ -118,7 +118,7 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) P
 
 * note ^short = "其他欄位中沒有記錄的額外文字陳述"
 * note ^definition = "有關不良反應的可能性，這些資訊是未被記錄在其他資料項目中的補充敘述。"
-* note ^comment = "例如：包括標記為「高風險」的原因，以及與將來接觸或使用該物質相關的指示，比如在重症照護病房內使用或在使用時需要皮質類固醇保護。這些註釋應該與過敏或不耐症作為一般狀況有關，而不是特定事件。對於特定事件的描述和註釋，請使用 AllergyIntolerance.status.description 和 AllergyIntolerance.status.notes。"
+* note ^comment = "例如：包括標記為「高風險」的原因，以及與將來接觸或使用該物質相關的指示，比如在重症照護病房內使用或在使用時需要皮質類固醇保護。這些註釋應該與過敏或不耐症作為一般狀況有關，而不是特定事件。對於特定事件的描述和註釋，請使用 AllergyIntolerance.event.description 和 AllergyIntolerance.event.notes。"
 
 * reaction ^short = "暴露於此過敏或不耐症物質的不良反應"
 * reaction ^definition = "關於每次接觸特定物質所引起的不良反應事件的細節"

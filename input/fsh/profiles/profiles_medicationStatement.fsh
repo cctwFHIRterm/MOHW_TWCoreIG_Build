@@ -278,9 +278,9 @@ MedicationStatement.status + MedicationStatement.wasNotTaken
 * dosage.timing.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名（stigma）。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 */
 
-* dosage.timing.status ^short = "事件發生的時間"
-* dosage.timing.status ^definition = "指明事件發生的特定時間"
-* dosage.timing.status ^requirements = "例如：在一份用藥記錄中，你需要把一個一般的規範變成一個精確的規範。"
+* dosage.timing.event ^short = "事件發生的時間"
+* dosage.timing.event ^definition = "指明事件發生的特定時間"
+* dosage.timing.event ^requirements = "例如：在一份用藥記錄中，你需要把一個一般的規範變成一個精確的規範。"
 * dosage.timing.repeat ^short = "事件定期重複發生的時間"
 * dosage.timing.repeat ^definition = "一組描述事件何時被安排的規則"
 * dosage.timing.repeat ^requirements = "定期重複的時間安排"
@@ -331,7 +331,7 @@ MedicationStatement.status + MedicationStatement.wasNotTaken
 * dosage.timing.repeat.timeOfDay ^definition = "具體說明一天中活動進行的時間"
 * dosage.timing.repeat.timeOfDay ^comment = "當指定了一天中的時間時，就會推斷出該活動每天都會在指定的時間發生（由dayofWeek篩選）。資料項目when、frequency和period不能和timeOfDay一起使用。"
 * dosage.timing.repeat.when ^short = "事件發生的時間區間之代碼"
-* dosage.timing.repeat.when ^binding.description = "與時程表有關的真實世界事件；應填入statusTiming值集中的其中一個代碼"
+* dosage.timing.repeat.when ^binding.description = "與時程表有關的真實世界事件；應填入EventTiming值集中的其中一個代碼"
 * dosage.timing.repeat.when ^definition = "一天中的一個大致時段，可能與日常生活中的某一事件有關，表明該活動應在何時發生。"
 * dosage.timing.repeat.when ^requirements = "時間經常由特定事件的發生所決定，例如：起床、吃飯和睡覺。"
 * dosage.timing.repeat.when ^comment = "當一個以上的事件被列出，則此事件被綁定至合併的數個特定事件。"

@@ -68,7 +68,7 @@ Description: "此臺灣核心-多媒體(TW Core Media) Profile說明本IG如何�
 * status ^short = "preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown"
 * status ^binding.description = "代表事件生命週期階段的代碼；應填入所綁定值集中的其中一個代碼"
 * status ^definition = "多媒體的目前狀態"
-* status ^comment = "可以在[[status.html#statemachine | 事件模式]]文件中找到一個標準的狀態轉換圖。
+* status ^comment = "可以在[[event.html#statemachine | 事件模式]]文件中找到一個標準的狀態轉換圖。
 
 「未知」不代表「其他」狀態 - 必須使用其中一個已定義的狀態，「未知」用於表示不確定當前狀態。"
 

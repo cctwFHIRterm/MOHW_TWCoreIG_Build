@@ -15,7 +15,7 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * section.author only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or RelatedPerson)
 * type only CodeableConceptTW 
 * category only CodeableConceptTW 
-* status.code only CodeableConceptTW 
+* event.code only CodeableConceptTW 
 * section.code only CodeableConceptTW 
 * section.orderedBy only CodeableConceptTW 
 * section.emptyReason only CodeableConceptTW 
@@ -169,35 +169,35 @@ Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile�
 * relatesTo.target[x] ^short = "此關係的目標文件"
 * relatesTo.target[x] ^definition = "此關係的目標composition/文件"
 
-* status ^short = "正在記錄的臨床服務"
-* status ^definition = "記錄的臨床服務，例如：結腸鏡檢查或闌尾切除術。"
-* status ^comment = "事件需要與類型資料項目保持一致，但如果需求，也可以提供更多的詳細資訊。"
-* status ^requirements = "為composition提供情境背景，並在描述事件的resource和為描述事件而創建的composition之間建立連結。"
+* event ^short = "正在記錄的臨床服務"
+* event ^definition = "記錄的臨床服務，例如：結腸鏡檢查或闌尾切除術。"
+* event ^comment = "事件需要與類型資料項目保持一致，但如果需求，也可以提供更多的詳細資訊。"
+* event ^requirements = "為composition提供情境背景，並在描述事件的resource和為描述事件而創建的composition之間建立連結。"
 
 /*
-* status.id ^short = "唯一可識別ID，以供資料項目間相互參照。"
-* status.id ^definition = "resource中資料項目的唯一ID(用於內部參照)。這可以是任何不含空格的字串。"
-* status.extension ^short = "擴充的資料項目"
-* status.extension ^definition = "擴充的資料項目"
-* status.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
-* status.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
-* status.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
+* event.id ^short = "唯一可識別ID，以供資料項目間相互參照。"
+* event.id ^definition = "resource中資料項目的唯一ID(用於內部參照)。這可以是任何不含空格的字串。"
+* event.extension ^short = "擴充的資料項目"
+* event.extension ^definition = "擴充的資料項目"
+* event.extension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
+* event.modifierExtension ^short = "此擴充的資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。"
+* event.modifierExtension ^definition = "可以用來表示不屬於資料項目的基本定義的附加資訊，並且修改對它所內嵌(contained)的資料項目的理解和(或)對包含資料項目之後續使用的理解。通常，修飾用的資料項目提供否定或限定。為了使擴充的使用安全和可管理，對擴充的定義和使用有一套嚴格的管理。儘管任何實作者都可以定義一個擴充，但作為擴充定義的一部分，有一套要求 **必須（SHALL）** 滿足。處理resource的應用程式被要求檢查修飾用的擴充資料項目。 
  修飾用的擴充資料項目 **必須沒有(SHALL NOT)** 改變resource或DomainResource上任何資料項目的含義(包括不能改變modifierExtension本身的含義)。"
-* status.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
-* status.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
+* event.modifierExtension ^requirements = "修飾用的資料項目擴充將不能安全地忽略的擴充與絕大多數可以安全地忽略的擴充明確區分開來。透過消除禁止實作者擴充存在的需求來促進可互通性。更多訊息，請參見[修飾用的資料項目擴充之定義](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)。"
+* event.modifierExtension ^comment = "無論使用或定義擴充的機構或管轄區，任何應用程式、專案或標準使用擴充都不背負任何汙名(stigma)。使用擴充是允許FHIR規範為每個人保留一個核心的簡易性。"
 */
 
-* status.code ^short = "此代碼表代表了正在被記錄的主要臨床行為"
-* status.code ^binding.description = "可參考所綁定值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。"
-* status.code ^definition = "一個概念可能透過正式參照專門術語或本體論來定義，或者可以由文字提供。"
-* status.code ^comment = "一個事件可以進一步專門化 typeCode 中固有的行為，例如：當它僅僅是「處置報告」，而該處置是「結腸鏡檢查」。如果包含一個或多個事件，它們 **必須沒有(SHALL NOT)** 與 classCode、practiceSettingCode 或 typeCode 中固有的值相衝突，因為這樣的衝突會造成模糊不清的情況。這個簡短的代碼清單提供用作某些類型查詢的關鍵字。"
+* event.code ^short = "此代碼表代表了正在被記錄的主要臨床行為"
+* event.code ^binding.description = "可參考所綁定值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。"
+* event.code ^definition = "一個概念可能透過正式參照專門術語或本體論來定義，或者可以由文字提供。"
+* event.code ^comment = "一個事件可以進一步專門化 typeCode 中固有的行為，例如：當它僅僅是「處置報告」，而該處置是「結腸鏡檢查」。如果包含一個或多個事件，它們 **必須沒有(SHALL NOT)** 與 classCode、practiceSettingCode 或 typeCode 中固有的值相衝突，因為這樣的衝突會造成模糊不清的情況。這個簡短的代碼清單提供用作某些類型查詢的關鍵字。"
 
-* status.period ^short = "文件所涵蓋的時間區間"
-* status.period ^definition = "此文件涵蓋的時間區間，這並不是聲明此文件是這一個時間區間的完整代表，而只是表明它記錄了這段時間內發生的事件。"
+* event.period ^short = "文件所涵蓋的時間區間"
+* event.period ^definition = "此文件涵蓋的時間區間，這並不是聲明此文件是這一個時間區間的完整代表，而只是表明它記錄了這段時間內發生的事件。"
 
-* status.detail ^short = "在描述被記錄下來的事件，這些事件可以是以代碼的形式、參考資料的形式，或者兩者都有的形式來呈現。"
-* status.detail ^definition = "它描述了正在被記錄的主要臨床活動，比如說進行一次結腸鏡檢查或是闌尾切除手術。在某些情況下，這些臨床事件本身就包含在其typeCode中，例如：在「病史與體檢報告」中，所記錄的過程就必然是進行「病史與體檢」的行為。這些臨床事件可以以代碼的形式被記錄，或者作為對其他resource的參照。"
-* status.detail ^comment = "事件可以進一步細化類型編碼中的固有行為，例如，事件只是程序報告，而程序是結腸鏡檢查。如果包含一個或多個事件，它們不得與類別編碼、診療設置編碼或類型代碼中固有的值相衝 突，因為這樣的衝突會造成模稜兩可的情況。本編碼簡表可用作某些類型查詢的關鍵詞。"
+* event.detail ^short = "在描述被記錄下來的事件，這些事件可以是以代碼的形式、參考資料的形式，或者兩者都有的形式來呈現。"
+* event.detail ^definition = "它描述了正在被記錄的主要臨床活動，比如說進行一次結腸鏡檢查或是闌尾切除手術。在某些情況下，這些臨床事件本身就包含在其typeCode中，例如：在「病史與體檢報告」中，所記錄的過程就必然是進行「病史與體檢」的行為。這些臨床事件可以以代碼的形式被記錄，或者作為對其他resource的參照。"
+* event.detail ^comment = "事件可以進一步細化類型編碼中的固有行為，例如，事件只是程序報告，而程序是結腸鏡檢查。如果包含一個或多個事件，它們不得與類別編碼、診療設置編碼或類型代碼中固有的值相衝 突，因為這樣的衝突會造成模稜兩可的情況。本編碼簡表可用作某些類型查詢的關鍵詞。"
 
 * section ^short = "Composition被分成一個或數個小節"
 * section ^definition = "構成composition的各小節"

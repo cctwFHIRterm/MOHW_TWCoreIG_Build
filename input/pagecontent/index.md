@@ -15,8 +15,8 @@
 		</li> 
 		<li>修改<a href="terminologies.html">代碼系統(CodeSystem)</a>：
 			<ol>
-			<li>將所有代碼系統的Property - 狀態(event)改為狀態(status)</li> 
-			<li>將所有代碼系統的Property - 生效日期(effectiveDate)改為生效日期(effectiveDate)</li>     
+			<li>將所有代碼系統的Property - 異動方式(event)改為狀態(status)</li> 
+			<li>將所有代碼系統的Property - 異動日期(updateDate)改為生效日期(effectiveDate)</li>     
 			<li><a href="CodeSystem-postal-code6-tw.html">臺灣中華郵政6碼郵遞區號</a>：2024-06-28的新版6碼郵遞區號代碼中有新增、刪除、修改部分代碼</li>    
 			<li><a href="CodeSystem-medication-fda-tw.html">臺灣食藥署藥品許可證</a>：2024-06-20的新版臺灣食藥署藥品許可證代碼中有新增、刪除、修改部分代碼</li>    
 			<li><a href="CodeSystem-medication-device-fda-tw.html">臺灣食藥署醫療器材許可證</a>：2024-06-06的新版臺灣食藥署醫療器材許可證代碼中有新增、刪除、修改部分代碼</li>    
