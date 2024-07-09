@@ -1,7 +1,7 @@
 CodeSystem: TWPostalCode5
 Id: postal-code5-tw
 Title: "臺灣中華郵政5碼郵遞區號"
-Description: "臺灣中華郵政5碼郵遞區號，參照自[https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306)。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。  
+Description: "臺灣中華郵政5碼郵遞區號，參照自[郵遞區號(含轉碼軟體)](https://www.post.gov.tw/post/internet/Download/index.jsp?ID=220306)中的『3+3郵遞區號查詢應用系統』。屬性命名以與國際的等級一致為主，未採用中華郵政提供之英文名稱。  
 代碼出版日期：2022-06-21；資料所屬單位：中華郵政。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*
