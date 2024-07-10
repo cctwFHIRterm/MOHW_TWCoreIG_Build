@@ -3,7 +3,6 @@ Parent:         Organization
 Id:             Organization-twcore
 Title:          "TW Core Organization"
 Description:    "
-- 2024/5/29異動說明：  name、identifier欄位改為非必填，因有的實務專案可能不是必填項目。   
 
 此臺灣核心-機構（TW Core Organization）Profile說明本IG如何進一步定義FHIR的Organization Resource以呈現機構基本資料。
 "
