@@ -2,7 +2,7 @@ Logical: TWMedicationStatementModel
 Id: TWMedicationStatement
 Title: "臺灣核心-用藥聲明(TW Core  MedicationStatement) 之資料模型"
 Description: "臺灣核心-用藥聲明(TW Core  MedicationStatement) 之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * identifier 0..* Identifier "用藥聲明的外部識別碼。" "用藥聲明的外部識別碼。"
 * status 1..1 code "一個編碼概念，用以指明用藥聲明的當前狀態。" "一個編碼概念，用以指明用藥聲明的當前狀態。"
 * category 0..1	CodeableConceptTW  "一個編碼概念，用以識別用藥聲明中包含的藥品預期將在哪裡被服用或用藥。" "一個編碼概念，用以識別用藥聲明中包含的藥品預期將在哪裡被服用或用藥。"

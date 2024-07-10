@@ -1,11 +1,11 @@
 {
   "package-id" : "tw.gov.mohw.twcore",
-  "version" : "0.2.2",
-  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.2",
+  "version" : "0.2.3",
+  "path" : "https://twcore.mohw.gov.tw/ig/twcore/0.2.3",
   "mode" : "milestone",
   "status" : "trial-use",
   "sequence" : "Releases",
-  "descmd" : "2024/5/29 (詳細說明請參照[應用說明](https://twcore.mohw.gov.tw/ig/twcore/0.2.2))：  
+  "descmd" : "2024/5/29 (詳細說明請參照[應用說明](https://twcore.mohw.gov.tw/ig/twcore/0.2.3))：  
    1. 修改Resource Profile：TW Core DiagnosticReport  
    2. 修改Resource Profile：TW Core Organization      
    3. 修改Resource Profile：TW Core Patient    

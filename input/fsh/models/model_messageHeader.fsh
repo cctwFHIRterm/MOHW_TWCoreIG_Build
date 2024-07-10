@@ -2,7 +2,7 @@ Logical: TWMessageHeaderModel
 Id: TWMessageHeader
 Title: "臺灣核心-訊息表頭(TW Core MessageHeader) 之資料模型"
 Description: "臺灣核心-訊息表頭(TW Core MessageHeader) 之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * sender 0..1 BackboneElement "訊息的實際發送端" "訊息的實際發送端"
 * sender.practitioner 0..1  Practitioner "某健康照護服務提供者發送訊息。" "某健康照護服務提供者發送訊息。"
 * sender.practitionerRole 0..1  PractitionerRole "某健康照護服務角色發送訊息。" "某健康照護服務角色發送訊息。"

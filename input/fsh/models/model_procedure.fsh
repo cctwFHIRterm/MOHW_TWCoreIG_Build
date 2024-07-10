@@ -2,7 +2,7 @@ Logical: TWProcedureModel
 Id: TWProcedure
 Title: "臺灣核心-處置或手術(TW Core Procedure)之資料模型"
 Description: "臺灣核心-處置或手術(TW Core Procedure)之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * status 1..1 code "處置或手術的狀態。" "處置或手術的狀態。"
 * code 1..1 CodeableConcept "處置或手術的識別碼。" "處置或手術的識別碼。"
 * subject 1..1 Patient "處置或手術服務的對象。" "處置或手術服務的對象。"

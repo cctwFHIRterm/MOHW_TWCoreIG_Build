@@ -358,7 +358,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2</td>
+      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.3</td>
 			<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
 			（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
@@ -372,7 +372,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2</td>
+    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.3</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -392,7 +392,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2</td>
+     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.3</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>

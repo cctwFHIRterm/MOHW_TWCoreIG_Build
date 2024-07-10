@@ -3,7 +3,7 @@ Parent:         TWCoreObservationVitalSigns
 Id:             Observation-bloodPressure-twcore
 Title:          "TW Core Observation Blood Pressure"
 Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure) Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs) Profile以呈現血壓資料。"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * code only CodeableConceptTW
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#85354-9
 * code MS

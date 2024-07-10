@@ -7,7 +7,7 @@ Title: "SNOMED CT科別值集"
 Description: "SNOMED CT科別值集。"
 * ^experimental = false
 * ^date = "2024-05-27"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 
 * SNOMED_CT#419772000
 * SNOMED_CT#419192003

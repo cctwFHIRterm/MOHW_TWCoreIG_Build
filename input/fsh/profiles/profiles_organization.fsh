@@ -6,7 +6,7 @@ Description:    "
 
 此臺灣核心-機構（TW Core Organization）Profile說明本IG如何進一步定義FHIR的Organization Resource以呈現機構基本資料。
 "
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * name MS

@@ -2,7 +2,7 @@ Logical: TWMedicationDispenseModel
 Id: TWMedicationDispense
 Title: "臺灣核心-配藥或藥品調劑(TW Core MedicationDispense) 之資料模型"
 Description: "臺灣核心-配藥或藥品調劑(TW Core MedicationDispense) 之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 * identifier 0..* Identifier "配藥/藥品調劑的外部識別碼。" "配藥/藥品調劑的外部識別碼。"
 * status 1..1 code "一個編碼概念，用以具體說明配藥/藥品調劑事件的狀態。" "一個編碼概念，用以具體說明配藥/藥品調劑事件的狀態。"
 * category 0..1	CodeableConcept  "配藥/藥品調劑的類別，描述預期將服用或用藥的地點之代碼。" "配藥/藥品調劑的類別，描述預期將服用或用藥的地點之代碼。"

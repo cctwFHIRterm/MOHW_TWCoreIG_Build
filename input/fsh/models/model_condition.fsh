@@ -2,7 +2,7 @@ Logical: TWConditionModel
 Id: TWCondition
 Title: "臺灣核心-病情、問題或診斷(TW Core Condition) 之資料模型"
 Description: "臺灣核心-病情、問題或診斷(TW Core Condition) 之資料模型"
-* ^version = "0.2.2"
+* ^version = "0.2.3"
 //* text 0..1 Narrative "內容摘要以供人閱讀" "內容摘要以供人閱讀"
 * clinicalStatus 1..1 CodeableConcept "病情、問題或診斷的臨床狀態。" "病情、問題或診斷的臨床狀態。"
 * verificationStatus 0..1 CodeableConcept "病情、問題或診斷的臨床狀態的驗證狀態。" "病情、問題或診斷的臨床狀態的驗證狀態。"
