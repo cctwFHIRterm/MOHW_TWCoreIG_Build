@@ -20,7 +20,6 @@ Description: "臺灣健保署健保中藥用藥品項，參照自[中藥用藥�
 * ^copyright = "衛生福利部中央健康保險署"
 * ^caseSensitive = true
 * ^content = #complete
-
 * ^property[0].code = #status
 * ^property[=].description = "狀態"
 * ^property[=].type = #string
@@ -38665,14385 +38664,14385 @@ Description: "臺灣健保署健保中藥用藥品項，參照自[中藥用藥�
 * #A045109 "莊松榮麥門冬湯濃縮錠"
 * #A045109 ^property[0].code = #status
 * #A045109 ^property[=].valueString = "新增"
-* #A045109 ^property[+].code = #updateDate
+* #A045109 ^property[+].code = #effectiveDate
 * #A045109 ^property[=].valueString = "2024-05"
 * #A045110 "莊松榮辛夷散濃縮錠"
 * #A045110 ^property[0].code = #status
 * #A045110 ^property[=].valueString = "新增"
-* #A045110 ^property[+].code = #updateDate
+* #A045110 ^property[+].code = #effectiveDate
 * #A045110 ^property[=].valueString = "2024-05"
 * #A045111 "正揚分消湯濃縮細粒"
 * #A045111 ^property[0].code = #status
 * #A045111 ^property[=].valueString = "新增"
-* #A045111 ^property[+].code = #updateDate
+* #A045111 ^property[+].code = #effectiveDate
 * #A045111 ^property[=].valueString = "2024-05"
 * #A045112 "正揚七寶美髯丹濃縮細粒"
 * #A045112 ^property[0].code = #status
 * #A045112 ^property[=].valueString = "新增"
-* #A045112 ^property[+].code = #updateDate
+* #A045112 ^property[+].code = #effectiveDate
 * #A045112 ^property[=].valueString = "2024-05"
 * #A045113 "順天堂小承氣湯濃縮顆粒"
 * #A045113 ^property[0].code = #status
 * #A045113 ^property[=].valueString = "新增"
-* #A045113 ^property[+].code = #updateDate
+* #A045113 ^property[+].code = #effectiveDate
 * #A045113 ^property[=].valueString = "2024-05"
 * #A045119 "順然甘露消毒丹濃縮細粒"
 * #A045119 ^property[0].code = #status
 * #A045119 ^property[=].valueString = "新增"
-* #A045119 ^property[+].code = #updateDate
+* #A045119 ^property[+].code = #effectiveDate
 * #A045119 ^property[=].valueString = "2024-05"
 * #A045120 "順然桑螵蛸散濃縮細粒"
 * #A045120 ^property[0].code = #status
 * #A045120 ^property[=].valueString = "新增"
-* #A045120 ^property[+].code = #updateDate
+* #A045120 ^property[+].code = #effectiveDate
 * #A045120 ^property[=].valueString = "2024-05"
 * #A045122 "仙豐清空膏濃縮細粒"
 * #A045122 ^property[0].code = #status
 * #A045122 ^property[=].valueString = "新增"
-* #A045122 ^property[+].code = #updateDate
+* #A045122 ^property[+].code = #effectiveDate
 * #A045122 ^property[=].valueString = "2024-05"
 * #A045123 "晉安身痛逐瘀湯濃縮細粒"
 * #A045123 ^property[0].code = #status
 * #A045123 ^property[=].valueString = "新增"
-* #A045123 ^property[+].code = #updateDate
+* #A045123 ^property[+].code = #effectiveDate
 * #A045123 ^property[=].valueString = "2024-05"
 * #A056499 "天一附子理中湯濃縮顆粒"
 * #A056499 ^property[0].code = #status
 * #A056499 ^property[=].valueString = "新增"
-* #A056499 ^property[+].code = #updateDate
+* #A056499 ^property[+].code = #effectiveDate
 * #A056499 ^property[=].valueString = "2024-05"
 * #A056502 "勝昌半夏天麻白朮湯濃縮細粒"
 * #A056502 ^property[0].code = #status
 * #A056502 ^property[=].valueString = "新增"
-* #A056502 ^property[+].code = #updateDate
+* #A056502 ^property[+].code = #effectiveDate
 * #A056502 ^property[=].valueString = "2024-05"
 * #A049036 "港香蘭補陽還五湯濃縮錠"
 * #A049036 ^property[0].code = #status
 * #A049036 ^property[=].valueString = "新增"
-* #A049036 ^property[+].code = #updateDate
+* #A049036 ^property[+].code = #effectiveDate
 * #A049036 ^property[=].valueString = "2024-05"
 * #A056517 "仙豐金匱當歸散濃縮細粒"
 * #A056517 ^property[0].code = #status
 * #A056517 ^property[=].valueString = "新增"
-* #A056517 ^property[+].code = #updateDate
+* #A056517 ^property[+].code = #effectiveDate
 * #A056517 ^property[=].valueString = "2024-05"
 * #A056516 "仙豐甘草瀉心湯濃縮散"
 * #A056516 ^property[0].code = #status
 * #A056516 ^property[=].valueString = "新增"
-* #A056516 ^property[+].code = #updateDate
+* #A056516 ^property[+].code = #effectiveDate
 * #A056516 ^property[=].valueString = "2024-05"
 * #A049034 "富田黃耆建中湯濃縮細粒"
 * #A049034 ^property[0].code = #status
 * #A049034 ^property[=].valueString = "新增"
-* #A049034 ^property[+].code = #updateDate
+* #A049034 ^property[+].code = #effectiveDate
 * #A049034 ^property[=].valueString = "2024-05"
 * #A049037 "富田黃耆五物湯濃縮顆粒"
 * #A049037 ^property[0].code = #status
 * #A049037 ^property[=].valueString = "新增"
-* #A049037 ^property[+].code = #updateDate
+* #A049037 ^property[+].code = #effectiveDate
 * #A049037 ^property[=].valueString = "2024-05"
 * #A049039 "漢聖當歸芍藥散濃縮細粒"
 * #A049039 ^property[0].code = #status
 * #A049039 ^property[=].valueString = "新增"
-* #A049039 ^property[+].code = #updateDate
+* #A049039 ^property[+].code = #effectiveDate
 * #A049039 ^property[=].valueString = "2024-05"
 * #A035682 "天明虎潛丸(去虎骨)濃縮細粒"
 * #A035682 ^property[0].code = #status
 * #A035682 ^property[=].valueString = "新增"
-* #A035682 ^property[+].code = #updateDate
+* #A035682 ^property[+].code = #effectiveDate
 * #A035682 ^property[=].valueString = "2024-05"
 * #A035683 "天明清鼻湯濃縮細粒"
 * #A035683 ^property[0].code = #status
 * #A035683 ^property[=].valueString = "新增"
-* #A035683 ^property[+].code = #updateDate
+* #A035683 ^property[+].code = #effectiveDate
 * #A035683 ^property[=].valueString = "2024-05"
 * #A035687 "莊松榮導赤散濃縮細粒"
 * #A035687 ^property[0].code = #status
 * #A035687 ^property[=].valueString = "新增"
-* #A035687 ^property[+].code = #updateDate
+* #A035687 ^property[+].code = #effectiveDate
 * #A035687 ^property[=].valueString = "2024-05"
 * #A055441 "領先桃紅四物湯濃縮顆粒"
 * #A055441 ^property[0].code = #status
 * #A055441 ^property[=].valueString = "新增"
-* #A055441 ^property[+].code = #updateDate
+* #A055441 ^property[+].code = #effectiveDate
 * #A055441 ^property[=].valueString = "2024-05"
 * #A055450 "領先川芎茶調散濃縮顆粒"
 * #A055450 ^property[0].code = #status
 * #A055450 ^property[=].valueString = "新增"
-* #A055450 ^property[+].code = #updateDate
+* #A055450 ^property[+].code = #effectiveDate
 * #A055450 ^property[=].valueString = "2024-05"
 * #A055451 "領先生脈飲濃縮顆粒"
 * #A055451 ^property[0].code = #status
 * #A055451 ^property[=].valueString = "新增"
-* #A055451 ^property[+].code = #updateDate
+* #A055451 ^property[+].code = #effectiveDate
 * #A055451 ^property[=].valueString = "2024-05"
 * #A055455 "領先柴胡加龍骨牡蠣湯濃縮顆粒"
 * #A055455 ^property[0].code = #status
 * #A055455 ^property[=].valueString = "新增"
-* #A055455 ^property[+].code = #updateDate
+* #A055455 ^property[+].code = #effectiveDate
 * #A055455 ^property[=].valueString = "2024-05"
 * #A041586 "富田芎歸膠艾湯濃縮錠"
 * #A041586 ^property[0].code = #status
 * #A041586 ^property[=].valueString = "新增"
-* #A041586 ^property[+].code = #updateDate
+* #A041586 ^property[+].code = #effectiveDate
 * #A041586 ^property[=].valueString = "2024-05"
 * #A041587 "生春調經丸濃縮細粒"
 * #A041587 ^property[0].code = #status
 * #A041587 ^property[=].valueString = "新增"
-* #A041587 ^property[+].code = #updateDate
+* #A041587 ^property[+].code = #effectiveDate
 * #A041587 ^property[=].valueString = "2024-05"
 * #A041593 "萬國清暑益氣湯濃縮細粒"
 * #A041593 ^property[0].code = #status
 * #A041593 ^property[=].valueString = "新增"
-* #A041593 ^property[+].code = #updateDate
+* #A041593 ^property[+].code = #effectiveDate
 * #A041593 ^property[=].valueString = "2024-05"
 * #A041594 "萬國五淋散濃縮細粒"
 * #A041594 ^property[0].code = #status
 * #A041594 ^property[=].valueString = "新增"
-* #A041594 ^property[+].code = #updateDate
+* #A041594 ^property[+].code = #effectiveDate
 * #A041594 ^property[=].valueString = "2024-05"
 * #A041595 "萬國槐花散濃縮細粒"
 * #A041595 ^property[0].code = #status
 * #A041595 ^property[=].valueString = "新增"
-* #A041595 ^property[+].code = #updateDate
+* #A041595 ^property[+].code = #effectiveDate
 * #A041595 ^property[=].valueString = "2024-05"
 * #A045129 "晉安少腹逐瘀湯濃縮細粒"
 * #A045129 ^property[0].code = #status
 * #A045129 ^property[=].valueString = "新增"
-* #A045129 ^property[+].code = #updateDate
+* #A045129 ^property[+].code = #effectiveDate
 * #A045129 ^property[=].valueString = "2024-05"
 * #A045137 "港香蘭消痔丸濃縮細粒"
 * #A045137 ^property[0].code = #status
 * #A045137 ^property[=].valueString = "新增"
-* #A045137 ^property[+].code = #updateDate
+* #A045137 ^property[+].code = #effectiveDate
 * #A045137 ^property[=].valueString = "2024-05"
 * #A045138 "萬國養陰清肺湯濃縮細粒"
 * #A045138 ^property[0].code = #status
 * #A045138 ^property[=].valueString = "新增"
-* #A045138 ^property[+].code = #updateDate
+* #A045138 ^property[+].code = #effectiveDate
 * #A045138 ^property[=].valueString = "2024-05"
 * #A056117 "勸奉堂四物湯濃縮細粒"
 * #A056117 ^property[0].code = #status
 * #A056117 ^property[=].valueString = "新增"
-* #A056117 ^property[+].code = #updateDate
+* #A056117 ^property[+].code = #effectiveDate
 * #A056117 ^property[=].valueString = "2024-05"
 * #A056119 "勸奉堂二朮湯濃縮細粒"
 * #A056119 ^property[0].code = #status
 * #A056119 ^property[=].valueString = "新增"
-* #A056119 ^property[+].code = #updateDate
+* #A056119 ^property[+].code = #effectiveDate
 * #A056119 ^property[=].valueString = "2024-05"
 * #A056153 "牛標桂枝湯濃縮細粒"
 * #A056153 ^property[0].code = #status
 * #A056153 ^property[=].valueString = "新增"
-* #A056153 ^property[+].code = #updateDate
+* #A056153 ^property[+].code = #effectiveDate
 * #A056153 ^property[=].valueString = "2024-05"
 * #A056154 "牛標八珍湯濃縮細粒"
 * #A056154 ^property[0].code = #status
 * #A056154 ^property[=].valueString = "新增"
-* #A056154 ^property[+].code = #updateDate
+* #A056154 ^property[+].code = #effectiveDate
 * #A056154 ^property[=].valueString = "2024-05"
 * #A056525 "三才堂防風通聖散濃縮細粒"
 * #A056525 ^property[0].code = #status
 * #A056525 ^property[=].valueString = "新增"
-* #A056525 ^property[+].code = #updateDate
+* #A056525 ^property[+].code = #effectiveDate
 * #A056525 ^property[=].valueString = "2024-05"
 * #A056526 "勝昌薏苡仁湯濃縮細粒"
 * #A056526 ^property[0].code = #status
 * #A056526 ^property[=].valueString = "新增"
-* #A056526 ^property[+].code = #updateDate
+* #A056526 ^property[+].code = #effectiveDate
 * #A056526 ^property[=].valueString = "2024-05"
 * #A056527 "仙豐桂枝麻黃各半湯濃縮散"
 * #A056527 ^property[0].code = #status
 * #A056527 ^property[=].valueString = "新增"
-* #A056527 ^property[+].code = #updateDate
+* #A056527 ^property[+].code = #effectiveDate
 * #A056527 ^property[=].valueString = "2024-05"
 * #A035714 "港香蘭億爾仕錠(六味固精丸)"
 * #A035714 ^property[0].code = #status
 * #A035714 ^property[=].valueString = "新增"
-* #A035714 ^property[+].code = #updateDate
+* #A035714 ^property[+].code = #effectiveDate
 * #A035714 ^property[=].valueString = "2024-05"
 * #A035720 "勝昌補陽還五湯濃縮散"
 * #A035720 ^property[0].code = #status
 * #A035720 ^property[=].valueString = "新增"
-* #A035720 ^property[+].code = #updateDate
+* #A035720 ^property[+].code = #effectiveDate
 * #A035720 ^property[=].valueString = "2024-05"
 * #A035721 "仙豐黃耆五物湯濃縮散"
 * #A035721 ^property[0].code = #status
 * #A035721 ^property[=].valueString = "新增"
-* #A035721 ^property[+].code = #updateDate
+* #A035721 ^property[+].code = #effectiveDate
 * #A035721 ^property[=].valueString = "2024-05"
 * #A035722 "仙豐補陽還五湯濃縮散"
 * #A035722 ^property[0].code = #status
 * #A035722 ^property[=].valueString = "新增"
-* #A035722 ^property[+].code = #updateDate
+* #A035722 ^property[+].code = #effectiveDate
 * #A035722 ^property[=].valueString = "2024-05"
 * #A035723 "勝昌槐花散濃縮散"
 * #A035723 ^property[0].code = #status
 * #A035723 ^property[=].valueString = "新增"
-* #A035723 ^property[+].code = #updateDate
+* #A035723 ^property[+].code = #effectiveDate
 * #A035723 ^property[=].valueString = "2024-05"
 * #A035724 "仙豐生化湯濃縮散"
 * #A035724 ^property[0].code = #status
 * #A035724 ^property[=].valueString = "新增"
-* #A035724 ^property[+].code = #updateDate
+* #A035724 ^property[+].code = #effectiveDate
 * #A035724 ^property[=].valueString = "2024-05"
 * #A056099 "勸奉堂蘇子降氣湯濃縮顆粒"
 * #A056099 ^property[0].code = #status
 * #A056099 ^property[=].valueString = "新增"
-* #A056099 ^property[+].code = #updateDate
+* #A056099 ^property[+].code = #effectiveDate
 * #A056099 ^property[=].valueString = "2024-05"
 * #A056155 "牛標香砂六君子湯濃縮顆粒"
 * #A056155 ^property[0].code = #status
 * #A056155 ^property[=].valueString = "新增"
-* #A056155 ^property[+].code = #updateDate
+* #A056155 ^property[+].code = #effectiveDate
 * #A056155 ^property[=].valueString = "2024-05"
 * #A035725 "天一導赤散濃縮顆粒"
 * #A035725 ^property[0].code = #status
 * #A035725 ^property[=].valueString = "新增"
-* #A035725 ^property[+].code = #updateDate
+* #A035725 ^property[+].code = #effectiveDate
 * #A035725 ^property[=].valueString = "2024-05"
 * #A035727 "天明身痛逐瘀湯濃縮細粒"
 * #A035727 ^property[0].code = #status
 * #A035727 ^property[=].valueString = "新增"
-* #A035727 ^property[+].code = #updateDate
+* #A035727 ^property[+].code = #effectiveDate
 * #A035727 ^property[=].valueString = "2024-05"
 * #A035717 "生春六和湯濃縮細粒"
 * #A035717 ^property[0].code = #status
 * #A035717 ^property[=].valueString = "新增"
-* #A035717 ^property[+].code = #updateDate
+* #A035717 ^property[+].code = #effectiveDate
 * #A035717 ^property[=].valueString = "2024-05"
 * #A035718 "生春二朮湯濃縮細粒"
 * #A035718 ^property[0].code = #status
 * #A035718 ^property[=].valueString = "新增"
-* #A035718 ^property[+].code = #updateDate
+* #A035718 ^property[+].code = #effectiveDate
 * #A035718 ^property[=].valueString = "2024-05"
 * #A035858 "生春烏梅丸濃縮細粒"
 * #A035858 ^property[0].code = #status
 * #A035858 ^property[=].valueString = "新增"
-* #A035858 ^property[+].code = #updateDate
+* #A035858 ^property[+].code = #effectiveDate
 * #A035858 ^property[=].valueString = "2024-05"
 * #A035859 "生春梔子豉湯濃縮細粒"
 * #A035859 ^property[0].code = #status
 * #A035859 ^property[=].valueString = "新增"
-* #A035859 ^property[+].code = #updateDate
+* #A035859 ^property[+].code = #effectiveDate
 * #A035859 ^property[=].valueString = "2024-05"
 * #A035905 "生春抑肝散濃縮細粒"
 * #A035905 ^property[0].code = #status
 * #A035905 ^property[=].valueString = "新增"
-* #A035905 ^property[+].code = #updateDate
+* #A035905 ^property[+].code = #effectiveDate
 * #A035905 ^property[=].valueString = "2024-05"
 * #A035923 "生春八仙湯濃縮細粒"
 * #A035923 ^property[0].code = #status
 * #A035923 ^property[=].valueString = "新增"
-* #A035923 ^property[+].code = #updateDate
+* #A035923 ^property[+].code = #effectiveDate
 * #A035923 ^property[=].valueString = "2024-05"
 * #A056533 "勝昌柴胡清肝湯濃縮細粒"
 * #A056533 ^property[0].code = #status
 * #A056533 ^property[=].valueString = "新增"
-* #A056533 ^property[+].code = #updateDate
+* #A056533 ^property[+].code = #effectiveDate
 * #A056533 ^property[=].valueString = "2024-05"
 * #A056558 "晉安桔梗湯濃縮細粒"
 * #A056558 ^property[0].code = #status
 * #A056558 ^property[=].valueString = "新增"
-* #A056558 ^property[+].code = #updateDate
+* #A056558 ^property[+].code = #effectiveDate
 * #A056558 ^property[=].valueString = "2024-05"
 * #A049066 "漢聖小柴胡湯濃縮細粒"
 * #A049066 ^property[0].code = #status
 * #A049066 ^property[=].valueString = "新增"
-* #A049066 ^property[+].code = #updateDate
+* #A049066 ^property[+].code = #effectiveDate
 * #A049066 ^property[=].valueString = "2024-05"
 * #A056552 "三才堂導赤散濃縮細粒"
 * #A056552 ^property[0].code = #status
 * #A056552 ^property[=].valueString = "新增"
-* #A056552 ^property[+].code = #updateDate
+* #A056552 ^property[+].code = #effectiveDate
 * #A056552 ^property[=].valueString = "2024-05"
 * #A056559 "晉安玉泉丸濃縮細粒"
 * #A056559 ^property[0].code = #status
 * #A056559 ^property[=].valueString = "新增"
-* #A056559 ^property[+].code = #updateDate
+* #A056559 ^property[+].code = #effectiveDate
 * #A056559 ^property[=].valueString = "2024-05"
 * #A045142 "順天堂復元活血湯濃縮顆粒(去穿山甲)"
 * #A045142 ^property[0].code = #status
 * #A045142 ^property[=].valueString = "新增"
-* #A045142 ^property[+].code = #updateDate
+* #A045142 ^property[+].code = #effectiveDate
 * #A045142 ^property[=].valueString = "2024-05"
 * #A045143 "晉安桂枝茯苓丸濃縮錠"
 * #A045143 ^property[0].code = #status
 * #A045143 ^property[=].valueString = "新增"
-* #A045143 ^property[+].code = #updateDate
+* #A045143 ^property[+].code = #effectiveDate
 * #A045143 ^property[=].valueString = "2024-05"
 * #A055592 "領先芎歸膠艾湯濃縮細粒"
 * #A055592 ^property[0].code = #status
 * #A055592 ^property[=].valueString = "新增"
-* #A055592 ^property[+].code = #updateDate
+* #A055592 ^property[+].code = #effectiveDate
 * #A055592 ^property[=].valueString = "2024-05"
 * #A056561 "天一白虎加人參湯濃縮顆粒"
 * #A056561 ^property[0].code = #status
 * #A056561 ^property[=].valueString = "新增"
-* #A056561 ^property[+].code = #updateDate
+* #A056561 ^property[+].code = #effectiveDate
 * #A056561 ^property[=].valueString = "2024-05"
 * #A056562 "勝昌半夏瀉心湯濃縮膜衣錠"
 * #A056562 ^property[0].code = #status
 * #A056562 ^property[=].valueString = "新增"
-* #A056562 ^property[+].code = #updateDate
+* #A056562 ^property[+].code = #effectiveDate
 * #A056562 ^property[=].valueString = "2024-05"
 * #A049069 "富田瀉白散濃縮細粒"
 * #A049069 ^property[0].code = #status
 * #A049069 ^property[=].valueString = "新增"
-* #A049069 ^property[+].code = #updateDate
+* #A049069 ^property[+].code = #effectiveDate
 * #A049069 ^property[=].valueString = "2024-05"
 * #A049065 "漢聖?藤散濃縮細粒"
 * #A049065 ^property[0].code = #status
 * #A049065 ^property[=].valueString = "新增"
-* #A049065 ^property[+].code = #updateDate
+* #A049065 ^property[+].code = #effectiveDate
 * #A049065 ^property[=].valueString = "2024-05"
 * #A049121 "順然兒科杏蘇散濃縮細粒"
 * #A049121 ^property[0].code = #status
 * #A049121 ^property[=].valueString = "新增"
-* #A049121 ^property[+].code = #updateDate
+* #A049121 ^property[+].code = #effectiveDate
 * #A049121 ^property[=].valueString = "2024-05"
 * #A056574 "勝昌桂枝芍藥知母湯濃縮細粒"
 * #A056574 ^property[0].code = #status
 * #A056574 ^property[=].valueString = "新增"
-* #A056574 ^property[+].code = #updateDate
+* #A056574 ^property[+].code = #effectiveDate
 * #A056574 ^property[=].valueString = "2024-05"
 * #A056576 "勝昌十神湯濃縮錠"
 * #A056576 ^property[0].code = #status
 * #A056576 ^property[=].valueString = "新增"
-* #A056576 ^property[+].code = #updateDate
+* #A056576 ^property[+].code = #effectiveDate
 * #A056576 ^property[=].valueString = "2024-05"
 * #A056577 "勝昌桃核承氣湯濃縮膜衣錠"
 * #A056577 ^property[0].code = #status
 * #A056577 ^property[=].valueString = "新增"
-* #A056577 ^property[+].code = #updateDate
+* #A056577 ^property[+].code = #effectiveDate
 * #A056577 ^property[=].valueString = "2024-05"
 * #A035778 "科達生化湯濃縮細粒"
 * #A035778 ^property[0].code = #status
 * #A035778 ^property[=].valueString = "新增"
-* #A035778 ^property[+].code = #updateDate
+* #A035778 ^property[+].code = #effectiveDate
 * #A035778 ^property[=].valueString = "2024-05"
 * #A035779 "莊松榮復元活血湯濃縮細粒"
 * #A035779 ^property[0].code = #status
 * #A035779 ^property[=].valueString = "新增"
-* #A035779 ^property[+].code = #updateDate
+* #A035779 ^property[+].code = #effectiveDate
 * #A035779 ^property[=].valueString = "2024-05"
 * #A035780 "莊松榮清空膏濃縮細粒"
 * #A035780 ^property[0].code = #status
 * #A035780 ^property[=].valueString = "新增"
-* #A035780 ^property[+].code = #updateDate
+* #A035780 ^property[+].code = #effectiveDate
 * #A035780 ^property[=].valueString = "2024-05"
 * #A035782 "天明上中下通用痛風丸濃縮細粒"
 * #A035782 ^property[0].code = #status
 * #A035782 ^property[=].valueString = "新增"
-* #A035782 ^property[+].code = #updateDate
+* #A035782 ^property[+].code = #effectiveDate
 * #A035782 ^property[=].valueString = "2024-05"
 * #A035783 "天明羌活勝濕湯濃縮細粒"
 * #A035783 ^property[0].code = #status
 * #A035783 ^property[=].valueString = "新增"
-* #A035783 ^property[+].code = #updateDate
+* #A035783 ^property[+].code = #effectiveDate
 * #A035783 ^property[=].valueString = "2024-05"
 * #A045156 "萬國當歸補血湯濃縮細粒"
 * #A045156 ^property[0].code = #status
 * #A045156 ^property[=].valueString = "新增"
-* #A045156 ^property[+].code = #updateDate
+* #A045156 ^property[+].code = #effectiveDate
 * #A045156 ^property[=].valueString = "2024-05"
 * #A045159 "順然防風通聖散濃縮錠"
 * #A045159 ^property[0].code = #status
 * #A045159 ^property[=].valueString = "新增"
-* #A045159 ^property[+].code = #updateDate
+* #A045159 ^property[+].code = #effectiveDate
 * #A045159 ^property[=].valueString = "2024-05"
 * #A045160 "順然少腹逐瘀湯濃縮錠"
 * #A045160 ^property[0].code = #status
 * #A045160 ^property[=].valueString = "新增"
-* #A045160 ^property[+].code = #updateDate
+* #A045160 ^property[+].code = #effectiveDate
 * #A045160 ^property[=].valueString = "2024-05"
 * #A045162 "順然桂枝茯苓丸濃縮錠"
 * #A045162 ^property[0].code = #status
 * #A045162 ^property[=].valueString = "新增"
-* #A045162 ^property[+].code = #updateDate
+* #A045162 ^property[+].code = #effectiveDate
 * #A045162 ^property[=].valueString = "2024-05"
 * #A045163 "順然銀翹散濃縮錠"
 * #A045163 ^property[0].code = #status
 * #A045163 ^property[=].valueString = "新增"
-* #A045163 ^property[+].code = #updateDate
+* #A045163 ^property[+].code = #effectiveDate
 * #A045163 ^property[=].valueString = "2024-05"
 * #A045164 "天明麻黃湯濃縮細粒"
 * #A045164 ^property[0].code = #status
 * #A045164 ^property[=].valueString = "新增"
-* #A045164 ^property[+].code = #updateDate
+* #A045164 ^property[+].code = #effectiveDate
 * #A045164 ^property[=].valueString = "2024-05"
 * #A045166 "領先小建中湯濃縮細粒"
 * #A045166 ^property[0].code = #status
 * #A045166 ^property[=].valueString = "新增"
-* #A045166 ^property[+].code = #updateDate
+* #A045166 ^property[+].code = #effectiveDate
 * #A045166 ^property[=].valueString = "2024-05"
 * #A045168 "天明大建中湯濃縮細粒"
 * #A045168 ^property[0].code = #status
 * #A045168 ^property[=].valueString = "新增"
-* #A045168 ^property[+].code = #updateDate
+* #A045168 ^property[+].code = #effectiveDate
 * #A045168 ^property[=].valueString = "2024-05"
 * #A045169 "領先補陽還五湯濃縮細粒"
 * #A045169 ^property[0].code = #status
 * #A045169 ^property[=].valueString = "新增"
-* #A045169 ^property[+].code = #updateDate
+* #A045169 ^property[+].code = #effectiveDate
 * #A045169 ^property[=].valueString = "2024-05"
 * #A045170 "領先四逆散濃縮細粒"
 * #A045170 ^property[0].code = #status
 * #A045170 ^property[=].valueString = "新增"
-* #A045170 ^property[+].code = #updateDate
+* #A045170 ^property[+].code = #effectiveDate
 * #A045170 ^property[=].valueString = "2024-05"
 * #A045171 "領先嬌姿濃縮膠囊（泰山磐石散）"
 * #A045171 ^property[0].code = #status
 * #A045171 ^property[=].valueString = "新增"
-* #A045171 ^property[+].code = #updateDate
+* #A045171 ^property[+].code = #effectiveDate
 * #A045171 ^property[=].valueString = "2024-05"
 * #A045190 "港香蘭排膿散濃縮細粒"
 * #A045190 ^property[0].code = #status
 * #A045190 ^property[=].valueString = "新增"
-* #A045190 ^property[+].code = #updateDate
+* #A045190 ^property[+].code = #effectiveDate
 * #A045190 ^property[=].valueString = "2024-05"
 * #A056110 "牛標苓桂朮甘湯濃縮顆粒"
 * #A056110 ^property[0].code = #status
 * #A056110 ^property[=].valueString = "新增"
-* #A056110 ^property[+].code = #updateDate
+* #A056110 ^property[+].code = #effectiveDate
 * #A056110 ^property[=].valueString = "2024-05"
 * #A056127 "牛標十神湯濃縮顆粒"
 * #A056127 ^property[0].code = #status
 * #A056127 ^property[=].valueString = "新增"
-* #A056127 ^property[+].code = #updateDate
+* #A056127 ^property[+].code = #effectiveDate
 * #A056127 ^property[=].valueString = "2024-05"
 * #A056584 "勝昌調胃承氣湯濃縮錠"
 * #A056584 ^property[0].code = #status
 * #A056584 ^property[=].valueString = "新增"
-* #A056584 ^property[+].code = #updateDate
+* #A056584 ^property[+].code = #effectiveDate
 * #A056584 ^property[=].valueString = "2024-05"
 * #A056585 "勝昌歸脾湯濃縮膜衣錠"
 * #A056585 ^property[0].code = #status
 * #A056585 ^property[=].valueString = "新增"
-* #A056585 ^property[+].code = #updateDate
+* #A056585 ^property[+].code = #effectiveDate
 * #A056585 ^property[=].valueString = "2024-05"
 * #A041610 "萬國鉤藤散濃縮細粒"
 * #A041610 ^property[0].code = #status
 * #A041610 ^property[=].valueString = "新增"
-* #A041610 ^property[+].code = #updateDate
+* #A041610 ^property[+].code = #effectiveDate
 * #A041610 ^property[=].valueString = "2024-05"
 * #A041611 "順天堂導赤散濃縮顆粒"
 * #A041611 ^property[0].code = #status
 * #A041611 ^property[=].valueString = "新增"
-* #A041611 ^property[+].code = #updateDate
+* #A041611 ^property[+].code = #effectiveDate
 * #A041611 ^property[=].valueString = "2024-05"
 * #A041613 "順天堂上中下通用痛風丸濃縮顆粒"
 * #A041613 ^property[0].code = #status
 * #A041613 ^property[=].valueString = "新增"
-* #A041613 ^property[+].code = #updateDate
+* #A041613 ^property[+].code = #effectiveDate
 * #A041613 ^property[=].valueString = "2024-05"
 * #A041614 "順天堂調經丸濃縮顆粒"
 * #A041614 ^property[0].code = #status
 * #A041614 ^property[=].valueString = "新增"
-* #A041614 ^property[+].code = #updateDate
+* #A041614 ^property[+].code = #effectiveDate
 * #A041614 ^property[=].valueString = "2024-05"
 * #A041615 "順天堂雞鳴散濃縮顆粒"
 * #A041615 ^property[0].code = #status
 * #A041615 ^property[=].valueString = "新增"
-* #A041615 ^property[+].code = #updateDate
+* #A041615 ^property[+].code = #effectiveDate
 * #A041615 ^property[=].valueString = "2024-05"
 * #A041616 "明通補陽還五湯濃縮細粒"
 * #A041616 ^property[0].code = #status
 * #A041616 ^property[=].valueString = "新增"
-* #A041616 ^property[+].code = #updateDate
+* #A041616 ^property[+].code = #effectiveDate
 * #A041616 ^property[=].valueString = "2024-05"
 * #A041617 "明通潤腸丸濃縮細粒"
 * #A041617 ^property[0].code = #status
 * #A041617 ^property[=].valueString = "新增"
-* #A041617 ^property[+].code = #updateDate
+* #A041617 ^property[+].code = #effectiveDate
 * #A041617 ^property[=].valueString = "2024-05"
 * #A041618 "明通血府逐瘀湯濃縮細粒"
 * #A041618 ^property[0].code = #status
 * #A041618 ^property[=].valueString = "新增"
-* #A041618 ^property[+].code = #updateDate
+* #A041618 ^property[+].code = #effectiveDate
 * #A041618 ^property[=].valueString = "2024-05"
 * #A041619 "明通黃耆五物湯濃縮細粒"
 * #A041619 ^property[0].code = #status
 * #A041619 ^property[=].valueString = "新增"
-* #A041619 ^property[+].code = #updateDate
+* #A041619 ^property[+].code = #effectiveDate
 * #A041619 ^property[=].valueString = "2024-05"
 * #A041620 "明通桃紅四物湯濃縮細粒"
 * #A041620 ^property[0].code = #status
 * #A041620 ^property[=].valueString = "新增"
-* #A041620 ^property[+].code = #updateDate
+* #A041620 ^property[+].code = #effectiveDate
 * #A041620 ^property[=].valueString = "2024-05"
 * #A041621 "萬國華蓋散濃縮細粒"
 * #A041621 ^property[0].code = #status
 * #A041621 ^property[=].valueString = "新增"
-* #A041621 ^property[+].code = #updateDate
+* #A041621 ^property[+].code = #effectiveDate
 * #A041621 ^property[=].valueString = "2024-05"
 * #A041622 "萬國抵當湯濃縮細粒"
 * #A041622 ^property[0].code = #status
 * #A041622 ^property[=].valueString = "新增"
-* #A041622 ^property[+].code = #updateDate
+* #A041622 ^property[+].code = #effectiveDate
 * #A041622 ^property[=].valueString = "2024-05"
 * #A056111 "牛標八正散濃縮細粒"
 * #A056111 ^property[0].code = #status
 * #A056111 ^property[=].valueString = "新增"
-* #A056111 ^property[+].code = #updateDate
+* #A056111 ^property[+].code = #effectiveDate
 * #A056111 ^property[=].valueString = "2024-05"
 * #A056589 "勝昌麻子仁丸濃縮膜衣錠"
 * #A056589 ^property[0].code = #status
 * #A056589 ^property[=].valueString = "新增"
-* #A056589 ^property[+].code = #updateDate
+* #A056589 ^property[+].code = #effectiveDate
 * #A056589 ^property[=].valueString = "2024-05"
 * #A035841 "科達七寶美髯丹濃縮細粒"
 * #A035841 ^property[0].code = #status
 * #A035841 ^property[=].valueString = "新增"
-* #A035841 ^property[+].code = #updateDate
+* #A035841 ^property[+].code = #effectiveDate
 * #A035841 ^property[=].valueString = "2024-05"
 * #A056590 "勝昌柴胡疏肝湯濃縮錠"
 * #A056590 ^property[0].code = #status
 * #A056590 ^property[=].valueString = "新增"
-* #A056590 ^property[+].code = #updateDate
+* #A056590 ^property[+].code = #effectiveDate
 * #A056590 ^property[=].valueString = "2024-05"
 * #A056592 "勝昌甘麥大棗湯濃縮膜衣錠"
 * #A056592 ^property[0].code = #status
 * #A056592 ^property[=].valueString = "新增"
-* #A056592 ^property[+].code = #updateDate
+* #A056592 ^property[+].code = #effectiveDate
 * #A056592 ^property[=].valueString = "2024-05"
 * #A056593 "勝昌平胃散濃縮膜衣錠"
 * #A056593 ^property[0].code = #status
 * #A056593 ^property[=].valueString = "新增"
-* #A056593 ^property[+].code = #updateDate
+* #A056593 ^property[+].code = #effectiveDate
 * #A056593 ^property[=].valueString = "2024-05"
 * #A049122 "漢聖半夏瀉心湯濃縮細粒"
 * #A049122 ^property[0].code = #status
 * #A049122 ^property[=].valueString = "新增"
-* #A049122 ^property[+].code = #updateDate
+* #A049122 ^property[+].code = #effectiveDate
 * #A049122 ^property[=].valueString = "2024-05"
 * #A049123 "港香蘭桃紅四物湯濃縮錠"
 * #A049123 ^property[0].code = #status
 * #A049123 ^property[=].valueString = "新增"
-* #A049123 ^property[+].code = #updateDate
+* #A049123 ^property[+].code = #effectiveDate
 * #A049123 ^property[=].valueString = "2024-05"
 * #A035857 "真人爺複方丹參片"
 * #A035857 ^property[0].code = #status
 * #A035857 ^property[=].valueString = "新增"
-* #A035857 ^property[+].code = #updateDate
+* #A035857 ^property[+].code = #effectiveDate
 * #A035857 ^property[=].valueString = "2024-05"
 * #A035860 "勝昌黃耆建中湯濃縮散"
 * #A035860 ^property[0].code = #status
 * #A035860 ^property[=].valueString = "新增"
-* #A035860 ^property[+].code = #updateDate
+* #A035860 ^property[+].code = #effectiveDate
 * #A035860 ^property[=].valueString = "2024-05"
 * #A035861 "仙豐上中下通用痛風丸濃縮膠囊"
 * #A035861 ^property[0].code = #status
 * #A035861 ^property[=].valueString = "新增"
-* #A035861 ^property[+].code = #updateDate
+* #A035861 ^property[+].code = #effectiveDate
 * #A035861 ^property[=].valueString = "2024-05"
 * #A035862 "仙豐完帶湯濃縮散"
 * #A035862 ^property[0].code = #status
 * #A035862 ^property[=].valueString = "新增"
-* #A035862 ^property[+].code = #updateDate
+* #A035862 ^property[+].code = #effectiveDate
 * #A035862 ^property[=].valueString = "2024-05"
 * #A056096 "勸奉堂大青龍湯濃縮顆粒"
 * #A056096 ^property[0].code = #status
 * #A056096 ^property[=].valueString = "新增"
-* #A056096 ^property[+].code = #updateDate
+* #A056096 ^property[+].code = #effectiveDate
 * #A056096 ^property[=].valueString = "2024-05"
 * #A056097 "勸奉堂參蘇飲濃縮顆粒"
 * #A056097 ^property[0].code = #status
 * #A056097 ^property[=].valueString = "新增"
-* #A056097 ^property[+].code = #updateDate
+* #A056097 ^property[+].code = #effectiveDate
 * #A056097 ^property[=].valueString = "2024-05"
 * #A045189 "晉安沙參麥門冬湯濃縮細粒"
 * #A045189 ^property[0].code = #status
 * #A045189 ^property[=].valueString = "新增"
-* #A045189 ^property[+].code = #updateDate
+* #A045189 ^property[+].code = #effectiveDate
 * #A045189 ^property[=].valueString = "2024-05"
 * #A045192 "生春桑螵蛸散濃縮細粒"
 * #A045192 ^property[0].code = #status
 * #A045192 ^property[=].valueString = "新增"
-* #A045192 ^property[+].code = #updateDate
+* #A045192 ^property[+].code = #effectiveDate
 * #A045192 ^property[=].valueString = "2024-05"
 * #A045193 "生春寧嗽丸濃縮細粒"
 * #A045193 ^property[0].code = #status
 * #A045193 ^property[=].valueString = "新增"
-* #A045193 ^property[+].code = #updateDate
+* #A045193 ^property[+].code = #effectiveDate
 * #A045193 ^property[=].valueString = "2024-05"
 * #A049159 "港香蘭四逆散濃縮錠"
 * #A049159 ^property[0].code = #status
 * #A049159 ^property[=].valueString = "新增"
-* #A049159 ^property[+].code = #updateDate
+* #A049159 ^property[+].code = #effectiveDate
 * #A049159 ^property[=].valueString = "2024-05"
 * #A049161 "漢聖芍藥甘草湯濃縮細粒"
 * #A049161 ^property[0].code = #status
 * #A049161 ^property[=].valueString = "新增"
-* #A049161 ^property[+].code = #updateDate
+* #A049161 ^property[+].code = #effectiveDate
 * #A049161 ^property[=].valueString = "2024-05"
 * #A059521 "勸奉堂柴胡疏肝湯濃縮細粒"
 * #A059521 ^property[0].code = #status
 * #A059521 ^property[=].valueString = "新增"
-* #A059521 ^property[+].code = #updateDate
+* #A059521 ^property[+].code = #effectiveDate
 * #A059521 ^property[=].valueString = "2024-05"
 * #A059522 "科達苓甘薑味辛夏仁湯濃縮細粒"
 * #A059522 ^property[0].code = #status
 * #A059522 ^property[=].valueString = "新增"
-* #A059522 ^property[+].code = #updateDate
+* #A059522 ^property[+].code = #effectiveDate
 * #A059522 ^property[=].valueString = "2024-05"
 * #A045208 "順天堂舒活風濕湯濃縮膜衣錠（疏經活血湯）"
 * #A045208 ^property[0].code = #status
 * #A045208 ^property[=].valueString = "新增"
-* #A045208 ^property[+].code = #updateDate
+* #A045208 ^property[+].code = #effectiveDate
 * #A045208 ^property[=].valueString = "2024-05"
 * #A045209 "東陽瓜蔞枳實湯濃縮細粒"
 * #A045209 ^property[0].code = #status
 * #A045209 ^property[=].valueString = "新增"
-* #A045209 ^property[+].code = #updateDate
+* #A045209 ^property[+].code = #effectiveDate
 * #A045209 ^property[=].valueString = "2024-05"
 * #A045212 "莊松榮黃耆建中湯濃縮細粒"
 * #A045212 ^property[0].code = #status
 * #A045212 ^property[=].valueString = "新增"
-* #A045212 ^property[+].code = #updateDate
+* #A045212 ^property[+].code = #effectiveDate
 * #A045212 ^property[=].valueString = "2024-05"
 * #A045213 "莊松榮生脈飲濃縮錠"
 * #A045213 ^property[0].code = #status
 * #A045213 ^property[=].valueString = "新增"
-* #A045213 ^property[+].code = #updateDate
+* #A045213 ^property[+].code = #effectiveDate
 * #A045213 ^property[=].valueString = "2024-05"
 * #A045217 "領先當歸四逆湯濃縮細粒"
 * #A045217 ^property[0].code = #status
 * #A045217 ^property[=].valueString = "新增"
-* #A045217 ^property[+].code = #updateDate
+* #A045217 ^property[+].code = #effectiveDate
 * #A045217 ^property[=].valueString = "2024-05"
 * #A045218 "領先真武湯濃縮細粒"
 * #A045218 ^property[0].code = #status
 * #A045218 ^property[=].valueString = "新增"
-* #A045218 ^property[+].code = #updateDate
+* #A045218 ^property[+].code = #effectiveDate
 * #A045218 ^property[=].valueString = "2024-05"
 * #A045219 "天明潤腸湯濃縮細粒"
 * #A045219 ^property[0].code = #status
 * #A045219 ^property[=].valueString = "新增"
-* #A045219 ^property[+].code = #updateDate
+* #A045219 ^property[+].code = #effectiveDate
 * #A045219 ^property[=].valueString = "2024-05"
 * #A045220 "天明連翹敗毒散濃縮細粒"
 * #A045220 ^property[0].code = #status
 * #A045220 ^property[=].valueString = "新增"
-* #A045220 ^property[+].code = #updateDate
+* #A045220 ^property[+].code = #effectiveDate
 * #A045220 ^property[=].valueString = "2024-05"
 * #A045221 "萬國麥味地黃丸濃縮細粒"
 * #A045221 ^property[0].code = #status
 * #A045221 ^property[=].valueString = "新增"
-* #A045221 ^property[+].code = #updateDate
+* #A045221 ^property[+].code = #effectiveDate
 * #A045221 ^property[=].valueString = "2024-05"
 * #A045222 "萬國五味消毒飲濃縮錠"
 * #A045222 ^property[0].code = #status
 * #A045222 ^property[=].valueString = "新增"
-* #A045222 ^property[+].code = #updateDate
+* #A045222 ^property[+].code = #effectiveDate
 * #A045222 ^property[=].valueString = "2024-05"
 * #A049160 "港香蘭正骨紫金丹濃縮錠"
 * #A049160 ^property[0].code = #status
 * #A049160 ^property[=].valueString = "新增"
-* #A049160 ^property[+].code = #updateDate
+* #A049160 ^property[+].code = #effectiveDate
 * #A049160 ^property[=].valueString = "2024-05"
 * #A055446 "領先羌活勝濕湯濃縮顆粒"
 * #A055446 ^property[0].code = #status
 * #A055446 ^property[=].valueString = "新增"
-* #A055446 ^property[+].code = #updateDate
+* #A055446 ^property[+].code = #effectiveDate
 * #A055446 ^property[=].valueString = "2024-05"
 * #A056619 "仙豐乾薑黃連黃芩人參湯濃縮散"
 * #A056619 ^property[0].code = #status
 * #A056619 ^property[=].valueString = "新增"
-* #A056619 ^property[+].code = #updateDate
+* #A056619 ^property[+].code = #effectiveDate
 * #A056619 ^property[=].valueString = "2024-05"
 * #A056812 "三才堂麻子仁丸濃縮細粒"
 * #A056812 ^property[0].code = #status
 * #A056812 ^property[=].valueString = "新增"
-* #A056812 ^property[+].code = #updateDate
+* #A056812 ^property[+].code = #effectiveDate
 * #A056812 ^property[=].valueString = "2024-05"
 * #A056815 "勝昌銀翹散濃縮膜衣錠"
 * #A056815 ^property[0].code = #status
 * #A056815 ^property[=].valueString = "新增"
-* #A056815 ^property[+].code = #updateDate
+* #A056815 ^property[+].code = #effectiveDate
 * #A056815 ^property[=].valueString = "2024-05"
 * #A056816 "勝昌酸棗仁湯濃縮膜衣錠"
 * #A056816 ^property[0].code = #status
 * #A056816 ^property[=].valueString = "新增"
-* #A056816 ^property[+].code = #updateDate
+* #A056816 ^property[+].code = #effectiveDate
 * #A056816 ^property[=].valueString = "2024-05"
 * #A055454 "天明八正散濃縮顆粒"
 * #A055454 ^property[0].code = #status
 * #A055454 ^property[=].valueString = "新增"
-* #A055454 ^property[+].code = #updateDate
+* #A055454 ^property[+].code = #effectiveDate
 * #A055454 ^property[=].valueString = "2024-05"
 * #A035894 "科達五味消毒飲濃縮細粒"
 * #A035894 ^property[0].code = #status
 * #A035894 ^property[=].valueString = "新增"
-* #A035894 ^property[+].code = #updateDate
+* #A035894 ^property[+].code = #effectiveDate
 * #A035894 ^property[=].valueString = "2024-05"
 * #A045235 "港香蘭大補陰丸濃縮細粒"
 * #A045235 ^property[0].code = #status
 * #A045235 ^property[=].valueString = "新增"
-* #A045235 ^property[+].code = #updateDate
+* #A045235 ^property[+].code = #effectiveDate
 * #A045235 ^property[=].valueString = "2024-05"
 * #A045238 "領先養心湯濃縮細粒"
 * #A045238 ^property[0].code = #status
 * #A045238 ^property[=].valueString = "新增"
-* #A045238 ^property[+].code = #updateDate
+* #A045238 ^property[+].code = #effectiveDate
 * #A045238 ^property[=].valueString = "2024-05"
 * #A045239 "天明九味羌活湯濃縮細粒"
 * #A045239 ^property[0].code = #status
 * #A045239 ^property[=].valueString = "新增"
-* #A045239 ^property[+].code = #updateDate
+* #A045239 ^property[+].code = #effectiveDate
 * #A045239 ^property[=].valueString = "2024-05"
 * #A045240 "領先烏藥順氣散濃縮細粒"
 * #A045240 ^property[0].code = #status
 * #A045240 ^property[=].valueString = "新增"
-* #A045240 ^property[+].code = #updateDate
+* #A045240 ^property[+].code = #effectiveDate
 * #A045240 ^property[=].valueString = "2024-05"
 * #A045241 "領先清肺飲濃縮細粒"
 * #A045241 ^property[0].code = #status
 * #A045241 ^property[=].valueString = "新增"
-* #A045241 ^property[+].code = #updateDate
+* #A045241 ^property[+].code = #effectiveDate
 * #A045241 ^property[=].valueString = "2024-05"
 * #A045242 "領先八味帶下方濃縮細粒"
 * #A045242 ^property[0].code = #status
 * #A045242 ^property[=].valueString = "新增"
-* #A045242 ^property[+].code = #updateDate
+* #A045242 ^property[+].code = #effectiveDate
 * #A045242 ^property[=].valueString = "2024-05"
 * #A045243 "領先鼻必通濃縮膠囊"
 * #A045243 ^property[0].code = #status
 * #A045243 ^property[=].valueString = "新增"
-* #A045243 ^property[+].code = #updateDate
+* #A045243 ^property[+].code = #effectiveDate
 * #A045243 ^property[=].valueString = "2024-05"
 * #A045244 "天明再造散濃縮細粒"
 * #A045244 ^property[0].code = #status
 * #A045244 ^property[=].valueString = "新增"
-* #A045244 ^property[+].code = #updateDate
+* #A045244 ^property[+].code = #effectiveDate
 * #A045244 ^property[=].valueString = "2024-05"
 * #A049180 "富田虎潛丸濃縮細粒(去虎骨)"
 * #A049180 ^property[0].code = #status
 * #A049180 ^property[=].valueString = "新增"
-* #A049180 ^property[+].code = #updateDate
+* #A049180 ^property[+].code = #effectiveDate
 * #A049180 ^property[=].valueString = "2024-05"
 * #A049181 "漢聖銀翹散濃縮細粒"
 * #A049181 ^property[0].code = #status
 * #A049181 ^property[=].valueString = "新增"
-* #A049181 ^property[+].code = #updateDate
+* #A049181 ^property[+].code = #effectiveDate
 * #A049181 ^property[=].valueString = "2024-05"
 * #A035900 "東陽紫根牡蠣湯濃縮散"
 * #A035900 ^property[0].code = #status
 * #A035900 ^property[=].valueString = "新增"
-* #A035900 ^property[+].code = #updateDate
+* #A035900 ^property[+].code = #effectiveDate
 * #A035900 ^property[=].valueString = "2024-05"
 * #A035896 "漢聖血府逐瘀湯濃縮散"
 * #A035896 ^property[0].code = #status
 * #A035896 ^property[=].valueString = "新增"
-* #A035896 ^property[+].code = #updateDate
+* #A035896 ^property[+].code = #effectiveDate
 * #A035896 ^property[=].valueString = "2024-05"
 * #A035897 "東陽響聲破笛丸濃縮散"
 * #A035897 ^property[0].code = #status
 * #A035897 ^property[=].valueString = "新增"
-* #A035897 ^property[+].code = #updateDate
+* #A035897 ^property[+].code = #effectiveDate
 * #A035897 ^property[=].valueString = "2024-05"
 * #A035898 "東陽甘露清毒丹濃縮散"
 * #A035898 ^property[0].code = #status
 * #A035898 ^property[=].valueString = "新增"
-* #A035898 ^property[+].code = #updateDate
+* #A035898 ^property[+].code = #effectiveDate
 * #A035898 ^property[=].valueString = "2024-05"
 * #A035899 "東陽補陽還五湯濃縮散"
 * #A035899 ^property[0].code = #status
 * #A035899 ^property[=].valueString = "新增"
-* #A035899 ^property[+].code = #updateDate
+* #A035899 ^property[+].code = #effectiveDate
 * #A035899 ^property[=].valueString = "2024-05"
 * #A035901 "仙豐潤腸湯濃縮散"
 * #A035901 ^property[0].code = #status
 * #A035901 ^property[=].valueString = "新增"
-* #A035901 ^property[+].code = #updateDate
+* #A035901 ^property[+].code = #effectiveDate
 * #A035901 ^property[=].valueString = "2024-05"
 * #A035902 "仙豐散腫潰堅湯濃縮散"
 * #A035902 ^property[0].code = #status
 * #A035902 ^property[=].valueString = "新增"
-* #A035902 ^property[+].code = #updateDate
+* #A035902 ^property[+].code = #effectiveDate
 * #A035902 ^property[=].valueString = "2024-05"
 * #A035904 "科達保和丸濃縮細粒"
 * #A035904 ^property[0].code = #status
 * #A035904 ^property[=].valueString = "新增"
-* #A035904 ^property[+].code = #updateDate
+* #A035904 ^property[+].code = #effectiveDate
 * #A035904 ^property[=].valueString = "2024-05"
 * #A035906 "生春紫菀湯濃縮細粒"
 * #A035906 ^property[0].code = #status
 * #A035906 ^property[=].valueString = "新增"
-* #A035906 ^property[+].code = #updateDate
+* #A035906 ^property[+].code = #effectiveDate
 * #A035906 ^property[=].valueString = "2024-05"
 * #A043389 "港香蘭保肝濃縮錠(龍膽瀉肝湯)"
 * #A043389 ^property[0].code = #status
 * #A043389 ^property[=].valueString = "新增"
-* #A043389 ^property[+].code = #updateDate
+* #A043389 ^property[+].code = #effectiveDate
 * #A043389 ^property[=].valueString = "2024-05"
 * #A056112 "牛標疏經活血湯濃縮顆粒"
 * #A056112 ^property[0].code = #status
 * #A056112 ^property[=].valueString = "新增"
-* #A056112 ^property[+].code = #updateDate
+* #A056112 ^property[+].code = #effectiveDate
 * #A056112 ^property[=].valueString = "2024-05"
 * #A056128 "牛標桑菊飲濃縮顆粒"
 * #A056128 ^property[0].code = #status
 * #A056128 ^property[=].valueString = "新增"
-* #A056128 ^property[+].code = #updateDate
+* #A056128 ^property[+].code = #effectiveDate
 * #A056128 ^property[=].valueString = "2024-05"
 * #A041693 "萬國茵陳蒿湯濃縮細粒"
 * #A041693 ^property[0].code = #status
 * #A041693 ^property[=].valueString = "新增"
-* #A041693 ^property[+].code = #updateDate
+* #A041693 ^property[+].code = #effectiveDate
 * #A041693 ^property[=].valueString = "2024-05"
 * #A041694 "仙豐女科柏子仁丸濃縮細粒(柏子仁丸)."
 * #A041694 ^property[0].code = #status
 * #A041694 ^property[=].valueString = "新增"
-* #A041694 ^property[+].code = #updateDate
+* #A041694 ^property[+].code = #effectiveDate
 * #A041694 ^property[=].valueString = "2024-05"
 * #A041696 "明通身痛逐瘀湯濃縮細粒"
 * #A041696 ^property[0].code = #status
 * #A041696 ^property[=].valueString = "新增"
-* #A041696 ^property[+].code = #updateDate
+* #A041696 ^property[+].code = #effectiveDate
 * #A041696 ^property[=].valueString = "2024-05"
 * #A041697 "明通玉屏風散濃縮細粒"
 * #A041697 ^property[0].code = #status
 * #A041697 ^property[=].valueString = "新增"
-* #A041697 ^property[+].code = #updateDate
+* #A041697 ^property[+].code = #effectiveDate
 * #A041697 ^property[=].valueString = "2024-05"
 * #A041698 "富田黃連阿膠湯濃縮錠"
 * #A041698 ^property[0].code = #status
 * #A041698 ^property[=].valueString = "新增"
-* #A041698 ^property[+].code = #updateDate
+* #A041698 ^property[+].code = #effectiveDate
 * #A041698 ^property[=].valueString = "2024-05"
 * #A041721 "生春當歸六黃湯濃縮細粒"
 * #A041721 ^property[0].code = #status
 * #A041721 ^property[=].valueString = "新增"
-* #A041721 ^property[+].code = #updateDate
+* #A041721 ^property[+].code = #effectiveDate
 * #A041721 ^property[=].valueString = "2024-05"
 * #A035922 "生春蠲痺湯濃縮細粒"
 * #A035922 ^property[0].code = #status
 * #A035922 ^property[=].valueString = "新增"
-* #A035922 ^property[+].code = #updateDate
+* #A035922 ^property[+].code = #effectiveDate
 * #A035922 ^property[=].valueString = "2024-05"
 * #A035924 "勝昌越鞠丸濃縮散"
 * #A035924 ^property[0].code = #status
 * #A035924 ^property[=].valueString = "新增"
-* #A035924 ^property[+].code = #updateDate
+* #A035924 ^property[+].code = #effectiveDate
 * #A035924 ^property[=].valueString = "2024-05"
 * #A035927 "仙豐當歸四逆湯濃縮散"
 * #A035927 ^property[0].code = #status
 * #A035927 ^property[=].valueString = "新增"
-* #A035927 ^property[+].code = #updateDate
+* #A035927 ^property[+].code = #effectiveDate
 * #A035927 ^property[=].valueString = "2024-05"
 * #A056113 "牛標溫經湯濃縮顆粒"
 * #A056113 ^property[0].code = #status
 * #A056113 ^property[=].valueString = "新增"
-* #A056113 ^property[+].code = #updateDate
+* #A056113 ^property[+].code = #effectiveDate
 * #A056113 ^property[=].valueString = "2024-05"
 * #A056129 "牛標上中下通用痛風丸濃縮顆粒"
 * #A056129 ^property[0].code = #status
 * #A056129 ^property[=].valueString = "新增"
-* #A056129 ^property[+].code = #updateDate
+* #A056129 ^property[+].code = #effectiveDate
 * #A056129 ^property[=].valueString = "2024-05"
 * #A035933 "正揚加味逍遙散濃縮細粒"
 * #A035933 ^property[0].code = #status
 * #A035933 ^property[=].valueString = "新增"
-* #A035933 ^property[+].code = #updateDate
+* #A035933 ^property[+].code = #effectiveDate
 * #A035933 ^property[=].valueString = "2024-05"
 * #A045258 "港香蘭香砂平胃散濃縮細粒"
 * #A045258 ^property[0].code = #status
 * #A045258 ^property[=].valueString = "新增"
-* #A045258 ^property[+].code = #updateDate
+* #A045258 ^property[+].code = #effectiveDate
 * #A045258 ^property[=].valueString = "2024-05"
 * #A035934 "勝昌當歸飲子濃縮散"
 * #A035934 ^property[0].code = #status
 * #A035934 ^property[=].valueString = "新增"
-* #A035934 ^property[+].code = #updateDate
+* #A035934 ^property[+].code = #effectiveDate
 * #A035934 ^property[=].valueString = "2024-05"
 * #A045255 "莊松榮加味逍遙散濃縮膠囊"
 * #A045255 ^property[0].code = #status
 * #A045255 ^property[=].valueString = "新增"
-* #A045255 ^property[+].code = #updateDate
+* #A045255 ^property[+].code = #effectiveDate
 * #A045255 ^property[=].valueString = "2024-05"
 * #A045256 "三帆養肝丸濃縮錠"
 * #A045256 ^property[0].code = #status
 * #A045256 ^property[=].valueString = "新增"
-* #A045256 ^property[+].code = #updateDate
+* #A045256 ^property[+].code = #effectiveDate
 * #A045256 ^property[=].valueString = "2024-05"
 * #A049182 "順然麻子仁丸濃縮錠"
 * #A049182 ^property[0].code = #status
 * #A049182 ^property[=].valueString = "新增"
-* #A049182 ^property[+].code = #updateDate
+* #A049182 ^property[+].code = #effectiveDate
 * #A049182 ^property[=].valueString = "2024-05"
 * #A055452 "領先銀翹散濃縮顆粒"
 * #A055452 ^property[0].code = #status
 * #A055452 ^property[=].valueString = "新增"
-* #A055452 ^property[+].code = #updateDate
+* #A055452 ^property[+].code = #effectiveDate
 * #A055452 ^property[=].valueString = "2024-05"
 * #A055501 "領先歸脾湯濃縮顆粒"
 * #A055501 ^property[0].code = #status
 * #A055501 ^property[=].valueString = "新增"
-* #A055501 ^property[+].code = #updateDate
+* #A055501 ^property[+].code = #effectiveDate
 * #A055501 ^property[=].valueString = "2024-05"
 * #A055503 "領先響聲破笛丸濃縮顆粒"
 * #A055503 ^property[0].code = #status
 * #A055503 ^property[=].valueString = "新增"
-* #A055503 ^property[+].code = #updateDate
+* #A055503 ^property[+].code = #effectiveDate
 * #A055503 ^property[=].valueString = "2024-05"
 * #A045269 "正揚玉泉丸湯濃縮細粒"
 * #A045269 ^property[0].code = #status
 * #A045269 ^property[=].valueString = "新增"
-* #A045269 ^property[+].code = #updateDate
+* #A045269 ^property[+].code = #effectiveDate
 * #A045269 ^property[=].valueString = "2024-05"
 * #A045270 "正揚玉女煎濃縮細粒"
 * #A045270 ^property[0].code = #status
 * #A045270 ^property[=].valueString = "新增"
-* #A045270 ^property[+].code = #updateDate
+* #A045270 ^property[+].code = #effectiveDate
 * #A045270 ^property[=].valueString = "2024-05"
 * #A045271 "正揚當歸飲子濃縮細粒"
 * #A045271 ^property[0].code = #status
 * #A045271 ^property[=].valueString = "新增"
-* #A045271 ^property[+].code = #updateDate
+* #A045271 ^property[+].code = #effectiveDate
 * #A045271 ^property[=].valueString = "2024-05"
 * #A049200 "富田參蘇飲濃縮細粒"
 * #A049200 ^property[0].code = #status
 * #A049200 ^property[=].valueString = "新增"
-* #A049200 ^property[+].code = #updateDate
+* #A049200 ^property[+].code = #effectiveDate
 * #A049200 ^property[=].valueString = "2024-05"
 * #A056832 "三才堂苓桂朮甘湯濃縮細粒"
 * #A056832 ^property[0].code = #status
 * #A056832 ^property[=].valueString = "新增"
-* #A056832 ^property[+].code = #updateDate
+* #A056832 ^property[+].code = #effectiveDate
 * #A056832 ^property[=].valueString = "2024-05"
 * #A056838 "天明附子理中湯濃縮細粒"
 * #A056838 ^property[0].code = #status
 * #A056838 ^property[=].valueString = "新增"
-* #A056838 ^property[+].code = #updateDate
+* #A056838 ^property[+].code = #effectiveDate
 * #A056838 ^property[=].valueString = "2024-05"
 * #A056841 "領先芍藥甘草湯濃縮細粒"
 * #A056841 ^property[0].code = #status
 * #A056841 ^property[=].valueString = "新增"
-* #A056841 ^property[+].code = #updateDate
+* #A056841 ^property[+].code = #effectiveDate
 * #A056841 ^property[=].valueString = "2024-05"
 * #A056847 "三才堂蒼耳散濃縮細粒"
 * #A056847 ^property[0].code = #status
 * #A056847 ^property[=].valueString = "新增"
-* #A056847 ^property[+].code = #updateDate
+* #A056847 ^property[+].code = #effectiveDate
 * #A056847 ^property[=].valueString = "2024-05"
 * #A056849 "勝昌天麻?藤飲濃縮錠"
 * #A056849 ^property[0].code = #status
 * #A056849 ^property[=].valueString = "新增"
-* #A056849 ^property[+].code = #updateDate
+* #A056849 ^property[+].code = #effectiveDate
 * #A056849 ^property[=].valueString = "2024-05"
 * #A056855 "仙豐桂枝人參湯濃縮散"
 * #A056855 ^property[0].code = #status
 * #A056855 ^property[=].valueString = "新增"
-* #A056855 ^property[+].code = #updateDate
+* #A056855 ^property[+].code = #effectiveDate
 * #A056855 ^property[=].valueString = "2024-05"
 * #A056861 "天一三痹湯濃縮顆粒"
 * #A056861 ^property[0].code = #status
 * #A056861 ^property[=].valueString = "新增"
-* #A056861 ^property[+].code = #updateDate
+* #A056861 ^property[+].code = #effectiveDate
 * #A056861 ^property[=].valueString = "2024-05"
 * #A056862 "天一七寶美髯丹濃縮顆粒"
 * #A056862 ^property[0].code = #status
 * #A056862 ^property[=].valueString = "新增"
-* #A056862 ^property[+].code = #updateDate
+* #A056862 ^property[+].code = #effectiveDate
 * #A056862 ^property[=].valueString = "2024-05"
 * #A059530 "科達清鼻湯濃縮細粒"
 * #A059530 ^property[0].code = #status
 * #A059530 ^property[=].valueString = "新增"
-* #A059530 ^property[+].code = #updateDate
+* #A059530 ^property[+].code = #effectiveDate
 * #A059530 ^property[=].valueString = "2024-05"
 * #A056873 "順然真人活命飲濃縮錠(去穿山甲)"
 * #A056873 ^property[0].code = #status
 * #A056873 ^property[=].valueString = "新增"
-* #A056873 ^property[+].code = #updateDate
+* #A056873 ^property[+].code = #effectiveDate
 * #A056873 ^property[=].valueString = "2024-05"
 * #A041761 "富田清燥救肺湯濃縮散"
 * #A041761 ^property[0].code = #status
 * #A041761 ^property[=].valueString = "新增"
-* #A041761 ^property[+].code = #updateDate
+* #A041761 ^property[+].code = #effectiveDate
 * #A041761 ^property[=].valueString = "2024-05"
 * #A041763 "科達龍膽瀉肝湯濃縮錠"
 * #A041763 ^property[0].code = #status
 * #A041763 ^property[=].valueString = "新增"
-* #A041763 ^property[+].code = #updateDate
+* #A041763 ^property[+].code = #effectiveDate
 * #A041763 ^property[=].valueString = "2024-05"
 * #A041764 "科達天王補心丹濃縮錠"
 * #A041764 ^property[0].code = #status
 * #A041764 ^property[=].valueString = "新增"
-* #A041764 ^property[+].code = #updateDate
+* #A041764 ^property[+].code = #effectiveDate
 * #A041764 ^property[=].valueString = "2024-05"
 * #A041766 "莊松榮精氣神源濃縮丸"
 * #A041766 ^property[0].code = #status
 * #A041766 ^property[=].valueString = "新增"
-* #A041766 ^property[+].code = #updateDate
+* #A041766 ^property[+].code = #effectiveDate
 * #A041766 ^property[=].valueString = "2024-05"
 * #A041779 "生春柴葛解肌湯濃縮細粒"
 * #A041779 ^property[0].code = #status
 * #A041779 ^property[=].valueString = "新增"
-* #A041779 ^property[+].code = #updateDate
+* #A041779 ^property[+].code = #effectiveDate
 * #A041779 ^property[=].valueString = "2024-05"
 * #A041782 "順然玉泉丸濃縮細粒"
 * #A041782 ^property[0].code = #status
 * #A041782 ^property[=].valueString = "新增"
-* #A041782 ^property[+].code = #updateDate
+* #A041782 ^property[+].code = #effectiveDate
 * #A041782 ^property[=].valueString = "2024-05"
 * #A041783 "順然柴胡加龍骨牡蠣湯濃縮細粒"
 * #A041783 ^property[0].code = #status
 * #A041783 ^property[=].valueString = "新增"
-* #A041783 ^property[+].code = #updateDate
+* #A041783 ^property[+].code = #effectiveDate
 * #A041783 ^property[=].valueString = "2024-05"
 * #A041784 "順然白虎湯濃縮細粒"
 * #A041784 ^property[0].code = #status
 * #A041784 ^property[=].valueString = "新增"
-* #A041784 ^property[+].code = #updateDate
+* #A041784 ^property[+].code = #effectiveDate
 * #A041784 ^property[=].valueString = "2024-05"
 * #A041785 "順然安中散濃縮細粒"
 * #A041785 ^property[0].code = #status
 * #A041785 ^property[=].valueString = "新增"
-* #A041785 ^property[+].code = #updateDate
+* #A041785 ^property[+].code = #effectiveDate
 * #A041785 ^property[=].valueString = "2024-05"
 * #A041786 "順然甘麥大棗湯濃縮細粒"
 * #A041786 ^property[0].code = #status
 * #A041786 ^property[=].valueString = "新增"
-* #A041786 ^property[+].code = #updateDate
+* #A041786 ^property[+].code = #effectiveDate
 * #A041786 ^property[=].valueString = "2024-05"
 * #A041787 "順然芍藥甘草湯濃縮細粒"
 * #A041787 ^property[0].code = #status
 * #A041787 ^property[=].valueString = "新增"
-* #A041787 ^property[+].code = #updateDate
+* #A041787 ^property[+].code = #effectiveDate
 * #A041787 ^property[=].valueString = "2024-05"
 * #A056874 "仙豐生薑瀉心湯"
 * #A056874 ^property[0].code = #status
 * #A056874 ^property[=].valueString = "新增"
-* #A056874 ^property[+].code = #updateDate
+* #A056874 ^property[+].code = #effectiveDate
 * #A056874 ^property[=].valueString = "2024-05"
 * #A056876 "三才堂蠲痹湯濃縮細粒"
 * #A056876 ^property[0].code = #status
 * #A056876 ^property[=].valueString = "新增"
-* #A056876 ^property[+].code = #updateDate
+* #A056876 ^property[+].code = #effectiveDate
 * #A056876 ^property[=].valueString = "2024-05"
 * #A056877 "天明三黃石膏湯濃縮細粒"
 * #A056877 ^property[0].code = #status
 * #A056877 ^property[=].valueString = "新增"
-* #A056877 ^property[+].code = #updateDate
+* #A056877 ^property[+].code = #effectiveDate
 * #A056877 ^property[=].valueString = "2024-05"
 * #A056878 "天明養陰清肺湯濃縮細粒"
 * #A056878 ^property[0].code = #status
 * #A056878 ^property[=].valueString = "新增"
-* #A056878 ^property[+].code = #updateDate
+* #A056878 ^property[+].code = #effectiveDate
 * #A056878 ^property[=].valueString = "2024-05"
 * #A045286 "正揚正骨紫金丹濃縮細粒"
 * #A045286 ^property[0].code = #status
 * #A045286 ^property[=].valueString = "新增"
-* #A045286 ^property[+].code = #updateDate
+* #A045286 ^property[+].code = #effectiveDate
 * #A045286 ^property[=].valueString = "2024-05"
 * #A045287 "晉安龜鹿二仙膠濃縮細粒"
 * #A045287 ^property[0].code = #status
 * #A045287 ^property[=].valueString = "新增"
-* #A045287 ^property[+].code = #updateDate
+* #A045287 ^property[+].code = #effectiveDate
 * #A045287 ^property[=].valueString = "2024-05"
 * #A049216 "富田八味帶下方濃縮細粒"
 * #A049216 ^property[0].code = #status
 * #A049216 ^property[=].valueString = "新增"
-* #A049216 ^property[+].code = #updateDate
+* #A049216 ^property[+].code = #effectiveDate
 * #A049216 ^property[=].valueString = "2024-05"
 * #A056883 "港香蘭三仁湯濃縮細粒"
 * #A056883 ^property[0].code = #status
 * #A056883 ^property[=].valueString = "新增"
-* #A056883 ^property[+].code = #updateDate
+* #A056883 ^property[+].code = #effectiveDate
 * #A056883 ^property[=].valueString = "2024-05"
 * #A056888 "仙豐厚朴七物湯"
 * #A056888 ^property[0].code = #status
 * #A056888 ^property[=].valueString = "新增"
-* #A056888 ^property[+].code = #updateDate
+* #A056888 ^property[+].code = #effectiveDate
 * #A056888 ^property[=].valueString = "2024-05"
 * #A041788 "順然羌活勝濕湯濃縮細粒"
 * #A041788 ^property[0].code = #status
 * #A041788 ^property[=].valueString = "新增"
-* #A041788 ^property[+].code = #updateDate
+* #A041788 ^property[+].code = #effectiveDate
 * #A041788 ^property[=].valueString = "2024-05"
 * #A036037 "莊松榮普濟消毒飲濃縮細粒"
 * #A036037 ^property[0].code = #status
 * #A036037 ^property[=].valueString = "新增"
-* #A036037 ^property[+].code = #updateDate
+* #A036037 ^property[+].code = #effectiveDate
 * #A036037 ^property[=].valueString = "2024-05"
 * #A036040 "天明薏苡仁湯濃縮細粒"
 * #A036040 ^property[0].code = #status
 * #A036040 ^property[=].valueString = "新增"
-* #A036040 ^property[+].code = #updateDate
+* #A036040 ^property[+].code = #effectiveDate
 * #A036040 ^property[=].valueString = "2024-05"
 * #A049227 "勸奉堂黃蓮湯濃縮細粒"
 * #A049227 ^property[0].code = #status
 * #A049227 ^property[=].valueString = "新增"
-* #A049227 ^property[+].code = #updateDate
+* #A049227 ^property[+].code = #effectiveDate
 * #A049227 ^property[=].valueString = "2024-05"
 * #A059537 "科達清咽利膈湯濃縮細粒"
 * #A059537 ^property[0].code = #status
 * #A059537 ^property[=].valueString = "新增"
-* #A059537 ^property[+].code = #updateDate
+* #A059537 ^property[+].code = #effectiveDate
 * #A059537 ^property[=].valueString = "2024-05"
 * #A045522 "華陀清心蓮子飲濃縮細粒"
 * #A045522 ^property[0].code = #status
 * #A045522 ^property[=].valueString = "新增"
-* #A045522 ^property[+].code = #updateDate
+* #A045522 ^property[+].code = #effectiveDate
 * #A045522 ^property[=].valueString = "2024-05"
 * #A059536 "百壽龜鹿二仙膠濃縮丸"
 * #A059536 ^property[0].code = #status
 * #A059536 ^property[=].valueString = "新增"
-* #A059536 ^property[+].code = #updateDate
+* #A059536 ^property[+].code = #effectiveDate
 * #A059536 ^property[=].valueString = "2024-05"
 * #A036051 "天明寧嗽丸濃縮丸"
 * #A036051 ^property[0].code = #status
 * #A036051 ^property[=].valueString = "新增"
-* #A036051 ^property[+].code = #updateDate
+* #A036051 ^property[+].code = #effectiveDate
 * #A036051 ^property[=].valueString = "2024-05"
 * #A045294 "晉安清心利膈湯濃縮細粒"
 * #A045294 ^property[0].code = #status
 * #A045294 ^property[=].valueString = "新增"
-* #A045294 ^property[+].code = #updateDate
+* #A045294 ^property[+].code = #effectiveDate
 * #A045294 ^property[=].valueString = "2024-05"
 * #A045298 "港香蘭複方丹參片濃縮錠"
 * #A045298 ^property[0].code = #status
 * #A045298 ^property[=].valueString = "新增"
-* #A045298 ^property[+].code = #updateDate
+* #A045298 ^property[+].code = #effectiveDate
 * #A045298 ^property[=].valueString = "2024-05"
 * #A045299 "生春大補陰丸濃縮細粒"
 * #A045299 ^property[0].code = #status
 * #A045299 ^property[=].valueString = "新增"
-* #A045299 ^property[+].code = #updateDate
+* #A045299 ^property[+].code = #effectiveDate
 * #A045299 ^property[=].valueString = "2024-05"
 * #A045302 "德山蒼耳散濃縮細粒"
 * #A045302 ^property[0].code = #status
 * #A045302 ^property[=].valueString = "新增"
-* #A045302 ^property[+].code = #updateDate
+* #A045302 ^property[+].code = #effectiveDate
 * #A045302 ^property[=].valueString = "2024-05"
 * #A045303 "富田響聲破笛丸濃縮細粒"
 * #A045303 ^property[0].code = #status
 * #A045303 ^property[=].valueString = "新增"
-* #A045303 ^property[+].code = #updateDate
+* #A045303 ^property[+].code = #effectiveDate
 * #A045303 ^property[=].valueString = "2024-05"
 * #A045304 "富田木香檳榔丸濃縮細粒"
 * #A045304 ^property[0].code = #status
 * #A045304 ^property[=].valueString = "新增"
-* #A045304 ^property[+].code = #updateDate
+* #A045304 ^property[+].code = #effectiveDate
 * #A045304 ^property[=].valueString = "2024-05"
 * #A045301 "順天堂生命之源濃縮膜衣錠(六味地黃丸）"
 * #A045301 ^property[0].code = #status
 * #A045301 ^property[=].valueString = "新增"
-* #A045301 ^property[+].code = #updateDate
+* #A045301 ^property[+].code = #effectiveDate
 * #A045301 ^property[=].valueString = "2024-05"
 * #A036065 "科達涼膈乙方濃縮細粒"
 * #A036065 ^property[0].code = #status
 * #A036065 ^property[=].valueString = "新增"
-* #A036065 ^property[+].code = #updateDate
+* #A036065 ^property[+].code = #effectiveDate
 * #A036065 ^property[=].valueString = "2024-05"
 * #A048231 "東陽止嗽散濃縮顆粒"
 * #A048231 ^property[0].code = #status
 * #A048231 ^property[=].valueString = "新增"
-* #A048231 ^property[+].code = #updateDate
+* #A048231 ^property[+].code = #effectiveDate
 * #A048231 ^property[=].valueString = "2024-05"
 * #A056894 "仙豐越婢湯"
 * #A056894 ^property[0].code = #status
 * #A056894 ^property[=].valueString = "新增"
-* #A056894 ^property[+].code = #updateDate
+* #A056894 ^property[+].code = #effectiveDate
 * #A056894 ^property[=].valueString = "2024-05"
 * #A036076 "天一半夏瀉心湯濃縮錠"
 * #A036076 ^property[0].code = #status
 * #A036076 ^property[=].valueString = "新增"
-* #A036076 ^property[+].code = #updateDate
+* #A036076 ^property[+].code = #effectiveDate
 * #A036076 ^property[=].valueString = "2024-05"
 * #A056900 "天一小活絡丹濃縮顆粒"
 * #A056900 ^property[0].code = #status
 * #A056900 ^property[=].valueString = "新增"
-* #A056900 ^property[+].code = #updateDate
+* #A056900 ^property[+].code = #effectiveDate
 * #A056900 ^property[=].valueString = "2024-05"
 * #A049249 "生達小青龍湯濃縮顆粒"
 * #A049249 ^property[0].code = #status
 * #A049249 ^property[=].valueString = "新增"
-* #A049249 ^property[+].code = #updateDate
+* #A049249 ^property[+].code = #effectiveDate
 * #A049249 ^property[=].valueString = "2024-05"
 * #A056901 "天明調經丸濃縮細粒"
 * #A056901 ^property[0].code = #status
 * #A056901 ^property[=].valueString = "新增"
-* #A056901 ^property[+].code = #updateDate
+* #A056901 ^property[+].code = #effectiveDate
 * #A056901 ^property[=].valueString = "2024-05"
 * #A059540 "領先六君子湯濃縮錠"
 * #A059540 ^property[0].code = #status
 * #A059540 ^property[=].valueString = "新增"
-* #A059540 ^property[+].code = #updateDate
+* #A059540 ^property[+].code = #effectiveDate
 * #A059540 ^property[=].valueString = "2024-05"
 * #A056920 "港香蘭四逆湯濃縮細粒"
 * #A056920 ^property[0].code = #status
 * #A056920 ^property[=].valueString = "新增"
-* #A056920 ^property[+].code = #updateDate
+* #A056920 ^property[+].code = #effectiveDate
 * #A056920 ^property[=].valueString = "2024-05"
 * #A056922 "三才堂柴胡加龍骨牡蠣湯濃縮細粒"
 * #A056922 ^property[0].code = #status
 * #A056922 ^property[=].valueString = "新增"
-* #A056922 ^property[+].code = #updateDate
+* #A056922 ^property[+].code = #effectiveDate
 * #A056922 ^property[=].valueString = "2024-05"
 * #A056923 "三才堂葛根湯濃縮細粒"
 * #A056923 ^property[0].code = #status
 * #A056923 ^property[=].valueString = "新增"
-* #A056923 ^property[+].code = #updateDate
+* #A056923 ^property[+].code = #effectiveDate
 * #A056923 ^property[=].valueString = "2024-05"
 * #A045325 "港香蘭香砂平胃散濃縮錠"
 * #A045325 ^property[0].code = #status
 * #A045325 ^property[=].valueString = "新增"
-* #A045325 ^property[+].code = #updateDate
+* #A045325 ^property[+].code = #effectiveDate
 * #A045325 ^property[=].valueString = "2024-05"
 * #A045313 "德山大柴胡湯濃縮細粒"
 * #A045313 ^property[0].code = #status
 * #A045313 ^property[=].valueString = "新增"
-* #A045313 ^property[+].code = #updateDate
+* #A045313 ^property[+].code = #effectiveDate
 * #A045313 ^property[=].valueString = "2024-05"
 * #A045314 "富田金鎖固精丸濃縮細粒"
 * #A045314 ^property[0].code = #status
 * #A045314 ^property[=].valueString = "新增"
-* #A045314 ^property[+].code = #updateDate
+* #A045314 ^property[+].code = #effectiveDate
 * #A045314 ^property[=].valueString = "2024-05"
 * #A045315 "富田乙字湯濃縮細粒"
 * #A045315 ^property[0].code = #status
 * #A045315 ^property[=].valueString = "新增"
-* #A045315 ^property[+].code = #updateDate
+* #A045315 ^property[+].code = #effectiveDate
 * #A045315 ^property[=].valueString = "2024-05"
 * #A045316 "德山人參敗毒散濃縮細粒"
 * #A045316 ^property[0].code = #status
 * #A045316 ^property[=].valueString = "新增"
-* #A045316 ^property[+].code = #updateDate
+* #A045316 ^property[+].code = #effectiveDate
 * #A045316 ^property[=].valueString = "2024-05"
 * #A045326 "萬國大秦艽湯濃縮細粒"
 * #A045326 ^property[0].code = #status
 * #A045326 ^property[=].valueString = "新增"
-* #A045326 ^property[+].code = #updateDate
+* #A045326 ^property[+].code = #effectiveDate
 * #A045326 ^property[=].valueString = "2024-05"
 * #A045327 "萬國斑龍丸濃縮細粒"
 * #A045327 ^property[0].code = #status
 * #A045327 ^property[=].valueString = "新增"
-* #A045327 ^property[+].code = #updateDate
+* #A045327 ^property[+].code = #effectiveDate
 * #A045327 ^property[=].valueString = "2024-05"
 * #A045328 "晉安辛夷清肺湯濃縮錠"
 * #A045328 ^property[0].code = #status
 * #A045328 ^property[=].valueString = "新增"
-* #A045328 ^property[+].code = #updateDate
+* #A045328 ^property[+].code = #effectiveDate
 * #A045328 ^property[=].valueString = "2024-05"
 * #A045329 "晉安當歸龍薈丸濃縮錠(去麝香)"
 * #A045329 ^property[0].code = #status
 * #A045329 ^property[=].valueString = "新增"
-* #A045329 ^property[+].code = #updateDate
+* #A045329 ^property[+].code = #effectiveDate
 * #A045329 ^property[=].valueString = "2024-05"
 * #A045333 "德山龜鹿二仙膠濃縮膠囊"
 * #A045333 ^property[0].code = #status
 * #A045333 ^property[=].valueString = "新增"
-* #A045333 ^property[+].code = #updateDate
+* #A045333 ^property[+].code = #effectiveDate
 * #A045333 ^property[=].valueString = "2024-05"
 * #A041844 "富田麥門冬湯濃縮錠"
 * #A041844 ^property[0].code = #status
 * #A041844 ^property[=].valueString = "新增"
-* #A041844 ^property[+].code = #updateDate
+* #A041844 ^property[+].code = #effectiveDate
 * #A041844 ^property[=].valueString = "2024-05"
 * #A041845 "富田竹葉石膏湯濃縮錠"
 * #A041845 ^property[0].code = #status
 * #A041845 ^property[=].valueString = "新增"
-* #A041845 ^property[+].code = #updateDate
+* #A041845 ^property[+].code = #effectiveDate
 * #A041845 ^property[=].valueString = "2024-05"
 * #A041846 "科達小青龍湯濃縮錠"
 * #A041846 ^property[0].code = #status
 * #A041846 ^property[=].valueString = "新增"
-* #A041846 ^property[+].code = #updateDate
+* #A041846 ^property[+].code = #effectiveDate
 * #A041846 ^property[=].valueString = "2024-05"
 * #A041849 "明通過期飲濃縮細粒"
 * #A041849 ^property[0].code = #status
 * #A041849 ^property[=].valueString = "新增"
-* #A041849 ^property[+].code = #updateDate
+* #A041849 ^property[+].code = #effectiveDate
 * #A041849 ^property[=].valueString = "2024-05"
 * #A041850 "明通復元活血湯濃縮細粒(去穿山甲）"
 * #A041850 ^property[0].code = #status
 * #A041850 ^property[=].valueString = "新增"
-* #A041850 ^property[+].code = #updateDate
+* #A041850 ^property[+].code = #effectiveDate
 * #A041850 ^property[=].valueString = "2024-05"
 * #A041853 "順然清暑益氣湯濃縮細粒"
 * #A041853 ^property[0].code = #status
 * #A041853 ^property[=].valueString = "新增"
-* #A041853 ^property[+].code = #updateDate
+* #A041853 ^property[+].code = #effectiveDate
 * #A041853 ^property[=].valueString = "2024-05"
 * #A041854 "順然桃紅四物湯濃縮細粒"
 * #A041854 ^property[0].code = #status
 * #A041854 ^property[=].valueString = "新增"
-* #A041854 ^property[+].code = #updateDate
+* #A041854 ^property[+].code = #effectiveDate
 * #A041854 ^property[=].valueString = "2024-05"
 * #A041855 "順然清咽利膈湯濃縮細粒"
 * #A041855 ^property[0].code = #status
 * #A041855 ^property[=].valueString = "新增"
-* #A041855 ^property[+].code = #updateDate
+* #A041855 ^property[+].code = #effectiveDate
 * #A041855 ^property[=].valueString = "2024-05"
 * #A041857 "生春藿香正氣散濃縮細粒"
 * #A041857 ^property[0].code = #status
 * #A041857 ^property[=].valueString = "新增"
-* #A041857 ^property[+].code = #updateDate
+* #A041857 ^property[+].code = #effectiveDate
 * #A041857 ^property[=].valueString = "2024-05"
 * #A041858 "生春人參敗毒散濃縮細粒"
 * #A041858 ^property[0].code = #status
 * #A041858 ^property[=].valueString = "新增"
-* #A041858 ^property[+].code = #updateDate
+* #A041858 ^property[+].code = #effectiveDate
 * #A041858 ^property[=].valueString = "2024-05"
 * #A041859 "生春正骨紫金丹濃縮細粒"
 * #A041859 ^property[0].code = #status
 * #A041859 ^property[=].valueString = "新增"
-* #A041859 ^property[+].code = #updateDate
+* #A041859 ^property[+].code = #effectiveDate
 * #A041859 ^property[=].valueString = "2024-05"
 * #A041860 "生春歸脾湯濃縮細粒"
 * #A041860 ^property[0].code = #status
 * #A041860 ^property[=].valueString = "新增"
-* #A041860 ^property[+].code = #updateDate
+* #A041860 ^property[+].code = #effectiveDate
 * #A041860 ^property[=].valueString = "2024-05"
 * #A041861 "生春參蘇飲濃縮細粒"
 * #A041861 ^property[0].code = #status
 * #A041861 ^property[=].valueString = "新增"
-* #A041861 ^property[+].code = #updateDate
+* #A041861 ^property[+].code = #effectiveDate
 * #A041861 ^property[=].valueString = "2024-05"
 * #A041862 "生春五積散濃縮細粒"
 * #A041862 ^property[0].code = #status
 * #A041862 ^property[=].valueString = "新增"
-* #A041862 ^property[+].code = #updateDate
+* #A041862 ^property[+].code = #effectiveDate
 * #A041862 ^property[=].valueString = "2024-05"
 * #A056114 "牛標清肺湯濃縮細粒"
 * #A056114 ^property[0].code = #status
 * #A056114 ^property[=].valueString = "新增"
-* #A056114 ^property[+].code = #updateDate
+* #A056114 ^property[+].code = #effectiveDate
 * #A056114 ^property[=].valueString = "2024-05"
 * #A049268 "富田利鼻湯濃縮細粒"
 * #A049268 ^property[0].code = #status
 * #A049268 ^property[=].valueString = "新增"
-* #A049268 ^property[+].code = #updateDate
+* #A049268 ^property[+].code = #effectiveDate
 * #A049268 ^property[=].valueString = "2024-05"
 * #A049269 "勸奉堂溫清飲濃縮細粒"
 * #A049269 ^property[0].code = #status
 * #A049269 ^property[=].valueString = "新增"
-* #A049269 ^property[+].code = #updateDate
+* #A049269 ^property[+].code = #effectiveDate
 * #A049269 ^property[=].valueString = "2024-05"
 * #A056933 "三才堂清心利膈湯濃縮細粒"
 * #A056933 ^property[0].code = #status
 * #A056933 ^property[=].valueString = "新增"
-* #A056933 ^property[+].code = #updateDate
+* #A056933 ^property[+].code = #effectiveDate
 * #A056933 ^property[=].valueString = "2024-05"
 * #A056936 "科達黃連阿膠湯濃縮細粒"
 * #A056936 ^property[0].code = #status
 * #A056936 ^property[=].valueString = "新增"
-* #A056936 ^property[+].code = #updateDate
+* #A056936 ^property[+].code = #effectiveDate
 * #A056936 ^property[=].valueString = "2024-05"
 * #A056937 "天明當歸六黃湯濃縮細粒"
 * #A056937 ^property[0].code = #status
 * #A056937 ^property[=].valueString = "新增"
-* #A056937 ^property[+].code = #updateDate
+* #A056937 ^property[+].code = #effectiveDate
 * #A056937 ^property[=].valueString = "2024-05"
 * #A056938 "勝昌防風通聖散濃縮膜衣錠"
 * #A056938 ^property[0].code = #status
 * #A056938 ^property[=].valueString = "新增"
-* #A056938 ^property[+].code = #updateDate
+* #A056938 ^property[+].code = #effectiveDate
 * #A056938 ^property[=].valueString = "2024-05"
 * #A056940 "港香蘭潤腸湯濃縮細粒"
 * #A056940 ^property[0].code = #status
 * #A056940 ^property[=].valueString = "新增"
-* #A056940 ^property[+].code = #updateDate
+* #A056940 ^property[+].code = #effectiveDate
 * #A056940 ^property[=].valueString = "2024-05"
 * #A036120 "生春疏肝湯濃縮細粒"
 * #A036120 ^property[0].code = #status
 * #A036120 ^property[=].valueString = "新增"
-* #A036120 ^property[+].code = #updateDate
+* #A036120 ^property[+].code = #effectiveDate
 * #A036120 ^property[=].valueString = "2024-05"
 * #A036121 "生春甘露消毒丹濃縮細粒"
 * #A036121 ^property[0].code = #status
 * #A036121 ^property[=].valueString = "新增"
-* #A036121 ^property[+].code = #updateDate
+* #A036121 ^property[+].code = #effectiveDate
 * #A036121 ^property[=].valueString = "2024-05"
 * #A056098 "勸奉堂養心湯濃縮顆粒"
 * #A056098 ^property[0].code = #status
 * #A056098 ^property[=].valueString = "新增"
-* #A056098 ^property[+].code = #updateDate
+* #A056098 ^property[+].code = #effectiveDate
 * #A056098 ^property[=].valueString = "2024-05"
 * #A056115 "牛標歸脾湯濃縮顆粒"
 * #A056115 ^property[0].code = #status
 * #A056115 ^property[=].valueString = "新增"
-* #A056115 ^property[+].code = #updateDate
+* #A056115 ^property[+].code = #effectiveDate
 * #A056115 ^property[=].valueString = "2024-05"
 * #A036123 "正揚六味地黃丸濃縮細粒"
 * #A036123 ^property[0].code = #status
 * #A036123 ^property[=].valueString = "新增"
-* #A036123 ^property[+].code = #updateDate
+* #A036123 ^property[+].code = #effectiveDate
 * #A036123 ^property[=].valueString = "2024-05"
 * #A036124 "正揚獨活寄生湯濃縮細粒"
 * #A036124 ^property[0].code = #status
 * #A036124 ^property[=].valueString = "新增"
-* #A036124 ^property[+].code = #updateDate
+* #A036124 ^property[+].code = #effectiveDate
 * #A036124 ^property[=].valueString = "2024-05"
 * #A036125 "正揚複方丹參濃縮錠"
 * #A036125 ^property[0].code = #status
 * #A036125 ^property[=].valueString = "新增"
-* #A036125 ^property[+].code = #updateDate
+* #A036125 ^property[+].code = #effectiveDate
 * #A036125 ^property[=].valueString = "2024-05"
 * #A045466 "康之田康之田健腦睡穩濃縮膠囊（歸脾湯）"
 * #A045466 ^property[0].code = #status
 * #A045466 ^property[=].valueString = "新增"
-* #A045466 ^property[+].code = #updateDate
+* #A045466 ^property[+].code = #effectiveDate
 * #A045466 ^property[=].valueString = "2024-05"
 * #A056061 "牛標四君子湯濃縮細粒"
 * #A056061 ^property[0].code = #status
 * #A056061 ^property[=].valueString = "新增"
-* #A056061 ^property[+].code = #updateDate
+* #A056061 ^property[+].code = #effectiveDate
 * #A056061 ^property[=].valueString = "2024-05"
 * #A056101 "勸奉堂柴胡桂枝乾薑湯濃縮細粒"
 * #A056101 ^property[0].code = #status
 * #A056101 ^property[=].valueString = "新增"
-* #A056101 ^property[+].code = #updateDate
+* #A056101 ^property[+].code = #effectiveDate
 * #A056101 ^property[=].valueString = "2024-05"
 * #A056943 "科達清心利膈湯濃縮細粒"
 * #A056943 ^property[0].code = #status
 * #A056943 ^property[=].valueString = "新增"
-* #A056943 ^property[+].code = #updateDate
+* #A056943 ^property[+].code = #effectiveDate
 * #A056943 ^property[=].valueString = "2024-05"
 * #A059544 "天明大補陰丸濃縮細粒"
 * #A059544 ^property[0].code = #status
 * #A059544 ^property[=].valueString = "新增"
-* #A059544 ^property[+].code = #updateDate
+* #A059544 ^property[+].code = #effectiveDate
 * #A059544 ^property[=].valueString = "2024-05"
 * #A056944 "科達芍藥甘草湯濃縮細粒"
 * #A056944 ^property[0].code = #status
 * #A056944 ^property[=].valueString = "新增"
-* #A056944 ^property[+].code = #updateDate
+* #A056944 ^property[+].code = #effectiveDate
 * #A056944 ^property[=].valueString = "2024-05"
 * #A056945 "科達甘草瀉心湯濃縮細粒"
 * #A056945 ^property[0].code = #status
 * #A056945 ^property[=].valueString = "新增"
-* #A056945 ^property[+].code = #updateDate
+* #A056945 ^property[+].code = #effectiveDate
 * #A056945 ^property[=].valueString = "2024-05"
 * #A059546 "勸奉堂黃連解毒湯濃縮細粒"
 * #A059546 ^property[0].code = #status
 * #A059546 ^property[=].valueString = "新增"
-* #A059546 ^property[+].code = #updateDate
+* #A059546 ^property[+].code = #effectiveDate
 * #A059546 ^property[=].valueString = "2024-05"
 * #A030636 "天一華蓋散濃縮顆粒"
 * #A030636 ^property[0].code = #status
 * #A030636 ^property[=].valueString = "新增"
-* #A030636 ^property[+].code = #updateDate
+* #A030636 ^property[+].code = #effectiveDate
 * #A030636 ^property[=].valueString = "2024-05"
 * #A030637 "天一茵陳蒿湯濃縮顆粒"
 * #A030637 ^property[0].code = #status
 * #A030637 ^property[=].valueString = "新增"
-* #A030637 ^property[+].code = #updateDate
+* #A030637 ^property[+].code = #effectiveDate
 * #A030637 ^property[=].valueString = "2024-05"
 * #A030638 "天一四君子湯濃縮顆粒"
 * #A030638 ^property[0].code = #status
 * #A030638 ^property[=].valueString = "新增"
-* #A030638 ^property[+].code = #updateDate
+* #A030638 ^property[+].code = #effectiveDate
 * #A030638 ^property[=].valueString = "2024-05"
 * #A030639 "天一定喘湯濃縮顆粒"
 * #A030639 ^property[0].code = #status
 * #A030639 ^property[=].valueString = "新增"
-* #A030639 ^property[+].code = #updateDate
+* #A030639 ^property[+].code = #effectiveDate
 * #A030639 ^property[=].valueString = "2024-05"
 * #A056950 "天明清氣化痰丸濃縮細粒"
 * #A056950 ^property[0].code = #status
 * #A056950 ^property[=].valueString = "新增"
-* #A056950 ^property[+].code = #updateDate
+* #A056950 ^property[+].code = #effectiveDate
 * #A056950 ^property[=].valueString = "2024-05"
 * #A059548 "領先辛夷清肺湯濃縮錠"
 * #A059548 ^property[0].code = #status
 * #A059548 ^property[=].valueString = "新增"
-* #A059548 ^property[+].code = #updateDate
+* #A059548 ^property[+].code = #effectiveDate
 * #A059548 ^property[=].valueString = "2024-05"
 * #A045366 "德山四逆散濃縮細粒"
 * #A045366 ^property[0].code = #status
 * #A045366 ^property[=].valueString = "新增"
-* #A045366 ^property[+].code = #updateDate
+* #A045366 ^property[+].code = #effectiveDate
 * #A045366 ^property[=].valueString = "2024-05"
 * #A045367 "德山溫膽湯濃縮細粒"
 * #A045367 ^property[0].code = #status
 * #A045367 ^property[=].valueString = "新增"
-* #A045367 ^property[+].code = #updateDate
+* #A045367 ^property[+].code = #effectiveDate
 * #A045367 ^property[=].valueString = "2024-05"
 * #A045368 "順天堂瀉停封濃縮膜衣錠(藿香正氣散)"
 * #A045368 ^property[0].code = #status
 * #A045368 ^property[=].valueString = "新增"
-* #A045368 ^property[+].code = #updateDate
+* #A045368 ^property[+].code = #effectiveDate
 * #A045368 ^property[=].valueString = "2024-05"
 * #A045369 "順天堂舒壓解鬱濃縮膜衣錠(加味消遙散)"
 * #A045369 ^property[0].code = #status
 * #A045369 ^property[=].valueString = "新增"
-* #A045369 ^property[+].code = #updateDate
+* #A045369 ^property[+].code = #effectiveDate
 * #A045369 ^property[=].valueString = "2024-05"
 * #A045370 "順然知柏地黃丸濃縮錠"
 * #A045370 ^property[0].code = #status
 * #A045370 ^property[=].valueString = "新增"
-* #A045370 ^property[+].code = #updateDate
+* #A045370 ^property[+].code = #effectiveDate
 * #A045370 ^property[=].valueString = "2024-05"
 * #A030654 "天一大承氣湯濃縮散"
 * #A030654 ^property[0].code = #status
 * #A030654 ^property[=].valueString = "新增"
-* #A030654 ^property[+].code = #updateDate
+* #A030654 ^property[+].code = #effectiveDate
 * #A030654 ^property[=].valueString = "2024-05"
 * #A030655 "天一銀翹散濃縮顆粒"
 * #A030655 ^property[0].code = #status
 * #A030655 ^property[=].valueString = "新增"
-* #A030655 ^property[+].code = #updateDate
+* #A030655 ^property[+].code = #effectiveDate
 * #A030655 ^property[=].valueString = "2024-05"
 * #A030656 "天一清上防風湯濃縮顆粒"
 * #A030656 ^property[0].code = #status
 * #A030656 ^property[=].valueString = "新增"
-* #A030656 ^property[+].code = #updateDate
+* #A030656 ^property[+].code = #effectiveDate
 * #A030656 ^property[=].valueString = "2024-05"
 * #A030657 "天一柴胡桂枝湯濃縮顆粒"
 * #A030657 ^property[0].code = #status
 * #A030657 ^property[=].valueString = "新增"
-* #A030657 ^property[+].code = #updateDate
+* #A030657 ^property[+].code = #effectiveDate
 * #A030657 ^property[=].valueString = "2024-05"
 * #A030658 "天一柴葛解肌湯濃縮顆粒"
 * #A030658 ^property[0].code = #status
 * #A030658 ^property[=].valueString = "新增"
-* #A030658 ^property[+].code = #updateDate
+* #A030658 ^property[+].code = #effectiveDate
 * #A030658 ^property[=].valueString = "2024-05"
 * #A030659 "天一半夏瀉心湯濃縮顆粒"
 * #A030659 ^property[0].code = #status
 * #A030659 ^property[=].valueString = "新增"
-* #A030659 ^property[+].code = #updateDate
+* #A030659 ^property[+].code = #effectiveDate
 * #A030659 ^property[=].valueString = "2024-05"
 * #A030660 "天一大青龍湯濃縮顆粒"
 * #A030660 ^property[0].code = #status
 * #A030660 ^property[=].valueString = "新增"
-* #A030660 ^property[+].code = #updateDate
+* #A030660 ^property[+].code = #effectiveDate
 * #A030660 ^property[=].valueString = "2024-05"
 * #A030661 "天一五積散濃縮顆粒"
 * #A030661 ^property[0].code = #status
 * #A030661 ^property[=].valueString = "新增"
-* #A030661 ^property[+].code = #updateDate
+* #A030661 ^property[+].code = #effectiveDate
 * #A030661 ^property[=].valueString = "2024-05"
 * #A030663 "天一十神湯濃縮顆粒"
 * #A030663 ^property[0].code = #status
 * #A030663 ^property[=].valueString = "新增"
-* #A030663 ^property[+].code = #updateDate
+* #A030663 ^property[+].code = #effectiveDate
 * #A030663 ^property[=].valueString = "2024-05"
 * #A030664 "天一二陳湯濃縮顆粒"
 * #A030664 ^property[0].code = #status
 * #A030664 ^property[=].valueString = "新增"
-* #A030664 ^property[+].code = #updateDate
+* #A030664 ^property[+].code = #effectiveDate
 * #A030664 ^property[=].valueString = "2024-05"
 * #A030665 "天一十全大補湯濃縮顆粒"
 * #A030665 ^property[0].code = #status
 * #A030665 ^property[=].valueString = "新增"
-* #A030665 ^property[+].code = #updateDate
+* #A030665 ^property[+].code = #effectiveDate
 * #A030665 ^property[=].valueString = "2024-05"
 * #A030666 "天一涼膈散濃縮顆粒"
 * #A030666 ^property[0].code = #status
 * #A030666 ^property[=].valueString = "新增"
-* #A030666 ^property[+].code = #updateDate
+* #A030666 ^property[+].code = #effectiveDate
 * #A030666 ^property[=].valueString = "2024-05"
 * #A030667 "天一三黃瀉心湯濃縮顆粒"
 * #A030667 ^property[0].code = #status
 * #A030667 ^property[=].valueString = "新增"
-* #A030667 ^property[+].code = #updateDate
+* #A030667 ^property[+].code = #effectiveDate
 * #A030667 ^property[=].valueString = "2024-05"
 * #A030668 "天一桂枝茯苓丸濃縮顆粒"
 * #A030668 ^property[0].code = #status
 * #A030668 ^property[=].valueString = "新增"
-* #A030668 ^property[+].code = #updateDate
+* #A030668 ^property[+].code = #effectiveDate
 * #A030668 ^property[=].valueString = "2024-05"
 * #A030669 "天一香砂六君子湯濃縮顆粒"
 * #A030669 ^property[0].code = #status
 * #A030669 ^property[=].valueString = "新增"
-* #A030669 ^property[+].code = #updateDate
+* #A030669 ^property[+].code = #effectiveDate
 * #A030669 ^property[=].valueString = "2024-05"
 * #A030670 "天一苓桂朮甘湯濃縮顆粒"
 * #A030670 ^property[0].code = #status
 * #A030670 ^property[=].valueString = "新增"
-* #A030670 ^property[+].code = #updateDate
+* #A030670 ^property[+].code = #effectiveDate
 * #A030670 ^property[=].valueString = "2024-05"
 * #A030671 "天一胃苓湯濃縮顆粒"
 * #A030671 ^property[0].code = #status
 * #A030671 ^property[=].valueString = "新增"
-* #A030671 ^property[+].code = #updateDate
+* #A030671 ^property[+].code = #effectiveDate
 * #A030671 ^property[=].valueString = "2024-05"
 * #A030672 "天明六味地黃濃縮顆粒"
 * #A030672 ^property[0].code = #status
 * #A030672 ^property[=].valueString = "新增"
-* #A030672 ^property[+].code = #updateDate
+* #A030672 ^property[+].code = #effectiveDate
 * #A030672 ^property[=].valueString = "2024-05"
 * #A046252 "天明小建中湯濃縮細粒"
 * #A046252 ^property[0].code = #status
 * #A046252 ^property[=].valueString = "新增"
-* #A046252 ^property[+].code = #updateDate
+* #A046252 ^property[+].code = #effectiveDate
 * #A046252 ^property[=].valueString = "2024-05"
 * #A049287 "勸奉堂滋陰地黃丸濃縮細粒"
 * #A049287 ^property[0].code = #status
 * #A049287 ^property[=].valueString = "新增"
-* #A049287 ^property[+].code = #updateDate
+* #A049287 ^property[+].code = #effectiveDate
 * #A049287 ^property[=].valueString = "2024-05"
 * #A059552 "科達麥門冬湯濃縮細粒"
 * #A059552 ^property[0].code = #status
 * #A059552 ^property[=].valueString = "新增"
-* #A059552 ^property[+].code = #updateDate
+* #A059552 ^property[+].code = #effectiveDate
 * #A059552 ^property[=].valueString = "2024-05"
 * #A036133 "莊松榮桂枝芍藥知母湯濃縮細粒"
 * #A036133 ^property[0].code = #status
 * #A036133 ^property[=].valueString = "新增"
-* #A036133 ^property[+].code = #updateDate
+* #A036133 ^property[+].code = #effectiveDate
 * #A036133 ^property[=].valueString = "2024-05"
 * #A036134 "莊松榮甘露消毒丹濃縮細粒"
 * #A036134 ^property[0].code = #status
 * #A036134 ^property[=].valueString = "新增"
-* #A036134 ^property[+].code = #updateDate
+* #A036134 ^property[+].code = #effectiveDate
 * #A036134 ^property[=].valueString = "2024-05"
 * #A036138 "勝昌當歸龍薈丸濃縮散(去麝香)"
 * #A036138 ^property[0].code = #status
 * #A036138 ^property[=].valueString = "新增"
-* #A036138 ^property[+].code = #updateDate
+* #A036138 ^property[+].code = #effectiveDate
 * #A036138 ^property[=].valueString = "2024-05"
 * #A036139 "勝昌保和丸濃縮散"
 * #A036139 ^property[0].code = #status
 * #A036139 ^property[=].valueString = "新增"
-* #A036139 ^property[+].code = #updateDate
+* #A036139 ^property[+].code = #effectiveDate
 * #A036139 ^property[=].valueString = "2024-05"
 * #A036140 "仙豐神秘湯濃縮散"
 * #A036140 ^property[0].code = #status
 * #A036140 ^property[=].valueString = "新增"
-* #A036140 ^property[+].code = #updateDate
+* #A036140 ^property[+].code = #effectiveDate
 * #A036140 ^property[=].valueString = "2024-05"
 * #A036141 "仙豐甘露消毒丹濃縮散"
 * #A036141 ^property[0].code = #status
 * #A036141 ^property[=].valueString = "新增"
-* #A036141 ^property[+].code = #updateDate
+* #A036141 ^property[+].code = #effectiveDate
 * #A036141 ^property[=].valueString = "2024-05"
 * #A036142 "德山人參養榮湯濃縮散"
 * #A036142 ^property[0].code = #status
 * #A036142 ^property[=].valueString = "新增"
-* #A036142 ^property[+].code = #updateDate
+* #A036142 ^property[+].code = #effectiveDate
 * #A036142 ^property[=].valueString = "2024-05"
 * #A036143 "德山八味地黃丸濃縮散"
 * #A036143 ^property[0].code = #status
 * #A036143 ^property[=].valueString = "新增"
-* #A036143 ^property[+].code = #updateDate
+* #A036143 ^property[+].code = #effectiveDate
 * #A036143 ^property[=].valueString = "2024-05"
 * #A036144 "天明黃耆五物湯濃縮細粒"
 * #A036144 ^property[0].code = #status
 * #A036144 ^property[=].valueString = "新增"
-* #A036144 ^property[+].code = #updateDate
+* #A036144 ^property[+].code = #effectiveDate
 * #A036144 ^property[=].valueString = "2024-05"
 * #A056086 "牛標清燥救肺湯濃縮顆粒"
 * #A056086 ^property[0].code = #status
 * #A056086 ^property[=].valueString = "新增"
-* #A056086 ^property[+].code = #updateDate
+* #A056086 ^property[+].code = #effectiveDate
 * #A056086 ^property[=].valueString = "2024-05"
 * #A056092 "牛標麥門冬湯濃縮顆粒"
 * #A056092 ^property[0].code = #status
 * #A056092 ^property[=].valueString = "新增"
-* #A056092 ^property[+].code = #updateDate
+* #A056092 ^property[+].code = #effectiveDate
 * #A056092 ^property[=].valueString = "2024-05"
 * #A028486 "科達香砂六君子湯濃縮散"
 * #A028486 ^property[0].code = #status
 * #A028486 ^property[=].valueString = "新增"
-* #A028486 ^property[+].code = #updateDate
+* #A028486 ^property[+].code = #effectiveDate
 * #A028486 ^property[=].valueString = "2024-05"
 * #A028487 "科達平胃散濃縮散"
 * #A028487 ^property[0].code = #status
 * #A028487 ^property[=].valueString = "新增"
-* #A028487 ^property[+].code = #updateDate
+* #A028487 ^property[+].code = #effectiveDate
 * #A028487 ^property[=].valueString = "2024-05"
 * #A028489 "科達涼膈散濃縮散"
 * #A028489 ^property[0].code = #status
 * #A028489 ^property[=].valueString = "新增"
-* #A028489 ^property[+].code = #updateDate
+* #A028489 ^property[+].code = #effectiveDate
 * #A028489 ^property[=].valueString = "2024-05"
 * #A028491 "科達八味地黃丸濃縮散"
 * #A028491 ^property[0].code = #status
 * #A028491 ^property[=].valueString = "新增"
-* #A028491 ^property[+].code = #updateDate
+* #A028491 ^property[+].code = #effectiveDate
 * #A028491 ^property[=].valueString = "2024-05"
 * #A028493 "科達小柴胡湯濃縮細粒"
 * #A028493 ^property[0].code = #status
 * #A028493 ^property[=].valueString = "新增"
-* #A028493 ^property[+].code = #updateDate
+* #A028493 ^property[+].code = #effectiveDate
 * #A028493 ^property[=].valueString = "2024-05"
 * #A028494 "科達補中益氣湯濃縮細粒"
 * #A028494 ^property[0].code = #status
 * #A028494 ^property[=].valueString = "新增"
-* #A028494 ^property[+].code = #updateDate
+* #A028494 ^property[+].code = #effectiveDate
 * #A028494 ^property[=].valueString = "2024-05"
 * #A048265 "科達知柏地黃丸濃縮細粒"
 * #A048265 ^property[0].code = #status
 * #A048265 ^property[=].valueString = "新增"
-* #A048265 ^property[+].code = #updateDate
+* #A048265 ^property[+].code = #effectiveDate
 * #A048265 ^property[=].valueString = "2024-05"
 * #A048598 "科達參苓白朮散濃縮細粒"
 * #A048598 ^property[0].code = #status
 * #A048598 ^property[=].valueString = "新增"
-* #A048598 ^property[+].code = #updateDate
+* #A048598 ^property[+].code = #effectiveDate
 * #A048598 ^property[=].valueString = "2024-05"
 * #A028488 "科達逍遙散濃縮散"
 * #A028488 ^property[0].code = #status
 * #A028488 ^property[=].valueString = "新增"
-* #A028488 ^property[+].code = #updateDate
+* #A028488 ^property[+].code = #effectiveDate
 * #A028488 ^property[=].valueString = "2024-05"
 * #A056952 "科達小青龍湯濃縮細粒"
 * #A056952 ^property[0].code = #status
 * #A056952 ^property[=].valueString = "新增"
-* #A056952 ^property[+].code = #updateDate
+* #A056952 ^property[+].code = #effectiveDate
 * #A056952 ^property[=].valueString = "2024-05"
 * #A030700 "莊松榮葛根湯濃縮細粒"
 * #A030700 ^property[0].code = #status
 * #A030700 ^property[=].valueString = "新增"
-* #A030700 ^property[+].code = #updateDate
+* #A030700 ^property[+].code = #effectiveDate
 * #A030700 ^property[=].valueString = "2024-05"
 * #A030701 "莊松榮獨活寄生湯濃縮細粒"
 * #A030701 ^property[0].code = #status
 * #A030701 ^property[=].valueString = "新增"
-* #A030701 ^property[+].code = #updateDate
+* #A030701 ^property[+].code = #effectiveDate
 * #A030701 ^property[=].valueString = "2024-05"
 * #A030702 "莊松榮烏藥順氣散濃縮散"
 * #A030702 ^property[0].code = #status
 * #A030702 ^property[=].valueString = "新增"
-* #A030702 ^property[+].code = #updateDate
+* #A030702 ^property[+].code = #effectiveDate
 * #A030702 ^property[=].valueString = "2024-05"
 * #A059553 "領先薏苡仁湯濃縮錠"
 * #A059553 ^property[0].code = #status
 * #A059553 ^property[=].valueString = "新增"
-* #A059553 ^property[+].code = #updateDate
+* #A059553 ^property[+].code = #effectiveDate
 * #A059553 ^property[=].valueString = "2024-05"
 * #A055495 "領先蠲痹湯濃縮顆粒"
 * #A055495 ^property[0].code = #status
 * #A055495 ^property[=].valueString = "新增"
-* #A055495 ^property[+].code = #updateDate
+* #A055495 ^property[+].code = #effectiveDate
 * #A055495 ^property[=].valueString = "2024-05"
 * #A055497 "天明導赤散濃縮顆粒"
 * #A055497 ^property[0].code = #status
 * #A055497 ^property[=].valueString = "新增"
-* #A055497 ^property[+].code = #updateDate
+* #A055497 ^property[+].code = #effectiveDate
 * #A055497 ^property[=].valueString = "2024-05"
 * #A055498 "領先半夏天麻白朮湯濃縮顆粒"
 * #A055498 ^property[0].code = #status
 * #A055498 ^property[=].valueString = "新增"
-* #A055498 ^property[+].code = #updateDate
+* #A055498 ^property[+].code = #effectiveDate
 * #A055498 ^property[=].valueString = "2024-05"
 * #A056959 "勝昌金鎖固精丸濃縮細粒"
 * #A056959 ^property[0].code = #status
 * #A056959 ^property[=].valueString = "新增"
-* #A056959 ^property[+].code = #updateDate
+* #A056959 ^property[+].code = #effectiveDate
 * #A056959 ^property[=].valueString = "2024-05"
 * #A056962 "科達栝樓薤白半夏湯濃縮細粒"
 * #A056962 ^property[0].code = #status
 * #A056962 ^property[=].valueString = "新增"
-* #A056962 ^property[+].code = #updateDate
+* #A056962 ^property[+].code = #effectiveDate
 * #A056962 ^property[=].valueString = "2024-05"
 * #A036171 "科達玉泉丸濃縮細粒"
 * #A036171 ^property[0].code = #status
 * #A036171 ^property[=].valueString = "新增"
-* #A036171 ^property[+].code = #updateDate
+* #A036171 ^property[+].code = #effectiveDate
 * #A036171 ^property[=].valueString = "2024-05"
 * #A030714 "莊松榮補中益氣湯濃縮散"
 * #A030714 ^property[0].code = #status
 * #A030714 ^property[=].valueString = "新增"
-* #A030714 ^property[+].code = #updateDate
+* #A030714 ^property[+].code = #effectiveDate
 * #A030714 ^property[=].valueString = "2024-05"
 * #A030715 "莊松榮川芎茶調散濃縮細粒"
 * #A030715 ^property[0].code = #status
 * #A030715 ^property[=].valueString = "新增"
-* #A030715 ^property[+].code = #updateDate
+* #A030715 ^property[+].code = #effectiveDate
 * #A030715 ^property[=].valueString = "2024-05"
 * #A030716 "莊松榮十神湯濃縮散"
 * #A030716 ^property[0].code = #status
 * #A030716 ^property[=].valueString = "新增"
-* #A030716 ^property[+].code = #updateDate
+* #A030716 ^property[+].code = #effectiveDate
 * #A030716 ^property[=].valueString = "2024-05"
 * #A030717 "莊松榮大青龍湯濃縮細粒"
 * #A030717 ^property[0].code = #status
 * #A030717 ^property[=].valueString = "新增"
-* #A030717 ^property[+].code = #updateDate
+* #A030717 ^property[+].code = #effectiveDate
 * #A030717 ^property[=].valueString = "2024-05"
 * #A030718 "莊松榮香砂六君子湯濃縮散"
 * #A030718 ^property[0].code = #status
 * #A030718 ^property[=].valueString = "新增"
-* #A030718 ^property[+].code = #updateDate
+* #A030718 ^property[+].code = #effectiveDate
 * #A030718 ^property[=].valueString = "2024-05"
 * #A030719 "莊松榮柴胡桂枝湯濃縮散"
 * #A030719 ^property[0].code = #status
 * #A030719 ^property[=].valueString = "新增"
-* #A030719 ^property[+].code = #updateDate
+* #A030719 ^property[+].code = #effectiveDate
 * #A030719 ^property[=].valueString = "2024-05"
 * #A030720 "莊松榮龍膽瀉肝湯濃縮細粒"
 * #A030720 ^property[0].code = #status
 * #A030720 ^property[=].valueString = "新增"
-* #A030720 ^property[+].code = #updateDate
+* #A030720 ^property[+].code = #effectiveDate
 * #A030720 ^property[=].valueString = "2024-05"
 * #A030722 "莊松榮六君子湯濃縮散"
 * #A030722 ^property[0].code = #status
 * #A030722 ^property[=].valueString = "新增"
-* #A030722 ^property[+].code = #updateDate
+* #A030722 ^property[+].code = #effectiveDate
 * #A030722 ^property[=].valueString = "2024-05"
 * #A030723 "莊松榮知柏地黃丸濃縮散"
 * #A030723 ^property[0].code = #status
 * #A030723 ^property[=].valueString = "新增"
-* #A030723 ^property[+].code = #updateDate
+* #A030723 ^property[+].code = #effectiveDate
 * #A030723 ^property[=].valueString = "2024-05"
 * #A030724 "莊松榮半夏瀉心湯濃縮散"
 * #A030724 ^property[0].code = #status
 * #A030724 ^property[=].valueString = "新增"
-* #A030724 ^property[+].code = #updateDate
+* #A030724 ^property[+].code = #effectiveDate
 * #A030724 ^property[=].valueString = "2024-05"
 * #A030725 "莊松榮清上防風湯濃縮散"
 * #A030725 ^property[0].code = #status
 * #A030725 ^property[=].valueString = "新增"
-* #A030725 ^property[+].code = #updateDate
+* #A030725 ^property[+].code = #effectiveDate
 * #A030725 ^property[=].valueString = "2024-05"
 * #A030726 "莊松榮小青龍湯濃散"
 * #A030726 ^property[0].code = #status
 * #A030726 ^property[=].valueString = "新增"
-* #A030726 ^property[+].code = #updateDate
+* #A030726 ^property[+].code = #effectiveDate
 * #A030726 ^property[=].valueString = "2024-05"
 * #A030727 "莊松榮九味羌活湯濃縮散"
 * #A030727 ^property[0].code = #status
 * #A030727 ^property[=].valueString = "新增"
-* #A030727 ^property[+].code = #updateDate
+* #A030727 ^property[+].code = #effectiveDate
 * #A030727 ^property[=].valueString = "2024-05"
 * #A030728 "莊松榮五積散濃縮散"
 * #A030728 ^property[0].code = #status
 * #A030728 ^property[=].valueString = "新增"
-* #A030728 ^property[+].code = #updateDate
+* #A030728 ^property[+].code = #effectiveDate
 * #A030728 ^property[=].valueString = "2024-05"
 * #A030729 "莊松榮歸脾湯濃縮散"
 * #A030729 ^property[0].code = #status
 * #A030729 ^property[=].valueString = "新增"
-* #A030729 ^property[+].code = #updateDate
+* #A030729 ^property[+].code = #effectiveDate
 * #A030729 ^property[=].valueString = "2024-05"
 * #A030730 "莊松榮四物湯濃縮細粒"
 * #A030730 ^property[0].code = #status
 * #A030730 ^property[=].valueString = "新增"
-* #A030730 ^property[+].code = #updateDate
+* #A030730 ^property[+].code = #effectiveDate
 * #A030730 ^property[=].valueString = "2024-05"
 * #A030731 "莊松榮理中湯濃縮細粒"
 * #A030731 ^property[0].code = #status
 * #A030731 ^property[=].valueString = "新增"
-* #A030731 ^property[+].code = #updateDate
+* #A030731 ^property[+].code = #effectiveDate
 * #A030731 ^property[=].valueString = "2024-05"
 * #A030732 "莊松榮香蘇散濃縮散"
 * #A030732 ^property[0].code = #status
 * #A030732 ^property[=].valueString = "新增"
-* #A030732 ^property[+].code = #updateDate
+* #A030732 ^property[+].code = #effectiveDate
 * #A030732 ^property[=].valueString = "2024-05"
 * #A059313 "莊松榮柴陷湯濃縮細粒"
 * #A059313 ^property[0].code = #status
 * #A059313 ^property[=].valueString = "新增"
-* #A059313 ^property[+].code = #updateDate
+* #A059313 ^property[+].code = #effectiveDate
 * #A059313 ^property[=].valueString = "2024-05"
 * #A049324 "德山十六味流氣飲濃縮細粒"
 * #A049324 ^property[0].code = #status
 * #A049324 ^property[=].valueString = "新增"
-* #A049324 ^property[+].code = #updateDate
+* #A049324 ^property[+].code = #effectiveDate
 * #A049324 ^property[=].valueString = "2024-05"
 * #A059557 "順天堂麻黃附子細辛湯濃縮散"
 * #A059557 ^property[0].code = #status
 * #A059557 ^property[=].valueString = "新增"
-* #A059557 ^property[+].code = #updateDate
+* #A059557 ^property[+].code = #effectiveDate
 * #A059557 ^property[=].valueString = "2024-05"
 * #A049323 "富田小承氣湯濃縮細粒"
 * #A049323 ^property[0].code = #status
 * #A049323 ^property[=].valueString = "新增"
-* #A049323 ^property[+].code = #updateDate
+* #A049323 ^property[+].code = #effectiveDate
 * #A049323 ^property[=].valueString = "2024-05"
 * #A056966 "三才堂參苓白朮散濃縮細粒"
 * #A056966 ^property[0].code = #status
 * #A056966 ^property[=].valueString = "新增"
-* #A056966 ^property[+].code = #updateDate
+* #A056966 ^property[+].code = #effectiveDate
 * #A056966 ^property[=].valueString = "2024-05"
 * #A059561 "信宏複方丹參片濃縮錠"
 * #A059561 ^property[0].code = #status
 * #A059561 ^property[=].valueString = "新增"
-* #A059561 ^property[+].code = #updateDate
+* #A059561 ^property[+].code = #effectiveDate
 * #A059561 ^property[=].valueString = "2024-05"
 * #A045401 "港香蘭秘潤通濃縮錠(三黃瀉心湯)"
 * #A045401 ^property[0].code = #status
 * #A045401 ^property[=].valueString = "新增"
-* #A045401 ^property[+].code = #updateDate
+* #A045401 ^property[+].code = #effectiveDate
 * #A045401 ^property[=].valueString = "2024-05"
 * #A045406 "生春葛花解酲湯濃縮細粒"
 * #A045406 ^property[0].code = #status
 * #A045406 ^property[=].valueString = "新增"
-* #A045406 ^property[+].code = #updateDate
+* #A045406 ^property[+].code = #effectiveDate
 * #A045406 ^property[=].valueString = "2024-05"
 * #A049327 "富田大柴胡湯濃縮細粒"
 * #A049327 ^property[0].code = #status
 * #A049327 ^property[=].valueString = "新增"
-* #A049327 ^property[+].code = #updateDate
+* #A049327 ^property[+].code = #effectiveDate
 * #A049327 ^property[=].valueString = "2024-05"
 * #A042046 "莊松榮加味逍遙丸濃縮丸"
 * #A042046 ^property[0].code = #status
 * #A042046 ^property[=].valueString = "新增"
-* #A042046 ^property[+].code = #updateDate
+* #A042046 ^property[+].code = #effectiveDate
 * #A042046 ^property[=].valueString = "2024-05"
 * #A049365 "三才堂桃紅四物湯濃縮錠"
 * #A049365 ^property[0].code = #status
 * #A049365 ^property[=].valueString = "新增"
-* #A049365 ^property[+].code = #updateDate
+* #A049365 ^property[+].code = #effectiveDate
 * #A049365 ^property[=].valueString = "2024-05"
 * #A030760 "莊松榮六味地黃丸濃縮散"
 * #A030760 ^property[0].code = #status
 * #A030760 ^property[=].valueString = "新增"
-* #A030760 ^property[+].code = #updateDate
+* #A030760 ^property[+].code = #effectiveDate
 * #A030760 ^property[=].valueString = "2024-05"
 * #A059565 "順天堂補陽還五湯濃縮散"
 * #A059565 ^property[0].code = #status
 * #A059565 ^property[=].valueString = "新增"
-* #A059565 ^property[+].code = #updateDate
+* #A059565 ^property[+].code = #effectiveDate
 * #A059565 ^property[=].valueString = "2024-05"
 * #A059570 "科達香砂養胃湯濃縮細粒"
 * #A059570 ^property[0].code = #status
 * #A059570 ^property[=].valueString = "新增"
-* #A059570 ^property[+].code = #updateDate
+* #A059570 ^property[+].code = #effectiveDate
 * #A059570 ^property[=].valueString = "2024-05"
 * #A059575 "領先濟生腎氣丸濃縮錠"
 * #A059575 ^property[0].code = #status
 * #A059575 ^property[=].valueString = "新增"
-* #A059575 ^property[+].code = #updateDate
+* #A059575 ^property[+].code = #effectiveDate
 * #A059575 ^property[=].valueString = "2024-05"
 * #A059576 "科達清上防風湯濃縮細粒"
 * #A059576 ^property[0].code = #status
 * #A059576 ^property[=].valueString = "新增"
-* #A059576 ^property[+].code = #updateDate
+* #A059576 ^property[+].code = #effectiveDate
 * #A059576 ^property[=].valueString = "2024-05"
 * #A059577 "科達八味地黃丸濃縮細粒"
 * #A059577 ^property[0].code = #status
 * #A059577 ^property[=].valueString = "新增"
-* #A059577 ^property[+].code = #updateDate
+* #A059577 ^property[+].code = #effectiveDate
 * #A059577 ^property[=].valueString = "2024-05"
 * #A059578 "科達天王補心丹濃縮細粒"
 * #A059578 ^property[0].code = #status
 * #A059578 ^property[=].valueString = "新增"
-* #A059578 ^property[+].code = #updateDate
+* #A059578 ^property[+].code = #effectiveDate
 * #A059578 ^property[=].valueString = "2024-05"
 * #A059579 "領先血府逐瘀湯濃縮錠"
 * #A059579 ^property[0].code = #status
 * #A059579 ^property[=].valueString = "新增"
-* #A059579 ^property[+].code = #updateDate
+* #A059579 ^property[+].code = #effectiveDate
 * #A059579 ^property[=].valueString = "2024-05"
 * #A059581 "萬國複方丹參片濃縮錠"
 * #A059581 ^property[0].code = #status
 * #A059581 ^property[=].valueString = "新增"
-* #A059581 ^property[+].code = #updateDate
+* #A059581 ^property[+].code = #effectiveDate
 * #A059581 ^property[=].valueString = "2024-05"
 * #A045418 "順然血府逐瘀湯濃縮錠"
 * #A045418 ^property[0].code = #status
 * #A045418 ^property[=].valueString = "新增"
-* #A045418 ^property[+].code = #updateDate
+* #A045418 ^property[+].code = #effectiveDate
 * #A045418 ^property[=].valueString = "2024-05"
 * #A045419 "康之田養肝利膽濃縮膠囊(養肝丸)"
 * #A045419 ^property[0].code = #status
 * #A045419 ^property[=].valueString = "新增"
-* #A045419 ^property[+].code = #updateDate
+* #A045419 ^property[+].code = #effectiveDate
 * #A045419 ^property[=].valueString = "2024-05"
 * #A045420 "三帆養肝丸濃縮膠囊(養肝丸)"
 * #A045420 ^property[0].code = #status
 * #A045420 ^property[=].valueString = "新增"
-* #A045420 ^property[+].code = #updateDate
+* #A045420 ^property[+].code = #effectiveDate
 * #A045420 ^property[=].valueString = "2024-05"
 * #A045421 "順天堂鼻立通濃縮膜衣錠(辛夷散)"
 * #A045421 ^property[0].code = #status
 * #A045421 ^property[=].valueString = "新增"
-* #A045421 ^property[+].code = #updateDate
+* #A045421 ^property[+].code = #effectiveDate
 * #A045421 ^property[=].valueString = "2024-05"
 * #A045422 "順天堂舒經痛濃縮膜衣錠(折衝飲)"
 * #A045422 ^property[0].code = #status
 * #A045422 ^property[=].valueString = "新增"
-* #A045422 ^property[+].code = #updateDate
+* #A045422 ^property[+].code = #effectiveDate
 * #A045422 ^property[=].valueString = "2024-05"
 * #A045429 "晉安複方丹參片濃縮錠"
 * #A045429 ^property[0].code = #status
 * #A045429 ^property[=].valueString = "新增"
-* #A045429 ^property[+].code = #updateDate
+* #A045429 ^property[+].code = #effectiveDate
 * #A045429 ^property[=].valueString = "2024-05"
 * #A045432 "仙豐清上蠲痛湯濃縮細粒"
 * #A045432 ^property[0].code = #status
 * #A045432 ^property[=].valueString = "新增"
-* #A045432 ^property[+].code = #updateDate
+* #A045432 ^property[+].code = #effectiveDate
 * #A045432 ^property[=].valueString = "2024-05"
 * #A045433 "仙豐膈下逐瘀湯濃縮細粒"
 * #A045433 ^property[0].code = #status
 * #A045433 ^property[=].valueString = "新增"
-* #A045433 ^property[+].code = #updateDate
+* #A045433 ^property[+].code = #effectiveDate
 * #A045433 ^property[=].valueString = "2024-05"
 * #A045434 "生春養肝丸濃縮細粒"
 * #A045434 ^property[0].code = #status
 * #A045434 ^property[=].valueString = "新增"
-* #A045434 ^property[+].code = #updateDate
+* #A045434 ^property[+].code = #effectiveDate
 * #A045434 ^property[=].valueString = "2024-05"
 * #A045435 "萬國甘露消毒丹濃縮細粒"
 * #A045435 ^property[0].code = #status
 * #A045435 ^property[=].valueString = "新增"
-* #A045435 ^property[+].code = #updateDate
+* #A045435 ^property[+].code = #effectiveDate
 * #A045435 ^property[=].valueString = "2024-05"
 * #A049364 "德山香薷飲濃縮細粒"
 * #A049364 ^property[0].code = #status
 * #A049364 ^property[=].valueString = "新增"
-* #A049364 ^property[+].code = #updateDate
+* #A049364 ^property[+].code = #effectiveDate
 * #A049364 ^property[=].valueString = "2024-05"
 * #A056983 "科達酸棗仁湯濃縮細粒"
 * #A056983 ^property[0].code = #status
 * #A056983 ^property[=].valueString = "新增"
-* #A056983 ^property[+].code = #updateDate
+* #A056983 ^property[+].code = #effectiveDate
 * #A056983 ^property[=].valueString = "2024-05"
 * #A030787 "天一越婢加朮湯濃縮顆粒"
 * #A030787 ^property[0].code = #status
 * #A030787 ^property[=].valueString = "新增"
-* #A030787 ^property[+].code = #updateDate
+* #A030787 ^property[+].code = #effectiveDate
 * #A030787 ^property[=].valueString = "2024-05"
 * #A030788 "天一芍藥甘草湯濃縮顆粒"
 * #A030788 ^property[0].code = #status
 * #A030788 ^property[=].valueString = "新增"
-* #A030788 ^property[+].code = #updateDate
+* #A030788 ^property[+].code = #effectiveDate
 * #A030788 ^property[=].valueString = "2024-05"
 * #A028548 "科達麻杏甘石湯濃縮散"
 * #A028548 ^property[0].code = #status
 * #A028548 ^property[=].valueString = "新增"
-* #A028548 ^property[+].code = #updateDate
+* #A028548 ^property[+].code = #effectiveDate
 * #A028548 ^property[=].valueString = "2024-05"
 * #A028549 "科達荊防敗毒散濃縮散"
 * #A028549 ^property[0].code = #status
 * #A028549 ^property[=].valueString = "新增"
-* #A028549 ^property[+].code = #updateDate
+* #A028549 ^property[+].code = #effectiveDate
 * #A028549 ^property[=].valueString = "2024-05"
 * #A028550 "科達消風散濃縮散"
 * #A028550 ^property[0].code = #status
 * #A028550 ^property[=].valueString = "新增"
-* #A028550 ^property[+].code = #updateDate
+* #A028550 ^property[+].code = #effectiveDate
 * #A028550 ^property[=].valueString = "2024-05"
 * #A028551 "科達人參敗毒散濃縮散"
 * #A028551 ^property[0].code = #status
 * #A028551 ^property[=].valueString = "新增"
-* #A028551 ^property[+].code = #updateDate
+* #A028551 ^property[+].code = #effectiveDate
 * #A028551 ^property[=].valueString = "2024-05"
 * #A028552 "科達還少丹濃縮散"
 * #A028552 ^property[0].code = #status
 * #A028552 ^property[=].valueString = "新增"
-* #A028552 ^property[+].code = #updateDate
+* #A028552 ^property[+].code = #effectiveDate
 * #A028552 ^property[=].valueString = "2024-05"
 * #A028553 "科達辛夷散濃縮散"
 * #A028553 ^property[0].code = #status
 * #A028553 ^property[=].valueString = "新增"
-* #A028553 ^property[+].code = #updateDate
+* #A028553 ^property[+].code = #effectiveDate
 * #A028553 ^property[=].valueString = "2024-05"
 * #A028554 "科達五積散濃縮細粒"
 * #A028554 ^property[0].code = #status
 * #A028554 ^property[=].valueString = "新增"
-* #A028554 ^property[+].code = #updateDate
+* #A028554 ^property[+].code = #effectiveDate
 * #A028554 ^property[=].valueString = "2024-05"
 * #A028555 "科達大柴胡湯濃縮散"
 * #A028555 ^property[0].code = #status
 * #A028555 ^property[=].valueString = "新增"
-* #A028555 ^property[+].code = #updateDate
+* #A028555 ^property[+].code = #effectiveDate
 * #A028555 ^property[=].valueString = "2024-05"
 * #A028556 "科達上中下通用痛風濃縮細粒"
 * #A028556 ^property[0].code = #status
 * #A028556 ^property[=].valueString = "新增"
-* #A028556 ^property[+].code = #updateDate
+* #A028556 ^property[+].code = #effectiveDate
 * #A028556 ^property[=].valueString = "2024-05"
 * #A042002 "順然豬苓湯濃縮細粒"
 * #A042002 ^property[0].code = #status
 * #A042002 ^property[=].valueString = "新增"
-* #A042002 ^property[+].code = #updateDate
+* #A042002 ^property[+].code = #effectiveDate
 * #A042002 ^property[=].valueString = "2024-05"
 * #A042003 "順然普濟消毒飲濃縮細粒"
 * #A042003 ^property[0].code = #status
 * #A042003 ^property[=].valueString = "新增"
-* #A042003 ^property[+].code = #updateDate
+* #A042003 ^property[+].code = #effectiveDate
 * #A042003 ^property[=].valueString = "2024-05"
 * #A042005 "莊松榮當歸飲子濃縮細粒"
 * #A042005 ^property[0].code = #status
 * #A042005 ^property[=].valueString = "新增"
-* #A042005 ^property[+].code = #updateDate
+* #A042005 ^property[+].code = #effectiveDate
 * #A042005 ^property[=].valueString = "2024-05"
 * #A042006 "莊松榮三痹湯濃縮細粒"
 * #A042006 ^property[0].code = #status
 * #A042006 ^property[=].valueString = "新增"
-* #A042006 ^property[+].code = #updateDate
+* #A042006 ^property[+].code = #effectiveDate
 * #A042006 ^property[=].valueString = "2024-05"
 * #A042007 "莊松榮調經丸濃縮細粒"
 * #A042007 ^property[0].code = #status
 * #A042007 ^property[=].valueString = "新增"
-* #A042007 ^property[+].code = #updateDate
+* #A042007 ^property[+].code = #effectiveDate
 * #A042007 ^property[=].valueString = "2024-05"
 * #A042008 "莊松榮厚朴溫中湯濃縮細粒"
 * #A042008 ^property[0].code = #status
 * #A042008 ^property[=].valueString = "新增"
-* #A042008 ^property[+].code = #updateDate
+* #A042008 ^property[+].code = #effectiveDate
 * #A042008 ^property[=].valueString = "2024-05"
 * #A042009 "莊松榮潤腸湯濃縮細粒"
 * #A042009 ^property[0].code = #status
 * #A042009 ^property[=].valueString = "新增"
-* #A042009 ^property[+].code = #updateDate
+* #A042009 ^property[+].code = #effectiveDate
 * #A042009 ^property[=].valueString = "2024-05"
 * #A042010 "莊松榮一貫煎濃縮細粒"
 * #A042010 ^property[0].code = #status
 * #A042010 ^property[=].valueString = "新增"
-* #A042010 ^property[+].code = #updateDate
+* #A042010 ^property[+].code = #effectiveDate
 * #A042010 ^property[=].valueString = "2024-05"
 * #A042011 "富田大柴胡湯濃縮錠"
 * #A042011 ^property[0].code = #status
 * #A042011 ^property[=].valueString = "新增"
-* #A042011 ^property[+].code = #updateDate
+* #A042011 ^property[+].code = #effectiveDate
 * #A042011 ^property[=].valueString = "2024-05"
 * #A042012 "富田炙甘草湯濃縮錠"
 * #A042012 ^property[0].code = #status
 * #A042012 ^property[=].valueString = "新增"
-* #A042012 ^property[+].code = #updateDate
+* #A042012 ^property[+].code = #effectiveDate
 * #A042012 ^property[=].valueString = "2024-05"
 * #A048402 "科達歸脾湯濃縮細粒"
 * #A048402 ^property[0].code = #status
 * #A048402 ^property[=].valueString = "新增"
-* #A048402 ^property[+].code = #updateDate
+* #A048402 ^property[+].code = #effectiveDate
 * #A048402 ^property[=].valueString = "2024-05"
 * #A059586 "領先辛夷散濃縮錠"
 * #A059586 ^property[0].code = #status
 * #A059586 ^property[=].valueString = "新增"
-* #A059586 ^property[+].code = #updateDate
+* #A059586 ^property[+].code = #effectiveDate
 * #A059586 ^property[=].valueString = "2024-05"
 * #A042072 "莊松榮香砂平胃散濃縮細粒"
 * #A042072 ^property[0].code = #status
 * #A042072 ^property[=].valueString = "新增"
-* #A042072 ^property[+].code = #updateDate
+* #A042072 ^property[+].code = #effectiveDate
 * #A042072 ^property[=].valueString = "2024-05"
 * #A042031 "勝昌橘核丸濃縮散"
 * #A042031 ^property[0].code = #status
 * #A042031 ^property[=].valueString = "新增"
-* #A042031 ^property[+].code = #updateDate
+* #A042031 ^property[+].code = #effectiveDate
 * #A042031 ^property[=].valueString = "2024-05"
 * #A042033 "明通生脈飲濃縮細粒"
 * #A042033 ^property[0].code = #status
 * #A042033 ^property[=].valueString = "新增"
-* #A042033 ^property[+].code = #updateDate
+* #A042033 ^property[+].code = #effectiveDate
 * #A042033 ^property[=].valueString = "2024-05"
 * #A042047 "莊松榮知柏地黃丸濃縮丸"
 * #A042047 ^property[0].code = #status
 * #A042047 ^property[=].valueString = "新增"
-* #A042047 ^property[+].code = #updateDate
+* #A042047 ^property[+].code = #effectiveDate
 * #A042047 ^property[=].valueString = "2024-05"
 * #A042048 "莊松榮桂枝茯苓丸濃縮丸"
 * #A042048 ^property[0].code = #status
 * #A042048 ^property[=].valueString = "新增"
-* #A042048 ^property[+].code = #updateDate
+* #A042048 ^property[+].code = #effectiveDate
 * #A042048 ^property[=].valueString = "2024-05"
 * #A042049 "莊松榮濟生腎氣丸濃縮丸"
 * #A042049 ^property[0].code = #status
 * #A042049 ^property[=].valueString = "新增"
-* #A042049 ^property[+].code = #updateDate
+* #A042049 ^property[+].code = #effectiveDate
 * #A042049 ^property[=].valueString = "2024-05"
 * #A042050 "富田托?消毒飲濃縮錠"
 * #A042050 ^property[0].code = #status
 * #A042050 ^property[=].valueString = "新增"
-* #A042050 ^property[+].code = #updateDate
+* #A042050 ^property[+].code = #effectiveDate
 * #A042050 ^property[=].valueString = "2024-05"
 * #A042053 "順天堂小陷胸湯濃縮顆粒"
 * #A042053 ^property[0].code = #status
 * #A042053 ^property[=].valueString = "新增"
-* #A042053 ^property[+].code = #updateDate
+* #A042053 ^property[+].code = #effectiveDate
 * #A042053 ^property[=].valueString = "2024-05"
 * #A042054 "順天堂五皮飲濃縮顆粒"
 * #A042054 ^property[0].code = #status
 * #A042054 ^property[=].valueString = "新增"
-* #A042054 ^property[+].code = #updateDate
+* #A042054 ^property[+].code = #effectiveDate
 * #A042054 ^property[=].valueString = "2024-05"
 * #A042055 "順天堂香薷飲濃縮顆粒"
 * #A042055 ^property[0].code = #status
 * #A042055 ^property[=].valueString = "新增"
-* #A042055 ^property[+].code = #updateDate
+* #A042055 ^property[+].code = #effectiveDate
 * #A042055 ^property[=].valueString = "2024-05"
 * #A042056 "順天堂九味羌活湯濃縮顆粒"
 * #A042056 ^property[0].code = #status
 * #A042056 ^property[=].valueString = "新增"
-* #A042056 ^property[+].code = #updateDate
+* #A042056 ^property[+].code = #effectiveDate
 * #A042056 ^property[=].valueString = "2024-05"
 * #A042057 "順天堂桂枝湯濃縮顆粒"
 * #A042057 ^property[0].code = #status
 * #A042057 ^property[=].valueString = "新增"
-* #A042057 ^property[+].code = #updateDate
+* #A042057 ^property[+].code = #effectiveDate
 * #A042057 ^property[=].valueString = "2024-05"
 * #A042058 "順天堂肥兒八珍糕濃縮顆粒"
 * #A042058 ^property[0].code = #status
 * #A042058 ^property[=].valueString = "新增"
-* #A042058 ^property[+].code = #updateDate
+* #A042058 ^property[+].code = #effectiveDate
 * #A042058 ^property[=].valueString = "2024-05"
 * #A042059 "順天堂生化湯濃縮錠"
 * #A042059 ^property[0].code = #status
 * #A042059 ^property[=].valueString = "新增"
-* #A042059 ^property[+].code = #updateDate
+* #A042059 ^property[+].code = #effectiveDate
 * #A042059 ^property[=].valueString = "2024-05"
 * #A042060 "順然疏經活血湯濃縮錠"
 * #A042060 ^property[0].code = #status
 * #A042060 ^property[=].valueString = "新增"
-* #A042060 ^property[+].code = #updateDate
+* #A042060 ^property[+].code = #effectiveDate
 * #A042060 ^property[=].valueString = "2024-05"
 * #A042061 "順然加味逍遙散濃縮錠"
 * #A042061 ^property[0].code = #status
 * #A042061 ^property[=].valueString = "新增"
-* #A042061 ^property[+].code = #updateDate
+* #A042061 ^property[+].code = #effectiveDate
 * #A042061 ^property[=].valueString = "2024-05"
 * #A042062 "順然龍膽瀉肝湯濃縮錠"
 * #A042062 ^property[0].code = #status
 * #A042062 ^property[=].valueString = "新增"
-* #A042062 ^property[+].code = #updateDate
+* #A042062 ^property[+].code = #effectiveDate
 * #A042062 ^property[=].valueString = "2024-05"
 * #A042063 "順然溫經湯濃縮細粒"
 * #A042063 ^property[0].code = #status
 * #A042063 ^property[=].valueString = "新增"
-* #A042063 ^property[+].code = #updateDate
+* #A042063 ^property[+].code = #effectiveDate
 * #A042063 ^property[=].valueString = "2024-05"
 * #A042064 "順然防風通聖散濃縮細粒"
 * #A042064 ^property[0].code = #status
 * #A042064 ^property[=].valueString = "新增"
-* #A042064 ^property[+].code = #updateDate
+* #A042064 ^property[+].code = #effectiveDate
 * #A042064 ^property[=].valueString = "2024-05"
 * #A042067 "科達甘露飲濃縮錠"
 * #A042067 ^property[0].code = #status
 * #A042067 ^property[=].valueString = "新增"
-* #A042067 ^property[+].code = #updateDate
+* #A042067 ^property[+].code = #effectiveDate
 * #A042067 ^property[=].valueString = "2024-05"
 * #A042068 "科達化濕寧濃縮膠囊(羌活勝濕湯)"
 * #A042068 ^property[0].code = #status
 * #A042068 ^property[=].valueString = "新增"
-* #A042068 ^property[+].code = #updateDate
+* #A042068 ^property[+].code = #effectiveDate
 * #A042068 ^property[=].valueString = "2024-05"
 * #A042070 "莊松榮清上蠲痛湯濃縮細粒"
 * #A042070 ^property[0].code = #status
 * #A042070 ^property[=].valueString = "新增"
-* #A042070 ^property[+].code = #updateDate
+* #A042070 ^property[+].code = #effectiveDate
 * #A042070 ^property[=].valueString = "2024-05"
 * #A042071 "莊松榮桃紅四物湯濃縮細粒"
 * #A042071 ^property[0].code = #status
 * #A042071 ^property[=].valueString = "新增"
-* #A042071 ^property[+].code = #updateDate
+* #A042071 ^property[+].code = #effectiveDate
 * #A042071 ^property[=].valueString = "2024-05"
 * #A042073 "順天堂升麻葛根湯濃縮顆粒"
 * #A042073 ^property[0].code = #status
 * #A042073 ^property[=].valueString = "新增"
-* #A042073 ^property[+].code = #updateDate
+* #A042073 ^property[+].code = #effectiveDate
 * #A042073 ^property[=].valueString = "2024-05"
 * #A042075 "順天堂八味帶下方濃縮顆粒"
 * #A042075 ^property[0].code = #status
 * #A042075 ^property[=].valueString = "新增"
-* #A042075 ^property[+].code = #updateDate
+* #A042075 ^property[+].code = #effectiveDate
 * #A042075 ^property[=].valueString = "2024-05"
 * #A045455 "富田龍膽瀉肝湯濃縮細粒"
 * #A045455 ^property[0].code = #status
 * #A045455 ^property[=].valueString = "新增"
-* #A045455 ^property[+].code = #updateDate
+* #A045455 ^property[+].code = #effectiveDate
 * #A045455 ^property[=].valueString = "2024-05"
 * #A045458 "東陽龜鹿二仙膠濃縮錠"
 * #A045458 ^property[0].code = #status
 * #A045458 ^property[=].valueString = "新增"
-* #A045458 ^property[+].code = #updateDate
+* #A045458 ^property[+].code = #effectiveDate
 * #A045458 ^property[=].valueString = "2024-05"
 * #A045459 "港香蘭五苓散濃縮細粒"
 * #A045459 ^property[0].code = #status
 * #A045459 ^property[=].valueString = "新增"
-* #A045459 ^property[+].code = #updateDate
+* #A045459 ^property[+].code = #effectiveDate
 * #A045459 ^property[=].valueString = "2024-05"
 * #A045460 "港香蘭生化湯濃縮細粒"
 * #A045460 ^property[0].code = #status
 * #A045460 ^property[=].valueString = "新增"
-* #A045460 ^property[+].code = #updateDate
+* #A045460 ^property[+].code = #effectiveDate
 * #A045460 ^property[=].valueString = "2024-05"
 * #A045463 "生春清肺飲濃縮細粒"
 * #A045463 ^property[0].code = #status
 * #A045463 ^property[=].valueString = "新增"
-* #A045463 ^property[+].code = #updateDate
+* #A045463 ^property[+].code = #effectiveDate
 * #A045463 ^property[=].valueString = "2024-05"
 * #A045464 "順然參苓白朮散濃縮錠"
 * #A045464 ^property[0].code = #status
 * #A045464 ^property[=].valueString = "新增"
-* #A045464 ^property[+].code = #updateDate
+* #A045464 ^property[+].code = #effectiveDate
 * #A045464 ^property[=].valueString = "2024-05"
 * #A045465 "順然杞菊地黃丸濃縮錠"
 * #A045465 ^property[0].code = #status
 * #A045465 ^property[=].valueString = "新增"
-* #A045465 ^property[+].code = #updateDate
+* #A045465 ^property[+].code = #effectiveDate
 * #A045465 ^property[=].valueString = "2024-05"
 * #A059588 "信宏龜鹿二仙膏濃縮膠囊"
 * #A059588 ^property[0].code = #status
 * #A059588 ^property[=].valueString = "新增"
-* #A059588 ^property[+].code = #updateDate
+* #A059588 ^property[+].code = #effectiveDate
 * #A059588 ^property[=].valueString = "2024-05"
 * #A028571 "科達五苓散濃縮散"
 * #A028571 ^property[0].code = #status
 * #A028571 ^property[=].valueString = "新增"
-* #A028571 ^property[+].code = #updateDate
+* #A028571 ^property[+].code = #effectiveDate
 * #A028571 ^property[=].valueString = "2024-05"
 * #A028572 "科達小建中湯濃縮散"
 * #A028572 ^property[0].code = #status
 * #A028572 ^property[=].valueString = "新增"
-* #A028572 ^property[+].code = #updateDate
+* #A028572 ^property[+].code = #effectiveDate
 * #A028572 ^property[=].valueString = "2024-05"
 * #A028573 "科達小青龍湯濃縮散"
 * #A028573 ^property[0].code = #status
 * #A028573 ^property[=].valueString = "新增"
-* #A028573 ^property[+].code = #updateDate
+* #A028573 ^property[+].code = #effectiveDate
 * #A028573 ^property[=].valueString = "2024-05"
 * #A028575 "科達甘露飲濃縮散"
 * #A028575 ^property[0].code = #status
 * #A028575 ^property[=].valueString = "新增"
-* #A028575 ^property[+].code = #updateDate
+* #A028575 ^property[+].code = #effectiveDate
 * #A028575 ^property[=].valueString = "2024-05"
 * #A036255 "德山銀翹散濃縮散"
 * #A036255 ^property[0].code = #status
 * #A036255 ^property[=].valueString = "新增"
-* #A036255 ^property[+].code = #updateDate
+* #A036255 ^property[+].code = #effectiveDate
 * #A036255 ^property[=].valueString = "2024-05"
 * #A036256 "德山清上防風湯濃縮散"
 * #A036256 ^property[0].code = #status
 * #A036256 ^property[=].valueString = "新增"
-* #A036256 ^property[+].code = #updateDate
+* #A036256 ^property[+].code = #effectiveDate
 * #A036256 ^property[=].valueString = "2024-05"
 * #A036257 "莊松榮大黃牡丹皮湯濃縮細粒"
 * #A036257 ^property[0].code = #status
 * #A036257 ^property[=].valueString = "新增"
-* #A036257 ^property[+].code = #updateDate
+* #A036257 ^property[+].code = #effectiveDate
 * #A036257 ^property[=].valueString = "2024-05"
 * #A036260 "德山玉屏風湯濃縮散"
 * #A036260 ^property[0].code = #status
 * #A036260 ^property[=].valueString = "新增"
-* #A036260 ^property[+].code = #updateDate
+* #A036260 ^property[+].code = #effectiveDate
 * #A036260 ^property[=].valueString = "2024-05"
 * #A036261 "德山二陳湯濃縮散"
 * #A036261 ^property[0].code = #status
 * #A036261 ^property[=].valueString = "新增"
-* #A036261 ^property[+].code = #updateDate
+* #A036261 ^property[+].code = #effectiveDate
 * #A036261 ^property[=].valueString = "2024-05"
 * #A045473 "生春消痔丸濃縮細粒"
 * #A045473 ^property[0].code = #status
 * #A045473 ^property[=].valueString = "新增"
-* #A045473 ^property[+].code = #updateDate
+* #A045473 ^property[+].code = #effectiveDate
 * #A045473 ^property[=].valueString = "2024-05"
 * #A045474 "晉安天麻鉤藤飲濃縮錠"
 * #A045474 ^property[0].code = #status
 * #A045474 ^property[=].valueString = "新增"
-* #A045474 ^property[+].code = #updateDate
+* #A045474 ^property[+].code = #effectiveDate
 * #A045474 ^property[=].valueString = "2024-05"
 * #A045475 "富田消風散濃縮細粒"
 * #A045475 ^property[0].code = #status
 * #A045475 ^property[=].valueString = "新增"
-* #A045475 ^property[+].code = #updateDate
+* #A045475 ^property[+].code = #effectiveDate
 * #A045475 ^property[=].valueString = "2024-05"
 * #A045476 "富田清心蓮子飲濃縮細粒"
 * #A045476 ^property[0].code = #status
 * #A045476 ^property[=].valueString = "新增"
-* #A045476 ^property[+].code = #updateDate
+* #A045476 ^property[+].code = #effectiveDate
 * #A045476 ^property[=].valueString = "2024-05"
 * #A045502 "順然四物湯濃縮錠"
 * #A045502 ^property[0].code = #status
 * #A045502 ^property[=].valueString = "新增"
-* #A045502 ^property[+].code = #updateDate
+* #A045502 ^property[+].code = #effectiveDate
 * #A045502 ^property[=].valueString = "2024-05"
 * #A056995 "領先防風通聖散濃縮錠（小錠）"
 * #A056995 ^property[0].code = #status
 * #A056995 ^property[=].valueString = "新增"
-* #A056995 ^property[+].code = #updateDate
+* #A056995 ^property[+].code = #effectiveDate
 * #A056995 ^property[=].valueString = "2024-05"
 * #A036271 "天明桔梗湯濃縮細粒"
 * #A036271 ^property[0].code = #status
 * #A036271 ^property[=].valueString = "新增"
-* #A036271 ^property[+].code = #updateDate
+* #A036271 ^property[+].code = #effectiveDate
 * #A036271 ^property[=].valueString = "2024-05"
 * #A036272 "莊松榮白虎加人參湯濃縮細粒"
 * #A036272 ^property[0].code = #status
 * #A036272 ^property[=].valueString = "新增"
-* #A036272 ^property[+].code = #updateDate
+* #A036272 ^property[+].code = #effectiveDate
 * #A036272 ^property[=].valueString = "2024-05"
 * #A036273 "莊松榮正骨紫金丹濃縮細粒"
 * #A036273 ^property[0].code = #status
 * #A036273 ^property[=].valueString = "新增"
-* #A036273 ^property[+].code = #updateDate
+* #A036273 ^property[+].code = #effectiveDate
 * #A036273 ^property[=].valueString = "2024-05"
 * #A059592 "莊松榮茯菟丹濃縮細粒"
 * #A059592 ^property[0].code = #status
 * #A059592 ^property[=].valueString = "新增"
-* #A059592 ^property[+].code = #updateDate
+* #A059592 ^property[+].code = #effectiveDate
 * #A059592 ^property[=].valueString = "2024-05"
 * #A036287 "德山柴胡桂枝湯濃縮散"
 * #A036287 ^property[0].code = #status
 * #A036287 ^property[=].valueString = "新增"
-* #A036287 ^property[+].code = #updateDate
+* #A036287 ^property[+].code = #effectiveDate
 * #A036287 ^property[=].valueString = "2024-05"
 * #A036288 "德山當歸芍藥散濃縮散"
 * #A036288 ^property[0].code = #status
 * #A036288 ^property[=].valueString = "新增"
-* #A036288 ^property[+].code = #updateDate
+* #A036288 ^property[+].code = #effectiveDate
 * #A036288 ^property[=].valueString = "2024-05"
 * #A036289 "天明血府逐瘀湯濃縮細粒"
 * #A036289 ^property[0].code = #status
 * #A036289 ^property[=].valueString = "新增"
-* #A036289 ^property[+].code = #updateDate
+* #A036289 ^property[+].code = #effectiveDate
 * #A036289 ^property[=].valueString = "2024-05"
 * #A036290 "天明秦艽鱉甲湯濃縮細粒"
 * #A036290 ^property[0].code = #status
 * #A036290 ^property[=].valueString = "新增"
-* #A036290 ^property[+].code = #updateDate
+* #A036290 ^property[+].code = #effectiveDate
 * #A036290 ^property[=].valueString = "2024-05"
 * #A036291 "天明複方丹參片濃縮細粒"
 * #A036291 ^property[0].code = #status
 * #A036291 ^property[=].valueString = "新增"
-* #A036291 ^property[+].code = #updateDate
+* #A036291 ^property[+].code = #effectiveDate
 * #A036291 ^property[=].valueString = "2024-05"
 * #A036294 "天明還少丹濃縮細粒"
 * #A036294 ^property[0].code = #status
 * #A036294 ^property[=].valueString = "新增"
-* #A036294 ^property[+].code = #updateDate
+* #A036294 ^property[+].code = #effectiveDate
 * #A036294 ^property[=].valueString = "2024-05"
 * #A036295 "莊松榮溫清飲濃縮細粒"
 * #A036295 ^property[0].code = #status
 * #A036295 ^property[=].valueString = "新增"
-* #A036295 ^property[+].code = #updateDate
+* #A036295 ^property[+].code = #effectiveDate
 * #A036295 ^property[=].valueString = "2024-05"
 * #A049381 "漢聖右歸丸濃縮細粒"
 * #A049381 ^property[0].code = #status
 * #A049381 ^property[=].valueString = "新增"
-* #A049381 ^property[+].code = #updateDate
+* #A049381 ^property[+].code = #effectiveDate
 * #A049381 ^property[=].valueString = "2024-05"
 * #A030830 "天明五積散濃縮散"
 * #A030830 ^property[0].code = #status
 * #A030830 ^property[=].valueString = "新增"
-* #A030830 ^property[+].code = #updateDate
+* #A030830 ^property[+].code = #effectiveDate
 * #A030830 ^property[=].valueString = "2024-05"
 * #A030832 "天明三黃瀉心湯濃縮散"
 * #A030832 ^property[0].code = #status
 * #A030832 ^property[=].valueString = "新增"
-* #A030832 ^property[+].code = #updateDate
+* #A030832 ^property[+].code = #effectiveDate
 * #A030832 ^property[=].valueString = "2024-05"
 * #A042171 "富田銀翹散濃縮錠"
 * #A042171 ^property[0].code = #status
 * #A042171 ^property[=].valueString = "新增"
-* #A042171 ^property[+].code = #updateDate
+* #A042171 ^property[+].code = #effectiveDate
 * #A042171 ^property[=].valueString = "2024-05"
 * #A046129 "天明半夏瀉心湯濃縮顆粒"
 * #A046129 ^property[0].code = #status
 * #A046129 ^property[=].valueString = "新增"
-* #A046129 ^property[+].code = #updateDate
+* #A046129 ^property[+].code = #effectiveDate
 * #A046129 ^property[=].valueString = "2024-05"
 * #A046709 "天明防風通聖散濃縮顆粒"
 * #A046709 ^property[0].code = #status
 * #A046709 ^property[=].valueString = "新增"
-* #A046709 ^property[+].code = #updateDate
+* #A046709 ^property[+].code = #effectiveDate
 * #A046709 ^property[=].valueString = "2024-05"
 * #A056999 "科達葛根湯濃縮細粒"
 * #A056999 ^property[0].code = #status
 * #A056999 ^property[=].valueString = "新增"
-* #A056999 ^property[+].code = #updateDate
+* #A056999 ^property[+].code = #effectiveDate
 * #A056999 ^property[=].valueString = "2024-05"
 * #A057113 "領先葛根湯濃縮散"
 * #A057113 ^property[0].code = #status
 * #A057113 ^property[=].valueString = "新增"
-* #A057113 ^property[+].code = #updateDate
+* #A057113 ^property[+].code = #effectiveDate
 * #A057113 ^property[=].valueString = "2024-05"
 * #A057115 "領先天王補心丹濃縮散"
 * #A057115 ^property[0].code = #status
 * #A057115 ^property[=].valueString = "新增"
-* #A057115 ^property[+].code = #updateDate
+* #A057115 ^property[+].code = #effectiveDate
 * #A057115 ^property[=].valueString = "2024-05"
 * #A057116 "領先小青龍湯濃縮散"
 * #A057116 ^property[0].code = #status
 * #A057116 ^property[=].valueString = "新增"
-* #A057116 ^property[+].code = #updateDate
+* #A057116 ^property[+].code = #effectiveDate
 * #A057116 ^property[=].valueString = "2024-05"
 * #A057180 "領先黃連解毒湯濃縮散"
 * #A057180 ^property[0].code = #status
 * #A057180 ^property[=].valueString = "新增"
-* #A057180 ^property[+].code = #updateDate
+* #A057180 ^property[+].code = #effectiveDate
 * #A057180 ^property[=].valueString = "2024-05"
 * #A057186 "領先六君子湯濃縮散"
 * #A057186 ^property[0].code = #status
 * #A057186 ^property[=].valueString = "新增"
-* #A057186 ^property[+].code = #updateDate
+* #A057186 ^property[+].code = #effectiveDate
 * #A057186 ^property[=].valueString = "2024-05"
 * #A057187 "領先八味地黃丸濃縮散"
 * #A057187 ^property[0].code = #status
 * #A057187 ^property[=].valueString = "新增"
-* #A057187 ^property[+].code = #updateDate
+* #A057187 ^property[+].code = #effectiveDate
 * #A057187 ^property[=].valueString = "2024-05"
 * #A042152 "仙豐十六味流氣飲濃縮細粒"
 * #A042152 ^property[0].code = #status
 * #A042152 ^property[=].valueString = "新增"
-* #A042152 ^property[+].code = #updateDate
+* #A042152 ^property[+].code = #effectiveDate
 * #A042152 ^property[=].valueString = "2024-05"
 * #A042153 "仙豐升麻葛根湯濃縮細粒"
 * #A042153 ^property[0].code = #status
 * #A042153 ^property[=].valueString = "新增"
-* #A042153 ^property[+].code = #updateDate
+* #A042153 ^property[+].code = #effectiveDate
 * #A042153 ^property[=].valueString = "2024-05"
 * #A042154 "仙豐小承氣湯濃縮細粒"
 * #A042154 ^property[0].code = #status
 * #A042154 ^property[=].valueString = "新增"
-* #A042154 ^property[+].code = #updateDate
+* #A042154 ^property[+].code = #effectiveDate
 * #A042154 ^property[=].valueString = "2024-05"
 * #A042155 "萬國抑肝散濃縮細粒"
 * #A042155 ^property[0].code = #status
 * #A042155 ^property[=].valueString = "新增"
-* #A042155 ^property[+].code = #updateDate
+* #A042155 ^property[+].code = #effectiveDate
 * #A042155 ^property[=].valueString = "2024-05"
 * #A042160 "富田當歸四逆湯濃縮錠"
 * #A042160 ^property[0].code = #status
 * #A042160 ^property[=].valueString = "新增"
-* #A042160 ^property[+].code = #updateDate
+* #A042160 ^property[+].code = #effectiveDate
 * #A042160 ^property[=].valueString = "2024-05"
 * #A042161 "富田杏蘇散濃縮散"
 * #A042161 ^property[0].code = #status
 * #A042161 ^property[=].valueString = "新增"
-* #A042161 ^property[+].code = #updateDate
+* #A042161 ^property[+].code = #effectiveDate
 * #A042161 ^property[=].valueString = "2024-05"
 * #A042162 "富田平胃散濃縮錠"
 * #A042162 ^property[0].code = #status
 * #A042162 ^property[=].valueString = "新增"
-* #A042162 ^property[+].code = #updateDate
+* #A042162 ^property[+].code = #effectiveDate
 * #A042162 ^property[=].valueString = "2024-05"
 * #A042163 "順天堂身痛逐瘀湯濃縮顆粒"
 * #A042163 ^property[0].code = #status
 * #A042163 ^property[=].valueString = "新增"
-* #A042163 ^property[+].code = #updateDate
+* #A042163 ^property[+].code = #effectiveDate
 * #A042163 ^property[=].valueString = "2024-05"
 * #A042164 "順天堂天麻?藤飲濃縮顆粒"
 * #A042164 ^property[0].code = #status
 * #A042164 ^property[=].valueString = "新增"
-* #A042164 ^property[+].code = #updateDate
+* #A042164 ^property[+].code = #effectiveDate
 * #A042164 ^property[=].valueString = "2024-05"
 * #A042165 "順天堂濟生腎氣丸濃縮顆粒"
 * #A042165 ^property[0].code = #status
 * #A042165 ^property[=].valueString = "新增"
-* #A042165 ^property[+].code = #updateDate
+* #A042165 ^property[+].code = #effectiveDate
 * #A042165 ^property[=].valueString = "2024-05"
 * #A042167 "順天堂少腹逐瘀湯濃縮顆粒"
 * #A042167 ^property[0].code = #status
 * #A042167 ^property[=].valueString = "新增"
-* #A042167 ^property[+].code = #updateDate
+* #A042167 ^property[+].code = #effectiveDate
 * #A042167 ^property[=].valueString = "2024-05"
 * #A042168 "順天堂沙參麥冬湯濃縮顆粒"
 * #A042168 ^property[0].code = #status
 * #A042168 ^property[=].valueString = "新增"
-* #A042168 ^property[+].code = #updateDate
+* #A042168 ^property[+].code = #effectiveDate
 * #A042168 ^property[=].valueString = "2024-05"
 * #A042169 "順天堂養陰清肺湯濃縮顆粒"
 * #A042169 ^property[0].code = #status
 * #A042169 ^property[=].valueString = "新增"
-* #A042169 ^property[+].code = #updateDate
+* #A042169 ^property[+].code = #effectiveDate
 * #A042169 ^property[=].valueString = "2024-05"
 * #A045495 "三帆知柏地黃丸濃縮細粒"
 * #A045495 ^property[0].code = #status
 * #A045495 ^property[=].valueString = "新增"
-* #A045495 ^property[+].code = #updateDate
+* #A045495 ^property[+].code = #effectiveDate
 * #A045495 ^property[=].valueString = "2024-05"
 * #A045499 "順然七寶美髯丹濃縮細粒"
 * #A045499 ^property[0].code = #status
 * #A045499 ^property[=].valueString = "新增"
-* #A045499 ^property[+].code = #updateDate
+* #A045499 ^property[+].code = #effectiveDate
 * #A045499 ^property[=].valueString = "2024-05"
 * #A045500 "順然玉泉丸濃縮錠"
 * #A045500 ^property[0].code = #status
 * #A045500 ^property[=].valueString = "新增"
-* #A045500 ^property[+].code = #updateDate
+* #A045500 ^property[+].code = #effectiveDate
 * #A045500 ^property[=].valueString = "2024-05"
 * #A045501 "順然六君子湯濃縮錠"
 * #A045501 ^property[0].code = #status
 * #A045501 ^property[=].valueString = "新增"
-* #A045501 ^property[+].code = #updateDate
+* #A045501 ^property[+].code = #effectiveDate
 * #A045501 ^property[=].valueString = "2024-05"
 * #A045506 "生春小活絡丹濃縮細粒"
 * #A045506 ^property[0].code = #status
 * #A045506 ^property[=].valueString = "新增"
-* #A045506 ^property[+].code = #updateDate
+* #A045506 ^property[+].code = #effectiveDate
 * #A045506 ^property[=].valueString = "2024-05"
 * #A045507 "生春五味消毒飲濃縮細粒"
 * #A045507 ^property[0].code = #status
 * #A045507 ^property[=].valueString = "新增"
-* #A045507 ^property[+].code = #updateDate
+* #A045507 ^property[+].code = #effectiveDate
 * #A045507 ^property[=].valueString = "2024-05"
 * #A056063 "牛標正骨紫金丹濃縮細粒"
 * #A056063 ^property[0].code = #status
 * #A056063 ^property[=].valueString = "新增"
-* #A056063 ^property[+].code = #updateDate
+* #A056063 ^property[+].code = #effectiveDate
 * #A056063 ^property[=].valueString = "2024-05"
 * #A056102 "勸奉堂白虎湯濃縮細粒"
 * #A056102 ^property[0].code = #status
 * #A056102 ^property[=].valueString = "新增"
-* #A056102 ^property[+].code = #updateDate
+* #A056102 ^property[+].code = #effectiveDate
 * #A056102 ^property[=].valueString = "2024-05"
 * #A045508 "天明寧嗽丸濃縮細粒"
 * #A045508 ^property[0].code = #status
 * #A045508 ^property[=].valueString = "新增"
-* #A045508 ^property[+].code = #updateDate
+* #A045508 ^property[+].code = #effectiveDate
 * #A045508 ^property[=].valueString = "2024-05"
 * #A049380 "合家健寶清膚爽濃縮膠囊（清上防風湯）"
 * #A049380 ^property[0].code = #status
 * #A049380 ^property[=].valueString = "新增"
-* #A049380 ^property[+].code = #updateDate
+* #A049380 ^property[+].code = #effectiveDate
 * #A049380 ^property[=].valueString = "2024-05"
 * #A042175 "富田小陷胸湯濃縮錠"
 * #A042175 ^property[0].code = #status
 * #A042175 ^property[=].valueString = "新增"
-* #A042175 ^property[+].code = #updateDate
+* #A042175 ^property[+].code = #effectiveDate
 * #A042175 ^property[=].valueString = "2024-05"
 * #A042176 "富田人參敗毒散濃縮錠"
 * #A042176 ^property[0].code = #status
 * #A042176 ^property[=].valueString = "新增"
-* #A042176 ^property[+].code = #updateDate
+* #A042176 ^property[+].code = #effectiveDate
 * #A042176 ^property[=].valueString = "2024-05"
 * #A042179 "順天堂十全大補湯濃縮顆粒"
 * #A042179 ^property[0].code = #status
 * #A042179 ^property[=].valueString = "新增"
-* #A042179 ^property[+].code = #updateDate
+* #A042179 ^property[+].code = #effectiveDate
 * #A042179 ^property[=].valueString = "2024-05"
 * #A042180 "順天堂烏藥順氣散濃縮顆粒"
 * #A042180 ^property[0].code = #status
 * #A042180 ^property[=].valueString = "新增"
-* #A042180 ^property[+].code = #updateDate
+* #A042180 ^property[+].code = #effectiveDate
 * #A042180 ^property[=].valueString = "2024-05"
 * #A042181 "順然活絡丹濃縮細粒(小活絡丹)"
 * #A042181 ^property[0].code = #status
 * #A042181 ^property[=].valueString = "新增"
-* #A042181 ^property[+].code = #updateDate
+* #A042181 ^property[+].code = #effectiveDate
 * #A042181 ^property[=].valueString = "2024-05"
 * #A042182 "順然七寶美髯丹濃縮錠"
 * #A042182 ^property[0].code = #status
 * #A042182 ^property[=].valueString = "新增"
-* #A042182 ^property[+].code = #updateDate
+* #A042182 ^property[+].code = #effectiveDate
 * #A042182 ^property[=].valueString = "2024-05"
 * #A042183 "萬國清胃散濃縮細粒"
 * #A042183 ^property[0].code = #status
 * #A042183 ^property[=].valueString = "新增"
-* #A042183 ^property[+].code = #updateDate
+* #A042183 ^property[+].code = #effectiveDate
 * #A042183 ^property[=].valueString = "2024-05"
 * #A042184 "萬國吳茱萸湯濃縮細粒"
 * #A042184 ^property[0].code = #status
 * #A042184 ^property[=].valueString = "新增"
-* #A042184 ^property[+].code = #updateDate
+* #A042184 ^property[+].code = #effectiveDate
 * #A042184 ^property[=].valueString = "2024-05"
 * #A042185 "萬國導赤散濃縮細粒"
 * #A042185 ^property[0].code = #status
 * #A042185 ^property[=].valueString = "新增"
-* #A042185 ^property[+].code = #updateDate
+* #A042185 ^property[+].code = #effectiveDate
 * #A042185 ^property[=].valueString = "2024-05"
 * #A042186 "萬國香薷飲濃縮細粒"
 * #A042186 ^property[0].code = #status
 * #A042186 ^property[=].valueString = "新增"
-* #A042186 ^property[+].code = #updateDate
+* #A042186 ^property[+].code = #effectiveDate
 * #A042186 ^property[=].valueString = "2024-05"
 * #A042190 "順然八味地黃丸濃縮錠"
 * #A042190 ^property[0].code = #status
 * #A042190 ^property[=].valueString = "新增"
-* #A042190 ^property[+].code = #updateDate
+* #A042190 ^property[+].code = #effectiveDate
 * #A042190 ^property[=].valueString = "2024-05"
 * #A042191 "順然獨活寄生湯濃縮錠"
 * #A042191 ^property[0].code = #status
 * #A042191 ^property[=].valueString = "新增"
-* #A042191 ^property[+].code = #updateDate
+* #A042191 ^property[+].code = #effectiveDate
 * #A042191 ^property[=].valueString = "2024-05"
 * #A049383 "勸奉堂身痛逐瘀湯濃縮細粒"
 * #A049383 ^property[0].code = #status
 * #A049383 ^property[=].valueString = "新增"
-* #A049383 ^property[+].code = #updateDate
+* #A049383 ^property[+].code = #effectiveDate
 * #A049383 ^property[=].valueString = "2024-05"
 * #A056067 "牛標溫膽湯濃縮細粒"
 * #A056067 ^property[0].code = #status
 * #A056067 ^property[=].valueString = "新增"
-* #A056067 ^property[+].code = #updateDate
+* #A056067 ^property[+].code = #effectiveDate
 * #A056067 ^property[=].valueString = "2024-05"
 * #A056103 "勸奉堂清心蓮子飲濃縮細粒"
 * #A056103 ^property[0].code = #status
 * #A056103 ^property[=].valueString = "新增"
-* #A056103 ^property[+].code = #updateDate
+* #A056103 ^property[+].code = #effectiveDate
 * #A056103 ^property[=].valueString = "2024-05"
 * #A056118 "勸奉堂瀉白散濃縮細粒"
 * #A056118 ^property[0].code = #status
 * #A056118 ^property[=].valueString = "新增"
-* #A056118 ^property[+].code = #updateDate
+* #A056118 ^property[+].code = #effectiveDate
 * #A056118 ^property[=].valueString = "2024-05"
 * #A049379 "德山平肝流氣飲濃縮細粒"
 * #A049379 ^property[0].code = #status
 * #A049379 ^property[=].valueString = "新增"
-* #A049379 ^property[+].code = #updateDate
+* #A049379 ^property[+].code = #effectiveDate
 * #A049379 ^property[=].valueString = "2024-05"
 * #A049385 "順天堂天王補心丹濃縮錠(世醫得效方)"
 * #A049385 ^property[0].code = #status
 * #A049385 ^property[=].valueString = "新增"
-* #A049385 ^property[+].code = #updateDate
+* #A049385 ^property[+].code = #effectiveDate
 * #A049385 ^property[=].valueString = "2024-05"
 * #A030845 "天明 小續命湯濃縮細粒"
 * #A030845 ^property[0].code = #status
 * #A030845 ^property[=].valueString = "新增"
-* #A030845 ^property[+].code = #updateDate
+* #A030845 ^property[+].code = #effectiveDate
 * #A030845 ^property[=].valueString = "2024-05"
 * #A030850 "天明麥門冬湯濃縮顆粒"
 * #A030850 ^property[0].code = #status
 * #A030850 ^property[=].valueString = "新增"
-* #A030850 ^property[+].code = #updateDate
+* #A030850 ^property[+].code = #effectiveDate
 * #A030850 ^property[=].valueString = "2024-05"
 * #A030851 "天明人參養榮湯濃縮顆粒"
 * #A030851 ^property[0].code = #status
 * #A030851 ^property[=].valueString = "新增"
-* #A030851 ^property[+].code = #updateDate
+* #A030851 ^property[+].code = #effectiveDate
 * #A030851 ^property[=].valueString = "2024-05"
 * #A046292 "天明五苓散濃縮細粒"
 * #A046292 ^property[0].code = #status
 * #A046292 ^property[=].valueString = "新增"
-* #A046292 ^property[+].code = #updateDate
+* #A046292 ^property[+].code = #effectiveDate
 * #A046292 ^property[=].valueString = "2024-05"
 * #A046377 "天明小柴胡湯濃縮顆粒"
 * #A046377 ^property[0].code = #status
 * #A046377 ^property[=].valueString = "新增"
-* #A046377 ^property[+].code = #updateDate
+* #A046377 ^property[+].code = #effectiveDate
 * #A046377 ^property[=].valueString = "2024-05"
 * #A046409 "天明理中湯濃縮細粒"
 * #A046409 ^property[0].code = #status
 * #A046409 ^property[=].valueString = "新增"
-* #A046409 ^property[+].code = #updateDate
+* #A046409 ^property[+].code = #effectiveDate
 * #A046409 ^property[=].valueString = "2024-05"
 * #A057114 "領先川芎茶調散濃縮散"
 * #A057114 ^property[0].code = #status
 * #A057114 ^property[=].valueString = "新增"
-* #A057114 ^property[+].code = #updateDate
+* #A057114 ^property[+].code = #effectiveDate
 * #A057114 ^property[=].valueString = "2024-05"
 * #A057133 "領先加味逍遙散濃縮散"
 * #A057133 ^property[0].code = #status
 * #A057133 ^property[=].valueString = "新增"
-* #A057133 ^property[+].code = #updateDate
+* #A057133 ^property[+].code = #effectiveDate
 * #A057133 ^property[=].valueString = "2024-05"
 * #A057134 "領先補中益氣湯濃縮散"
 * #A057134 ^property[0].code = #status
 * #A057134 ^property[=].valueString = "新增"
-* #A057134 ^property[+].code = #updateDate
+* #A057134 ^property[+].code = #effectiveDate
 * #A057134 ^property[=].valueString = "2024-05"
 * #A057135 "領先甘露飲濃縮散"
 * #A057135 ^property[0].code = #status
 * #A057135 ^property[=].valueString = "新增"
-* #A057135 ^property[+].code = #updateDate
+* #A057135 ^property[+].code = #effectiveDate
 * #A057135 ^property[=].valueString = "2024-05"
 * #A036326 "明通長春丸濃縮顆粒(茸桂百補丸)"
 * #A036326 ^property[0].code = #status
 * #A036326 ^property[=].valueString = "新增"
-* #A036326 ^property[+].code = #updateDate
+* #A036326 ^property[+].code = #effectiveDate
 * #A036326 ^property[=].valueString = "2024-05"
 * #A036327 "明通柴胡清肝湯濃縮散"
 * #A036327 ^property[0].code = #status
 * #A036327 ^property[=].valueString = "新增"
-* #A036327 ^property[+].code = #updateDate
+* #A036327 ^property[+].code = #effectiveDate
 * #A036327 ^property[=].valueString = "2024-05"
 * #A036329 "天明柴胡加龍骨牡蠣湯濃縮細粒"
 * #A036329 ^property[0].code = #status
 * #A036329 ^property[=].valueString = "新增"
-* #A036329 ^property[+].code = #updateDate
+* #A036329 ^property[+].code = #effectiveDate
 * #A036329 ^property[=].valueString = "2024-05"
 * #A045523 "晉安加味逍遙散濃縮膠囊"
 * #A045523 ^property[0].code = #status
 * #A045523 ^property[=].valueString = "新增"
-* #A045523 ^property[+].code = #updateDate
+* #A045523 ^property[+].code = #effectiveDate
 * #A045523 ^property[=].valueString = "2024-05"
 * #A059600 "優之堡十味敗毒散濃縮錠"
 * #A059600 ^property[0].code = #status
 * #A059600 ^property[=].valueString = "新增"
-* #A059600 ^property[+].code = #updateDate
+* #A059600 ^property[+].code = #effectiveDate
 * #A059600 ^property[=].valueString = "2024-05"
 * #A059603 "優之堡桑螵蛸散濃縮錠"
 * #A059603 ^property[0].code = #status
 * #A059603 ^property[=].valueString = "新增"
-* #A059603 ^property[+].code = #updateDate
+* #A059603 ^property[+].code = #effectiveDate
 * #A059603 ^property[=].valueString = "2024-05"
 * #A026708 "正記鼻舒路濃縮丸(辛夷清肺飲)"
 * #A026708 ^property[0].code = #status
 * #A026708 ^property[=].valueString = "新增"
-* #A026708 ^property[+].code = #updateDate
+* #A026708 ^property[+].code = #effectiveDate
 * #A026708 ^property[=].valueString = "2024-05"
 * #A045511 "順然生脈飲濃縮細粒"
 * #A045511 ^property[0].code = #status
 * #A045511 ^property[=].valueString = "新增"
-* #A045511 ^property[+].code = #updateDate
+* #A045511 ^property[+].code = #effectiveDate
 * #A045511 ^property[=].valueString = "2024-05"
 * #A045521 "港香蘭月順適濃縮錠(加味逍遙散)"
 * #A045521 ^property[0].code = #status
 * #A045521 ^property[=].valueString = "新增"
-* #A045521 ^property[+].code = #updateDate
+* #A045521 ^property[+].code = #effectiveDate
 * #A045521 ^property[=].valueString = "2024-05"
 * #A045524 "生春七寶美髯丹濃縮細粒"
 * #A045524 ^property[0].code = #status
 * #A045524 ^property[=].valueString = "新增"
-* #A045524 ^property[+].code = #updateDate
+* #A045524 ^property[+].code = #effectiveDate
 * #A045524 ^property[=].valueString = "2024-05"
 * #A045527 "富田血府逐瘀湯濃縮細粒"
 * #A045527 ^property[0].code = #status
 * #A045527 ^property[=].valueString = "新增"
-* #A045527 ^property[+].code = #updateDate
+* #A045527 ^property[+].code = #effectiveDate
 * #A045527 ^property[=].valueString = "2024-05"
 * #A045528 "富田葛花解酲湯濃縮錠"
 * #A045528 ^property[0].code = #status
 * #A045528 ^property[=].valueString = "新增"
-* #A045528 ^property[+].code = #updateDate
+* #A045528 ^property[+].code = #effectiveDate
 * #A045528 ^property[=].valueString = "2024-05"
 * #A045529 "富田薏苡仁湯濃縮錠"
 * #A045529 ^property[0].code = #status
 * #A045529 ^property[=].valueString = "新增"
-* #A045529 ^property[+].code = #updateDate
+* #A045529 ^property[+].code = #effectiveDate
 * #A045529 ^property[=].valueString = "2024-05"
 * #A028625 "科達二陳湯濃縮散"
 * #A028625 ^property[0].code = #status
 * #A028625 ^property[=].valueString = "新增"
-* #A028625 ^property[+].code = #updateDate
+* #A028625 ^property[+].code = #effectiveDate
 * #A028625 ^property[=].valueString = "2024-05"
 * #A028626 "科達天王補心丹濃縮散"
 * #A028626 ^property[0].code = #status
 * #A028626 ^property[=].valueString = "新增"
-* #A028626 ^property[+].code = #updateDate
+* #A028626 ^property[+].code = #effectiveDate
 * #A028626 ^property[=].valueString = "2024-05"
 * #A028627 "科達銀翹散濃縮散"
 * #A028627 ^property[0].code = #status
 * #A028627 ^property[=].valueString = "新增"
-* #A028627 ^property[+].code = #updateDate
+* #A028627 ^property[+].code = #effectiveDate
 * #A028627 ^property[=].valueString = "2024-05"
 * #A057012 "科達荊防敗毒散濃縮細粒"
 * #A057012 ^property[0].code = #status
 * #A057012 ^property[=].valueString = "新增"
-* #A057012 ^property[+].code = #updateDate
+* #A057012 ^property[+].code = #effectiveDate
 * #A057012 ^property[=].valueString = "2024-05"
 * #A059604 "順天堂柴胡清肝湯濃縮散"
 * #A059604 ^property[0].code = #status
 * #A059604 ^property[=].valueString = "新增"
-* #A059604 ^property[+].code = #updateDate
+* #A059604 ^property[+].code = #effectiveDate
 * #A059604 ^property[=].valueString = "2024-05"
 * #A030866 "天一甘露飲濃縮顆粒"
 * #A030866 ^property[0].code = #status
 * #A030866 ^property[=].valueString = "新增"
-* #A030866 ^property[+].code = #updateDate
+* #A030866 ^property[+].code = #effectiveDate
 * #A030866 ^property[=].valueString = "2024-05"
 * #A030867 "天一理中湯濃縮顆粒"
 * #A030867 ^property[0].code = #status
 * #A030867 ^property[=].valueString = "新增"
-* #A030867 ^property[+].code = #updateDate
+* #A030867 ^property[+].code = #effectiveDate
 * #A030867 ^property[=].valueString = "2024-05"
 * #A036381 "仙豐越婢加朮湯濃縮散"
 * #A036381 ^property[0].code = #status
 * #A036381 ^property[=].valueString = "新增"
-* #A036381 ^property[+].code = #updateDate
+* #A036381 ^property[+].code = #effectiveDate
 * #A036381 ^property[=].valueString = "2024-05"
 * #A030875 "莊松榮參蘇飲濃縮細粒"
 * #A030875 ^property[0].code = #status
 * #A030875 ^property[=].valueString = "新增"
-* #A030875 ^property[+].code = #updateDate
+* #A030875 ^property[+].code = #effectiveDate
 * #A030875 ^property[=].valueString = "2024-05"
 * #A030876 "莊松榮源氣活力湯濃縮細粒"
 * #A030876 ^property[0].code = #status
 * #A030876 ^property[=].valueString = "新增"
-* #A030876 ^property[+].code = #updateDate
+* #A030876 ^property[+].code = #effectiveDate
 * #A030876 ^property[=].valueString = "2024-05"
 * #A030877 "莊松榮加味逍遙散濃縮細粒"
 * #A030877 ^property[0].code = #status
 * #A030877 ^property[=].valueString = "新增"
-* #A030877 ^property[+].code = #updateDate
+* #A030877 ^property[+].code = #effectiveDate
 * #A030877 ^property[=].valueString = "2024-05"
 * #A030878 "莊松榮華蓋散濃縮細粒"
 * #A030878 ^property[0].code = #status
 * #A030878 ^property[=].valueString = "新增"
-* #A030878 ^property[+].code = #updateDate
+* #A030878 ^property[+].code = #effectiveDate
 * #A030878 ^property[=].valueString = "2024-05"
 * #A049406 "漢聖桑菊飲濃縮細粒"
 * #A049406 ^property[0].code = #status
 * #A049406 ^property[=].valueString = "新增"
-* #A049406 ^property[+].code = #updateDate
+* #A049406 ^property[+].code = #effectiveDate
 * #A049406 ^property[=].valueString = "2024-05"
 * #A049407 "漢聖茵陳五苓散濃縮細粒"
 * #A049407 ^property[0].code = #status
 * #A049407 ^property[=].valueString = "新增"
-* #A049407 ^property[+].code = #updateDate
+* #A049407 ^property[+].code = #effectiveDate
 * #A049407 ^property[=].valueString = "2024-05"
 * #A049408 "漢聖甘麥大棗湯濃縮細粒"
 * #A049408 ^property[0].code = #status
 * #A049408 ^property[=].valueString = "新增"
-* #A049408 ^property[+].code = #updateDate
+* #A049408 ^property[+].code = #effectiveDate
 * #A049408 ^property[=].valueString = "2024-05"
 * #A049409 "富田葛根黃芩黃連湯濃縮細粒"
 * #A049409 ^property[0].code = #status
 * #A049409 ^property[=].valueString = "新增"
-* #A049409 ^property[+].code = #updateDate
+* #A049409 ^property[+].code = #effectiveDate
 * #A049409 ^property[=].valueString = "2024-05"
 * #A049411 "德山七味白朮散濃縮細粒"
 * #A049411 ^property[0].code = #status
 * #A049411 ^property[=].valueString = "新增"
-* #A049411 ^property[+].code = #updateDate
+* #A049411 ^property[+].code = #effectiveDate
 * #A049411 ^property[=].valueString = "2024-05"
 * #A049414 "勸奉堂小柴胡湯濃縮細粒"
 * #A049414 ^property[0].code = #status
 * #A049414 ^property[=].valueString = "新增"
-* #A049414 ^property[+].code = #updateDate
+* #A049414 ^property[+].code = #effectiveDate
 * #A049414 ^property[=].valueString = "2024-05"
 * #A045583 "三帆葛根湯濃縮細粒(葛根湯)"
 * #A045583 ^property[0].code = #status
 * #A045583 ^property[=].valueString = "新增"
-* #A045583 ^property[+].code = #updateDate
+* #A045583 ^property[+].code = #effectiveDate
 * #A045583 ^property[=].valueString = "2024-05"
 * #A049405 "漢聖半夏天麻白朮湯濃縮細粒"
 * #A049405 ^property[0].code = #status
 * #A049405 ^property[=].valueString = "新增"
-* #A049405 ^property[+].code = #updateDate
+* #A049405 ^property[+].code = #effectiveDate
 * #A049405 ^property[=].valueString = "2024-05"
 * #A055460 "領先平胃散濃縮顆粒"
 * #A055460 ^property[0].code = #status
 * #A055460 ^property[=].valueString = "新增"
-* #A055460 ^property[+].code = #updateDate
+* #A055460 ^property[+].code = #effectiveDate
 * #A055460 ^property[=].valueString = "2024-05"
 * #A055463 "領先當歸拈痛湯濃縮顆粒"
 * #A055463 ^property[0].code = #status
 * #A055463 ^property[=].valueString = "新增"
-* #A055463 ^property[+].code = #updateDate
+* #A055463 ^property[+].code = #effectiveDate
 * #A055463 ^property[=].valueString = "2024-05"
 * #A055490 "領先一貫煎濃縮顆粒"
 * #A055490 ^property[0].code = #status
 * #A055490 ^property[=].valueString = "新增"
-* #A055490 ^property[+].code = #updateDate
+* #A055490 ^property[+].code = #effectiveDate
 * #A055490 ^property[=].valueString = "2024-05"
 * #A055491 "天明清胃散濃縮顆粒"
 * #A055491 ^property[0].code = #status
 * #A055491 ^property[=].valueString = "新增"
-* #A055491 ^property[+].code = #updateDate
+* #A055491 ^property[+].code = #effectiveDate
 * #A055491 ^property[=].valueString = "2024-05"
 * #A055492 "領先天王補心丹濃縮顆粒"
 * #A055492 ^property[0].code = #status
 * #A055492 ^property[=].valueString = "新增"
-* #A055492 ^property[+].code = #updateDate
+* #A055492 ^property[+].code = #effectiveDate
 * #A055492 ^property[=].valueString = "2024-05"
 * #A055493 "領先金鎖固精丸濃縮丸"
 * #A055493 ^property[0].code = #status
 * #A055493 ^property[=].valueString = "新增"
-* #A055493 ^property[+].code = #updateDate
+* #A055493 ^property[+].code = #effectiveDate
 * #A055493 ^property[=].valueString = "2024-05"
 * #A057013 "科達金鎖固精丸濃縮細粒"
 * #A057013 ^property[0].code = #status
 * #A057013 ^property[=].valueString = "新增"
-* #A057013 ^property[+].code = #updateDate
+* #A057013 ^property[+].code = #effectiveDate
 * #A057013 ^property[=].valueString = "2024-05"
 * #A028643 "科達酸棗仁湯濃縮散"
 * #A028643 ^property[0].code = #status
 * #A028643 ^property[=].valueString = "新增"
-* #A028643 ^property[+].code = #updateDate
+* #A028643 ^property[+].code = #effectiveDate
 * #A028643 ^property[=].valueString = "2024-05"
 * #A036351 "天明杏蘇散濃縮細粒"
 * #A036351 ^property[0].code = #status
 * #A036351 ^property[=].valueString = "新增"
-* #A036351 ^property[+].code = #updateDate
+* #A036351 ^property[+].code = #effectiveDate
 * #A036351 ^property[=].valueString = "2024-05"
 * #A036352 "仙豐血府逐瘀湯濃縮散"
 * #A036352 ^property[0].code = #status
 * #A036352 ^property[=].valueString = "新增"
-* #A036352 ^property[+].code = #updateDate
+* #A036352 ^property[+].code = #effectiveDate
 * #A036352 ^property[=].valueString = "2024-05"
 * #A036353 "仙豐槐花散濃縮散"
 * #A036353 ^property[0].code = #status
 * #A036353 ^property[=].valueString = "新增"
-* #A036353 ^property[+].code = #updateDate
+* #A036353 ^property[+].code = #effectiveDate
 * #A036353 ^property[=].valueString = "2024-05"
 * #A042230 "富田苓甘五味薑辛半夏杏仁湯濃縮散"
 * #A042230 ^property[0].code = #status
 * #A042230 ^property[=].valueString = "新增"
-* #A042230 ^property[+].code = #updateDate
+* #A042230 ^property[+].code = #effectiveDate
 * #A042230 ^property[=].valueString = "2024-05"
 * #A042231 "勝昌麥味地黃丸濃縮散"
 * #A042231 ^property[0].code = #status
 * #A042231 ^property[=].valueString = "新增"
-* #A042231 ^property[+].code = #updateDate
+* #A042231 ^property[+].code = #effectiveDate
 * #A042231 ^property[=].valueString = "2024-05"
 * #A042232 "萬國秦艽?甲散濃縮細粒"
 * #A042232 ^property[0].code = #status
 * #A042232 ^property[=].valueString = "新增"
-* #A042232 ^property[+].code = #updateDate
+* #A042232 ^property[+].code = #effectiveDate
 * #A042232 ^property[=].valueString = "2024-05"
 * #A042233 "順天堂一貫煎濃縮顆粒"
 * #A042233 ^property[0].code = #status
 * #A042233 ^property[=].valueString = "新增"
-* #A042233 ^property[+].code = #updateDate
+* #A042233 ^property[+].code = #effectiveDate
 * #A042233 ^property[=].valueString = "2024-05"
 * #A049410 "富田完帶湯濃縮細粒"
 * #A049410 ^property[0].code = #status
 * #A049410 ^property[=].valueString = "新增"
-* #A049410 ^property[+].code = #updateDate
+* #A049410 ^property[+].code = #effectiveDate
 * #A049410 ^property[=].valueString = "2024-05"
 * #A055461 "領先半夏瀉心湯濃縮顆粒"
 * #A055461 ^property[0].code = #status
 * #A055461 ^property[=].valueString = "新增"
-* #A055461 ^property[+].code = #updateDate
+* #A055461 ^property[+].code = #effectiveDate
 * #A055461 ^property[=].valueString = "2024-05"
 * #A056066 "牛標茵陳蒿湯濃縮顆粒"
 * #A056066 ^property[0].code = #status
 * #A056066 ^property[=].valueString = "新增"
-* #A056066 ^property[+].code = #updateDate
+* #A056066 ^property[+].code = #effectiveDate
 * #A056066 ^property[=].valueString = "2024-05"
 * #A056104 "勸奉堂完帶湯濃縮顆粒"
 * #A056104 ^property[0].code = #status
 * #A056104 ^property[=].valueString = "新增"
-* #A056104 ^property[+].code = #updateDate
+* #A056104 ^property[+].code = #effectiveDate
 * #A056104 ^property[=].valueString = "2024-05"
 * #A059605 "優之堡甘露飲濃縮錠"
 * #A059605 ^property[0].code = #status
 * #A059605 ^property[=].valueString = "新增"
-* #A059605 ^property[+].code = #updateDate
+* #A059605 ^property[+].code = #effectiveDate
 * #A059605 ^property[=].valueString = "2024-05"
 * #A055494 "領先還少丹濃縮丸"
 * #A055494 ^property[0].code = #status
 * #A055494 ^property[=].valueString = "新增"
-* #A055494 ^property[+].code = #updateDate
+* #A055494 ^property[+].code = #effectiveDate
 * #A055494 ^property[=].valueString = "2024-05"
 * #A055496 "領先托?消毒飲濃縮顆粒"
 * #A055496 ^property[0].code = #status
 * #A055496 ^property[=].valueString = "新增"
-* #A055496 ^property[+].code = #updateDate
+* #A055496 ^property[+].code = #effectiveDate
 * #A055496 ^property[=].valueString = "2024-05"
 * #A055499 "領先秦艽鱉甲散濃縮顆粒"
 * #A055499 ^property[0].code = #status
 * #A055499 ^property[=].valueString = "新增"
-* #A055499 ^property[+].code = #updateDate
+* #A055499 ^property[+].code = #effectiveDate
 * #A055499 ^property[=].valueString = "2024-05"
 * #A055500 "領先萆薢分清飲濃縮顆粒"
 * #A055500 ^property[0].code = #status
 * #A055500 ^property[=].valueString = "新增"
-* #A055500 ^property[+].code = #updateDate
+* #A055500 ^property[+].code = #effectiveDate
 * #A055500 ^property[=].valueString = "2024-05"
 * #A059607 "領先柴胡桂枝湯濃縮錠"
 * #A059607 ^property[0].code = #status
 * #A059607 ^property[=].valueString = "新增"
-* #A059607 ^property[+].code = #updateDate
+* #A059607 ^property[+].code = #effectiveDate
 * #A059607 ^property[=].valueString = "2024-05"
 * #A028652 "科達杏蘇散濃縮細粒"
 * #A028652 ^property[0].code = #status
 * #A028652 ^property[=].valueString = "新增"
-* #A028652 ^property[+].code = #updateDate
+* #A028652 ^property[+].code = #effectiveDate
 * #A028652 ^property[=].valueString = "2024-05"
 * #A059606 "莊松榮大承氣湯濃縮細粒"
 * #A059606 ^property[0].code = #status
 * #A059606 ^property[=].valueString = "新增"
-* #A059606 ^property[+].code = #updateDate
+* #A059606 ^property[+].code = #effectiveDate
 * #A059606 ^property[=].valueString = "2024-05"
 * #A059608 "順天堂黃耆五物湯濃縮散"
 * #A059608 ^property[0].code = #status
 * #A059608 ^property[=].valueString = "新增"
-* #A059608 ^property[+].code = #updateDate
+* #A059608 ^property[+].code = #effectiveDate
 * #A059608 ^property[=].valueString = "2024-05"
 * #A059616 "科達還少丹濃縮細粒"
 * #A059616 ^property[0].code = #status
 * #A059616 ^property[=].valueString = "新增"
-* #A059616 ^property[+].code = #updateDate
+* #A059616 ^property[+].code = #effectiveDate
 * #A059616 ^property[=].valueString = "2024-05"
 * #A059609 "優之堡天王補心丹濃縮錠"
 * #A059609 ^property[0].code = #status
 * #A059609 ^property[=].valueString = "新增"
-* #A059609 ^property[+].code = #updateDate
+* #A059609 ^property[+].code = #effectiveDate
 * #A059609 ^property[=].valueString = "2024-05"
 * #A049442 "富田當歸飲子濃縮細粒"
 * #A049442 ^property[0].code = #status
 * #A049442 ^property[=].valueString = "新增"
-* #A049442 ^property[+].code = #updateDate
+* #A049442 ^property[+].code = #effectiveDate
 * #A049442 ^property[=].valueString = "2024-05"
 * #A055465 "領先涼膈散濃縮顆粒"
 * #A055465 ^property[0].code = #status
 * #A055465 ^property[=].valueString = "新增"
-* #A055465 ^property[+].code = #updateDate
+* #A055465 ^property[+].code = #effectiveDate
 * #A055465 ^property[=].valueString = "2024-05"
 * #A057023 "領先桑菊飲濃縮錠"
 * #A057023 ^property[0].code = #status
 * #A057023 ^property[=].valueString = "新增"
-* #A057023 ^property[+].code = #updateDate
+* #A057023 ^property[+].code = #effectiveDate
 * #A057023 ^property[=].valueString = "2024-05"
 * #A036382 "仙豐桂枝加龍骨牡蠣湯濃縮散"
 * #A036382 ^property[0].code = #status
 * #A036382 ^property[=].valueString = "新增"
-* #A036382 ^property[+].code = #updateDate
+* #A036382 ^property[+].code = #effectiveDate
 * #A036382 ^property[=].valueString = "2024-05"
 * #A042332 "萬國越鞠丸濃縮細粒"
 * #A042332 ^property[0].code = #status
 * #A042332 ^property[=].valueString = "新增"
-* #A042332 ^property[+].code = #updateDate
+* #A042332 ^property[+].code = #effectiveDate
 * #A042332 ^property[=].valueString = "2024-05"
 * #A045545 "順天堂舒經痛濃縮膠囊(折衝飲)"
 * #A045545 ^property[0].code = #status
 * #A045545 ^property[=].valueString = "新增"
-* #A045545 ^property[+].code = #updateDate
+* #A045545 ^property[+].code = #effectiveDate
 * #A045545 ^property[=].valueString = "2024-05"
 * #A045546 "港香蘭涼伴濃縮錠（響聲破笛丸）"
 * #A045546 ^property[0].code = #status
 * #A045546 ^property[=].valueString = "新增"
-* #A045546 ^property[+].code = #updateDate
+* #A045546 ^property[+].code = #effectiveDate
 * #A045546 ^property[=].valueString = "2024-05"
 * #A045547 "港香蘭血府逐瘀湯濃縮錠"
 * #A045547 ^property[0].code = #status
 * #A045547 ^property[=].valueString = "新增"
-* #A045547 ^property[+].code = #updateDate
+* #A045547 ^property[+].code = #effectiveDate
 * #A045547 ^property[=].valueString = "2024-05"
 * #A045548 "富田定喘湯濃縮細粒"
 * #A045548 ^property[0].code = #status
 * #A045548 ^property[=].valueString = "新增"
-* #A045548 ^property[+].code = #updateDate
+* #A045548 ^property[+].code = #effectiveDate
 * #A045548 ^property[=].valueString = "2024-05"
 * #A045549 "富田杞菊地黃丸濃縮細粒"
 * #A045549 ^property[0].code = #status
 * #A045549 ^property[=].valueString = "新增"
-* #A045549 ^property[+].code = #updateDate
+* #A045549 ^property[+].code = #effectiveDate
 * #A045549 ^property[=].valueString = "2024-05"
 * #A045550 "華陀知柏地黃丸濃縮細粒"
 * #A045550 ^property[0].code = #status
 * #A045550 ^property[=].valueString = "新增"
-* #A045550 ^property[+].code = #updateDate
+* #A045550 ^property[+].code = #effectiveDate
 * #A045550 ^property[=].valueString = "2024-05"
 * #A045551 "領先杞菊地黃丸濃縮細粒"
 * #A045551 ^property[0].code = #status
 * #A045551 ^property[=].valueString = "新增"
-* #A045551 ^property[+].code = #updateDate
+* #A045551 ^property[+].code = #effectiveDate
 * #A045551 ^property[=].valueString = "2024-05"
 * #A055466 "領先正骨紫金丹濃縮顆粒"
 * #A055466 ^property[0].code = #status
 * #A055466 ^property[=].valueString = "新增"
-* #A055466 ^property[+].code = #updateDate
+* #A055466 ^property[+].code = #effectiveDate
 * #A055466 ^property[=].valueString = "2024-05"
 * #A055467 "領先茵陳蒿湯濃縮顆粒"
 * #A055467 ^property[0].code = #status
 * #A055467 ^property[=].valueString = "新增"
-* #A055467 ^property[+].code = #updateDate
+* #A055467 ^property[+].code = #effectiveDate
 * #A055467 ^property[=].valueString = "2024-05"
 * #A055468 "領先保和丸濃縮顆粒"
 * #A055468 ^property[0].code = #status
 * #A055468 ^property[=].valueString = "新增"
-* #A055468 ^property[+].code = #updateDate
+* #A055468 ^property[+].code = #effectiveDate
 * #A055468 ^property[=].valueString = "2024-05"
 * #A055469 "領先上中下通用痛風丸濃縮顆粒"
 * #A055469 ^property[0].code = #status
 * #A055469 ^property[=].valueString = "新增"
-* #A055469 ^property[+].code = #updateDate
+* #A055469 ^property[+].code = #effectiveDate
 * #A055469 ^property[=].valueString = "2024-05"
 * #A055470 "領先溫膽湯濃縮顆粒"
 * #A055470 ^property[0].code = #status
 * #A055470 ^property[=].valueString = "新增"
-* #A055470 ^property[+].code = #updateDate
+* #A055470 ^property[+].code = #effectiveDate
 * #A055470 ^property[=].valueString = "2024-05"
 * #A055502 "領先七寶美髯丹濃縮丸"
 * #A055502 ^property[0].code = #status
 * #A055502 ^property[=].valueString = "新增"
-* #A055502 ^property[+].code = #updateDate
+* #A055502 ^property[+].code = #effectiveDate
 * #A055502 ^property[=].valueString = "2024-05"
 * #A049435 "港香蘭抵當湯濃縮細粒"
 * #A049435 ^property[0].code = #status
 * #A049435 ^property[=].valueString = "新增"
-* #A049435 ^property[+].code = #updateDate
+* #A049435 ^property[+].code = #effectiveDate
 * #A049435 ^property[=].valueString = "2024-05"
 * #A030901 "天一白頭翁湯濃縮顆粒"
 * #A030901 ^property[0].code = #status
 * #A030901 ^property[=].valueString = "新增"
-* #A030901 ^property[+].code = #updateDate
+* #A030901 ^property[+].code = #effectiveDate
 * #A030901 ^property[=].valueString = "2024-05"
 * #A030902 "天一疏經活血湯濃縮顆粒"
 * #A030902 ^property[0].code = #status
 * #A030902 ^property[=].valueString = "新增"
-* #A030902 ^property[+].code = #updateDate
+* #A030902 ^property[+].code = #effectiveDate
 * #A030902 ^property[=].valueString = "2024-05"
 * #A049472 "富田茵陳五苓散濃縮細粒"
 * #A049472 ^property[0].code = #status
 * #A049472 ^property[=].valueString = "新增"
-* #A049472 ^property[+].code = #updateDate
+* #A049472 ^property[+].code = #effectiveDate
 * #A049472 ^property[=].valueString = "2024-05"
 * #A049476 "勸奉堂小建中湯濃縮細粒"
 * #A049476 ^property[0].code = #status
 * #A049476 ^property[=].valueString = "新增"
-* #A049476 ^property[+].code = #updateDate
+* #A049476 ^property[+].code = #effectiveDate
 * #A049476 ^property[=].valueString = "2024-05"
 * #A057038 "科達香砂六君子湯濃縮細粒"
 * #A057038 ^property[0].code = #status
 * #A057038 ^property[=].valueString = "新增"
-* #A057038 ^property[+].code = #updateDate
+* #A057038 ^property[+].code = #effectiveDate
 * #A057038 ^property[=].valueString = "2024-05"
 * #A057040 "三才堂保和丸濃縮細粒"
 * #A057040 ^property[0].code = #status
 * #A057040 ^property[=].valueString = "新增"
-* #A057040 ^property[+].code = #updateDate
+* #A057040 ^property[+].code = #effectiveDate
 * #A057040 ^property[=].valueString = "2024-05"
 * #A036397 "生春柏子仁丸濃縮細粒"
 * #A036397 ^property[0].code = #status
 * #A036397 ^property[=].valueString = "新增"
-* #A036397 ^property[+].code = #updateDate
+* #A036397 ^property[+].code = #effectiveDate
 * #A036397 ^property[=].valueString = "2024-05"
 * #A042325 "仙豐茯菟丹濃縮細粒"
 * #A042325 ^property[0].code = #status
 * #A042325 ^property[=].valueString = "新增"
-* #A042325 ^property[+].code = #updateDate
+* #A042325 ^property[+].code = #effectiveDate
 * #A042325 ^property[=].valueString = "2024-05"
 * #A045562 "順然百合固金湯濃縮錠"
 * #A045562 ^property[0].code = #status
 * #A045562 ^property[=].valueString = "新增"
-* #A045562 ^property[+].code = #updateDate
+* #A045562 ^property[+].code = #effectiveDate
 * #A045562 ^property[=].valueString = "2024-05"
 * #A059620 "順天堂葛根黃芩黃連湯濃縮散"
 * #A059620 ^property[0].code = #status
 * #A059620 ^property[=].valueString = "新增"
-* #A059620 ^property[+].code = #updateDate
+* #A059620 ^property[+].code = #effectiveDate
 * #A059620 ^property[=].valueString = "2024-05"
 * #A036412 "生春血府逐瘀湯濃縮細粒"
 * #A036412 ^property[0].code = #status
 * #A036412 ^property[=].valueString = "新增"
-* #A036412 ^property[+].code = #updateDate
+* #A036412 ^property[+].code = #effectiveDate
 * #A036412 ^property[=].valueString = "2024-05"
 * #A019073 "天明利膈湯濃縮散"
 * #A019073 ^property[0].code = #status
 * #A019073 ^property[=].valueString = "新增"
-* #A019073 ^property[+].code = #updateDate
+* #A019073 ^property[+].code = #effectiveDate
 * #A019073 ^property[=].valueString = "2024-05"
 * #A019074 "天明麻杏甘石湯濃縮顆粒"
 * #A019074 ^property[0].code = #status
 * #A019074 ^property[=].valueString = "新增"
-* #A019074 ^property[+].code = #updateDate
+* #A019074 ^property[+].code = #effectiveDate
 * #A019074 ^property[=].valueString = "2024-05"
 * #A024495 "忠山當歸芍藥散濃縮丸"
 * #A024495 ^property[0].code = #status
 * #A024495 ^property[=].valueString = "新增"
-* #A024495 ^property[+].code = #updateDate
+* #A024495 ^property[+].code = #effectiveDate
 * #A024495 ^property[=].valueString = "2024-05"
 * #A024497 "忠山蒼耳散濃縮丸"
 * #A024497 ^property[0].code = #status
 * #A024497 ^property[=].valueString = "新增"
-* #A024497 ^property[+].code = #updateDate
+* #A024497 ^property[+].code = #effectiveDate
 * #A024497 ^property[=].valueString = "2024-05"
 * #A024498 "忠山八味帶下方濃縮丸"
 * #A024498 ^property[0].code = #status
 * #A024498 ^property[=].valueString = "新增"
-* #A024498 ^property[+].code = #updateDate
+* #A024498 ^property[+].code = #effectiveDate
 * #A024498 ^property[=].valueString = "2024-05"
 * #A024499 "忠山桂枝加龍牡湯濃縮丸"
 * #A024499 ^property[0].code = #status
 * #A024499 ^property[=].valueString = "新增"
-* #A024499 ^property[+].code = #updateDate
+* #A024499 ^property[+].code = #effectiveDate
 * #A024499 ^property[=].valueString = "2024-05"
 * #A024500 "忠山茯菟丹濃縮丸"
 * #A024500 ^property[0].code = #status
 * #A024500 ^property[=].valueString = "新增"
-* #A024500 ^property[+].code = #updateDate
+* #A024500 ^property[+].code = #effectiveDate
 * #A024500 ^property[=].valueString = "2024-05"
 * #A024501 "忠山乙字湯濃縮丸"
 * #A024501 ^property[0].code = #status
 * #A024501 ^property[=].valueString = "新增"
-* #A024501 ^property[+].code = #updateDate
+* #A024501 ^property[+].code = #effectiveDate
 * #A024501 ^property[=].valueString = "2024-05"
 * #A024502 "天明寧嗽丸濃縮顆粒"
 * #A024502 ^property[0].code = #status
 * #A024502 ^property[=].valueString = "新增"
-* #A024502 ^property[+].code = #updateDate
+* #A024502 ^property[+].code = #effectiveDate
 * #A024502 ^property[=].valueString = "2024-05"
 * #A024503 "天明安中散濃縮顆粒"
 * #A024503 ^property[0].code = #status
 * #A024503 ^property[=].valueString = "新增"
-* #A024503 ^property[+].code = #updateDate
+* #A024503 ^property[+].code = #effectiveDate
 * #A024503 ^property[=].valueString = "2024-05"
 * #A024504 "忠山十全大補湯濃縮丸"
 * #A024504 ^property[0].code = #status
 * #A024504 ^property[=].valueString = "新增"
-* #A024504 ^property[+].code = #updateDate
+* #A024504 ^property[+].code = #effectiveDate
 * #A024504 ^property[=].valueString = "2024-05"
 * #A024850 "忠山茵陳蒿湯濃縮丸"
 * #A024850 ^property[0].code = #status
 * #A024850 ^property[=].valueString = "新增"
-* #A024850 ^property[+].code = #updateDate
+* #A024850 ^property[+].code = #effectiveDate
 * #A024850 ^property[=].valueString = "2024-05"
 * #A024851 "忠山上中下通用痛風濃縮丸"
 * #A024851 ^property[0].code = #status
 * #A024851 ^property[=].valueString = "新增"
-* #A024851 ^property[+].code = #updateDate
+* #A024851 ^property[+].code = #effectiveDate
 * #A024851 ^property[=].valueString = "2024-05"
 * #A024852 "忠山保產無憂方濃縮丸"
 * #A024852 ^property[0].code = #status
 * #A024852 ^property[=].valueString = "新增"
-* #A024852 ^property[+].code = #updateDate
+* #A024852 ^property[+].code = #effectiveDate
 * #A024852 ^property[=].valueString = "2024-05"
 * #A024853 "忠山薏苡仁湯濃縮丸"
 * #A024853 ^property[0].code = #status
 * #A024853 ^property[=].valueString = "新增"
-* #A024853 ^property[+].code = #updateDate
+* #A024853 ^property[+].code = #effectiveDate
 * #A024853 ^property[=].valueString = "2024-05"
 * #A024905 "忠山歸脾湯濃縮丸"
 * #A024905 ^property[0].code = #status
 * #A024905 ^property[=].valueString = "新增"
-* #A024905 ^property[+].code = #updateDate
+* #A024905 ^property[+].code = #effectiveDate
 * #A024905 ^property[=].valueString = "2024-05"
 * #A027650 "復旦五淋散濃縮顆粒"
 * #A027650 ^property[0].code = #status
 * #A027650 ^property[=].valueString = "新增"
-* #A027650 ^property[+].code = #updateDate
+* #A027650 ^property[+].code = #effectiveDate
 * #A027650 ^property[=].valueString = "2024-05"
 * #A028156 "忠山四物湯濃縮丸"
 * #A028156 ^property[0].code = #status
 * #A028156 ^property[=].valueString = "新增"
-* #A028156 ^property[+].code = #updateDate
+* #A028156 ^property[+].code = #effectiveDate
 * #A028156 ^property[=].valueString = "2024-05"
 * #A049484 "正揚大青龍湯濃縮細粒"
 * #A049484 ^property[0].code = #status
 * #A049484 ^property[=].valueString = "新增"
-* #A049484 ^property[+].code = #updateDate
+* #A049484 ^property[+].code = #effectiveDate
 * #A049484 ^property[=].valueString = "2024-05"
 * #A045518 "莊松榮清心蓮子飲濃縮錠"
 * #A045518 ^property[0].code = #status
 * #A045518 ^property[=].valueString = "新增"
-* #A045518 ^property[+].code = #updateDate
+* #A045518 ^property[+].code = #effectiveDate
 * #A045518 ^property[=].valueString = "2024-05"
 * #A045520 "莊松榮柴葛解肌湯濃縮錠"
 * #A045520 ^property[0].code = #status
 * #A045520 ^property[=].valueString = "新增"
-* #A045520 ^property[+].code = #updateDate
+* #A045520 ^property[+].code = #effectiveDate
 * #A045520 ^property[=].valueString = "2024-05"
 * #A049477 "勸奉堂桑菊飲濃縮細粒"
 * #A049477 ^property[0].code = #status
 * #A049477 ^property[=].valueString = "新增"
-* #A049477 ^property[+].code = #updateDate
+* #A049477 ^property[+].code = #effectiveDate
 * #A049477 ^property[=].valueString = "2024-05"
 * #A048950 "德山清暑益氣湯濃縮散"
 * #A048950 ^property[0].code = #status
 * #A048950 ^property[=].valueString = "新增"
-* #A048950 ^property[+].code = #updateDate
+* #A048950 ^property[+].code = #effectiveDate
 * #A048950 ^property[=].valueString = "2024-05"
 * #A045572 "港香蘭養血壯筋健步丸濃縮丸(去虎骨)"
 * #A045572 ^property[0].code = #status
 * #A045572 ^property[=].valueString = "新增"
-* #A045572 ^property[+].code = #updateDate
+* #A045572 ^property[+].code = #effectiveDate
 * #A045572 ^property[=].valueString = "2024-05"
 * #A045573 "港香蘭龜鹿二仙膠濃縮丸"
 * #A045573 ^property[0].code = #status
 * #A045573 ^property[=].valueString = "新增"
-* #A045573 ^property[+].code = #updateDate
+* #A045573 ^property[+].code = #effectiveDate
 * #A045573 ^property[=].valueString = "2024-05"
 * #A045574 "富田疏經活血湯濃縮細粒"
 * #A045574 ^property[0].code = #status
 * #A045574 ^property[=].valueString = "新增"
-* #A045574 ^property[+].code = #updateDate
+* #A045574 ^property[+].code = #effectiveDate
 * #A045574 ^property[=].valueString = "2024-05"
 * #A045575 "生春斑龍丸濃縮細粒"
 * #A045575 ^property[0].code = #status
 * #A045575 ^property[=].valueString = "新增"
-* #A045575 ^property[+].code = #updateDate
+* #A045575 ^property[+].code = #effectiveDate
 * #A045575 ^property[=].valueString = "2024-05"
 * #A049483 "順天堂天王補心丹濃縮顆粒(世醫得效方)"
 * #A049483 ^property[0].code = #status
 * #A049483 ^property[=].valueString = "新增"
-* #A049483 ^property[+].code = #updateDate
+* #A049483 ^property[+].code = #effectiveDate
 * #A049483 ^property[=].valueString = "2024-05"
 * #A057048 "天明導水茯苓湯濃縮細粒"
 * #A057048 ^property[0].code = #status
 * #A057048 ^property[=].valueString = "新增"
-* #A057048 ^property[+].code = #updateDate
+* #A057048 ^property[+].code = #effectiveDate
 * #A057048 ^property[=].valueString = "2024-05"
 * #A049474 "漢聖左歸丸濃縮細粒"
 * #A049474 ^property[0].code = #status
 * #A049474 ^property[=].valueString = "新增"
-* #A049474 ^property[+].code = #updateDate
+* #A049474 ^property[+].code = #effectiveDate
 * #A049474 ^property[=].valueString = "2024-05"
 * #A049475 "漢聖豬苓湯濃縮細粒"
 * #A049475 ^property[0].code = #status
 * #A049475 ^property[=].valueString = "新增"
-* #A049475 ^property[+].code = #updateDate
+* #A049475 ^property[+].code = #effectiveDate
 * #A049475 ^property[=].valueString = "2024-05"
 * #A049473 "富田蘇子降氣湯濃縮細粒"
 * #A049473 ^property[0].code = #status
 * #A049473 ^property[=].valueString = "新增"
-* #A049473 ^property[+].code = #updateDate
+* #A049473 ^property[+].code = #effectiveDate
 * #A049473 ^property[=].valueString = "2024-05"
 * #A045584 "順然香砂六君子湯濃縮錠"
 * #A045584 ^property[0].code = #status
 * #A045584 ^property[=].valueString = "新增"
-* #A045584 ^property[+].code = #updateDate
+* #A045584 ^property[+].code = #effectiveDate
 * #A045584 ^property[=].valueString = "2024-05"
 * #A045585 "順然黃耆建中湯濃縮細粒"
 * #A045585 ^property[0].code = #status
 * #A045585 ^property[=].valueString = "新增"
-* #A045585 ^property[+].code = #updateDate
+* #A045585 ^property[+].code = #effectiveDate
 * #A045585 ^property[=].valueString = "2024-05"
 * #A045586 "順然人參養榮湯濃縮細粒"
 * #A045586 ^property[0].code = #status
 * #A045586 ^property[=].valueString = "新增"
-* #A045586 ^property[+].code = #updateDate
+* #A045586 ^property[+].code = #effectiveDate
 * #A045586 ^property[=].valueString = "2024-05"
 * #A045587 "生春天麻?藤飲濃縮細粒"
 * #A045587 ^property[0].code = #status
 * #A045587 ^property[=].valueString = "新增"
-* #A045587 ^property[+].code = #updateDate
+* #A045587 ^property[+].code = #effectiveDate
 * #A045587 ^property[=].valueString = "2024-05"
 * #A045589 "富田香蘇散濃縮錠"
 * #A045589 ^property[0].code = #status
 * #A045589 ^property[=].valueString = "新增"
-* #A045589 ^property[+].code = #updateDate
+* #A045589 ^property[+].code = #effectiveDate
 * #A045589 ^property[=].valueString = "2024-05"
 * #A030921 "天一麻杏甘石湯濃縮顆粒"
 * #A030921 ^property[0].code = #status
 * #A030921 ^property[=].valueString = "新增"
-* #A030921 ^property[+].code = #updateDate
+* #A030921 ^property[+].code = #effectiveDate
 * #A030921 ^property[=].valueString = "2024-05"
 * #A030922 "天一烏藥順氣散濃縮顆粒"
 * #A030922 ^property[0].code = #status
 * #A030922 ^property[=].valueString = "新增"
-* #A030922 ^property[+].code = #updateDate
+* #A030922 ^property[+].code = #effectiveDate
 * #A030922 ^property[=].valueString = "2024-05"
 * #A057050 "勝昌安中散濃縮錠"
 * #A057050 ^property[0].code = #status
 * #A057050 ^property[=].valueString = "新增"
-* #A057050 ^property[+].code = #updateDate
+* #A057050 ^property[+].code = #effectiveDate
 * #A057050 ^property[=].valueString = "2024-05"
 * #A057051 "科達八正散濃縮細粒"
 * #A057051 ^property[0].code = #status
 * #A057051 ^property[=].valueString = "新增"
-* #A057051 ^property[+].code = #updateDate
+* #A057051 ^property[+].code = #effectiveDate
 * #A057051 ^property[=].valueString = "2024-05"
 * #A036432 "科達柴胡清肝湯濃縮細粒"
 * #A036432 ^property[0].code = #status
 * #A036432 ^property[=].valueString = "新增"
-* #A036432 ^property[+].code = #updateDate
+* #A036432 ^property[+].code = #effectiveDate
 * #A036432 ^property[=].valueString = "2024-05"
 * #A059923 "科達柴葛解肌湯濃縮細粒"
 * #A059923 ^property[0].code = #status
 * #A059923 ^property[=].valueString = "新增"
-* #A059923 ^property[+].code = #updateDate
+* #A059923 ^property[+].code = #effectiveDate
 * #A059923 ^property[=].valueString = "2024-05"
 * #A059928 "領先柴胡疏肝湯濃縮錠"
 * #A059928 ^property[0].code = #status
 * #A059928 ^property[=].valueString = "新增"
-* #A059928 ^property[+].code = #updateDate
+* #A059928 ^property[+].code = #effectiveDate
 * #A059928 ^property[=].valueString = "2024-05"
 * #A042299 "科達還少丹濃縮錠"
 * #A042299 ^property[0].code = #status
 * #A042299 ^property[=].valueString = "新增"
-* #A042299 ^property[+].code = #updateDate
+* #A042299 ^property[+].code = #effectiveDate
 * #A042299 ^property[=].valueString = "2024-05"
 * #A042305 "萬國當歸龍薈丸濃縮細粒"
 * #A042305 ^property[0].code = #status
 * #A042305 ^property[=].valueString = "新增"
-* #A042305 ^property[+].code = #updateDate
+* #A042305 ^property[+].code = #effectiveDate
 * #A042305 ^property[=].valueString = "2024-05"
 * #A042306 "科達清上防風湯濃縮錠"
 * #A042306 ^property[0].code = #status
 * #A042306 ^property[=].valueString = "新增"
-* #A042306 ^property[+].code = #updateDate
+* #A042306 ^property[+].code = #effectiveDate
 * #A042306 ^property[=].valueString = "2024-05"
 * #A042309 "萬國附子理中湯濃縮細粒"
 * #A042309 ^property[0].code = #status
 * #A042309 ^property[=].valueString = "新增"
-* #A042309 ^property[+].code = #updateDate
+* #A042309 ^property[+].code = #effectiveDate
 * #A042309 ^property[=].valueString = "2024-05"
 * #A042312 "萬國行氣活血濃縮細粒(複方丹參片)"
 * #A042312 ^property[0].code = #status
 * #A042312 ^property[=].valueString = "新增"
-* #A042312 ^property[+].code = #updateDate
+* #A042312 ^property[+].code = #effectiveDate
 * #A042312 ^property[=].valueString = "2024-05"
 * #A042313 "萬國仙方活命飲濃縮細粒"
 * #A042313 ^property[0].code = #status
 * #A042313 ^property[=].valueString = "新增"
-* #A042313 ^property[+].code = #updateDate
+* #A042313 ^property[+].code = #effectiveDate
 * #A042313 ^property[=].valueString = "2024-05"
 * #A042314 "富田香砂六君子湯濃縮錠"
 * #A042314 ^property[0].code = #status
 * #A042314 ^property[=].valueString = "新增"
-* #A042314 ^property[+].code = #updateDate
+* #A042314 ^property[+].code = #effectiveDate
 * #A042314 ^property[=].valueString = "2024-05"
 * #A042320 "港香蘭滋腎通耳丸濃縮細粒"
 * #A042320 ^property[0].code = #status
 * #A042320 ^property[=].valueString = "新增"
-* #A042320 ^property[+].code = #updateDate
+* #A042320 ^property[+].code = #effectiveDate
 * #A042320 ^property[=].valueString = "2024-05"
 * #A042324 "富田疏經活血湯濃縮錠"
 * #A042324 ^property[0].code = #status
 * #A042324 ^property[=].valueString = "新增"
-* #A042324 ^property[+].code = #updateDate
+* #A042324 ^property[+].code = #effectiveDate
 * #A042324 ^property[=].valueString = "2024-05"
 * #A042327 "生春明目保眼丸濃縮丸"
 * #A042327 ^property[0].code = #status
 * #A042327 ^property[=].valueString = "新增"
-* #A042327 ^property[+].code = #updateDate
+* #A042327 ^property[+].code = #effectiveDate
 * #A042327 ^property[=].valueString = "2024-05"
 * #A042331 "萬國柴胡疏肝湯濃縮細粒"
 * #A042331 ^property[0].code = #status
 * #A042331 ^property[=].valueString = "新增"
-* #A042331 ^property[+].code = #updateDate
+* #A042331 ^property[+].code = #effectiveDate
 * #A042331 ^property[=].valueString = "2024-05"
 * #A042333 "東陽桃紅四物湯濃縮顆粒"
 * #A042333 ^property[0].code = #status
 * #A042333 ^property[=].valueString = "新增"
-* #A042333 ^property[+].code = #updateDate
+* #A042333 ^property[+].code = #effectiveDate
 * #A042333 ^property[=].valueString = "2024-05"
 * #A042334 "萬國小陷胸湯濃縮細粒"
 * #A042334 ^property[0].code = #status
 * #A042334 ^property[=].valueString = "新增"
-* #A042334 ^property[+].code = #updateDate
+* #A042334 ^property[+].code = #effectiveDate
 * #A042334 ^property[=].valueString = "2024-05"
 * #A042335 "生春八味地黃湯濃縮錠"
 * #A042335 ^property[0].code = #status
 * #A042335 ^property[=].valueString = "新增"
-* #A042335 ^property[+].code = #updateDate
+* #A042335 ^property[+].code = #effectiveDate
 * #A042335 ^property[=].valueString = "2024-05"
 * #A042336 "生春六君子湯濃縮錠"
 * #A042336 ^property[0].code = #status
 * #A042336 ^property[=].valueString = "新增"
-* #A042336 ^property[+].code = #updateDate
+* #A042336 ^property[+].code = #effectiveDate
 * #A042336 ^property[=].valueString = "2024-05"
 * #A042337 "生春香砂六君子湯濃縮錠"
 * #A042337 ^property[0].code = #status
 * #A042337 ^property[=].valueString = "新增"
-* #A042337 ^property[+].code = #updateDate
+* #A042337 ^property[+].code = #effectiveDate
 * #A042337 ^property[=].valueString = "2024-05"
 * #A056062 "牛標普濟消毒飲濃縮細粒"
 * #A056062 ^property[0].code = #status
 * #A056062 ^property[=].valueString = "新增"
-* #A056062 ^property[+].code = #updateDate
+* #A056062 ^property[+].code = #effectiveDate
 * #A056062 ^property[=].valueString = "2024-05"
 * #A056107 "勸奉堂金沸草散濃縮細粒"
 * #A056107 ^property[0].code = #status
 * #A056107 ^property[=].valueString = "新增"
-* #A056107 ^property[+].code = #updateDate
+* #A056107 ^property[+].code = #effectiveDate
 * #A056107 ^property[=].valueString = "2024-05"
 * #A044912 "港香蘭防風通聖散濃縮錠"
 * #A044912 ^property[0].code = #status
 * #A044912 ^property[=].valueString = "新增"
-* #A044912 ^property[+].code = #updateDate
+* #A044912 ^property[+].code = #effectiveDate
 * #A044912 ^property[=].valueString = "2024-05"
 * #A030934 "莊松榮甘露飲濃縮細粒"
 * #A030934 ^property[0].code = #status
 * #A030934 ^property[=].valueString = "新增"
-* #A030934 ^property[+].code = #updateDate
+* #A030934 ^property[+].code = #effectiveDate
 * #A030934 ^property[=].valueString = "2024-05"
 * #A030935 "莊松榮柴胡加龍骨牡蠣湯濃縮細粒"
 * #A030935 ^property[0].code = #status
 * #A030935 ^property[=].valueString = "新增"
-* #A030935 ^property[+].code = #updateDate
+* #A030935 ^property[+].code = #effectiveDate
 * #A030935 ^property[=].valueString = "2024-05"
 * #A049512 "富田逍遙散濃縮細粒"
 * #A049512 ^property[0].code = #status
 * #A049512 ^property[=].valueString = "新增"
-* #A049512 ^property[+].code = #updateDate
+* #A049512 ^property[+].code = #effectiveDate
 * #A049512 ^property[=].valueString = "2024-05"
 * #A049513 "德山七寶美髯丹濃縮細粒"
 * #A049513 ^property[0].code = #status
 * #A049513 ^property[=].valueString = "新增"
-* #A049513 ^property[+].code = #updateDate
+* #A049513 ^property[+].code = #effectiveDate
 * #A049513 ^property[=].valueString = "2024-05"
 * #A058665 "天明十味敗毒湯濃縮細粒"
 * #A058665 ^property[0].code = #status
 * #A058665 ^property[=].valueString = "新增"
-* #A058665 ^property[+].code = #updateDate
+* #A058665 ^property[+].code = #effectiveDate
 * #A058665 ^property[=].valueString = "2024-05"
 * #A057062 "領先複方丹參片濃縮錠(300mg)"
 * #A057062 ^property[0].code = #status
 * #A057062 ^property[=].valueString = "新增"
-* #A057062 ^property[+].code = #updateDate
+* #A057062 ^property[+].code = #effectiveDate
 * #A057062 ^property[=].valueString = "2024-05"
 * #A059931 "勸奉堂天麻鈎滕飲濃縮細粒"
 * #A059931 ^property[0].code = #status
 * #A059931 ^property[=].valueString = "新增"
-* #A059931 ^property[+].code = #updateDate
+* #A059931 ^property[+].code = #effectiveDate
 * #A059931 ^property[=].valueString = "2024-05"
 * #A045593 "生春金鎖固精丸濃縮細粒"
 * #A045593 ^property[0].code = #status
 * #A045593 ^property[=].valueString = "新增"
-* #A045593 ^property[+].code = #updateDate
+* #A045593 ^property[+].code = #effectiveDate
 * #A045593 ^property[=].valueString = "2024-05"
 * #A057060 "領先五苓散濃縮錠"
 * #A057060 ^property[0].code = #status
 * #A057060 ^property[=].valueString = "新增"
-* #A057060 ^property[+].code = #updateDate
+* #A057060 ^property[+].code = #effectiveDate
 * #A057060 ^property[=].valueString = "2024-05"
 * #A049541 "富田清心利膈湯濃縮細粒"
 * #A049541 ^property[0].code = #status
 * #A049541 ^property[=].valueString = "新增"
-* #A049541 ^property[+].code = #updateDate
+* #A049541 ^property[+].code = #effectiveDate
 * #A049541 ^property[=].valueString = "2024-05"
 * #A057063 "領先四物湯濃縮錠"
 * #A057063 ^property[0].code = #status
 * #A057063 ^property[=].valueString = "新增"
-* #A057063 ^property[+].code = #updateDate
+* #A057063 ^property[+].code = #effectiveDate
 * #A057063 ^property[=].valueString = "2024-05"
 * #A028971 "科達寧嗽丸濃縮散"
 * #A028971 ^property[0].code = #status
 * #A028971 ^property[=].valueString = "新增"
-* #A028971 ^property[+].code = #updateDate
+* #A028971 ^property[+].code = #effectiveDate
 * #A028971 ^property[=].valueString = "2024-05"
 * #A028972 "科達九味羌活湯濃縮散"
 * #A028972 ^property[0].code = #status
 * #A028972 ^property[=].valueString = "新增"
-* #A028972 ^property[+].code = #updateDate
+* #A028972 ^property[+].code = #effectiveDate
 * #A028972 ^property[=].valueString = "2024-05"
 * #A028973 "科達半夏厚朴湯濃縮散"
 * #A028973 ^property[0].code = #status
 * #A028973 ^property[=].valueString = "新增"
-* #A028973 ^property[+].code = #updateDate
+* #A028973 ^property[+].code = #effectiveDate
 * #A028973 ^property[=].valueString = "2024-05"
 * #A028974 "科達黃連解毒湯濃縮散"
 * #A028974 ^property[0].code = #status
 * #A028974 ^property[=].valueString = "新增"
-* #A028974 ^property[+].code = #updateDate
+* #A028974 ^property[+].code = #effectiveDate
 * #A028974 ^property[=].valueString = "2024-05"
 * #A042351 "順天堂川芎茶調散濃縮顆粒"
 * #A042351 ^property[0].code = #status
 * #A042351 ^property[=].valueString = "新增"
-* #A042351 ^property[+].code = #updateDate
+* #A042351 ^property[+].code = #effectiveDate
 * #A042351 ^property[=].valueString = "2024-05"
 * #A042352 "順天堂柴葛解肌湯濃縮顆粒"
 * #A042352 ^property[0].code = #status
 * #A042352 ^property[=].valueString = "新增"
-* #A042352 ^property[+].code = #updateDate
+* #A042352 ^property[+].code = #effectiveDate
 * #A042352 ^property[=].valueString = "2024-05"
 * #A042353 "莊松榮沙參麥冬湯濃縮細粒"
 * #A042353 ^property[0].code = #status
 * #A042353 ^property[=].valueString = "新增"
-* #A042353 ^property[+].code = #updateDate
+* #A042353 ^property[+].code = #effectiveDate
 * #A042353 ^property[=].valueString = "2024-05"
 * #A042358 "順天堂四君子湯濃縮顆粒"
 * #A042358 ^property[0].code = #status
 * #A042358 ^property[=].valueString = "新增"
-* #A042358 ^property[+].code = #updateDate
+* #A042358 ^property[+].code = #effectiveDate
 * #A042358 ^property[=].valueString = "2024-05"
 * #A042359 "順天堂清心蓮子飲濃縮顆粒"
 * #A042359 ^property[0].code = #status
 * #A042359 ^property[=].valueString = "新增"
-* #A042359 ^property[+].code = #updateDate
+* #A042359 ^property[+].code = #effectiveDate
 * #A042359 ^property[=].valueString = "2024-05"
 * #A042361 "萬國烏藥順氣散濃縮細粒"
 * #A042361 ^property[0].code = #status
 * #A042361 ^property[=].valueString = "新增"
-* #A042361 ^property[+].code = #updateDate
+* #A042361 ^property[+].code = #effectiveDate
 * #A042361 ^property[=].valueString = "2024-05"
 * #A055625 "天明克唐濃縮膠囊(玉泉丸)"
 * #A055625 ^property[0].code = #status
 * #A055625 ^property[=].valueString = "新增"
-* #A055625 ^property[+].code = #updateDate
+* #A055625 ^property[+].code = #effectiveDate
 * #A055625 ^property[=].valueString = "2024-05"
 * #A045603 "仙豐複方丹參片濃縮細粒"
 * #A045603 ^property[0].code = #status
 * #A045603 ^property[=].valueString = "新增"
-* #A045603 ^property[+].code = #updateDate
+* #A045603 ^property[+].code = #effectiveDate
 * #A045603 ^property[=].valueString = "2024-05"
 * #A045605 "正揚白虎加人參湯濃縮細粒"
 * #A045605 ^property[0].code = #status
 * #A045605 ^property[=].valueString = "新增"
-* #A045605 ^property[+].code = #updateDate
+* #A045605 ^property[+].code = #effectiveDate
 * #A045605 ^property[=].valueString = "2024-05"
 * #A045607 "港香蘭蒼耳散濃縮錠"
 * #A045607 ^property[0].code = #status
 * #A045607 ^property[=].valueString = "新增"
-* #A045607 ^property[+].code = #updateDate
+* #A045607 ^property[+].code = #effectiveDate
 * #A045607 ^property[=].valueString = "2024-05"
 * #A045608 "港香蘭甘麥大棗湯濃縮錠"
 * #A045608 ^property[0].code = #status
 * #A045608 ^property[=].valueString = "新增"
-* #A045608 ^property[+].code = #updateDate
+* #A045608 ^property[+].code = #effectiveDate
 * #A045608 ^property[=].valueString = "2024-05"
 * #A045609 "勸奉堂益氣聰明湯濃縮顆粒"
 * #A045609 ^property[0].code = #status
 * #A045609 ^property[=].valueString = "新增"
-* #A045609 ^property[+].code = #updateDate
+* #A045609 ^property[+].code = #effectiveDate
 * #A045609 ^property[=].valueString = "2024-05"
 * #A045610 "生春麥味地黃丸濃縮細粒"
 * #A045610 ^property[0].code = #status
 * #A045610 ^property[=].valueString = "新增"
-* #A045610 ^property[+].code = #updateDate
+* #A045610 ^property[+].code = #effectiveDate
 * #A045610 ^property[=].valueString = "2024-05"
 * #A045611 "德山當歸拈痛湯濃縮細粒"
 * #A045611 ^property[0].code = #status
 * #A045611 ^property[=].valueString = "新增"
-* #A045611 ^property[+].code = #updateDate
+* #A045611 ^property[+].code = #effectiveDate
 * #A045611 ^property[=].valueString = "2024-05"
 * #A045612 "德山溫經湯濃縮細粒"
 * #A045612 ^property[0].code = #status
 * #A045612 ^property[=].valueString = "新增"
-* #A045612 ^property[+].code = #updateDate
+* #A045612 ^property[+].code = #effectiveDate
 * #A045612 ^property[=].valueString = "2024-05"
 * #A045613 "富田玉女煎濃縮細粒"
 * #A045613 ^property[0].code = #status
 * #A045613 ^property[=].valueString = "新增"
-* #A045613 ^property[+].code = #updateDate
+* #A045613 ^property[+].code = #effectiveDate
 * #A045613 ^property[=].valueString = "2024-05"
 * #A045614 "德山柴胡桂枝乾薑湯濃縮細粒"
 * #A045614 ^property[0].code = #status
 * #A045614 ^property[=].valueString = "新增"
-* #A045614 ^property[+].code = #updateDate
+* #A045614 ^property[+].code = #effectiveDate
 * #A045614 ^property[=].valueString = "2024-05"
 * #A045615 "德山胃苓湯濃縮細粒"
 * #A045615 ^property[0].code = #status
 * #A045615 ^property[=].valueString = "新增"
-* #A045615 ^property[+].code = #updateDate
+* #A045615 ^property[+].code = #effectiveDate
 * #A045615 ^property[=].valueString = "2024-05"
 * #A049539 "生達膚癒康濃縮膠囊(消風散)"
 * #A049539 ^property[0].code = #status
 * #A049539 ^property[=].valueString = "新增"
-* #A049539 ^property[+].code = #updateDate
+* #A049539 ^property[+].code = #effectiveDate
 * #A049539 ^property[=].valueString = "2024-05"
 * #A049537 "三才堂生化湯濃縮細粒"
 * #A049537 ^property[0].code = #status
 * #A049537 ^property[=].valueString = "新增"
-* #A049537 ^property[+].code = #updateDate
+* #A049537 ^property[+].code = #effectiveDate
 * #A049537 ^property[=].valueString = "2024-05"
 * #A057071 "天明越鞠丸濃縮細粒"
 * #A057071 ^property[0].code = #status
 * #A057071 ^property[=].valueString = "新增"
-* #A057071 ^property[+].code = #updateDate
+* #A057071 ^property[+].code = #effectiveDate
 * #A057071 ^property[=].valueString = "2024-05"
 * #A030978 "莊松榮十全大補湯濃縮散"
 * #A030978 ^property[0].code = #status
 * #A030978 ^property[=].valueString = "新增"
-* #A030978 ^property[+].code = #updateDate
+* #A030978 ^property[+].code = #effectiveDate
 * #A030978 ^property[=].valueString = "2024-05"
 * #A030979 "莊松榮荊防敗毒散濃縮散"
 * #A030979 ^property[0].code = #status
 * #A030979 ^property[=].valueString = "新增"
-* #A030979 ^property[+].code = #updateDate
+* #A030979 ^property[+].code = #effectiveDate
 * #A030979 ^property[=].valueString = "2024-05"
 * #A030980 "莊松榮五淋散濃縮散"
 * #A030980 ^property[0].code = #status
 * #A030980 ^property[=].valueString = "新增"
-* #A030980 ^property[+].code = #updateDate
+* #A030980 ^property[+].code = #effectiveDate
 * #A030980 ^property[=].valueString = "2024-05"
 * #A045624 "仙豐小活絡丹濃縮細粒"
 * #A045624 ^property[0].code = #status
 * #A045624 ^property[=].valueString = "新增"
-* #A045624 ^property[+].code = #updateDate
+* #A045624 ^property[+].code = #effectiveDate
 * #A045624 ^property[=].valueString = "2024-05"
 * #A045627 "晉安柴胡疏肝湯濃縮細粒"
 * #A045627 ^property[0].code = #status
 * #A045627 ^property[=].valueString = "新增"
-* #A045627 ^property[+].code = #updateDate
+* #A045627 ^property[+].code = #effectiveDate
 * #A045627 ^property[=].valueString = "2024-05"
 * #A045640 "富田髮立方濃縮膠囊(通竅活血湯去麝香)"
 * #A045640 ^property[0].code = #status
 * #A045640 ^property[=].valueString = "新增"
-* #A045640 ^property[+].code = #updateDate
+* #A045640 ^property[+].code = #effectiveDate
 * #A045640 ^property[=].valueString = "2024-05"
 * #A042410 "萬國涼膈散濃縮細粒"
 * #A042410 ^property[0].code = #status
 * #A042410 ^property[=].valueString = "新增"
-* #A042410 ^property[+].code = #updateDate
+* #A042410 ^property[+].code = #effectiveDate
 * #A042410 ^property[=].valueString = "2024-05"
 * #A045638 "富田銀翹散濃縮細粒"
 * #A045638 ^property[0].code = #status
 * #A045638 ^property[=].valueString = "新增"
-* #A045638 ^property[+].code = #updateDate
+* #A045638 ^property[+].code = #effectiveDate
 * #A045638 ^property[=].valueString = "2024-05"
 * #A045639 "富田辛夷散濃縮細粒"
 * #A045639 ^property[0].code = #status
 * #A045639 ^property[=].valueString = "新增"
-* #A045639 ^property[+].code = #updateDate
+* #A045639 ^property[+].code = #effectiveDate
 * #A045639 ^property[=].valueString = "2024-05"
 * #A059941 "領先溫經湯濃縮錠"
 * #A059941 ^property[0].code = #status
 * #A059941 ^property[=].valueString = "新增"
-* #A059941 ^property[+].code = #updateDate
+* #A059941 ^property[+].code = #effectiveDate
 * #A059941 ^property[=].valueString = "2024-05"
 * #A057076 "順然葛花解酲湯濃縮細粒"
 * #A057076 ^property[0].code = #status
 * #A057076 ^property[=].valueString = "新增"
-* #A057076 ^property[+].code = #updateDate
+* #A057076 ^property[+].code = #effectiveDate
 * #A057076 ^property[=].valueString = "2024-05"
 * #A030986 "莊松榮四君子湯濃縮散"
 * #A030986 ^property[0].code = #status
 * #A030986 ^property[=].valueString = "新增"
-* #A030986 ^property[+].code = #updateDate
+* #A030986 ^property[+].code = #effectiveDate
 * #A030986 ^property[=].valueString = "2024-05"
 * #A036565 "正揚?藤散濃縮細粒"
 * #A036565 ^property[0].code = #status
 * #A036565 ^property[=].valueString = "新增"
-* #A036565 ^property[+].code = #updateDate
+* #A036565 ^property[+].code = #effectiveDate
 * #A036565 ^property[=].valueString = "2024-05"
 * #A042402 "大力神益智濃縮錠(定志丸)"
 * #A042402 ^property[0].code = #status
 * #A042402 ^property[=].valueString = "新增"
-* #A042402 ^property[+].code = #updateDate
+* #A042402 ^property[+].code = #effectiveDate
 * #A042402 ^property[=].valueString = "2024-05"
 * #A042404 "富田上中下通用痛風丸濃縮錠"
 * #A042404 ^property[0].code = #status
 * #A042404 ^property[=].valueString = "新增"
-* #A042404 ^property[+].code = #updateDate
+* #A042404 ^property[+].code = #effectiveDate
 * #A042404 ^property[=].valueString = "2024-05"
 * #A042408 "萬國香蘇散濃縮細粒"
 * #A042408 ^property[0].code = #status
 * #A042408 ^property[=].valueString = "新增"
-* #A042408 ^property[+].code = #updateDate
+* #A042408 ^property[+].code = #effectiveDate
 * #A042408 ^property[=].valueString = "2024-05"
 * #A042409 "萬國杏蘇飲濃縮細粒"
 * #A042409 ^property[0].code = #status
 * #A042409 ^property[=].valueString = "新增"
-* #A042409 ^property[+].code = #updateDate
+* #A042409 ^property[+].code = #effectiveDate
 * #A042409 ^property[=].valueString = "2024-05"
 * #A042411 "生春補中益氣湯濃縮錠"
 * #A042411 ^property[0].code = #status
 * #A042411 ^property[=].valueString = "新增"
-* #A042411 ^property[+].code = #updateDate
+* #A042411 ^property[+].code = #effectiveDate
 * #A042411 ^property[=].valueString = "2024-05"
 * #A044344 "德山杞菊地黃丸濃縮散"
 * #A044344 ^property[0].code = #status
 * #A044344 ^property[=].valueString = "新增"
-* #A044344 ^property[+].code = #updateDate
+* #A044344 ^property[+].code = #effectiveDate
 * #A044344 ^property[=].valueString = "2024-05"
 * #A036549 "莊松榮半夏白朮天麻湯濃縮細粒"
 * #A036549 ^property[0].code = #status
 * #A036549 ^property[=].valueString = "新增"
-* #A036549 ^property[+].code = #updateDate
+* #A036549 ^property[+].code = #effectiveDate
 * #A036549 ^property[=].valueString = "2024-05"
 * #A036552 "莊松榮木香檳榔丸濃縮細粒"
 * #A036552 ^property[0].code = #status
 * #A036552 ^property[=].valueString = "新增"
-* #A036552 ^property[+].code = #updateDate
+* #A036552 ^property[+].code = #effectiveDate
 * #A036552 ^property[=].valueString = "2024-05"
 * #A057082 "天明定經湯濃縮細粒"
 * #A057082 ^property[0].code = #status
 * #A057082 ^property[=].valueString = "新增"
-* #A057082 ^property[+].code = #updateDate
+* #A057082 ^property[+].code = #effectiveDate
 * #A057082 ^property[=].valueString = "2024-05"
 * #A036553 "天明右歸丸濃縮細粒"
 * #A036553 ^property[0].code = #status
 * #A036553 ^property[=].valueString = "新增"
-* #A036553 ^property[+].code = #updateDate
+* #A036553 ^property[+].code = #effectiveDate
 * #A036553 ^property[=].valueString = "2024-05"
 * #A036554 "天明左歸丸濃縮細粒"
 * #A036554 ^property[0].code = #status
 * #A036554 ^property[=].valueString = "新增"
-* #A036554 ^property[+].code = #updateDate
+* #A036554 ^property[+].code = #effectiveDate
 * #A036554 ^property[=].valueString = "2024-05"
 * #A036555 "莊松榮小承氣湯濃縮細粒"
 * #A036555 ^property[0].code = #status
 * #A036555 ^property[=].valueString = "新增"
-* #A036555 ^property[+].code = #updateDate
+* #A036555 ^property[+].code = #effectiveDate
 * #A036555 ^property[=].valueString = "2024-05"
 * #A036557 "德山清咽利膈湯濃縮散"
 * #A036557 ^property[0].code = #status
 * #A036557 ^property[=].valueString = "新增"
-* #A036557 ^property[+].code = #updateDate
+* #A036557 ^property[+].code = #effectiveDate
 * #A036557 ^property[=].valueString = "2024-05"
 * #A042418 "仙豐三黃瀉心湯濃縮細粒"
 * #A042418 ^property[0].code = #status
 * #A042418 ^property[=].valueString = "新增"
-* #A042418 ^property[+].code = #updateDate
+* #A042418 ^property[+].code = #effectiveDate
 * #A042418 ^property[=].valueString = "2024-05"
 * #A042420 "正揚八味帶下方濃縮細粒"
 * #A042420 ^property[0].code = #status
 * #A042420 ^property[=].valueString = "新增"
-* #A042420 ^property[+].code = #updateDate
+* #A042420 ^property[+].code = #effectiveDate
 * #A042420 ^property[=].valueString = "2024-05"
 * #A042421 "萬國萆薢分清飲濃縮細粒"
 * #A042421 ^property[0].code = #status
 * #A042421 ^property[=].valueString = "新增"
-* #A042421 ^property[+].code = #updateDate
+* #A042421 ^property[+].code = #effectiveDate
 * #A042421 ^property[=].valueString = "2024-05"
 * #A042422 "東陽疏肝湯濃縮細粒"
 * #A042422 ^property[0].code = #status
 * #A042422 ^property[=].valueString = "新增"
-* #A042422 ^property[+].code = #updateDate
+* #A042422 ^property[+].code = #effectiveDate
 * #A042422 ^property[=].valueString = "2024-05"
 * #A042429 "萬國七寶美髯丹濃縮細粒"
 * #A042429 ^property[0].code = #status
 * #A042429 ^property[=].valueString = "新增"
-* #A042429 ^property[+].code = #updateDate
+* #A042429 ^property[+].code = #effectiveDate
 * #A042429 ^property[=].valueString = "2024-05"
 * #A042430 "萬國調經丸濃縮細粒"
 * #A042430 ^property[0].code = #status
 * #A042430 ^property[=].valueString = "新增"
-* #A042430 ^property[+].code = #updateDate
+* #A042430 ^property[+].code = #effectiveDate
 * #A042430 ^property[=].valueString = "2024-05"
 * #A042431 "萬國茵陳五苓散濃縮細粒"
 * #A042431 ^property[0].code = #status
 * #A042431 ^property[=].valueString = "新增"
-* #A042431 ^property[+].code = #updateDate
+* #A042431 ^property[+].code = #effectiveDate
 * #A042431 ^property[=].valueString = "2024-05"
 * #A044304 "德山疏經活血湯濃縮散"
 * #A044304 ^property[0].code = #status
 * #A044304 ^property[=].valueString = "新增"
-* #A044304 ^property[+].code = #updateDate
+* #A044304 ^property[+].code = #effectiveDate
 * #A044304 ^property[=].valueString = "2024-05"
 * #A056106 "勸奉堂清暑益氣湯濃縮細粒"
 * #A056106 ^property[0].code = #status
 * #A056106 ^property[=].valueString = "新增"
-* #A056106 ^property[+].code = #updateDate
+* #A056106 ^property[+].code = #effectiveDate
 * #A056106 ^property[=].valueString = "2024-05"
 * #A056177 "勸奉堂四逆散濃縮細粒"
 * #A056177 ^property[0].code = #status
 * #A056177 ^property[=].valueString = "新增"
-* #A056177 ^property[+].code = #updateDate
+* #A056177 ^property[+].code = #effectiveDate
 * #A056177 ^property[=].valueString = "2024-05"
 * #A045661 "莊松榮四逆散濃縮錠"
 * #A045661 ^property[0].code = #status
 * #A045661 ^property[=].valueString = "新增"
-* #A045661 ^property[+].code = #updateDate
+* #A045661 ^property[+].code = #effectiveDate
 * #A045661 ^property[=].valueString = "2024-05"
 * #A057085 "仙豐橘皮竹茹湯濃縮散"
 * #A057085 ^property[0].code = #status
 * #A057085 ^property[=].valueString = "新增"
-* #A057085 ^property[+].code = #updateDate
+* #A057085 ^property[+].code = #effectiveDate
 * #A057085 ^property[=].valueString = "2024-05"
 * #A030992 "莊松榮桑菊飲濃縮細粒"
 * #A030992 ^property[0].code = #status
 * #A030992 ^property[=].valueString = "新增"
-* #A030992 ^property[+].code = #updateDate
+* #A030992 ^property[+].code = #effectiveDate
 * #A030992 ^property[=].valueString = "2024-05"
 * #A030993 "莊松榮銀翹散濃縮細粒"
 * #A030993 ^property[0].code = #status
 * #A030993 ^property[=].valueString = "新增"
-* #A030993 ^property[+].code = #updateDate
+* #A030993 ^property[+].code = #effectiveDate
 * #A030993 ^property[=].valueString = "2024-05"
 * #A045654 "富田防風通聖散濃縮細粒"
 * #A045654 ^property[0].code = #status
 * #A045654 ^property[=].valueString = "新增"
-* #A045654 ^property[+].code = #updateDate
+* #A045654 ^property[+].code = #effectiveDate
 * #A045654 ^property[=].valueString = "2024-05"
 * #A045655 "富田立血方濃縮膠囊(四物湯)"
 * #A045655 ^property[0].code = #status
 * #A045655 ^property[=].valueString = "新增"
-* #A045655 ^property[+].code = #updateDate
+* #A045655 ^property[+].code = #effectiveDate
 * #A045655 ^property[=].valueString = "2024-05"
 * #A045657 "順然大柴胡湯濃縮錠"
 * #A045657 ^property[0].code = #status
 * #A045657 ^property[=].valueString = "新增"
-* #A045657 ^property[+].code = #updateDate
+* #A045657 ^property[+].code = #effectiveDate
 * #A045657 ^property[=].valueString = "2024-05"
 * #A045659 "港香蘭二陳湯濃縮錠"
 * #A045659 ^property[0].code = #status
 * #A045659 ^property[=].valueString = "新增"
-* #A045659 ^property[+].code = #updateDate
+* #A045659 ^property[+].code = #effectiveDate
 * #A045659 ^property[=].valueString = "2024-05"
 * #A045660 "港香蘭溫膽湯濃縮錠"
 * #A045660 ^property[0].code = #status
 * #A045660 ^property[=].valueString = "新增"
-* #A045660 ^property[+].code = #updateDate
+* #A045660 ^property[+].code = #effectiveDate
 * #A045660 ^property[=].valueString = "2024-05"
 * #A045662 "生春當歸飲子濃縮細粒"
 * #A045662 ^property[0].code = #status
 * #A045662 ^property[=].valueString = "新增"
-* #A045662 ^property[+].code = #updateDate
+* #A045662 ^property[+].code = #effectiveDate
 * #A045662 ^property[=].valueString = "2024-05"
 * #A045663 "生春十六味流氣飲濃縮細粒"
 * #A045663 ^property[0].code = #status
 * #A045663 ^property[=].valueString = "新增"
-* #A045663 ^property[+].code = #updateDate
+* #A045663 ^property[+].code = #effectiveDate
 * #A045663 ^property[=].valueString = "2024-05"
 * #A049572 "德山雙解散濃縮細粒"
 * #A049572 ^property[0].code = #status
 * #A049572 ^property[=].valueString = "新增"
-* #A049572 ^property[+].code = #updateDate
+* #A049572 ^property[+].code = #effectiveDate
 * #A049572 ^property[=].valueString = "2024-05"
 * #A057090 "科達桃核承氣湯濃縮細粒"
 * #A057090 ^property[0].code = #status
 * #A057090 ^property[=].valueString = "新增"
-* #A057090 ^property[+].code = #updateDate
+* #A057090 ^property[+].code = #effectiveDate
 * #A057090 ^property[=].valueString = "2024-05"
 * #A057091 "科達苓桂朮甘湯濃縮細粒"
 * #A057091 ^property[0].code = #status
 * #A057091 ^property[=].valueString = "新增"
-* #A057091 ^property[+].code = #updateDate
+* #A057091 ^property[+].code = #effectiveDate
 * #A057091 ^property[=].valueString = "2024-05"
 * #A049569 "富田瓜蔞枳實湯濃縮細粒"
 * #A049569 ^property[0].code = #status
 * #A049569 ^property[=].valueString = "新增"
-* #A049569 ^property[+].code = #updateDate
+* #A049569 ^property[+].code = #effectiveDate
 * #A049569 ^property[=].valueString = "2024-05"
 * #A057092 "勝昌柴胡清肝湯濃縮錠"
 * #A057092 ^property[0].code = #status
 * #A057092 ^property[=].valueString = "新增"
-* #A057092 ^property[+].code = #updateDate
+* #A057092 ^property[+].code = #effectiveDate
 * #A057092 ^property[=].valueString = "2024-05"
 * #A036564 "復旦四生丸濃縮細粒"
 * #A036564 ^property[0].code = #status
 * #A036564 ^property[=].valueString = "新增"
-* #A036564 ^property[+].code = #updateDate
+* #A036564 ^property[+].code = #effectiveDate
 * #A036564 ^property[=].valueString = "2024-05"
 * #A036566 "正揚川芎茶調散濃縮細粒"
 * #A036566 ^property[0].code = #status
 * #A036566 ^property[=].valueString = "新增"
-* #A036566 ^property[+].code = #updateDate
+* #A036566 ^property[+].code = #effectiveDate
 * #A036566 ^property[=].valueString = "2024-05"
 * #A036567 "復旦洗肝明目散濃縮顆粒"
 * #A036567 ^property[0].code = #status
 * #A036567 ^property[=].valueString = "新增"
-* #A036567 ^property[+].code = #updateDate
+* #A036567 ^property[+].code = #effectiveDate
 * #A036567 ^property[=].valueString = "2024-05"
 * #A036568 "正揚歸脾湯濃縮細粒"
 * #A036568 ^property[0].code = #status
 * #A036568 ^property[=].valueString = "新增"
-* #A036568 ^property[+].code = #updateDate
+* #A036568 ^property[+].code = #effectiveDate
 * #A036568 ^property[=].valueString = "2024-05"
 * #A036569 "正揚蒼耳散濃縮細粒"
 * #A036569 ^property[0].code = #status
 * #A036569 ^property[=].valueString = "新增"
-* #A036569 ^property[+].code = #updateDate
+* #A036569 ^property[+].code = #effectiveDate
 * #A036569 ^property[=].valueString = "2024-05"
 * #A029030 "正揚桃核承氣湯濃縮散"
 * #A029030 ^property[0].code = #status
 * #A029030 ^property[=].valueString = "新增"
-* #A029030 ^property[+].code = #updateDate
+* #A029030 ^property[+].code = #effectiveDate
 * #A029030 ^property[=].valueString = "2024-05"
 * #A029031 "正揚厚朴溫中湯濃縮散"
 * #A029031 ^property[0].code = #status
 * #A029031 ^property[=].valueString = "新增"
-* #A029031 ^property[+].code = #updateDate
+* #A029031 ^property[+].code = #effectiveDate
 * #A029031 ^property[=].valueString = "2024-05"
 * #A042445 "順天堂華蓋散濃縮顆粒"
 * #A042445 ^property[0].code = #status
 * #A042445 ^property[=].valueString = "新增"
-* #A042445 ^property[+].code = #updateDate
+* #A042445 ^property[+].code = #effectiveDate
 * #A042445 ^property[=].valueString = "2024-05"
 * #A042447 "萬國麻黃附子細辛湯濃縮細粒"
 * #A042447 ^property[0].code = #status
 * #A042447 ^property[=].valueString = "新增"
-* #A042447 ^property[+].code = #updateDate
+* #A042447 ^property[+].code = #effectiveDate
 * #A042447 ^property[=].valueString = "2024-05"
 * #A045531 "正揚香砂六君子湯濃縮細粒"
 * #A045531 ^property[0].code = #status
 * #A045531 ^property[=].valueString = "新增"
-* #A045531 ^property[+].code = #updateDate
+* #A045531 ^property[+].code = #effectiveDate
 * #A045531 ^property[=].valueString = "2024-05"
 * #A059963 "順天堂銀翹散濃縮細粒"
 * #A059963 ^property[0].code = #status
 * #A059963 ^property[=].valueString = "新增"
-* #A059963 ^property[+].code = #updateDate
+* #A059963 ^property[+].code = #effectiveDate
 * #A059963 ^property[=].valueString = "2024-05"
 * #A036585 "勝昌桃紅四物湯濃縮散"
 * #A036585 ^property[0].code = #status
 * #A036585 ^property[=].valueString = "新增"
-* #A036585 ^property[+].code = #updateDate
+* #A036585 ^property[+].code = #effectiveDate
 * #A036585 ^property[=].valueString = "2024-05"
 * #A036586 "勝昌蠲痹湯濃縮散"
 * #A036586 ^property[0].code = #status
 * #A036586 ^property[=].valueString = "新增"
-* #A036586 ^property[+].code = #updateDate
+* #A036586 ^property[+].code = #effectiveDate
 * #A036586 ^property[=].valueString = "2024-05"
 * #A049571 "德山當歸飲子濃縮細粒"
 * #A049571 ^property[0].code = #status
 * #A049571 ^property[=].valueString = "新增"
-* #A049571 ^property[+].code = #updateDate
+* #A049571 ^property[+].code = #effectiveDate
 * #A049571 ^property[=].valueString = "2024-05"
 * #A059966 "勸奉堂和中漢方胃腸藥濃縮細粒"
 * #A059966 ^property[0].code = #status
 * #A059966 ^property[=].valueString = "新增"
-* #A059966 ^property[+].code = #updateDate
+* #A059966 ^property[+].code = #effectiveDate
 * #A059966 ^property[=].valueString = "2024-05"
 * #A059965 "順天堂補陽還五湯濃縮錠"
 * #A059965 ^property[0].code = #status
 * #A059965 ^property[=].valueString = "新增"
-* #A059965 ^property[+].code = #updateDate
+* #A059965 ^property[+].code = #effectiveDate
 * #A059965 ^property[=].valueString = "2024-05"
 * #A042177 "順天堂清胃散濃縮顆粒"
 * #A042177 ^property[0].code = #status
 * #A042177 ^property[=].valueString = "新增"
-* #A042177 ^property[+].code = #updateDate
+* #A042177 ^property[+].code = #effectiveDate
 * #A042177 ^property[=].valueString = "2024-05"
 * #A042178 "順天堂止嗽散濃縮顆粒"
 * #A042178 ^property[0].code = #status
 * #A042178 ^property[=].valueString = "新增"
-* #A042178 ^property[+].code = #updateDate
+* #A042178 ^property[+].code = #effectiveDate
 * #A042178 ^property[=].valueString = "2024-05"
 * #A045564 "順天堂去痘寧濃縮膜衣錠(清上防風湯）"
 * #A045564 ^property[0].code = #status
 * #A045564 ^property[=].valueString = "新增"
-* #A045564 ^property[+].code = #updateDate
+* #A045564 ^property[+].code = #effectiveDate
 * #A045564 ^property[=].valueString = "2024-05"
 * #A042466 "萬國葛根黃連黃芩湯濃縮細粒"
 * #A042466 ^property[0].code = #status
 * #A042466 ^property[=].valueString = "新增"
-* #A042466 ^property[+].code = #updateDate
+* #A042466 ^property[+].code = #effectiveDate
 * #A042466 ^property[=].valueString = "2024-05"
 * #A042474 "萬國過期飲濃縮細粒"
 * #A042474 ^property[0].code = #status
 * #A042474 ^property[=].valueString = "新增"
-* #A042474 ^property[+].code = #updateDate
+* #A042474 ^property[+].code = #effectiveDate
 * #A042474 ^property[=].valueString = "2024-05"
 * #A042477 "順然四君子湯濃縮細粒"
 * #A042477 ^property[0].code = #status
 * #A042477 ^property[=].valueString = "新增"
-* #A042477 ^property[+].code = #updateDate
+* #A042477 ^property[+].code = #effectiveDate
 * #A042477 ^property[=].valueString = "2024-05"
 * #A042478 "富田三痹湯濃縮錠"
 * #A042478 ^property[0].code = #status
 * #A042478 ^property[=].valueString = "新增"
-* #A042478 ^property[+].code = #updateDate
+* #A042478 ^property[+].code = #effectiveDate
 * #A042478 ^property[=].valueString = "2024-05"
 * #A042480 "科達十味敗毒湯濃縮錠"
 * #A042480 ^property[0].code = #status
 * #A042480 ^property[=].valueString = "新增"
-* #A042480 ^property[+].code = #updateDate
+* #A042480 ^property[+].code = #effectiveDate
 * #A042480 ^property[=].valueString = "2024-05"
 * #A042481 "萬國保和丸濃縮細粒"
 * #A042481 ^property[0].code = #status
 * #A042481 ^property[=].valueString = "新增"
-* #A042481 ^property[+].code = #updateDate
+* #A042481 ^property[+].code = #effectiveDate
 * #A042481 ^property[=].valueString = "2024-05"
 * #A042482 "萬國桃仁承氣湯濃縮細粒"
 * #A042482 ^property[0].code = #status
 * #A042482 ^property[=].valueString = "新增"
-* #A042482 ^property[+].code = #updateDate
+* #A042482 ^property[+].code = #effectiveDate
 * #A042482 ^property[=].valueString = "2024-05"
 * #A042483 "順天堂涼膈散濃縮顆粒"
 * #A042483 ^property[0].code = #status
 * #A042483 ^property[=].valueString = "新增"
-* #A042483 ^property[+].code = #updateDate
+* #A042483 ^property[+].code = #effectiveDate
 * #A042483 ^property[=].valueString = "2024-05"
 * #A042491 "富田調經丸濃縮錠"
 * #A042491 ^property[0].code = #status
 * #A042491 ^property[=].valueString = "新增"
-* #A042491 ^property[+].code = #updateDate
+* #A042491 ^property[+].code = #effectiveDate
 * #A042491 ^property[=].valueString = "2024-05"
 * #A042492 "正揚茯菟丹濃縮細粒"
 * #A042492 ^property[0].code = #status
 * #A042492 ^property[=].valueString = "新增"
-* #A042492 ^property[+].code = #updateDate
+* #A042492 ^property[+].code = #effectiveDate
 * #A042492 ^property[=].valueString = "2024-05"
 * #A049585 "港香蘭補陰湯濃縮細粒"
 * #A049585 ^property[0].code = #status
 * #A049585 ^property[=].valueString = "新增"
-* #A049585 ^property[+].code = #updateDate
+* #A049585 ^property[+].code = #effectiveDate
 * #A049585 ^property[=].valueString = "2024-05"
 * #A045687 "生春兒科杏蘇散濃縮細粒"
 * #A045687 ^property[0].code = #status
 * #A045687 ^property[=].valueString = "新增"
-* #A045687 ^property[+].code = #updateDate
+* #A045687 ^property[+].code = #effectiveDate
 * #A045687 ^property[=].valueString = "2024-05"
 * #A045689 "順天堂胃適樂濃縮膜衣錠(香砂六君子湯）"
 * #A045689 ^property[0].code = #status
 * #A045689 ^property[=].valueString = "新增"
-* #A045689 ^property[+].code = #updateDate
+* #A045689 ^property[+].code = #effectiveDate
 * #A045689 ^property[=].valueString = "2024-05"
 * #A045691 "萬國斑龍丸濃縮錠"
 * #A045691 ^property[0].code = #status
 * #A045691 ^property[=].valueString = "新增"
-* #A045691 ^property[+].code = #updateDate
+* #A045691 ^property[+].code = #effectiveDate
 * #A045691 ^property[=].valueString = "2024-05"
 * #A049584 "富田芍藥甘草湯濃縮細粒"
 * #A049584 ^property[0].code = #status
 * #A049584 ^property[=].valueString = "新增"
-* #A049584 ^property[+].code = #updateDate
+* #A049584 ^property[+].code = #effectiveDate
 * #A049584 ^property[=].valueString = "2024-05"
 * #A049588 "港香蘭升陽益胃湯濃縮細粒"
 * #A049588 ^property[0].code = #status
 * #A049588 ^property[=].valueString = "新增"
-* #A049588 ^property[+].code = #updateDate
+* #A049588 ^property[+].code = #effectiveDate
 * #A049588 ^property[=].valueString = "2024-05"
 * #A049587 "港香蘭連翹敗毒散濃縮細粒"
 * #A049587 ^property[0].code = #status
 * #A049587 ^property[=].valueString = "新增"
-* #A049587 ^property[+].code = #updateDate
+* #A049587 ^property[+].code = #effectiveDate
 * #A049587 ^property[=].valueString = "2024-05"
 * #A036604 "莊松榮旋覆代赭石湯濃縮細粒"
 * #A036604 ^property[0].code = #status
 * #A036604 ^property[=].valueString = "新增"
-* #A036604 ^property[+].code = #updateDate
+* #A036604 ^property[+].code = #effectiveDate
 * #A036604 ^property[=].valueString = "2024-05"
 * #A036606 "晉安右歸丸濃縮顆粒"
 * #A036606 ^property[0].code = #status
 * #A036606 ^property[=].valueString = "新增"
-* #A036606 ^property[+].code = #updateDate
+* #A036606 ^property[+].code = #effectiveDate
 * #A036606 ^property[=].valueString = "2024-05"
 * #A036607 "晉安左歸丸濃縮顆粒"
 * #A036607 ^property[0].code = #status
 * #A036607 ^property[=].valueString = "新增"
-* #A036607 ^property[+].code = #updateDate
+* #A036607 ^property[+].code = #effectiveDate
 * #A036607 ^property[=].valueString = "2024-05"
 * #A057094 "信宏女科柏子仁丸濃縮細粒"
 * #A057094 ^property[0].code = #status
 * #A057094 ^property[=].valueString = "新增"
-* #A057094 ^property[+].code = #updateDate
+* #A057094 ^property[+].code = #effectiveDate
 * #A057094 ^property[=].valueString = "2024-05"
 * #A057096 "科達五苓散濃縮細粒"
 * #A057096 ^property[0].code = #status
 * #A057096 ^property[=].valueString = "新增"
-* #A057096 ^property[+].code = #updateDate
+* #A057096 ^property[+].code = #effectiveDate
 * #A057096 ^property[=].valueString = "2024-05"
 * #A057097 "三才堂麻杏甘石湯濃縮細粒"
 * #A057097 ^property[0].code = #status
 * #A057097 ^property[=].valueString = "新增"
-* #A057097 ^property[+].code = #updateDate
+* #A057097 ^property[+].code = #effectiveDate
 * #A057097 ^property[=].valueString = "2024-05"
 * #A057098 "三才堂柴胡疏肝湯濃縮細粒"
 * #A057098 ^property[0].code = #status
 * #A057098 ^property[=].valueString = "新增"
-* #A057098 ^property[+].code = #updateDate
+* #A057098 ^property[+].code = #effectiveDate
 * #A057098 ^property[=].valueString = "2024-05"
 * #A057099 "三才堂甘麥大棗湯濃縮細粒"
 * #A057099 ^property[0].code = #status
 * #A057099 ^property[=].valueString = "新增"
-* #A057099 ^property[+].code = #updateDate
+* #A057099 ^property[+].code = #effectiveDate
 * #A057099 ^property[=].valueString = "2024-05"
 * #A057102 "天一抵當湯濃縮顆粒"
 * #A057102 ^property[0].code = #status
 * #A057102 ^property[=].valueString = "新增"
-* #A057102 ^property[+].code = #updateDate
+* #A057102 ^property[+].code = #effectiveDate
 * #A057102 ^property[=].valueString = "2024-05"
 * #A049611 "天明普濟消毒飲濃縮細粒"
 * #A049611 ^property[0].code = #status
 * #A049611 ^property[=].valueString = "新增"
-* #A049611 ^property[+].code = #updateDate
+* #A049611 ^property[+].code = #effectiveDate
 * #A049611 ^property[=].valueString = "2024-05"
 * #A036619 "晉安辛夷清肺湯濃縮顆粒"
 * #A036619 ^property[0].code = #status
 * #A036619 ^property[=].valueString = "新增"
-* #A036619 ^property[+].code = #updateDate
+* #A036619 ^property[+].code = #effectiveDate
 * #A036619 ^property[=].valueString = "2024-05"
 * #A036620 "晉安濟生腎氣丸濃縮顆粒"
 * #A036620 ^property[0].code = #status
 * #A036620 ^property[=].valueString = "新增"
-* #A036620 ^property[+].code = #updateDate
+* #A036620 ^property[+].code = #effectiveDate
 * #A036620 ^property[=].valueString = "2024-05"
 * #A036622 "德山普濟消毒飲濃縮散"
 * #A036622 ^property[0].code = #status
 * #A036622 ^property[=].valueString = "新增"
-* #A036622 ^property[+].code = #updateDate
+* #A036622 ^property[+].code = #effectiveDate
 * #A036622 ^property[=].valueString = "2024-05"
 * #A036627 "漢聖濟生腎氣丸濃縮散"
 * #A036627 ^property[0].code = #status
 * #A036627 ^property[=].valueString = "新增"
-* #A036627 ^property[+].code = #updateDate
+* #A036627 ^property[+].code = #effectiveDate
 * #A036627 ^property[=].valueString = "2024-05"
 * #A041768 "仙豐補中益氣湯濃縮細粒"
 * #A041768 ^property[0].code = #status
 * #A041768 ^property[=].valueString = "新增"
-* #A041768 ^property[+].code = #updateDate
+* #A041768 ^property[+].code = #effectiveDate
 * #A041768 ^property[=].valueString = "2024-05"
 * #A041769 "仙豐龍膽瀉肝湯濃縮細粒"
 * #A041769 ^property[0].code = #status
 * #A041769 ^property[=].valueString = "新增"
-* #A041769 ^property[+].code = #updateDate
+* #A041769 ^property[+].code = #effectiveDate
 * #A041769 ^property[=].valueString = "2024-05"
 * #A041770 "仙豐六味地黃丸濃縮細粒"
 * #A041770 ^property[0].code = #status
 * #A041770 ^property[=].valueString = "新增"
-* #A041770 ^property[+].code = #updateDate
+* #A041770 ^property[+].code = #effectiveDate
 * #A041770 ^property[=].valueString = "2024-05"
 * #A044343 "德山還少丹濃縮散"
 * #A044343 ^property[0].code = #status
 * #A044343 ^property[=].valueString = "新增"
-* #A044343 ^property[+].code = #updateDate
+* #A044343 ^property[+].code = #effectiveDate
 * #A044343 ^property[=].valueString = "2024-05"
 * #A045982 "三帆三帆胃寶樂散濃縮細粒(藿香正氣散)"
 * #A045982 ^property[0].code = #status
 * #A045982 ^property[=].valueString = "新增"
-* #A045982 ^property[+].code = #updateDate
+* #A045982 ^property[+].code = #effectiveDate
 * #A045982 ^property[=].valueString = "2024-05"
 * #A049613 "港香蘭當歸拈痛湯濃縮錠"
 * #A049613 ^property[0].code = #status
 * #A049613 ^property[=].valueString = "新增"
-* #A049613 ^property[+].code = #updateDate
+* #A049613 ^property[+].code = #effectiveDate
 * #A049613 ^property[=].valueString = "2024-05"
 * #A057105 "科達二陳湯濃縮細粒"
 * #A057105 ^property[0].code = #status
 * #A057105 ^property[=].valueString = "新增"
-* #A057105 ^property[+].code = #updateDate
+* #A057105 ^property[+].code = #effectiveDate
 * #A057105 ^property[=].valueString = "2024-05"
 * #A046219 "正揚二陳湯濃縮細粒"
 * #A046219 ^property[0].code = #status
 * #A046219 ^property[=].valueString = "新增"
-* #A046219 ^property[+].code = #updateDate
+* #A046219 ^property[+].code = #effectiveDate
 * #A046219 ^property[=].valueString = "2024-05"
 * #A029110 "科達疏經活血湯濃縮散"
 * #A029110 ^property[0].code = #status
 * #A029110 ^property[=].valueString = "新增"
-* #A029110 ^property[+].code = #updateDate
+* #A029110 ^property[+].code = #effectiveDate
 * #A029110 ^property[=].valueString = "2024-05"
 * #A029112 "科達八正散濃縮散"
 * #A029112 ^property[0].code = #status
 * #A029112 ^property[=].valueString = "新增"
-* #A029112 ^property[+].code = #updateDate
+* #A029112 ^property[+].code = #effectiveDate
 * #A029112 ^property[=].valueString = "2024-05"
 * #A029113 "科達十味敗毒湯濃縮散"
 * #A029113 ^property[0].code = #status
 * #A029113 ^property[=].valueString = "新增"
-* #A029113 ^property[+].code = #updateDate
+* #A029113 ^property[+].code = #effectiveDate
 * #A029113 ^property[=].valueString = "2024-05"
 * #A059969 "科達十味敗毒湯濃縮細粒"
 * #A059969 ^property[0].code = #status
 * #A059969 ^property[=].valueString = "新增"
-* #A059969 ^property[+].code = #updateDate
+* #A059969 ^property[+].code = #effectiveDate
 * #A059969 ^property[=].valueString = "2024-05"
 * #A045713 "順天堂活氣勇骨濃縮膜衣錠(龜鹿二仙膠）"
 * #A045713 ^property[0].code = #status
 * #A045713 ^property[=].valueString = "新增"
-* #A045713 ^property[+].code = #updateDate
+* #A045713 ^property[+].code = #effectiveDate
 * #A045713 ^property[=].valueString = "2024-05"
 * #A045715 "正揚麻杏薏甘湯濃縮細粒"
 * #A045715 ^property[0].code = #status
 * #A045715 ^property[=].valueString = "新增"
-* #A045715 ^property[+].code = #updateDate
+* #A045715 ^property[+].code = #effectiveDate
 * #A045715 ^property[=].valueString = "2024-05"
 * #A045716 "正揚附子理中湯濃縮細粒"
 * #A045716 ^property[0].code = #status
 * #A045716 ^property[=].valueString = "新增"
-* #A045716 ^property[+].code = #updateDate
+* #A045716 ^property[+].code = #effectiveDate
 * #A045716 ^property[=].valueString = "2024-05"
 * #A045717 "正揚清上蠲痛湯濃縮細粒"
 * #A045717 ^property[0].code = #status
 * #A045717 ^property[=].valueString = "新增"
-* #A045717 ^property[+].code = #updateDate
+* #A045717 ^property[+].code = #effectiveDate
 * #A045717 ^property[=].valueString = "2024-05"
 * #A036670 "天明黃耆建中湯濃縮細粒"
 * #A036670 ^property[0].code = #status
 * #A036670 ^property[=].valueString = "新增"
-* #A036670 ^property[+].code = #updateDate
+* #A036670 ^property[+].code = #effectiveDate
 * #A036670 ^property[=].valueString = "2024-05"
 * #A036682 "勝昌兒科杏蘇散濃縮散"
 * #A036682 ^property[0].code = #status
 * #A036682 ^property[=].valueString = "新增"
-* #A036682 ^property[+].code = #updateDate
+* #A036682 ^property[+].code = #effectiveDate
 * #A036682 ^property[=].valueString = "2024-05"
 * #A036683 "勝昌雙解散濃縮散（防風通聖散去硝黃)"
 * #A036683 ^property[0].code = #status
 * #A036683 ^property[=].valueString = "新增"
-* #A036683 ^property[+].code = #updateDate
+* #A036683 ^property[+].code = #effectiveDate
 * #A036683 ^property[=].valueString = "2024-05"
 * #A036684 "勝昌大秦艽湯濃縮散"
 * #A036684 ^property[0].code = #status
 * #A036684 ^property[=].valueString = "新增"
-* #A036684 ^property[+].code = #updateDate
+* #A036684 ^property[+].code = #effectiveDate
 * #A036684 ^property[=].valueString = "2024-05"
 * #A036685 "勝昌過期飲濃縮散"
 * #A036685 ^property[0].code = #status
 * #A036685 ^property[=].valueString = "新增"
-* #A036685 ^property[+].code = #updateDate
+* #A036685 ^property[+].code = #effectiveDate
 * #A036685 ^property[=].valueString = "2024-05"
 * #A036686 "德山羌活勝溼湯濃縮散"
 * #A036686 ^property[0].code = #status
 * #A036686 ^property[=].valueString = "新增"
-* #A036686 ^property[+].code = #updateDate
+* #A036686 ^property[+].code = #effectiveDate
 * #A036686 ^property[=].valueString = "2024-05"
 * #A036688 "天明完帶湯濃縮細粒"
 * #A036688 ^property[0].code = #status
 * #A036688 ^property[=].valueString = "新增"
-* #A036688 ^property[+].code = #updateDate
+* #A036688 ^property[+].code = #effectiveDate
 * #A036688 ^property[=].valueString = "2024-05"
 * #A042432 "萬國木防己湯濃縮細粒"
 * #A042432 ^property[0].code = #status
 * #A042432 ^property[=].valueString = "新增"
-* #A042432 ^property[+].code = #updateDate
+* #A042432 ^property[+].code = #effectiveDate
 * #A042432 ^property[=].valueString = "2024-05"
 * #A042487 "順天堂竹葉石膏湯濃縮顆粒"
 * #A042487 ^property[0].code = #status
 * #A042487 ^property[=].valueString = "新增"
-* #A042487 ^property[+].code = #updateDate
+* #A042487 ^property[+].code = #effectiveDate
 * #A042487 ^property[=].valueString = "2024-05"
 * #A042488 "順然三黃瀉心湯濃縮錠"
 * #A042488 ^property[0].code = #status
 * #A042488 ^property[=].valueString = "新增"
-* #A042488 ^property[+].code = #updateDate
+* #A042488 ^property[+].code = #effectiveDate
 * #A042488 ^property[=].valueString = "2024-05"
 * #A042489 "萬國天麻?藤飲濃縮細粒"
 * #A042489 ^property[0].code = #status
 * #A042489 ^property[=].valueString = "新增"
-* #A042489 ^property[+].code = #updateDate
+* #A042489 ^property[+].code = #effectiveDate
 * #A042489 ^property[=].valueString = "2024-05"
 * #A042490 "東陽麥門冬湯濃縮細粒"
 * #A042490 ^property[0].code = #status
 * #A042490 ^property[=].valueString = "新增"
-* #A042490 ^property[+].code = #updateDate
+* #A042490 ^property[+].code = #effectiveDate
 * #A042490 ^property[=].valueString = "2024-05"
 * #A042541 "萬國黃耆建中湯濃縮細粒"
 * #A042541 ^property[0].code = #status
 * #A042541 ^property[=].valueString = "新增"
-* #A042541 ^property[+].code = #updateDate
+* #A042541 ^property[+].code = #effectiveDate
 * #A042541 ^property[=].valueString = "2024-05"
 * #A042542 "東陽當歸芍藥散濃縮細粒"
 * #A042542 ^property[0].code = #status
 * #A042542 ^property[=].valueString = "新增"
-* #A042542 ^property[+].code = #updateDate
+* #A042542 ^property[+].code = #effectiveDate
 * #A042542 ^property[=].valueString = "2024-05"
 * #A042543 "生春祛風止痛丸濃縮丸"
 * #A042543 ^property[0].code = #status
 * #A042543 ^property[=].valueString = "新增"
-* #A042543 ^property[+].code = #updateDate
+* #A042543 ^property[+].code = #effectiveDate
 * #A042543 ^property[=].valueString = "2024-05"
 * #A042545 "萬國八珍湯濃縮細粒"
 * #A042545 ^property[0].code = #status
 * #A042545 ^property[=].valueString = "新增"
-* #A042545 ^property[+].code = #updateDate
+* #A042545 ^property[+].code = #effectiveDate
 * #A042545 ^property[=].valueString = "2024-05"
 * #A042547 "萬國當歸六黃湯濃縮細粒"
 * #A042547 ^property[0].code = #status
 * #A042547 ^property[=].valueString = "新增"
-* #A042547 ^property[+].code = #updateDate
+* #A042547 ^property[+].code = #effectiveDate
 * #A042547 ^property[=].valueString = "2024-05"
 * #A042552 "萬國五味消毒飲濃縮細粒"
 * #A042552 ^property[0].code = #status
 * #A042552 ^property[=].valueString = "新增"
-* #A042552 ^property[+].code = #updateDate
+* #A042552 ^property[+].code = #effectiveDate
 * #A042552 ^property[=].valueString = "2024-05"
 * #A055136 "領先萆薢分清飲濃縮細粒"
 * #A055136 ^property[0].code = #status
 * #A055136 ^property[=].valueString = "新增"
-* #A055136 ^property[+].code = #updateDate
+* #A055136 ^property[+].code = #effectiveDate
 * #A055136 ^property[=].valueString = "2024-05"
 * #A049642 "三才堂疏經活血湯濃縮膠囊"
 * #A049642 ^property[0].code = #status
 * #A049642 ^property[=].valueString = "新增"
-* #A049642 ^property[+].code = #updateDate
+* #A049642 ^property[+].code = #effectiveDate
 * #A049642 ^property[=].valueString = "2024-05"
 * #A057107 "天明頓嗽散濃縮細粒"
 * #A057107 ^property[0].code = #status
 * #A057107 ^property[=].valueString = "新增"
-* #A057107 ^property[+].code = #updateDate
+* #A057107 ^property[+].code = #effectiveDate
 * #A057107 ^property[=].valueString = "2024-05"
 * #A049643 "晉安晉安固腎丸濃縮細粒"
 * #A049643 ^property[0].code = #status
 * #A049643 ^property[=].valueString = "新增"
-* #A049643 ^property[+].code = #updateDate
+* #A049643 ^property[+].code = #effectiveDate
 * #A049643 ^property[=].valueString = "2024-05"
 * #A049644 "仙豐紫菀湯濃縮細粒"
 * #A049644 ^property[0].code = #status
 * #A049644 ^property[=].valueString = "新增"
-* #A049644 ^property[+].code = #updateDate
+* #A049644 ^property[+].code = #effectiveDate
 * #A049644 ^property[=].valueString = "2024-05"
 * #A049647 "富田玉泉丸濃縮細粒"
 * #A049647 ^property[0].code = #status
 * #A049647 ^property[=].valueString = "新增"
-* #A049647 ^property[+].code = #updateDate
+* #A049647 ^property[+].code = #effectiveDate
 * #A049647 ^property[=].valueString = "2024-05"
 * #A057117 "科達逍遙散濃縮細粒"
 * #A057117 ^property[0].code = #status
 * #A057117 ^property[=].valueString = "新增"
-* #A057117 ^property[+].code = #updateDate
+* #A057117 ^property[+].code = #effectiveDate
 * #A057117 ^property[=].valueString = "2024-05"
 * #A031037 "天一人參養榮湯濃縮顆粒"
 * #A031037 ^property[0].code = #status
 * #A031037 ^property[=].valueString = "新增"
-* #A031037 ^property[+].code = #updateDate
+* #A031037 ^property[+].code = #effectiveDate
 * #A031037 ^property[=].valueString = "2024-05"
 * #A031038 "天一半夏厚朴湯濃縮顆粒"
 * #A031038 ^property[0].code = #status
 * #A031038 ^property[=].valueString = "新增"
-* #A031038 ^property[+].code = #updateDate
+* #A031038 ^property[+].code = #effectiveDate
 * #A031038 ^property[=].valueString = "2024-05"
 * #A031040 "天一辛夷散濃縮顆粒"
 * #A031040 ^property[0].code = #status
 * #A031040 ^property[=].valueString = "新增"
-* #A031040 ^property[+].code = #updateDate
+* #A031040 ^property[+].code = #effectiveDate
 * #A031040 ^property[=].valueString = "2024-05"
 * #A031041 "天一麥門冬湯濃縮顆"
 * #A031041 ^property[0].code = #status
 * #A031041 ^property[=].valueString = "新增"
-* #A031041 ^property[+].code = #updateDate
+* #A031041 ^property[+].code = #effectiveDate
 * #A031041 ^property[=].valueString = "2024-05"
 * #A031042 "天一九味羌活湯濃縮顆粒"
 * #A031042 ^property[0].code = #status
 * #A031042 ^property[=].valueString = "新增"
-* #A031042 ^property[+].code = #updateDate
+* #A031042 ^property[+].code = #effectiveDate
 * #A031042 ^property[=].valueString = "2024-05"
 * #A042559 "東陽黃連解毒湯濃縮細粒"
 * #A042559 ^property[0].code = #status
 * #A042559 ^property[=].valueString = "新增"
-* #A042559 ^property[+].code = #updateDate
+* #A042559 ^property[+].code = #effectiveDate
 * #A042559 ^property[=].valueString = "2024-05"
 * #A045726 "仁濟明朝龍之湯濃縮細粒"
 * #A045726 ^property[0].code = #status
 * #A045726 ^property[=].valueString = "新增"
-* #A045726 ^property[+].code = #updateDate
+* #A045726 ^property[+].code = #effectiveDate
 * #A045726 ^property[=].valueString = "2024-05"
 * #A057121 "領先防己黃耆湯濃縮錠"
 * #A057121 ^property[0].code = #status
 * #A057121 ^property[=].valueString = "新增"
-* #A057121 ^property[+].code = #updateDate
+* #A057121 ^property[+].code = #effectiveDate
 * #A057121 ^property[=].valueString = "2024-05"
 * #A042563 "科達當歸芍藥散濃縮錠"
 * #A042563 ^property[0].code = #status
 * #A042563 ^property[=].valueString = "新增"
-* #A042563 ^property[+].code = #updateDate
+* #A042563 ^property[+].code = #effectiveDate
 * #A042563 ^property[=].valueString = "2024-05"
 * #A045740 "順天堂保和丸濃縮顆粒"
 * #A045740 ^property[0].code = #status
 * #A045740 ^property[=].valueString = "新增"
-* #A045740 ^property[+].code = #updateDate
+* #A045740 ^property[+].code = #effectiveDate
 * #A045740 ^property[=].valueString = "2024-05"
 * #A045744 "正揚還少丹濃縮丸"
 * #A045744 ^property[0].code = #status
 * #A045744 ^property[=].valueString = "新增"
-* #A045744 ^property[+].code = #updateDate
+* #A045744 ^property[+].code = #effectiveDate
 * #A045744 ^property[=].valueString = "2024-05"
 * #A045745 "港香蘭身通逐瘀湯濃縮錠"
 * #A045745 ^property[0].code = #status
 * #A045745 ^property[=].valueString = "新增"
-* #A045745 ^property[+].code = #updateDate
+* #A045745 ^property[+].code = #effectiveDate
 * #A045745 ^property[=].valueString = "2024-05"
 * #A045746 "港香蘭左歸丸濃縮錠"
 * #A045746 ^property[0].code = #status
 * #A045746 ^property[=].valueString = "新增"
-* #A045746 ^property[+].code = #updateDate
+* #A045746 ^property[+].code = #effectiveDate
 * #A045746 ^property[=].valueString = "2024-05"
 * #A055078 "領先芍藥甘草湯濃縮細粒"
 * #A055078 ^property[0].code = #status
 * #A055078 ^property[=].valueString = "新增"
-* #A055078 ^property[+].code = #updateDate
+* #A055078 ^property[+].code = #effectiveDate
 * #A055078 ^property[=].valueString = "2024-05"
 * #A056459 "順天堂瀉白散濃縮顆粒"
 * #A056459 ^property[0].code = #status
 * #A056459 ^property[=].valueString = "新增"
-* #A056459 ^property[+].code = #updateDate
+* #A056459 ^property[+].code = #effectiveDate
 * #A056459 ^property[=].valueString = "2024-05"
 * #A059975 "領先蠲痹湯濃縮錠"
 * #A059975 ^property[0].code = #status
 * #A059975 ^property[=].valueString = "新增"
-* #A059975 ^property[+].code = #updateDate
+* #A059975 ^property[+].code = #effectiveDate
 * #A059975 ^property[=].valueString = "2024-05"
 * #A056131 "勸奉堂小續命湯濃縮細粒"
 * #A056131 ^property[0].code = #status
 * #A056131 ^property[=].valueString = "新增"
-* #A056131 ^property[+].code = #updateDate
+* #A056131 ^property[+].code = #effectiveDate
 * #A056131 ^property[=].valueString = "2024-05"
 * #A057156 "三才堂川芎茶調散濃縮細粒"
 * #A057156 ^property[0].code = #status
 * #A057156 ^property[=].valueString = "新增"
-* #A057156 ^property[+].code = #updateDate
+* #A057156 ^property[+].code = #effectiveDate
 * #A057156 ^property[=].valueString = "2024-05"
 * #A049682 "晉安大黃蟅蟲丸濃縮細粒"
 * #A049682 ^property[0].code = #status
 * #A049682 ^property[=].valueString = "新增"
-* #A049682 ^property[+].code = #updateDate
+* #A049682 ^property[+].code = #effectiveDate
 * #A049682 ^property[=].valueString = "2024-05"
 * #A049684 "港香蘭肥兒八珍糕濃縮細粒"
 * #A049684 ^property[0].code = #status
 * #A049684 ^property[=].valueString = "新增"
-* #A049684 ^property[+].code = #updateDate
+* #A049684 ^property[+].code = #effectiveDate
 * #A049684 ^property[=].valueString = "2024-05"
 * #A056596 "領先順暢潤腸濃縮膠囊(麻子仁丸)"
 * #A056596 ^property[0].code = #status
 * #A056596 ^property[=].valueString = "新增"
-* #A056596 ^property[+].code = #updateDate
+* #A056596 ^property[+].code = #effectiveDate
 * #A056596 ^property[=].valueString = "2024-05"
 * #A057147 "領先茵陳五苓散濃縮錠"
 * #A057147 ^property[0].code = #status
 * #A057147 ^property[=].valueString = "新增"
-* #A057147 ^property[+].code = #updateDate
+* #A057147 ^property[+].code = #effectiveDate
 * #A057147 ^property[=].valueString = "2024-05"
 * #A057155 "三才堂芎歸膠艾湯濃縮細粒"
 * #A057155 ^property[0].code = #status
 * #A057155 ^property[=].valueString = "新增"
-* #A057155 ^property[+].code = #updateDate
+* #A057155 ^property[+].code = #effectiveDate
 * #A057155 ^property[=].valueString = "2024-05"
 * #A057154 "信宏升陽益胃湯濃縮細粒"
 * #A057154 ^property[0].code = #status
 * #A057154 ^property[=].valueString = "新增"
-* #A057154 ^property[+].code = #updateDate
+* #A057154 ^property[+].code = #effectiveDate
 * #A057154 ^property[=].valueString = "2024-05"
 * #A036741 "生春黃耆建中湯濃縮細粒"
 * #A036741 ^property[0].code = #status
 * #A036741 ^property[=].valueString = "新增"
-* #A036741 ^property[+].code = #updateDate
+* #A036741 ^property[+].code = #effectiveDate
 * #A036741 ^property[=].valueString = "2024-05"
 * #A036742 "生春柴胡桂枝乾薑湯濃縮細粒"
 * #A036742 ^property[0].code = #status
 * #A036742 ^property[=].valueString = "新增"
-* #A036742 ^property[+].code = #updateDate
+* #A036742 ^property[+].code = #effectiveDate
 * #A036742 ^property[=].valueString = "2024-05"
 * #A036743 "生春補陽還五湯濃縮細粒"
 * #A036743 ^property[0].code = #status
 * #A036743 ^property[=].valueString = "新增"
-* #A036743 ^property[+].code = #updateDate
+* #A036743 ^property[+].code = #effectiveDate
 * #A036743 ^property[=].valueString = "2024-05"
 * #A036744 "生春左歸丸濃縮細粒"
 * #A036744 ^property[0].code = #status
 * #A036744 ^property[=].valueString = "新增"
-* #A036744 ^property[+].code = #updateDate
+* #A036744 ^property[+].code = #effectiveDate
 * #A036744 ^property[=].valueString = "2024-05"
 * #A036745 "生春右歸丸濃縮細粒"
 * #A036745 ^property[0].code = #status
 * #A036745 ^property[=].valueString = "新增"
-* #A036745 ^property[+].code = #updateDate
+* #A036745 ^property[+].code = #effectiveDate
 * #A036745 ^property[=].valueString = "2024-05"
 * #A036746 "生春五苓散濃縮細粒"
 * #A036746 ^property[0].code = #status
 * #A036746 ^property[=].valueString = "新增"
-* #A036746 ^property[+].code = #updateDate
+* #A036746 ^property[+].code = #effectiveDate
 * #A036746 ^property[=].valueString = "2024-05"
 * #A049681 "勸奉堂芍藥甘草湯濃縮細粒"
 * #A049681 ^property[0].code = #status
 * #A049681 ^property[=].valueString = "新增"
-* #A049681 ^property[+].code = #updateDate
+* #A049681 ^property[+].code = #effectiveDate
 * #A049681 ^property[=].valueString = "2024-05"
 * #A049683 "富田抑肝散濃縮細粒"
 * #A049683 ^property[0].code = #status
 * #A049683 ^property[=].valueString = "新增"
-* #A049683 ^property[+].code = #updateDate
+* #A049683 ^property[+].code = #effectiveDate
 * #A049683 ^property[=].valueString = "2024-05"
 * #A059978 "順天堂荊芥連翹湯濃縮散"
 * #A059978 ^property[0].code = #status
 * #A059978 ^property[=].valueString = "新增"
-* #A059978 ^property[+].code = #updateDate
+* #A059978 ^property[+].code = #effectiveDate
 * #A059978 ^property[=].valueString = "2024-05"
 * #A056931 "領先半夏瀉心湯濃縮細粒"
 * #A056931 ^property[0].code = #status
 * #A056931 ^property[=].valueString = "新增"
-* #A056931 ^property[+].code = #updateDate
+* #A056931 ^property[+].code = #effectiveDate
 * #A056931 ^property[=].valueString = "2024-05"
 * #A045758 "港香蘭黃耆建中湯濃縮細粒"
 * #A045758 ^property[0].code = #status
 * #A045758 ^property[=].valueString = "新增"
-* #A045758 ^property[+].code = #updateDate
+* #A045758 ^property[+].code = #effectiveDate
 * #A045758 ^property[=].valueString = "2024-05"
 * #A045760 "富田寧嗽丸濃縮細粒"
 * #A045760 ^property[0].code = #status
 * #A045760 ^property[=].valueString = "新增"
-* #A045760 ^property[+].code = #updateDate
+* #A045760 ^property[+].code = #effectiveDate
 * #A045760 ^property[=].valueString = "2024-05"
 * #A045761 "德山葛根黃連黃芩湯濃縮細粒"
 * #A045761 ^property[0].code = #status
 * #A045761 ^property[=].valueString = "新增"
-* #A045761 ^property[+].code = #updateDate
+* #A045761 ^property[+].code = #effectiveDate
 * #A045761 ^property[=].valueString = "2024-05"
 * #A045762 "東陽酸棗仁湯濃縮細粒"
 * #A045762 ^property[0].code = #status
 * #A045762 ^property[=].valueString = "新增"
-* #A045762 ^property[+].code = #updateDate
+* #A045762 ^property[+].code = #effectiveDate
 * #A045762 ^property[=].valueString = "2024-05"
 * #A045763 "東陽天王補心丹濃縮細粒"
 * #A045763 ^property[0].code = #status
 * #A045763 ^property[=].valueString = "新增"
-* #A045763 ^property[+].code = #updateDate
+* #A045763 ^property[+].code = #effectiveDate
 * #A045763 ^property[=].valueString = "2024-05"
 * #A045764 "順天堂銀翹散濃縮顆粒"
 * #A045764 ^property[0].code = #status
 * #A045764 ^property[=].valueString = "新增"
-* #A045764 ^property[+].code = #updateDate
+* #A045764 ^property[+].code = #effectiveDate
 * #A045764 ^property[=].valueString = "2024-05"
 * #A045765 "勝昌天王補心丹濃縮細粒"
 * #A045765 ^property[0].code = #status
 * #A045765 ^property[=].valueString = "新增"
-* #A045765 ^property[+].code = #updateDate
+* #A045765 ^property[+].code = #effectiveDate
 * #A045765 ^property[=].valueString = "2024-05"
 * #A045770 "正揚五味消毒飲濃縮細粒"
 * #A045770 ^property[0].code = #status
 * #A045770 ^property[=].valueString = "新增"
-* #A045770 ^property[+].code = #updateDate
+* #A045770 ^property[+].code = #effectiveDate
 * #A045770 ^property[=].valueString = "2024-05"
 * #A045771 "正揚涼膈散濃縮細粒"
 * #A045771 ^property[0].code = #status
 * #A045771 ^property[=].valueString = "新增"
-* #A045771 ^property[+].code = #updateDate
+* #A045771 ^property[+].code = #effectiveDate
 * #A045771 ^property[=].valueString = "2024-05"
 * #A045772 "正揚黃連上清丸濃縮細粒"
 * #A045772 ^property[0].code = #status
 * #A045772 ^property[=].valueString = "新增"
-* #A045772 ^property[+].code = #updateDate
+* #A045772 ^property[+].code = #effectiveDate
 * #A045772 ^property[=].valueString = "2024-05"
 * #A045773 "正揚導水茯苓湯濃縮細粒"
 * #A045773 ^property[0].code = #status
 * #A045773 ^property[=].valueString = "新增"
-* #A045773 ^property[+].code = #updateDate
+* #A045773 ^property[+].code = #effectiveDate
 * #A045773 ^property[=].valueString = "2024-05"
 * #A045774 "正揚虎潛丸濃縮細粒"
 * #A045774 ^property[0].code = #status
 * #A045774 ^property[=].valueString = "新增"
-* #A045774 ^property[+].code = #updateDate
+* #A045774 ^property[+].code = #effectiveDate
 * #A045774 ^property[=].valueString = "2024-05"
 * #A042580 "科達銀翹散濃縮錠"
 * #A042580 ^property[0].code = #status
 * #A042580 ^property[=].valueString = "新增"
-* #A042580 ^property[+].code = #updateDate
+* #A042580 ^property[+].code = #effectiveDate
 * #A042580 ^property[=].valueString = "2024-05"
 * #A042583 "仙豐大建中湯濃縮細粒"
 * #A042583 ^property[0].code = #status
 * #A042583 ^property[=].valueString = "新增"
-* #A042583 ^property[+].code = #updateDate
+* #A042583 ^property[+].code = #effectiveDate
 * #A042583 ^property[=].valueString = "2024-05"
 * #A057157 "科達安中散濃縮細粒"
 * #A057157 ^property[0].code = #status
 * #A057157 ^property[=].valueString = "新增"
-* #A057157 ^property[+].code = #updateDate
+* #A057157 ^property[+].code = #effectiveDate
 * #A057157 ^property[=].valueString = "2024-05"
 * #A049687 "富田復元活血湯濃縮細粒"
 * #A049687 ^property[0].code = #status
 * #A049687 ^property[=].valueString = "新增"
-* #A049687 ^property[+].code = #updateDate
+* #A049687 ^property[+].code = #effectiveDate
 * #A049687 ^property[=].valueString = "2024-05"
 * #A045786 "德山抑肝散濃縮細粒"
 * #A045786 ^property[0].code = #status
 * #A045786 ^property[=].valueString = "新增"
-* #A045786 ^property[+].code = #updateDate
+* #A045786 ^property[+].code = #effectiveDate
 * #A045786 ^property[=].valueString = "2024-05"
 * #A045787 "德山苓桂朮甘湯濃縮細粒"
 * #A045787 ^property[0].code = #status
 * #A045787 ^property[=].valueString = "新增"
-* #A045787 ^property[+].code = #updateDate
+* #A045787 ^property[+].code = #effectiveDate
 * #A045787 ^property[=].valueString = "2024-05"
 * #A045793 "勸奉堂還少丹濃縮細粒"
 * #A045793 ^property[0].code = #status
 * #A045793 ^property[=].valueString = "新增"
-* #A045793 ^property[+].code = #updateDate
+* #A045793 ^property[+].code = #effectiveDate
 * #A045793 ^property[=].valueString = "2024-05"
 * #A045794 "勸奉堂金鎖固精丸濃縮細粒"
 * #A045794 ^property[0].code = #status
 * #A045794 ^property[=].valueString = "新增"
-* #A045794 ^property[+].code = #updateDate
+* #A045794 ^property[+].code = #effectiveDate
 * #A045794 ^property[=].valueString = "2024-05"
 * #A036778 "復旦五苓散濃縮細粒"
 * #A036778 ^property[0].code = #status
 * #A036778 ^property[=].valueString = "新增"
-* #A036778 ^property[+].code = #updateDate
+* #A036778 ^property[+].code = #effectiveDate
 * #A036778 ^property[=].valueString = "2024-05"
 * #A056132 "勸奉堂麻黃湯濃縮顆粒"
 * #A056132 ^property[0].code = #status
 * #A056132 ^property[=].valueString = "新增"
-* #A056132 ^property[+].code = #updateDate
+* #A056132 ^property[+].code = #effectiveDate
 * #A056132 ^property[=].valueString = "2024-05"
 * #A059980 "領先瀉白散濃縮錠"
 * #A059980 ^property[0].code = #status
 * #A059980 ^property[=].valueString = "新增"
-* #A059980 ^property[+].code = #updateDate
+* #A059980 ^property[+].code = #effectiveDate
 * #A059980 ^property[=].valueString = "2024-05"
 * #A059981 "順天堂香砂六君子湯濃縮細粒"
 * #A059981 ^property[0].code = #status
 * #A059981 ^property[=].valueString = "新增"
-* #A059981 ^property[+].code = #updateDate
+* #A059981 ^property[+].code = #effectiveDate
 * #A059981 ^property[=].valueString = "2024-05"
 * #A042593 "順天堂麻杏甘石湯濃縮顆粒"
 * #A042593 ^property[0].code = #status
 * #A042593 ^property[=].valueString = "新增"
-* #A042593 ^property[+].code = #updateDate
+* #A042593 ^property[+].code = #effectiveDate
 * #A042593 ^property[=].valueString = "2024-05"
 * #A036782 "正揚當歸芍藥散濃縮細粒"
 * #A036782 ^property[0].code = #status
 * #A036782 ^property[=].valueString = "新增"
-* #A036782 ^property[+].code = #updateDate
+* #A036782 ^property[+].code = #effectiveDate
 * #A036782 ^property[=].valueString = "2024-05"
 * #A045812 "順天堂七味白朮散濃縮顆粒"
 * #A045812 ^property[0].code = #status
 * #A045812 ^property[=].valueString = "新增"
-* #A045812 ^property[+].code = #updateDate
+* #A045812 ^property[+].code = #effectiveDate
 * #A045812 ^property[=].valueString = "2024-05"
 * #A045813 "順天堂蒼耳散濃縮顆粒"
 * #A045813 ^property[0].code = #status
 * #A045813 ^property[=].valueString = "新增"
-* #A045813 ^property[+].code = #updateDate
+* #A045813 ^property[+].code = #effectiveDate
 * #A045813 ^property[=].valueString = "2024-05"
 * #A045814 "順天堂辛夷散濃縮顆粒"
 * #A045814 ^property[0].code = #status
 * #A045814 ^property[=].valueString = "新增"
-* #A045814 ^property[+].code = #updateDate
+* #A045814 ^property[+].code = #effectiveDate
 * #A045814 ^property[=].valueString = "2024-05"
 * #A045815 "生春抵擋湯濃縮細粒"
 * #A045815 ^property[0].code = #status
 * #A045815 ^property[=].valueString = "新增"
-* #A045815 ^property[+].code = #updateDate
+* #A045815 ^property[+].code = #effectiveDate
 * #A045815 ^property[=].valueString = "2024-05"
 * #A045816 "生春茯菟丹濃縮細粒"
 * #A045816 ^property[0].code = #status
 * #A045816 ^property[=].valueString = "新增"
-* #A045816 ^property[+].code = #updateDate
+* #A045816 ^property[+].code = #effectiveDate
 * #A045816 ^property[=].valueString = "2024-05"
 * #A045371 "三帆當歸龍薈丸濃縮錠"
 * #A045371 ^property[0].code = #status
 * #A045371 ^property[=].valueString = "新增"
-* #A045371 ^property[+].code = #updateDate
+* #A045371 ^property[+].code = #effectiveDate
 * #A045371 ^property[=].valueString = "2024-05"
 * #A049723 "德山茵陳五苓散濃縮細粒"
 * #A049723 ^property[0].code = #status
 * #A049723 ^property[=].valueString = "新增"
-* #A049723 ^property[+].code = #updateDate
+* #A049723 ^property[+].code = #effectiveDate
 * #A049723 ^property[=].valueString = "2024-05"
 * #A056598 "領先複方丹參片濃縮錠"
 * #A056598 ^property[0].code = #status
 * #A056598 ^property[=].valueString = "新增"
-* #A056598 ^property[+].code = #updateDate
+* #A056598 ^property[+].code = #effectiveDate
 * #A056598 ^property[=].valueString = "2024-05"
 * #A046382 "八仙潤腸湯濃縮細粒"
 * #A046382 ^property[0].code = #status
 * #A046382 ^property[=].valueString = "新增"
-* #A046382 ^property[+].code = #updateDate
+* #A046382 ^property[+].code = #effectiveDate
 * #A046382 ^property[=].valueString = "2024-05"
 * #A036809 "仙豐黃耆湯濃縮細粒"
 * #A036809 ^property[0].code = #status
 * #A036809 ^property[=].valueString = "新增"
-* #A036809 ^property[+].code = #updateDate
+* #A036809 ^property[+].code = #effectiveDate
 * #A036809 ^property[=].valueString = "2024-05"
 * #A036795 "正揚五苓散濃縮細粒"
 * #A036795 ^property[0].code = #status
 * #A036795 ^property[=].valueString = "新增"
-* #A036795 ^property[+].code = #updateDate
+* #A036795 ^property[+].code = #effectiveDate
 * #A036795 ^property[=].valueString = "2024-05"
 * #A036798 "勝昌玉屏風散濃縮散"
 * #A036798 ^property[0].code = #status
 * #A036798 ^property[=].valueString = "新增"
-* #A036798 ^property[+].code = #updateDate
+* #A036798 ^property[+].code = #effectiveDate
 * #A036798 ^property[=].valueString = "2024-05"
 * #A036800 "勝昌血府逐瘀湯濃縮散"
 * #A036800 ^property[0].code = #status
 * #A036800 ^property[=].valueString = "新增"
-* #A036800 ^property[+].code = #updateDate
+* #A036800 ^property[+].code = #effectiveDate
 * #A036800 ^property[=].valueString = "2024-05"
 * #A036801 "正揚桂枝龍骨牡蠣湯濃縮細粒"
 * #A036801 ^property[0].code = #status
 * #A036801 ^property[=].valueString = "新增"
-* #A036801 ^property[+].code = #updateDate
+* #A036801 ^property[+].code = #effectiveDate
 * #A036801 ^property[=].valueString = "2024-05"
 * #A036804 "正揚防風通聖散濃縮細粒"
 * #A036804 ^property[0].code = #status
 * #A036804 ^property[=].valueString = "新增"
-* #A036804 ^property[+].code = #updateDate
+* #A036804 ^property[+].code = #effectiveDate
 * #A036804 ^property[=].valueString = "2024-05"
 * #A036805 "東陽定志丸濃縮錠"
 * #A036805 ^property[0].code = #status
 * #A036805 ^property[=].valueString = "新增"
-* #A036805 ^property[+].code = #updateDate
+* #A036805 ^property[+].code = #effectiveDate
 * #A036805 ^property[=].valueString = "2024-05"
 * #A036806 "勝昌清空膏濃縮散"
 * #A036806 ^property[0].code = #status
 * #A036806 ^property[=].valueString = "新增"
-* #A036806 ^property[+].code = #updateDate
+* #A036806 ^property[+].code = #effectiveDate
 * #A036806 ^property[=].valueString = "2024-05"
 * #A036807 "勝昌射干麻黃湯濃縮散"
 * #A036807 ^property[0].code = #status
 * #A036807 ^property[=].valueString = "新增"
-* #A036807 ^property[+].code = #updateDate
+* #A036807 ^property[+].code = #effectiveDate
 * #A036807 ^property[=].valueString = "2024-05"
 * #A036810 "正揚白虎湯濃縮細粒"
 * #A036810 ^property[0].code = #status
 * #A036810 ^property[=].valueString = "新增"
-* #A036810 ^property[+].code = #updateDate
+* #A036810 ^property[+].code = #effectiveDate
 * #A036810 ^property[=].valueString = "2024-05"
 * #A041772 "仙豐小青龍湯濃縮細粒"
 * #A041772 ^property[0].code = #status
 * #A041772 ^property[=].valueString = "新增"
-* #A041772 ^property[+].code = #updateDate
+* #A041772 ^property[+].code = #effectiveDate
 * #A041772 ^property[=].valueString = "2024-05"
 * #A059983 "莊松榮白頭翁湯濃縮細粒"
 * #A059983 ^property[0].code = #status
 * #A059983 ^property[=].valueString = "新增"
-* #A059983 ^property[+].code = #updateDate
+* #A059983 ^property[+].code = #effectiveDate
 * #A059983 ^property[=].valueString = "2024-05"
 * #A059984 "領先華蓋散濃縮錠"
 * #A059984 ^property[0].code = #status
 * #A059984 ^property[=].valueString = "新增"
-* #A059984 ^property[+].code = #updateDate
+* #A059984 ^property[+].code = #effectiveDate
 * #A059984 ^property[=].valueString = "2024-05"
 * #A057168 "港香蘭真武湯濃縮錠"
 * #A057168 ^property[0].code = #status
 * #A057168 ^property[=].valueString = "新增"
-* #A057168 ^property[+].code = #updateDate
+* #A057168 ^property[+].code = #effectiveDate
 * #A057168 ^property[=].valueString = "2024-05"
 * #A057169 "三才堂清上防風湯濃縮細粒"
 * #A057169 ^property[0].code = #status
 * #A057169 ^property[=].valueString = "新增"
-* #A057169 ^property[+].code = #updateDate
+* #A057169 ^property[+].code = #effectiveDate
 * #A057169 ^property[=].valueString = "2024-05"
 * #A031108 "天一人參敗毒散濃縮顆粒"
 * #A031108 ^property[0].code = #status
 * #A031108 ^property[=].valueString = "新增"
-* #A031108 ^property[+].code = #updateDate
+* #A031108 ^property[+].code = #effectiveDate
 * #A031108 ^property[=].valueString = "2024-05"
 * #A049724 "富田桃仁承氣湯濃縮細粒"
 * #A049724 ^property[0].code = #status
 * #A049724 ^property[=].valueString = "新增"
-* #A049724 ^property[+].code = #updateDate
+* #A049724 ^property[+].code = #effectiveDate
 * #A049724 ^property[=].valueString = "2024-05"
 * #A049728 "三才堂桑菊飲濃縮細粒"
 * #A049728 ^property[0].code = #status
 * #A049728 ^property[=].valueString = "新增"
-* #A049728 ^property[+].code = #updateDate
+* #A049728 ^property[+].code = #effectiveDate
 * #A049728 ^property[=].valueString = "2024-05"
 * #A042613 "勝昌玉泉丸濃縮散"
 * #A042613 ^property[0].code = #status
 * #A042613 ^property[=].valueString = "新增"
-* #A042613 ^property[+].code = #updateDate
+* #A042613 ^property[+].code = #effectiveDate
 * #A042613 ^property[=].valueString = "2024-05"
 * #A055100 "領先平胃散濃縮細粒"
 * #A055100 ^property[0].code = #status
 * #A055100 ^property[=].valueString = "新增"
-* #A055100 ^property[+].code = #updateDate
+* #A055100 ^property[+].code = #effectiveDate
 * #A055100 ^property[=].valueString = "2024-05"
 * #A057177 "科達桂枝茯苓丸濃縮細粒"
 * #A057177 ^property[0].code = #status
 * #A057177 ^property[=].valueString = "新增"
-* #A057177 ^property[+].code = #updateDate
+* #A057177 ^property[+].code = #effectiveDate
 * #A057177 ^property[=].valueString = "2024-05"
 * #A029111 "科達安中散濃縮散"
 * #A029111 ^property[0].code = #status
 * #A029111 ^property[=].valueString = "新增"
-* #A029111 ^property[+].code = #updateDate
+* #A029111 ^property[+].code = #effectiveDate
 * #A029111 ^property[=].valueString = "2024-05"
 * #A045839 "生春香砂平胃散濃縮細粒"
 * #A045839 ^property[0].code = #status
 * #A045839 ^property[=].valueString = "新增"
-* #A045839 ^property[+].code = #updateDate
+* #A045839 ^property[+].code = #effectiveDate
 * #A045839 ^property[=].valueString = "2024-05"
 * #A045830 "順天堂茵陳蒿湯濃縮顆粒"
 * #A045830 ^property[0].code = #status
 * #A045830 ^property[=].valueString = "新增"
-* #A045830 ^property[+].code = #updateDate
+* #A045830 ^property[+].code = #effectiveDate
 * #A045830 ^property[=].valueString = "2024-05"
 * #A045832 "天一保和丸濃縮顆粒"
 * #A045832 ^property[0].code = #status
 * #A045832 ^property[=].valueString = "新增"
-* #A045832 ^property[+].code = #updateDate
+* #A045832 ^property[+].code = #effectiveDate
 * #A045832 ^property[=].valueString = "2024-05"
 * #A045833 "天一潤腸湯濃縮顆粒"
 * #A045833 ^property[0].code = #status
 * #A045833 ^property[=].valueString = "新增"
-* #A045833 ^property[+].code = #updateDate
+* #A045833 ^property[+].code = #effectiveDate
 * #A045833 ^property[=].valueString = "2024-05"
 * #A045837 "三帆防風通聖散濃縮膠囊"
 * #A045837 ^property[0].code = #status
 * #A045837 ^property[=].valueString = "新增"
-* #A045837 ^property[+].code = #updateDate
+* #A045837 ^property[+].code = #effectiveDate
 * #A045837 ^property[=].valueString = "2024-05"
 * #A045838 "三帆三帆保肝寧濃縮膠囊(龍膽瀉肝湯)"
 * #A045838 ^property[0].code = #status
 * #A045838 ^property[=].valueString = "新增"
-* #A045838 ^property[+].code = #updateDate
+* #A045838 ^property[+].code = #effectiveDate
 * #A045838 ^property[=].valueString = "2024-05"
 * #A045840 "富田旋覆代赭石湯濃縮細粒"
 * #A045840 ^property[0].code = #status
 * #A045840 ^property[=].valueString = "新增"
-* #A045840 ^property[+].code = #updateDate
+* #A045840 ^property[+].code = #effectiveDate
 * #A045840 ^property[=].valueString = "2024-05"
 * #A045842 "仁濟蒼耳散濃縮細粒"
 * #A045842 ^property[0].code = #status
 * #A045842 ^property[=].valueString = "新增"
-* #A045842 ^property[+].code = #updateDate
+* #A045842 ^property[+].code = #effectiveDate
 * #A045842 ^property[=].valueString = "2024-05"
 * #A049730 "順然桂枝芍藥知母湯濃縮細粒"
 * #A049730 ^property[0].code = #status
 * #A049730 ^property[=].valueString = "新增"
-* #A049730 ^property[+].code = #updateDate
+* #A049730 ^property[+].code = #effectiveDate
 * #A049730 ^property[=].valueString = "2024-05"
 * #A057192 "天一女科柏子仁丸濃縮顆粒"
 * #A057192 ^property[0].code = #status
 * #A057192 ^property[=].valueString = "新增"
-* #A057192 ^property[+].code = #updateDate
+* #A057192 ^property[+].code = #effectiveDate
 * #A057192 ^property[=].valueString = "2024-05"
 * #A036828 "天明少腹逐瘀湯濃縮細粒"
 * #A036828 ^property[0].code = #status
 * #A036828 ^property[=].valueString = "新增"
-* #A036828 ^property[+].code = #updateDate
+* #A036828 ^property[+].code = #effectiveDate
 * #A036828 ^property[=].valueString = "2024-05"
 * #A036830 "天明膈下逐瘀湯濃縮細粒"
 * #A036830 ^property[0].code = #status
 * #A036830 ^property[=].valueString = "新增"
-* #A036830 ^property[+].code = #updateDate
+* #A036830 ^property[+].code = #effectiveDate
 * #A036830 ^property[=].valueString = "2024-05"
 * #A036831 "勝昌十六味流氣飲濃縮散"
 * #A036831 ^property[0].code = #status
 * #A036831 ^property[=].valueString = "新增"
-* #A036831 ^property[+].code = #updateDate
+* #A036831 ^property[+].code = #effectiveDate
 * #A036831 ^property[=].valueString = "2024-05"
 * #A036834 "勝昌瀉黃散濃縮散"
 * #A036834 ^property[0].code = #status
 * #A036834 ^property[=].valueString = "新增"
-* #A036834 ^property[+].code = #updateDate
+* #A036834 ^property[+].code = #effectiveDate
 * #A036834 ^property[=].valueString = "2024-05"
 * #A041771 "仙豐四物湯濃縮細粒"
 * #A041771 ^property[0].code = #status
 * #A041771 ^property[=].valueString = "新增"
-* #A041771 ^property[+].code = #updateDate
+* #A041771 ^property[+].code = #effectiveDate
 * #A041771 ^property[=].valueString = "2024-05"
 * #A041776 "仙豐疏經活血湯濃縮細粒"
 * #A041776 ^property[0].code = #status
 * #A041776 ^property[=].valueString = "新增"
-* #A041776 ^property[+].code = #updateDate
+* #A041776 ^property[+].code = #effectiveDate
 * #A041776 ^property[=].valueString = "2024-05"
 * #A057201 "三才堂血府逐瘀湯濃縮細粒"
 * #A057201 ^property[0].code = #status
 * #A057201 ^property[=].valueString = "新增"
-* #A057201 ^property[+].code = #updateDate
+* #A057201 ^property[+].code = #effectiveDate
 * #A057201 ^property[=].valueString = "2024-05"
 * #A029239 "科達清咽利膈湯濃縮散"
 * #A029239 ^property[0].code = #status
 * #A029239 ^property[=].valueString = "新增"
-* #A029239 ^property[+].code = #updateDate
+* #A029239 ^property[+].code = #effectiveDate
 * #A029239 ^property[=].valueString = "2024-05"
 * #A029232 "科達十全大補湯濃縮散"
 * #A029232 ^property[0].code = #status
 * #A029232 ^property[=].valueString = "新增"
-* #A029232 ^property[+].code = #updateDate
+* #A029232 ^property[+].code = #effectiveDate
 * #A029232 ^property[=].valueString = "2024-05"
 * #A029234 "科達杞菊地黃丸濃縮散"
 * #A029234 ^property[0].code = #status
 * #A029234 ^property[=].valueString = "新增"
-* #A029234 ^property[+].code = #updateDate
+* #A029234 ^property[+].code = #effectiveDate
 * #A029234 ^property[=].valueString = "2024-05"
 * #A029235 "科達芍藥甘草湯濃縮散"
 * #A029235 ^property[0].code = #status
 * #A029235 ^property[=].valueString = "新增"
-* #A029235 ^property[+].code = #updateDate
+* #A029235 ^property[+].code = #effectiveDate
 * #A029235 ^property[=].valueString = "2024-05"
 * #A029236 "科達蒼耳散濃縮散"
 * #A029236 ^property[0].code = #status
 * #A029236 ^property[=].valueString = "新增"
-* #A029236 ^property[+].code = #updateDate
+* #A029236 ^property[+].code = #effectiveDate
 * #A029236 ^property[=].valueString = "2024-05"
 * #A029237 "科達清上防風散濃縮散"
 * #A029237 ^property[0].code = #status
 * #A029237 ^property[=].valueString = "新增"
-* #A029237 ^property[+].code = #updateDate
+* #A029237 ^property[+].code = #effectiveDate
 * #A029237 ^property[=].valueString = "2024-05"
 * #A029238 "科達桑菊飲濃縮散"
 * #A029238 ^property[0].code = #status
 * #A029238 ^property[=].valueString = "新增"
-* #A029238 ^property[+].code = #updateDate
+* #A029238 ^property[+].code = #effectiveDate
 * #A029238 ^property[=].valueString = "2024-05"
 * #A029240 "科達麥門冬湯濃縮散"
 * #A029240 ^property[0].code = #status
 * #A029240 ^property[=].valueString = "新增"
-* #A029240 ^property[+].code = #updateDate
+* #A029240 ^property[+].code = #effectiveDate
 * #A029240 ^property[=].valueString = "2024-05"
 * #A029241 "科達加味逍遙散濃縮散"
 * #A029241 ^property[0].code = #status
 * #A029241 ^property[=].valueString = "新增"
-* #A029241 ^property[+].code = #updateDate
+* #A029241 ^property[+].code = #effectiveDate
 * #A029241 ^property[=].valueString = "2024-05"
 * #A029242 "科達柴葛解肌湯濃縮散"
 * #A029242 ^property[0].code = #status
 * #A029242 ^property[=].valueString = "新增"
-* #A029242 ^property[+].code = #updateDate
+* #A029242 ^property[+].code = #effectiveDate
 * #A029242 ^property[=].valueString = "2024-05"
 * #A048412 "科達華蓋散濃縮細粒"
 * #A048412 ^property[0].code = #status
 * #A048412 ^property[=].valueString = "新增"
-* #A048412 ^property[+].code = #updateDate
+* #A048412 ^property[+].code = #effectiveDate
 * #A048412 ^property[=].valueString = "2024-05"
 * #A057218 "天明苓甘薑味辛夏仁湯濃縮細粒"
 * #A057218 ^property[0].code = #status
 * #A057218 ^property[=].valueString = "新增"
-* #A057218 ^property[+].code = #updateDate
+* #A057218 ^property[+].code = #effectiveDate
 * #A057218 ^property[=].valueString = "2024-05"
 * #A031116 "天明八正散濃縮散"
 * #A031116 ^property[0].code = #status
 * #A031116 ^property[=].valueString = "新增"
-* #A031116 ^property[+].code = #updateDate
+* #A031116 ^property[+].code = #effectiveDate
 * #A031116 ^property[=].valueString = "2024-05"
 * #A046220 "天明辛夷散濃縮顆粒"
 * #A046220 ^property[0].code = #status
 * #A046220 ^property[=].valueString = "新增"
-* #A046220 ^property[+].code = #updateDate
+* #A046220 ^property[+].code = #effectiveDate
 * #A046220 ^property[=].valueString = "2024-05"
 * #A049775 "領先桂枝加龍骨牡蠣湯濃縮細粒"
 * #A049775 ^property[0].code = #status
 * #A049775 ^property[=].valueString = "新增"
-* #A049775 ^property[+].code = #updateDate
+* #A049775 ^property[+].code = #effectiveDate
 * #A049775 ^property[=].valueString = "2024-05"
 * #A057220 "科達蒼耳散濃縮細粒"
 * #A057220 ^property[0].code = #status
 * #A057220 ^property[=].valueString = "新增"
-* #A057220 ^property[+].code = #updateDate
+* #A057220 ^property[+].code = #effectiveDate
 * #A057220 ^property[=].valueString = "2024-05"
 * #A036957 "復旦蠲痹湯濃縮細粒"
 * #A036957 ^property[0].code = #status
 * #A036957 ^property[=].valueString = "新增"
-* #A036957 ^property[+].code = #updateDate
+* #A036957 ^property[+].code = #effectiveDate
 * #A036957 ^property[=].valueString = "2024-05"
 * #A059986 "領先參蘇飲濃縮錠"
 * #A059986 ^property[0].code = #status
 * #A059986 ^property[=].valueString = "新增"
-* #A059986 ^property[+].code = #updateDate
+* #A059986 ^property[+].code = #effectiveDate
 * #A059986 ^property[=].valueString = "2024-05"
 * #A036896 "生春消風散濃縮細粒"
 * #A036896 ^property[0].code = #status
 * #A036896 ^property[=].valueString = "新增"
-* #A036896 ^property[+].code = #updateDate
+* #A036896 ^property[+].code = #effectiveDate
 * #A036896 ^property[=].valueString = "2024-05"
 * #A036897 "正揚小青龍湯濃縮細粒"
 * #A036897 ^property[0].code = #status
 * #A036897 ^property[=].valueString = "新增"
-* #A036897 ^property[+].code = #updateDate
+* #A036897 ^property[+].code = #effectiveDate
 * #A036897 ^property[=].valueString = "2024-05"
 * #A036898 "正揚辛夷散濃縮細粒"
 * #A036898 ^property[0].code = #status
 * #A036898 ^property[=].valueString = "新增"
-* #A036898 ^property[+].code = #updateDate
+* #A036898 ^property[+].code = #effectiveDate
 * #A036898 ^property[=].valueString = "2024-05"
 * #A056108 "勸奉堂清上防風湯濃縮顆粒"
 * #A056108 ^property[0].code = #status
 * #A056108 ^property[=].valueString = "新增"
-* #A056108 ^property[+].code = #updateDate
+* #A056108 ^property[+].code = #effectiveDate
 * #A056108 ^property[=].valueString = "2024-05"
 * #A056195 "勸奉堂知柏地黃丸濃縮顆粒"
 * #A056195 ^property[0].code = #status
 * #A056195 ^property[=].valueString = "新增"
-* #A056195 ^property[+].code = #updateDate
+* #A056195 ^property[+].code = #effectiveDate
 * #A056195 ^property[=].valueString = "2024-05"
 * #A036912 "科達歸耆建中湯濃縮細粒"
 * #A036912 ^property[0].code = #status
 * #A036912 ^property[=].valueString = "新增"
-* #A036912 ^property[+].code = #updateDate
+* #A036912 ^property[+].code = #effectiveDate
 * #A036912 ^property[=].valueString = "2024-05"
 * #A036913 "勝昌清上蠲痛湯濃縮散"
 * #A036913 ^property[0].code = #status
 * #A036913 ^property[=].valueString = "新增"
-* #A036913 ^property[+].code = #updateDate
+* #A036913 ^property[+].code = #effectiveDate
 * #A036913 ^property[=].valueString = "2024-05"
 * #A037848 "德山克能濃縮膠囊(消痔丸)"
 * #A037848 ^property[0].code = #status
 * #A037848 ^property[=].valueString = "新增"
-* #A037848 ^property[+].code = #updateDate
+* #A037848 ^property[+].code = #effectiveDate
 * #A037848 ^property[=].valueString = "2024-05"
 * #A042630 "生春龍膽瀉肝湯濃縮錠"
 * #A042630 ^property[0].code = #status
 * #A042630 ^property[=].valueString = "新增"
-* #A042630 ^property[+].code = #updateDate
+* #A042630 ^property[+].code = #effectiveDate
 * #A042630 ^property[=].valueString = "2024-05"
 * #A042631 "莊松榮升陽益胃湯濃縮細粒"
 * #A042631 ^property[0].code = #status
 * #A042631 ^property[=].valueString = "新增"
-* #A042631 ^property[+].code = #updateDate
+* #A042631 ^property[+].code = #effectiveDate
 * #A042631 ^property[=].valueString = "2024-05"
 * #A042633 "生春清空膏濃縮細粒"
 * #A042633 ^property[0].code = #status
 * #A042633 ^property[=].valueString = "新增"
-* #A042633 ^property[+].code = #updateDate
+* #A042633 ^property[+].code = #effectiveDate
 * #A042633 ^property[=].valueString = "2024-05"
 * #A042634 "生春保和丸濃縮細粒"
 * #A042634 ^property[0].code = #status
 * #A042634 ^property[=].valueString = "新增"
-* #A042634 ^property[+].code = #updateDate
+* #A042634 ^property[+].code = #effectiveDate
 * #A042634 ^property[=].valueString = "2024-05"
 * #A042638 "莊松榮精氣神源濃縮散(龜鹿二仙膏)"
 * #A042638 ^property[0].code = #status
 * #A042638 ^property[=].valueString = "新增"
-* #A042638 ^property[+].code = #updateDate
+* #A042638 ^property[+].code = #effectiveDate
 * #A042638 ^property[=].valueString = "2024-05"
 * #A042639 "萬國白頭翁湯濃縮細粒"
 * #A042639 ^property[0].code = #status
 * #A042639 ^property[=].valueString = "新增"
-* #A042639 ^property[+].code = #updateDate
+* #A042639 ^property[+].code = #effectiveDate
 * #A042639 ^property[=].valueString = "2024-05"
 * #A042640 "東陽半夏瀉心湯濃縮錠"
 * #A042640 ^property[0].code = #status
 * #A042640 ^property[=].valueString = "新增"
-* #A042640 ^property[+].code = #updateDate
+* #A042640 ^property[+].code = #effectiveDate
 * #A042640 ^property[=].valueString = "2024-05"
 * #A042641 "科達十六味流氣飲濃縮細粒"
 * #A042641 ^property[0].code = #status
 * #A042641 ^property[=].valueString = "新增"
-* #A042641 ^property[+].code = #updateDate
+* #A042641 ^property[+].code = #effectiveDate
 * #A042641 ^property[=].valueString = "2024-05"
 * #A042642 "順然六味地黃丸濃縮錠"
 * #A042642 ^property[0].code = #status
 * #A042642 ^property[=].valueString = "新增"
-* #A042642 ^property[+].code = #updateDate
+* #A042642 ^property[+].code = #effectiveDate
 * #A042642 ^property[=].valueString = "2024-05"
 * #A042643 "莊松榮金鎖固精丸濃縮丸"
 * #A042643 ^property[0].code = #status
 * #A042643 ^property[=].valueString = "新增"
-* #A042643 ^property[+].code = #updateDate
+* #A042643 ^property[+].code = #effectiveDate
 * #A042643 ^property[=].valueString = "2024-05"
 * #A056109 "勸奉堂人參敗毒散濃縮細粒"
 * #A056109 ^property[0].code = #status
 * #A056109 ^property[=].valueString = "新增"
-* #A056109 ^property[+].code = #updateDate
+* #A056109 ^property[+].code = #effectiveDate
 * #A056109 ^property[=].valueString = "2024-05"
 * #A045875 "華陀洗肝明目散濃縮細粒"
 * #A045875 ^property[0].code = #status
 * #A045875 ^property[=].valueString = "新增"
-* #A045875 ^property[+].code = #updateDate
+* #A045875 ^property[+].code = #effectiveDate
 * #A045875 ^property[=].valueString = "2024-05"
 * #A045876 "德山甘麥大棗湯濃縮細粒"
 * #A045876 ^property[0].code = #status
 * #A045876 ^property[=].valueString = "新增"
-* #A045876 ^property[+].code = #updateDate
+* #A045876 ^property[+].code = #effectiveDate
 * #A045876 ^property[=].valueString = "2024-05"
 * #A045877 "富田烏藥順氣散濃縮細粒"
 * #A045877 ^property[0].code = #status
 * #A045877 ^property[=].valueString = "新增"
-* #A045877 ^property[+].code = #updateDate
+* #A045877 ^property[+].code = #effectiveDate
 * #A045877 ^property[=].valueString = "2024-05"
 * #A045878 "德山生脈飲濃縮細粒"
 * #A045878 ^property[0].code = #status
 * #A045878 ^property[=].valueString = "新增"
-* #A045878 ^property[+].code = #updateDate
+* #A045878 ^property[+].code = #effectiveDate
 * #A045878 ^property[=].valueString = "2024-05"
 * #A045879 "復旦桃紅四物湯濃縮細粒"
 * #A045879 ^property[0].code = #status
 * #A045879 ^property[=].valueString = "新增"
-* #A045879 ^property[+].code = #updateDate
+* #A045879 ^property[+].code = #effectiveDate
 * #A045879 ^property[=].valueString = "2024-05"
 * #A045880 "復旦潤腸丸濃縮細粒"
 * #A045880 ^property[0].code = #status
 * #A045880 ^property[=].valueString = "新增"
-* #A045880 ^property[+].code = #updateDate
+* #A045880 ^property[+].code = #effectiveDate
 * #A045880 ^property[=].valueString = "2024-05"
 * #A045881 "復旦越鞠丸濃縮細粒"
 * #A045881 ^property[0].code = #status
 * #A045881 ^property[=].valueString = "新增"
-* #A045881 ^property[+].code = #updateDate
+* #A045881 ^property[+].code = #effectiveDate
 * #A045881 ^property[=].valueString = "2024-05"
 * #A049510 "晉安晉安龍鳳四珍丸濃縮膠囊(龜鹿二仙膠)"
 * #A049510 ^property[0].code = #status
 * #A049510 ^property[=].valueString = "新增"
-* #A049510 ^property[+].code = #updateDate
+* #A049510 ^property[+].code = #effectiveDate
 * #A049510 ^property[=].valueString = "2024-05"
 * #A045404 "三帆防己黃耆湯濃縮錠"
 * #A045404 ^property[0].code = #status
 * #A045404 ^property[=].valueString = "新增"
-* #A045404 ^property[+].code = #updateDate
+* #A045404 ^property[+].code = #effectiveDate
 * #A045404 ^property[=].valueString = "2024-05"
 * #A045405 "康之田婦逍遙解鬱濃縮膠囊（加味逍遙散）"
 * #A045405 ^property[0].code = #status
 * #A045405 ^property[=].valueString = "新增"
-* #A045405 ^property[+].code = #updateDate
+* #A045405 ^property[+].code = #effectiveDate
 * #A045405 ^property[=].valueString = "2024-05"
 * #A045902 "富田清上蠲痛湯濃縮細粒"
 * #A045902 ^property[0].code = #status
 * #A045902 ^property[=].valueString = "新增"
-* #A045902 ^property[+].code = #updateDate
+* #A045902 ^property[+].code = #effectiveDate
 * #A045902 ^property[=].valueString = "2024-05"
 * #A045903 "富田川芎茶調散濃縮細粒"
 * #A045903 ^property[0].code = #status
 * #A045903 ^property[=].valueString = "新增"
-* #A045903 ^property[+].code = #updateDate
+* #A045903 ^property[+].code = #effectiveDate
 * #A045903 ^property[=].valueString = "2024-05"
 * #A045904 "富田炙甘草湯濃縮細粒"
 * #A045904 ^property[0].code = #status
 * #A045904 ^property[=].valueString = "新增"
-* #A045904 ^property[+].code = #updateDate
+* #A045904 ^property[+].code = #effectiveDate
 * #A045904 ^property[=].valueString = "2024-05"
 * #A045905 "富田濟生腎氣丸濃縮細粒"
 * #A045905 ^property[0].code = #status
 * #A045905 ^property[=].valueString = "新增"
-* #A045905 ^property[+].code = #updateDate
+* #A045905 ^property[+].code = #effectiveDate
 * #A045905 ^property[=].valueString = "2024-05"
 * #A045906 "富田八味地黃丸濃縮細粒"
 * #A045906 ^property[0].code = #status
 * #A045906 ^property[=].valueString = "新增"
-* #A045906 ^property[+].code = #updateDate
+* #A045906 ^property[+].code = #effectiveDate
 * #A045906 ^property[=].valueString = "2024-05"
 * #A045907 "富田小柴胡湯濃縮細粒"
 * #A045907 ^property[0].code = #status
 * #A045907 ^property[=].valueString = "新增"
-* #A045907 ^property[+].code = #updateDate
+* #A045907 ^property[+].code = #effectiveDate
 * #A045907 ^property[=].valueString = "2024-05"
 * #A045908 "富田蒼耳散濃縮細粒"
 * #A045908 ^property[0].code = #status
 * #A045908 ^property[=].valueString = "新增"
-* #A045908 ^property[+].code = #updateDate
+* #A045908 ^property[+].code = #effectiveDate
 * #A045908 ^property[=].valueString = "2024-05"
 * #A045909 "富田荊芥連翹湯澧縮細粒"
 * #A045909 ^property[0].code = #status
 * #A045909 ^property[=].valueString = "新增"
-* #A045909 ^property[+].code = #updateDate
+* #A045909 ^property[+].code = #effectiveDate
 * #A045909 ^property[=].valueString = "2024-05"
 * #A045910 "富田荊防敗毒散濃縮細粒"
 * #A045910 ^property[0].code = #status
 * #A045910 ^property[=].valueString = "新增"
-* #A045910 ^property[+].code = #updateDate
+* #A045910 ^property[+].code = #effectiveDate
 * #A045910 ^property[=].valueString = "2024-05"
 * #A045912 "晉安藿香正氣散濃縮錠"
 * #A045912 ^property[0].code = #status
 * #A045912 ^property[=].valueString = "新增"
-* #A045912 ^property[+].code = #updateDate
+* #A045912 ^property[+].code = #effectiveDate
 * #A045912 ^property[=].valueString = "2024-05"
 * #A045913 "萬國痛瀉要方濃縮細粒"
 * #A045913 ^property[0].code = #status
 * #A045913 ^property[=].valueString = "新增"
-* #A045913 ^property[+].code = #updateDate
+* #A045913 ^property[+].code = #effectiveDate
 * #A045913 ^property[=].valueString = "2024-05"
 * #A036918 "天明大黃牡丹湯濃縮細粒"
 * #A036918 ^property[0].code = #status
 * #A036918 ^property[=].valueString = "新增"
-* #A036918 ^property[+].code = #updateDate
+* #A036918 ^property[+].code = #effectiveDate
 * #A036918 ^property[=].valueString = "2024-05"
 * #A036919 "順天堂玉屏風散濃縮顆粒"
 * #A036919 ^property[0].code = #status
 * #A036919 ^property[=].valueString = "新增"
-* #A036919 ^property[+].code = #updateDate
+* #A036919 ^property[+].code = #effectiveDate
 * #A036919 ^property[=].valueString = "2024-05"
 * #A036921 "東陽葛根湯濃縮錠"
 * #A036921 ^property[0].code = #status
 * #A036921 ^property[=].valueString = "新增"
-* #A036921 ^property[+].code = #updateDate
+* #A036921 ^property[+].code = #effectiveDate
 * #A036921 ^property[=].valueString = "2024-05"
 * #A045928 "順天堂玉屏風散濃縮顆粒"
 * #A045928 ^property[0].code = #status
 * #A045928 ^property[=].valueString = "新增"
-* #A045928 ^property[+].code = #updateDate
+* #A045928 ^property[+].code = #effectiveDate
 * #A045928 ^property[=].valueString = "2024-05"
 * #A036924 "東陽麻杏甘石湯濃縮錠"
 * #A036924 ^property[0].code = #status
 * #A036924 ^property[=].valueString = "新增"
-* #A036924 ^property[+].code = #updateDate
+* #A036924 ^property[+].code = #effectiveDate
 * #A036924 ^property[=].valueString = "2024-05"
 * #A057255 "三才堂清燥救肺湯濃縮細粒"
 * #A057255 ^property[0].code = #status
 * #A057255 ^property[=].valueString = "新增"
-* #A057255 ^property[+].code = #updateDate
+* #A057255 ^property[+].code = #effectiveDate
 * #A057255 ^property[=].valueString = "2024-05"
 * #A057256 "三才堂半夏天麻白朮湯濃縮細粒"
 * #A057256 ^property[0].code = #status
 * #A057256 ^property[=].valueString = "新增"
-* #A057256 ^property[+].code = #updateDate
+* #A057256 ^property[+].code = #effectiveDate
 * #A057256 ^property[=].valueString = "2024-05"
 * #A057258 "領先大柴胡湯濃縮錠"
 * #A057258 ^property[0].code = #status
 * #A057258 ^property[=].valueString = "新增"
-* #A057258 ^property[+].code = #updateDate
+* #A057258 ^property[+].code = #effectiveDate
 * #A057258 ^property[=].valueString = "2024-05"
 * #A057259 "領先麻杏薏甘湯濃縮錠"
 * #A057259 ^property[0].code = #status
 * #A057259 ^property[=].valueString = "新增"
-* #A057259 ^property[+].code = #updateDate
+* #A057259 ^property[+].code = #effectiveDate
 * #A057259 ^property[=].valueString = "2024-05"
 * #A059990 "順天堂酸棗仁湯濃縮細粒"
 * #A059990 ^property[0].code = #status
 * #A059990 ^property[=].valueString = "新增"
-* #A059990 ^property[+].code = #updateDate
+* #A059990 ^property[+].code = #effectiveDate
 * #A059990 ^property[=].valueString = "2024-05"
 * #A036936 "東陽藿香正氣散濃縮錠"
 * #A036936 ^property[0].code = #status
 * #A036936 ^property[=].valueString = "新增"
-* #A036936 ^property[+].code = #updateDate
+* #A036936 ^property[+].code = #effectiveDate
 * #A036936 ^property[=].valueString = "2024-05"
 * #A036942 "正揚安中散濃縮細粒"
 * #A036942 ^property[0].code = #status
 * #A036942 ^property[=].valueString = "新增"
-* #A036942 ^property[+].code = #updateDate
+* #A036942 ^property[+].code = #effectiveDate
 * #A036942 ^property[=].valueString = "2024-05"
 * #A042661 "科達大黃蟅蟲丸濃縮細粒"
 * #A042661 ^property[0].code = #status
 * #A042661 ^property[=].valueString = "新增"
-* #A042661 ^property[+].code = #updateDate
+* #A042661 ^property[+].code = #effectiveDate
 * #A042661 ^property[=].valueString = "2024-05"
 * #A031128 "莊松榮?藤散濃縮細粒"
 * #A031128 ^property[0].code = #status
 * #A031128 ^property[=].valueString = "新增"
-* #A031128 ^property[+].code = #updateDate
+* #A031128 ^property[+].code = #effectiveDate
 * #A031128 ^property[=].valueString = "2024-05"
 * #A031129 "莊松榮人參養榮湯濃縮細粒"
 * #A031129 ^property[0].code = #status
 * #A031129 ^property[=].valueString = "新增"
-* #A031129 ^property[+].code = #updateDate
+* #A031129 ^property[+].code = #effectiveDate
 * #A031129 ^property[=].valueString = "2024-05"
 * #A031132 "科達大黃牡丹皮湯濃縮散"
 * #A031132 ^property[0].code = #status
 * #A031132 ^property[=].valueString = "新增"
-* #A031132 ^property[+].code = #updateDate
+* #A031132 ^property[+].code = #effectiveDate
 * #A031132 ^property[=].valueString = "2024-05"
 * #A031133 "順天堂加味逍遙散濃縮錠"
 * #A031133 ^property[0].code = #status
 * #A031133 ^property[=].valueString = "新增"
-* #A031133 ^property[+].code = #updateDate
+* #A031133 ^property[+].code = #effectiveDate
 * #A031133 ^property[=].valueString = "2024-05"
 * #A031134 "順天堂清心蓮子飲濃縮錠"
 * #A031134 ^property[0].code = #status
 * #A031134 ^property[=].valueString = "新增"
-* #A031134 ^property[+].code = #updateDate
+* #A031134 ^property[+].code = #effectiveDate
 * #A031134 ^property[=].valueString = "2024-05"
 * #A031135 "科達防己黃耆湯濃縮散"
 * #A031135 ^property[0].code = #status
 * #A031135 ^property[=].valueString = "新增"
-* #A031135 ^property[+].code = #updateDate
+* #A031135 ^property[+].code = #effectiveDate
 * #A031135 ^property[=].valueString = "2024-05"
 * #A031136 "莊松榮當歸芍藥散濃縮細粒"
 * #A031136 ^property[0].code = #status
 * #A031136 ^property[=].valueString = "新增"
-* #A031136 ^property[+].code = #updateDate
+* #A031136 ^property[+].code = #effectiveDate
 * #A031136 ^property[=].valueString = "2024-05"
 * #A031137 "莊松榮大柴胡湯濃細粒"
 * #A031137 ^property[0].code = #status
 * #A031137 ^property[=].valueString = "新增"
-* #A031137 ^property[+].code = #updateDate
+* #A031137 ^property[+].code = #effectiveDate
 * #A031137 ^property[=].valueString = "2024-05"
 * #A036948 "生春越鞠湯濃縮細粒"
 * #A036948 ^property[0].code = #status
 * #A036948 ^property[=].valueString = "新增"
-* #A036948 ^property[+].code = #updateDate
+* #A036948 ^property[+].code = #effectiveDate
 * #A036948 ^property[=].valueString = "2024-05"
 * #A042663 "萬國白虎加人參湯濃縮細粒"
 * #A042663 ^property[0].code = #status
 * #A042663 ^property[=].valueString = "新增"
-* #A042663 ^property[+].code = #updateDate
+* #A042663 ^property[+].code = #effectiveDate
 * #A042663 ^property[=].valueString = "2024-05"
 * #A042665 "東陽半夏瀉心湯濃縮細粒"
 * #A042665 ^property[0].code = #status
 * #A042665 ^property[=].valueString = "新增"
-* #A042665 ^property[+].code = #updateDate
+* #A042665 ^property[+].code = #effectiveDate
 * #A042665 ^property[=].valueString = "2024-05"
 * #A042666 "仙豐養陰清肺湯濃縮細粒"
 * #A042666 ^property[0].code = #status
 * #A042666 ^property[=].valueString = "新增"
-* #A042666 ^property[+].code = #updateDate
+* #A042666 ^property[+].code = #effectiveDate
 * #A042666 ^property[=].valueString = "2024-05"
 * #A042667 "東陽?藤散濃縮細粒"
 * #A042667 ^property[0].code = #status
 * #A042667 ^property[=].valueString = "新增"
-* #A042667 ^property[+].code = #updateDate
+* #A042667 ^property[+].code = #effectiveDate
 * #A042667 ^property[=].valueString = "2024-05"
 * #A045931 "天明玉屏風散濃縮顆粒"
 * #A045931 ^property[0].code = #status
 * #A045931 ^property[=].valueString = "新增"
-* #A045931 ^property[+].code = #updateDate
+* #A045931 ^property[+].code = #effectiveDate
 * #A045931 ^property[=].valueString = "2024-05"
 * #A045936 "富田散腫潰堅湯濃縮細粒"
 * #A045936 ^property[0].code = #status
 * #A045936 ^property[=].valueString = "新增"
-* #A045936 ^property[+].code = #updateDate
+* #A045936 ^property[+].code = #effectiveDate
 * #A045936 ^property[=].valueString = "2024-05"
 * #A045937 "富田半夏天麻白朮湯濃縮細粒"
 * #A045937 ^property[0].code = #status
 * #A045937 ^property[=].valueString = "新增"
-* #A045937 ^property[+].code = #updateDate
+* #A045937 ^property[+].code = #effectiveDate
 * #A045937 ^property[=].valueString = "2024-05"
 * #A045938 "富田九味羌活湯濃縮細粒"
 * #A045938 ^property[0].code = #status
 * #A045938 ^property[=].valueString = "新增"
-* #A045938 ^property[+].code = #updateDate
+* #A045938 ^property[+].code = #effectiveDate
 * #A045938 ^property[=].valueString = "2024-05"
 * #A045939 "富田參苓白朮散濃縮細粒"
 * #A045939 ^property[0].code = #status
 * #A045939 ^property[=].valueString = "新增"
-* #A045939 ^property[+].code = #updateDate
+* #A045939 ^property[+].code = #effectiveDate
 * #A045939 ^property[=].valueString = "2024-05"
 * #A045940 "富田複方丹參片濃縮細粒"
 * #A045940 ^property[0].code = #status
 * #A045940 ^property[=].valueString = "新增"
-* #A045940 ^property[+].code = #updateDate
+* #A045940 ^property[+].code = #effectiveDate
 * #A045940 ^property[=].valueString = "2024-05"
 * #A045941 "生春止嗽散濃縮細粒"
 * #A045941 ^property[0].code = #status
 * #A045941 ^property[=].valueString = "新增"
-* #A045941 ^property[+].code = #updateDate
+* #A045941 ^property[+].code = #effectiveDate
 * #A045941 ^property[=].valueString = "2024-05"
 * #A045942 "正揚五積散濃縮細粒"
 * #A045942 ^property[0].code = #status
 * #A045942 ^property[=].valueString = "新增"
-* #A045942 ^property[+].code = #updateDate
+* #A045942 ^property[+].code = #effectiveDate
 * #A045942 ^property[=].valueString = "2024-05"
 * #A045943 "正揚瀉白散濃縮細粒"
 * #A045943 ^property[0].code = #status
 * #A045943 ^property[=].valueString = "新增"
-* #A045943 ^property[+].code = #updateDate
+* #A045943 ^property[+].code = #effectiveDate
 * #A045943 ^property[=].valueString = "2024-05"
 * #A049817 "三才堂銀翹散濃縮細粒"
 * #A049817 ^property[0].code = #status
 * #A049817 ^property[=].valueString = "新增"
-* #A049817 ^property[+].code = #updateDate
+* #A049817 ^property[+].code = #effectiveDate
 * #A049817 ^property[=].valueString = "2024-05"
 * #A049819 "勸奉堂平胃散濃縮細粒"
 * #A049819 ^property[0].code = #status
 * #A049819 ^property[=].valueString = "新增"
-* #A049819 ^property[+].code = #updateDate
+* #A049819 ^property[+].code = #effectiveDate
 * #A049819 ^property[=].valueString = "2024-05"
 * #A049825 "德山小建中湯濃縮細粒"
 * #A049825 ^property[0].code = #status
 * #A049825 ^property[=].valueString = "新增"
-* #A049825 ^property[+].code = #updateDate
+* #A049825 ^property[+].code = #effectiveDate
 * #A049825 ^property[=].valueString = "2024-05"
 * #A056137 "勸奉堂滋腎明目丸濃縮丸"
 * #A056137 ^property[0].code = #status
 * #A056137 ^property[=].valueString = "新增"
-* #A056137 ^property[+].code = #updateDate
+* #A056137 ^property[+].code = #effectiveDate
 * #A056137 ^property[=].valueString = "2024-05"
 * #A049818 "三才堂辛夷散濃縮細粒"
 * #A049818 ^property[0].code = #status
 * #A049818 ^property[=].valueString = "新增"
-* #A049818 ^property[+].code = #updateDate
+* #A049818 ^property[+].code = #effectiveDate
 * #A049818 ^property[=].valueString = "2024-05"
 * #A049820 "勸奉堂川芎茶調散濃縮細粒"
 * #A049820 ^property[0].code = #status
 * #A049820 ^property[=].valueString = "新增"
-* #A049820 ^property[+].code = #updateDate
+* #A049820 ^property[+].code = #effectiveDate
 * #A049820 ^property[=].valueString = "2024-05"
 * #A049823 "富田四物湯濃縮細粒"
 * #A049823 ^property[0].code = #status
 * #A049823 ^property[=].valueString = "新增"
-* #A049823 ^property[+].code = #updateDate
+* #A049823 ^property[+].code = #effectiveDate
 * #A049823 ^property[=].valueString = "2024-05"
 * #A049824 "富田柴胡清肝湯濃縮細粒"
 * #A049824 ^property[0].code = #status
 * #A049824 ^property[=].valueString = "新增"
-* #A049824 ^property[+].code = #updateDate
+* #A049824 ^property[+].code = #effectiveDate
 * #A049824 ^property[=].valueString = "2024-05"
 * #A031148 "莊松榮辛夷散濃縮細粒"
 * #A031148 ^property[0].code = #status
 * #A031148 ^property[=].valueString = "新增"
-* #A031148 ^property[+].code = #updateDate
+* #A031148 ^property[+].code = #effectiveDate
 * #A031148 ^property[=].valueString = "2024-05"
 * #A031149 "莊松榮上中下通用痛風丸濃縮細粒"
 * #A031149 ^property[0].code = #status
 * #A031149 ^property[=].valueString = "新增"
-* #A031149 ^property[+].code = #updateDate
+* #A031149 ^property[+].code = #effectiveDate
 * #A031149 ^property[=].valueString = "2024-05"
 * #A047531 "天明瀉白散濃縮細粒"
 * #A047531 ^property[0].code = #status
 * #A047531 ^property[=].valueString = "新增"
-* #A047531 ^property[+].code = #updateDate
+* #A047531 ^property[+].code = #effectiveDate
 * #A047531 ^property[=].valueString = "2024-05"
 * #A031146 "天明香蘇飲濃縮散"
 * #A031146 ^property[0].code = #status
 * #A031146 ^property[=].valueString = "新增"
-* #A031146 ^property[+].code = #updateDate
+* #A031146 ^property[+].code = #effectiveDate
 * #A031146 ^property[=].valueString = "2024-05"
 * #A042674 "天明六君子湯濃縮細粒"
 * #A042674 ^property[0].code = #status
 * #A042674 ^property[=].valueString = "新增"
-* #A042674 ^property[+].code = #updateDate
+* #A042674 ^property[+].code = #effectiveDate
 * #A042674 ^property[=].valueString = "2024-05"
 * #A042675 "仙鹿黃連解毒丸濃縮丸"
 * #A042675 ^property[0].code = #status
 * #A042675 ^property[=].valueString = "新增"
-* #A042675 ^property[+].code = #updateDate
+* #A042675 ^property[+].code = #effectiveDate
 * #A042675 ^property[=].valueString = "2024-05"
 * #A042676 "晉安天麻鉤藤飲濃縮細粒"
 * #A042676 ^property[0].code = #status
 * #A042676 ^property[=].valueString = "新增"
-* #A042676 ^property[+].code = #updateDate
+* #A042676 ^property[+].code = #effectiveDate
 * #A042676 ^property[=].valueString = "2024-05"
 * #A042677 "仁濟銀翹散濃縮細粒"
 * #A042677 ^property[0].code = #status
 * #A042677 ^property[=].valueString = "新增"
-* #A042677 ^property[+].code = #updateDate
+* #A042677 ^property[+].code = #effectiveDate
 * #A042677 ^property[=].valueString = "2024-05"
 * #A042678 "正和麻黃附子細辛湯濃縮細粒"
 * #A042678 ^property[0].code = #status
 * #A042678 ^property[=].valueString = "新增"
-* #A042678 ^property[+].code = #updateDate
+* #A042678 ^property[+].code = #effectiveDate
 * #A042678 ^property[=].valueString = "2024-05"
 * #A056138 "勸奉堂麻黃附子細辛湯濃縮細粒"
 * #A056138 ^property[0].code = #status
 * #A056138 ^property[=].valueString = "新增"
-* #A056138 ^property[+].code = #updateDate
+* #A056138 ^property[+].code = #effectiveDate
 * #A056138 ^property[=].valueString = "2024-05"
 * #A057269 "天明當歸補血湯濃縮細粒"
 * #A057269 ^property[0].code = #status
 * #A057269 ^property[=].valueString = "新增"
-* #A057269 ^property[+].code = #updateDate
+* #A057269 ^property[+].code = #effectiveDate
 * #A057269 ^property[=].valueString = "2024-05"
 * #A057270 "天明黃連湯濃縮細粒"
 * #A057270 ^property[0].code = #status
 * #A057270 ^property[=].valueString = "新增"
-* #A057270 ^property[+].code = #updateDate
+* #A057270 ^property[+].code = #effectiveDate
 * #A057270 ^property[=].valueString = "2024-05"
 * #A059991 "領先當歸拈痛湯濃縮錠"
 * #A059991 ^property[0].code = #status
 * #A059991 ^property[=].valueString = "新增"
-* #A059991 ^property[+].code = #updateDate
+* #A059991 ^property[+].code = #effectiveDate
 * #A059991 ^property[=].valueString = "2024-05"
 * #A059992 "莊松榮玉泉丸濃縮細粒"
 * #A059992 ^property[0].code = #status
 * #A059992 ^property[=].valueString = "新增"
-* #A059992 ^property[+].code = #updateDate
+* #A059992 ^property[+].code = #effectiveDate
 * #A059992 ^property[=].valueString = "2024-05"
 * #A036983 "天一解醒湯濃縮錠"
 * #A036983 ^property[0].code = #status
 * #A036983 ^property[=].valueString = "新增"
-* #A036983 ^property[+].code = #updateDate
+* #A036983 ^property[+].code = #effectiveDate
 * #A036983 ^property[=].valueString = "2024-05"
 * #A042689 "東陽疏經活血湯濃縮細粒"
 * #A042689 ^property[0].code = #status
 * #A042689 ^property[=].valueString = "新增"
-* #A042689 ^property[+].code = #updateDate
+* #A042689 ^property[+].code = #effectiveDate
 * #A042689 ^property[=].valueString = "2024-05"
 * #A042690 "順然半夏瀉心湯濃縮錠"
 * #A042690 ^property[0].code = #status
 * #A042690 ^property[=].valueString = "新增"
-* #A042690 ^property[+].code = #updateDate
+* #A042690 ^property[+].code = #effectiveDate
 * #A042690 ^property[=].valueString = "2024-05"
 * #A042691 "莊松榮生化湯濃縮細粒"
 * #A042691 ^property[0].code = #status
 * #A042691 ^property[=].valueString = "新增"
-* #A042691 ^property[+].code = #updateDate
+* #A042691 ^property[+].code = #effectiveDate
 * #A042691 ^property[=].valueString = "2024-05"
 * #A049866 "富田七寶美髯丹濃縮細粒"
 * #A049866 ^property[0].code = #status
 * #A049866 ^property[=].valueString = "新增"
-* #A049866 ^property[+].code = #updateDate
+* #A049866 ^property[+].code = #effectiveDate
 * #A049866 ^property[=].valueString = "2024-05"
 * #A057282 "港香蘭調胃承氣湯濃縮錠"
 * #A057282 ^property[0].code = #status
 * #A057282 ^property[=].valueString = "新增"
-* #A057282 ^property[+].code = #updateDate
+* #A057282 ^property[+].code = #effectiveDate
 * #A057282 ^property[=].valueString = "2024-05"
 * #A057284 "科達桑菊飲濃縮細粒"
 * #A057284 ^property[0].code = #status
 * #A057284 ^property[=].valueString = "新增"
-* #A057284 ^property[+].code = #updateDate
+* #A057284 ^property[+].code = #effectiveDate
 * #A057284 ^property[=].valueString = "2024-05"
 * #A036987 "科達折衝飲濃縮細粒"
 * #A036987 ^property[0].code = #status
 * #A036987 ^property[=].valueString = "新增"
-* #A036987 ^property[+].code = #updateDate
+* #A036987 ^property[+].code = #effectiveDate
 * #A036987 ^property[=].valueString = "2024-05"
 * #A036989 "正揚龍膽瀉肝湯濃縮細粒"
 * #A036989 ^property[0].code = #status
 * #A036989 ^property[=].valueString = "新增"
-* #A036989 ^property[+].code = #updateDate
+* #A036989 ^property[+].code = #effectiveDate
 * #A036989 ^property[=].valueString = "2024-05"
 * #A036990 "莊松榮五皮飲濃縮細粒"
 * #A036990 ^property[0].code = #status
 * #A036990 ^property[=].valueString = "新增"
-* #A036990 ^property[+].code = #updateDate
+* #A036990 ^property[+].code = #effectiveDate
 * #A036990 ^property[=].valueString = "2024-05"
 * #A036991 "莊松榮養心湯濃縮細粒"
 * #A036991 ^property[0].code = #status
 * #A036991 ^property[=].valueString = "新增"
-* #A036991 ^property[+].code = #updateDate
+* #A036991 ^property[+].code = #effectiveDate
 * #A036991 ^property[=].valueString = "2024-05"
 * #A036992 "莊松榮八正散濃縮細粒"
 * #A036992 ^property[0].code = #status
 * #A036992 ^property[=].valueString = "新增"
-* #A036992 ^property[+].code = #updateDate
+* #A036992 ^property[+].code = #effectiveDate
 * #A036992 ^property[=].valueString = "2024-05"
 * #A036996 "晉安白虎加人參湯濃縮顆粒"
 * #A036996 ^property[0].code = #status
 * #A036996 ^property[=].valueString = "新增"
-* #A036996 ^property[+].code = #updateDate
+* #A036996 ^property[+].code = #effectiveDate
 * #A036996 ^property[=].valueString = "2024-05"
 * #A041773 "仙豐甘露飲濃縮細粒"
 * #A041773 ^property[0].code = #status
 * #A041773 ^property[=].valueString = "新增"
-* #A041773 ^property[+].code = #updateDate
+* #A041773 ^property[+].code = #effectiveDate
 * #A041773 ^property[=].valueString = "2024-05"
 * #A041774 "仙豐參苓白朮散濃縮細粒"
 * #A041774 ^property[0].code = #status
 * #A041774 ^property[=].valueString = "新增"
-* #A041774 ^property[+].code = #updateDate
+* #A041774 ^property[+].code = #effectiveDate
 * #A041774 ^property[=].valueString = "2024-05"
 * #A042692 "順然炙甘草湯濃縮細粒"
 * #A042692 ^property[0].code = #status
 * #A042692 ^property[=].valueString = "新增"
-* #A042692 ^property[+].code = #updateDate
+* #A042692 ^property[+].code = #effectiveDate
 * #A042692 ^property[=].valueString = "2024-05"
 * #A042693 "萬國桔梗湯濃縮細粒"
 * #A042693 ^property[0].code = #status
 * #A042693 ^property[=].valueString = "新增"
-* #A042693 ^property[+].code = #updateDate
+* #A042693 ^property[+].code = #effectiveDate
 * #A042693 ^property[=].valueString = "2024-05"
 * #A042694 "東陽左歸丸濃縮細粒"
 * #A042694 ^property[0].code = #status
 * #A042694 ^property[=].valueString = "新增"
-* #A042694 ^property[+].code = #updateDate
+* #A042694 ^property[+].code = #effectiveDate
 * #A042694 ^property[=].valueString = "2024-05"
 * #A031160 "天一乙字湯濃縮顆粒"
 * #A031160 ^property[0].code = #status
 * #A031160 ^property[=].valueString = "新增"
-* #A031160 ^property[+].code = #updateDate
+* #A031160 ^property[+].code = #effectiveDate
 * #A031160 ^property[=].valueString = "2024-05"
 * #A031161 "天一八味地黃丸濃縮顆粒"
 * #A031161 ^property[0].code = #status
 * #A031161 ^property[=].valueString = "新增"
-* #A031161 ^property[+].code = #updateDate
+* #A031161 ^property[+].code = #effectiveDate
 * #A031161 ^property[=].valueString = "2024-05"
 * #A031162 "科達桂枝龍骨牡蠣湯濃縮散"
 * #A031162 ^property[0].code = #status
 * #A031162 ^property[=].valueString = "新增"
-* #A031162 ^property[+].code = #updateDate
+* #A031162 ^property[+].code = #effectiveDate
 * #A031162 ^property[=].valueString = "2024-05"
 * #A057301 "港香蘭大承氣湯濃縮錠"
 * #A057301 ^property[0].code = #status
 * #A057301 ^property[=].valueString = "新增"
-* #A057301 ^property[+].code = #updateDate
+* #A057301 ^property[+].code = #effectiveDate
 * #A057301 ^property[=].valueString = "2024-05"
 * #A057303 "科達四君子湯濃縮細粒"
 * #A057303 ^property[0].code = #status
 * #A057303 ^property[=].valueString = "新增"
-* #A057303 ^property[+].code = #updateDate
+* #A057303 ^property[+].code = #effectiveDate
 * #A057303 ^property[=].valueString = "2024-05"
 * #A059994 "科達桂枝湯濃縮細粒"
 * #A059994 ^property[0].code = #status
 * #A059994 ^property[=].valueString = "新增"
-* #A059994 ^property[+].code = #updateDate
+* #A059994 ^property[+].code = #effectiveDate
 * #A059994 ^property[=].valueString = "2024-05"
 * #A059995 "科達杞菊地黃丸濃縮細粒"
 * #A059995 ^property[0].code = #status
 * #A059995 ^property[=].valueString = "新增"
-* #A059995 ^property[+].code = #updateDate
+* #A059995 ^property[+].code = #effectiveDate
 * #A059995 ^property[=].valueString = "2024-05"
 * #A037007 "莊松榮胃康寧濃縮細粒"
 * #A037007 ^property[0].code = #status
 * #A037007 ^property[=].valueString = "新增"
-* #A037007 ^property[+].code = #updateDate
+* #A037007 ^property[+].code = #effectiveDate
 * #A037007 ^property[=].valueString = "2024-05"
 * #A037023 "港香蘭紫草根牡蠣湯濃縮細粒"
 * #A037023 ^property[0].code = #status
 * #A037023 ^property[=].valueString = "新增"
-* #A037023 ^property[+].code = #updateDate
+* #A037023 ^property[+].code = #effectiveDate
 * #A037023 ^property[=].valueString = "2024-05"
 * #A037009 "天明仙方活命飲濃縮細粒(去穿山甲)"
 * #A037009 ^property[0].code = #status
 * #A037009 ^property[=].valueString = "新增"
-* #A037009 ^property[+].code = #updateDate
+* #A037009 ^property[+].code = #effectiveDate
 * #A037009 ^property[=].valueString = "2024-05"
 * #A037010 "天明溫清飲濃縮細粒"
 * #A037010 ^property[0].code = #status
 * #A037010 ^property[=].valueString = "新增"
-* #A037010 ^property[+].code = #updateDate
+* #A037010 ^property[+].code = #effectiveDate
 * #A037010 ^property[=].valueString = "2024-05"
 * #A037011 "天明復元活血湯濃縮細粒(去穿山甲)"
 * #A037011 ^property[0].code = #status
 * #A037011 ^property[=].valueString = "新增"
-* #A037011 ^property[+].code = #updateDate
+* #A037011 ^property[+].code = #effectiveDate
 * #A037011 ^property[=].valueString = "2024-05"
 * #A037014 "莊松榮柴胡疏肝湯濃縮細粒"
 * #A037014 ^property[0].code = #status
 * #A037014 ^property[=].valueString = "新增"
-* #A037014 ^property[+].code = #updateDate
+* #A037014 ^property[+].code = #effectiveDate
 * #A037014 ^property[=].valueString = "2024-05"
 * #A037015 "順天堂濟生腎氣丸濃縮顆粒"
 * #A037015 ^property[0].code = #status
 * #A037015 ^property[=].valueString = "新增"
-* #A037015 ^property[+].code = #updateDate
+* #A037015 ^property[+].code = #effectiveDate
 * #A037015 ^property[=].valueString = "2024-05"
 * #A037017 "勝昌葛花解酲湯濃縮散"
 * #A037017 ^property[0].code = #status
 * #A037017 ^property[=].valueString = "新增"
-* #A037017 ^property[+].code = #updateDate
+* #A037017 ^property[+].code = #effectiveDate
 * #A037017 ^property[=].valueString = "2024-05"
 * #A037020 "天一溫清飲縮顆粒"
 * #A037020 ^property[0].code = #status
 * #A037020 ^property[=].valueString = "新增"
-* #A037020 ^property[+].code = #updateDate
+* #A037020 ^property[+].code = #effectiveDate
 * #A037020 ^property[=].valueString = "2024-05"
 * #A037022 "港香蘭過期飲濃縮細粒"
 * #A037022 ^property[0].code = #status
 * #A037022 ^property[=].valueString = "新增"
-* #A037022 ^property[+].code = #updateDate
+* #A037022 ^property[+].code = #effectiveDate
 * #A037022 ^property[=].valueString = "2024-05"
 * #A037024 "科達木香檳榔丸濃縮細粒"
 * #A037024 ^property[0].code = #status
 * #A037024 ^property[=].valueString = "新增"
-* #A037024 ^property[+].code = #updateDate
+* #A037024 ^property[+].code = #effectiveDate
 * #A037024 ^property[=].valueString = "2024-05"
 * #A037025 "東陽逍遙散濃縮錠"
 * #A037025 ^property[0].code = #status
 * #A037025 ^property[=].valueString = "新增"
-* #A037025 ^property[+].code = #updateDate
+* #A037025 ^property[+].code = #effectiveDate
 * #A037025 ^property[=].valueString = "2024-05"
 * #A045980 "生春龜鹿二仙膠濃縮細粒"
 * #A045980 ^property[0].code = #status
 * #A045980 ^property[=].valueString = "新增"
-* #A045980 ^property[+].code = #updateDate
+* #A045980 ^property[+].code = #effectiveDate
 * #A045980 ^property[=].valueString = "2024-05"
 * #A045981 "天一瓜蔞枳實湯濃縮顆粒"
 * #A045981 ^property[0].code = #status
 * #A045981 ^property[=].valueString = "新增"
-* #A045981 ^property[+].code = #updateDate
+* #A045981 ^property[+].code = #effectiveDate
 * #A045981 ^property[=].valueString = "2024-05"
 * #A045987 "復旦真武湯濃縮細粒"
 * #A045987 ^property[0].code = #status
 * #A045987 ^property[=].valueString = "新增"
-* #A045987 ^property[+].code = #updateDate
+* #A045987 ^property[+].code = #effectiveDate
 * #A045987 ^property[=].valueString = "2024-05"
 * #A045988 "復旦黃連湯濃縮細粒"
 * #A045988 ^property[0].code = #status
 * #A045988 ^property[=].valueString = "新增"
-* #A045988 ^property[+].code = #updateDate
+* #A045988 ^property[+].code = #effectiveDate
 * #A045988 ^property[=].valueString = "2024-05"
 * #A045989 "天明安中散濃縮細粒"
 * #A045989 ^property[0].code = #status
 * #A045989 ^property[=].valueString = "新增"
-* #A045989 ^property[+].code = #updateDate
+* #A045989 ^property[+].code = #effectiveDate
 * #A045989 ^property[=].valueString = "2024-05"
 * #A045990 "天明當歸飲子濃縮細粒"
 * #A045990 ^property[0].code = #status
 * #A045990 ^property[=].valueString = "新增"
-* #A045990 ^property[+].code = #updateDate
+* #A045990 ^property[+].code = #effectiveDate
 * #A045990 ^property[=].valueString = "2024-05"
 * #A045991 "天明清肺湯濃縮細粒"
 * #A045991 ^property[0].code = #status
 * #A045991 ^property[=].valueString = "新增"
-* #A045991 ^property[+].code = #updateDate
+* #A045991 ^property[+].code = #effectiveDate
 * #A045991 ^property[=].valueString = "2024-05"
 * #A049868 "勸奉堂蒼耳散濃縮細粒"
 * #A049868 ^property[0].code = #status
 * #A049868 ^property[=].valueString = "新增"
-* #A049868 ^property[+].code = #updateDate
+* #A049868 ^property[+].code = #effectiveDate
 * #A049868 ^property[=].valueString = "2024-05"
 * #A049871 "順然玉女煎濃縮細粒"
 * #A049871 ^property[0].code = #status
 * #A049871 ^property[=].valueString = "新增"
-* #A049871 ^property[+].code = #updateDate
+* #A049871 ^property[+].code = #effectiveDate
 * #A049871 ^property[=].valueString = "2024-05"
 * #A055464 "領先完帶湯濃縮顆粒"
 * #A055464 ^property[0].code = #status
 * #A055464 ^property[=].valueString = "新增"
-* #A055464 ^property[+].code = #updateDate
+* #A055464 ^property[+].code = #effectiveDate
 * #A055464 ^property[=].valueString = "2024-05"
 * #A042698 "東陽補中益氣湯濃縮細粒"
 * #A042698 ^property[0].code = #status
 * #A042698 ^property[=].valueString = "新增"
-* #A042698 ^property[+].code = #updateDate
+* #A042698 ^property[+].code = #effectiveDate
 * #A042698 ^property[=].valueString = "2024-05"
 * #A042699 "莊松榮龜鹿二仙膏濃縮丸"
 * #A042699 ^property[0].code = #status
 * #A042699 ^property[=].valueString = "新增"
-* #A042699 ^property[+].code = #updateDate
+* #A042699 ^property[+].code = #effectiveDate
 * #A042699 ^property[=].valueString = "2024-05"
 * #A042700 "科達平胃散濃縮錠"
 * #A042700 ^property[0].code = #status
 * #A042700 ^property[=].valueString = "新增"
-* #A042700 ^property[+].code = #updateDate
+* #A042700 ^property[+].code = #effectiveDate
 * #A042700 ^property[=].valueString = "2024-05"
 * #A042701 "萬國射干麻黃湯濃縮細粒"
 * #A042701 ^property[0].code = #status
 * #A042701 ^property[=].valueString = "新增"
-* #A042701 ^property[+].code = #updateDate
+* #A042701 ^property[+].code = #effectiveDate
 * #A042701 ^property[=].valueString = "2024-05"
 * #A045997 "港香蘭折衝飲濃縮細粒"
 * #A045997 ^property[0].code = #status
 * #A045997 ^property[=].valueString = "新增"
-* #A045997 ^property[+].code = #updateDate
+* #A045997 ^property[+].code = #effectiveDate
 * #A045997 ^property[=].valueString = "2024-05"
 * #A045999 "港香蘭保和丸濃縮錠"
 * #A045999 ^property[0].code = #status
 * #A045999 ^property[=].valueString = "新增"
-* #A045999 ^property[+].code = #updateDate
+* #A045999 ^property[+].code = #effectiveDate
 * #A045999 ^property[=].valueString = "2024-05"
 * #A046002 "生春桔梗湯濃縮細粒（濟生方）"
 * #A046002 ^property[0].code = #status
 * #A046002 ^property[=].valueString = "新增"
-* #A046002 ^property[+].code = #updateDate
+* #A046002 ^property[+].code = #effectiveDate
 * #A046002 ^property[=].valueString = "2024-05"
 * #A046003 "生春不換金正氣散濃縮細粒"
 * #A046003 ^property[0].code = #status
 * #A046003 ^property[=].valueString = "新增"
-* #A046003 ^property[+].code = #updateDate
+* #A046003 ^property[+].code = #effectiveDate
 * #A046003 ^property[=].valueString = "2024-05"
 * #A046004 "生春清涼散濃縮細粒"
 * #A046004 ^property[0].code = #status
 * #A046004 ^property[=].valueString = "新增"
-* #A046004 ^property[+].code = #updateDate
+* #A046004 ^property[+].code = #effectiveDate
 * #A046004 ^property[=].valueString = "2024-05"
 * #A057317 "科達黃連解毒湯濃縮細粒"
 * #A057317 ^property[0].code = #status
 * #A057317 ^property[=].valueString = "新增"
-* #A057317 ^property[+].code = #updateDate
+* #A057317 ^property[+].code = #effectiveDate
 * #A057317 ^property[=].valueString = "2024-05"
 * #A057318 "科達炙甘草湯濃縮細粒"
 * #A057318 ^property[0].code = #status
 * #A057318 ^property[=].valueString = "新增"
-* #A057318 ^property[+].code = #updateDate
+* #A057318 ^property[+].code = #effectiveDate
 * #A057318 ^property[=].valueString = "2024-05"
 * #A037043 "順天堂濟生腎氣丸濃縮膠囊"
 * #A037043 ^property[0].code = #status
 * #A037043 ^property[=].valueString = "新增"
-* #A037043 ^property[+].code = #updateDate
+* #A037043 ^property[+].code = #effectiveDate
 * #A037043 ^property[=].valueString = "2024-05"
 * #A037044 "順天堂玉屏風散濃縮錠"
 * #A037044 ^property[0].code = #status
 * #A037044 ^property[=].valueString = "新增"
-* #A037044 ^property[+].code = #updateDate
+* #A037044 ^property[+].code = #effectiveDate
 * #A037044 ^property[=].valueString = "2024-05"
 * #A037045 "天明茵陳五苓散濃縮細粒"
 * #A037045 ^property[0].code = #status
 * #A037045 ^property[=].valueString = "新增"
-* #A037045 ^property[+].code = #updateDate
+* #A037045 ^property[+].code = #effectiveDate
 * #A037045 ^property[=].valueString = "2024-05"
 * #A057322 "港香蘭防己黃耆湯濃縮錠"
 * #A057322 ^property[0].code = #status
 * #A057322 ^property[=].valueString = "新增"
-* #A057322 ^property[+].code = #updateDate
+* #A057322 ^property[+].code = #effectiveDate
 * #A057322 ^property[=].valueString = "2024-05"
 * #A057325 "領先止嗽散濃縮顆粒"
 * #A057325 ^property[0].code = #status
 * #A057325 ^property[=].valueString = "新增"
-* #A057325 ^property[+].code = #updateDate
+* #A057325 ^property[+].code = #effectiveDate
 * #A057325 ^property[=].valueString = "2024-05"
 * #A049867 "富田柴陷湯濃縮細粒"
 * #A049867 ^property[0].code = #status
 * #A049867 ^property[=].valueString = "新增"
-* #A049867 ^property[+].code = #updateDate
+* #A049867 ^property[+].code = #effectiveDate
 * #A049867 ^property[=].valueString = "2024-05"
 * #A049869 "勸奉堂四君子湯濃縮細粒"
 * #A049869 ^property[0].code = #status
 * #A049869 ^property[=].valueString = "新增"
-* #A049869 ^property[+].code = #updateDate
+* #A049869 ^property[+].code = #effectiveDate
 * #A049869 ^property[=].valueString = "2024-05"
 * #A057331 "三才堂生脈飲濃縮細粒"
 * #A057331 ^property[0].code = #status
 * #A057331 ^property[=].valueString = "新增"
-* #A057331 ^property[+].code = #updateDate
+* #A057331 ^property[+].code = #effectiveDate
 * #A057331 ^property[=].valueString = "2024-05"
 * #A026665 "忠山滋腎明目湯濃縮丸"
 * #A026665 ^property[0].code = #status
 * #A026665 ^property[=].valueString = "新增"
-* #A026665 ^property[+].code = #updateDate
+* #A026665 ^property[+].code = #effectiveDate
 * #A026665 ^property[=].valueString = "2024-05"
 * #A046009 "富田藿香正氣散濃縮細粒"
 * #A046009 ^property[0].code = #status
 * #A046009 ^property[=].valueString = "新增"
-* #A046009 ^property[+].code = #updateDate
+* #A046009 ^property[+].code = #effectiveDate
 * #A046009 ^property[=].valueString = "2024-05"
 * #A046010 "順天堂補陰湯濃縮顆粒"
 * #A046010 ^property[0].code = #status
 * #A046010 ^property[=].valueString = "新增"
-* #A046010 ^property[+].code = #updateDate
+* #A046010 ^property[+].code = #effectiveDate
 * #A046010 ^property[=].valueString = "2024-05"
 * #A059998 "順天堂止嗽散濃縮散"
 * #A059998 ^property[0].code = #status
 * #A059998 ^property[=].valueString = "新增"
-* #A059998 ^property[+].code = #updateDate
+* #A059998 ^property[+].code = #effectiveDate
 * #A059998 ^property[=].valueString = "2024-05"
 * #A037085 "東陽銀翹散濃縮錠"
 * #A037085 ^property[0].code = #status
 * #A037085 ^property[=].valueString = "新增"
-* #A037085 ^property[+].code = #updateDate
+* #A037085 ^property[+].code = #effectiveDate
 * #A037085 ^property[=].valueString = "2024-05"
 * #A045693 "仙豐銀翹散濃縮細粒"
 * #A045693 ^property[0].code = #status
 * #A045693 ^property[=].valueString = "新增"
-* #A045693 ^property[+].code = #updateDate
+* #A045693 ^property[+].code = #effectiveDate
 * #A045693 ^property[=].valueString = "2024-05"
 * #A045710 "仙豐辛夷散濃縮細粒"
 * #A045710 ^property[0].code = #status
 * #A045710 ^property[=].valueString = "新增"
-* #A045710 ^property[+].code = #updateDate
+* #A045710 ^property[+].code = #effectiveDate
 * #A045710 ^property[=].valueString = "2024-05"
 * #A057334 "莊松榮麻黃附子細辛湯濃縮細粒"
 * #A057334 ^property[0].code = #status
 * #A057334 ^property[=].valueString = "新增"
-* #A057334 ^property[+].code = #updateDate
+* #A057334 ^property[+].code = #effectiveDate
 * #A057334 ^property[=].valueString = "2024-05"
 * #A057335 "莊松榮調胃承氣湯濃縮細粒"
 * #A057335 ^property[0].code = #status
 * #A057335 ^property[=].valueString = "新增"
-* #A057335 ^property[+].code = #updateDate
+* #A057335 ^property[+].code = #effectiveDate
 * #A057335 ^property[=].valueString = "2024-05"
 * #A057336 "天明烏梅丸濃縮細粒"
 * #A057336 ^property[0].code = #status
 * #A057336 ^property[=].valueString = "新增"
-* #A057336 ^property[+].code = #updateDate
+* #A057336 ^property[+].code = #effectiveDate
 * #A057336 ^property[=].valueString = "2024-05"
 * #A036058 "順天堂養心湯濃縮散"
 * #A036058 ^property[0].code = #status
 * #A036058 ^property[=].valueString = "新增"
-* #A036058 ^property[+].code = #updateDate
+* #A036058 ^property[+].code = #effectiveDate
 * #A036058 ^property[=].valueString = "2024-05"
 * #A056196 "勸奉堂黃連解毒湯濃縮顆粒"
 * #A056196 ^property[0].code = #status
 * #A056196 ^property[=].valueString = "新增"
-* #A056196 ^property[+].code = #updateDate
+* #A056196 ^property[+].code = #effectiveDate
 * #A056196 ^property[=].valueString = "2024-05"
 * #A049892 "德山茯菟丹濃縮細粒"
 * #A049892 ^property[0].code = #status
 * #A049892 ^property[=].valueString = "新增"
-* #A049892 ^property[+].code = #updateDate
+* #A049892 ^property[+].code = #effectiveDate
 * #A049892 ^property[=].valueString = "2024-05"
 * #A049893 "勸奉堂龜鹿二仙膠濃縮細粒"
 * #A049893 ^property[0].code = #status
 * #A049893 ^property[=].valueString = "新增"
-* #A049893 ^property[+].code = #updateDate
+* #A049893 ^property[+].code = #effectiveDate
 * #A049893 ^property[=].valueString = "2024-05"
 * #A049894 "三才堂麻黃湯濃縮散"
 * #A049894 ^property[0].code = #status
 * #A049894 ^property[=].valueString = "新增"
-* #A049894 ^property[+].code = #updateDate
+* #A049894 ^property[+].code = #effectiveDate
 * #A049894 ^property[=].valueString = "2024-05"
 * #A057337 "天明十六味流氣飲濃縮細粒"
 * #A057337 ^property[0].code = #status
 * #A057337 ^property[=].valueString = "新增"
-* #A057337 ^property[+].code = #updateDate
+* #A057337 ^property[+].code = #effectiveDate
 * #A057337 ^property[=].valueString = "2024-05"
 * #A057340 "科達四物湯濃縮細粒"
 * #A057340 ^property[0].code = #status
 * #A057340 ^property[=].valueString = "新增"
-* #A057340 ^property[+].code = #updateDate
+* #A057340 ^property[+].code = #effectiveDate
 * #A057340 ^property[=].valueString = "2024-05"
 * #A057341 "領先麻子仁丸濃縮顆粒"
 * #A057341 ^property[0].code = #status
 * #A057341 ^property[=].valueString = "新增"
-* #A057341 ^property[+].code = #updateDate
+* #A057341 ^property[+].code = #effectiveDate
 * #A057341 ^property[=].valueString = "2024-05"
 * #A042719 "萬國紫菀湯濃縮細粒"
 * #A042719 ^property[0].code = #status
 * #A042719 ^property[=].valueString = "新增"
-* #A042719 ^property[+].code = #updateDate
+* #A042719 ^property[+].code = #effectiveDate
 * #A042719 ^property[=].valueString = "2024-05"
 * #A042720 "萬國升麻葛根湯濃縮細粒"
 * #A042720 ^property[0].code = #status
 * #A042720 ^property[=].valueString = "新增"
-* #A042720 ^property[+].code = #updateDate
+* #A042720 ^property[+].code = #effectiveDate
 * #A042720 ^property[=].valueString = "2024-05"
 * #A055081 "領先銀翹散濃縮細粒"
 * #A055081 ^property[0].code = #status
 * #A055081 ^property[=].valueString = "新增"
-* #A055081 ^property[+].code = #updateDate
+* #A055081 ^property[+].code = #effectiveDate
 * #A055081 ^property[=].valueString = "2024-05"
 * #A037100 "復旦茵陳五苓散濃縮細粒"
 * #A037100 ^property[0].code = #status
 * #A037100 ^property[=].valueString = "新增"
-* #A037100 ^property[+].code = #updateDate
+* #A037100 ^property[+].code = #effectiveDate
 * #A037100 ^property[=].valueString = "2024-05"
 * #A037101 "天一清心蓮子飲濃縮顆粒"
 * #A037101 ^property[0].code = #status
 * #A037101 ^property[=].valueString = "新增"
-* #A037101 ^property[+].code = #updateDate
+* #A037101 ^property[+].code = #effectiveDate
 * #A037101 ^property[=].valueString = "2024-05"
 * #A037102 "天一八正散濃縮顆粒"
 * #A037102 ^property[0].code = #status
 * #A037102 ^property[=].valueString = "新增"
-* #A037102 ^property[+].code = #updateDate
+* #A037102 ^property[+].code = #effectiveDate
 * #A037102 ^property[=].valueString = "2024-05"
 * #A041777 "仙豐黃耆五物湯濃縮細粒"
 * #A041777 ^property[0].code = #status
 * #A041777 ^property[=].valueString = "新增"
-* #A041777 ^property[+].code = #updateDate
+* #A041777 ^property[+].code = #effectiveDate
 * #A041777 ^property[=].valueString = "2024-05"
 * #A042150 "仙豐補陽還五湯濃縮細粒"
 * #A042150 ^property[0].code = #status
 * #A042150 ^property[=].valueString = "新增"
-* #A042150 ^property[+].code = #updateDate
+* #A042150 ^property[+].code = #effectiveDate
 * #A042150 ^property[=].valueString = "2024-05"
 * #A037107 "科達柴胡疏肝湯濃縮細粒"
 * #A037107 ^property[0].code = #status
 * #A037107 ^property[=].valueString = "新增"
-* #A037107 ^property[+].code = #updateDate
+* #A037107 ^property[+].code = #effectiveDate
 * #A037107 ^property[=].valueString = "2024-05"
 * #A037108 "東陽杏蘇散濃縮錠"
 * #A037108 ^property[0].code = #status
 * #A037108 ^property[=].valueString = "新增"
-* #A037108 ^property[+].code = #updateDate
+* #A037108 ^property[+].code = #effectiveDate
 * #A037108 ^property[=].valueString = "2024-05"
 * #A037109 "復旦血府逐瘀湯濃縮細粒"
 * #A037109 ^property[0].code = #status
 * #A037109 ^property[=].valueString = "新增"
-* #A037109 ^property[+].code = #updateDate
+* #A037109 ^property[+].code = #effectiveDate
 * #A037109 ^property[=].valueString = "2024-05"
 * #A037110 "科達調胃承氣湯濃縮細粒"
 * #A037110 ^property[0].code = #status
 * #A037110 ^property[=].valueString = "新增"
-* #A037110 ^property[+].code = #updateDate
+* #A037110 ^property[+].code = #effectiveDate
 * #A037110 ^property[=].valueString = "2024-05"
 * #A037111 "科達八珍湯濃縮細粒"
 * #A037111 ^property[0].code = #status
 * #A037111 ^property[=].valueString = "新增"
-* #A037111 ^property[+].code = #updateDate
+* #A037111 ^property[+].code = #effectiveDate
 * #A037111 ^property[=].valueString = "2024-05"
 * #A037112 "天一抑肝散濃縮顆粒"
 * #A037112 ^property[0].code = #status
 * #A037112 ^property[=].valueString = "新增"
-* #A037112 ^property[+].code = #updateDate
+* #A037112 ^property[+].code = #effectiveDate
 * #A037112 ^property[=].valueString = "2024-05"
 * #A056198 "勸奉堂荊防敗毒散濃縮顆粒"
 * #A056198 ^property[0].code = #status
 * #A056198 ^property[=].valueString = "新增"
-* #A056198 ^property[+].code = #updateDate
+* #A056198 ^property[+].code = #effectiveDate
 * #A056198 ^property[=].valueString = "2024-05"
 * #A037118 "正揚十神湯濃縮細粒"
 * #A037118 ^property[0].code = #status
 * #A037118 ^property[=].valueString = "新增"
-* #A037118 ^property[+].code = #updateDate
+* #A037118 ^property[+].code = #effectiveDate
 * #A037118 ^property[=].valueString = "2024-05"
 * #A037119 "復旦正骨紫金丹濃縮細粒"
 * #A037119 ^property[0].code = #status
 * #A037119 ^property[=].valueString = "新增"
-* #A037119 ^property[+].code = #updateDate
+* #A037119 ^property[+].code = #effectiveDate
 * #A037119 ^property[=].valueString = "2024-05"
 * #A057349 "科達平胃散濃縮細粒"
 * #A057349 ^property[0].code = #status
 * #A057349 ^property[=].valueString = "新增"
-* #A057349 ^property[+].code = #updateDate
+* #A057349 ^property[+].code = #effectiveDate
 * #A057349 ^property[=].valueString = "2024-05"
 * #A057350 "科達右歸丸濃縮細粒"
 * #A057350 ^property[0].code = #status
 * #A057350 ^property[=].valueString = "新增"
-* #A057350 ^property[+].code = #updateDate
+* #A057350 ^property[+].code = #effectiveDate
 * #A057350 ^property[=].valueString = "2024-05"
 * #A026693 "忠山還少丹濃縮丸"
 * #A026693 ^property[0].code = #status
 * #A026693 ^property[=].valueString = "新增"
-* #A026693 ^property[+].code = #updateDate
+* #A026693 ^property[+].code = #effectiveDate
 * #A026693 ^property[=].valueString = "2024-05"
 * #A026698 "忠山清上防風湯濃縮丸"
 * #A026698 ^property[0].code = #status
 * #A026698 ^property[=].valueString = "新增"
-* #A026698 ^property[+].code = #updateDate
+* #A026698 ^property[+].code = #effectiveDate
 * #A026698 ^property[=].valueString = "2024-05"
 * #A046032 "正揚沙參麥冬湯濃縮細粒"
 * #A046032 ^property[0].code = #status
 * #A046032 ^property[=].valueString = "新增"
-* #A046032 ^property[+].code = #updateDate
+* #A046032 ^property[+].code = #effectiveDate
 * #A046032 ^property[=].valueString = "2024-05"
 * #A046033 "勸奉堂仙方活命飲濃縮細粒(去穿山甲)"
 * #A046033 ^property[0].code = #status
 * #A046033 ^property[=].valueString = "新增"
-* #A046033 ^property[+].code = #updateDate
+* #A046033 ^property[+].code = #effectiveDate
 * #A046033 ^property[=].valueString = "2024-05"
 * #A046034 "仙豐附子理中湯濃縮細粒"
 * #A046034 ^property[0].code = #status
 * #A046034 ^property[=].valueString = "新增"
-* #A046034 ^property[+].code = #updateDate
+* #A046034 ^property[+].code = #effectiveDate
 * #A046034 ^property[=].valueString = "2024-05"
 * #A046035 "仙豐補陰湯濃縮細粒"
 * #A046035 ^property[0].code = #status
 * #A046035 ^property[=].valueString = "新增"
-* #A046035 ^property[+].code = #updateDate
+* #A046035 ^property[+].code = #effectiveDate
 * #A046035 ^property[=].valueString = "2024-05"
 * #A046036 "富田當歸芍藥散濃縮細粒"
 * #A046036 ^property[0].code = #status
 * #A046036 ^property[=].valueString = "新增"
-* #A046036 ^property[+].code = #updateDate
+* #A046036 ^property[+].code = #effectiveDate
 * #A046036 ^property[=].valueString = "2024-05"
 * #A046208 "八仙四物湯濃縮細粒"
 * #A046208 ^property[0].code = #status
 * #A046208 ^property[=].valueString = "新增"
-* #A046208 ^property[+].code = #updateDate
+* #A046208 ^property[+].code = #effectiveDate
 * #A046208 ^property[=].valueString = "2024-05"
 * #A060000 "順天堂七寶美髯丹濃縮顆粒"
 * #A060000 ^property[0].code = #status
 * #A060000 ^property[=].valueString = "新增"
-* #A060000 ^property[+].code = #updateDate
+* #A060000 ^property[+].code = #effectiveDate
 * #A060000 ^property[=].valueString = "2024-05"
 * #A037130 "東陽獨活寄生湯濃縮錠"
 * #A037130 ^property[0].code = #status
 * #A037130 ^property[=].valueString = "新增"
-* #A037130 ^property[+].code = #updateDate
+* #A037130 ^property[+].code = #effectiveDate
 * #A037130 ^property[=].valueString = "2024-05"
 * #A042726 "萬國豬苓湯濃縮細粒"
 * #A042726 ^property[0].code = #status
 * #A042726 ^property[=].valueString = "新增"
-* #A042726 ^property[+].code = #updateDate
+* #A042726 ^property[+].code = #effectiveDate
 * #A042726 ^property[=].valueString = "2024-05"
 * #A037137 "勝昌涼膈散去硝黃加桔梗濃縮散"
 * #A037137 ^property[0].code = #status
 * #A037137 ^property[=].valueString = "新增"
-* #A037137 ^property[+].code = #updateDate
+* #A037137 ^property[+].code = #effectiveDate
 * #A037137 ^property[=].valueString = "2024-05"
 * #A057362 "天一香薷飲濃縮顆粒"
 * #A057362 ^property[0].code = #status
 * #A057362 ^property[=].valueString = "新增"
-* #A057362 ^property[+].code = #updateDate
+* #A057362 ^property[+].code = #effectiveDate
 * #A057362 ^property[=].valueString = "2024-05"
 * #A046041 "生春清氣化痰丸濃縮細粒"
 * #A046041 ^property[0].code = #status
 * #A046041 ^property[=].valueString = "新增"
-* #A046041 ^property[+].code = #updateDate
+* #A046041 ^property[+].code = #effectiveDate
 * #A046041 ^property[=].valueString = "2024-05"
 * #A046042 "天一秦艽鱉甲湯湯濃縮顆粒"
 * #A046042 ^property[0].code = #status
 * #A046042 ^property[=].valueString = "新增"
-* #A046042 ^property[+].code = #updateDate
+* #A046042 ^property[+].code = #effectiveDate
 * #A046042 ^property[=].valueString = "2024-05"
 * #A046043 "晉安清氣化痰湯濃縮錠"
 * #A046043 ^property[0].code = #status
 * #A046043 ^property[=].valueString = "新增"
-* #A046043 ^property[+].code = #updateDate
+* #A046043 ^property[+].code = #effectiveDate
 * #A046043 ^property[=].valueString = "2024-05"
 * #A046044 "晉安芍藥甘草湯濃縮錠"
 * #A046044 ^property[0].code = #status
 * #A046044 ^property[=].valueString = "新增"
-* #A046044 ^property[+].code = #updateDate
+* #A046044 ^property[+].code = #effectiveDate
 * #A046044 ^property[=].valueString = "2024-05"
 * #A060001 "科達辛夷清肺湯濃縮細粒"
 * #A060001 ^property[0].code = #status
 * #A060001 ^property[=].valueString = "新增"
-* #A060001 ^property[+].code = #updateDate
+* #A060001 ^property[+].code = #effectiveDate
 * #A060001 ^property[=].valueString = "2024-05"
 * #A042739 "萬國治疝痛濃縮細粒"
 * #A042739 ^property[0].code = #status
 * #A042739 ^property[=].valueString = "新增"
-* #A042739 ^property[+].code = #updateDate
+* #A042739 ^property[+].code = #effectiveDate
 * #A042739 ^property[=].valueString = "2024-05"
 * #A042728 "正揚參苓白朮散濃縮細粒"
 * #A042728 ^property[0].code = #status
 * #A042728 ^property[=].valueString = "新增"
-* #A042728 ^property[+].code = #updateDate
+* #A042728 ^property[+].code = #effectiveDate
 * #A042728 ^property[=].valueString = "2024-05"
 * #A042729 "萬國溫清飲濃縮細粒"
 * #A042729 ^property[0].code = #status
 * #A042729 ^property[=].valueString = "新增"
-* #A042729 ^property[+].code = #updateDate
+* #A042729 ^property[+].code = #effectiveDate
 * #A042729 ^property[=].valueString = "2024-05"
 * #A042730 "天一五淋散濃縮顆粒"
 * #A042730 ^property[0].code = #status
 * #A042730 ^property[=].valueString = "新增"
-* #A042730 ^property[+].code = #updateDate
+* #A042730 ^property[+].code = #effectiveDate
 * #A042730 ^property[=].valueString = "2024-05"
 * #A042734 "東陽當歸拈痛湯濃縮細粒"
 * #A042734 ^property[0].code = #status
 * #A042734 ^property[=].valueString = "新增"
-* #A042734 ^property[+].code = #updateDate
+* #A042734 ^property[+].code = #effectiveDate
 * #A042734 ^property[=].valueString = "2024-05"
 * #A042735 "莊松榮排膿散濃縮細粒"
 * #A042735 ^property[0].code = #status
 * #A042735 ^property[=].valueString = "新增"
-* #A042735 ^property[+].code = #updateDate
+* #A042735 ^property[+].code = #effectiveDate
 * #A042735 ^property[=].valueString = "2024-05"
 * #A042737 "天明黃連解毒湯濃縮細粒"
 * #A042737 ^property[0].code = #status
 * #A042737 ^property[=].valueString = "新增"
-* #A042737 ^property[+].code = #updateDate
+* #A042737 ^property[+].code = #effectiveDate
 * #A042737 ^property[=].valueString = "2024-05"
 * #A060002 "順天堂四逆湯濃縮散"
 * #A060002 ^property[0].code = #status
 * #A060002 ^property[=].valueString = "新增"
-* #A060002 ^property[+].code = #updateDate
+* #A060002 ^property[+].code = #effectiveDate
 * #A060002 ^property[=].valueString = "2024-05"
 * #A031196 "科達桃核承氣湯濃縮散"
 * #A031196 ^property[0].code = #status
 * #A031196 ^property[=].valueString = "新增"
-* #A031196 ^property[+].code = #updateDate
+* #A031196 ^property[+].code = #effectiveDate
 * #A031196 ^property[=].valueString = "2024-05"
 * #A031197 "生春六味地黃濃縮顆粒"
 * #A031197 ^property[0].code = #status
 * #A031197 ^property[=].valueString = "新增"
-* #A031197 ^property[+].code = #updateDate
+* #A031197 ^property[+].code = #effectiveDate
 * #A031197 ^property[=].valueString = "2024-05"
 * #A037145 "萬國杞菊地黃丸濃縮細粒"
 * #A037145 ^property[0].code = #status
 * #A037145 ^property[=].valueString = "新增"
-* #A037145 ^property[+].code = #updateDate
+* #A037145 ^property[+].code = #effectiveDate
 * #A037145 ^property[=].valueString = "2024-05"
 * #A037146 "信宏半夏白朮天麻湯濃縮細粒"
 * #A037146 ^property[0].code = #status
 * #A037146 ^property[=].valueString = "新增"
-* #A037146 ^property[+].code = #updateDate
+* #A037146 ^property[+].code = #effectiveDate
 * #A037146 ^property[=].valueString = "2024-05"
 * #A037147 "萬國六味地黃丸濃縮細粒"
 * #A037147 ^property[0].code = #status
 * #A037147 ^property[=].valueString = "新增"
-* #A037147 ^property[+].code = #updateDate
+* #A037147 ^property[+].code = #effectiveDate
 * #A037147 ^property[=].valueString = "2024-05"
 * #A037148 "萬國知柏地黃丸濃縮細粒"
 * #A037148 ^property[0].code = #status
 * #A037148 ^property[=].valueString = "新增"
-* #A037148 ^property[+].code = #updateDate
+* #A037148 ^property[+].code = #effectiveDate
 * #A037148 ^property[=].valueString = "2024-05"
 * #A037149 "信宏養心湯濃縮細粒"
 * #A037149 ^property[0].code = #status
 * #A037149 ^property[=].valueString = "新增"
-* #A037149 ^property[+].code = #updateDate
+* #A037149 ^property[+].code = #effectiveDate
 * #A037149 ^property[=].valueString = "2024-05"
 * #A037150 "萬國小柴胡湯濃縮細粒"
 * #A037150 ^property[0].code = #status
 * #A037150 ^property[=].valueString = "新增"
-* #A037150 ^property[+].code = #updateDate
+* #A037150 ^property[+].code = #effectiveDate
 * #A037150 ^property[=].valueString = "2024-05"
 * #A037152 "萬國酸棗仁湯濃縮細粒"
 * #A037152 ^property[0].code = #status
 * #A037152 ^property[=].valueString = "新增"
-* #A037152 ^property[+].code = #updateDate
+* #A037152 ^property[+].code = #effectiveDate
 * #A037152 ^property[=].valueString = "2024-05"
 * #A037154 "勝昌小柴胡湯去參濃縮散"
 * #A037154 ^property[0].code = #status
 * #A037154 ^property[=].valueString = "新增"
-* #A037154 ^property[+].code = #updateDate
+* #A037154 ^property[+].code = #effectiveDate
 * #A037154 ^property[=].valueString = "2024-05"
 * #A056197 "勸奉堂柴胡桂枝湯濃縮顆粒"
 * #A056197 ^property[0].code = #status
 * #A056197 ^property[=].valueString = "新增"
-* #A056197 ^property[+].code = #updateDate
+* #A056197 ^property[+].code = #effectiveDate
 * #A056197 ^property[=].valueString = "2024-05"
 * #A057366 "天明肥兒八珍糕濃縮細粒"
 * #A057366 ^property[0].code = #status
 * #A057366 ^property[=].valueString = "新增"
-* #A057366 ^property[+].code = #updateDate
+* #A057366 ^property[+].code = #effectiveDate
 * #A057366 ^property[=].valueString = "2024-05"
 * #A049911 "三才堂桃紅四物湯濃縮細粒"
 * #A049911 ^property[0].code = #status
 * #A049911 ^property[=].valueString = "新增"
-* #A049911 ^property[+].code = #updateDate
+* #A049911 ^property[+].code = #effectiveDate
 * #A049911 ^property[=].valueString = "2024-05"
 * #A049912 "東陽一貫煎濃縮細粒"
 * #A049912 ^property[0].code = #status
 * #A049912 ^property[=].valueString = "新增"
-* #A049912 ^property[+].code = #updateDate
+* #A049912 ^property[+].code = #effectiveDate
 * #A049912 ^property[=].valueString = "2024-05"
 * #A037168 "萬國半夏瀉心湯濃縮細粒"
 * #A037168 ^property[0].code = #status
 * #A037168 ^property[=].valueString = "新增"
-* #A037168 ^property[+].code = #updateDate
+* #A037168 ^property[+].code = #effectiveDate
 * #A037168 ^property[=].valueString = "2024-05"
 * #A037169 "萬國疏經活血湯濃縮細粒"
 * #A037169 ^property[0].code = #status
 * #A037169 ^property[=].valueString = "新增"
-* #A037169 ^property[+].code = #updateDate
+* #A037169 ^property[+].code = #effectiveDate
 * #A037169 ^property[=].valueString = "2024-05"
 * #A046061 "生春養血壯筋健步丸濃縮細粒(去虎骨)"
 * #A046061 ^property[0].code = #status
 * #A046061 ^property[=].valueString = "新增"
-* #A046061 ^property[+].code = #updateDate
+* #A046061 ^property[+].code = #effectiveDate
 * #A046061 ^property[=].valueString = "2024-05"
 * #A046053 "順天堂腸淨樂濃縮膜衣錠(潤腸湯)"
 * #A046053 ^property[0].code = #status
 * #A046053 ^property[=].valueString = "新增"
-* #A046053 ^property[+].code = #updateDate
+* #A046053 ^property[+].code = #effectiveDate
 * #A046053 ^property[=].valueString = "2024-05"
 * #A046058 "富田防風通聖散濃縮錠(500mg)"
 * #A046058 ^property[0].code = #status
 * #A046058 ^property[=].valueString = "新增"
-* #A046058 ^property[+].code = #updateDate
+* #A046058 ^property[+].code = #effectiveDate
 * #A046058 ^property[=].valueString = "2024-05"
 * #A046059 "富田桑螵蛸散濃縮細粒"
 * #A046059 ^property[0].code = #status
 * #A046059 ^property[=].valueString = "新增"
-* #A046059 ^property[+].code = #updateDate
+* #A046059 ^property[+].code = #effectiveDate
 * #A046059 ^property[=].valueString = "2024-05"
 * #A037174 "萬國芍藥甘草湯濃縮細粒"
 * #A037174 ^property[0].code = #status
 * #A037174 ^property[=].valueString = "新增"
-* #A037174 ^property[+].code = #updateDate
+* #A037174 ^property[+].code = #effectiveDate
 * #A037174 ^property[=].valueString = "2024-05"
 * #A037175 "信宏三黃石膏湯濃縮細粒"
 * #A037175 ^property[0].code = #status
 * #A037175 ^property[=].valueString = "新增"
-* #A037175 ^property[+].code = #updateDate
+* #A037175 ^property[+].code = #effectiveDate
 * #A037175 ^property[=].valueString = "2024-05"
 * #A037176 "信宏半夏厚朴湯濃縮細粒"
 * #A037176 ^property[0].code = #status
 * #A037176 ^property[=].valueString = "新增"
-* #A037176 ^property[+].code = #updateDate
+* #A037176 ^property[+].code = #effectiveDate
 * #A037176 ^property[=].valueString = "2024-05"
 * #A048175 "天明涼膈散濃縮細粒"
 * #A048175 ^property[0].code = #status
 * #A048175 ^property[=].valueString = "新增"
-* #A048175 ^property[+].code = #updateDate
+* #A048175 ^property[+].code = #effectiveDate
 * #A048175 ^property[=].valueString = "2024-05"
 * #A057129 "領先香砂六君子湯濃縮散"
 * #A057129 ^property[0].code = #status
 * #A057129 ^property[=].valueString = "新增"
-* #A057129 ^property[+].code = #updateDate
+* #A057129 ^property[+].code = #effectiveDate
 * #A057129 ^property[=].valueString = "2024-05"
 * #A042762 "信宏溫經湯濃縮細粒"
 * #A042762 ^property[0].code = #status
 * #A042762 ^property[=].valueString = "新增"
-* #A042762 ^property[+].code = #updateDate
+* #A042762 ^property[+].code = #effectiveDate
 * #A042762 ^property[=].valueString = "2024-05"
 * #A055079 "領先當歸拈痛湯濃縮細粒"
 * #A055079 ^property[0].code = #status
 * #A055079 ^property[=].valueString = "新增"
-* #A055079 ^property[+].code = #updateDate
+* #A055079 ^property[+].code = #effectiveDate
 * #A055079 ^property[=].valueString = "2024-05"
 * #A028043 "復旦散腫潰堅湯濃縮顆粒"
 * #A028043 ^property[0].code = #status
 * #A028043 ^property[=].valueString = "新增"
-* #A028043 ^property[+].code = #updateDate
+* #A028043 ^property[+].code = #effectiveDate
 * #A028043 ^property[=].valueString = "2024-05"
 * #A031229 "順天堂防己黃耆湯濃縮錠"
 * #A031229 ^property[0].code = #status
 * #A031229 ^property[=].valueString = "新增"
-* #A031229 ^property[+].code = #updateDate
+* #A031229 ^property[+].code = #effectiveDate
 * #A031229 ^property[=].valueString = "2024-05"
 * #A057397 "勝昌桂枝茯苓丸濃縮膜衣錠"
 * #A057397 ^property[0].code = #status
 * #A057397 ^property[=].valueString = "新增"
-* #A057397 ^property[+].code = #updateDate
+* #A057397 ^property[+].code = #effectiveDate
 * #A057397 ^property[=].valueString = "2024-05"
 * #A057398 "科達涼膈散濃縮細粒"
 * #A057398 ^property[0].code = #status
 * #A057398 ^property[=].valueString = "新增"
-* #A057398 ^property[+].code = #updateDate
+* #A057398 ^property[+].code = #effectiveDate
 * #A057398 ^property[=].valueString = "2024-05"
 * #A057399 "科達寧嗽丸濃縮細粒"
 * #A057399 ^property[0].code = #status
 * #A057399 ^property[=].valueString = "新增"
-* #A057399 ^property[+].code = #updateDate
+* #A057399 ^property[+].code = #effectiveDate
 * #A057399 ^property[=].valueString = "2024-05"
 * #A037215 "復旦桃核承氣湯濃縮細粒"
 * #A037215 ^property[0].code = #status
 * #A037215 ^property[=].valueString = "新增"
-* #A037215 ^property[+].code = #updateDate
+* #A037215 ^property[+].code = #effectiveDate
 * #A037215 ^property[=].valueString = "2024-05"
 * #A057403 "科達麻杏甘石湯濃縮細粒"
 * #A057403 ^property[0].code = #status
 * #A057403 ^property[=].valueString = "新增"
-* #A057403 ^property[+].code = #updateDate
+* #A057403 ^property[+].code = #effectiveDate
 * #A057403 ^property[=].valueString = "2024-05"
 * #A049942 "三才堂潤腸湯濃縮細粒"
 * #A049942 ^property[0].code = #status
 * #A049942 ^property[=].valueString = "新增"
-* #A049942 ^property[+].code = #updateDate
+* #A049942 ^property[+].code = #effectiveDate
 * #A049942 ^property[=].valueString = "2024-05"
 * #A049949 "富田桂枝芍藥知母湯濃縮細粒"
 * #A049949 ^property[0].code = #status
 * #A049949 ^property[=].valueString = "新增"
-* #A049949 ^property[+].code = #updateDate
+* #A049949 ^property[+].code = #effectiveDate
 * #A049949 ^property[=].valueString = "2024-05"
 * #A049950 "富田身痛逐瘀湯濃縮細粒"
 * #A049950 ^property[0].code = #status
 * #A049950 ^property[=].valueString = "新增"
-* #A049950 ^property[+].code = #updateDate
+* #A049950 ^property[+].code = #effectiveDate
 * #A049950 ^property[=].valueString = "2024-05"
 * #A037220 "勝昌左歸丸濃縮散"
 * #A037220 ^property[0].code = #status
 * #A037220 ^property[=].valueString = "新增"
-* #A037220 ^property[+].code = #updateDate
+* #A037220 ^property[+].code = #effectiveDate
 * #A037220 ^property[=].valueString = "2024-05"
 * #A037223 "勝昌右歸丸濃縮散"
 * #A037223 ^property[0].code = #status
 * #A037223 ^property[=].valueString = "新增"
-* #A037223 ^property[+].code = #updateDate
+* #A037223 ^property[+].code = #effectiveDate
 * #A037223 ^property[=].valueString = "2024-05"
 * #A045597 "順天堂黃耆建中湯濃縮顆粒"
 * #A045597 ^property[0].code = #status
 * #A045597 ^property[=].valueString = "新增"
-* #A045597 ^property[+].code = #updateDate
+* #A045597 ^property[+].code = #effectiveDate
 * #A045597 ^property[=].valueString = "2024-05"
 * #A042781 "東陽血府逐瘀湯濃縮細粒"
 * #A042781 ^property[0].code = #status
 * #A042781 ^property[=].valueString = "新增"
-* #A042781 ^property[+].code = #updateDate
+* #A042781 ^property[+].code = #effectiveDate
 * #A042781 ^property[=].valueString = "2024-05"
 * #A042782 "天明散腫潰堅湯濃縮細粒"
 * #A042782 ^property[0].code = #status
 * #A042782 ^property[=].valueString = "新增"
-* #A042782 ^property[+].code = #updateDate
+* #A042782 ^property[+].code = #effectiveDate
 * #A042782 ^property[=].valueString = "2024-05"
 * #A042783 "仙豐秦艽?甲散濃縮細粒"
 * #A042783 ^property[0].code = #status
 * #A042783 ^property[=].valueString = "新增"
-* #A042783 ^property[+].code = #updateDate
+* #A042783 ^property[+].code = #effectiveDate
 * #A042783 ^property[=].valueString = "2024-05"
 * #A042785 "萬國清空膏濃縮細粒"
 * #A042785 ^property[0].code = #status
 * #A042785 ^property[=].valueString = "新增"
-* #A042785 ^property[+].code = #updateDate
+* #A042785 ^property[+].code = #effectiveDate
 * #A042785 ^property[=].valueString = "2024-05"
 * #A056161 "勸奉堂實脾飲濃縮細粒"
 * #A056161 ^property[0].code = #status
 * #A056161 ^property[=].valueString = "新增"
-* #A056161 ^property[+].code = #updateDate
+* #A056161 ^property[+].code = #effectiveDate
 * #A056161 ^property[=].valueString = "2024-05"
 * #A046086 "富田十全大補湯濃縮細粒"
 * #A046086 ^property[0].code = #status
 * #A046086 ^property[=].valueString = "新增"
-* #A046086 ^property[+].code = #updateDate
+* #A046086 ^property[+].code = #effectiveDate
 * #A046086 ^property[=].valueString = "2024-05"
 * #A046087 "富田香砂六君子湯濃縮細粒"
 * #A046087 ^property[0].code = #status
 * #A046087 ^property[=].valueString = "新增"
-* #A046087 ^property[+].code = #updateDate
+* #A046087 ^property[+].code = #effectiveDate
 * #A046087 ^property[=].valueString = "2024-05"
 * #A046088 "富田酸棗仁湯濃縮細粒"
 * #A046088 ^property[0].code = #status
 * #A046088 ^property[=].valueString = "新增"
-* #A046088 ^property[+].code = #updateDate
+* #A046088 ^property[+].code = #effectiveDate
 * #A046088 ^property[=].valueString = "2024-05"
 * #A046089 "富田清上防風湯濃縮細粒"
 * #A046089 ^property[0].code = #status
 * #A046089 ^property[=].valueString = "新增"
-* #A046089 ^property[+].code = #updateDate
+* #A046089 ^property[+].code = #effectiveDate
 * #A046089 ^property[=].valueString = "2024-05"
 * #A046090 "富田十味敗毒湯濃縮細粒"
 * #A046090 ^property[0].code = #status
 * #A046090 ^property[=].valueString = "新增"
-* #A046090 ^property[+].code = #updateDate
+* #A046090 ^property[+].code = #effectiveDate
 * #A046090 ^property[=].valueString = "2024-05"
 * #A046091 "富田正骨紫金丹濃縮細粒"
 * #A046091 ^property[0].code = #status
 * #A046091 ^property[=].valueString = "新增"
-* #A046091 ^property[+].code = #updateDate
+* #A046091 ^property[+].code = #effectiveDate
 * #A046091 ^property[=].valueString = "2024-05"
 * #A046092 "富田小陷胸湯濃縮細粒"
 * #A046092 ^property[0].code = #status
 * #A046092 ^property[=].valueString = "新增"
-* #A046092 ^property[+].code = #updateDate
+* #A046092 ^property[+].code = #effectiveDate
 * #A046092 ^property[=].valueString = "2024-05"
 * #A046093 "富田平胃散濃縮細粒"
 * #A046093 ^property[0].code = #status
 * #A046093 ^property[=].valueString = "新增"
-* #A046093 ^property[+].code = #updateDate
+* #A046093 ^property[+].code = #effectiveDate
 * #A046093 ^property[=].valueString = "2024-05"
 * #A046096 "復旦小承氣湯濃縮細粒"
 * #A046096 ^property[0].code = #status
 * #A046096 ^property[=].valueString = "新增"
-* #A046096 ^property[+].code = #updateDate
+* #A046096 ^property[+].code = #effectiveDate
 * #A046096 ^property[=].valueString = "2024-05"
 * #A046097 "復旦清心利膈湯濃縮細粒"
 * #A046097 ^property[0].code = #status
 * #A046097 ^property[=].valueString = "新增"
-* #A046097 ^property[+].code = #updateDate
+* #A046097 ^property[+].code = #effectiveDate
 * #A046097 ^property[=].valueString = "2024-05"
 * #A046098 "復旦柴胡疏肝湯濃縮細粒"
 * #A046098 ^property[0].code = #status
 * #A046098 ^property[=].valueString = "新增"
-* #A046098 ^property[+].code = #updateDate
+* #A046098 ^property[+].code = #effectiveDate
 * #A046098 ^property[=].valueString = "2024-05"
 * #A057185 "領先百合固金湯濃縮散"
 * #A057185 ^property[0].code = #status
 * #A057185 ^property[=].valueString = "新增"
-* #A057185 ^property[+].code = #updateDate
+* #A057185 ^property[+].code = #effectiveDate
 * #A057185 ^property[=].valueString = "2024-05"
 * #A049984 "順然葛根黃芩黃連湯濃縮細粒"
 * #A049984 ^property[0].code = #status
 * #A049984 ^property[=].valueString = "新增"
-* #A049984 ^property[+].code = #updateDate
+* #A049984 ^property[+].code = #effectiveDate
 * #A049984 ^property[=].valueString = "2024-05"
 * #A049985 "勸奉堂八珍湯濃縮細粒"
 * #A049985 ^property[0].code = #status
 * #A049985 ^property[=].valueString = "新增"
-* #A049985 ^property[+].code = #updateDate
+* #A049985 ^property[+].code = #effectiveDate
 * #A049985 ^property[=].valueString = "2024-05"
 * #A049986 "華陀清上蠲痛湯濃縮細粒"
 * #A049986 ^property[0].code = #status
 * #A049986 ^property[=].valueString = "新增"
-* #A049986 ^property[+].code = #updateDate
+* #A049986 ^property[+].code = #effectiveDate
 * #A049986 ^property[=].valueString = "2024-05"
 * #A049987 "德山十神湯濃縮細粒"
 * #A049987 ^property[0].code = #status
 * #A049987 ^property[=].valueString = "新增"
-* #A049987 ^property[+].code = #updateDate
+* #A049987 ^property[+].code = #effectiveDate
 * #A049987 ^property[=].valueString = "2024-05"
 * #A038343 "天明疏經活血湯濃縮細粒"
 * #A038343 ^property[0].code = #status
 * #A038343 ^property[=].valueString = "新增"
-* #A038343 ^property[+].code = #updateDate
+* #A038343 ^property[+].code = #effectiveDate
 * #A038343 ^property[=].valueString = "2024-05"
 * #A042787 "天明川芎茶調散濃縮細粒"
 * #A042787 ^property[0].code = #status
 * #A042787 ^property[=].valueString = "新增"
-* #A042787 ^property[+].code = #updateDate
+* #A042787 ^property[+].code = #effectiveDate
 * #A042787 ^property[=].valueString = "2024-05"
 * #A042788 "富田真武湯濃縮錠"
 * #A042788 ^property[0].code = #status
 * #A042788 ^property[=].valueString = "新增"
-* #A042788 ^property[+].code = #updateDate
+* #A042788 ^property[+].code = #effectiveDate
 * #A042788 ^property[=].valueString = "2024-05"
 * #A042789 "仙豐吳茱萸湯濃縮細粒"
 * #A042789 ^property[0].code = #status
 * #A042789 ^property[=].valueString = "新增"
-* #A042789 ^property[+].code = #updateDate
+* #A042789 ^property[+].code = #effectiveDate
 * #A042789 ^property[=].valueString = "2024-05"
 * #A042790 "天明保和丸濃縮細粒"
 * #A042790 ^property[0].code = #status
 * #A042790 ^property[=].valueString = "新增"
-* #A042790 ^property[+].code = #updateDate
+* #A042790 ^property[+].code = #effectiveDate
 * #A042790 ^property[=].valueString = "2024-05"
 * #A042791 "順然小建中湯濃縮細粒"
 * #A042791 ^property[0].code = #status
 * #A042791 ^property[=].valueString = "新增"
-* #A042791 ^property[+].code = #updateDate
+* #A042791 ^property[+].code = #effectiveDate
 * #A042791 ^property[=].valueString = "2024-05"
 * #A042794 "萬國橘核丸濃縮細粒"
 * #A042794 ^property[0].code = #status
 * #A042794 ^property[=].valueString = "新增"
-* #A042794 ^property[+].code = #updateDate
+* #A042794 ^property[+].code = #effectiveDate
 * #A042794 ^property[=].valueString = "2024-05"
 * #A042795 "東陽虎潛丸濃縮錠（去虎骨）"
 * #A042795 ^property[0].code = #status
 * #A042795 ^property[=].valueString = "新增"
-* #A042795 ^property[+].code = #updateDate
+* #A042795 ^property[+].code = #effectiveDate
 * #A042795 ^property[=].valueString = "2024-05"
 * #A042796 "順然真人活命飲濃縮細粒(去穿山甲)"
 * #A042796 ^property[0].code = #status
 * #A042796 ^property[=].valueString = "新增"
-* #A042796 ^property[+].code = #updateDate
+* #A042796 ^property[+].code = #effectiveDate
 * #A042796 ^property[=].valueString = "2024-05"
 * #A042797 "萬國十六味流氣飲濃縮細粒"
 * #A042797 ^property[0].code = #status
 * #A042797 ^property[=].valueString = "新增"
-* #A042797 ^property[+].code = #updateDate
+* #A042797 ^property[+].code = #effectiveDate
 * #A042797 ^property[=].valueString = "2024-05"
 * #A057409 "莊松榮當歸補血湯濃縮細粒"
 * #A057409 ^property[0].code = #status
 * #A057409 ^property[=].valueString = "新增"
-* #A057409 ^property[+].code = #updateDate
+* #A057409 ^property[+].code = #effectiveDate
 * #A057409 ^property[=].valueString = "2024-05"
 * #A028061 "晉安養胃湯濃縮散"
 * #A028061 ^property[0].code = #status
 * #A028061 ^property[=].valueString = "新增"
-* #A028061 ^property[+].code = #updateDate
+* #A028061 ^property[+].code = #effectiveDate
 * #A028061 ^property[=].valueString = "2024-05"
 * #A057413 "東陽涼膈散去硝黃加桔梗濃縮細粒"
 * #A057413 ^property[0].code = #status
 * #A057413 ^property[=].valueString = "新增"
-* #A057413 ^property[+].code = #updateDate
+* #A057413 ^property[+].code = #effectiveDate
 * #A057413 ^property[=].valueString = "2024-05"
 * #A040839 "富田白虎湯濃縮錠"
 * #A040839 ^property[0].code = #status
 * #A040839 ^property[=].valueString = "新增"
-* #A040839 ^property[+].code = #updateDate
+* #A040839 ^property[+].code = #effectiveDate
 * #A040839 ^property[=].valueString = "2024-05"
 * #A046113 "勸奉堂補陰湯濃縮細粒"
 * #A046113 ^property[0].code = #status
 * #A046113 ^property[=].valueString = "新增"
-* #A046113 ^property[+].code = #updateDate
+* #A046113 ^property[+].code = #effectiveDate
 * #A046113 ^property[=].valueString = "2024-05"
 * #A046114 "勸奉堂疏經活血湯濃縮細粒"
 * #A046114 ^property[0].code = #status
 * #A046114 ^property[=].valueString = "新增"
-* #A046114 ^property[+].code = #updateDate
+* #A046114 ^property[+].code = #effectiveDate
 * #A046114 ^property[=].valueString = "2024-05"
 * #A046115 "勸奉堂補陽還五湯濃縮細粒"
 * #A046115 ^property[0].code = #status
 * #A046115 ^property[=].valueString = "新增"
-* #A046115 ^property[+].code = #updateDate
+* #A046115 ^property[+].code = #effectiveDate
 * #A046115 ^property[=].valueString = "2024-05"
 * #A049988 "德山分消湯濃縮細粒"
 * #A049988 ^property[0].code = #status
 * #A049988 ^property[=].valueString = "新增"
-* #A049988 ^property[+].code = #updateDate
+* #A049988 ^property[+].code = #effectiveDate
 * #A049988 ^property[=].valueString = "2024-05"
 * #A037258 "華陀六味地黃丸濃縮細粒"
 * #A037258 ^property[0].code = #status
 * #A037258 ^property[=].valueString = "新增"
-* #A037258 ^property[+].code = #updateDate
+* #A037258 ^property[+].code = #effectiveDate
 * #A037258 ^property[=].valueString = "2024-05"
 * #A037259 "德山炙甘草湯濃縮細粒"
 * #A037259 ^property[0].code = #status
 * #A037259 ^property[=].valueString = "新增"
-* #A037259 ^property[+].code = #updateDate
+* #A037259 ^property[+].code = #effectiveDate
 * #A037259 ^property[=].valueString = "2024-05"
 * #A037260 "德山四物湯濃縮細粒"
 * #A037260 ^property[0].code = #status
 * #A037260 ^property[=].valueString = "新增"
-* #A037260 ^property[+].code = #updateDate
+* #A037260 ^property[+].code = #effectiveDate
 * #A037260 ^property[=].valueString = "2024-05"
 * #A037261 "德山小青龍湯濃縮細粒"
 * #A037261 ^property[0].code = #status
 * #A037261 ^property[=].valueString = "新增"
-* #A037261 ^property[+].code = #updateDate
+* #A037261 ^property[+].code = #effectiveDate
 * #A037261 ^property[=].valueString = "2024-05"
 * #A037262 "德山平胃散濃縮細粒"
 * #A037262 ^property[0].code = #status
 * #A037262 ^property[=].valueString = "新增"
-* #A037262 ^property[+].code = #updateDate
+* #A037262 ^property[+].code = #effectiveDate
 * #A037262 ^property[=].valueString = "2024-05"
 * #A037263 "德山知柏地黃丸濃縮細粒"
 * #A037263 ^property[0].code = #status
 * #A037263 ^property[=].valueString = "新增"
-* #A037263 ^property[+].code = #updateDate
+* #A037263 ^property[+].code = #effectiveDate
 * #A037263 ^property[=].valueString = "2024-05"
 * #A037264 "華陀川芎茶調散濃縮細粒"
 * #A037264 ^property[0].code = #status
 * #A037264 ^property[=].valueString = "新增"
-* #A037264 ^property[+].code = #updateDate
+* #A037264 ^property[+].code = #effectiveDate
 * #A037264 ^property[=].valueString = "2024-05"
 * #A037265 "德山疏經活血湯濃縮細粒"
 * #A037265 ^property[0].code = #status
 * #A037265 ^property[=].valueString = "新增"
-* #A037265 ^property[+].code = #updateDate
+* #A037265 ^property[+].code = #effectiveDate
 * #A037265 ^property[=].valueString = "2024-05"
 * #A037266 "華陀獨活寄生湯濃縮細粒"
 * #A037266 ^property[0].code = #status
 * #A037266 ^property[=].valueString = "新增"
-* #A037266 ^property[+].code = #updateDate
+* #A037266 ^property[+].code = #effectiveDate
 * #A037266 ^property[=].valueString = "2024-05"
 * #A037268 "東陽上中下通用痛風丸濃縮錠"
 * #A037268 ^property[0].code = #status
 * #A037268 ^property[=].valueString = "新增"
-* #A037268 ^property[+].code = #updateDate
+* #A037268 ^property[+].code = #effectiveDate
 * #A037268 ^property[=].valueString = "2024-05"
 * #A037269 "護民消能濃縮膠囊(八味地黃丸)"
 * #A037269 ^property[0].code = #status
 * #A037269 ^property[=].valueString = "新增"
-* #A037269 ^property[+].code = #updateDate
+* #A037269 ^property[+].code = #effectiveDate
 * #A037269 ^property[=].valueString = "2024-05"
 * #A037276 "復旦身痛逐瘀湯濃縮細粒"
 * #A037276 ^property[0].code = #status
 * #A037276 ^property[=].valueString = "新增"
-* #A037276 ^property[+].code = #updateDate
+* #A037276 ^property[+].code = #effectiveDate
 * #A037276 ^property[=].valueString = "2024-05"
 * #A037280 "東陽四逆湯濃縮錠"
 * #A037280 ^property[0].code = #status
 * #A037280 ^property[=].valueString = "新增"
-* #A037280 ^property[+].code = #updateDate
+* #A037280 ^property[+].code = #effectiveDate
 * #A037280 ^property[=].valueString = "2024-05"
 * #A037281 "東陽?藤散濃縮錠"
 * #A037281 ^property[0].code = #status
 * #A037281 ^property[=].valueString = "新增"
-* #A037281 ^property[+].code = #updateDate
+* #A037281 ^property[+].code = #effectiveDate
 * #A037281 ^property[=].valueString = "2024-05"
 * #A057418 "三才堂沙參麥冬湯濃縮細粒"
 * #A057418 ^property[0].code = #status
 * #A057418 ^property[=].valueString = "新增"
-* #A057418 ^property[+].code = #updateDate
+* #A057418 ^property[+].code = #effectiveDate
 * #A057418 ^property[=].valueString = "2024-05"
 * #A046119 "順天堂大建中湯濃縮顆粒"
 * #A046119 ^property[0].code = #status
 * #A046119 ^property[=].valueString = "新增"
-* #A046119 ^property[+].code = #updateDate
+* #A046119 ^property[+].code = #effectiveDate
 * #A046119 ^property[=].valueString = "2024-05"
 * #A046120 "順天堂芍藥湯濃縮顆粒"
 * #A046120 ^property[0].code = #status
 * #A046120 ^property[=].valueString = "新增"
-* #A046120 ^property[+].code = #updateDate
+* #A046120 ^property[+].code = #effectiveDate
 * #A046120 ^property[=].valueString = "2024-05"
 * #A046121 "正揚復元活血湯濃縮細粒(去穿山甲)"
 * #A046121 ^property[0].code = #status
 * #A046121 ^property[=].valueString = "新增"
-* #A046121 ^property[+].code = #updateDate
+* #A046121 ^property[+].code = #effectiveDate
 * #A046121 ^property[=].valueString = "2024-05"
 * #A046122 "正揚保和丸濃縮細粒"
 * #A046122 ^property[0].code = #status
 * #A046122 ^property[=].valueString = "新增"
-* #A046122 ^property[+].code = #updateDate
+* #A046122 ^property[+].code = #effectiveDate
 * #A046122 ^property[=].valueString = "2024-05"
 * #A046123 "仙豐越鞠丸濃縮細粒"
 * #A046123 ^property[0].code = #status
 * #A046123 ^property[=].valueString = "新增"
-* #A046123 ^property[+].code = #updateDate
+* #A046123 ^property[+].code = #effectiveDate
 * #A046123 ^property[=].valueString = "2024-05"
 * #A046124 "仙豐麻黃附子細辛湯濃縮細粒"
 * #A046124 ^property[0].code = #status
 * #A046124 ^property[=].valueString = "新增"
-* #A046124 ^property[+].code = #updateDate
+* #A046124 ^property[+].code = #effectiveDate
 * #A046124 ^property[=].valueString = "2024-05"
 * #A046125 "仙豐過期飲濃縮細粒"
 * #A046125 ^property[0].code = #status
 * #A046125 ^property[=].valueString = "新增"
-* #A046125 ^property[+].code = #updateDate
+* #A046125 ^property[+].code = #effectiveDate
 * #A046125 ^property[=].valueString = "2024-05"
 * #A046126 "順然真武湯濃縮細粒"
 * #A046126 ^property[0].code = #status
 * #A046126 ^property[=].valueString = "新增"
-* #A046126 ^property[+].code = #updateDate
+* #A046126 ^property[+].code = #effectiveDate
 * #A046126 ^property[=].valueString = "2024-05"
 * #A050022 "富田胃苓湯濃縮細粒"
 * #A050022 ^property[0].code = #status
 * #A050022 ^property[=].valueString = "新增"
-* #A050022 ^property[+].code = #updateDate
+* #A050022 ^property[+].code = #effectiveDate
 * #A050022 ^property[=].valueString = "2024-05"
 * #A050024 "勸奉堂五積散濃縮細粒"
 * #A050024 ^property[0].code = #status
 * #A050024 ^property[=].valueString = "新增"
-* #A050024 ^property[+].code = #updateDate
+* #A050024 ^property[+].code = #effectiveDate
 * #A050024 ^property[=].valueString = "2024-05"
 * #A031261 "天一參苓白朮散濃縮顆粒"
 * #A031261 ^property[0].code = #status
 * #A031261 ^property[=].valueString = "新增"
-* #A031261 ^property[+].code = #updateDate
+* #A031261 ^property[+].code = #effectiveDate
 * #A031261 ^property[=].valueString = "2024-05"
 * #A031262 "天一芎歸膠艾湯濃縮顆粒"
 * #A031262 ^property[0].code = #status
 * #A031262 ^property[=].valueString = "新增"
-* #A031262 ^property[+].code = #updateDate
+* #A031262 ^property[+].code = #effectiveDate
 * #A031262 ^property[=].valueString = "2024-05"
 * #A056217 "牛標?藤散濃縮顆粒"
 * #A056217 ^property[0].code = #status
 * #A056217 ^property[=].valueString = "新增"
-* #A056217 ^property[+].code = #updateDate
+* #A056217 ^property[+].code = #effectiveDate
 * #A056217 ^property[=].valueString = "2024-05"
 * #A056219 "勸奉堂三痺湯濃縮顆粒"
 * #A056219 ^property[0].code = #status
 * #A056219 ^property[=].valueString = "新增"
-* #A056219 ^property[+].code = #updateDate
+* #A056219 ^property[+].code = #effectiveDate
 * #A056219 ^property[=].valueString = "2024-05"
 * #A057425 "三才堂天麻鉤藤飲濃縮細粒"
 * #A057425 ^property[0].code = #status
 * #A057425 ^property[=].valueString = "新增"
-* #A057425 ^property[+].code = #updateDate
+* #A057425 ^property[+].code = #effectiveDate
 * #A057425 ^property[=].valueString = "2024-05"
 * #A057426 "三才堂真人活命飲濃縮細粒(去穿山甲)"
 * #A057426 ^property[0].code = #status
 * #A057426 ^property[=].valueString = "新增"
-* #A057426 ^property[+].code = #updateDate
+* #A057426 ^property[+].code = #effectiveDate
 * #A057426 ^property[=].valueString = "2024-05"
 * #A042812 "東陽虎潛丸濃縮細粒（去虎骨）"
 * #A042812 ^property[0].code = #status
 * #A042812 ^property[=].valueString = "新增"
-* #A042812 ^property[+].code = #updateDate
+* #A042812 ^property[+].code = #effectiveDate
 * #A042812 ^property[=].valueString = "2024-05"
 * #A042813 "科達清上蠲痛湯濃縮細粒"
 * #A042813 ^property[0].code = #status
 * #A042813 ^property[=].valueString = "新增"
-* #A042813 ^property[+].code = #updateDate
+* #A042813 ^property[+].code = #effectiveDate
 * #A042813 ^property[=].valueString = "2024-05"
 * #A042814 "明通柴胡疏肝湯濃縮細粒"
 * #A042814 ^property[0].code = #status
 * #A042814 ^property[=].valueString = "新增"
-* #A042814 ^property[+].code = #updateDate
+* #A042814 ^property[+].code = #effectiveDate
 * #A042814 ^property[=].valueString = "2024-05"
 * #A042815 "仙豐龜鹿二仙膠濃縮錠"
 * #A042815 ^property[0].code = #status
 * #A042815 ^property[=].valueString = "新增"
-* #A042815 ^property[+].code = #updateDate
+* #A042815 ^property[+].code = #effectiveDate
 * #A042815 ^property[=].valueString = "2024-05"
 * #A042816 "正揚八味地黃丸濃縮細粒"
 * #A042816 ^property[0].code = #status
 * #A042816 ^property[=].valueString = "新增"
-* #A042816 ^property[+].code = #updateDate
+* #A042816 ^property[+].code = #effectiveDate
 * #A042816 ^property[=].valueString = "2024-05"
 * #A042817 "科達麥門冬湯濃縮錠"
 * #A042817 ^property[0].code = #status
 * #A042817 ^property[=].valueString = "新增"
-* #A042817 ^property[+].code = #updateDate
+* #A042817 ^property[+].code = #effectiveDate
 * #A042817 ^property[=].valueString = "2024-05"
 * #A042818 "仙豐清肺飲濃縮細粒"
 * #A042818 ^property[0].code = #status
 * #A042818 ^property[=].valueString = "新增"
-* #A042818 ^property[+].code = #updateDate
+* #A042818 ^property[+].code = #effectiveDate
 * #A042818 ^property[=].valueString = "2024-05"
 * #A042819 "順然柴胡清肝湯濃縮細粒"
 * #A042819 ^property[0].code = #status
 * #A042819 ^property[=].valueString = "新增"
-* #A042819 ^property[+].code = #updateDate
+* #A042819 ^property[+].code = #effectiveDate
 * #A042819 ^property[=].valueString = "2024-05"
 * #A042820 "順天堂過期飲濃縮顆粒"
 * #A042820 ^property[0].code = #status
 * #A042820 ^property[=].valueString = "新增"
-* #A042820 ^property[+].code = #updateDate
+* #A042820 ^property[+].code = #effectiveDate
 * #A042820 ^property[=].valueString = "2024-05"
 * #A042822 "天明小青龍湯濃縮細粒"
 * #A042822 ^property[0].code = #status
 * #A042822 ^property[=].valueString = "新增"
-* #A042822 ^property[+].code = #updateDate
+* #A042822 ^property[+].code = #effectiveDate
 * #A042822 ^property[=].valueString = "2024-05"
 * #A057427 "天明滋腎通耳湯濃縮細粒"
 * #A057427 ^property[0].code = #status
 * #A057427 ^property[=].valueString = "新增"
-* #A057427 ^property[+].code = #updateDate
+* #A057427 ^property[+].code = #effectiveDate
 * #A057427 ^property[=].valueString = "2024-05"
 * #A057428 "天明保產無憂方濃縮細粒"
 * #A057428 ^property[0].code = #status
 * #A057428 ^property[=].valueString = "新增"
-* #A057428 ^property[+].code = #updateDate
+* #A057428 ^property[+].code = #effectiveDate
 * #A057428 ^property[=].valueString = "2024-05"
 * #A046132 "仙豐沙參麥門湯濃縮細粒"
 * #A046132 ^property[0].code = #status
 * #A046132 ^property[=].valueString = "新增"
-* #A046132 ^property[+].code = #updateDate
+* #A046132 ^property[+].code = #effectiveDate
 * #A046132 ^property[=].valueString = "2024-05"
 * #A046133 "順天堂腎著湯濃縮顆粒"
 * #A046133 ^property[0].code = #status
 * #A046133 ^property[=].valueString = "新增"
-* #A046133 ^property[+].code = #updateDate
+* #A046133 ^property[+].code = #effectiveDate
 * #A046133 ^property[=].valueString = "2024-05"
 * #A046134 "順天堂橘皮竹茹湯濃縮顆粒"
 * #A046134 ^property[0].code = #status
 * #A046134 ^property[=].valueString = "新增"
-* #A046134 ^property[+].code = #updateDate
+* #A046134 ^property[+].code = #effectiveDate
 * #A046134 ^property[=].valueString = "2024-05"
 * #A057434 "科達百合固金湯濃縮細粒"
 * #A057434 ^property[0].code = #status
 * #A057434 ^property[=].valueString = "新增"
-* #A057434 ^property[+].code = #updateDate
+* #A057434 ^property[+].code = #effectiveDate
 * #A057434 ^property[=].valueString = "2024-05"
 * #A057435 "科達芎歸膠艾湯濃縮細粒"
 * #A057435 ^property[0].code = #status
 * #A057435 ^property[=].valueString = "新增"
-* #A057435 ^property[+].code = #updateDate
+* #A057435 ^property[+].code = #effectiveDate
 * #A057435 ^property[=].valueString = "2024-05"
 * #A057443 "領先潤腸湯濃縮錠"
 * #A057443 ^property[0].code = #status
 * #A057443 ^property[=].valueString = "新增"
-* #A057443 ^property[+].code = #updateDate
+* #A057443 ^property[+].code = #effectiveDate
 * #A057443 ^property[=].valueString = "2024-05"
 * #A057445 "勝昌知柏地黃丸濃縮膜衣錠"
 * #A057445 ^property[0].code = #status
 * #A057445 ^property[=].valueString = "新增"
-* #A057445 ^property[+].code = #updateDate
+* #A057445 ^property[+].code = #effectiveDate
 * #A057445 ^property[=].valueString = "2024-05"
 * #A050045 "勸奉堂健脾丸濃縮細粒"
 * #A050045 ^property[0].code = #status
 * #A050045 ^property[=].valueString = "新增"
-* #A050045 ^property[+].code = #updateDate
+* #A050045 ^property[+].code = #effectiveDate
 * #A050045 ^property[=].valueString = "2024-05"
 * #A057448 "領先龍膽瀉肝湯濃縮錠"
 * #A057448 ^property[0].code = #status
 * #A057448 ^property[=].valueString = "新增"
-* #A057448 ^property[+].code = #updateDate
+* #A057448 ^property[+].code = #effectiveDate
 * #A057448 ^property[=].valueString = "2024-05"
 * #A057449 "領先補中益氣湯濃縮錠"
 * #A057449 ^property[0].code = #status
 * #A057449 ^property[=].valueString = "新增"
-* #A057449 ^property[+].code = #updateDate
+* #A057449 ^property[+].code = #effectiveDate
 * #A057449 ^property[=].valueString = "2024-05"
 * #A057450 "領先大承氣湯濃縮錠"
 * #A057450 ^property[0].code = #status
 * #A057450 ^property[=].valueString = "新增"
-* #A057450 ^property[+].code = #updateDate
+* #A057450 ^property[+].code = #effectiveDate
 * #A057450 ^property[=].valueString = "2024-05"
 * #A057451 "領先大黃牡丹皮湯濃縮錠"
 * #A057451 ^property[0].code = #status
 * #A057451 ^property[=].valueString = "新增"
-* #A057451 ^property[+].code = #updateDate
+* #A057451 ^property[+].code = #effectiveDate
 * #A057451 ^property[=].valueString = "2024-05"
 * #A057452 "領先防風通聖散濃縮錠"
 * #A057452 ^property[0].code = #status
 * #A057452 ^property[=].valueString = "新增"
-* #A057452 ^property[+].code = #updateDate
+* #A057452 ^property[+].code = #effectiveDate
 * #A057452 ^property[=].valueString = "2024-05"
 * #A057453 "領先荊芥連翹湯濃縮錠"
 * #A057453 ^property[0].code = #status
 * #A057453 ^property[=].valueString = "新增"
-* #A057453 ^property[+].code = #updateDate
+* #A057453 ^property[+].code = #effectiveDate
 * #A057453 ^property[=].valueString = "2024-05"
 * #A057454 "領先普濟消毒飲濃縮錠"
 * #A057454 ^property[0].code = #status
 * #A057454 ^property[=].valueString = "新增"
-* #A057454 ^property[+].code = #updateDate
+* #A057454 ^property[+].code = #effectiveDate
 * #A057454 ^property[=].valueString = "2024-05"
 * #A042833 "天明天麻?藤飲濃縮細粒"
 * #A042833 ^property[0].code = #status
 * #A042833 ^property[=].valueString = "新增"
-* #A042833 ^property[+].code = #updateDate
+* #A042833 ^property[+].code = #effectiveDate
 * #A042833 ^property[=].valueString = "2024-05"
 * #A042834 "順然葛根湯濃縮錠"
 * #A042834 ^property[0].code = #status
 * #A042834 ^property[=].valueString = "新增"
-* #A042834 ^property[+].code = #updateDate
+* #A042834 ^property[+].code = #effectiveDate
 * #A042834 ^property[=].valueString = "2024-05"
 * #A042835 "科達附子理中湯濃縮細粒"
 * #A042835 ^property[0].code = #status
 * #A042835 ^property[=].valueString = "新增"
-* #A042835 ^property[+].code = #updateDate
+* #A042835 ^property[+].code = #effectiveDate
 * #A042835 ^property[=].valueString = "2024-05"
 * #A042836 "順然當歸拈痛湯濃縮細粒"
 * #A042836 ^property[0].code = #status
 * #A042836 ^property[=].valueString = "新增"
-* #A042836 ^property[+].code = #updateDate
+* #A042836 ^property[+].code = #effectiveDate
 * #A042836 ^property[=].valueString = "2024-05"
 * #A060006 "港香蘭涼膈散去硝黃加桔梗濃縮細"
 * #A060006 ^property[0].code = #status
 * #A060006 ^property[=].valueString = "新增"
-* #A060006 ^property[+].code = #updateDate
+* #A060006 ^property[+].code = #effectiveDate
 * #A060006 ^property[=].valueString = "2024-05"
 * #A060007 "富田溫膽湯濃縮細粒"
 * #A060007 ^property[0].code = #status
 * #A060007 ^property[=].valueString = "新增"
-* #A060007 ^property[+].code = #updateDate
+* #A060007 ^property[+].code = #effectiveDate
 * #A060007 ^property[=].valueString = "2024-05"
 * #A057455 "領先藿香正氣散濃縮錠"
 * #A057455 ^property[0].code = #status
 * #A057455 ^property[=].valueString = "新增"
-* #A057455 ^property[+].code = #updateDate
+* #A057455 ^property[+].code = #effectiveDate
 * #A057455 ^property[=].valueString = "2024-05"
 * #A057456 "領先甘露飲濃縮錠"
 * #A057456 ^property[0].code = #status
 * #A057456 ^property[=].valueString = "新增"
-* #A057456 ^property[+].code = #updateDate
+* #A057456 ^property[+].code = #effectiveDate
 * #A057456 ^property[=].valueString = "2024-05"
 * #A057457 "領先銀翹散濃縮錠"
 * #A057457 ^property[0].code = #status
 * #A057457 ^property[=].valueString = "新增"
-* #A057457 ^property[+].code = #updateDate
+* #A057457 ^property[+].code = #effectiveDate
 * #A057457 ^property[=].valueString = "2024-05"
 * #A057458 "領先荊防敗毒散濃縮錠"
 * #A057458 ^property[0].code = #status
 * #A057458 ^property[=].valueString = "新增"
-* #A057458 ^property[+].code = #updateDate
+* #A057458 ^property[+].code = #effectiveDate
 * #A057458 ^property[=].valueString = "2024-05"
 * #A057459 "領先十味敗毒湯濃縮錠"
 * #A057459 ^property[0].code = #status
 * #A057459 ^property[=].valueString = "新增"
-* #A057459 ^property[+].code = #updateDate
+* #A057459 ^property[+].code = #effectiveDate
 * #A057459 ^property[=].valueString = "2024-05"
 * #A037318 "東陽正骨紫金丹濃縮顆粒"
 * #A037318 ^property[0].code = #status
 * #A037318 ^property[=].valueString = "新增"
-* #A037318 ^property[+].code = #updateDate
+* #A037318 ^property[+].code = #effectiveDate
 * #A037318 ^property[=].valueString = "2024-05"
 * #A037320 "勝昌加味平胃散濃縮散(醫方集解)"
 * #A037320 ^property[0].code = #status
 * #A037320 ^property[=].valueString = "新增"
-* #A037320 ^property[+].code = #updateDate
+* #A037320 ^property[+].code = #effectiveDate
 * #A037320 ^property[=].valueString = "2024-05"
 * #A037321 "勝昌生脈散濃縮散"
 * #A037321 ^property[0].code = #status
 * #A037321 ^property[=].valueString = "新增"
-* #A037321 ^property[+].code = #updateDate
+* #A037321 ^property[+].code = #effectiveDate
 * #A037321 ^property[=].valueString = "2024-05"
 * #A037323 "正揚一貫煎濃縮細粒"
 * #A037323 ^property[0].code = #status
 * #A037323 ^property[=].valueString = "新增"
-* #A037323 ^property[+].code = #updateDate
+* #A037323 ^property[+].code = #effectiveDate
 * #A037323 ^property[=].valueString = "2024-05"
 * #A055874 "勸奉堂少腹逐瘀湯濃縮顆粒"
 * #A055874 ^property[0].code = #status
 * #A055874 ^property[=].valueString = "新增"
-* #A055874 ^property[+].code = #updateDate
+* #A055874 ^property[+].code = #effectiveDate
 * #A055874 ^property[=].valueString = "2024-05"
 * #A056030 "牛標補陽還五湯濃縮顆粒"
 * #A056030 ^property[0].code = #status
 * #A056030 ^property[=].valueString = "新增"
-* #A056030 ^property[+].code = #updateDate
+* #A056030 ^property[+].code = #effectiveDate
 * #A056030 ^property[=].valueString = "2024-05"
 * #A057461 "勝昌辛夷散濃縮膜衣錠"
 * #A057461 ^property[0].code = #status
 * #A057461 ^property[=].valueString = "新增"
-* #A057461 ^property[+].code = #updateDate
+* #A057461 ^property[+].code = #effectiveDate
 * #A057461 ^property[=].valueString = "2024-05"
 * #A046160 "港香蘭寧嗽化痰湯濃縮細粒"
 * #A046160 ^property[0].code = #status
 * #A046160 ^property[=].valueString = "新增"
-* #A046160 ^property[+].code = #updateDate
+* #A046160 ^property[+].code = #effectiveDate
 * #A046160 ^property[=].valueString = "2024-05"
 * #A046155 "天明玉女煎濃縮細粒"
 * #A046155 ^property[0].code = #status
 * #A046155 ^property[=].valueString = "新增"
-* #A046155 ^property[+].code = #updateDate
+* #A046155 ^property[+].code = #effectiveDate
 * #A046155 ^property[=].valueString = "2024-05"
 * #A046156 "德山木防己湯濃縮細粒"
 * #A046156 ^property[0].code = #status
 * #A046156 ^property[=].valueString = "新增"
-* #A046156 ^property[+].code = #updateDate
+* #A046156 ^property[+].code = #effectiveDate
 * #A046156 ^property[=].valueString = "2024-05"
 * #A046157 "德山二朮湯濃縮細粒"
 * #A046157 ^property[0].code = #status
 * #A046157 ^property[=].valueString = "新增"
-* #A046157 ^property[+].code = #updateDate
+* #A046157 ^property[+].code = #effectiveDate
 * #A046157 ^property[=].valueString = "2024-05"
 * #A046158 "德山散腫潰堅湯濃縮細粒"
 * #A046158 ^property[0].code = #status
 * #A046158 ^property[=].valueString = "新增"
-* #A046158 ^property[+].code = #updateDate
+* #A046158 ^property[+].code = #effectiveDate
 * #A046158 ^property[=].valueString = "2024-05"
 * #A037331 "復旦頓嗽湯濃縮細粒"
 * #A037331 ^property[0].code = #status
 * #A037331 ^property[=].valueString = "新增"
-* #A037331 ^property[+].code = #updateDate
+* #A037331 ^property[+].code = #effectiveDate
 * #A037331 ^property[=].valueString = "2024-05"
 * #A037326 "天一補陽還五湯濃縮顆粒"
 * #A037326 ^property[0].code = #status
 * #A037326 ^property[=].valueString = "新增"
-* #A037326 ^property[+].code = #updateDate
+* #A037326 ^property[+].code = #effectiveDate
 * #A037326 ^property[=].valueString = "2024-05"
 * #A037327 "生春小半夏加茯苓湯濃縮細粒"
 * #A037327 ^property[0].code = #status
 * #A037327 ^property[=].valueString = "新增"
-* #A037327 ^property[+].code = #updateDate
+* #A037327 ^property[+].code = #effectiveDate
 * #A037327 ^property[=].valueString = "2024-05"
 * #A037328 "天一真人活命飲濃縮顆粒(去穿山甲)"
 * #A037328 ^property[0].code = #status
 * #A037328 ^property[=].valueString = "新增"
-* #A037328 ^property[+].code = #updateDate
+* #A037328 ^property[+].code = #effectiveDate
 * #A037328 ^property[=].valueString = "2024-05"
 * #A037330 "信宏黃耆五物湯濃縮細粒"
 * #A037330 ^property[0].code = #status
 * #A037330 ^property[=].valueString = "新增"
-* #A037330 ^property[+].code = #updateDate
+* #A037330 ^property[+].code = #effectiveDate
 * #A037330 ^property[=].valueString = "2024-05"
 * #A037332 "東陽黃連解毒湯濃縮錠"
 * #A037332 ^property[0].code = #status
 * #A037332 ^property[=].valueString = "新增"
-* #A037332 ^property[+].code = #updateDate
+* #A037332 ^property[+].code = #effectiveDate
 * #A037332 ^property[=].valueString = "2024-05"
 * #A037333 "東陽清肺飲濃縮錠"
 * #A037333 ^property[0].code = #status
 * #A037333 ^property[=].valueString = "新增"
-* #A037333 ^property[+].code = #updateDate
+* #A037333 ^property[+].code = #effectiveDate
 * #A037333 ^property[=].valueString = "2024-05"
 * #A037334 "正揚銀翹散濃縮細粒"
 * #A037334 ^property[0].code = #status
 * #A037334 ^property[=].valueString = "新增"
-* #A037334 ^property[+].code = #updateDate
+* #A037334 ^property[+].code = #effectiveDate
 * #A037334 ^property[=].valueString = "2024-05"
 * #A037338 "復旦右歸丸濃縮細粒"
 * #A037338 ^property[0].code = #status
 * #A037338 ^property[=].valueString = "新增"
-* #A037338 ^property[+].code = #updateDate
+* #A037338 ^property[+].code = #effectiveDate
 * #A037338 ^property[=].valueString = "2024-05"
 * #A037340 "正揚天麻鉤藤飲濃縮細粒"
 * #A037340 ^property[0].code = #status
 * #A037340 ^property[=].valueString = "新增"
-* #A037340 ^property[+].code = #updateDate
+* #A037340 ^property[+].code = #effectiveDate
 * #A037340 ^property[=].valueString = "2024-05"
 * #A037347 "東陽右歸丸濃縮顆粒"
 * #A037347 ^property[0].code = #status
 * #A037347 ^property[=].valueString = "新增"
-* #A037347 ^property[+].code = #updateDate
+* #A037347 ^property[+].code = #effectiveDate
 * #A037347 ^property[=].valueString = "2024-05"
 * #A042849 "富田理中湯濃縮錠"
 * #A042849 ^property[0].code = #status
 * #A042849 ^property[=].valueString = "新增"
-* #A042849 ^property[+].code = #updateDate
+* #A042849 ^property[+].code = #effectiveDate
 * #A042849 ^property[=].valueString = "2024-05"
 * #A050071 "勸奉堂治濁固本丸濃縮細粒"
 * #A050071 ^property[0].code = #status
 * #A050071 ^property[=].valueString = "新增"
-* #A050071 ^property[+].code = #updateDate
+* #A050071 ^property[+].code = #effectiveDate
 * #A050071 ^property[=].valueString = "2024-05"
 * #A050073 "富田膈下逐瘀湯濃縮細粒"
 * #A050073 ^property[0].code = #status
 * #A050073 ^property[=].valueString = "新增"
-* #A050073 ^property[+].code = #updateDate
+* #A050073 ^property[+].code = #effectiveDate
 * #A050073 ^property[=].valueString = "2024-05"
 * #A046174 "八仙桃紅四物湯濃縮細粒"
 * #A046174 ^property[0].code = #status
 * #A046174 ^property[=].valueString = "新增"
-* #A046174 ^property[+].code = #updateDate
+* #A046174 ^property[+].code = #effectiveDate
 * #A046174 ^property[=].valueString = "2024-05"
 * #A046175 "生春補陰湯濃縮細粒"
 * #A046175 ^property[0].code = #status
 * #A046175 ^property[=].valueString = "新增"
-* #A046175 ^property[+].code = #updateDate
+* #A046175 ^property[+].code = #effectiveDate
 * #A046175 ^property[=].valueString = "2024-05"
 * #A037418 "萬國八味地黃丸濃縮細粒"
 * #A037418 ^property[0].code = #status
 * #A037418 ^property[=].valueString = "新增"
-* #A037418 ^property[+].code = #updateDate
+* #A037418 ^property[+].code = #effectiveDate
 * #A037418 ^property[=].valueString = "2024-05"
 * #A050074 "德山沙參麥冬湯濃縮細粒"
 * #A050074 ^property[0].code = #status
 * #A050074 ^property[=].valueString = "新增"
-* #A050074 ^property[+].code = #updateDate
+* #A050074 ^property[+].code = #effectiveDate
 * #A050074 ^property[=].valueString = "2024-05"
 * #A037361 "仙豐生脈飲濃縮細粒"
 * #A037361 ^property[0].code = #status
 * #A037361 ^property[=].valueString = "新增"
-* #A037361 ^property[+].code = #updateDate
+* #A037361 ^property[+].code = #effectiveDate
 * #A037361 ^property[=].valueString = "2024-05"
 * #A037362 "仙豐杞菊地黃丸濃縮膠囊"
 * #A037362 ^property[0].code = #status
 * #A037362 ^property[=].valueString = "新增"
-* #A037362 ^property[+].code = #updateDate
+* #A037362 ^property[+].code = #effectiveDate
 * #A037362 ^property[=].valueString = "2024-05"
 * #A055865 "牛標羌活勝濕湯濃縮顆粒"
 * #A055865 ^property[0].code = #status
 * #A055865 ^property[=].valueString = "新增"
-* #A055865 ^property[+].code = #updateDate
+* #A055865 ^property[+].code = #effectiveDate
 * #A055865 ^property[=].valueString = "2024-05"
 * #A055866 "牛標六味地黃丸濃縮顆粒"
 * #A055866 ^property[0].code = #status
 * #A055866 ^property[=].valueString = "新增"
-* #A055866 ^property[+].code = #updateDate
+* #A055866 ^property[+].code = #effectiveDate
 * #A055866 ^property[=].valueString = "2024-05"
 * #A037367 "勝昌麻黃附子細辛湯濃縮散"
 * #A037367 ^property[0].code = #status
 * #A037367 ^property[=].valueString = "新增"
-* #A037367 ^property[+].code = #updateDate
+* #A037367 ^property[+].code = #effectiveDate
 * #A037367 ^property[=].valueString = "2024-05"
 * #A046195 "港香蘭讀書丸濃縮錠"
 * #A046195 ^property[0].code = #status
 * #A046195 ^property[=].valueString = "新增"
-* #A046195 ^property[+].code = #updateDate
+* #A046195 ^property[+].code = #effectiveDate
 * #A046195 ^property[=].valueString = "2024-05"
 * #A037369 "莊松榮杞菊地黃丸濃縮丸"
 * #A037369 ^property[0].code = #status
 * #A037369 ^property[=].valueString = "新增"
-* #A037369 ^property[+].code = #updateDate
+* #A037369 ^property[+].code = #effectiveDate
 * #A037369 ^property[=].valueString = "2024-05"
 * #A037370 "天一潤腸丸濃縮顆粒"
 * #A037370 ^property[0].code = #status
 * #A037370 ^property[=].valueString = "新增"
-* #A037370 ^property[+].code = #updateDate
+* #A037370 ^property[+].code = #effectiveDate
 * #A037370 ^property[=].valueString = "2024-05"
 * #A037371 "天一當歸四逆湯濃縮顆粒"
 * #A037371 ^property[0].code = #status
 * #A037371 ^property[=].valueString = "新增"
-* #A037371 ^property[+].code = #updateDate
+* #A037371 ^property[+].code = #effectiveDate
 * #A037371 ^property[=].valueString = "2024-05"
 * #A037372 "生春當歸散濃縮細粒"
 * #A037372 ^property[0].code = #status
 * #A037372 ^property[=].valueString = "新增"
-* #A037372 ^property[+].code = #updateDate
+* #A037372 ^property[+].code = #effectiveDate
 * #A037372 ^property[=].valueString = "2024-05"
 * #A037373 "信宏六君子湯濃縮細粒"
 * #A037373 ^property[0].code = #status
 * #A037373 ^property[=].valueString = "新增"
-* #A037373 ^property[+].code = #updateDate
+* #A037373 ^property[+].code = #effectiveDate
 * #A037373 ^property[=].valueString = "2024-05"
 * #A037374 "信宏玉女煎濃縮細粒"
 * #A037374 ^property[0].code = #status
 * #A037374 ^property[=].valueString = "新增"
-* #A037374 ^property[+].code = #updateDate
+* #A037374 ^property[+].code = #effectiveDate
 * #A037374 ^property[=].valueString = "2024-05"
 * #A046190 "富田甘露消毒丹濃縮細粒"
 * #A046190 ^property[0].code = #status
 * #A046190 ^property[=].valueString = "新增"
-* #A046190 ^property[+].code = #updateDate
+* #A046190 ^property[+].code = #effectiveDate
 * #A046190 ^property[=].valueString = "2024-05"
 * #A046191 "富田瀉黃散濃縮細粒"
 * #A046191 ^property[0].code = #status
 * #A046191 ^property[=].valueString = "新增"
-* #A046191 ^property[+].code = #updateDate
+* #A046191 ^property[+].code = #effectiveDate
 * #A046191 ^property[=].valueString = "2024-05"
 * #A060008 "順天堂甘露飲濃縮細粒"
 * #A060008 ^property[0].code = #status
 * #A060008 ^property[=].valueString = "新增"
-* #A060008 ^property[+].code = #updateDate
+* #A060008 ^property[+].code = #effectiveDate
 * #A060008 ^property[=].valueString = "2024-05"
 * #A028096 "科達四物湯濃縮散"
 * #A028096 ^property[0].code = #status
 * #A028096 ^property[=].valueString = "新增"
-* #A028096 ^property[+].code = #updateDate
+* #A028096 ^property[+].code = #effectiveDate
 * #A028096 ^property[=].valueString = "2024-05"
 * #A048211 "科達六味地黃丸濃縮細粒"
 * #A048211 ^property[0].code = #status
 * #A048211 ^property[=].valueString = "新增"
-* #A048211 ^property[+].code = #updateDate
+* #A048211 ^property[+].code = #effectiveDate
 * #A048211 ^property[=].valueString = "2024-05"
 * #A037403 "德山葛根湯濃縮細粒"
 * #A037403 ^property[0].code = #status
 * #A037403 ^property[=].valueString = "新增"
-* #A037403 ^property[+].code = #updateDate
+* #A037403 ^property[+].code = #effectiveDate
 * #A037403 ^property[=].valueString = "2024-05"
 * #A037404 "德山辛夷清肺湯濃縮細粒"
 * #A037404 ^property[0].code = #status
 * #A037404 ^property[=].valueString = "新增"
-* #A037404 ^property[+].code = #updateDate
+* #A037404 ^property[+].code = #effectiveDate
 * #A037404 ^property[=].valueString = "2024-05"
 * #A037405 "明通五淋散濃縮顆粒"
 * #A037405 ^property[0].code = #status
 * #A037405 ^property[=].valueString = "新增"
-* #A037405 ^property[+].code = #updateDate
+* #A037405 ^property[+].code = #effectiveDate
 * #A037405 ^property[=].valueString = "2024-05"
 * #A037406 "明通茵陳五苓散濃縮顆粒"
 * #A037406 ^property[0].code = #status
 * #A037406 ^property[=].valueString = "新增"
-* #A037406 ^property[+].code = #updateDate
+* #A037406 ^property[+].code = #effectiveDate
 * #A037406 ^property[=].valueString = "2024-05"
 * #A037407 "明通芍藥甘草湯濃縮顆粒"
 * #A037407 ^property[0].code = #status
 * #A037407 ^property[=].valueString = "新增"
-* #A037407 ^property[+].code = #updateDate
+* #A037407 ^property[+].code = #effectiveDate
 * #A037407 ^property[=].valueString = "2024-05"
 * #A037408 "明通四逆散濃縮顆粒"
 * #A037408 ^property[0].code = #status
 * #A037408 ^property[=].valueString = "新增"
-* #A037408 ^property[+].code = #updateDate
+* #A037408 ^property[+].code = #effectiveDate
 * #A037408 ^property[=].valueString = "2024-05"
 * #A037409 "明通八仙湯濃縮顆粒"
 * #A037409 ^property[0].code = #status
 * #A037409 ^property[=].valueString = "新增"
-* #A037409 ^property[+].code = #updateDate
+* #A037409 ^property[+].code = #effectiveDate
 * #A037409 ^property[=].valueString = "2024-05"
 * #A037410 "明通辛夷清肺湯濃縮細粒"
 * #A037410 ^property[0].code = #status
 * #A037410 ^property[=].valueString = "新增"
-* #A037410 ^property[+].code = #updateDate
+* #A037410 ^property[+].code = #effectiveDate
 * #A037410 ^property[=].valueString = "2024-05"
 * #A037411 "信宏潤腸湯濃縮細粒"
 * #A037411 ^property[0].code = #status
 * #A037411 ^property[=].valueString = "新增"
-* #A037411 ^property[+].code = #updateDate
+* #A037411 ^property[+].code = #effectiveDate
 * #A037411 ^property[=].valueString = "2024-05"
 * #A037412 "信宏茯菟丹濃縮細粒"
 * #A037412 ^property[0].code = #status
 * #A037412 ^property[=].valueString = "新增"
-* #A037412 ^property[+].code = #updateDate
+* #A037412 ^property[+].code = #effectiveDate
 * #A037412 ^property[=].valueString = "2024-05"
 * #A037417 "萬國血府逐瘀湯濃縮細粒"
 * #A037417 ^property[0].code = #status
 * #A037417 ^property[=].valueString = "新增"
-* #A037417 ^property[+].code = #updateDate
+* #A037417 ^property[+].code = #effectiveDate
 * #A037417 ^property[=].valueString = "2024-05"
 * #A037419 "萬國荊芥連翹湯濃縮細粒"
 * #A037419 ^property[0].code = #status
 * #A037419 ^property[=].valueString = "新增"
-* #A037419 ^property[+].code = #updateDate
+* #A037419 ^property[+].code = #effectiveDate
 * #A037419 ^property[=].valueString = "2024-05"
 * #A037420 "信宏苓甘薑味辛夏仁湯濃縮細粒"
 * #A037420 ^property[0].code = #status
 * #A037420 ^property[=].valueString = "新增"
-* #A037420 ^property[+].code = #updateDate
+* #A037420 ^property[+].code = #effectiveDate
 * #A037420 ^property[=].valueString = "2024-05"
 * #A037421 "信宏苓桂朮甘湯濃縮細粒"
 * #A037421 ^property[0].code = #status
 * #A037421 ^property[=].valueString = "新增"
-* #A037421 ^property[+].code = #updateDate
+* #A037421 ^property[+].code = #effectiveDate
 * #A037421 ^property[=].valueString = "2024-05"
 * #A037422 "信宏辛夷清肺湯濃縮細粒"
 * #A037422 ^property[0].code = #status
 * #A037422 ^property[=].valueString = "新增"
-* #A037422 ^property[+].code = #updateDate
+* #A037422 ^property[+].code = #effectiveDate
 * #A037422 ^property[=].valueString = "2024-05"
 * #A037423 "信宏二朮湯濃縮細粒"
 * #A037423 ^property[0].code = #status
 * #A037423 ^property[=].valueString = "新增"
-* #A037423 ^property[+].code = #updateDate
+* #A037423 ^property[+].code = #effectiveDate
 * #A037423 ^property[=].valueString = "2024-05"
 * #A037424 "信宏麻子仁丸濃縮細粒"
 * #A037424 ^property[0].code = #status
 * #A037424 ^property[=].valueString = "新增"
-* #A037424 ^property[+].code = #updateDate
+* #A037424 ^property[+].code = #effectiveDate
 * #A037424 ^property[=].valueString = "2024-05"
 * #A037425 "信宏定喘湯濃縮細粒"
 * #A037425 ^property[0].code = #status
 * #A037425 ^property[=].valueString = "新增"
-* #A037425 ^property[+].code = #updateDate
+* #A037425 ^property[+].code = #effectiveDate
 * #A037425 ^property[=].valueString = "2024-05"
 * #A037426 "信宏麻黃湯濃縮細粒"
 * #A037426 ^property[0].code = #status
 * #A037426 ^property[=].valueString = "新增"
-* #A037426 ^property[+].code = #updateDate
+* #A037426 ^property[+].code = #effectiveDate
 * #A037426 ^property[=].valueString = "2024-05"
 * #A037427 "信宏竹葉石膏湯濃縮細粒"
 * #A037427 ^property[0].code = #status
 * #A037427 ^property[=].valueString = "新增"
-* #A037427 ^property[+].code = #updateDate
+* #A037427 ^property[+].code = #effectiveDate
 * #A037427 ^property[=].valueString = "2024-05"
 * #A037428 "萬國桂枝湯濃縮細粒"
 * #A037428 ^property[0].code = #status
 * #A037428 ^property[=].valueString = "新增"
-* #A037428 ^property[+].code = #updateDate
+* #A037428 ^property[+].code = #effectiveDate
 * #A037428 ^property[=].valueString = "2024-05"
 * #A037429 "信宏芎歸膠艾湯濃縮細粒"
 * #A037429 ^property[0].code = #status
 * #A037429 ^property[=].valueString = "新增"
-* #A037429 ^property[+].code = #updateDate
+* #A037429 ^property[+].code = #effectiveDate
 * #A037429 ^property[=].valueString = "2024-05"
 * #A037430 "信宏補陽還五湯濃縮細粒"
 * #A037430 ^property[0].code = #status
 * #A037430 ^property[=].valueString = "新增"
-* #A037430 ^property[+].code = #updateDate
+* #A037430 ^property[+].code = #effectiveDate
 * #A037430 ^property[=].valueString = "2024-05"
 * #A055872 "勸奉堂荊芥連翹湯濃縮顆粒"
 * #A055872 ^property[0].code = #status
 * #A055872 ^property[=].valueString = "新增"
-* #A055872 ^property[+].code = #updateDate
+* #A055872 ^property[+].code = #effectiveDate
 * #A055872 ^property[=].valueString = "2024-05"
 * #A055873 "勸奉堂九味羌活湯濃縮顆粒"
 * #A055873 ^property[0].code = #status
 * #A055873 ^property[=].valueString = "新增"
-* #A055873 ^property[+].code = #updateDate
+* #A055873 ^property[+].code = #effectiveDate
 * #A055873 ^property[=].valueString = "2024-05"
 * #A057477 "科達半夏天麻白朮湯濃縮細粒"
 * #A057477 ^property[0].code = #status
 * #A057477 ^property[=].valueString = "新增"
-* #A057477 ^property[+].code = #updateDate
+* #A057477 ^property[+].code = #effectiveDate
 * #A057477 ^property[=].valueString = "2024-05"
 * #A028100 "東陽知柏地黃丸濃縮錠"
 * #A028100 ^property[0].code = #status
 * #A028100 ^property[=].valueString = "新增"
-* #A028100 ^property[+].code = #updateDate
+* #A028100 ^property[+].code = #effectiveDate
 * #A028100 ^property[=].valueString = "2024-05"
 * #A037434 "莊松榮七寶美髯丹濃縮細粒"
 * #A037434 ^property[0].code = #status
 * #A037434 ^property[=].valueString = "新增"
-* #A037434 ^property[+].code = #updateDate
+* #A037434 ^property[+].code = #effectiveDate
 * #A037434 ^property[=].valueString = "2024-05"
 * #A037435 "天明歸耆建中湯濃縮細粒"
 * #A037435 ^property[0].code = #status
 * #A037435 ^property[=].valueString = "新增"
-* #A037435 ^property[+].code = #updateDate
+* #A037435 ^property[+].code = #effectiveDate
 * #A037435 ^property[=].valueString = "2024-05"
 * #A037436 "信宏清肺湯濃縮細粒"
 * #A037436 ^property[0].code = #status
 * #A037436 ^property[=].valueString = "新增"
-* #A037436 ^property[+].code = #updateDate
+* #A037436 ^property[+].code = #effectiveDate
 * #A037436 ^property[=].valueString = "2024-05"
 * #A037437 "信宏柴胡加龍骨牡蠣湯濃縮細粒"
 * #A037437 ^property[0].code = #status
 * #A037437 ^property[=].valueString = "新增"
-* #A037437 ^property[+].code = #updateDate
+* #A037437 ^property[+].code = #effectiveDate
 * #A037437 ^property[=].valueString = "2024-05"
 * #A037438 "正揚清上防風湯濃縮細粒"
 * #A037438 ^property[0].code = #status
 * #A037438 ^property[=].valueString = "新增"
-* #A037438 ^property[+].code = #updateDate
+* #A037438 ^property[+].code = #effectiveDate
 * #A037438 ^property[=].valueString = "2024-05"
 * #A037439 "萬國濟生腎氣丸濃縮細粒"
 * #A037439 ^property[0].code = #status
 * #A037439 ^property[=].valueString = "新增"
-* #A037439 ^property[+].code = #updateDate
+* #A037439 ^property[+].code = #effectiveDate
 * #A037439 ^property[=].valueString = "2024-05"
 * #A037440 "信宏桂枝茯苓丸濃縮細粒"
 * #A037440 ^property[0].code = #status
 * #A037440 ^property[=].valueString = "新增"
-* #A037440 ^property[+].code = #updateDate
+* #A037440 ^property[+].code = #effectiveDate
 * #A037440 ^property[=].valueString = "2024-05"
 * #A046205 "晉安血府逐瘀湯濃縮錠"
 * #A046205 ^property[0].code = #status
 * #A046205 ^property[=].valueString = "新增"
-* #A046205 ^property[+].code = #updateDate
+* #A046205 ^property[+].code = #effectiveDate
 * #A046205 ^property[=].valueString = "2024-05"
 * #A046212 "順天堂潤腸湯濃縮顆粒"
 * #A046212 ^property[0].code = #status
 * #A046212 ^property[=].valueString = "新增"
-* #A046212 ^property[+].code = #updateDate
+* #A046212 ^property[+].code = #effectiveDate
 * #A046212 ^property[=].valueString = "2024-05"
 * #A046214 "順天堂麥門冬湯濃縮細粒"
 * #A046214 ^property[0].code = #status
 * #A046214 ^property[=].valueString = "新增"
-* #A046214 ^property[+].code = #updateDate
+* #A046214 ^property[+].code = #effectiveDate
 * #A046214 ^property[=].valueString = "2024-05"
 * #A046215 "順天堂葛花解酲湯濃縮顆粒"
 * #A046215 ^property[0].code = #status
 * #A046215 ^property[=].valueString = "新增"
-* #A046215 ^property[+].code = #updateDate
+* #A046215 ^property[+].code = #effectiveDate
 * #A046215 ^property[=].valueString = "2024-05"
 * #A057478 "科達九味羌活湯濃縮細粒"
 * #A057478 ^property[0].code = #status
 * #A057478 ^property[=].valueString = "新增"
-* #A057478 ^property[+].code = #updateDate
+* #A057478 ^property[+].code = #effectiveDate
 * #A057478 ^property[=].valueString = "2024-05"
 * #A057479 "勝昌杞菊地黃丸濃縮膜衣錠"
 * #A057479 ^property[0].code = #status
 * #A057479 ^property[=].valueString = "新增"
-* #A057479 ^property[+].code = #updateDate
+* #A057479 ^property[+].code = #effectiveDate
 * #A057479 ^property[=].valueString = "2024-05"
 * #A057480 "領先五味消毒飲濃縮錠"
 * #A057480 ^property[0].code = #status
 * #A057480 ^property[=].valueString = "新增"
-* #A057480 ^property[+].code = #updateDate
+* #A057480 ^property[+].code = #effectiveDate
 * #A057480 ^property[=].valueString = "2024-05"
 * #A057481 "領先複方丹參片濃縮錠"
 * #A057481 ^property[0].code = #status
 * #A057481 ^property[=].valueString = "新增"
-* #A057481 ^property[+].code = #updateDate
+* #A057481 ^property[+].code = #effectiveDate
 * #A057481 ^property[=].valueString = "2024-05"
 * #A057482 "領先防已黃耆湯濃縮錠"
 * #A057482 ^property[0].code = #status
 * #A057482 ^property[=].valueString = "新增"
-* #A057482 ^property[+].code = #updateDate
+* #A057482 ^property[+].code = #effectiveDate
 * #A057482 ^property[=].valueString = "2024-05"
 * #A057483 "領先麻子仁丸濃縮錠"
 * #A057483 ^property[0].code = #status
 * #A057483 ^property[=].valueString = "新增"
-* #A057483 ^property[+].code = #updateDate
+* #A057483 ^property[+].code = #effectiveDate
 * #A057483 ^property[=].valueString = "2024-05"
 * #A057484 "領先桃核承氣湯濃縮錠"
 * #A057484 ^property[0].code = #status
 * #A057484 ^property[=].valueString = "新增"
-* #A057484 ^property[+].code = #updateDate
+* #A057484 ^property[+].code = #effectiveDate
 * #A057484 ^property[=].valueString = "2024-05"
 * #A057485 "領先黃連解毒湯濃縮錠"
 * #A057485 ^property[0].code = #status
 * #A057485 ^property[=].valueString = "新增"
-* #A057485 ^property[+].code = #updateDate
+* #A057485 ^property[+].code = #effectiveDate
 * #A057485 ^property[=].valueString = "2024-05"
 * #A057486 "領先調胃承湯濃縮錠"
 * #A057486 ^property[0].code = #status
 * #A057486 ^property[=].valueString = "新增"
-* #A057486 ^property[+].code = #updateDate
+* #A057486 ^property[+].code = #effectiveDate
 * #A057486 ^property[=].valueString = "2024-05"
 * #A057487 "領先三黃瀉心湯濃縮錠"
 * #A057487 ^property[0].code = #status
 * #A057487 ^property[=].valueString = "新增"
-* #A057487 ^property[+].code = #updateDate
+* #A057487 ^property[+].code = #effectiveDate
 * #A057487 ^property[=].valueString = "2024-05"
 * #A057488 "勝昌濟生腎氣丸濃縮錠"
 * #A057488 ^property[0].code = #status
 * #A057488 ^property[=].valueString = "新增"
-* #A057488 ^property[+].code = #updateDate
+* #A057488 ^property[+].code = #effectiveDate
 * #A057488 ^property[=].valueString = "2024-05"
 * #A031329 "天明杞菊地黃丸濃縮細粒"
 * #A031329 ^property[0].code = #status
 * #A031329 ^property[=].valueString = "新增"
-* #A031329 ^property[+].code = #updateDate
+* #A031329 ^property[+].code = #effectiveDate
 * #A031329 ^property[=].valueString = "2024-05"
 * #A047315 "天明二陳湯濃縮細粒"
 * #A047315 ^property[0].code = #status
 * #A047315 ^property[=].valueString = "新增"
-* #A047315 ^property[+].code = #updateDate
+* #A047315 ^property[+].code = #effectiveDate
 * #A047315 ^property[=].valueString = "2024-05"
 * #A037472 "晉安清鼻湯濃縮顆粒"
 * #A037472 ^property[0].code = #status
 * #A037472 ^property[=].valueString = "新增"
-* #A037472 ^property[+].code = #updateDate
+* #A037472 ^property[+].code = #effectiveDate
 * #A037472 ^property[=].valueString = "2024-05"
 * #A031353 "莊松榮溫經湯濃縮細粒"
 * #A031353 ^property[0].code = #status
 * #A031353 ^property[=].valueString = "新增"
-* #A031353 ^property[+].code = #updateDate
+* #A031353 ^property[+].code = #effectiveDate
 * #A031353 ^property[=].valueString = "2024-05"
 * #A031354 "莊松榮逍遙散濃縮細粒"
 * #A031354 ^property[0].code = #status
 * #A031354 ^property[=].valueString = "新增"
-* #A031354 ^property[+].code = #updateDate
+* #A031354 ^property[+].code = #effectiveDate
 * #A031354 ^property[=].valueString = "2024-05"
 * #A037001 "天明麻黃附子細辛湯濃縮細粒"
 * #A037001 ^property[0].code = #status
 * #A037001 ^property[=].valueString = "新增"
-* #A037001 ^property[+].code = #updateDate
+* #A037001 ^property[+].code = #effectiveDate
 * #A037001 ^property[=].valueString = "2024-05"
 * #A037448 "莊松榮過期飲濃縮細粒"
 * #A037448 ^property[0].code = #status
 * #A037448 ^property[=].valueString = "新增"
-* #A037448 ^property[+].code = #updateDate
+* #A037448 ^property[+].code = #effectiveDate
 * #A037448 ^property[=].valueString = "2024-05"
 * #A037455 "天一甘露消毒丹濃縮顆粒"
 * #A037455 ^property[0].code = #status
 * #A037455 ^property[=].valueString = "新增"
-* #A037455 ^property[+].code = #updateDate
+* #A037455 ^property[+].code = #effectiveDate
 * #A037455 ^property[=].valueString = "2024-05"
 * #A037456 "晉安血府逐瘀湯濃縮顆粒"
 * #A037456 ^property[0].code = #status
 * #A037456 ^property[=].valueString = "新增"
-* #A037456 ^property[+].code = #updateDate
+* #A037456 ^property[+].code = #effectiveDate
 * #A037456 ^property[=].valueString = "2024-05"
 * #A037457 "晉安羌活勝濕湯濃縮顆粒"
 * #A037457 ^property[0].code = #status
 * #A037457 ^property[=].valueString = "新增"
-* #A037457 ^property[+].code = #updateDate
+* #A037457 ^property[+].code = #effectiveDate
 * #A037457 ^property[=].valueString = "2024-05"
 * #A037458 "天明千金內托散濃縮細粒"
 * #A037458 ^property[0].code = #status
 * #A037458 ^property[=].valueString = "新增"
-* #A037458 ^property[+].code = #updateDate
+* #A037458 ^property[+].code = #effectiveDate
 * #A037458 ^property[=].valueString = "2024-05"
 * #A037459 "天明當歸四逆湯濃縮細粒"
 * #A037459 ^property[0].code = #status
 * #A037459 ^property[=].valueString = "新增"
-* #A037459 ^property[+].code = #updateDate
+* #A037459 ^property[+].code = #effectiveDate
 * #A037459 ^property[=].valueString = "2024-05"
 * #A037460 "明通消痔丸濃縮顆粒"
 * #A037460 ^property[0].code = #status
 * #A037460 ^property[=].valueString = "新增"
-* #A037460 ^property[+].code = #updateDate
+* #A037460 ^property[+].code = #effectiveDate
 * #A037460 ^property[=].valueString = "2024-05"
 * #A037461 "明通蒼耳散濃縮顆粒"
 * #A037461 ^property[0].code = #status
 * #A037461 ^property[=].valueString = "新增"
-* #A037461 ^property[+].code = #updateDate
+* #A037461 ^property[+].code = #effectiveDate
 * #A037461 ^property[=].valueString = "2024-05"
 * #A037462 "天明牡蠣散濃縮細粒"
 * #A037462 ^property[0].code = #status
 * #A037462 ^property[=].valueString = "新增"
-* #A037462 ^property[+].code = #updateDate
+* #A037462 ^property[+].code = #effectiveDate
 * #A037462 ^property[=].valueString = "2024-05"
 * #A037464 "天明白頭翁湯濃縮細粒"
 * #A037464 ^property[0].code = #status
 * #A037464 ^property[=].valueString = "新增"
-* #A037464 ^property[+].code = #updateDate
+* #A037464 ^property[+].code = #effectiveDate
 * #A037464 ^property[=].valueString = "2024-05"
 * #A037465 "天明香薷飲濃縮細粒"
 * #A037465 ^property[0].code = #status
 * #A037465 ^property[=].valueString = "新增"
-* #A037465 ^property[+].code = #updateDate
+* #A037465 ^property[+].code = #effectiveDate
 * #A037465 ^property[=].valueString = "2024-05"
 * #A037467 "晉安溫清飲濃縮顆粒"
 * #A037467 ^property[0].code = #status
 * #A037467 ^property[=].valueString = "新增"
-* #A037467 ^property[+].code = #updateDate
+* #A037467 ^property[+].code = #effectiveDate
 * #A037467 ^property[=].valueString = "2024-05"
 * #A037468 "晉安蠲痺湯濃縮顆粒"
 * #A037468 ^property[0].code = #status
 * #A037468 ^property[=].valueString = "新增"
-* #A037468 ^property[+].code = #updateDate
+* #A037468 ^property[+].code = #effectiveDate
 * #A037468 ^property[=].valueString = "2024-05"
 * #A046304 "三帆當歸芍藥散濃縮細粒"
 * #A046304 ^property[0].code = #status
 * #A046304 ^property[=].valueString = "新增"
-* #A046304 ^property[+].code = #updateDate
+* #A046304 ^property[+].code = #effectiveDate
 * #A046304 ^property[=].valueString = "2024-05"
 * #A046305 "三帆川芎茶調散濃縮細粒"
 * #A046305 ^property[0].code = #status
 * #A046305 ^property[=].valueString = "新增"
-* #A046305 ^property[+].code = #updateDate
+* #A046305 ^property[+].code = #effectiveDate
 * #A046305 ^property[=].valueString = "2024-05"
 * #A055137 "領先茯菟丹濃縮細粒"
 * #A055137 ^property[0].code = #status
 * #A055137 ^property[=].valueString = "新增"
-* #A055137 ^property[+].code = #updateDate
+* #A055137 ^property[+].code = #effectiveDate
 * #A055137 ^property[=].valueString = "2024-05"
 * #A055871 "勸奉堂小青龍湯濃縮散"
 * #A055871 ^property[0].code = #status
 * #A055871 ^property[=].valueString = "新增"
-* #A055871 ^property[+].code = #updateDate
+* #A055871 ^property[+].code = #effectiveDate
 * #A055871 ^property[=].valueString = "2024-05"
 * #A037477 "信宏清鼻湯濃縮細粒(葛根湯加減味)"
 * #A037477 ^property[0].code = #status
 * #A037477 ^property[=].valueString = "新增"
-* #A037477 ^property[+].code = #updateDate
+* #A037477 ^property[+].code = #effectiveDate
 * #A037477 ^property[=].valueString = "2024-05"
 * #A037476 "天一養心湯濃縮顆粒"
 * #A037476 ^property[0].code = #status
 * #A037476 ^property[=].valueString = "新增"
-* #A037476 ^property[+].code = #updateDate
+* #A037476 ^property[+].code = #effectiveDate
 * #A037476 ^property[=].valueString = "2024-05"
 * #A037478 "信宏四君子湯濃縮細粒"
 * #A037478 ^property[0].code = #status
 * #A037478 ^property[=].valueString = "新增"
-* #A037478 ^property[+].code = #updateDate
+* #A037478 ^property[+].code = #effectiveDate
 * #A037478 ^property[=].valueString = "2024-05"
 * #A037481 "復旦少腹逐瘀湯濃縮細粒"
 * #A037481 ^property[0].code = #status
 * #A037481 ^property[=].valueString = "新增"
-* #A037481 ^property[+].code = #updateDate
+* #A037481 ^property[+].code = #effectiveDate
 * #A037481 ^property[=].valueString = "2024-05"
 * #A037483 "晉安二朮湯濃縮顆粒"
 * #A037483 ^property[0].code = #status
 * #A037483 ^property[=].valueString = "新增"
-* #A037483 ^property[+].code = #updateDate
+* #A037483 ^property[+].code = #effectiveDate
 * #A037483 ^property[=].valueString = "2024-05"
 * #A037484 "晉安黃耆五物湯濃縮顆粒"
 * #A037484 ^property[0].code = #status
 * #A037484 ^property[=].valueString = "新增"
-* #A037484 ^property[+].code = #updateDate
+* #A037484 ^property[+].code = #effectiveDate
 * #A037484 ^property[=].valueString = "2024-05"
 * #A037485 "勝昌桔梗湯濃縮散（濟生方）"
 * #A037485 ^property[0].code = #status
 * #A037485 ^property[=].valueString = "新增"
-* #A037485 ^property[+].code = #updateDate
+* #A037485 ^property[+].code = #effectiveDate
 * #A037485 ^property[=].valueString = "2024-05"
 * #A037486 "復旦左歸丸濃縮細粒"
 * #A037486 ^property[0].code = #status
 * #A037486 ^property[=].valueString = "新增"
-* #A037486 ^property[+].code = #updateDate
+* #A037486 ^property[+].code = #effectiveDate
 * #A037486 ^property[=].valueString = "2024-05"
 * #A042896 "天明甘露飲濃縮細粒"
 * #A042896 ^property[0].code = #status
 * #A042896 ^property[=].valueString = "新增"
-* #A042896 ^property[+].code = #updateDate
+* #A042896 ^property[+].code = #effectiveDate
 * #A042896 ^property[=].valueString = "2024-05"
 * #A042897 "東陽七寶美髯丹濃縮錠"
 * #A042897 ^property[0].code = #status
 * #A042897 ^property[=].valueString = "新增"
-* #A042897 ^property[+].code = #updateDate
+* #A042897 ^property[+].code = #effectiveDate
 * #A042897 ^property[=].valueString = "2024-05"
 * #A037492 "正揚知柏地黃丸濃縮細粒"
 * #A037492 ^property[0].code = #status
 * #A037492 ^property[=].valueString = "新增"
-* #A037492 ^property[+].code = #updateDate
+* #A037492 ^property[+].code = #effectiveDate
 * #A037492 ^property[=].valueString = "2024-05"
 * #A037493 "東陽散腫潰堅湯濃縮錠"
 * #A037493 ^property[0].code = #status
 * #A037493 ^property[=].valueString = "新增"
-* #A037493 ^property[+].code = #updateDate
+* #A037493 ^property[+].code = #effectiveDate
 * #A037493 ^property[=].valueString = "2024-05"
 * #A037494 "信宏小續命湯濃縮細粒"
 * #A037494 ^property[0].code = #status
 * #A037494 ^property[=].valueString = "新增"
-* #A037494 ^property[+].code = #updateDate
+* #A037494 ^property[+].code = #effectiveDate
 * #A037494 ^property[=].valueString = "2024-05"
 * #A037495 "信宏當歸拈痛湯濃縮細粒"
 * #A037495 ^property[0].code = #status
 * #A037495 ^property[=].valueString = "新增"
-* #A037495 ^property[+].code = #updateDate
+* #A037495 ^property[+].code = #effectiveDate
 * #A037495 ^property[=].valueString = "2024-05"
 * #A037496 "復旦聖愈湯濃縮細粒"
 * #A037496 ^property[0].code = #status
 * #A037496 ^property[=].valueString = "新增"
-* #A037496 ^property[+].code = #updateDate
+* #A037496 ^property[+].code = #effectiveDate
 * #A037496 ^property[=].valueString = "2024-05"
 * #A042893 "德山肝膽寧濃縮膠囊(龍膽瀉肝丸)"
 * #A042893 ^property[0].code = #status
 * #A042893 ^property[=].valueString = "新增"
-* #A042893 ^property[+].code = #updateDate
+* #A042893 ^property[+].code = #effectiveDate
 * #A042893 ^property[=].valueString = "2024-05"
 * #A042894 "富田小建中湯濃縮錠"
 * #A042894 ^property[0].code = #status
 * #A042894 ^property[=].valueString = "新增"
-* #A042894 ^property[+].code = #updateDate
+* #A042894 ^property[+].code = #effectiveDate
 * #A042894 ^property[=].valueString = "2024-05"
 * #A042895 "富田生脈飲濃縮錠"
 * #A042895 ^property[0].code = #status
 * #A042895 ^property[=].valueString = "新增"
-* #A042895 ^property[+].code = #updateDate
+* #A042895 ^property[+].code = #effectiveDate
 * #A042895 ^property[=].valueString = "2024-05"
 * #A042898 "順然小柴胡湯濃縮錠"
 * #A042898 ^property[0].code = #status
 * #A042898 ^property[=].valueString = "新增"
-* #A042898 ^property[+].code = #updateDate
+* #A042898 ^property[+].code = #effectiveDate
 * #A042898 ^property[=].valueString = "2024-05"
 * #A029565 "科達桂枝湯濃縮散"
 * #A029565 ^property[0].code = #status
 * #A029565 ^property[=].valueString = "新增"
-* #A029565 ^property[+].code = #updateDate
+* #A029565 ^property[+].code = #effectiveDate
 * #A029565 ^property[=].valueString = "2024-05"
 * #A029566 "科達茵陳蒿湯濃縮細粒"
 * #A029566 ^property[0].code = #status
 * #A029566 ^property[=].valueString = "新增"
-* #A029566 ^property[+].code = #updateDate
+* #A029566 ^property[+].code = #effectiveDate
 * #A029566 ^property[=].valueString = "2024-05"
 * #A029567 "科達柴胡桂枝湯濃縮細粒"
 * #A029567 ^property[0].code = #status
 * #A029567 ^property[=].valueString = "新增"
-* #A029567 ^property[+].code = #updateDate
+* #A029567 ^property[+].code = #effectiveDate
 * #A029567 ^property[=].valueString = "2024-05"
 * #A029568 "科達烏藥順氣散濃縮細粒"
 * #A029568 ^property[0].code = #status
 * #A029568 ^property[=].valueString = "新增"
-* #A029568 ^property[+].code = #updateDate
+* #A029568 ^property[+].code = #effectiveDate
 * #A029568 ^property[=].valueString = "2024-05"
 * #A029569 "科達四君子湯濃縮散"
 * #A029569 ^property[0].code = #status
 * #A029569 ^property[=].valueString = "新增"
-* #A029569 ^property[+].code = #updateDate
+* #A029569 ^property[+].code = #effectiveDate
 * #A029569 ^property[=].valueString = "2024-05"
 * #A029570 "科達麻黃湯濃縮散"
 * #A029570 ^property[0].code = #status
 * #A029570 ^property[=].valueString = "新增"
-* #A029570 ^property[+].code = #updateDate
+* #A029570 ^property[+].code = #effectiveDate
 * #A029570 ^property[=].valueString = "2024-05"
 * #A029571 "科達羌活勝濕湯濃縮細粒"
 * #A029571 ^property[0].code = #status
 * #A029571 ^property[=].valueString = "新增"
-* #A029571 ^property[+].code = #updateDate
+* #A029571 ^property[+].code = #effectiveDate
 * #A029571 ^property[=].valueString = "2024-05"
 * #A057497 "天明五苓散濃縮錠"
 * #A057497 ^property[0].code = #status
 * #A057497 ^property[=].valueString = "新增"
-* #A057497 ^property[+].code = #updateDate
+* #A057497 ^property[+].code = #effectiveDate
 * #A057497 ^property[=].valueString = "2024-05"
 * #A031362 "科達吳茱萸湯濃縮細粒"
 * #A031362 ^property[0].code = #status
 * #A031362 ^property[=].valueString = "新增"
-* #A031362 ^property[+].code = #updateDate
+* #A031362 ^property[+].code = #effectiveDate
 * #A031362 ^property[=].valueString = "2024-05"
 * #A031363 "科達半夏白朮天麻湯濃縮散"
 * #A031363 ^property[0].code = #status
 * #A031363 ^property[=].valueString = "新增"
-* #A031363 ^property[+].code = #updateDate
+* #A031363 ^property[+].code = #effectiveDate
 * #A031363 ^property[=].valueString = "2024-05"
 * #A037516 "東陽川芎茶調散濃縮錠"
 * #A037516 ^property[0].code = #status
 * #A037516 ^property[=].valueString = "新增"
-* #A037516 ^property[+].code = #updateDate
+* #A037516 ^property[+].code = #effectiveDate
 * #A037516 ^property[=].valueString = "2024-05"
 * #A031364 "天一半夏白朮天麻湯濃縮顆粒"
 * #A031364 ^property[0].code = #status
 * #A031364 ^property[=].valueString = "新增"
-* #A031364 ^property[+].code = #updateDate
+* #A031364 ^property[+].code = #effectiveDate
 * #A031364 ^property[=].valueString = "2024-05"
 * #A031365 "天一歸脾湯濃縮顆粒"
 * #A031365 ^property[0].code = #status
 * #A031365 ^property[=].valueString = "新增"
-* #A031365 ^property[+].code = #updateDate
+* #A031365 ^property[+].code = #effectiveDate
 * #A031365 ^property[=].valueString = "2024-05"
 * #A046240 "富田養陰清肺湯濃縮細粒"
 * #A046240 ^property[0].code = #status
 * #A046240 ^property[=].valueString = "新增"
-* #A046240 ^property[+].code = #updateDate
+* #A046240 ^property[+].code = #effectiveDate
 * #A046240 ^property[=].valueString = "2024-05"
 * #A037521 "天明桑螵硝散濃縮細粒"
 * #A037521 ^property[0].code = #status
 * #A037521 ^property[=].valueString = "新增"
-* #A037521 ^property[+].code = #updateDate
+* #A037521 ^property[+].code = #effectiveDate
 * #A037521 ^property[=].valueString = "2024-05"
 * #A046238 "晉安九味羌活湯濃縮錠"
 * #A046238 ^property[0].code = #status
 * #A046238 ^property[=].valueString = "新增"
-* #A046238 ^property[+].code = #updateDate
+* #A046238 ^property[+].code = #effectiveDate
 * #A046238 ^property[=].valueString = "2024-05"
 * #A050109 "勸奉堂麻子仁丸濃縮細粒"
 * #A050109 ^property[0].code = #status
 * #A050109 ^property[=].valueString = "新增"
-* #A050109 ^property[+].code = #updateDate
+* #A050109 ^property[+].code = #effectiveDate
 * #A050109 ^property[=].valueString = "2024-05"
 * #A050112 "三才堂疏經活血湯濃縮細粒"
 * #A050112 ^property[0].code = #status
 * #A050112 ^property[=].valueString = "新增"
-* #A050112 ^property[+].code = #updateDate
+* #A050112 ^property[+].code = #effectiveDate
 * #A050112 ^property[=].valueString = "2024-05"
 * #A031372 "天明荊防敗毒散濃縮細粒"
 * #A031372 ^property[0].code = #status
 * #A031372 ^property[=].valueString = "新增"
-* #A031372 ^property[+].code = #updateDate
+* #A031372 ^property[+].code = #effectiveDate
 * #A031372 ^property[=].valueString = "2024-05"
 * #A057504 "天明通竅活血湯濃縮細粒(去麝香)"
 * #A057504 ^property[0].code = #status
 * #A057504 ^property[=].valueString = "新增"
-* #A057504 ^property[+].code = #updateDate
+* #A057504 ^property[+].code = #effectiveDate
 * #A057504 ^property[=].valueString = "2024-05"
 * #A031379 "天明養肝丸濃縮丸"
 * #A031379 ^property[0].code = #status
 * #A031379 ^property[=].valueString = "新增"
-* #A031379 ^property[+].code = #updateDate
+* #A031379 ^property[+].code = #effectiveDate
 * #A031379 ^property[=].valueString = "2024-05"
 * #A031380 "忠山平血濃縮丸(黃耆五物湯)"
 * #A031380 ^property[0].code = #status
 * #A031380 ^property[=].valueString = "新增"
-* #A031380 ^property[+].code = #updateDate
+* #A031380 ^property[+].code = #effectiveDate
 * #A031380 ^property[=].valueString = "2024-05"
 * #A037531 "正揚茵陳五苓散濃縮細粒"
 * #A037531 ^property[0].code = #status
 * #A037531 ^property[=].valueString = "新增"
-* #A037531 ^property[+].code = #updateDate
+* #A037531 ^property[+].code = #effectiveDate
 * #A037531 ^property[=].valueString = "2024-05"
 * #A037532 "仙豐清暑益氣湯濃縮細粒"
 * #A037532 ^property[0].code = #status
 * #A037532 ^property[=].valueString = "新增"
-* #A037532 ^property[+].code = #updateDate
+* #A037532 ^property[+].code = #effectiveDate
 * #A037532 ^property[=].valueString = "2024-05"
 * #A037533 "科達槐花散濃縮細粒"
 * #A037533 ^property[0].code = #status
 * #A037533 ^property[=].valueString = "新增"
-* #A037533 ^property[+].code = #updateDate
+* #A037533 ^property[+].code = #effectiveDate
 * #A037533 ^property[=].valueString = "2024-05"
 * #A037534 "正揚藿香正氣散濃縮細粒"
 * #A037534 ^property[0].code = #status
 * #A037534 ^property[=].valueString = "新增"
-* #A037534 ^property[+].code = #updateDate
+* #A037534 ^property[+].code = #effectiveDate
 * #A037534 ^property[=].valueString = "2024-05"
 * #A037535 "科達白虎加人參湯濃縮細粒"
 * #A037535 ^property[0].code = #status
 * #A037535 ^property[=].valueString = "新增"
-* #A037535 ^property[+].code = #updateDate
+* #A037535 ^property[+].code = #effectiveDate
 * #A037535 ^property[=].valueString = "2024-05"
 * #A042921 "正揚八珍湯濃縮細粒"
 * #A042921 ^property[0].code = #status
 * #A042921 ^property[=].valueString = "新增"
-* #A042921 ^property[+].code = #updateDate
+* #A042921 ^property[+].code = #effectiveDate
 * #A042921 ^property[=].valueString = "2024-05"
 * #A042922 "東陽七寶美髯丹濃縮細粒"
 * #A042922 ^property[0].code = #status
 * #A042922 ^property[=].valueString = "新增"
-* #A042922 ^property[+].code = #updateDate
+* #A042922 ^property[+].code = #effectiveDate
 * #A042922 ^property[=].valueString = "2024-05"
 * #A042924 "萬國一貫煎濃縮細粒"
 * #A042924 ^property[0].code = #status
 * #A042924 ^property[=].valueString = "新增"
-* #A042924 ^property[+].code = #updateDate
+* #A042924 ^property[+].code = #effectiveDate
 * #A042924 ^property[=].valueString = "2024-05"
 * #A042925 "生春少腹逐瘀湯濃縮細粒"
 * #A042925 ^property[0].code = #status
 * #A042925 ^property[=].valueString = "新增"
-* #A042925 ^property[+].code = #updateDate
+* #A042925 ^property[+].code = #effectiveDate
 * #A042925 ^property[=].valueString = "2024-05"
 * #A042929 "富田七寶美髯丹濃縮錠"
 * #A042929 ^property[0].code = #status
 * #A042929 ^property[=].valueString = "新增"
-* #A042929 ^property[+].code = #updateDate
+* #A042929 ^property[+].code = #effectiveDate
 * #A042929 ^property[=].valueString = "2024-05"
 * #A042930 "順然歸脾湯濃縮錠"
 * #A042930 ^property[0].code = #status
 * #A042930 ^property[=].valueString = "新增"
-* #A042930 ^property[+].code = #updateDate
+* #A042930 ^property[+].code = #effectiveDate
 * #A042930 ^property[=].valueString = "2024-05"
 * #A055870 "勸奉堂香薷飲濃縮細粒"
 * #A055870 ^property[0].code = #status
 * #A055870 ^property[=].valueString = "新增"
-* #A055870 ^property[+].code = #updateDate
+* #A055870 ^property[+].code = #effectiveDate
 * #A055870 ^property[=].valueString = "2024-05"
 * #A031383 "莊松榮柴胡清肝湯濃縮細粒"
 * #A031383 ^property[0].code = #status
 * #A031383 ^property[=].valueString = "新增"
-* #A031383 ^property[+].code = #updateDate
+* #A031383 ^property[+].code = #effectiveDate
 * #A031383 ^property[=].valueString = "2024-05"
 * #A031384 "莊松榮五苓散濃縮細粒"
 * #A031384 ^property[0].code = #status
 * #A031384 ^property[=].valueString = "新增"
-* #A031384 ^property[+].code = #updateDate
+* #A031384 ^property[+].code = #effectiveDate
 * #A031384 ^property[=].valueString = "2024-05"
 * #A031385 "莊松榮升麻葛根湯濃縮細粒"
 * #A031385 ^property[0].code = #status
 * #A031385 ^property[=].valueString = "新增"
-* #A031385 ^property[+].code = #updateDate
+* #A031385 ^property[+].code = #effectiveDate
 * #A031385 ^property[=].valueString = "2024-05"
 * #A031386 "莊松榮蘇子降氣湯濃縮細粒"
 * #A031386 ^property[0].code = #status
 * #A031386 ^property[=].valueString = "新增"
-* #A031386 ^property[+].code = #updateDate
+* #A031386 ^property[+].code = #effectiveDate
 * #A031386 ^property[=].valueString = "2024-05"
 * #A031389 "莊松榮黃連解毒湯濃縮細粒"
 * #A031389 ^property[0].code = #status
 * #A031389 ^property[=].valueString = "新增"
-* #A031389 ^property[+].code = #updateDate
+* #A031389 ^property[+].code = #effectiveDate
 * #A031389 ^property[=].valueString = "2024-05"
 * #A031390 "莊松榮疏經活血湯濃縮細粒"
 * #A031390 ^property[0].code = #status
 * #A031390 ^property[=].valueString = "新增"
-* #A031390 ^property[+].code = #updateDate
+* #A031390 ^property[+].code = #effectiveDate
 * #A031390 ^property[=].valueString = "2024-05"
 * #A031391 "莊松榮參苓白朮散濃縮細粒"
 * #A031391 ^property[0].code = #status
 * #A031391 ^property[=].valueString = "新增"
-* #A031391 ^property[+].code = #updateDate
+* #A031391 ^property[+].code = #effectiveDate
 * #A031391 ^property[=].valueString = "2024-05"
 * #A031392 "莊松榮柴葛解肌湯濃縮細粒"
 * #A031392 ^property[0].code = #status
 * #A031392 ^property[=].valueString = "新增"
-* #A031392 ^property[+].code = #updateDate
+* #A031392 ^property[+].code = #effectiveDate
 * #A031392 ^property[=].valueString = "2024-05"
 * #A031393 "莊松榮神秘湯濃縮細粒"
 * #A031393 ^property[0].code = #status
 * #A031393 ^property[=].valueString = "新增"
-* #A031393 ^property[+].code = #updateDate
+* #A031393 ^property[+].code = #effectiveDate
 * #A031393 ^property[=].valueString = "2024-05"
 * #A031394 "莊松榮芍藥甘草湯濃縮細粒"
 * #A031394 ^property[0].code = #status
 * #A031394 ^property[=].valueString = "新增"
-* #A031394 ^property[+].code = #updateDate
+* #A031394 ^property[+].code = #effectiveDate
 * #A031394 ^property[=].valueString = "2024-05"
 * #A031395 "莊松榮防己黃耆湯濃縮細粒"
 * #A031395 ^property[0].code = #status
 * #A031395 ^property[=].valueString = "新增"
-* #A031395 ^property[+].code = #updateDate
+* #A031395 ^property[+].code = #effectiveDate
 * #A031395 ^property[=].valueString = "2024-05"
 * #A031396 "莊松榮安中散濃縮細粒"
 * #A031396 ^property[0].code = #status
 * #A031396 ^property[=].valueString = "新增"
-* #A031396 ^property[+].code = #updateDate
+* #A031396 ^property[+].code = #effectiveDate
 * #A031396 ^property[=].valueString = "2024-05"
 * #A031397 "莊松榮玉屏風散濃縮細粒"
 * #A031397 ^property[0].code = #status
 * #A031397 ^property[=].valueString = "新增"
-* #A031397 ^property[+].code = #updateDate
+* #A031397 ^property[+].code = #effectiveDate
 * #A031397 ^property[=].valueString = "2024-05"
 * #A031398 "莊松榮酸棗仁湯濃縮細粒"
 * #A031398 ^property[0].code = #status
 * #A031398 ^property[=].valueString = "新增"
-* #A031398 ^property[+].code = #updateDate
+* #A031398 ^property[+].code = #effectiveDate
 * #A031398 ^property[=].valueString = "2024-05"
 * #A031399 "莊松榮三黃瀉心湯濃縮細粒"
 * #A031399 ^property[0].code = #status
 * #A031399 ^property[=].valueString = "新增"
-* #A031399 ^property[+].code = #updateDate
+* #A031399 ^property[+].code = #effectiveDate
 * #A031399 ^property[=].valueString = "2024-05"
 * #A031400 "莊松榮藿香正氣散濃縮細粒"
 * #A031400 ^property[0].code = #status
 * #A031400 ^property[=].valueString = "新增"
-* #A031400 ^property[+].code = #updateDate
+* #A031400 ^property[+].code = #effectiveDate
 * #A031400 ^property[=].valueString = "2024-05"
 * #A050111 "三才堂小柴胡湯濃縮細粒"
 * #A050111 ^property[0].code = #status
 * #A050111 ^property[=].valueString = "新增"
-* #A050111 ^property[+].code = #updateDate
+* #A050111 ^property[+].code = #effectiveDate
 * #A050111 ^property[=].valueString = "2024-05"
 * #A031401 "天一杞菊地黃丸濃縮顆粒"
 * #A031401 ^property[0].code = #status
 * #A031401 ^property[=].valueString = "新增"
-* #A031401 ^property[+].code = #updateDate
+* #A031401 ^property[+].code = #effectiveDate
 * #A031401 ^property[=].valueString = "2024-05"
 * #A031402 "科達苓甘薑味辛夏仁湯濃縮散"
 * #A031402 ^property[0].code = #status
 * #A031402 ^property[=].valueString = "新增"
-* #A031402 ^property[+].code = #updateDate
+* #A031402 ^property[+].code = #effectiveDate
 * #A031402 ^property[=].valueString = "2024-05"
 * #A031407 "天明參蘇飲濃縮細粒"
 * #A031407 ^property[0].code = #status
 * #A031407 ^property[=].valueString = "新增"
-* #A031407 ^property[+].code = #updateDate
+* #A031407 ^property[+].code = #effectiveDate
 * #A031407 ^property[=].valueString = "2024-05"
 * #A031408 "天明導赤散濃縮散"
 * #A031408 ^property[0].code = #status
 * #A031408 ^property[=].valueString = "新增"
-* #A031408 ^property[+].code = #updateDate
+* #A031408 ^property[+].code = #effectiveDate
 * #A031408 ^property[=].valueString = "2024-05"
 * #A031409 "天明麻杏薏甘湯濃縮散"
 * #A031409 ^property[0].code = #status
 * #A031409 ^property[=].valueString = "新增"
-* #A031409 ^property[+].code = #updateDate
+* #A031409 ^property[+].code = #effectiveDate
 * #A031409 ^property[=].valueString = "2024-05"
 * #A031411 "天明人參敗毒散濃縮散"
 * #A031411 ^property[0].code = #status
 * #A031411 ^property[=].valueString = "新增"
-* #A031411 ^property[+].code = #updateDate
+* #A031411 ^property[+].code = #effectiveDate
 * #A031411 ^property[=].valueString = "2024-05"
 * #A031412 "天明五淋散濃縮散"
 * #A031412 ^property[0].code = #status
 * #A031412 ^property[=].valueString = "新增"
-* #A031412 ^property[+].code = #updateDate
+* #A031412 ^property[+].code = #effectiveDate
 * #A031412 ^property[=].valueString = "2024-05"
 * #A031416 "天明清心利膈湯濃縮散"
 * #A031416 ^property[0].code = #status
 * #A031416 ^property[=].valueString = "新增"
-* #A031416 ^property[+].code = #updateDate
+* #A031416 ^property[+].code = #effectiveDate
 * #A031416 ^property[=].valueString = "2024-05"
 * #A046347 "天明柴胡清肝湯濃縮顆粒"
 * #A046347 ^property[0].code = #status
 * #A046347 ^property[=].valueString = "新增"
-* #A046347 ^property[+].code = #updateDate
+* #A046347 ^property[+].code = #effectiveDate
 * #A046347 ^property[=].valueString = "2024-05"
 * #A046472 "天明桂枝湯濃縮細粒"
 * #A046472 ^property[0].code = #status
 * #A046472 ^property[=].valueString = "新增"
-* #A046472 ^property[+].code = #updateDate
+* #A046472 ^property[+].code = #effectiveDate
 * #A046472 ^property[=].valueString = "2024-05"
 * #A046520 "天明銀翹散濃縮顆粒"
 * #A046520 ^property[0].code = #status
 * #A046520 ^property[=].valueString = "新增"
-* #A046520 ^property[+].code = #updateDate
+* #A046520 ^property[+].code = #effectiveDate
 * #A046520 ^property[=].valueString = "2024-05"
 * #A046577 "天明十神湯濃縮細粒"
 * #A046577 ^property[0].code = #status
 * #A046577 ^property[=].valueString = "新增"
-* #A046577 ^property[+].code = #updateDate
+* #A046577 ^property[+].code = #effectiveDate
 * #A046577 ^property[=].valueString = "2024-05"
 * #A048018 "天明葛根黃芩黃連湯濃縮細粒"
 * #A048018 ^property[0].code = #status
 * #A048018 ^property[=].valueString = "新增"
-* #A048018 ^property[+].code = #updateDate
+* #A048018 ^property[+].code = #effectiveDate
 * #A048018 ^property[=].valueString = "2024-05"
 * #A031417 "復旦加味逍遙散濃縮顆粒"
 * #A031417 ^property[0].code = #status
 * #A031417 ^property[=].valueString = "新增"
-* #A031417 ^property[+].code = #updateDate
+* #A031417 ^property[+].code = #effectiveDate
 * #A031417 ^property[=].valueString = "2024-05"
 * #A031418 "復旦補中益氣湯濃縮顆粒"
 * #A031418 ^property[0].code = #status
 * #A031418 ^property[=].valueString = "新增"
-* #A031418 ^property[+].code = #updateDate
+* #A031418 ^property[+].code = #effectiveDate
 * #A031418 ^property[=].valueString = "2024-05"
 * #A031420 "科達三黃湯濃縮錠"
 * #A031420 ^property[0].code = #status
 * #A031420 ^property[=].valueString = "新增"
-* #A031420 ^property[+].code = #updateDate
+* #A031420 ^property[+].code = #effectiveDate
 * #A031420 ^property[=].valueString = "2024-05"
 * #A031421 "生春芍藥甘草湯濃縮細粒"
 * #A031421 ^property[0].code = #status
 * #A031421 ^property[=].valueString = "新增"
-* #A031421 ^property[+].code = #updateDate
+* #A031421 ^property[+].code = #effectiveDate
 * #A031421 ^property[=].valueString = "2024-05"
 * #A031422 "復旦六味地黃丸濃縮顆粒"
 * #A031422 ^property[0].code = #status
 * #A031422 ^property[=].valueString = "新增"
-* #A031422 ^property[+].code = #updateDate
+* #A031422 ^property[+].code = #effectiveDate
 * #A031422 ^property[=].valueString = "2024-05"
 * #A031423 "復旦八味地黃丸濃縮顆粒"
 * #A031423 ^property[0].code = #status
 * #A031423 ^property[=].valueString = "新增"
-* #A031423 ^property[+].code = #updateDate
+* #A031423 ^property[+].code = #effectiveDate
 * #A031423 ^property[=].valueString = "2024-05"
 * #A031432 "天明升麻葛根湯濃縮細粒"
 * #A031432 ^property[0].code = #status
 * #A031432 ^property[=].valueString = "新增"
-* #A031432 ^property[+].code = #updateDate
+* #A031432 ^property[+].code = #effectiveDate
 * #A031432 ^property[=].valueString = "2024-05"
 * #A046410 "天明半夏厚朴湯濃縮顆粒"
 * #A046410 ^property[0].code = #status
 * #A046410 ^property[=].valueString = "新增"
-* #A046410 ^property[+].code = #updateDate
+* #A046410 ^property[+].code = #effectiveDate
 * #A046410 ^property[=].valueString = "2024-05"
 * #A046521 "天明平胃散濃縮顆粒"
 * #A046521 ^property[0].code = #status
 * #A046521 ^property[=].valueString = "新增"
-* #A046521 ^property[+].code = #updateDate
+* #A046521 ^property[+].code = #effectiveDate
 * #A046521 ^property[=].valueString = "2024-05"
 * #A057108 "領先麻仁丸濃縮散"
 * #A057108 ^property[0].code = #status
 * #A057108 ^property[=].valueString = "新增"
-* #A057108 ^property[+].code = #updateDate
+* #A057108 ^property[+].code = #effectiveDate
 * #A057108 ^property[=].valueString = "2024-05"
 * #A057110 "領先玉女煎濃縮散"
 * #A057110 ^property[0].code = #status
 * #A057110 ^property[=].valueString = "新增"
-* #A057110 ^property[+].code = #updateDate
+* #A057110 ^property[+].code = #effectiveDate
 * #A057110 ^property[=].valueString = "2024-05"
 * #A057128 "領先知柏八味丸濃縮散"
 * #A057128 ^property[0].code = #status
 * #A057128 ^property[=].valueString = "新增"
-* #A057128 ^property[+].code = #updateDate
+* #A057128 ^property[+].code = #effectiveDate
 * #A057128 ^property[=].valueString = "2024-05"
 * #A057130 "領先獨活寄生湯濃縮散"
 * #A057130 ^property[0].code = #status
 * #A057130 ^property[=].valueString = "新增"
-* #A057130 ^property[+].code = #updateDate
+* #A057130 ^property[+].code = #effectiveDate
 * #A057130 ^property[=].valueString = "2024-05"
 * #A057181 "領先胃苓湯濃縮散"
 * #A057181 ^property[0].code = #status
 * #A057181 ^property[=].valueString = "新增"
-* #A057181 ^property[+].code = #updateDate
+* #A057181 ^property[+].code = #effectiveDate
 * #A057181 ^property[=].valueString = "2024-05"
 * #A057507 "三才堂半夏厚朴湯濃縮細粒"
 * #A057507 ^property[0].code = #status
 * #A057507 ^property[=].valueString = "新增"
-* #A057507 ^property[+].code = #updateDate
+* #A057507 ^property[+].code = #effectiveDate
 * #A057507 ^property[=].valueString = "2024-05"
 * #A029585 "科達炙甘草湯濃縮散"
 * #A029585 ^property[0].code = #status
 * #A029585 ^property[=].valueString = "新增"
-* #A029585 ^property[+].code = #updateDate
+* #A029585 ^property[+].code = #effectiveDate
 * #A029585 ^property[=].valueString = "2024-05"
 * #A046249 "莊松榮桑菊飲濃縮錠"
 * #A046249 ^property[0].code = #status
 * #A046249 ^property[=].valueString = "新增"
-* #A046249 ^property[+].code = #updateDate
+* #A046249 ^property[+].code = #effectiveDate
 * #A046249 ^property[=].valueString = "2024-05"
 * #A046250 "莊松榮炙甘草湯濃縮錠"
 * #A046250 ^property[0].code = #status
 * #A046250 ^property[=].valueString = "新增"
-* #A046250 ^property[+].code = #updateDate
+* #A046250 ^property[+].code = #effectiveDate
 * #A046250 ^property[=].valueString = "2024-05"
 * #A031435 "科達清肺湯濃縮細粒"
 * #A031435 ^property[0].code = #status
 * #A031435 ^property[=].valueString = "新增"
-* #A031435 ^property[+].code = #updateDate
+* #A031435 ^property[+].code = #effectiveDate
 * #A031435 ^property[=].valueString = "2024-05"
 * #A031436 "科達麻杏薏甘湯濃縮細粒"
 * #A031436 ^property[0].code = #status
 * #A031436 ^property[=].valueString = "新增"
-* #A031436 ^property[+].code = #updateDate
+* #A031436 ^property[+].code = #effectiveDate
 * #A031436 ^property[=].valueString = "2024-05"
 * #A031437 "天一當歸拈痛湯濃縮顆粒"
 * #A031437 ^property[0].code = #status
 * #A031437 ^property[=].valueString = "新增"
-* #A031437 ^property[+].code = #updateDate
+* #A031437 ^property[+].code = #effectiveDate
 * #A031437 ^property[=].valueString = "2024-05"
 * #A031438 "天一薏苡仁湯濃縮散"
 * #A031438 ^property[0].code = #status
 * #A031438 ^property[=].valueString = "新增"
-* #A031438 ^property[+].code = #updateDate
+* #A031438 ^property[+].code = #effectiveDate
 * #A031438 ^property[=].valueString = "2024-05"
 * #A031439 "科達四逆湯濃縮細粒"
 * #A031439 ^property[0].code = #status
 * #A031439 ^property[=].valueString = "新增"
-* #A031439 ^property[+].code = #updateDate
+* #A031439 ^property[+].code = #effectiveDate
 * #A031439 ^property[=].valueString = "2024-05"
 * #A037554 "復旦女科柏子仁丸濃縮細粒"
 * #A037554 ^property[0].code = #status
 * #A037554 ^property[=].valueString = "新增"
-* #A037554 ^property[+].code = #updateDate
+* #A037554 ^property[+].code = #effectiveDate
 * #A037554 ^property[=].valueString = "2024-05"
 * #A046471 "天明四逆散濃縮細粒"
 * #A046471 ^property[0].code = #status
 * #A046471 ^property[=].valueString = "新增"
-* #A046471 ^property[+].code = #updateDate
+* #A046471 ^property[+].code = #effectiveDate
 * #A046471 ^property[=].valueString = "2024-05"
 * #A050113 "順然槐花散濃縮細粒"
 * #A050113 ^property[0].code = #status
 * #A050113 ^property[=].valueString = "新增"
-* #A050113 ^property[+].code = #updateDate
+* #A050113 ^property[+].code = #effectiveDate
 * #A050113 ^property[=].valueString = "2024-05"
 * #A031452 "科達旋覆代赭石湯濃縮細粒"
 * #A031452 ^property[0].code = #status
 * #A031452 ^property[=].valueString = "新增"
-* #A031452 ^property[+].code = #updateDate
+* #A031452 ^property[+].code = #effectiveDate
 * #A031452 ^property[=].valueString = "2024-05"
 * #A031453 "科達甘麥大棗湯濃縮細粒"
 * #A031453 ^property[0].code = #status
 * #A031453 ^property[=].valueString = "新增"
-* #A031453 ^property[+].code = #updateDate
+* #A031453 ^property[+].code = #effectiveDate
 * #A031453 ^property[=].valueString = "2024-05"
 * #A031454 "科達薏苡仁湯濃縮細粒"
 * #A031454 ^property[0].code = #status
 * #A031454 ^property[=].valueString = "新增"
-* #A031454 ^property[+].code = #updateDate
+* #A031454 ^property[+].code = #effectiveDate
 * #A031454 ^property[=].valueString = "2024-05"
 * #A031455 "科達濟生腎氣丸濃縮細粒"
 * #A031455 ^property[0].code = #status
 * #A031455 ^property[=].valueString = "新增"
-* #A031455 ^property[+].code = #updateDate
+* #A031455 ^property[+].code = #effectiveDate
 * #A031455 ^property[=].valueString = "2024-05"
 * #A031456 "科達蘇子降氣湯濃縮細粒"
 * #A031456 ^property[0].code = #status
 * #A031456 ^property[=].valueString = "新增"
-* #A031456 ^property[+].code = #updateDate
+* #A031456 ^property[+].code = #effectiveDate
 * #A031456 ^property[=].valueString = "2024-05"
 * #A031457 "科達滋腎明目湯濃縮細粒"
 * #A031457 ^property[0].code = #status
 * #A031457 ^property[=].valueString = "新增"
-* #A031457 ^property[+].code = #updateDate
+* #A031457 ^property[+].code = #effectiveDate
 * #A031457 ^property[=].valueString = "2024-05"
 * #A031458 "科達當歸拈痛湯濃縮細粒"
 * #A031458 ^property[0].code = #status
 * #A031458 ^property[=].valueString = "新增"
-* #A031458 ^property[+].code = #updateDate
+* #A031458 ^property[+].code = #effectiveDate
 * #A031458 ^property[=].valueString = "2024-05"
 * #A031459 "科達理中湯濃縮細粒"
 * #A031459 ^property[0].code = #status
 * #A031459 ^property[=].valueString = "新增"
-* #A031459 ^property[+].code = #updateDate
+* #A031459 ^property[+].code = #effectiveDate
 * #A031459 ^property[=].valueString = "2024-05"
 * #A031460 "科達升麻葛根湯濃縮細粒"
 * #A031460 ^property[0].code = #status
 * #A031460 ^property[=].valueString = "新增"
-* #A031460 ^property[+].code = #updateDate
+* #A031460 ^property[+].code = #effectiveDate
 * #A031460 ^property[=].valueString = "2024-05"
 * #A031461 "科達六君子湯濃縮細粒"
 * #A031461 ^property[0].code = #status
 * #A031461 ^property[=].valueString = "新增"
-* #A031461 ^property[+].code = #updateDate
+* #A031461 ^property[+].code = #effectiveDate
 * #A031461 ^property[=].valueString = "2024-05"
 * #A031462 "科達大青龍湯濃縮細粒"
 * #A031462 ^property[0].code = #status
 * #A031462 ^property[=].valueString = "新增"
-* #A031462 ^property[+].code = #updateDate
+* #A031462 ^property[+].code = #effectiveDate
 * #A031462 ^property[=].valueString = "2024-05"
 * #A031463 "科達小續命湯濃縮細粒"
 * #A031463 ^property[0].code = #status
 * #A031463 ^property[=].valueString = "新增"
-* #A031463 ^property[+].code = #updateDate
+* #A031463 ^property[+].code = #effectiveDate
 * #A031463 ^property[=].valueString = "2024-05"
 * #A031464 "科達小承氣湯濃縮細粒"
 * #A031464 ^property[0].code = #status
 * #A031464 ^property[=].valueString = "新增"
-* #A031464 ^property[+].code = #updateDate
+* #A031464 ^property[+].code = #effectiveDate
 * #A031464 ^property[=].valueString = "2024-05"
 * #A031465 "科達乙字湯濃縮細粒"
 * #A031465 ^property[0].code = #status
 * #A031465 ^property[=].valueString = "新增"
-* #A031465 ^property[+].code = #updateDate
+* #A031465 ^property[+].code = #effectiveDate
 * #A031465 ^property[=].valueString = "2024-05"
 * #A031466 "科達荊芥連翹湯濃縮細粒"
 * #A031466 ^property[0].code = #status
 * #A031466 ^property[=].valueString = "新增"
-* #A031466 ^property[+].code = #updateDate
+* #A031466 ^property[+].code = #effectiveDate
 * #A031466 ^property[=].valueString = "2024-05"
 * #A031467 "科達麻子仁丸濃縮細粒"
 * #A031467 ^property[0].code = #status
 * #A031467 ^property[=].valueString = "新增"
-* #A031467 ^property[+].code = #updateDate
+* #A031467 ^property[+].code = #effectiveDate
 * #A031467 ^property[=].valueString = "2024-05"
 * #A031468 "科達葛根芩連湯濃縮細粒（葛根黃芩黃連湯）"
 * #A031468 ^property[0].code = #status
 * #A031468 ^property[=].valueString = "新增"
-* #A031468 ^property[+].code = #updateDate
+* #A031468 ^property[+].code = #effectiveDate
 * #A031468 ^property[=].valueString = "2024-05"
 * #A031469 "科達真武湯濃縮細粒"
 * #A031469 ^property[0].code = #status
 * #A031469 ^property[=].valueString = "新增"
-* #A031469 ^property[+].code = #updateDate
+* #A031469 ^property[+].code = #effectiveDate
 * #A031469 ^property[=].valueString = "2024-05"
 * #A031470 "科達益氣聰明湯濃縮細粒"
 * #A031470 ^property[0].code = #status
 * #A031470 ^property[=].valueString = "新增"
-* #A031470 ^property[+].code = #updateDate
+* #A031470 ^property[+].code = #effectiveDate
 * #A031470 ^property[=].valueString = "2024-05"
 * #A031471 "科達完帶湯濃縮細粒"
 * #A031471 ^property[0].code = #status
 * #A031471 ^property[=].valueString = "新增"
-* #A031471 ^property[+].code = #updateDate
+* #A031471 ^property[+].code = #effectiveDate
 * #A031471 ^property[=].valueString = "2024-05"
 * #A031472 "科達白頭翁湯濃縮細粒"
 * #A031472 ^property[0].code = #status
 * #A031472 ^property[=].valueString = "新增"
-* #A031472 ^property[+].code = #updateDate
+* #A031472 ^property[+].code = #effectiveDate
 * #A031472 ^property[=].valueString = "2024-05"
 * #A031473 "科達白虎湯濃縮細粒"
 * #A031473 ^property[0].code = #status
 * #A031473 ^property[=].valueString = "新增"
-* #A031473 ^property[+].code = #updateDate
+* #A031473 ^property[+].code = #effectiveDate
 * #A031473 ^property[=].valueString = "2024-05"
 * #A046263 "天明五味消毒飲濃縮細粒"
 * #A046263 ^property[0].code = #status
 * #A046263 ^property[=].valueString = "新增"
-* #A046263 ^property[+].code = #updateDate
+* #A046263 ^property[+].code = #effectiveDate
 * #A046263 ^property[=].valueString = "2024-05"
 * #A046266 "順然清氣化痰丸濃縮細粒"
 * #A046266 ^property[0].code = #status
 * #A046266 ^property[=].valueString = "新增"
-* #A046266 ^property[+].code = #updateDate
+* #A046266 ^property[+].code = #effectiveDate
 * #A046266 ^property[=].valueString = "2024-05"
 * #A046267 "順然柴胡疏肝湯濃縮細粒"
 * #A046267 ^property[0].code = #status
 * #A046267 ^property[=].valueString = "新增"
-* #A046267 ^property[+].code = #updateDate
+* #A046267 ^property[+].code = #effectiveDate
 * #A046267 ^property[=].valueString = "2024-05"
 * #A046268 "晉安獨活寄生湯濃縮錠"
 * #A046268 ^property[0].code = #status
 * #A046268 ^property[=].valueString = "新增"
-* #A046268 ^property[+].code = #updateDate
+* #A046268 ^property[+].code = #effectiveDate
 * #A046268 ^property[=].valueString = "2024-05"
 * #A046269 "晉安半夏厚朴湯濃縮錠"
 * #A046269 ^property[0].code = #status
 * #A046269 ^property[=].valueString = "新增"
-* #A046269 ^property[+].code = #updateDate
+* #A046269 ^property[+].code = #effectiveDate
 * #A046269 ^property[=].valueString = "2024-05"
 * #A046270 "晉安芎歸膠艾湯濃縮錠"
 * #A046270 ^property[0].code = #status
 * #A046270 ^property[=].valueString = "新增"
-* #A046270 ^property[+].code = #updateDate
+* #A046270 ^property[+].code = #effectiveDate
 * #A046270 ^property[=].valueString = "2024-05"
 * #A046272 "順天堂玉泉丸濃縮顆粒"
 * #A046272 ^property[0].code = #status
 * #A046272 ^property[=].valueString = "新增"
-* #A046272 ^property[+].code = #updateDate
+* #A046272 ^property[+].code = #effectiveDate
 * #A046272 ^property[=].valueString = "2024-05"
 * #A060015 "明通鼻良湯濃縮細粒"
 * #A060015 ^property[0].code = #status
 * #A060015 ^property[=].valueString = "新增"
-* #A060015 ^property[+].code = #updateDate
+* #A060015 ^property[+].code = #effectiveDate
 * #A060015 ^property[=].valueString = "2024-05"
 * #A031478 "科達豬苓湯濃縮細粒"
 * #A031478 ^property[0].code = #status
 * #A031478 ^property[=].valueString = "新增"
-* #A031478 ^property[+].code = #updateDate
+* #A031478 ^property[+].code = #effectiveDate
 * #A031478 ^property[=].valueString = "2024-05"
 * #A031479 "復旦四物湯濃縮顆粒"
 * #A031479 ^property[0].code = #status
 * #A031479 ^property[=].valueString = "新增"
-* #A031479 ^property[+].code = #updateDate
+* #A031479 ^property[+].code = #effectiveDate
 * #A031479 ^property[=].valueString = "2024-05"
 * #A057512 "科達三黃瀉心湯濃縮細粒"
 * #A057512 ^property[0].code = #status
 * #A057512 ^property[=].valueString = "新增"
-* #A057512 ^property[+].code = #updateDate
+* #A057512 ^property[+].code = #effectiveDate
 * #A057512 ^property[=].valueString = "2024-05"
 * #A029632 "正揚桂枝湯濃縮散"
 * #A029632 ^property[0].code = #status
 * #A029632 ^property[=].valueString = "新增"
-* #A029632 ^property[+].code = #updateDate
+* #A029632 ^property[+].code = #effectiveDate
 * #A029632 ^property[=].valueString = "2024-05"
 * #A046216 "正揚大柴胡湯濃縮細粒"
 * #A046216 ^property[0].code = #status
 * #A046216 ^property[=].valueString = "新增"
-* #A046216 ^property[+].code = #updateDate
+* #A046216 ^property[+].code = #effectiveDate
 * #A046216 ^property[=].valueString = "2024-05"
 * #A031485 "復旦杞菊地黃丸濃縮顆粒"
 * #A031485 ^property[0].code = #status
 * #A031485 ^property[=].valueString = "新增"
-* #A031485 ^property[+].code = #updateDate
+* #A031485 ^property[+].code = #effectiveDate
 * #A031485 ^property[=].valueString = "2024-05"
 * #A031486 "科達越婢加朮湯濃縮細粒"
 * #A031486 ^property[0].code = #status
 * #A031486 ^property[=].valueString = "新增"
-* #A031486 ^property[+].code = #updateDate
+* #A031486 ^property[+].code = #effectiveDate
 * #A031486 ^property[=].valueString = "2024-05"
 * #A031487 "科達洗肝明目散濃縮細粒"
 * #A031487 ^property[0].code = #status
 * #A031487 ^property[=].valueString = "新增"
-* #A031487 ^property[+].code = #updateDate
+* #A031487 ^property[+].code = #effectiveDate
 * #A031487 ^property[=].valueString = "2024-05"
 * #A037612 "信宏當歸四逆湯濃縮細粒"
 * #A037612 ^property[0].code = #status
 * #A037612 ^property[=].valueString = "新增"
-* #A037612 ^property[+].code = #updateDate
+* #A037612 ^property[+].code = #effectiveDate
 * #A037612 ^property[=].valueString = "2024-05"
 * #A037613 "港香蘭左歸丸濃縮細粒"
 * #A037613 ^property[0].code = #status
 * #A037613 ^property[=].valueString = "新增"
-* #A037613 ^property[+].code = #updateDate
+* #A037613 ^property[+].code = #effectiveDate
 * #A037613 ^property[=].valueString = "2024-05"
 * #A037614 "信宏保產無憂方濃縮細粒"
 * #A037614 ^property[0].code = #status
 * #A037614 ^property[=].valueString = "新增"
-* #A037614 ^property[+].code = #updateDate
+* #A037614 ^property[+].code = #effectiveDate
 * #A037614 ^property[=].valueString = "2024-05"
 * #A037617 "東陽四物湯濃縮顆粒"
 * #A037617 ^property[0].code = #status
 * #A037617 ^property[=].valueString = "新增"
-* #A037617 ^property[+].code = #updateDate
+* #A037617 ^property[+].code = #effectiveDate
 * #A037617 ^property[=].valueString = "2024-05"
 * #A037618 "東陽生化湯濃縮顆粒"
 * #A037618 ^property[0].code = #status
 * #A037618 ^property[=].valueString = "新增"
-* #A037618 ^property[+].code = #updateDate
+* #A037618 ^property[+].code = #effectiveDate
 * #A037618 ^property[=].valueString = "2024-05"
 * #A037619 "東陽疏經活血湯濃縮錠"
 * #A037619 ^property[0].code = #status
 * #A037619 ^property[=].valueString = "新增"
-* #A037619 ^property[+].code = #updateDate
+* #A037619 ^property[+].code = #effectiveDate
 * #A037619 ^property[=].valueString = "2024-05"
 * #A029831 "順天堂清鼻湯濃縮顆粒"
 * #A029831 ^property[0].code = #status
 * #A029831 ^property[=].valueString = "新增"
-* #A029831 ^property[+].code = #updateDate
+* #A029831 ^property[+].code = #effectiveDate
 * #A029831 ^property[=].valueString = "2024-05"
 * #A006671 "復旦加味十味敗毒湯濃縮散"
 * #A006671 ^property[0].code = #status
 * #A006671 ^property[=].valueString = "新增"
-* #A006671 ^property[+].code = #updateDate
+* #A006671 ^property[+].code = #effectiveDate
 * #A006671 ^property[=].valueString = "2024-05"
 * #A006729 "明通啟脾丸濃縮散"
 * #A006729 ^property[0].code = #status
 * #A006729 ^property[=].valueString = "新增"
-* #A006729 ^property[+].code = #updateDate
+* #A006729 ^property[+].code = #effectiveDate
 * #A006729 ^property[=].valueString = "2024-05"
 * #A007005 "明通五味異功散濃縮散"
 * #A007005 ^property[0].code = #status
 * #A007005 ^property[=].valueString = "新增"
-* #A007005 ^property[+].code = #updateDate
+* #A007005 ^property[+].code = #effectiveDate
 * #A007005 ^property[=].valueString = "2024-05"
 * #A007107 "復旦加味清上防風湯濃縮散"
 * #A007107 ^property[0].code = #status
 * #A007107 ^property[=].valueString = "新增"
-* #A007107 ^property[+].code = #updateDate
+* #A007107 ^property[+].code = #effectiveDate
 * #A007107 ^property[=].valueString = "2024-05"
 * #A007296 "勝昌驅風解毒湯濃縮散"
 * #A007296 ^property[0].code = #status
 * #A007296 ^property[=].valueString = "新增"
-* #A007296 ^property[+].code = #updateDate
+* #A007296 ^property[+].code = #effectiveDate
 * #A007296 ^property[=].valueString = "2024-05"
 * #A007335 "明通三物香薷飲濃縮散"
 * #A007335 ^property[0].code = #status
 * #A007335 ^property[=].valueString = "新增"
-* #A007335 ^property[+].code = #updateDate
+* #A007335 ^property[+].code = #effectiveDate
 * #A007335 ^property[=].valueString = "2024-05"
 * #A007865 "復旦香砂平胃散濃縮散"
 * #A007865 ^property[0].code = #status
 * #A007865 ^property[=].valueString = "新增"
-* #A007865 ^property[+].code = #updateDate
+* #A007865 ^property[+].code = #effectiveDate
 * #A007865 ^property[=].valueString = "2024-05"
 * #A007870 "復旦宣毒發表湯濃縮散"
 * #A007870 ^property[0].code = #status
 * #A007870 ^property[=].valueString = "新增"
-* #A007870 ^property[+].code = #updateDate
+* #A007870 ^property[+].code = #effectiveDate
 * #A007870 ^property[=].valueString = "2024-05"
 * #A007918 "明通養胃湯濃縮散"
 * #A007918 ^property[0].code = #status
 * #A007918 ^property[=].valueString = "新增"
-* #A007918 ^property[+].code = #updateDate
+* #A007918 ^property[+].code = #effectiveDate
 * #A007918 ^property[=].valueString = "2024-05"
 * #A008650 "明通胡麻散濃縮散"
 * #A008650 ^property[0].code = #status
 * #A008650 ^property[=].valueString = "新增"
-* #A008650 ^property[+].code = #updateDate
+* #A008650 ^property[+].code = #effectiveDate
 * #A008650 ^property[=].valueString = "2024-05"
 * #A008658 "復旦升陽散火湯濃縮散"
 * #A008658 ^property[0].code = #status
 * #A008658 ^property[=].valueString = "新增"
-* #A008658 ^property[+].code = #updateDate
+* #A008658 ^property[+].code = #effectiveDate
 * #A008658 ^property[=].valueString = "2024-05"
 * #A008659 "復旦防風散結湯濃縮散"
 * #A008659 ^property[0].code = #status
 * #A008659 ^property[=].valueString = "新增"
-* #A008659 ^property[+].code = #updateDate
+* #A008659 ^property[+].code = #effectiveDate
 * #A008659 ^property[=].valueString = "2024-05"
 * #A009422 "明通加味養陰清肺湯濃縮散"
 * #A009422 ^property[0].code = #status
 * #A009422 ^property[=].valueString = "新增"
-* #A009422 ^property[+].code = #updateDate
+* #A009422 ^property[+].code = #effectiveDate
 * #A009422 ^property[=].valueString = "2024-05"
 * #A009830 "復旦清濕化痰湯濃縮散"
 * #A009830 ^property[0].code = #status
 * #A009830 ^property[=].valueString = "新增"
-* #A009830 ^property[+].code = #updateDate
+* #A009830 ^property[+].code = #effectiveDate
 * #A009830 ^property[=].valueString = "2024-05"
 * #A010092 "明通導滯湯濃縮顆粒"
 * #A010092 ^property[0].code = #status
 * #A010092 ^property[=].valueString = "新增"
-* #A010092 ^property[+].code = #updateDate
+* #A010092 ^property[+].code = #effectiveDate
 * #A010092 ^property[=].valueString = "2024-05"
 * #A010096 "明通三物香薷飲濃縮顆粒"
 * #A010096 ^property[0].code = #status
 * #A010096 ^property[=].valueString = "新增"
-* #A010096 ^property[+].code = #updateDate
+* #A010096 ^property[+].code = #effectiveDate
 * #A010096 ^property[=].valueString = "2024-05"
 * #A012625 "東陽茯苓飲濃縮散"
 * #A012625 ^property[0].code = #status
 * #A012625 ^property[=].valueString = "新增"
-* #A012625 ^property[+].code = #updateDate
+* #A012625 ^property[+].code = #effectiveDate
 * #A012625 ^property[=].valueString = "2024-05"
 * #A012930 "東陽啟脾丸濃縮散"
 * #A012930 ^property[0].code = #status
 * #A012930 ^property[=].valueString = "新增"
-* #A012930 ^property[+].code = #updateDate
+* #A012930 ^property[+].code = #effectiveDate
 * #A012930 ^property[=].valueString = "2024-05"
 * #A012937 "東陽梔子清肝湯濃縮散"
 * #A012937 ^property[0].code = #status
 * #A012937 ^property[=].valueString = "新增"
-* #A012937 ^property[+].code = #updateDate
+* #A012937 ^property[+].code = #effectiveDate
 * #A012937 ^property[=].valueString = "2024-05"
 * #A013837 "東陽桂枝加附子湯濃縮散"
 * #A013837 ^property[0].code = #status
 * #A013837 ^property[=].valueString = "新增"
-* #A013837 ^property[+].code = #updateDate
+* #A013837 ^property[+].code = #effectiveDate
 * #A013837 ^property[=].valueString = "2024-05"
 * #A016923 "東陽人參瀉肺湯濃縮散"
 * #A016923 ^property[0].code = #status
 * #A016923 ^property[=].valueString = "新增"
-* #A016923 ^property[+].code = #updateDate
+* #A016923 ^property[+].code = #effectiveDate
 * #A016923 ^property[=].valueString = "2024-05"
 * #A021786 "東陽搜風順氣丸濃縮散"
 * #A021786 ^property[0].code = #status
 * #A021786 ^property[=].valueString = "新增"
-* #A021786 ^property[+].code = #updateDate
+* #A021786 ^property[+].code = #effectiveDate
 * #A021786 ^property[=].valueString = "2024-05"
 * #A026697 "東陽利膈湯濃縮散"
 * #A026697 ^property[0].code = #status
 * #A026697 ^property[=].valueString = "新增"
-* #A026697 ^property[+].code = #updateDate
+* #A026697 ^property[+].code = #effectiveDate
 * #A026697 ^property[=].valueString = "2024-05"
 * #A026952 "復旦治疝痛濃縮顆粒"
 * #A026952 ^property[0].code = #status
 * #A026952 ^property[=].valueString = "新增"
-* #A026952 ^property[+].code = #updateDate
+* #A026952 ^property[+].code = #effectiveDate
 * #A026952 ^property[=].valueString = "2024-05"
 * #A026964 "復旦栝樓薤白半夏湯濃縮顆粒"
 * #A026964 ^property[0].code = #status
 * #A026964 ^property[=].valueString = "新增"
-* #A026964 ^property[+].code = #updateDate
+* #A026964 ^property[+].code = #effectiveDate
 * #A026964 ^property[=].valueString = "2024-05"
 * #A028382 "勝昌啟脾丸濃縮散"
 * #A028382 ^property[0].code = #status
 * #A028382 ^property[=].valueString = "新增"
-* #A028382 ^property[+].code = #updateDate
+* #A028382 ^property[+].code = #effectiveDate
 * #A028382 ^property[=].valueString = "2024-05"
 * #A028435 "勝昌保安腎濃縮散"
 * #A028435 ^property[0].code = #status
 * #A028435 ^property[=].valueString = "新增"
-* #A028435 ^property[+].code = #updateDate
+* #A028435 ^property[+].code = #effectiveDate
 * #A028435 ^property[=].valueString = "2024-05"
 * #A028436 "勝昌保元柴胡清肝散濃縮顆粒"
 * #A028436 ^property[0].code = #status
 * #A028436 ^property[=].valueString = "新增"
-* #A028436 ^property[+].code = #updateDate
+* #A028436 ^property[+].code = #effectiveDate
 * #A028436 ^property[=].valueString = "2024-05"
 * #A028635 "勝昌強腎濃縮散"
 * #A028635 ^property[0].code = #status
 * #A028635 ^property[=].valueString = "新增"
-* #A028635 ^property[+].code = #updateDate
+* #A028635 ^property[+].code = #effectiveDate
 * #A028635 ^property[=].valueString = "2024-05"
 * #A028870 "勝昌鼻療濃縮散"
 * #A028870 ^property[0].code = #status
 * #A028870 ^property[=].valueString = "新增"
-* #A028870 ^property[+].code = #updateDate
+* #A028870 ^property[+].code = #effectiveDate
 * #A028870 ^property[=].valueString = "2024-05"
 * #A028872 "勝昌桂枝加朮附湯濃縮散"
 * #A028872 ^property[0].code = #status
 * #A028872 ^property[=].valueString = "新增"
-* #A028872 ^property[+].code = #updateDate
+* #A028872 ^property[+].code = #effectiveDate
 * #A028872 ^property[=].valueString = "2024-05"
 * #A028878 "勝昌人參肥兒丸濃縮顆粒"
 * #A028878 ^property[0].code = #status
 * #A028878 ^property[=].valueString = "新增"
-* #A028878 ^property[+].code = #updateDate
+* #A028878 ^property[+].code = #effectiveDate
 * #A028878 ^property[=].valueString = "2024-05"
 * #A028886 "勝昌益血力濃縮顆粒(八珍湯加減味)"
 * #A028886 ^property[0].code = #status
 * #A028886 ^property[=].valueString = "新增"
-* #A028886 ^property[+].code = #updateDate
+* #A028886 ^property[+].code = #effectiveDate
 * #A028886 ^property[=].valueString = "2024-05"
 * #A028894 "勝昌頓嗽湯濃縮散"
 * #A028894 ^property[0].code = #status
 * #A028894 ^property[=].valueString = "新增"
-* #A028894 ^property[+].code = #updateDate
+* #A028894 ^property[+].code = #effectiveDate
 * #A028894 ^property[=].valueString = "2024-05"
 * #A028910 "勝昌枳縮二陳湯濃縮散"
 * #A028910 ^property[0].code = #status
 * #A028910 ^property[=].valueString = "新增"
-* #A028910 ^property[+].code = #updateDate
+* #A028910 ^property[+].code = #effectiveDate
 * #A028910 ^property[=].valueString = "2024-05"
 * #A029819 "勝昌紫草根牡蠣湯濃縮顆粒"
 * #A029819 ^property[0].code = #status
 * #A029819 ^property[=].valueString = "新增"
-* #A029819 ^property[+].code = #updateDate
+* #A029819 ^property[+].code = #effectiveDate
 * #A029819 ^property[=].valueString = "2024-05"
 * #A030068 "東陽小續命湯濃縮散(減味)"
 * #A030068 ^property[0].code = #status
 * #A030068 ^property[=].valueString = "新增"
-* #A030068 ^property[+].code = #updateDate
+* #A030068 ^property[+].code = #effectiveDate
 * #A030068 ^property[=].valueString = "2024-05"
 * #A030085 "勝昌香芎湯濃縮散"
 * #A030085 ^property[0].code = #status
 * #A030085 ^property[=].valueString = "新增"
-* #A030085 ^property[+].code = #updateDate
+* #A030085 ^property[+].code = #effectiveDate
 * #A030085 ^property[=].valueString = "2024-05"
 * #A030087 "勝昌胃舒寧濃縮散"
 * #A030087 ^property[0].code = #status
 * #A030087 ^property[=].valueString = "新增"
-* #A030087 ^property[+].code = #updateDate
+* #A030087 ^property[+].code = #effectiveDate
 * #A030087 ^property[=].valueString = "2024-05"
 * #A002564 "勝昌白虎加人參湯濃縮散"
 * #A002564 ^property[0].code = #status
 * #A002564 ^property[=].valueString = "新增"
-* #A002564 ^property[+].code = #updateDate
+* #A002564 ^property[+].code = #effectiveDate
 * #A002564 ^property[=].valueString = "2024-05"
 * #A002578 "勝昌小承氣湯濃縮散"
 * #A002578 ^property[0].code = #status
 * #A002578 ^property[=].valueString = "新增"
-* #A002578 ^property[+].code = #updateDate
+* #A002578 ^property[+].code = #effectiveDate
 * #A002578 ^property[=].valueString = "2024-05"
 * #A002895 "勝昌葛根湯濃縮錠"
 * #A002895 ^property[0].code = #status
 * #A002895 ^property[=].valueString = "新增"
-* #A002895 ^property[+].code = #updateDate
+* #A002895 ^property[+].code = #effectiveDate
 * #A002895 ^property[=].valueString = "2024-05"
 * #A002897 "勝昌桂枝湯濃縮錠"
 * #A002897 ^property[0].code = #status
 * #A002897 ^property[=].valueString = "新增"
-* #A002897 ^property[+].code = #updateDate
+* #A002897 ^property[+].code = #effectiveDate
 * #A002897 ^property[=].valueString = "2024-05"
 * #A002899 "勝昌竹葉石膏湯濃縮散"
 * #A002899 ^property[0].code = #status
 * #A002899 ^property[=].valueString = "新增"
-* #A002899 ^property[+].code = #updateDate
+* #A002899 ^property[+].code = #effectiveDate
 * #A002899 ^property[=].valueString = "2024-05"
 * #A002900 "勝昌消風散濃縮散"
 * #A002900 ^property[0].code = #status
 * #A002900 ^property[=].valueString = "新增"
-* #A002900 ^property[+].code = #updateDate
+* #A002900 ^property[+].code = #effectiveDate
 * #A002900 ^property[=].valueString = "2024-05"
 * #A002902 "勝昌清咽利膈湯濃縮散"
 * #A002902 ^property[0].code = #status
 * #A002902 ^property[=].valueString = "新增"
-* #A002902 ^property[+].code = #updateDate
+* #A002902 ^property[+].code = #effectiveDate
 * #A002902 ^property[=].valueString = "2024-05"
 * #A002944 "勝昌黃連解毒湯濃縮錠"
 * #A002944 ^property[0].code = #status
 * #A002944 ^property[=].valueString = "新增"
-* #A002944 ^property[+].code = #updateDate
+* #A002944 ^property[+].code = #effectiveDate
 * #A002944 ^property[=].valueString = "2024-05"
 * #A003513 "明通天王補心丹濃縮顆粒"
 * #A003513 ^property[0].code = #status
 * #A003513 ^property[=].valueString = "新增"
-* #A003513 ^property[+].code = #updateDate
+* #A003513 ^property[+].code = #effectiveDate
 * #A003513 ^property[=].valueString = "2024-05"
 * #A003520 "明通防風通聖散濃縮顆粒"
 * #A003520 ^property[0].code = #status
 * #A003520 ^property[=].valueString = "新增"
-* #A003520 ^property[+].code = #updateDate
+* #A003520 ^property[+].code = #effectiveDate
 * #A003520 ^property[=].valueString = "2024-05"
 * #A003521 "明通八珍湯濃縮顆粒"
 * #A003521 ^property[0].code = #status
 * #A003521 ^property[=].valueString = "新增"
-* #A003521 ^property[+].code = #updateDate
+* #A003521 ^property[+].code = #effectiveDate
 * #A003521 ^property[=].valueString = "2024-05"
 * #A003523 "勝昌當歸拈痛湯濃縮散"
 * #A003523 ^property[0].code = #status
 * #A003523 ^property[=].valueString = "新增"
-* #A003523 ^property[+].code = #updateDate
+* #A003523 ^property[+].code = #effectiveDate
 * #A003523 ^property[=].valueString = "2024-05"
 * #A003716 "勝昌茵陳五苓散濃縮散"
 * #A003716 ^property[0].code = #status
 * #A003716 ^property[=].valueString = "新增"
-* #A003716 ^property[+].code = #updateDate
+* #A003716 ^property[+].code = #effectiveDate
 * #A003716 ^property[=].valueString = "2024-05"
 * #A003888 "勝昌桂枝茯苓丸濃縮顆粒"
 * #A003888 ^property[0].code = #status
 * #A003888 ^property[=].valueString = "新增"
-* #A003888 ^property[+].code = #updateDate
+* #A003888 ^property[+].code = #effectiveDate
 * #A003888 ^property[=].valueString = "2024-05"
 * #A004088 "明通葛根湯濃縮散"
 * #A004088 ^property[0].code = #status
 * #A004088 ^property[=].valueString = "新增"
-* #A004088 ^property[+].code = #updateDate
+* #A004088 ^property[+].code = #effectiveDate
 * #A004088 ^property[=].valueString = "2024-05"
 * #A004092 "明通麻黃湯濃縮散"
 * #A004092 ^property[0].code = #status
 * #A004092 ^property[=].valueString = "新增"
-* #A004092 ^property[+].code = #updateDate
+* #A004092 ^property[+].code = #effectiveDate
 * #A004092 ^property[=].valueString = "2024-05"
 * #A005398 "勝昌桂枝加芍藥湯濃縮散"
 * #A005398 ^property[0].code = #status
 * #A005398 ^property[=].valueString = "新增"
-* #A005398 ^property[+].code = #updateDate
+* #A005398 ^property[+].code = #effectiveDate
 * #A005398 ^property[=].valueString = "2024-05"
 * #A005399 "明通芍藥湯濃縮散"
 * #A005399 ^property[0].code = #status
 * #A005399 ^property[=].valueString = "新增"
-* #A005399 ^property[+].code = #updateDate
+* #A005399 ^property[+].code = #effectiveDate
 * #A005399 ^property[=].valueString = "2024-05"
 * #A005403 "明通小青龍湯濃縮散"
 * #A005403 ^property[0].code = #status
 * #A005403 ^property[=].valueString = "新增"
-* #A005403 ^property[+].code = #updateDate
+* #A005403 ^property[+].code = #effectiveDate
 * #A005403 ^property[=].valueString = "2024-05"
 * #A005461 "明通定喘湯濃縮散"
 * #A005461 ^property[0].code = #status
 * #A005461 ^property[=].valueString = "新增"
-* #A005461 ^property[+].code = #updateDate
+* #A005461 ^property[+].code = #effectiveDate
 * #A005461 ^property[=].valueString = "2024-05"
 * #A005466 "明通小柴胡湯濃縮散"
 * #A005466 ^property[0].code = #status
 * #A005466 ^property[=].valueString = "新增"
-* #A005466 ^property[+].code = #updateDate
+* #A005466 ^property[+].code = #effectiveDate
 * #A005466 ^property[=].valueString = "2024-05"
 * #A005468 "明通金沸草散濃縮散"
 * #A005468 ^property[0].code = #status
 * #A005468 ^property[=].valueString = "新增"
-* #A005468 ^property[+].code = #updateDate
+* #A005468 ^property[+].code = #effectiveDate
 * #A005468 ^property[=].valueString = "2024-05"
 * #A005470 "明通溫膽湯濃縮散"
 * #A005470 ^property[0].code = #status
 * #A005470 ^property[=].valueString = "新增"
-* #A005470 ^property[+].code = #updateDate
+* #A005470 ^property[+].code = #effectiveDate
 * #A005470 ^property[=].valueString = "2024-05"
 * #A005472 "明通麻杏甘石湯濃縮散"
 * #A005472 ^property[0].code = #status
 * #A005472 ^property[=].valueString = "新增"
-* #A005472 ^property[+].code = #updateDate
+* #A005472 ^property[+].code = #effectiveDate
 * #A005472 ^property[=].valueString = "2024-05"
 * #A005477 "明通代赭旋覆湯濃縮散"
 * #A005477 ^property[0].code = #status
 * #A005477 ^property[=].valueString = "新增"
-* #A005477 ^property[+].code = #updateDate
+* #A005477 ^property[+].code = #effectiveDate
 * #A005477 ^property[=].valueString = "2024-05"
 * #A005562 "明通人參養榮湯濃縮顆粒"
 * #A005562 ^property[0].code = #status
 * #A005562 ^property[=].valueString = "新增"
-* #A005562 ^property[+].code = #updateDate
+* #A005562 ^property[+].code = #effectiveDate
 * #A005562 ^property[=].valueString = "2024-05"
 * #A005675 "勝昌半夏厚朴湯濃縮顆粒"
 * #A005675 ^property[0].code = #status
 * #A005675 ^property[=].valueString = "新增"
-* #A005675 ^property[+].code = #updateDate
+* #A005675 ^property[+].code = #effectiveDate
 * #A005675 ^property[=].valueString = "2024-05"
 * #A006017 "明通加味平胃散濃縮顆粒"
 * #A006017 ^property[0].code = #status
 * #A006017 ^property[=].valueString = "新增"
-* #A006017 ^property[+].code = #updateDate
+* #A006017 ^property[+].code = #effectiveDate
 * #A006017 ^property[=].valueString = "2024-05"
 * #A006024 "明通清肺飲濃縮散"
 * #A006024 ^property[0].code = #status
 * #A006024 ^property[=].valueString = "新增"
-* #A006024 ^property[+].code = #updateDate
+* #A006024 ^property[+].code = #effectiveDate
 * #A006024 ^property[=].valueString = "2024-05"
 * #A006028 "明通二朮湯濃縮散"
 * #A006028 ^property[0].code = #status
 * #A006028 ^property[=].valueString = "新增"
-* #A006028 ^property[+].code = #updateDate
+* #A006028 ^property[+].code = #effectiveDate
 * #A006028 ^property[=].valueString = "2024-05"
 * #A006039 "明通四逆湯濃縮散"
 * #A006039 ^property[0].code = #status
 * #A006039 ^property[=].valueString = "新增"
-* #A006039 ^property[+].code = #updateDate
+* #A006039 ^property[+].code = #effectiveDate
 * #A006039 ^property[=].valueString = "2024-05"
 * #A006041 "明通橘皮竹茹湯濃縮散"
 * #A006041 ^property[0].code = #status
 * #A006041 ^property[=].valueString = "新增"
-* #A006041 ^property[+].code = #updateDate
+* #A006041 ^property[+].code = #effectiveDate
 * #A006041 ^property[=].valueString = "2024-05"
 * #A006060 "復旦桂枝茯苓丸濃縮散"
 * #A006060 ^property[0].code = #status
 * #A006060 ^property[=].valueString = "新增"
-* #A006060 ^property[+].code = #updateDate
+* #A006060 ^property[+].code = #effectiveDate
 * #A006060 ^property[=].valueString = "2024-05"
 * #A006061 "復旦半夏厚朴湯濃縮散"
 * #A006061 ^property[0].code = #status
 * #A006061 ^property[=].valueString = "新增"
-* #A006061 ^property[+].code = #updateDate
+* #A006061 ^property[+].code = #effectiveDate
 * #A006061 ^property[=].valueString = "2024-05"
 * #A006071 "明通散腫潰堅湯濃縮散"
 * #A006071 ^property[0].code = #status
 * #A006071 ^property[=].valueString = "新增"
-* #A006071 ^property[+].code = #updateDate
+* #A006071 ^property[+].code = #effectiveDate
 * #A006071 ^property[=].valueString = "2024-05"
 * #A006072 "明通烏藥順氣散濃縮散"
 * #A006072 ^property[0].code = #status
 * #A006072 ^property[=].valueString = "新增"
-* #A006072 ^property[+].code = #updateDate
+* #A006072 ^property[+].code = #effectiveDate
 * #A006072 ^property[=].valueString = "2024-05"
 * #A006074 "明通導水茯苓湯濃縮散"
 * #A006074 ^property[0].code = #status
 * #A006074 ^property[=].valueString = "新增"
-* #A006074 ^property[+].code = #updateDate
+* #A006074 ^property[+].code = #effectiveDate
 * #A006074 ^property[=].valueString = "2024-05"
 * #A006079 "明通大黃牡丹皮湯濃縮散"
 * #A006079 ^property[0].code = #status
 * #A006079 ^property[=].valueString = "新增"
-* #A006079 ^property[+].code = #updateDate
+* #A006079 ^property[+].code = #effectiveDate
 * #A006079 ^property[=].valueString = "2024-05"
 * #A006116 "復旦加味溫膽湯濃縮散"
 * #A006116 ^property[0].code = #status
 * #A006116 ^property[=].valueString = "新增"
-* #A006116 ^property[+].code = #updateDate
+* #A006116 ^property[+].code = #effectiveDate
 * #A006116 ^property[=].valueString = "2024-05"
 * #A006117 "復旦麻杏甘石湯濃縮散"
 * #A006117 ^property[0].code = #status
 * #A006117 ^property[=].valueString = "新增"
-* #A006117 ^property[+].code = #updateDate
+* #A006117 ^property[+].code = #effectiveDate
 * #A006117 ^property[=].valueString = "2024-05"
 * #A006118 "復旦乙字湯濃縮散"
 * #A006118 ^property[0].code = #status
 * #A006118 ^property[=].valueString = "新增"
-* #A006118 ^property[+].code = #updateDate
+* #A006118 ^property[+].code = #effectiveDate
 * #A006118 ^property[=].valueString = "2024-05"
 * #A006119 "復旦天王補心丹濃縮散"
 * #A006119 ^property[0].code = #status
 * #A006119 ^property[=].valueString = "新增"
-* #A006119 ^property[+].code = #updateDate
+* #A006119 ^property[+].code = #effectiveDate
 * #A006119 ^property[=].valueString = "2024-05"
 * #A006121 "復旦金沸草散濃縮散"
 * #A006121 ^property[0].code = #status
 * #A006121 ^property[=].valueString = "新增"
-* #A006121 ^property[+].code = #updateDate
+* #A006121 ^property[+].code = #effectiveDate
 * #A006121 ^property[=].valueString = "2024-05"
 * #A006122 "復旦瀉白散濃縮散"
 * #A006122 ^property[0].code = #status
 * #A006122 ^property[=].valueString = "新增"
-* #A006122 ^property[+].code = #updateDate
+* #A006122 ^property[+].code = #effectiveDate
 * #A006122 ^property[=].valueString = "2024-05"
 * #A006150 "明通濟生腎氣丸濃縮散"
 * #A006150 ^property[0].code = #status
 * #A006150 ^property[=].valueString = "新增"
-* #A006150 ^property[+].code = #updateDate
+* #A006150 ^property[+].code = #effectiveDate
 * #A006150 ^property[=].valueString = "2024-05"
 * #A006152 "明通滋腎明目湯濃縮散"
 * #A006152 ^property[0].code = #status
 * #A006152 ^property[=].valueString = "新增"
-* #A006152 ^property[+].code = #updateDate
+* #A006152 ^property[+].code = #effectiveDate
 * #A006152 ^property[=].valueString = "2024-05"
 * #A006153 "明通滋腎通耳丸濃縮散"
 * #A006153 ^property[0].code = #status
 * #A006153 ^property[=].valueString = "新增"
-* #A006153 ^property[+].code = #updateDate
+* #A006153 ^property[+].code = #effectiveDate
 * #A006153 ^property[=].valueString = "2024-05"
 * #A006155 "明通調胃承氣湯濃縮散"
 * #A006155 ^property[0].code = #status
 * #A006155 ^property[=].valueString = "新增"
-* #A006155 ^property[+].code = #updateDate
+* #A006155 ^property[+].code = #effectiveDate
 * #A006155 ^property[=].valueString = "2024-05"
 * #A006158 "復旦十神湯濃縮散"
 * #A006158 ^property[0].code = #status
 * #A006158 ^property[=].valueString = "新增"
-* #A006158 ^property[+].code = #updateDate
+* #A006158 ^property[+].code = #effectiveDate
 * #A006158 ^property[=].valueString = "2024-05"
 * #A006328 "明通驅風解毒散濃縮散"
 * #A006328 ^property[0].code = #status
 * #A006328 ^property[=].valueString = "新增"
-* #A006328 ^property[+].code = #updateDate
+* #A006328 ^property[+].code = #effectiveDate
 * #A006328 ^property[=].valueString = "2024-05"
 * #A006333 "明通竹茹溫膽湯濃縮散"
 * #A006333 ^property[0].code = #status
 * #A006333 ^property[=].valueString = "新增"
-* #A006333 ^property[+].code = #updateDate
+* #A006333 ^property[+].code = #effectiveDate
 * #A006333 ^property[=].valueString = "2024-05"
 * #A006416 "明通五皮飲濃縮散"
 * #A006416 ^property[0].code = #status
 * #A006416 ^property[=].valueString = "新增"
-* #A006416 ^property[+].code = #updateDate
+* #A006416 ^property[+].code = #effectiveDate
 * #A006416 ^property[=].valueString = "2024-05"
 * #A006434 "明通香砂六君子湯濃縮散"
 * #A006434 ^property[0].code = #status
 * #A006434 ^property[=].valueString = "新增"
-* #A006434 ^property[+].code = #updateDate
+* #A006434 ^property[+].code = #effectiveDate
 * #A006434 ^property[=].valueString = "2024-05"
 * #A006466 "明通厚朴溫中湯濃縮散"
 * #A006466 ^property[0].code = #status
 * #A006466 ^property[=].valueString = "新增"
-* #A006466 ^property[+].code = #updateDate
+* #A006466 ^property[+].code = #effectiveDate
 * #A006466 ^property[=].valueString = "2024-05"
 * #A006577 "勝昌桂枝茯苓丸濃縮散"
 * #A006577 ^property[0].code = #status
 * #A006577 ^property[=].valueString = "新增"
-* #A006577 ^property[+].code = #updateDate
+* #A006577 ^property[+].code = #effectiveDate
 * #A006577 ^property[=].valueString = "2024-05"
 * #A006663 "復旦柴胡桂枝湯濃縮散"
 * #A006663 ^property[0].code = #status
 * #A006663 ^property[=].valueString = "新增"
-* #A006663 ^property[+].code = #updateDate
+* #A006663 ^property[+].code = #effectiveDate
 * #A006663 ^property[=].valueString = "2024-05"
 * #A006664 "復旦大柴胡湯濃縮散"
 * #A006664 ^property[0].code = #status
 * #A006664 ^property[=].valueString = "新增"
-* #A006664 ^property[+].code = #updateDate
+* #A006664 ^property[+].code = #effectiveDate
 * #A006664 ^property[=].valueString = "2024-05"
 * #A006665 "復旦香蘇散濃縮散"
 * #A006665 ^property[0].code = #status
 * #A006665 ^property[=].valueString = "新增"
-* #A006665 ^property[+].code = #updateDate
+* #A006665 ^property[+].code = #effectiveDate
 * #A006665 ^property[=].valueString = "2024-05"
 * #A006666 "復旦茵陳蒿湯濃縮散"
 * #A006666 ^property[0].code = #status
 * #A006666 ^property[=].valueString = "新增"
-* #A006666 ^property[+].code = #updateDate
+* #A006666 ^property[+].code = #effectiveDate
 * #A006666 ^property[=].valueString = "2024-05"
 * #A006667 "復旦白虎湯濃縮散"
 * #A006667 ^property[0].code = #status
 * #A006667 ^property[=].valueString = "新增"
-* #A006667 ^property[+].code = #updateDate
+* #A006667 ^property[+].code = #effectiveDate
 * #A006667 ^property[=].valueString = "2024-05"
 * #A006668 "復旦消風散濃縮散"
 * #A006668 ^property[0].code = #status
 * #A006668 ^property[=].valueString = "新增"
-* #A006668 ^property[+].code = #updateDate
+* #A006668 ^property[+].code = #effectiveDate
 * #A006668 ^property[=].valueString = "2024-05"
 * #A006669 "復旦獨活寄生湯濃縮散"
 * #A006669 ^property[0].code = #status
 * #A006669 ^property[=].valueString = "新增"
-* #A006669 ^property[+].code = #updateDate
+* #A006669 ^property[+].code = #effectiveDate
 * #A006669 ^property[=].valueString = "2024-05"
 * #A006670 "復旦金鎖固精丸濃縮散"
 * #A006670 ^property[0].code = #status
 * #A006670 ^property[=].valueString = "新增"
-* #A006670 ^property[+].code = #updateDate
+* #A006670 ^property[+].code = #effectiveDate
 * #A006670 ^property[=].valueString = "2024-05"
 * #A006672 "復旦涼膈散濃縮散"
 * #A006672 ^property[0].code = #status
 * #A006672 ^property[=].valueString = "新增"
-* #A006672 ^property[+].code = #updateDate
+* #A006672 ^property[+].code = #effectiveDate
 * #A006672 ^property[=].valueString = "2024-05"
 * #A006673 "復旦六君子湯濃縮散"
 * #A006673 ^property[0].code = #status
 * #A006673 ^property[=].valueString = "新增"
-* #A006673 ^property[+].code = #updateDate
+* #A006673 ^property[+].code = #effectiveDate
 * #A006673 ^property[=].valueString = "2024-05"
 * #A006674 "復旦八味帶下方濃縮散"
 * #A006674 ^property[0].code = #status
 * #A006674 ^property[=].valueString = "新增"
-* #A006674 ^property[+].code = #updateDate
+* #A006674 ^property[+].code = #effectiveDate
 * #A006674 ^property[=].valueString = "2024-05"
 * #A006708 "復旦川芎茶調散濃縮散"
 * #A006708 ^property[0].code = #status
 * #A006708 ^property[=].valueString = "新增"
-* #A006708 ^property[+].code = #updateDate
+* #A006708 ^property[+].code = #effectiveDate
 * #A006708 ^property[=].valueString = "2024-05"
 * #A006709 "復旦參苓白朮散濃縮散"
 * #A006709 ^property[0].code = #status
 * #A006709 ^property[=].valueString = "新增"
-* #A006709 ^property[+].code = #updateDate
+* #A006709 ^property[+].code = #effectiveDate
 * #A006709 ^property[=].valueString = "2024-05"
 * #A006710 "復旦芎歸膠艾湯濃縮散"
 * #A006710 ^property[0].code = #status
 * #A006710 ^property[=].valueString = "新增"
-* #A006710 ^property[+].code = #updateDate
+* #A006710 ^property[+].code = #effectiveDate
 * #A006710 ^property[=].valueString = "2024-05"
 * #A006711 "復旦清胃散濃縮散"
 * #A006711 ^property[0].code = #status
 * #A006711 ^property[=].valueString = "新增"
-* #A006711 ^property[+].code = #updateDate
+* #A006711 ^property[+].code = #effectiveDate
 * #A006711 ^property[=].valueString = "2024-05"
 * #A006712 "復旦銀翹散濃縮散"
 * #A006712 ^property[0].code = #status
 * #A006712 ^property[=].valueString = "新增"
-* #A006712 ^property[+].code = #updateDate
+* #A006712 ^property[+].code = #effectiveDate
 * #A006712 ^property[=].valueString = "2024-05"
 * #A006714 "復旦安中散濃縮散"
 * #A006714 ^property[0].code = #status
 * #A006714 ^property[=].valueString = "新增"
-* #A006714 ^property[+].code = #updateDate
+* #A006714 ^property[+].code = #effectiveDate
 * #A006714 ^property[=].valueString = "2024-05"
 * #A006715 "復旦升麻葛根湯濃縮散"
 * #A006715 ^property[0].code = #status
 * #A006715 ^property[=].valueString = "新增"
-* #A006715 ^property[+].code = #updateDate
+* #A006715 ^property[+].code = #effectiveDate
 * #A006715 ^property[=].valueString = "2024-05"
 * #A006716 "復旦麥門冬湯濃縮散"
 * #A006716 ^property[0].code = #status
 * #A006716 ^property[=].valueString = "新增"
-* #A006716 ^property[+].code = #updateDate
+* #A006716 ^property[+].code = #effectiveDate
 * #A006716 ^property[=].valueString = "2024-05"
 * #A006717 "復旦清燥救肺湯濃縮散"
 * #A006717 ^property[0].code = #status
 * #A006717 ^property[=].valueString = "新增"
-* #A006717 ^property[+].code = #updateDate
+* #A006717 ^property[+].code = #effectiveDate
 * #A006717 ^property[=].valueString = "2024-05"
 * #A006718 "復旦參蘇飲濃縮散"
 * #A006718 ^property[0].code = #status
 * #A006718 ^property[=].valueString = "新增"
-* #A006718 ^property[+].code = #updateDate
+* #A006718 ^property[+].code = #effectiveDate
 * #A006718 ^property[=].valueString = "2024-05"
 * #A006719 "復旦半夏白朮天麻湯濃縮散"
 * #A006719 ^property[0].code = #status
 * #A006719 ^property[=].valueString = "新增"
-* #A006719 ^property[+].code = #updateDate
+* #A006719 ^property[+].code = #effectiveDate
 * #A006719 ^property[=].valueString = "2024-05"
 * #A006730 "明通洗肝明目散濃縮散"
 * #A006730 ^property[0].code = #status
 * #A006730 ^property[=].valueString = "新增"
-* #A006730 ^property[+].code = #updateDate
+* #A006730 ^property[+].code = #effectiveDate
 * #A006730 ^property[=].valueString = "2024-05"
 * #A006731 "明通桃核承氣湯濃縮散"
 * #A006731 ^property[0].code = #status
 * #A006731 ^property[=].valueString = "新增"
-* #A006731 ^property[+].code = #updateDate
+* #A006731 ^property[+].code = #effectiveDate
 * #A006731 ^property[=].valueString = "2024-05"
 * #A006754 "明通葛花解醒湯濃縮散"
 * #A006754 ^property[0].code = #status
 * #A006754 ^property[=].valueString = "新增"
-* #A006754 ^property[+].code = #updateDate
+* #A006754 ^property[+].code = #effectiveDate
 * #A006754 ^property[=].valueString = "2024-05"
 * #A006917 "明通小半夏加茯苓湯濃縮散"
 * #A006917 ^property[0].code = #status
 * #A006917 ^property[=].valueString = "新增"
-* #A006917 ^property[+].code = #updateDate
+* #A006917 ^property[+].code = #effectiveDate
 * #A006917 ^property[=].valueString = "2024-05"
 * #A007006 "明通十全大補湯濃縮散"
 * #A007006 ^property[0].code = #status
 * #A007006 ^property[=].valueString = "新增"
-* #A007006 ^property[+].code = #updateDate
+* #A007006 ^property[+].code = #effectiveDate
 * #A007006 ^property[=].valueString = "2024-05"
 * #A007100 "明通十六味流氣飲濃縮散"
 * #A007100 ^property[0].code = #status
 * #A007100 ^property[=].valueString = "新增"
-* #A007100 ^property[+].code = #updateDate
+* #A007100 ^property[+].code = #effectiveDate
 * #A007100 ^property[=].valueString = "2024-05"
 * #A007102 "復旦補陽還五湯濃縮散"
 * #A007102 ^property[0].code = #status
 * #A007102 ^property[=].valueString = "新增"
-* #A007102 ^property[+].code = #updateDate
+* #A007102 ^property[+].code = #effectiveDate
 * #A007102 ^property[=].valueString = "2024-05"
 * #A007103 "復旦葛根湯濃縮散"
 * #A007103 ^property[0].code = #status
 * #A007103 ^property[=].valueString = "新增"
-* #A007103 ^property[+].code = #updateDate
+* #A007103 ^property[+].code = #effectiveDate
 * #A007103 ^property[=].valueString = "2024-05"
 * #A007104 "復旦小青龍湯濃縮散"
 * #A007104 ^property[0].code = #status
 * #A007104 ^property[=].valueString = "新增"
-* #A007104 ^property[+].code = #updateDate
+* #A007104 ^property[+].code = #effectiveDate
 * #A007104 ^property[=].valueString = "2024-05"
 * #A007105 "復旦半夏瀉心湯濃縮散"
 * #A007105 ^property[0].code = #status
 * #A007105 ^property[=].valueString = "新增"
-* #A007105 ^property[+].code = #updateDate
+* #A007105 ^property[+].code = #effectiveDate
 * #A007105 ^property[=].valueString = "2024-05"
 * #A007106 "復旦甘露飲濃縮散"
 * #A007106 ^property[0].code = #status
 * #A007106 ^property[=].valueString = "新增"
-* #A007106 ^property[+].code = #updateDate
+* #A007106 ^property[+].code = #effectiveDate
 * #A007106 ^property[=].valueString = "2024-05"
 * #A007109 "復旦黃連解毒湯濃縮散"
 * #A007109 ^property[0].code = #status
 * #A007109 ^property[=].valueString = "新增"
-* #A007109 ^property[+].code = #updateDate
+* #A007109 ^property[+].code = #effectiveDate
 * #A007109 ^property[=].valueString = "2024-05"
 * #A007183 "明通十神湯濃縮散"
 * #A007183 ^property[0].code = #status
 * #A007183 ^property[=].valueString = "新增"
-* #A007183 ^property[+].code = #updateDate
+* #A007183 ^property[+].code = #effectiveDate
 * #A007183 ^property[=].valueString = "2024-05"
 * #A007291 "勝昌聖愈湯濃縮散"
 * #A007291 ^property[0].code = #status
 * #A007291 ^property[=].valueString = "新增"
-* #A007291 ^property[+].code = #updateDate
+* #A007291 ^property[+].code = #effectiveDate
 * #A007291 ^property[=].valueString = "2024-05"
 * #A007292 "勝昌折衝飲濃縮散"
 * #A007292 ^property[0].code = #status
 * #A007292 ^property[=].valueString = "新增"
-* #A007292 ^property[+].code = #updateDate
+* #A007292 ^property[+].code = #effectiveDate
 * #A007292 ^property[=].valueString = "2024-05"
 * #A007293 "勝昌桑螵蛸散濃縮散"
 * #A007293 ^property[0].code = #status
 * #A007293 ^property[=].valueString = "新增"
-* #A007293 ^property[+].code = #updateDate
+* #A007293 ^property[+].code = #effectiveDate
 * #A007293 ^property[=].valueString = "2024-05"
 * #A007295 "勝昌玉女煎濃縮散"
 * #A007295 ^property[0].code = #status
 * #A007295 ^property[=].valueString = "新增"
-* #A007295 ^property[+].code = #updateDate
+* #A007295 ^property[+].code = #effectiveDate
 * #A007295 ^property[=].valueString = "2024-05"
 * #A007297 "勝昌炙甘草湯濃縮散"
 * #A007297 ^property[0].code = #status
 * #A007297 ^property[=].valueString = "新增"
-* #A007297 ^property[+].code = #updateDate
+* #A007297 ^property[+].code = #effectiveDate
 * #A007297 ^property[=].valueString = "2024-05"
 * #A007298 "勝昌烏藥順氣散濃縮散"
 * #A007298 ^property[0].code = #status
 * #A007298 ^property[=].valueString = "新增"
-* #A007298 ^property[+].code = #updateDate
+* #A007298 ^property[+].code = #effectiveDate
 * #A007298 ^property[=].valueString = "2024-05"
 * #A007299 "勝昌木香檳榔丸濃縮散"
 * #A007299 ^property[0].code = #status
 * #A007299 ^property[=].valueString = "新增"
-* #A007299 ^property[+].code = #updateDate
+* #A007299 ^property[+].code = #effectiveDate
 * #A007299 ^property[=].valueString = "2024-05"
 * #A007302 "勝昌連翹敗毒散濃縮散"
 * #A007302 ^property[0].code = #status
 * #A007302 ^property[=].valueString = "新增"
-* #A007302 ^property[+].code = #updateDate
+* #A007302 ^property[+].code = #effectiveDate
 * #A007302 ^property[=].valueString = "2024-05"
 * #A007303 "勝昌二朮湯濃縮散"
 * #A007303 ^property[0].code = #status
 * #A007303 ^property[=].valueString = "新增"
-* #A007303 ^property[+].code = #updateDate
+* #A007303 ^property[+].code = #effectiveDate
 * #A007303 ^property[=].valueString = "2024-05"
 * #A007304 "復旦木香檳榔丸濃縮散"
 * #A007304 ^property[0].code = #status
 * #A007304 ^property[=].valueString = "新增"
-* #A007304 ^property[+].code = #updateDate
+* #A007304 ^property[+].code = #effectiveDate
 * #A007304 ^property[=].valueString = "2024-05"
 * #A007305 "復旦八正散濃縮散"
 * #A007305 ^property[0].code = #status
 * #A007305 ^property[=].valueString = "新增"
-* #A007305 ^property[+].code = #updateDate
+* #A007305 ^property[+].code = #effectiveDate
 * #A007305 ^property[=].valueString = "2024-05"
 * #A007306 "復旦華蓋散濃縮散"
 * #A007306 ^property[0].code = #status
 * #A007306 ^property[=].valueString = "新增"
-* #A007306 ^property[+].code = #updateDate
+* #A007306 ^property[+].code = #effectiveDate
 * #A007306 ^property[=].valueString = "2024-05"
 * #A007307 "復旦麻子仁丸濃縮散"
 * #A007307 ^property[0].code = #status
 * #A007307 ^property[=].valueString = "新增"
-* #A007307 ^property[+].code = #updateDate
+* #A007307 ^property[+].code = #effectiveDate
 * #A007307 ^property[=].valueString = "2024-05"
 * #A007308 "復旦六和湯濃縮散"
 * #A007308 ^property[0].code = #status
 * #A007308 ^property[=].valueString = "新增"
-* #A007308 ^property[+].code = #updateDate
+* #A007308 ^property[+].code = #effectiveDate
 * #A007308 ^property[=].valueString = "2024-05"
 * #A007309 "復旦導赤散濃縮散"
 * #A007309 ^property[0].code = #status
 * #A007309 ^property[=].valueString = "新增"
-* #A007309 ^property[+].code = #updateDate
+* #A007309 ^property[+].code = #effectiveDate
 * #A007309 ^property[=].valueString = "2024-05"
 * #A007310 "復旦麻杏薏甘湯濃縮散"
 * #A007310 ^property[0].code = #status
 * #A007310 ^property[=].valueString = "新增"
-* #A007310 ^property[+].code = #updateDate
+* #A007310 ^property[+].code = #effectiveDate
 * #A007310 ^property[=].valueString = "2024-05"
 * #A007311 "復旦人參敗毒湯濃縮散"
 * #A007311 ^property[0].code = #status
 * #A007311 ^property[=].valueString = "新增"
-* #A007311 ^property[+].code = #updateDate
+* #A007311 ^property[+].code = #effectiveDate
 * #A007311 ^property[=].valueString = "2024-05"
 * #A007312 "復旦竹葉石膏湯濃縮散"
 * #A007312 ^property[0].code = #status
 * #A007312 ^property[=].valueString = "新增"
-* #A007312 ^property[+].code = #updateDate
+* #A007312 ^property[+].code = #effectiveDate
 * #A007312 ^property[=].valueString = "2024-05"
 * #A007316 "明通小續命湯濃縮散"
 * #A007316 ^property[0].code = #status
 * #A007316 ^property[=].valueString = "新增"
-* #A007316 ^property[+].code = #updateDate
+* #A007316 ^property[+].code = #effectiveDate
 * #A007316 ^property[=].valueString = "2024-05"
 * #A007318 "明通四味香薷飲濃縮散"
 * #A007318 ^property[0].code = #status
 * #A007318 ^property[=].valueString = "新增"
-* #A007318 ^property[+].code = #updateDate
+* #A007318 ^property[+].code = #effectiveDate
 * #A007318 ^property[=].valueString = "2024-05"
 * #A007321 "明通健脾丸濃縮散"
 * #A007321 ^property[0].code = #status
 * #A007321 ^property[=].valueString = "新增"
-* #A007321 ^property[+].code = #updateDate
+* #A007321 ^property[+].code = #effectiveDate
 * #A007321 ^property[=].valueString = "2024-05"
 * #A007325 "明通加味逍遙散濃縮散"
 * #A007325 ^property[0].code = #status
 * #A007325 ^property[=].valueString = "新增"
-* #A007325 ^property[+].code = #updateDate
+* #A007325 ^property[+].code = #effectiveDate
 * #A007325 ^property[=].valueString = "2024-05"
 * #A007326 "明通九味羌活湯濃縮散"
 * #A007326 ^property[0].code = #status
 * #A007326 ^property[=].valueString = "新增"
-* #A007326 ^property[+].code = #updateDate
+* #A007326 ^property[+].code = #effectiveDate
 * #A007326 ^property[=].valueString = "2024-05"
 * #A007574 "明通清涼飲濃縮散"
 * #A007574 ^property[0].code = #status
 * #A007574 ^property[=].valueString = "新增"
-* #A007574 ^property[+].code = #updateDate
+* #A007574 ^property[+].code = #effectiveDate
 * #A007574 ^property[=].valueString = "2024-05"
 * #A007844 "復旦九味羌活湯濃縮散"
 * #A007844 ^property[0].code = #status
 * #A007844 ^property[=].valueString = "新增"
-* #A007844 ^property[+].code = #updateDate
+* #A007844 ^property[+].code = #effectiveDate
 * #A007844 ^property[=].valueString = "2024-05"
 * #A007845 "復旦甘麥大棗湯濃縮散"
 * #A007845 ^property[0].code = #status
 * #A007845 ^property[=].valueString = "新增"
-* #A007845 ^property[+].code = #updateDate
+* #A007845 ^property[+].code = #effectiveDate
 * #A007845 ^property[=].valueString = "2024-05"
 * #A007846 "復旦千金內託散濃縮散"
 * #A007846 ^property[0].code = #status
 * #A007846 ^property[=].valueString = "新增"
-* #A007846 ^property[+].code = #updateDate
+* #A007846 ^property[+].code = #effectiveDate
 * #A007846 ^property[=].valueString = "2024-05"
 * #A007847 "復旦三黃瀉心湯濃縮散"
 * #A007847 ^property[0].code = #status
 * #A007847 ^property[=].valueString = "新增"
-* #A007847 ^property[+].code = #updateDate
+* #A007847 ^property[+].code = #effectiveDate
 * #A007847 ^property[=].valueString = "2024-05"
 * #A007848 "復旦辛夷散濃縮散"
 * #A007848 ^property[0].code = #status
 * #A007848 ^property[=].valueString = "新增"
-* #A007848 ^property[+].code = #updateDate
+* #A007848 ^property[+].code = #effectiveDate
 * #A007848 ^property[=].valueString = "2024-05"
 * #A007849 "復旦十全大補湯濃縮散"
 * #A007849 ^property[0].code = #status
 * #A007849 ^property[=].valueString = "新增"
-* #A007849 ^property[+].code = #updateDate
+* #A007849 ^property[+].code = #effectiveDate
 * #A007849 ^property[=].valueString = "2024-05"
 * #A007850 "復旦麻黃湯濃縮散"
 * #A007850 ^property[0].code = #status
 * #A007850 ^property[=].valueString = "新增"
-* #A007850 ^property[+].code = #updateDate
+* #A007850 ^property[+].code = #effectiveDate
 * #A007850 ^property[=].valueString = "2024-05"
 * #A007851 "復旦當歸六黃湯濃縮散"
 * #A007851 ^property[0].code = #status
 * #A007851 ^property[=].valueString = "新增"
-* #A007851 ^property[+].code = #updateDate
+* #A007851 ^property[+].code = #effectiveDate
 * #A007851 ^property[=].valueString = "2024-05"
 * #A007853 "復旦八味地黃丸濃縮散"
 * #A007853 ^property[0].code = #status
 * #A007853 ^property[=].valueString = "新增"
-* #A007853 ^property[+].code = #updateDate
+* #A007853 ^property[+].code = #effectiveDate
 * #A007853 ^property[=].valueString = "2024-05"
 * #A007854 "復旦仙方活命飲濃縮細粒"
 * #A007854 ^property[0].code = #status
 * #A007854 ^property[=].valueString = "新增"
-* #A007854 ^property[+].code = #updateDate
+* #A007854 ^property[+].code = #effectiveDate
 * #A007854 ^property[=].valueString = "2024-05"
 * #A007855 "復旦清咽利膈湯濃縮散"
 * #A007855 ^property[0].code = #status
 * #A007855 ^property[=].valueString = "新增"
-* #A007855 ^property[+].code = #updateDate
+* #A007855 ^property[+].code = #effectiveDate
 * #A007855 ^property[=].valueString = "2024-05"
 * #A007856 "復旦清心蓮子飲濃縮散"
 * #A007856 ^property[0].code = #status
 * #A007856 ^property[=].valueString = "新增"
-* #A007856 ^property[+].code = #updateDate
+* #A007856 ^property[+].code = #effectiveDate
 * #A007856 ^property[=].valueString = "2024-05"
 * #A007857 "復旦桑螵蛸散濃縮散"
 * #A007857 ^property[0].code = #status
 * #A007857 ^property[=].valueString = "新增"
-* #A007857 ^property[+].code = #updateDate
+* #A007857 ^property[+].code = #effectiveDate
 * #A007857 ^property[=].valueString = "2024-05"
 * #A007858 "復旦桑菊飲濃縮散"
 * #A007858 ^property[0].code = #status
 * #A007858 ^property[=].valueString = "新增"
-* #A007858 ^property[+].code = #updateDate
+* #A007858 ^property[+].code = #effectiveDate
 * #A007858 ^property[=].valueString = "2024-05"
 * #A007859 "復旦五積散濃縮散"
 * #A007859 ^property[0].code = #status
 * #A007859 ^property[=].valueString = "新增"
-* #A007859 ^property[+].code = #updateDate
+* #A007859 ^property[+].code = #effectiveDate
 * #A007859 ^property[=].valueString = "2024-05"
 * #A007861 "復旦益氣聰明湯濃縮散"
 * #A007861 ^property[0].code = #status
 * #A007861 ^property[=].valueString = "新增"
-* #A007861 ^property[+].code = #updateDate
+* #A007861 ^property[+].code = #effectiveDate
 * #A007861 ^property[=].valueString = "2024-05"
 * #A007862 "復旦四君子湯濃縮散"
 * #A007862 ^property[0].code = #status
 * #A007862 ^property[=].valueString = "新增"
-* #A007862 ^property[+].code = #updateDate
+* #A007862 ^property[+].code = #effectiveDate
 * #A007862 ^property[=].valueString = "2024-05"
 * #A007863 "復旦十三味安胎飲濃縮散"
 * #A007863 ^property[0].code = #status
 * #A007863 ^property[=].valueString = "新增"
-* #A007863 ^property[+].code = #updateDate
+* #A007863 ^property[+].code = #effectiveDate
 * #A007863 ^property[=].valueString = "2024-05"
 * #A007864 "復旦苓桂朮甘湯濃縮散"
 * #A007864 ^property[0].code = #status
 * #A007864 ^property[=].valueString = "新增"
-* #A007864 ^property[+].code = #updateDate
+* #A007864 ^property[+].code = #effectiveDate
 * #A007864 ^property[=].valueString = "2024-05"
 * #A007866 "復旦酸棗仁湯濃縮散"
 * #A007866 ^property[0].code = #status
 * #A007866 ^property[=].valueString = "新增"
-* #A007866 ^property[+].code = #updateDate
+* #A007866 ^property[+].code = #effectiveDate
 * #A007866 ^property[=].valueString = "2024-05"
 * #A007868 "復旦百合固金湯濃縮散"
 * #A007868 ^property[0].code = #status
 * #A007868 ^property[=].valueString = "新增"
-* #A007868 ^property[+].code = #updateDate
+* #A007868 ^property[+].code = #effectiveDate
 * #A007868 ^property[=].valueString = "2024-05"
 * #A007901 "明通正骨紫金丹濃縮散"
 * #A007901 ^property[0].code = #status
 * #A007901 ^property[=].valueString = "新增"
-* #A007901 ^property[+].code = #updateDate
+* #A007901 ^property[+].code = #effectiveDate
 * #A007901 ^property[=].valueString = "2024-05"
 * #A007909 "明通溫經湯濃縮散"
 * #A007909 ^property[0].code = #status
 * #A007909 ^property[=].valueString = "新增"
-* #A007909 ^property[+].code = #updateDate
+* #A007909 ^property[+].code = #effectiveDate
 * #A007909 ^property[=].valueString = "2024-05"
 * #A007911 "明通大秦艽湯濃縮散"
 * #A007911 ^property[0].code = #status
 * #A007911 ^property[=].valueString = "新增"
-* #A007911 ^property[+].code = #updateDate
+* #A007911 ^property[+].code = #effectiveDate
 * #A007911 ^property[=].valueString = "2024-05"
 * #A007913 "明通補中益氣湯濃縮散"
 * #A007913 ^property[0].code = #status
 * #A007913 ^property[=].valueString = "新增"
-* #A007913 ^property[+].code = #updateDate
+* #A007913 ^property[+].code = #effectiveDate
 * #A007913 ^property[=].valueString = "2024-05"
 * #A007916 "明通定志丸濃縮散"
 * #A007916 ^property[0].code = #status
 * #A007916 ^property[=].valueString = "新增"
-* #A007916 ^property[+].code = #updateDate
+* #A007916 ^property[+].code = #effectiveDate
 * #A007916 ^property[=].valueString = "2024-05"
 * #A007957 "明通十味敗毒散濃縮散"
 * #A007957 ^property[0].code = #status
 * #A007957 ^property[=].valueString = "新增"
-* #A007957 ^property[+].code = #updateDate
+* #A007957 ^property[+].code = #effectiveDate
 * #A007957 ^property[=].valueString = "2024-05"
 * #A008122 "復旦四逆散濃縮散"
 * #A008122 ^property[0].code = #status
 * #A008122 ^property[=].valueString = "新增"
-* #A008122 ^property[+].code = #updateDate
+* #A008122 ^property[+].code = #effectiveDate
 * #A008122 ^property[=].valueString = "2024-05"
 * #A008123 "復旦滋陰降火湯濃縮散"
 * #A008123 ^property[0].code = #status
 * #A008123 ^property[=].valueString = "新增"
-* #A008123 ^property[+].code = #updateDate
+* #A008123 ^property[+].code = #effectiveDate
 * #A008123 ^property[=].valueString = "2024-05"
 * #A008128 "明通三子養親湯濃縮散"
 * #A008128 ^property[0].code = #status
 * #A008128 ^property[=].valueString = "新增"
-* #A008128 ^property[+].code = #updateDate
+* #A008128 ^property[+].code = #effectiveDate
 * #A008128 ^property[=].valueString = "2024-05"
 * #A008241 "復旦清暑益氣湯濃縮散"
 * #A008241 ^property[0].code = #status
 * #A008241 ^property[=].valueString = "新增"
-* #A008241 ^property[+].code = #updateDate
+* #A008241 ^property[+].code = #effectiveDate
 * #A008241 ^property[=].valueString = "2024-05"
 * #A008334 "明通桂枝芍藥知母湯濃縮散"
 * #A008334 ^property[0].code = #status
 * #A008334 ^property[=].valueString = "新增"
-* #A008334 ^property[+].code = #updateDate
+* #A008334 ^property[+].code = #effectiveDate
 * #A008334 ^property[=].valueString = "2024-05"
 * #A008337 "復旦柴胡清肝湯濃縮散"
 * #A008337 ^property[0].code = #status
 * #A008337 ^property[=].valueString = "新增"
-* #A008337 ^property[+].code = #updateDate
+* #A008337 ^property[+].code = #effectiveDate
 * #A008337 ^property[=].valueString = "2024-05"
 * #A008338 "復旦香薷飲濃縮散"
 * #A008338 ^property[0].code = #status
 * #A008338 ^property[=].valueString = "新增"
-* #A008338 ^property[+].code = #updateDate
+* #A008338 ^property[+].code = #effectiveDate
 * #A008338 ^property[=].valueString = "2024-05"
 * #A008339 "復旦瀉黃散濃縮散"
 * #A008339 ^property[0].code = #status
 * #A008339 ^property[=].valueString = "新增"
-* #A008339 ^property[+].code = #updateDate
+* #A008339 ^property[+].code = #effectiveDate
 * #A008339 ^property[=].valueString = "2024-05"
 * #A008340 "復旦厚朴溫中湯濃縮散"
 * #A008340 ^property[0].code = #status
 * #A008340 ^property[=].valueString = "新增"
-* #A008340 ^property[+].code = #updateDate
+* #A008340 ^property[+].code = #effectiveDate
 * #A008340 ^property[=].valueString = "2024-05"
 * #A008341 "復旦胃苓湯濃縮散"
 * #A008341 ^property[0].code = #status
 * #A008341 ^property[=].valueString = "新增"
-* #A008341 ^property[+].code = #updateDate
+* #A008341 ^property[+].code = #effectiveDate
 * #A008341 ^property[=].valueString = "2024-05"
 * #A008342 "復旦滋腎明目湯濃縮散"
 * #A008342 ^property[0].code = #status
 * #A008342 ^property[=].valueString = "新增"
-* #A008342 ^property[+].code = #updateDate
+* #A008342 ^property[+].code = #effectiveDate
 * #A008342 ^property[=].valueString = "2024-05"
 * #A008649 "明通涼血地黃湯濃縮散"
 * #A008649 ^property[0].code = #status
 * #A008649 ^property[=].valueString = "新增"
-* #A008649 ^property[+].code = #updateDate
+* #A008649 ^property[+].code = #effectiveDate
 * #A008649 ^property[=].valueString = "2024-05"
 * #A008654 "復旦當歸拈痛湯濃縮散"
 * #A008654 ^property[0].code = #status
 * #A008654 ^property[=].valueString = "新增"
-* #A008654 ^property[+].code = #updateDate
+* #A008654 ^property[+].code = #effectiveDate
 * #A008654 ^property[=].valueString = "2024-05"
 * #A008655 "復旦當歸芍藥散濃縮散"
 * #A008655 ^property[0].code = #status
 * #A008655 ^property[=].valueString = "新增"
-* #A008655 ^property[+].code = #updateDate
+* #A008655 ^property[+].code = #effectiveDate
 * #A008655 ^property[=].valueString = "2024-05"
 * #A008656 "復旦抑肝散濃縮散"
 * #A008656 ^property[0].code = #status
 * #A008656 ^property[=].valueString = "新增"
-* #A008656 ^property[+].code = #updateDate
+* #A008656 ^property[+].code = #effectiveDate
 * #A008656 ^property[=].valueString = "2024-05"
 * #A008657 "復旦桔梗湯濃縮散"
 * #A008657 ^property[0].code = #status
 * #A008657 ^property[=].valueString = "新增"
-* #A008657 ^property[+].code = #updateDate
+* #A008657 ^property[+].code = #effectiveDate
 * #A008657 ^property[=].valueString = "2024-05"
 * #A008660 "復旦生脈飲濃縮散"
 * #A008660 ^property[0].code = #status
 * #A008660 ^property[=].valueString = "新增"
-* #A008660 ^property[+].code = #updateDate
+* #A008660 ^property[+].code = #effectiveDate
 * #A008660 ^property[=].valueString = "2024-05"
 * #A008701 "明通小薊飲子濃縮散"
 * #A008701 ^property[0].code = #status
 * #A008701 ^property[=].valueString = "新增"
-* #A008701 ^property[+].code = #updateDate
+* #A008701 ^property[+].code = #effectiveDate
 * #A008701 ^property[=].valueString = "2024-05"
 * #A008802 "明通當歸飲子濃縮散"
 * #A008802 ^property[0].code = #status
 * #A008802 ^property[=].valueString = "新增"
-* #A008802 ^property[+].code = #updateDate
+* #A008802 ^property[+].code = #effectiveDate
 * #A008802 ^property[=].valueString = "2024-05"
 * #A008803 "明通紫菀湯濃縮散"
 * #A008803 ^property[0].code = #status
 * #A008803 ^property[=].valueString = "新增"
-* #A008803 ^property[+].code = #updateDate
+* #A008803 ^property[+].code = #effectiveDate
 * #A008803 ^property[=].valueString = "2024-05"
 * #A008805 "明通小承氣湯濃縮散"
 * #A008805 ^property[0].code = #status
 * #A008805 ^property[=].valueString = "新增"
-* #A008805 ^property[+].code = #updateDate
+* #A008805 ^property[+].code = #effectiveDate
 * #A008805 ^property[=].valueString = "2024-05"
 * #A008806 "明通小建中湯濃縮散"
 * #A008806 ^property[0].code = #status
 * #A008806 ^property[=].valueString = "新增"
-* #A008806 ^property[+].code = #updateDate
+* #A008806 ^property[+].code = #effectiveDate
 * #A008806 ^property[=].valueString = "2024-05"
 * #A008807 "明通橘核丸濃縮散"
 * #A008807 ^property[0].code = #status
 * #A008807 ^property[=].valueString = "新增"
-* #A008807 ^property[+].code = #updateDate
+* #A008807 ^property[+].code = #effectiveDate
 * #A008807 ^property[=].valueString = "2024-05"
 * #A009421 "明通桂枝麻黃各半湯濃縮散"
 * #A009421 ^property[0].code = #status
 * #A009421 ^property[=].valueString = "新增"
-* #A009421 ^property[+].code = #updateDate
+* #A009421 ^property[+].code = #effectiveDate
 * #A009421 ^property[=].valueString = "2024-05"
 * #A009517 "東陽烏藥順氣散濃縮散"
 * #A009517 ^property[0].code = #status
 * #A009517 ^property[=].valueString = "新增"
-* #A009517 ^property[+].code = #updateDate
+* #A009517 ^property[+].code = #effectiveDate
 * #A009517 ^property[=].valueString = "2024-05"
 * #A009518 "東陽小建中湯濃縮散"
 * #A009518 ^property[0].code = #status
 * #A009518 ^property[=].valueString = "新增"
-* #A009518 ^property[+].code = #updateDate
+* #A009518 ^property[+].code = #effectiveDate
 * #A009518 ^property[=].valueString = "2024-05"
 * #A009519 "東陽五積散濃縮散"
 * #A009519 ^property[0].code = #status
 * #A009519 ^property[=].valueString = "新增"
-* #A009519 ^property[+].code = #updateDate
+* #A009519 ^property[+].code = #effectiveDate
 * #A009519 ^property[=].valueString = "2024-05"
 * #A009520 "東陽五皮飲濃縮散"
 * #A009520 ^property[0].code = #status
 * #A009520 ^property[=].valueString = "新增"
-* #A009520 ^property[+].code = #updateDate
+* #A009520 ^property[+].code = #effectiveDate
 * #A009520 ^property[=].valueString = "2024-05"
 * #A009521 "東陽麻子仁丸濃縮散"
 * #A009521 ^property[0].code = #status
 * #A009521 ^property[=].valueString = "新增"
-* #A009521 ^property[+].code = #updateDate
+* #A009521 ^property[+].code = #effectiveDate
 * #A009521 ^property[=].valueString = "2024-05"
 * #A009522 "漢聖加味逍遙散濃縮散"
 * #A009522 ^property[0].code = #status
 * #A009522 ^property[=].valueString = "新增"
-* #A009522 ^property[+].code = #updateDate
+* #A009522 ^property[+].code = #effectiveDate
 * #A009522 ^property[=].valueString = "2024-05"
 * #A009523 "東陽乙字湯濃縮散"
 * #A009523 ^property[0].code = #status
 * #A009523 ^property[=].valueString = "新增"
-* #A009523 ^property[+].code = #updateDate
+* #A009523 ^property[+].code = #effectiveDate
 * #A009523 ^property[=].valueString = "2024-05"
 * #A009524 "東陽厚朴溫中湯濃縮散"
 * #A009524 ^property[0].code = #status
 * #A009524 ^property[=].valueString = "新增"
-* #A009524 ^property[+].code = #updateDate
+* #A009524 ^property[+].code = #effectiveDate
 * #A009524 ^property[=].valueString = "2024-05"
 * #A009525 "東陽八味帶下方濃縮散"
 * #A009525 ^property[0].code = #status
 * #A009525 ^property[=].valueString = "新增"
-* #A009525 ^property[+].code = #updateDate
+* #A009525 ^property[+].code = #effectiveDate
 * #A009525 ^property[=].valueString = "2024-05"
 * #A009526 "東陽萆薢分清飲濃縮散"
 * #A009526 ^property[0].code = #status
 * #A009526 ^property[=].valueString = "新增"
-* #A009526 ^property[+].code = #updateDate
+* #A009526 ^property[+].code = #effectiveDate
 * #A009526 ^property[=].valueString = "2024-05"
 * #A009527 "東陽白虎湯濃縮散"
 * #A009527 ^property[0].code = #status
 * #A009527 ^property[=].valueString = "新增"
-* #A009527 ^property[+].code = #updateDate
+* #A009527 ^property[+].code = #effectiveDate
 * #A009527 ^property[=].valueString = "2024-05"
 * #A009528 "東陽八正散濃縮散"
 * #A009528 ^property[0].code = #status
 * #A009528 ^property[=].valueString = "新增"
-* #A009528 ^property[+].code = #updateDate
+* #A009528 ^property[+].code = #effectiveDate
 * #A009528 ^property[=].valueString = "2024-05"
 * #A009529 "東陽竹葉石膏湯濃縮散(加味)"
 * #A009529 ^property[0].code = #status
 * #A009529 ^property[=].valueString = "新增"
-* #A009529 ^property[+].code = #updateDate
+* #A009529 ^property[+].code = #effectiveDate
 * #A009529 ^property[=].valueString = "2024-05"
 * #A009530 "復旦知柏地黃丸濃縮散"
 * #A009530 ^property[0].code = #status
 * #A009530 ^property[=].valueString = "新增"
-* #A009530 ^property[+].code = #updateDate
+* #A009530 ^property[+].code = #effectiveDate
 * #A009530 ^property[=].valueString = "2024-05"
 * #A009531 "復旦杏蘇飲濃縮散"
 * #A009531 ^property[0].code = #status
 * #A009531 ^property[=].valueString = "新增"
-* #A009531 ^property[+].code = #updateDate
+* #A009531 ^property[+].code = #effectiveDate
 * #A009531 ^property[=].valueString = "2024-05"
 * #A009532 "東陽防風通聖散濃縮散"
 * #A009532 ^property[0].code = #status
 * #A009532 ^property[=].valueString = "新增"
-* #A009532 ^property[+].code = #updateDate
+* #A009532 ^property[+].code = #effectiveDate
 * #A009532 ^property[=].valueString = "2024-05"
 * #A009533 "復旦柴葛解肌湯濃縮散"
 * #A009533 ^property[0].code = #status
 * #A009533 ^property[=].valueString = "新增"
-* #A009533 ^property[+].code = #updateDate
+* #A009533 ^property[+].code = #effectiveDate
 * #A009533 ^property[=].valueString = "2024-05"
 * #A009534 "復旦大防風湯濃縮散"
 * #A009534 ^property[0].code = #status
 * #A009534 ^property[=].valueString = "新增"
-* #A009534 ^property[+].code = #updateDate
+* #A009534 ^property[+].code = #effectiveDate
 * #A009534 ^property[=].valueString = "2024-05"
 * #A009535 "復旦大黃牡丹湯濃縮散"
 * #A009535 ^property[0].code = #status
 * #A009535 ^property[=].valueString = "新增"
-* #A009535 ^property[+].code = #updateDate
+* #A009535 ^property[+].code = #effectiveDate
 * #A009535 ^property[=].valueString = "2024-05"
 * #A009539 "東陽二朮湯濃縮散"
 * #A009539 ^property[0].code = #status
 * #A009539 ^property[=].valueString = "新增"
-* #A009539 ^property[+].code = #updateDate
+* #A009539 ^property[+].code = #effectiveDate
 * #A009539 ^property[=].valueString = "2024-05"
 * #A009541 "東陽大青龍湯濃縮散"
 * #A009541 ^property[0].code = #status
 * #A009541 ^property[=].valueString = "新增"
-* #A009541 ^property[+].code = #updateDate
+* #A009541 ^property[+].code = #effectiveDate
 * #A009541 ^property[=].valueString = "2024-05"
 * #A009543 "復旦辛夷清肺飲濃縮散"
 * #A009543 ^property[0].code = #status
 * #A009543 ^property[=].valueString = "新增"
-* #A009543 ^property[+].code = #updateDate
+* #A009543 ^property[+].code = #effectiveDate
 * #A009543 ^property[=].valueString = "2024-05"
 * #A009796 "明通茯菟丹濃縮顆粒"
 * #A009796 ^property[0].code = #status
 * #A009796 ^property[=].valueString = "新增"
-* #A009796 ^property[+].code = #updateDate
+* #A009796 ^property[+].code = #effectiveDate
 * #A009796 ^property[=].valueString = "2024-05"
 * #A009797 "明通半夏瀉心湯濃縮顆粒"
 * #A009797 ^property[0].code = #status
 * #A009797 ^property[=].valueString = "新增"
-* #A009797 ^property[+].code = #updateDate
+* #A009797 ^property[+].code = #effectiveDate
 * #A009797 ^property[=].valueString = "2024-05"
 * #A009798 "明通竹葉石膏湯濃縮顆粒"
 * #A009798 ^property[0].code = #status
 * #A009798 ^property[=].valueString = "新增"
-* #A009798 ^property[+].code = #updateDate
+* #A009798 ^property[+].code = #effectiveDate
 * #A009798 ^property[=].valueString = "2024-05"
 * #A009799 "明通茵陳蒿湯濃縮顆粒"
 * #A009799 ^property[0].code = #status
 * #A009799 ^property[=].valueString = "新增"
-* #A009799 ^property[+].code = #updateDate
+* #A009799 ^property[+].code = #effectiveDate
 * #A009799 ^property[=].valueString = "2024-05"
 * #A009800 "明通小青龍湯濃縮細粒"
 * #A009800 ^property[0].code = #status
 * #A009800 ^property[=].valueString = "新增"
-* #A009800 ^property[+].code = #updateDate
+* #A009800 ^property[+].code = #effectiveDate
 * #A009800 ^property[=].valueString = "2024-05"
 * #A009801 "明通吳茱萸湯濃縮顆粒"
 * #A009801 ^property[0].code = #status
 * #A009801 ^property[=].valueString = "新增"
-* #A009801 ^property[+].code = #updateDate
+* #A009801 ^property[+].code = #effectiveDate
 * #A009801 ^property[=].valueString = "2024-05"
 * #A009802 "明通黃連解毒湯濃縮顆粒"
 * #A009802 ^property[0].code = #status
 * #A009802 ^property[=].valueString = "新增"
-* #A009802 ^property[+].code = #updateDate
+* #A009802 ^property[+].code = #effectiveDate
 * #A009802 ^property[=].valueString = "2024-05"
 * #A009803 "明通清暑益氣湯濃縮顆粒"
 * #A009803 ^property[0].code = #status
 * #A009803 ^property[=].valueString = "新增"
-* #A009803 ^property[+].code = #updateDate
+* #A009803 ^property[+].code = #effectiveDate
 * #A009803 ^property[=].valueString = "2024-05"
 * #A009804 "明通薏苡仁湯濃縮顆粒"
 * #A009804 ^property[0].code = #status
 * #A009804 ^property[=].valueString = "新增"
-* #A009804 ^property[+].code = #updateDate
+* #A009804 ^property[+].code = #effectiveDate
 * #A009804 ^property[=].valueString = "2024-05"
 * #A009805 "明通麥門冬湯濃縮顆粒"
 * #A009805 ^property[0].code = #status
 * #A009805 ^property[=].valueString = "新增"
-* #A009805 ^property[+].code = #updateDate
+* #A009805 ^property[+].code = #effectiveDate
 * #A009805 ^property[=].valueString = "2024-05"
 * #A009806 "明通六君子湯濃縮顆粒"
 * #A009806 ^property[0].code = #status
 * #A009806 ^property[=].valueString = "新增"
-* #A009806 ^property[+].code = #updateDate
+* #A009806 ^property[+].code = #effectiveDate
 * #A009806 ^property[=].valueString = "2024-05"
 * #A009807 "明通三黃瀉心湯濃縮顆粒"
 * #A009807 ^property[0].code = #status
 * #A009807 ^property[=].valueString = "新增"
-* #A009807 ^property[+].code = #updateDate
+* #A009807 ^property[+].code = #effectiveDate
 * #A009807 ^property[=].valueString = "2024-05"
 * #A009808 "明通半夏厚朴湯濃縮顆粒"
 * #A009808 ^property[0].code = #status
 * #A009808 ^property[=].valueString = "新增"
-* #A009808 ^property[+].code = #updateDate
+* #A009808 ^property[+].code = #effectiveDate
 * #A009808 ^property[=].valueString = "2024-05"
 * #A009812 "明通歸脾湯濃縮顆粒"
 * #A009812 ^property[0].code = #status
 * #A009812 ^property[=].valueString = "新增"
-* #A009812 ^property[+].code = #updateDate
+* #A009812 ^property[+].code = #effectiveDate
 * #A009812 ^property[=].valueString = "2024-05"
 * #A009813 "明通溫清飲濃縮顆粒"
 * #A009813 ^property[0].code = #status
 * #A009813 ^property[=].valueString = "新增"
-* #A009813 ^property[+].code = #updateDate
+* #A009813 ^property[+].code = #effectiveDate
 * #A009813 ^property[=].valueString = "2024-05"
 * #A009814 "明通黃連解毒湯濃縮顆粒"
 * #A009814 ^property[0].code = #status
 * #A009814 ^property[=].valueString = "新增"
-* #A009814 ^property[+].code = #updateDate
+* #A009814 ^property[+].code = #effectiveDate
 * #A009814 ^property[=].valueString = "2024-05"
 * #A009815 "明通理中湯濃縮顆粒"
 * #A009815 ^property[0].code = #status
 * #A009815 ^property[=].valueString = "新增"
-* #A009815 ^property[+].code = #updateDate
+* #A009815 ^property[+].code = #effectiveDate
 * #A009815 ^property[=].valueString = "2024-05"
 * #A009816 "明通麻子仁丸濃縮顆粒"
 * #A009816 ^property[0].code = #status
 * #A009816 ^property[=].valueString = "新增"
-* #A009816 ^property[+].code = #updateDate
+* #A009816 ^property[+].code = #effectiveDate
 * #A009816 ^property[=].valueString = "2024-05"
 * #A009817 "明通小柴胡湯濃縮顆粒"
 * #A009817 ^property[0].code = #status
 * #A009817 ^property[=].valueString = "新增"
-* #A009817 ^property[+].code = #updateDate
+* #A009817 ^property[+].code = #effectiveDate
 * #A009817 ^property[=].valueString = "2024-05"
 * #A009818 "明通當歸散濃縮顆粒"
 * #A009818 ^property[0].code = #status
 * #A009818 ^property[=].valueString = "新增"
-* #A009818 ^property[+].code = #updateDate
+* #A009818 ^property[+].code = #effectiveDate
 * #A009818 ^property[=].valueString = "2024-05"
 * #A009820 "明通疏經活血湯濃縮細粒"
 * #A009820 ^property[0].code = #status
 * #A009820 ^property[=].valueString = "新增"
-* #A009820 ^property[+].code = #updateDate
+* #A009820 ^property[+].code = #effectiveDate
 * #A009820 ^property[=].valueString = "2024-05"
 * #A009821 "明通安胎飲濃縮顆粒"
 * #A009821 ^property[0].code = #status
 * #A009821 ^property[=].valueString = "新增"
-* #A009821 ^property[+].code = #updateDate
+* #A009821 ^property[+].code = #effectiveDate
 * #A009821 ^property[=].valueString = "2024-05"
 * #A009822 "明通桂枝茯苓丸濃縮顆粒"
 * #A009822 ^property[0].code = #status
 * #A009822 ^property[=].valueString = "新增"
-* #A009822 ^property[+].code = #updateDate
+* #A009822 ^property[+].code = #effectiveDate
 * #A009822 ^property[=].valueString = "2024-05"
 * #A009823 "明通十神湯濃縮顆粒"
 * #A009823 ^property[0].code = #status
 * #A009823 ^property[=].valueString = "新增"
-* #A009823 ^property[+].code = #updateDate
+* #A009823 ^property[+].code = #effectiveDate
 * #A009823 ^property[=].valueString = "2024-05"
 * #A009825 "明通聖愈湯濃縮顆粒"
 * #A009825 ^property[0].code = #status
 * #A009825 ^property[=].valueString = "新增"
-* #A009825 ^property[+].code = #updateDate
+* #A009825 ^property[+].code = #effectiveDate
 * #A009825 ^property[=].valueString = "2024-05"
 * #A009826 "明通甘露飲濃縮散"
 * #A009826 ^property[0].code = #status
 * #A009826 ^property[=].valueString = "新增"
-* #A009826 ^property[+].code = #updateDate
+* #A009826 ^property[+].code = #effectiveDate
 * #A009826 ^property[=].valueString = "2024-05"
 * #A009827 "明通玉女煎濃縮顆粒"
 * #A009827 ^property[0].code = #status
 * #A009827 ^property[=].valueString = "新增"
-* #A009827 ^property[+].code = #updateDate
+* #A009827 ^property[+].code = #effectiveDate
 * #A009827 ^property[=].valueString = "2024-05"
 * #A009828 "明通逍遙散濃縮細粒"
 * #A009828 ^property[0].code = #status
 * #A009828 ^property[=].valueString = "新增"
-* #A009828 ^property[+].code = #updateDate
+* #A009828 ^property[+].code = #effectiveDate
 * #A009828 ^property[=].valueString = "2024-05"
 * #A009829 "復旦炙甘草湯濃縮散"
 * #A009829 ^property[0].code = #status
 * #A009829 ^property[=].valueString = "新增"
-* #A009829 ^property[+].code = #updateDate
+* #A009829 ^property[+].code = #effectiveDate
 * #A009829 ^property[=].valueString = "2024-05"
 * #A009831 "復旦荊芥連翹湯濃縮散"
 * #A009831 ^property[0].code = #status
 * #A009831 ^property[=].valueString = "新增"
-* #A009831 ^property[+].code = #updateDate
+* #A009831 ^property[+].code = #effectiveDate
 * #A009831 ^property[=].valueString = "2024-05"
 * #A009832 "復旦普濟消毒飲濃縮散"
 * #A009832 ^property[0].code = #status
 * #A009832 ^property[=].valueString = "新增"
-* #A009832 ^property[+].code = #updateDate
+* #A009832 ^property[+].code = #effectiveDate
 * #A009832 ^property[=].valueString = "2024-05"
 * #A009833 "明通當歸補血湯濃縮顆粒"
 * #A009833 ^property[0].code = #status
 * #A009833 ^property[=].valueString = "新增"
-* #A009833 ^property[+].code = #updateDate
+* #A009833 ^property[+].code = #effectiveDate
 * #A009833 ^property[=].valueString = "2024-05"
 * #A009834 "明通當歸四逆湯濃縮顆粒"
 * #A009834 ^property[0].code = #status
 * #A009834 ^property[=].valueString = "新增"
-* #A009834 ^property[+].code = #updateDate
+* #A009834 ^property[+].code = #effectiveDate
 * #A009834 ^property[=].valueString = "2024-05"
 * #A009835 "明通葛根湯濃縮細粒"
 * #A009835 ^property[0].code = #status
 * #A009835 ^property[=].valueString = "新增"
-* #A009835 ^property[+].code = #updateDate
+* #A009835 ^property[+].code = #effectiveDate
 * #A009835 ^property[=].valueString = "2024-05"
 * #A009836 "明通柴胡加龍骨牡蠣湯濃縮顆粒"
 * #A009836 ^property[0].code = #status
 * #A009836 ^property[=].valueString = "新增"
-* #A009836 ^property[+].code = #updateDate
+* #A009836 ^property[+].code = #effectiveDate
 * #A009836 ^property[=].valueString = "2024-05"
 * #A009837 "明通加味逍遙散濃縮顆粒"
 * #A009837 ^property[0].code = #status
 * #A009837 ^property[=].valueString = "新增"
-* #A009837 ^property[+].code = #updateDate
+* #A009837 ^property[+].code = #effectiveDate
 * #A009837 ^property[=].valueString = "2024-05"
 * #A009838 "明通當歸芍藥散濃縮顆粒"
 * #A009838 ^property[0].code = #status
 * #A009838 ^property[=].valueString = "新增"
-* #A009838 ^property[+].code = #updateDate
+* #A009838 ^property[+].code = #effectiveDate
 * #A009838 ^property[=].valueString = "2024-05"
 * #A009839 "東陽胃苓湯濃縮散"
 * #A009839 ^property[0].code = #status
 * #A009839 ^property[=].valueString = "新增"
-* #A009839 ^property[+].code = #updateDate
+* #A009839 ^property[+].code = #effectiveDate
 * #A009839 ^property[=].valueString = "2024-05"
 * #A009840 "明通桑菊飲濃縮顆粒"
 * #A009840 ^property[0].code = #status
 * #A009840 ^property[=].valueString = "新增"
-* #A009840 ^property[+].code = #updateDate
+* #A009840 ^property[+].code = #effectiveDate
 * #A009840 ^property[=].valueString = "2024-05"
 * #A009843 "復旦豬苓湯濃縮散"
 * #A009843 ^property[0].code = #status
 * #A009843 ^property[=].valueString = "新增"
-* #A009843 ^property[+].code = #updateDate
+* #A009843 ^property[+].code = #effectiveDate
 * #A009843 ^property[=].valueString = "2024-05"
 * #A009844 "復旦吳茱萸湯濃縮散"
 * #A009844 ^property[0].code = #status
 * #A009844 ^property[=].valueString = "新增"
-* #A009844 ^property[+].code = #updateDate
+* #A009844 ^property[+].code = #effectiveDate
 * #A009844 ^property[=].valueString = "2024-05"
 * #A009845 "明通胃苓湯濃縮顆粒"
 * #A009845 ^property[0].code = #status
 * #A009845 ^property[=].valueString = "新增"
-* #A009845 ^property[+].code = #updateDate
+* #A009845 ^property[+].code = #effectiveDate
 * #A009845 ^property[=].valueString = "2024-05"
 * #A009846 "明通荊芥連翹湯濃縮顆粒"
 * #A009846 ^property[0].code = #status
 * #A009846 ^property[=].valueString = "新增"
-* #A009846 ^property[+].code = #updateDate
+* #A009846 ^property[+].code = #effectiveDate
 * #A009846 ^property[=].valueString = "2024-05"
 * #A009847 "明通養陰清肺湯濃縮顆粒"
 * #A009847 ^property[0].code = #status
 * #A009847 ^property[=].valueString = "新增"
-* #A009847 ^property[+].code = #updateDate
+* #A009847 ^property[+].code = #effectiveDate
 * #A009847 ^property[=].valueString = "2024-05"
 * #A009848 "明通當歸六黃湯濃縮顆粒"
 * #A009848 ^property[0].code = #status
 * #A009848 ^property[=].valueString = "新增"
-* #A009848 ^property[+].code = #updateDate
+* #A009848 ^property[+].code = #effectiveDate
 * #A009848 ^property[=].valueString = "2024-05"
 * #A010000 "明通真武湯濃縮顆粒"
 * #A010000 ^property[0].code = #status
 * #A010000 ^property[=].valueString = "新增"
-* #A010000 ^property[+].code = #updateDate
+* #A010000 ^property[+].code = #effectiveDate
 * #A010000 ^property[=].valueString = "2024-05"
 * #A010001 "明通酸棗仁湯濃縮顆粒"
 * #A010001 ^property[0].code = #status
 * #A010001 ^property[=].valueString = "新增"
-* #A010001 ^property[+].code = #updateDate
+* #A010001 ^property[+].code = #effectiveDate
 * #A010001 ^property[=].valueString = "2024-05"
 * #A010002 "明通華蓋散濃縮顆粒"
 * #A010002 ^property[0].code = #status
 * #A010002 ^property[=].valueString = "新增"
-* #A010002 ^property[+].code = #updateDate
+* #A010002 ^property[+].code = #effectiveDate
 * #A010002 ^property[=].valueString = "2024-05"
 * #A010003 "明通桂枝加芍藥湯濃縮顆粒"
 * #A010003 ^property[0].code = #status
 * #A010003 ^property[=].valueString = "新增"
-* #A010003 ^property[+].code = #updateDate
+* #A010003 ^property[+].code = #effectiveDate
 * #A010003 ^property[=].valueString = "2024-05"
 * #A010005 "明通四君子湯濃縮細粒"
 * #A010005 ^property[0].code = #status
 * #A010005 ^property[=].valueString = "新增"
-* #A010005 ^property[+].code = #updateDate
+* #A010005 ^property[+].code = #effectiveDate
 * #A010005 ^property[=].valueString = "2024-05"
 * #A010006 "明通續命湯濃縮顆粒"
 * #A010006 ^property[0].code = #status
 * #A010006 ^property[=].valueString = "新增"
-* #A010006 ^property[+].code = #updateDate
+* #A010006 ^property[+].code = #effectiveDate
 * #A010006 ^property[=].valueString = "2024-05"
 * #A010007 "明通知柏地黃丸濃縮細粒"
 * #A010007 ^property[0].code = #status
 * #A010007 ^property[=].valueString = "新增"
-* #A010007 ^property[+].code = #updateDate
+* #A010007 ^property[+].code = #effectiveDate
 * #A010007 ^property[=].valueString = "2024-05"
 * #A010008 "明通正氣天香散濃縮顆粒"
 * #A010008 ^property[0].code = #status
 * #A010008 ^property[=].valueString = "新增"
-* #A010008 ^property[+].code = #updateDate
+* #A010008 ^property[+].code = #effectiveDate
 * #A010008 ^property[=].valueString = "2024-05"
 * #A010009 "明通金鎖固精丸濃縮顆粒"
 * #A010009 ^property[0].code = #status
 * #A010009 ^property[=].valueString = "新增"
-* #A010009 ^property[+].code = #updateDate
+* #A010009 ^property[+].code = #effectiveDate
 * #A010009 ^property[=].valueString = "2024-05"
 * #A010034 "明通防己黃耆湯濃縮顆粒"
 * #A010034 ^property[0].code = #status
 * #A010034 ^property[=].valueString = "新增"
-* #A010034 ^property[+].code = #updateDate
+* #A010034 ^property[+].code = #effectiveDate
 * #A010034 ^property[=].valueString = "2024-05"
 * #A010035 "明通龍膽瀉肝湯濃縮顆粒"
 * #A010035 ^property[0].code = #status
 * #A010035 ^property[=].valueString = "新增"
-* #A010035 ^property[+].code = #updateDate
+* #A010035 ^property[+].code = #effectiveDate
 * #A010035 ^property[=].valueString = "2024-05"
 * #A010037 "復旦芍藥湯濃縮散"
 * #A010037 ^property[0].code = #status
 * #A010037 ^property[=].valueString = "新增"
-* #A010037 ^property[+].code = #updateDate
+* #A010037 ^property[+].code = #effectiveDate
 * #A010037 ^property[=].valueString = "2024-05"
 * #A010038 "復旦桂枝龍骨牡蠣湯濃縮散"
 * #A010038 ^property[0].code = #status
 * #A010038 ^property[=].valueString = "新增"
-* #A010038 ^property[+].code = #updateDate
+* #A010038 ^property[+].code = #effectiveDate
 * #A010038 ^property[=].valueString = "2024-05"
 * #A010039 "明通導赤散濃縮顆粒"
 * #A010039 ^property[0].code = #status
 * #A010039 ^property[=].valueString = "新增"
-* #A010039 ^property[+].code = #updateDate
+* #A010039 ^property[+].code = #effectiveDate
 * #A010039 ^property[=].valueString = "2024-05"
 * #A010040 "明通濟生腎氣丸濃縮細粒"
 * #A010040 ^property[0].code = #status
 * #A010040 ^property[=].valueString = "新增"
-* #A010040 ^property[+].code = #updateDate
+* #A010040 ^property[+].code = #effectiveDate
 * #A010040 ^property[=].valueString = "2024-05"
 * #A010041 "復旦大承氣湯濃縮散"
 * #A010041 ^property[0].code = #status
 * #A010041 ^property[=].valueString = "新增"
-* #A010041 ^property[+].code = #updateDate
+* #A010041 ^property[+].code = #effectiveDate
 * #A010041 ^property[=].valueString = "2024-05"
 * #A010042 "明通生化湯濃縮顆粒"
 * #A010042 ^property[0].code = #status
 * #A010042 ^property[=].valueString = "新增"
-* #A010042 ^property[+].code = #updateDate
+* #A010042 ^property[+].code = #effectiveDate
 * #A010042 ^property[=].valueString = "2024-05"
 * #A010044 "明通柏子仁丸濃縮顆粒"
 * #A010044 ^property[0].code = #status
 * #A010044 ^property[=].valueString = "新增"
-* #A010044 ^property[+].code = #updateDate
+* #A010044 ^property[+].code = #effectiveDate
 * #A010044 ^property[=].valueString = "2024-05"
 * #A010045 "明通苓桂朮甘湯濃縮顆粒"
 * #A010045 ^property[0].code = #status
 * #A010045 ^property[=].valueString = "新增"
-* #A010045 ^property[+].code = #updateDate
+* #A010045 ^property[+].code = #effectiveDate
 * #A010045 ^property[=].valueString = "2024-05"
 * #A010046 "明通上中下通用痛風丸濃縮細粒"
 * #A010046 ^property[0].code = #status
 * #A010046 ^property[=].valueString = "新增"
-* #A010046 ^property[+].code = #updateDate
+* #A010046 ^property[+].code = #effectiveDate
 * #A010046 ^property[=].valueString = "2024-05"
 * #A010048 "明通獨活寄生湯濃縮顆粒"
 * #A010048 ^property[0].code = #status
 * #A010048 ^property[=].valueString = "新增"
-* #A010048 ^property[+].code = #updateDate
+* #A010048 ^property[+].code = #effectiveDate
 * #A010048 ^property[=].valueString = "2024-05"
 * #A010049 "明通清心蓮子湯濃縮顆粒"
 * #A010049 ^property[0].code = #status
 * #A010049 ^property[=].valueString = "新增"
-* #A010049 ^property[+].code = #updateDate
+* #A010049 ^property[+].code = #effectiveDate
 * #A010049 ^property[=].valueString = "2024-05"
 * #A010052 "明通八味地黃丸濃縮顆粒"
 * #A010052 ^property[0].code = #status
 * #A010052 ^property[=].valueString = "新增"
-* #A010052 ^property[+].code = #updateDate
+* #A010052 ^property[+].code = #effectiveDate
 * #A010052 ^property[=].valueString = "2024-05"
 * #A010084 "勝昌甘露消毒丹濃縮散"
 * #A010084 ^property[0].code = #status
 * #A010084 ^property[=].valueString = "新增"
-* #A010084 ^property[+].code = #updateDate
+* #A010084 ^property[+].code = #effectiveDate
 * #A010084 ^property[=].valueString = "2024-05"
 * #A010087 "漢聖當歸拈痛湯濃縮散"
 * #A010087 ^property[0].code = #status
 * #A010087 ^property[=].valueString = "新增"
-* #A010087 ^property[+].code = #updateDate
+* #A010087 ^property[+].code = #effectiveDate
 * #A010087 ^property[=].valueString = "2024-05"
 * #A010095 "明通越鞠丸濃縮顆粒"
 * #A010095 ^property[0].code = #status
 * #A010095 ^property[=].valueString = "新增"
-* #A010095 ^property[+].code = #updateDate
+* #A010095 ^property[+].code = #effectiveDate
 * #A010095 ^property[=].valueString = "2024-05"
 * #A010097 "明通抑肝濃縮顆粒"
 * #A010097 ^property[0].code = #status
 * #A010097 ^property[=].valueString = "新增"
-* #A010097 ^property[+].code = #updateDate
+* #A010097 ^property[+].code = #effectiveDate
 * #A010097 ^property[=].valueString = "2024-05"
 * #A010098 "明通清氣化痰湯濃縮顆粒"
 * #A010098 ^property[0].code = #status
 * #A010098 ^property[=].valueString = "新增"
-* #A010098 ^property[+].code = #updateDate
+* #A010098 ^property[+].code = #effectiveDate
 * #A010098 ^property[=].valueString = "2024-05"
 * #A010238 "東陽益氣聰明湯濃縮散"
 * #A010238 ^property[0].code = #status
 * #A010238 ^property[=].valueString = "新增"
-* #A010238 ^property[+].code = #updateDate
+* #A010238 ^property[+].code = #effectiveDate
 * #A010238 ^property[=].valueString = "2024-05"
 * #A010239 "漢聖天王補心丹濃縮散"
 * #A010239 ^property[0].code = #status
 * #A010239 ^property[=].valueString = "新增"
-* #A010239 ^property[+].code = #updateDate
+* #A010239 ^property[+].code = #effectiveDate
 * #A010239 ^property[=].valueString = "2024-05"
 * #A010240 "東陽人參敗毒散濃縮散"
 * #A010240 ^property[0].code = #status
 * #A010240 ^property[=].valueString = "新增"
-* #A010240 ^property[+].code = #updateDate
+* #A010240 ^property[+].code = #effectiveDate
 * #A010240 ^property[=].valueString = "2024-05"
 * #A010328 "東陽芎歸膠艾湯濃縮散"
 * #A010328 ^property[0].code = #status
 * #A010328 ^property[=].valueString = "新增"
-* #A010328 ^property[+].code = #updateDate
+* #A010328 ^property[+].code = #effectiveDate
 * #A010328 ^property[=].valueString = "2024-05"
 * #A010469 "東陽清咽利膈湯濃縮散"
 * #A010469 ^property[0].code = #status
 * #A010469 ^property[=].valueString = "新增"
-* #A010469 ^property[+].code = #updateDate
+* #A010469 ^property[+].code = #effectiveDate
 * #A010469 ^property[=].valueString = "2024-05"
 * #A010470 "東陽清燥救肺湯濃縮散"
 * #A010470 ^property[0].code = #status
 * #A010470 ^property[=].valueString = "新增"
-* #A010470 ^property[+].code = #updateDate
+* #A010470 ^property[+].code = #effectiveDate
 * #A010470 ^property[=].valueString = "2024-05"
 * #A010609 "東陽保產無憂方濃縮散"
 * #A010609 ^property[0].code = #status
 * #A010609 ^property[=].valueString = "新增"
-* #A010609 ^property[+].code = #updateDate
+* #A010609 ^property[+].code = #effectiveDate
 * #A010609 ^property[=].valueString = "2024-05"
 * #A010610 "明通槐花散濃縮散"
 * #A010610 ^property[0].code = #status
 * #A010610 ^property[=].valueString = "新增"
-* #A010610 ^property[+].code = #updateDate
+* #A010610 ^property[+].code = #effectiveDate
 * #A010610 ^property[=].valueString = "2024-05"
 * #A010612 "明通炙甘草湯濃縮散"
 * #A010612 ^property[0].code = #status
 * #A010612 ^property[=].valueString = "新增"
-* #A010612 ^property[+].code = #updateDate
+* #A010612 ^property[+].code = #effectiveDate
 * #A010612 ^property[=].valueString = "2024-05"
 * #A010693 "漢聖辛夷清肺湯濃縮散"
 * #A010693 ^property[0].code = #status
 * #A010693 ^property[=].valueString = "新增"
-* #A010693 ^property[+].code = #updateDate
+* #A010693 ^property[+].code = #effectiveDate
 * #A010693 ^property[=].valueString = "2024-05"
 * #A010779 "東陽真人活命飲(去穿山甲)濃縮散"
 * #A010779 ^property[0].code = #status
 * #A010779 ^property[=].valueString = "新增"
-* #A010779 ^property[+].code = #updateDate
+* #A010779 ^property[+].code = #effectiveDate
 * #A010779 ^property[=].valueString = "2024-05"
 * #A010780 "東陽茯菟丹濃縮散"
 * #A010780 ^property[0].code = #status
 * #A010780 ^property[=].valueString = "新增"
-* #A010780 ^property[+].code = #updateDate
+* #A010780 ^property[+].code = #effectiveDate
 * #A010780 ^property[=].valueString = "2024-05"
 * #A010781 "東陽溫經湯濃縮散"
 * #A010781 ^property[0].code = #status
 * #A010781 ^property[=].valueString = "新增"
-* #A010781 ^property[+].code = #updateDate
+* #A010781 ^property[+].code = #effectiveDate
 * #A010781 ^property[=].valueString = "2024-05"
 * #A011325 "勝昌防己黃耆湯濃縮散"
 * #A011325 ^property[0].code = #status
 * #A011325 ^property[=].valueString = "新增"
-* #A011325 ^property[+].code = #updateDate
+* #A011325 ^property[+].code = #effectiveDate
 * #A011325 ^property[=].valueString = "2024-05"
 * #A011621 "明通黃耆建中湯濃縮散"
 * #A011621 ^property[0].code = #status
 * #A011621 ^property[=].valueString = "新增"
-* #A011621 ^property[+].code = #updateDate
+* #A011621 ^property[+].code = #effectiveDate
 * #A011621 ^property[=].valueString = "2024-05"
 * #A011622 "明通涼膈散濃顆粒"
 * #A011622 ^property[0].code = #status
 * #A011622 ^property[=].valueString = "新增"
-* #A011622 ^property[+].code = #updateDate
+* #A011622 ^property[+].code = #effectiveDate
 * #A011622 ^property[=].valueString = "2024-05"
 * #A011624 "明通黃連上清丸濃縮顆粒"
 * #A011624 ^property[0].code = #status
 * #A011624 ^property[=].valueString = "新增"
-* #A011624 ^property[+].code = #updateDate
+* #A011624 ^property[+].code = #effectiveDate
 * #A011624 ^property[=].valueString = "2024-05"
 * #A011625 "明通木香檳榔丸濃縮散"
 * #A011625 ^property[0].code = #status
 * #A011625 ^property[=].valueString = "新增"
-* #A011625 ^property[+].code = #updateDate
+* #A011625 ^property[+].code = #effectiveDate
 * #A011625 ^property[=].valueString = "2024-05"
 * #A011633 "明通參蘇飲濃縮細粒"
 * #A011633 ^property[0].code = #status
 * #A011633 ^property[=].valueString = "新增"
-* #A011633 ^property[+].code = #updateDate
+* #A011633 ^property[+].code = #effectiveDate
 * #A011633 ^property[=].valueString = "2024-05"
 * #A011635 "明通清燥救肺湯濃縮顆粒"
 * #A011635 ^property[0].code = #status
 * #A011635 ^property[=].valueString = "新增"
-* #A011635 ^property[+].code = #updateDate
+* #A011635 ^property[+].code = #effectiveDate
 * #A011635 ^property[=].valueString = "2024-05"
 * #A011636 "明通香砂六君子湯濃縮顆粒"
 * #A011636 ^property[0].code = #status
 * #A011636 ^property[=].valueString = "新增"
-* #A011636 ^property[+].code = #updateDate
+* #A011636 ^property[+].code = #effectiveDate
 * #A011636 ^property[=].valueString = "2024-05"
 * #A011637 "復旦萆薢分清飲濃縮散"
 * #A011637 ^property[0].code = #status
 * #A011637 ^property[=].valueString = "新增"
-* #A011637 ^property[+].code = #updateDate
+* #A011637 ^property[+].code = #effectiveDate
 * #A011637 ^property[=].valueString = "2024-05"
 * #A011642 "東陽三黃石膏湯濃縮散"
 * #A011642 ^property[0].code = #status
 * #A011642 ^property[=].valueString = "新增"
-* #A011642 ^property[+].code = #updateDate
+* #A011642 ^property[+].code = #effectiveDate
 * #A011642 ^property[=].valueString = "2024-05"
 * #A011694 "明通清肺湯濃縮顆粒"
 * #A011694 ^property[0].code = #status
 * #A011694 ^property[=].valueString = "新增"
-* #A011694 ^property[+].code = #updateDate
+* #A011694 ^property[+].code = #effectiveDate
 * #A011694 ^property[=].valueString = "2024-05"
 * #A011942 "明通甘草瀉心湯濃縮散"
 * #A011942 ^property[0].code = #status
 * #A011942 ^property[=].valueString = "新增"
-* #A011942 ^property[+].code = #updateDate
+* #A011942 ^property[+].code = #effectiveDate
 * #A011942 ^property[=].valueString = "2024-05"
 * #A011943 "明通三痹湯濃縮散"
 * #A011943 ^property[0].code = #status
 * #A011943 ^property[=].valueString = "新增"
-* #A011943 ^property[+].code = #updateDate
+* #A011943 ^property[+].code = #effectiveDate
 * #A011943 ^property[=].valueString = "2024-05"
 * #A012030 "明通六味地黃丸濃縮細粒"
 * #A012030 ^property[0].code = #status
 * #A012030 ^property[=].valueString = "新增"
-* #A012030 ^property[+].code = #updateDate
+* #A012030 ^property[+].code = #effectiveDate
 * #A012030 ^property[=].valueString = "2024-05"
 * #A012031 "明通藿香正氣散濃縮細粒"
 * #A012031 ^property[0].code = #status
 * #A012031 ^property[=].valueString = "新增"
-* #A012031 ^property[+].code = #updateDate
+* #A012031 ^property[+].code = #effectiveDate
 * #A012031 ^property[=].valueString = "2024-05"
 * #A012032 "明通麻杏甘石湯濃縮顆粒"
 * #A012032 ^property[0].code = #status
 * #A012032 ^property[=].valueString = "新增"
-* #A012032 ^property[+].code = #updateDate
+* #A012032 ^property[+].code = #effectiveDate
 * #A012032 ^property[=].valueString = "2024-05"
 * #A012033 "明通清上防風湯濃縮顆粒"
 * #A012033 ^property[0].code = #status
 * #A012033 ^property[=].valueString = "新增"
-* #A012033 ^property[+].code = #updateDate
+* #A012033 ^property[+].code = #effectiveDate
 * #A012033 ^property[=].valueString = "2024-05"
 * #A012034 "明通桂枝湯濃縮顆粒"
 * #A012034 ^property[0].code = #status
 * #A012034 ^property[=].valueString = "新增"
-* #A012034 ^property[+].code = #updateDate
+* #A012034 ^property[+].code = #effectiveDate
 * #A012034 ^property[=].valueString = "2024-05"
 * #A012035 "明通九味羌活湯濃縮顆粒"
 * #A012035 ^property[0].code = #status
 * #A012035 ^property[=].valueString = "新增"
-* #A012035 ^property[+].code = #updateDate
+* #A012035 ^property[+].code = #effectiveDate
 * #A012035 ^property[=].valueString = "2024-05"
 * #A012036 "明通川芎茶調散濃縮顆粒"
 * #A012036 ^property[0].code = #status
 * #A012036 ^property[=].valueString = "新增"
-* #A012036 ^property[+].code = #updateDate
+* #A012036 ^property[+].code = #effectiveDate
 * #A012036 ^property[=].valueString = "2024-05"
 * #A012037 "明通四物湯濃縮顆粒"
 * #A012037 ^property[0].code = #status
 * #A012037 ^property[=].valueString = "新增"
-* #A012037 ^property[+].code = #updateDate
+* #A012037 ^property[+].code = #effectiveDate
 * #A012037 ^property[=].valueString = "2024-05"
 * #A012038 "明通平胃散濃縮顆粒"
 * #A012038 ^property[0].code = #status
 * #A012038 ^property[=].valueString = "新增"
-* #A012038 ^property[+].code = #updateDate
+* #A012038 ^property[+].code = #effectiveDate
 * #A012038 ^property[=].valueString = "2024-05"
 * #A012039 "明通甘露消毒丹濃縮細粒"
 * #A012039 ^property[0].code = #status
 * #A012039 ^property[=].valueString = "新增"
-* #A012039 ^property[+].code = #updateDate
+* #A012039 ^property[+].code = #effectiveDate
 * #A012039 ^property[=].valueString = "2024-05"
 * #A012040 "明通白虎湯濃縮顆粒"
 * #A012040 ^property[0].code = #status
 * #A012040 ^property[=].valueString = "新增"
-* #A012040 ^property[+].code = #updateDate
+* #A012040 ^property[+].code = #effectiveDate
 * #A012040 ^property[=].valueString = "2024-05"
 * #A012041 "明通補中益氣湯濃縮細粒"
 * #A012041 ^property[0].code = #status
 * #A012041 ^property[=].valueString = "新增"
-* #A012041 ^property[+].code = #updateDate
+* #A012041 ^property[+].code = #effectiveDate
 * #A012041 ^property[=].valueString = "2024-05"
 * #A012042 "明通完帶湯濃縮顆粒"
 * #A012042 ^property[0].code = #status
 * #A012042 ^property[=].valueString = "新增"
-* #A012042 ^property[+].code = #updateDate
+* #A012042 ^property[+].code = #effectiveDate
 * #A012042 ^property[=].valueString = "2024-05"
 * #A012043 "明通消風散濃縮細粒"
 * #A012043 ^property[0].code = #status
 * #A012043 ^property[=].valueString = "新增"
-* #A012043 ^property[+].code = #updateDate
+* #A012043 ^property[+].code = #effectiveDate
 * #A012043 ^property[=].valueString = "2024-05"
 * #A012044 "明通麻黃附子細辛湯濃縮顆粒"
 * #A012044 ^property[0].code = #status
 * #A012044 ^property[=].valueString = "新增"
-* #A012044 ^property[+].code = #updateDate
+* #A012044 ^property[+].code = #effectiveDate
 * #A012044 ^property[=].valueString = "2024-05"
 * #A012045 "明通萆薢分清飲濃縮顆粒"
 * #A012045 ^property[0].code = #status
 * #A012045 ^property[=].valueString = "新增"
-* #A012045 ^property[+].code = #updateDate
+* #A012045 ^property[+].code = #effectiveDate
 * #A012045 ^property[=].valueString = "2024-05"
 * #A012126 "明通八正散濃縮散"
 * #A012126 ^property[0].code = #status
 * #A012126 ^property[=].valueString = "新增"
-* #A012126 ^property[+].code = #updateDate
+* #A012126 ^property[+].code = #effectiveDate
 * #A012126 ^property[=].valueString = "2024-05"
 * #A012127 "明通豬苓湯濃縮顆粒"
 * #A012127 ^property[0].code = #status
 * #A012127 ^property[=].valueString = "新增"
-* #A012127 ^property[+].code = #updateDate
+* #A012127 ^property[+].code = #effectiveDate
 * #A012127 ^property[=].valueString = "2024-05"
 * #A012170 "勝昌黃芩湯濃縮散"
 * #A012170 ^property[0].code = #status
 * #A012170 ^property[=].valueString = "新增"
-* #A012170 ^property[+].code = #updateDate
+* #A012170 ^property[+].code = #effectiveDate
 * #A012170 ^property[=].valueString = "2024-05"
 * #A012247 "明通排膿散濃縮散"
 * #A012247 ^property[0].code = #status
 * #A012247 ^property[=].valueString = "新增"
-* #A012247 ^property[+].code = #updateDate
+* #A012247 ^property[+].code = #effectiveDate
 * #A012247 ^property[=].valueString = "2024-05"
 * #A012248 "明通三黃瀉心湯濃縮錠"
 * #A012248 ^property[0].code = #status
 * #A012248 ^property[=].valueString = "新增"
-* #A012248 ^property[+].code = #updateDate
+* #A012248 ^property[+].code = #effectiveDate
 * #A012248 ^property[=].valueString = "2024-05"
 * #A012257 "明通杏蘇飲濃縮顆粒"
 * #A012257 ^property[0].code = #status
 * #A012257 ^property[=].valueString = "新增"
-* #A012257 ^property[+].code = #updateDate
+* #A012257 ^property[+].code = #effectiveDate
 * #A012257 ^property[=].valueString = "2024-05"
 * #A012258 "明通小承氣湯濃縮顆粒"
 * #A012258 ^property[0].code = #status
 * #A012258 ^property[=].valueString = "新增"
-* #A012258 ^property[+].code = #updateDate
+* #A012258 ^property[+].code = #effectiveDate
 * #A012258 ^property[=].valueString = "2024-05"
 * #A012608 "東陽桂枝加芍藥湯濃縮散"
 * #A012608 ^property[0].code = #status
 * #A012608 ^property[=].valueString = "新增"
-* #A012608 ^property[+].code = #updateDate
+* #A012608 ^property[+].code = #effectiveDate
 * #A012608 ^property[=].valueString = "2024-05"
 * #A012609 "東陽養心湯濃縮散"
 * #A012609 ^property[0].code = #status
 * #A012609 ^property[=].valueString = "新增"
-* #A012609 ^property[+].code = #updateDate
+* #A012609 ^property[+].code = #effectiveDate
 * #A012609 ^property[=].valueString = "2024-05"
 * #A012611 "東陽桑螵蛸散濃縮散"
 * #A012611 ^property[0].code = #status
 * #A012611 ^property[=].valueString = "新增"
-* #A012611 ^property[+].code = #updateDate
+* #A012611 ^property[+].code = #effectiveDate
 * #A012611 ^property[=].valueString = "2024-05"
 * #A012612 "東陽抑肝散濃縮散"
 * #A012612 ^property[0].code = #status
 * #A012612 ^property[=].valueString = "新增"
-* #A012612 ^property[+].code = #updateDate
+* #A012612 ^property[+].code = #effectiveDate
 * #A012612 ^property[=].valueString = "2024-05"
 * #A012613 "東陽四味香薷飲濃縮散"
 * #A012613 ^property[0].code = #status
 * #A012613 ^property[=].valueString = "新增"
-* #A012613 ^property[+].code = #updateDate
+* #A012613 ^property[+].code = #effectiveDate
 * #A012613 ^property[=].valueString = "2024-05"
 * #A012614 "東陽千金內托散濃縮散"
 * #A012614 ^property[0].code = #status
 * #A012614 ^property[=].valueString = "新增"
-* #A012614 ^property[+].code = #updateDate
+* #A012614 ^property[+].code = #effectiveDate
 * #A012614 ^property[=].valueString = "2024-05"
 * #A012615 "東陽四生丸濃縮散"
 * #A012615 ^property[0].code = #status
 * #A012615 ^property[=].valueString = "新增"
-* #A012615 ^property[+].code = #updateDate
+* #A012615 ^property[+].code = #effectiveDate
 * #A012615 ^property[=].valueString = "2024-05"
 * #A012616 "東陽半夏天麻白朮湯濃縮散"
 * #A012616 ^property[0].code = #status
 * #A012616 ^property[=].valueString = "新增"
-* #A012616 ^property[+].code = #updateDate
+* #A012616 ^property[+].code = #effectiveDate
 * #A012616 ^property[=].valueString = "2024-05"
 * #A012618 "東陽聖愈湯濃縮散"
 * #A012618 ^property[0].code = #status
 * #A012618 ^property[=].valueString = "新增"
-* #A012618 ^property[+].code = #updateDate
+* #A012618 ^property[+].code = #effectiveDate
 * #A012618 ^property[=].valueString = "2024-05"
 * #A012619 "東陽柴胡桂枝乾薑湯濃縮散"
 * #A012619 ^property[0].code = #status
 * #A012619 ^property[=].valueString = "新增"
-* #A012619 ^property[+].code = #updateDate
+* #A012619 ^property[+].code = #effectiveDate
 * #A012619 ^property[=].valueString = "2024-05"
 * #A012621 "漢聖六味地黃丸濃縮散"
 * #A012621 ^property[0].code = #status
 * #A012621 ^property[=].valueString = "新增"
-* #A012621 ^property[+].code = #updateDate
+* #A012621 ^property[+].code = #effectiveDate
 * #A012621 ^property[=].valueString = "2024-05"
 * #A012622 "東陽十全大補湯濃縮散"
 * #A012622 ^property[0].code = #status
 * #A012622 ^property[=].valueString = "新增"
-* #A012622 ^property[+].code = #updateDate
+* #A012622 ^property[+].code = #effectiveDate
 * #A012622 ^property[=].valueString = "2024-05"
 * #A012623 "東陽三黃瀉心湯濃縮散"
 * #A012623 ^property[0].code = #status
 * #A012623 ^property[=].valueString = "新增"
-* #A012623 ^property[+].code = #updateDate
+* #A012623 ^property[+].code = #effectiveDate
 * #A012623 ^property[=].valueString = "2024-05"
 * #A012624 "東陽排膿散濃縮散"
 * #A012624 ^property[0].code = #status
 * #A012624 ^property[=].valueString = "新增"
-* #A012624 ^property[+].code = #updateDate
+* #A012624 ^property[+].code = #effectiveDate
 * #A012624 ^property[=].valueString = "2024-05"
 * #A012653 "東陽敗毒散濃縮散"
 * #A012653 ^property[0].code = #status
 * #A012653 ^property[=].valueString = "新增"
-* #A012653 ^property[+].code = #updateDate
+* #A012653 ^property[+].code = #effectiveDate
 * #A012653 ^property[=].valueString = "2024-05"
 * #A012654 "東陽當歸六黃湯濃縮散"
 * #A012654 ^property[0].code = #status
 * #A012654 ^property[=].valueString = "新增"
-* #A012654 ^property[+].code = #updateDate
+* #A012654 ^property[+].code = #effectiveDate
 * #A012654 ^property[=].valueString = "2024-05"
 * #A012655 "東陽瀉黃散濃縮散"
 * #A012655 ^property[0].code = #status
 * #A012655 ^property[=].valueString = "新增"
-* #A012655 ^property[+].code = #updateDate
+* #A012655 ^property[+].code = #effectiveDate
 * #A012655 ^property[=].valueString = "2024-05"
 * #A012656 "東陽四逆散濃縮散"
 * #A012656 ^property[0].code = #status
 * #A012656 ^property[=].valueString = "新增"
-* #A012656 ^property[+].code = #updateDate
+* #A012656 ^property[+].code = #effectiveDate
 * #A012656 ^property[=].valueString = "2024-05"
 * #A012657 "東陽柴陷湯濃縮散"
 * #A012657 ^property[0].code = #status
 * #A012657 ^property[=].valueString = "新增"
-* #A012657 ^property[+].code = #updateDate
+* #A012657 ^property[+].code = #effectiveDate
 * #A012657 ^property[=].valueString = "2024-05"
 * #A012658 "東陽苓甘五味薑辛半夏杏仁湯濃縮散"
 * #A012658 ^property[0].code = #status
 * #A012658 ^property[=].valueString = "新增"
-* #A012658 ^property[+].code = #updateDate
+* #A012658 ^property[+].code = #effectiveDate
 * #A012658 ^property[=].valueString = "2024-05"
 * #A012659 "東陽滋陰降火湯濃縮散"
 * #A012659 ^property[0].code = #status
 * #A012659 ^property[=].valueString = "新增"
-* #A012659 ^property[+].code = #updateDate
+* #A012659 ^property[+].code = #effectiveDate
 * #A012659 ^property[=].valueString = "2024-05"
 * #A012660 "漢聖知柏地黃丸濃縮散"
 * #A012660 ^property[0].code = #status
 * #A012660 ^property[=].valueString = "新增"
-* #A012660 ^property[+].code = #updateDate
+* #A012660 ^property[+].code = #effectiveDate
 * #A012660 ^property[=].valueString = "2024-05"
 * #A012661 "東陽滋腎明目湯濃縮散"
 * #A012661 ^property[0].code = #status
 * #A012661 ^property[=].valueString = "新增"
-* #A012661 ^property[+].code = #updateDate
+* #A012661 ^property[+].code = #effectiveDate
 * #A012661 ^property[=].valueString = "2024-05"
 * #A012662 "東陽炙甘草湯濃縮散"
 * #A012662 ^property[0].code = #status
 * #A012662 ^property[=].valueString = "新增"
-* #A012662 ^property[+].code = #updateDate
+* #A012662 ^property[+].code = #effectiveDate
 * #A012662 ^property[=].valueString = "2024-05"
 * #A012663 "東陽大黃牡丹皮湯濃縮散"
 * #A012663 ^property[0].code = #status
 * #A012663 ^property[=].valueString = "新增"
-* #A012663 ^property[+].code = #updateDate
+* #A012663 ^property[+].code = #effectiveDate
 * #A012663 ^property[=].valueString = "2024-05"
 * #A012665 "東陽托裡消毒散濃縮散"
 * #A012665 ^property[0].code = #status
 * #A012665 ^property[=].valueString = "新增"
-* #A012665 ^property[+].code = #updateDate
+* #A012665 ^property[+].code = #effectiveDate
 * #A012665 ^property[=].valueString = "2024-05"
 * #A012666 "東陽導水茯苓湯濃縮散"
 * #A012666 ^property[0].code = #status
 * #A012666 ^property[=].valueString = "新增"
-* #A012666 ^property[+].code = #updateDate
+* #A012666 ^property[+].code = #effectiveDate
 * #A012666 ^property[=].valueString = "2024-05"
 * #A012667 "東陽八仙湯濃縮散"
 * #A012667 ^property[0].code = #status
 * #A012667 ^property[=].valueString = "新增"
-* #A012667 ^property[+].code = #updateDate
+* #A012667 ^property[+].code = #effectiveDate
 * #A012667 ^property[=].valueString = "2024-05"
 * #A012668 "東陽桂枝加龍骨牡蠣湯濃縮散"
 * #A012668 ^property[0].code = #status
 * #A012668 ^property[=].valueString = "新增"
-* #A012668 ^property[+].code = #updateDate
+* #A012668 ^property[+].code = #effectiveDate
 * #A012668 ^property[=].valueString = "2024-05"
 * #A012669 "東陽普濟消毒飲濃縮散"
 * #A012669 ^property[0].code = #status
 * #A012669 ^property[=].valueString = "新增"
-* #A012669 ^property[+].code = #updateDate
+* #A012669 ^property[+].code = #effectiveDate
 * #A012669 ^property[=].valueString = "2024-05"
 * #A012670 "東陽秦艽鱉甲散濃縮散"
 * #A012670 ^property[0].code = #status
 * #A012670 ^property[=].valueString = "新增"
-* #A012670 ^property[+].code = #updateDate
+* #A012670 ^property[+].code = #effectiveDate
 * #A012670 ^property[=].valueString = "2024-05"
 * #A012671 "東陽白虎加人參湯濃縮散"
 * #A012671 ^property[0].code = #status
 * #A012671 ^property[=].valueString = "新增"
-* #A012671 ^property[+].code = #updateDate
+* #A012671 ^property[+].code = #effectiveDate
 * #A012671 ^property[=].valueString = "2024-05"
 * #A012672 "東陽木香檳榔丸濃縮散"
 * #A012672 ^property[0].code = #status
 * #A012672 ^property[=].valueString = "新增"
-* #A012672 ^property[+].code = #updateDate
+* #A012672 ^property[+].code = #effectiveDate
 * #A012672 ^property[=].valueString = "2024-05"
 * #A012716 "東陽柴胡清肝湯濃縮散"
 * #A012716 ^property[0].code = #status
 * #A012716 ^property[=].valueString = "新增"
-* #A012716 ^property[+].code = #updateDate
+* #A012716 ^property[+].code = #effectiveDate
 * #A012716 ^property[=].valueString = "2024-05"
 * #A012791 "明通乙字湯濃縮顆粒"
 * #A012791 ^property[0].code = #status
 * #A012791 ^property[=].valueString = "新增"
-* #A012791 ^property[+].code = #updateDate
+* #A012791 ^property[+].code = #effectiveDate
 * #A012791 ^property[=].valueString = "2024-05"
 * #A012793 "明通二陳湯濃顆粒"
 * #A012793 ^property[0].code = #status
 * #A012793 ^property[=].valueString = "新增"
-* #A012793 ^property[+].code = #updateDate
+* #A012793 ^property[+].code = #effectiveDate
 * #A012793 ^property[=].valueString = "2024-05"
 * #A012794 "明通人參敗毒散濃縮顆粒"
 * #A012794 ^property[0].code = #status
 * #A012794 ^property[=].valueString = "新增"
-* #A012794 ^property[+].code = #updateDate
+* #A012794 ^property[+].code = #effectiveDate
 * #A012794 ^property[=].valueString = "2024-05"
 * #A012923 "東陽越婢湯濃縮散"
 * #A012923 ^property[0].code = #status
 * #A012923 ^property[=].valueString = "新增"
-* #A012923 ^property[+].code = #updateDate
+* #A012923 ^property[+].code = #effectiveDate
 * #A012923 ^property[=].valueString = "2024-05"
 * #A012924 "東陽過期飲濃縮散"
 * #A012924 ^property[0].code = #status
 * #A012924 ^property[=].valueString = "新增"
-* #A012924 ^property[+].code = #updateDate
+* #A012924 ^property[+].code = #effectiveDate
 * #A012924 ^property[=].valueString = "2024-05"
 * #A012925 "東陽香砂養胃湯濃縮散"
 * #A012925 ^property[0].code = #status
 * #A012925 ^property[=].valueString = "新增"
-* #A012925 ^property[+].code = #updateDate
+* #A012925 ^property[+].code = #effectiveDate
 * #A012925 ^property[=].valueString = "2024-05"
 * #A012926 "東陽女科柏子仁丸濃縮散"
 * #A012926 ^property[0].code = #status
 * #A012926 ^property[=].valueString = "新增"
-* #A012926 ^property[+].code = #updateDate
+* #A012926 ^property[+].code = #effectiveDate
 * #A012926 ^property[=].valueString = "2024-05"
 * #A012927 "東陽小半夏加茯苓湯濃縮散"
 * #A012927 ^property[0].code = #status
 * #A012927 ^property[=].valueString = "新增"
-* #A012927 ^property[+].code = #updateDate
+* #A012927 ^property[+].code = #effectiveDate
 * #A012927 ^property[=].valueString = "2024-05"
 * #A012928 "漢聖補中益氣湯濃縮散"
 * #A012928 ^property[0].code = #status
 * #A012928 ^property[=].valueString = "新增"
-* #A012928 ^property[+].code = #updateDate
+* #A012928 ^property[+].code = #effectiveDate
 * #A012928 ^property[=].valueString = "2024-05"
 * #A012929 "東陽射干麻黃湯濃縮散"
 * #A012929 ^property[0].code = #status
 * #A012929 ^property[=].valueString = "新增"
-* #A012929 ^property[+].code = #updateDate
+* #A012929 ^property[+].code = #effectiveDate
 * #A012929 ^property[=].valueString = "2024-05"
 * #A012932 "東陽十六味流氣飲濃縮散"
 * #A012932 ^property[0].code = #status
 * #A012932 ^property[=].valueString = "新增"
-* #A012932 ^property[+].code = #updateDate
+* #A012932 ^property[+].code = #effectiveDate
 * #A012932 ^property[=].valueString = "2024-05"
 * #A012933 "東陽滋腎通耳丸濃縮散"
 * #A012933 ^property[0].code = #status
 * #A012933 ^property[=].valueString = "新增"
-* #A012933 ^property[+].code = #updateDate
+* #A012933 ^property[+].code = #effectiveDate
 * #A012933 ^property[=].valueString = "2024-05"
 * #A012934 "東陽肥兒丸濃縮散"
 * #A012934 ^property[0].code = #status
 * #A012934 ^property[=].valueString = "新增"
-* #A012934 ^property[+].code = #updateDate
+* #A012934 ^property[+].code = #effectiveDate
 * #A012934 ^property[=].valueString = "2024-05"
 * #A012935 "東陽甘薑苓朮湯濃縮散"
 * #A012935 ^property[0].code = #status
 * #A012935 ^property[=].valueString = "新增"
-* #A012935 ^property[+].code = #updateDate
+* #A012935 ^property[+].code = #effectiveDate
 * #A012935 ^property[=].valueString = "2024-05"
 * #A012936 "東陽洗肝明目散濃縮散"
 * #A012936 ^property[0].code = #status
 * #A012936 ^property[=].valueString = "新增"
-* #A012936 ^property[+].code = #updateDate
+* #A012936 ^property[+].code = #effectiveDate
 * #A012936 ^property[=].valueString = "2024-05"
 * #A012938 "東陽越婢加朮湯濃縮散"
 * #A012938 ^property[0].code = #status
 * #A012938 ^property[=].valueString = "新增"
-* #A012938 ^property[+].code = #updateDate
+* #A012938 ^property[+].code = #effectiveDate
 * #A012938 ^property[=].valueString = "2024-05"
 * #A012939 "東陽完帶湯濃縮散"
 * #A012939 ^property[0].code = #status
 * #A012939 ^property[=].valueString = "新增"
-* #A012939 ^property[+].code = #updateDate
+* #A012939 ^property[+].code = #effectiveDate
 * #A012939 ^property[=].valueString = "2024-05"
 * #A012940 "東陽大承氣湯濃縮散"
 * #A012940 ^property[0].code = #status
 * #A012940 ^property[=].valueString = "新增"
-* #A012940 ^property[+].code = #updateDate
+* #A012940 ^property[+].code = #effectiveDate
 * #A012940 ^property[=].valueString = "2024-05"
 * #A012941 "東陽清暑益氣湯濃縮散"
 * #A012941 ^property[0].code = #status
 * #A012941 ^property[=].valueString = "新增"
-* #A012941 ^property[+].code = #updateDate
+* #A012941 ^property[+].code = #effectiveDate
 * #A012941 ^property[=].valueString = "2024-05"
 * #A013058 "東陽桃仁承氣湯濃縮散"
 * #A013058 ^property[0].code = #status
 * #A013058 ^property[=].valueString = "新增"
-* #A013058 ^property[+].code = #updateDate
+* #A013058 ^property[+].code = #effectiveDate
 * #A013058 ^property[=].valueString = "2024-05"
 * #A013065 "明通安中散濃縮顆粒"
 * #A013065 ^property[0].code = #status
 * #A013065 ^property[=].valueString = "新增"
-* #A013065 ^property[+].code = #updateDate
+* #A013065 ^property[+].code = #effectiveDate
 * #A013065 ^property[=].valueString = "2024-05"
 * #A013068 "明通安中散濃縮錠"
 * #A013068 ^property[0].code = #status
 * #A013068 ^property[=].valueString = "新增"
-* #A013068 ^property[+].code = #updateDate
+* #A013068 ^property[+].code = #effectiveDate
 * #A013068 ^property[=].valueString = "2024-05"
 * #A013069 "明通百合固金湯濃縮顆粒"
 * #A013069 ^property[0].code = #status
 * #A013069 ^property[=].valueString = "新增"
-* #A013069 ^property[+].code = #updateDate
+* #A013069 ^property[+].code = #effectiveDate
 * #A013069 ^property[=].valueString = "2024-05"
 * #A013070 "明通止嗽散濃縮顆粒"
 * #A013070 ^property[0].code = #status
 * #A013070 ^property[=].valueString = "新增"
-* #A013070 ^property[+].code = #updateDate
+* #A013070 ^property[+].code = #effectiveDate
 * #A013070 ^property[=].valueString = "2024-05"
 * #A013076 "東陽調胃承氣湯濃縮散"
 * #A013076 ^property[0].code = #status
 * #A013076 ^property[=].valueString = "新增"
-* #A013076 ^property[+].code = #updateDate
+* #A013076 ^property[+].code = #effectiveDate
 * #A013076 ^property[=].valueString = "2024-05"
 * #A013241 "東陽薏苡仁湯濃縮散"
 * #A013241 ^property[0].code = #status
 * #A013241 ^property[=].valueString = "新增"
-* #A013241 ^property[+].code = #updateDate
+* #A013241 ^property[+].code = #effectiveDate
 * #A013241 ^property[=].valueString = "2024-05"
 * #A013242 "東陽真武湯濃縮散"
 * #A013242 ^property[0].code = #status
 * #A013242 ^property[=].valueString = "新增"
-* #A013242 ^property[+].code = #updateDate
+* #A013242 ^property[+].code = #effectiveDate
 * #A013242 ^property[=].valueString = "2024-05"
 * #A013452 "順天堂疏鑿飲濃縮顆粒"
 * #A013452 ^property[0].code = #status
 * #A013452 ^property[=].valueString = "新增"
-* #A013452 ^property[+].code = #updateDate
+* #A013452 ^property[+].code = #effectiveDate
 * #A013452 ^property[=].valueString = "2024-05"
 * #A013453 "順天堂疏鑿飲濃縮散"
 * #A013453 ^property[0].code = #status
 * #A013453 ^property[=].valueString = "新增"
-* #A013453 ^property[+].code = #updateDate
+* #A013453 ^property[+].code = #effectiveDate
 * #A013453 ^property[=].valueString = "2024-05"
 * #A013559 "順天堂桂枝芍藥知母湯濃縮顆粒"
 * #A013559 ^property[0].code = #status
 * #A013559 ^property[=].valueString = "新增"
-* #A013559 ^property[+].code = #updateDate
+* #A013559 ^property[+].code = #effectiveDate
 * #A013559 ^property[=].valueString = "2024-05"
 * #A013610 "順天堂四逆湯濃縮顆粒"
 * #A013610 ^property[0].code = #status
 * #A013610 ^property[=].valueString = "新增"
-* #A013610 ^property[+].code = #updateDate
+* #A013610 ^property[+].code = #effectiveDate
 * #A013610 ^property[=].valueString = "2024-05"
 * #A013731 "東陽柴胡加龍骨牡蠣湯濃縮散"
 * #A013731 ^property[0].code = #status
 * #A013731 ^property[=].valueString = "新增"
-* #A013731 ^property[+].code = #updateDate
+* #A013731 ^property[+].code = #effectiveDate
 * #A013731 ^property[=].valueString = "2024-05"
 * #A013732 "明通六君子湯濃縮錠"
 * #A013732 ^property[0].code = #status
 * #A013732 ^property[=].valueString = "新增"
-* #A013732 ^property[+].code = #updateDate
+* #A013732 ^property[+].code = #effectiveDate
 * #A013732 ^property[=].valueString = "2024-05"
 * #A013733 "明通乙字湯濃縮錠"
 * #A013733 ^property[0].code = #status
 * #A013733 ^property[=].valueString = "新增"
-* #A013733 ^property[+].code = #updateDate
+* #A013733 ^property[+].code = #effectiveDate
 * #A013733 ^property[=].valueString = "2024-05"
 * #A013734 "明通桂枝茯苓丸濃縮錠"
 * #A013734 ^property[0].code = #status
 * #A013734 ^property[=].valueString = "新增"
-* #A013734 ^property[+].code = #updateDate
+* #A013734 ^property[+].code = #effectiveDate
 * #A013734 ^property[=].valueString = "2024-05"
 * #A013736 "明通鉤藤散濃縮錠"
 * #A013736 ^property[0].code = #status
 * #A013736 ^property[=].valueString = "新增"
-* #A013736 ^property[+].code = #updateDate
+* #A013736 ^property[+].code = #effectiveDate
 * #A013736 ^property[=].valueString = "2024-05"
 * #A013737 "明通五苓散濃縮錠"
 * #A013737 ^property[0].code = #status
 * #A013737 ^property[=].valueString = "新增"
-* #A013737 ^property[+].code = #updateDate
+* #A013737 ^property[+].code = #effectiveDate
 * #A013737 ^property[=].valueString = "2024-05"
 * #A013738 "明通八味地黃丸濃縮錠"
 * #A013738 ^property[0].code = #status
 * #A013738 ^property[=].valueString = "新增"
-* #A013738 ^property[+].code = #updateDate
+* #A013738 ^property[+].code = #effectiveDate
 * #A013738 ^property[=].valueString = "2024-05"
 * #A013739 "明通黃連解毒湯濃縮錠"
 * #A013739 ^property[0].code = #status
 * #A013739 ^property[=].valueString = "新增"
-* #A013739 ^property[+].code = #updateDate
+* #A013739 ^property[+].code = #effectiveDate
 * #A013739 ^property[=].valueString = "2024-05"
 * #A013842 "順天堂蠲痹湯濃縮散"
 * #A013842 ^property[0].code = #status
 * #A013842 ^property[=].valueString = "新增"
-* #A013842 ^property[+].code = #updateDate
+* #A013842 ^property[+].code = #effectiveDate
 * #A013842 ^property[=].valueString = "2024-05"
 * #A013947 "明通當歸芍藥散濃縮錠"
 * #A013947 ^property[0].code = #status
 * #A013947 ^property[=].valueString = "新增"
-* #A013947 ^property[+].code = #updateDate
+* #A013947 ^property[+].code = #effectiveDate
 * #A013947 ^property[=].valueString = "2024-05"
 * #A013948 "明通小柴胡湯濃縮錠"
 * #A013948 ^property[0].code = #status
 * #A013948 ^property[=].valueString = "新增"
-* #A013948 ^property[+].code = #updateDate
+* #A013948 ^property[+].code = #effectiveDate
 * #A013948 ^property[=].valueString = "2024-05"
 * #A013949 "明通補中益氣湯濃縮錠"
 * #A013949 ^property[0].code = #status
 * #A013949 ^property[=].valueString = "新增"
-* #A013949 ^property[+].code = #updateDate
+* #A013949 ^property[+].code = #effectiveDate
 * #A013949 ^property[=].valueString = "2024-05"
 * #A013952 "明通小青龍湯濃縮錠"
 * #A013952 ^property[0].code = #status
 * #A013952 ^property[=].valueString = "新增"
-* #A013952 ^property[+].code = #updateDate
+* #A013952 ^property[+].code = #effectiveDate
 * #A013952 ^property[=].valueString = "2024-05"
 * #A013953 "明通苓桂朮甘濃縮錠"
 * #A013953 ^property[0].code = #status
 * #A013953 ^property[=].valueString = "新增"
-* #A013953 ^property[+].code = #updateDate
+* #A013953 ^property[+].code = #effectiveDate
 * #A013953 ^property[=].valueString = "2024-05"
 * #A013954 "明通柴胡加龍骨牡蠣湯濃縮錠"
 * #A013954 ^property[0].code = #status
 * #A013954 ^property[=].valueString = "新增"
-* #A013954 ^property[+].code = #updateDate
+* #A013954 ^property[+].code = #effectiveDate
 * #A013954 ^property[=].valueString = "2024-05"
 * #A013989 "東陽大秦艽湯濃縮散"
 * #A013989 ^property[0].code = #status
 * #A013989 ^property[=].valueString = "新增"
-* #A013989 ^property[+].code = #updateDate
+* #A013989 ^property[+].code = #effectiveDate
 * #A013989 ^property[=].valueString = "2024-05"
 * #A014065 "順天堂補陰湯濃縮散"
 * #A014065 ^property[0].code = #status
 * #A014065 ^property[=].valueString = "新增"
-* #A014065 ^property[+].code = #updateDate
+* #A014065 ^property[+].code = #effectiveDate
 * #A014065 ^property[=].valueString = "2024-05"
 * #A014066 "順天堂止嗽散濃縮顆粒"
 * #A014066 ^property[0].code = #status
 * #A014066 ^property[=].valueString = "新增"
-* #A014066 ^property[+].code = #updateDate
+* #A014066 ^property[+].code = #effectiveDate
 * #A014066 ^property[=].valueString = "2024-05"
 * #A014067 "順天堂止嗽散濃縮散"
 * #A014067 ^property[0].code = #status
 * #A014067 ^property[=].valueString = "新增"
-* #A014067 ^property[+].code = #updateDate
+* #A014067 ^property[+].code = #effectiveDate
 * #A014067 ^property[=].valueString = "2024-05"
 * #A014076 "東陽四逆湯濃縮散"
 * #A014076 ^property[0].code = #status
 * #A014076 ^property[=].valueString = "新增"
-* #A014076 ^property[+].code = #updateDate
+* #A014076 ^property[+].code = #effectiveDate
 * #A014076 ^property[=].valueString = "2024-05"
 * #A014134 "東陽越鞠丸濃縮散"
 * #A014134 ^property[0].code = #status
 * #A014134 ^property[=].valueString = "新增"
-* #A014134 ^property[+].code = #updateDate
+* #A014134 ^property[+].code = #effectiveDate
 * #A014134 ^property[=].valueString = "2024-05"
 * #A014178 "東陽天王補心丹濃縮糖衣錠"
 * #A014178 ^property[0].code = #status
 * #A014178 ^property[=].valueString = "新增"
-* #A014178 ^property[+].code = #updateDate
+* #A014178 ^property[+].code = #effectiveDate
 * #A014178 ^property[=].valueString = "2024-05"
 * #A014216 "勝昌龍膽瀉肝湯濃縮散"
 * #A014216 ^property[0].code = #status
 * #A014216 ^property[=].valueString = "新增"
-* #A014216 ^property[+].code = #updateDate
+* #A014216 ^property[+].code = #effectiveDate
 * #A014216 ^property[=].valueString = "2024-05"
 * #A014295 "東陽大建中湯濃縮散"
 * #A014295 ^property[0].code = #status
 * #A014295 ^property[=].valueString = "新增"
-* #A014295 ^property[+].code = #updateDate
+* #A014295 ^property[+].code = #effectiveDate
 * #A014295 ^property[=].valueString = "2024-05"
 * #A014296 "東陽羌活勝濕湯濃縮散"
 * #A014296 ^property[0].code = #status
 * #A014296 ^property[=].valueString = "新增"
-* #A014296 ^property[+].code = #updateDate
+* #A014296 ^property[+].code = #effectiveDate
 * #A014296 ^property[=].valueString = "2024-05"
 * #A014373 "明通柴陷湯濃縮顆粒"
 * #A014373 ^property[0].code = #status
 * #A014373 ^property[=].valueString = "新增"
-* #A014373 ^property[+].code = #updateDate
+* #A014373 ^property[+].code = #effectiveDate
 * #A014373 ^property[=].valueString = "2024-05"
 * #A014387 "勝昌抵當湯濃縮散"
 * #A014387 ^property[0].code = #status
 * #A014387 ^property[=].valueString = "新增"
-* #A014387 ^property[+].code = #updateDate
+* #A014387 ^property[+].code = #effectiveDate
 * #A014387 ^property[=].valueString = "2024-05"
 * #A014523 "明通半夏厚朴湯濃縮錠"
 * #A014523 ^property[0].code = #status
 * #A014523 ^property[=].valueString = "新增"
-* #A014523 ^property[+].code = #updateDate
+* #A014523 ^property[+].code = #effectiveDate
 * #A014523 ^property[=].valueString = "2024-05"
 * #A014524 "明通麻杏甘石湯濃縮錠"
 * #A014524 ^property[0].code = #status
 * #A014524 ^property[=].valueString = "新增"
-* #A014524 ^property[+].code = #updateDate
+* #A014524 ^property[+].code = #effectiveDate
 * #A014524 ^property[=].valueString = "2024-05"
 * #A014525 "明通麻杏薏甘湯濃縮錠"
 * #A014525 ^property[0].code = #status
 * #A014525 ^property[=].valueString = "新增"
-* #A014525 ^property[+].code = #updateDate
+* #A014525 ^property[+].code = #effectiveDate
 * #A014525 ^property[=].valueString = "2024-05"
 * #A014526 "明通柴胡桂枝湯濃縮錠"
 * #A014526 ^property[0].code = #status
 * #A014526 ^property[=].valueString = "新增"
-* #A014526 ^property[+].code = #updateDate
+* #A014526 ^property[+].code = #effectiveDate
 * #A014526 ^property[=].valueString = "2024-05"
 * #A014527 "明通大柴胡湯濃縮錠"
 * #A014527 ^property[0].code = #status
 * #A014527 ^property[=].valueString = "新增"
-* #A014527 ^property[+].code = #updateDate
+* #A014527 ^property[+].code = #effectiveDate
 * #A014527 ^property[=].valueString = "2024-05"
 * #A014528 "明通完帶湯濃縮錠"
 * #A014528 ^property[0].code = #status
 * #A014528 ^property[=].valueString = "新增"
-* #A014528 ^property[+].code = #updateDate
+* #A014528 ^property[+].code = #effectiveDate
 * #A014528 ^property[=].valueString = "2024-05"
 * #A014529 "明通十神湯濃縮錠"
 * #A014529 ^property[0].code = #status
 * #A014529 ^property[=].valueString = "新增"
-* #A014529 ^property[+].code = #updateDate
+* #A014529 ^property[+].code = #effectiveDate
 * #A014529 ^property[=].valueString = "2024-05"
 * #A014530 "東陽清肺湯濃縮散"
 * #A014530 ^property[0].code = #status
 * #A014530 ^property[=].valueString = "新增"
-* #A014530 ^property[+].code = #updateDate
+* #A014530 ^property[+].code = #effectiveDate
 * #A014530 ^property[=].valueString = "2024-05"
 * #A014562 "勝昌鐵笛丸濃縮散"
 * #A014562 ^property[0].code = #status
 * #A014562 ^property[=].valueString = "新增"
-* #A014562 ^property[+].code = #updateDate
+* #A014562 ^property[+].code = #effectiveDate
 * #A014562 ^property[=].valueString = "2024-05"
 * #A014565 "明通葛根湯濃縮錠"
 * #A014565 ^property[0].code = #status
 * #A014565 ^property[=].valueString = "新增"
-* #A014565 ^property[+].code = #updateDate
+* #A014565 ^property[+].code = #effectiveDate
 * #A014565 ^property[=].valueString = "2024-05"
 * #A014566 "明通防風通聖散濃縮錠"
 * #A014566 ^property[0].code = #status
 * #A014566 ^property[=].valueString = "新增"
-* #A014566 ^property[+].code = #updateDate
+* #A014566 ^property[+].code = #effectiveDate
 * #A014566 ^property[=].valueString = "2024-05"
 * #A014567 "明通加味逍遙散濃縮錠"
 * #A014567 ^property[0].code = #status
 * #A014567 ^property[=].valueString = "新增"
-* #A014567 ^property[+].code = #updateDate
+* #A014567 ^property[+].code = #effectiveDate
 * #A014567 ^property[=].valueString = "2024-05"
 * #A014568 "明通桃核承氣湯濃縮錠"
 * #A014568 ^property[0].code = #status
 * #A014568 ^property[=].valueString = "新增"
-* #A014568 ^property[+].code = #updateDate
+* #A014568 ^property[+].code = #effectiveDate
 * #A014568 ^property[=].valueString = "2024-05"
 * #A014886 "東陽杞菊地黃丸濃縮散"
 * #A014886 ^property[0].code = #status
 * #A014886 ^property[=].valueString = "新增"
-* #A014886 ^property[+].code = #updateDate
+* #A014886 ^property[+].code = #effectiveDate
 * #A014886 ^property[=].valueString = "2024-05"
 * #A014887 "東陽潤腸丸濃縮散"
 * #A014887 ^property[0].code = #status
 * #A014887 ^property[=].valueString = "新增"
-* #A014887 ^property[+].code = #updateDate
+* #A014887 ^property[+].code = #effectiveDate
 * #A014887 ^property[=].valueString = "2024-05"
 * #A014890 "東陽消風散濃縮散"
 * #A014890 ^property[0].code = #status
 * #A014890 ^property[=].valueString = "新增"
-* #A014890 ^property[+].code = #updateDate
+* #A014890 ^property[+].code = #effectiveDate
 * #A014890 ^property[=].valueString = "2024-05"
 * #A014989 "漢聖辛夷散濃縮散"
 * #A014989 ^property[0].code = #status
 * #A014989 ^property[=].valueString = "新增"
-* #A014989 ^property[+].code = #updateDate
+* #A014989 ^property[+].code = #effectiveDate
 * #A014989 ^property[=].valueString = "2024-05"
 * #A015104 "漢聖葛根湯濃縮散"
 * #A015104 ^property[0].code = #status
 * #A015104 ^property[=].valueString = "新增"
-* #A015104 ^property[+].code = #updateDate
+* #A015104 ^property[+].code = #effectiveDate
 * #A015104 ^property[=].valueString = "2024-05"
 * #A015226 "東陽荊防敗毒散濃縮散(加減味)"
 * #A015226 ^property[0].code = #status
 * #A015226 ^property[=].valueString = "新增"
-* #A015226 ^property[+].code = #updateDate
+* #A015226 ^property[+].code = #effectiveDate
 * #A015226 ^property[=].valueString = "2024-05"
 * #A015319 "明通安胎飲濃縮錠"
 * #A015319 ^property[0].code = #status
 * #A015319 ^property[=].valueString = "新增"
-* #A015319 ^property[+].code = #updateDate
+* #A015319 ^property[+].code = #effectiveDate
 * #A015319 ^property[=].valueString = "2024-05"
 * #A015326 "明通豬苓湯濃縮錠"
 * #A015326 ^property[0].code = #status
 * #A015326 ^property[=].valueString = "新增"
-* #A015326 ^property[+].code = #updateDate
+* #A015326 ^property[+].code = #effectiveDate
 * #A015326 ^property[=].valueString = "2024-05"
 * #A015506 "東陽參蘇飲濃縮散"
 * #A015506 ^property[0].code = #status
 * #A015506 ^property[=].valueString = "新增"
-* #A015506 ^property[+].code = #updateDate
+* #A015506 ^property[+].code = #effectiveDate
 * #A015506 ^property[=].valueString = "2024-05"
 * #A015709 "順天堂麻黃附子細辛湯濃縮顆粒"
 * #A015709 ^property[0].code = #status
 * #A015709 ^property[=].valueString = "新增"
-* #A015709 ^property[+].code = #updateDate
+* #A015709 ^property[+].code = #effectiveDate
 * #A015709 ^property[=].valueString = "2024-05"
 * #A015711 "順天堂瀉黃散濃縮散"
 * #A015711 ^property[0].code = #status
 * #A015711 ^property[=].valueString = "新增"
-* #A015711 ^property[+].code = #updateDate
+* #A015711 ^property[+].code = #effectiveDate
 * #A015711 ^property[=].valueString = "2024-05"
 * #A016528 "順天堂滋陰降火湯濃縮散"
 * #A016528 ^property[0].code = #status
 * #A016528 ^property[=].valueString = "新增"
-* #A016528 ^property[+].code = #updateDate
+* #A016528 ^property[+].code = #effectiveDate
 * #A016528 ^property[=].valueString = "2024-05"
 * #A016530 "順天堂滋陰降火湯濃縮顆粒"
 * #A016530 ^property[0].code = #status
 * #A016530 ^property[=].valueString = "新增"
-* #A016530 ^property[+].code = #updateDate
+* #A016530 ^property[+].code = #effectiveDate
 * #A016530 ^property[=].valueString = "2024-05"
 * #A016532 "順天堂黃耆建中湯濃縮顆粒"
 * #A016532 ^property[0].code = #status
 * #A016532 ^property[=].valueString = "新增"
-* #A016532 ^property[+].code = #updateDate
+* #A016532 ^property[+].code = #effectiveDate
 * #A016532 ^property[=].valueString = "2024-05"
 * #A016579 "東陽槐花散濃縮散"
 * #A016579 ^property[0].code = #status
 * #A016579 ^property[=].valueString = "新增"
-* #A016579 ^property[+].code = #updateDate
+* #A016579 ^property[+].code = #effectiveDate
 * #A016579 ^property[=].valueString = "2024-05"
 * #A016989 "勝昌還少丹濃縮散"
 * #A016989 ^property[0].code = #status
 * #A016989 ^property[=].valueString = "新增"
-* #A016989 ^property[+].code = #updateDate
+* #A016989 ^property[+].code = #effectiveDate
 * #A016989 ^property[=].valueString = "2024-05"
 * #A016994 "勝昌杞菊地黃丸濃縮散"
 * #A016994 ^property[0].code = #status
 * #A016994 ^property[=].valueString = "新增"
-* #A016994 ^property[+].code = #updateDate
+* #A016994 ^property[+].code = #effectiveDate
 * #A016994 ^property[=].valueString = "2024-05"
 * #A017600 "漢聖大柴胡湯濃縮散"
 * #A017600 ^property[0].code = #status
 * #A017600 ^property[=].valueString = "新增"
-* #A017600 ^property[+].code = #updateDate
+* #A017600 ^property[+].code = #effectiveDate
 * #A017600 ^property[=].valueString = "2024-05"
 * #A017683 "漢聖參苓白朮散濃縮散"
 * #A017683 ^property[0].code = #status
 * #A017683 ^property[=].valueString = "新增"
-* #A017683 ^property[+].code = #updateDate
+* #A017683 ^property[+].code = #effectiveDate
 * #A017683 ^property[=].valueString = "2024-05"
 * #A017839 "漢聖柴葛解肌湯濃縮散"
 * #A017839 ^property[0].code = #status
 * #A017839 ^property[=].valueString = "新增"
-* #A017839 ^property[+].code = #updateDate
+* #A017839 ^property[+].code = #effectiveDate
 * #A017839 ^property[=].valueString = "2024-05"
 * #A017855 "順天堂小建中湯濃縮顆粒"
 * #A017855 ^property[0].code = #status
 * #A017855 ^property[=].valueString = "新增"
-* #A017855 ^property[+].code = #updateDate
+* #A017855 ^property[+].code = #effectiveDate
 * #A017855 ^property[=].valueString = "2024-05"
 * #A017944 "東陽麻黃附子細辛湯濃縮散"
 * #A017944 ^property[0].code = #status
 * #A017944 ^property[=].valueString = "新增"
-* #A017944 ^property[+].code = #updateDate
+* #A017944 ^property[+].code = #effectiveDate
 * #A017944 ^property[=].valueString = "2024-05"
 * #A018212 "東陽生薑瀉心湯濃縮散"
 * #A018212 ^property[0].code = #status
 * #A018212 ^property[=].valueString = "新增"
-* #A018212 ^property[+].code = #updateDate
+* #A018212 ^property[+].code = #effectiveDate
 * #A018212 ^property[=].valueString = "2024-05"
 * #A018259 "東陽溫清飲濃縮散"
 * #A018259 ^property[0].code = #status
 * #A018259 ^property[=].valueString = "新增"
-* #A018259 ^property[+].code = #updateDate
+* #A018259 ^property[+].code = #effectiveDate
 * #A018259 ^property[=].valueString = "2024-05"
 * #A018546 "東陽木防己湯濃縮散"
 * #A018546 ^property[0].code = #status
 * #A018546 ^property[=].valueString = "新增"
-* #A018546 ^property[+].code = #updateDate
+* #A018546 ^property[+].code = #effectiveDate
 * #A018546 ^property[=].valueString = "2024-05"
 * #A018725 "東陽黃耆五物湯濃縮散"
 * #A018725 ^property[0].code = #status
 * #A018725 ^property[=].valueString = "新增"
-* #A018725 ^property[+].code = #updateDate
+* #A018725 ^property[+].code = #effectiveDate
 * #A018725 ^property[=].valueString = "2024-05"
 * #A019317 "東陽黃耆建中湯濃縮散"
 * #A019317 ^property[0].code = #status
 * #A019317 ^property[=].valueString = "新增"
-* #A019317 ^property[+].code = #updateDate
+* #A019317 ^property[+].code = #effectiveDate
 * #A019317 ^property[=].valueString = "2024-05"
 * #A019365 "東陽當歸四逆加吳茱萸生薑湯濃縮散"
 * #A019365 ^property[0].code = #status
 * #A019365 ^property[=].valueString = "新增"
-* #A019365 ^property[+].code = #updateDate
+* #A019365 ^property[+].code = #effectiveDate
 * #A019365 ^property[=].valueString = "2024-05"
 * #A019366 "明通川芎茶調散濃縮錠"
 * #A019366 ^property[0].code = #status
 * #A019366 ^property[=].valueString = "新增"
-* #A019366 ^property[+].code = #updateDate
+* #A019366 ^property[+].code = #effectiveDate
 * #A019366 ^property[=].valueString = "2024-05"
 * #A019732 "東陽還少丹濃縮散"
 * #A019732 ^property[0].code = #status
 * #A019732 ^property[=].valueString = "新增"
-* #A019732 ^property[+].code = #updateDate
+* #A019732 ^property[+].code = #effectiveDate
 * #A019732 ^property[=].valueString = "2024-05"
 * #A020027 "明通梔子豉湯濃縮散"
 * #A020027 ^property[0].code = #status
 * #A020027 ^property[=].valueString = "新增"
-* #A020027 ^property[+].code = #updateDate
+* #A020027 ^property[+].code = #effectiveDate
 * #A020027 ^property[=].valueString = "2024-05"
 * #A020029 "順天堂杞菊地黃丸濃縮顆粒"
 * #A020029 ^property[0].code = #status
 * #A020029 ^property[=].valueString = "新增"
-* #A020029 ^property[+].code = #updateDate
+* #A020029 ^property[+].code = #effectiveDate
 * #A020029 ^property[=].valueString = "2024-05"
 * #A020030 "順天堂杞菊地黃丸濃縮顆粒"
 * #A020030 ^property[0].code = #status
 * #A020030 ^property[=].valueString = "新增"
-* #A020030 ^property[+].code = #updateDate
+* #A020030 ^property[+].code = #effectiveDate
 * #A020030 ^property[=].valueString = "2024-05"
 * #A020031 "順天堂厚朴七物湯濃縮顆粒"
 * #A020031 ^property[0].code = #status
 * #A020031 ^property[=].valueString = "新增"
-* #A020031 ^property[+].code = #updateDate
+* #A020031 ^property[+].code = #effectiveDate
 * #A020031 ^property[=].valueString = "2024-05"
 * #A020032 "順天堂厚朴七物湯濃縮散"
 * #A020032 ^property[0].code = #status
 * #A020032 ^property[=].valueString = "新增"
-* #A020032 ^property[+].code = #updateDate
+* #A020032 ^property[+].code = #effectiveDate
 * #A020032 ^property[=].valueString = "2024-05"
 * #A020233 "東陽麻杏甘石湯濃縮散"
 * #A020233 ^property[0].code = #status
 * #A020233 ^property[=].valueString = "新增"
-* #A020233 ^property[+].code = #updateDate
+* #A020233 ^property[+].code = #effectiveDate
 * #A020233 ^property[=].valueString = "2024-05"
 * #A020240 "勝昌八味地黃丸濃縮散"
 * #A020240 ^property[0].code = #status
 * #A020240 ^property[=].valueString = "新增"
-* #A020240 ^property[+].code = #updateDate
+* #A020240 ^property[+].code = #effectiveDate
 * #A020240 ^property[=].valueString = "2024-05"
 * #A020243 "東陽清涼飲濃縮散"
 * #A020243 ^property[0].code = #status
 * #A020243 ^property[=].valueString = "新增"
-* #A020243 ^property[+].code = #updateDate
+* #A020243 ^property[+].code = #effectiveDate
 * #A020243 ^property[=].valueString = "2024-05"
 * #A021312 "勝昌調經丸濃縮散"
 * #A021312 ^property[0].code = #status
 * #A021312 ^property[=].valueString = "新增"
-* #A021312 ^property[+].code = #updateDate
+* #A021312 ^property[+].code = #effectiveDate
 * #A021312 ^property[=].valueString = "2024-05"
 * #A021420 "順天堂聖愈湯濃縮顆粒"
 * #A021420 ^property[0].code = #status
 * #A021420 ^property[=].valueString = "新增"
-* #A021420 ^property[+].code = #updateDate
+* #A021420 ^property[+].code = #effectiveDate
 * #A021420 ^property[=].valueString = "2024-05"
 * #A021421 "東陽龍膽瀉肝湯濃縮錠"
 * #A021421 ^property[0].code = #status
 * #A021421 ^property[=].valueString = "新增"
-* #A021421 ^property[+].code = #updateDate
+* #A021421 ^property[+].code = #effectiveDate
 * #A021421 ^property[=].valueString = "2024-05"
 * #A021424 "港香蘭桂枝加龍牡湯濃縮錠"
 * #A021424 ^property[0].code = #status
 * #A021424 ^property[=].valueString = "新增"
-* #A021424 ^property[+].code = #updateDate
+* #A021424 ^property[+].code = #effectiveDate
 * #A021424 ^property[=].valueString = "2024-05"
 * #A021428 "東陽防風通聖散濃縮錠"
 * #A021428 ^property[0].code = #status
 * #A021428 ^property[=].valueString = "新增"
-* #A021428 ^property[+].code = #updateDate
+* #A021428 ^property[+].code = #effectiveDate
 * #A021428 ^property[=].valueString = "2024-05"
 * #A021432 "順天堂羌活勝濕湯濃縮顆粒"
 * #A021432 ^property[0].code = #status
 * #A021432 ^property[=].valueString = "新增"
-* #A021432 ^property[+].code = #updateDate
+* #A021432 ^property[+].code = #effectiveDate
 * #A021432 ^property[=].valueString = "2024-05"
 * #A021545 "明通甘麥大棗湯濃縮散"
 * #A021545 ^property[0].code = #status
 * #A021545 ^property[=].valueString = "新增"
-* #A021545 ^property[+].code = #updateDate
+* #A021545 ^property[+].code = #effectiveDate
 * #A021545 ^property[=].valueString = "2024-05"
 * #A021594 "明通香砂養胃湯濃縮散"
 * #A021594 ^property[0].code = #status
 * #A021594 ^property[=].valueString = "新增"
-* #A021594 ^property[+].code = #updateDate
+* #A021594 ^property[+].code = #effectiveDate
 * #A021594 ^property[=].valueString = "2024-05"
 * #A021626 "明通參苓白朮散濃縮散"
 * #A021626 ^property[0].code = #status
 * #A021626 ^property[=].valueString = "新增"
-* #A021626 ^property[+].code = #updateDate
+* #A021626 ^property[+].code = #effectiveDate
 * #A021626 ^property[=].valueString = "2024-05"
 * #A021937 "東陽烏藥順氣散濃縮錠"
 * #A021937 ^property[0].code = #status
 * #A021937 ^property[=].valueString = "新增"
-* #A021937 ^property[+].code = #updateDate
+* #A021937 ^property[+].code = #effectiveDate
 * #A021937 ^property[=].valueString = "2024-05"
 * #A021940 "東陽荊防敗毒散濃縮錠"
 * #A021940 ^property[0].code = #status
 * #A021940 ^property[=].valueString = "新增"
-* #A021940 ^property[+].code = #updateDate
+* #A021940 ^property[+].code = #effectiveDate
 * #A021940 ^property[=].valueString = "2024-05"
 * #A022111 "明通五苓散濃縮顆粒"
 * #A022111 ^property[0].code = #status
 * #A022111 ^property[=].valueString = "新增"
-* #A022111 ^property[+].code = #updateDate
+* #A022111 ^property[+].code = #effectiveDate
 * #A022111 ^property[=].valueString = "2024-05"
 * #A022125 "東陽六味地黃丸濃縮錠"
 * #A022125 ^property[0].code = #status
 * #A022125 ^property[=].valueString = "新增"
-* #A022125 ^property[+].code = #updateDate
+* #A022125 ^property[+].code = #effectiveDate
 * #A022125 ^property[=].valueString = "2024-05"
 * #A022201 "東陽消風散濃縮錠"
 * #A022201 ^property[0].code = #status
 * #A022201 ^property[=].valueString = "新增"
-* #A022201 ^property[+].code = #updateDate
+* #A022201 ^property[+].code = #effectiveDate
 * #A022201 ^property[=].valueString = "2024-05"
 * #A022202 "東陽麥門冬湯濃縮錠"
 * #A022202 ^property[0].code = #status
 * #A022202 ^property[=].valueString = "新增"
-* #A022202 ^property[+].code = #updateDate
+* #A022202 ^property[+].code = #effectiveDate
 * #A022202 ^property[=].valueString = "2024-05"
 * #A022351 "東陽清上防風湯濃縮錠"
 * #A022351 ^property[0].code = #status
 * #A022351 ^property[=].valueString = "新增"
-* #A022351 ^property[+].code = #updateDate
+* #A022351 ^property[+].code = #effectiveDate
 * #A022351 ^property[=].valueString = "2024-05"
 * #A022352 "東陽炙甘草湯濃縮錠"
 * #A022352 ^property[0].code = #status
 * #A022352 ^property[=].valueString = "新增"
-* #A022352 ^property[+].code = #updateDate
+* #A022352 ^property[+].code = #effectiveDate
 * #A022352 ^property[=].valueString = "2024-05"
 * #A022428 "東陽八味地黃丸濃縮錠"
 * #A022428 ^property[0].code = #status
 * #A022428 ^property[=].valueString = "新增"
-* #A022428 ^property[+].code = #updateDate
+* #A022428 ^property[+].code = #effectiveDate
 * #A022428 ^property[=].valueString = "2024-05"
 * #A022493 "東陽十全大補湯濃縮錠"
 * #A022493 ^property[0].code = #status
 * #A022493 ^property[=].valueString = "新增"
-* #A022493 ^property[+].code = #updateDate
+* #A022493 ^property[+].code = #effectiveDate
 * #A022493 ^property[=].valueString = "2024-05"
 * #A022494 "東陽涼膈散濃縮錠"
 * #A022494 ^property[0].code = #status
 * #A022494 ^property[=].valueString = "新增"
-* #A022494 ^property[+].code = #updateDate
+* #A022494 ^property[+].code = #effectiveDate
 * #A022494 ^property[=].valueString = "2024-05"
 * #A022520 "勝昌還少丹濃縮膜衣錠"
 * #A022520 ^property[0].code = #status
 * #A022520 ^property[=].valueString = "新增"
-* #A022520 ^property[+].code = #updateDate
+* #A022520 ^property[+].code = #effectiveDate
 * #A022520 ^property[=].valueString = "2024-05"
 * #A022521 "勝昌補中益氣湯濃縮膜衣錠"
 * #A022521 ^property[0].code = #status
 * #A022521 ^property[=].valueString = "新增"
-* #A022521 ^property[+].code = #updateDate
+* #A022521 ^property[+].code = #effectiveDate
 * #A022521 ^property[=].valueString = "2024-05"
 * #A022738 "東陽四物湯濃縮錠"
 * #A022738 ^property[0].code = #status
 * #A022738 ^property[=].valueString = "新增"
-* #A022738 ^property[+].code = #updateDate
+* #A022738 ^property[+].code = #effectiveDate
 * #A022738 ^property[=].valueString = "2024-05"
 * #A022739 "東陽八正散濃縮錠"
 * #A022739 ^property[0].code = #status
 * #A022739 ^property[=].valueString = "新增"
-* #A022739 ^property[+].code = #updateDate
+* #A022739 ^property[+].code = #effectiveDate
 * #A022739 ^property[=].valueString = "2024-05"
 * #A022759 "東陽香砂六君子湯濃縮錠"
 * #A022759 ^property[0].code = #status
 * #A022759 ^property[=].valueString = "新增"
-* #A022759 ^property[+].code = #updateDate
+* #A022759 ^property[+].code = #effectiveDate
 * #A022759 ^property[=].valueString = "2024-05"
 * #A022760 "東陽八珍湯濃縮錠"
 * #A022760 ^property[0].code = #status
 * #A022760 ^property[=].valueString = "新增"
-* #A022760 ^property[+].code = #updateDate
+* #A022760 ^property[+].code = #effectiveDate
 * #A022760 ^property[=].valueString = "2024-05"
 * #A022761 "勝昌加味逍遙散濃縮膜衣錠"
 * #A022761 ^property[0].code = #status
 * #A022761 ^property[=].valueString = "新增"
-* #A022761 ^property[+].code = #updateDate
+* #A022761 ^property[+].code = #effectiveDate
 * #A022761 ^property[=].valueString = "2024-05"
 * #A022762 "勝昌六味地黃丸濃縮膜衣錠"
 * #A022762 ^property[0].code = #status
 * #A022762 ^property[=].valueString = "新增"
-* #A022762 ^property[+].code = #updateDate
+* #A022762 ^property[+].code = #effectiveDate
 * #A022762 ^property[=].valueString = "2024-05"
 * #A022891 "勝昌參苓白朮散濃縮膜衣錠"
 * #A022891 ^property[0].code = #status
 * #A022891 ^property[=].valueString = "新增"
-* #A022891 ^property[+].code = #updateDate
+* #A022891 ^property[+].code = #effectiveDate
 * #A022891 ^property[=].valueString = "2024-05"
 * #A022916 "東陽平胃散濃縮錠"
 * #A022916 ^property[0].code = #status
 * #A022916 ^property[=].valueString = "新增"
-* #A022916 ^property[+].code = #updateDate
+* #A022916 ^property[+].code = #effectiveDate
 * #A022916 ^property[=].valueString = "2024-05"
 * #A022917 "東陽參苓白朮散濃縮錠"
 * #A022917 ^property[0].code = #status
 * #A022917 ^property[=].valueString = "新增"
-* #A022917 ^property[+].code = #updateDate
+* #A022917 ^property[+].code = #effectiveDate
 * #A022917 ^property[=].valueString = "2024-05"
 * #A023010 "勝昌逍遙散濃縮膜衣錠"
 * #A023010 ^property[0].code = #status
 * #A023010 ^property[=].valueString = "新增"
-* #A023010 ^property[+].code = #updateDate
+* #A023010 ^property[+].code = #effectiveDate
 * #A023010 ^property[=].valueString = "2024-05"
 * #A023055 "東陽甘露飲濃縮錠"
 * #A023055 ^property[0].code = #status
 * #A023055 ^property[=].valueString = "新增"
-* #A023055 ^property[+].code = #updateDate
+* #A023055 ^property[+].code = #effectiveDate
 * #A023055 ^property[=].valueString = "2024-05"
 * #A023056 "東陽防己黃耆湯濃縮錠"
 * #A023056 ^property[0].code = #status
 * #A023056 ^property[=].valueString = "新增"
-* #A023056 ^property[+].code = #updateDate
+* #A023056 ^property[+].code = #effectiveDate
 * #A023056 ^property[=].valueString = "2024-05"
 * #A023117 "東陽五苓散濃縮錠"
 * #A023117 ^property[0].code = #status
 * #A023117 ^property[=].valueString = "新增"
-* #A023117 ^property[+].code = #updateDate
+* #A023117 ^property[+].code = #effectiveDate
 * #A023117 ^property[=].valueString = "2024-05"
 * #A023118 "東陽理中湯濃縮錠"
 * #A023118 ^property[0].code = #status
 * #A023118 ^property[=].valueString = "新增"
-* #A023118 ^property[+].code = #updateDate
+* #A023118 ^property[+].code = #effectiveDate
 * #A023118 ^property[=].valueString = "2024-05"
 * #A023246 "順天堂四物湯濃縮錠"
 * #A023246 ^property[0].code = #status
 * #A023246 ^property[=].valueString = "新增"
-* #A023246 ^property[+].code = #updateDate
+* #A023246 ^property[+].code = #effectiveDate
 * #A023246 ^property[=].valueString = "2024-05"
 * #A023247 "順天堂當歸芍藥散濃縮錠"
 * #A023247 ^property[0].code = #status
 * #A023247 ^property[=].valueString = "新增"
-* #A023247 ^property[+].code = #updateDate
+* #A023247 ^property[+].code = #effectiveDate
 * #A023247 ^property[=].valueString = "2024-05"
 * #A023248 "勝昌完帶湯濃縮散"
 * #A023248 ^property[0].code = #status
 * #A023248 ^property[=].valueString = "新增"
-* #A023248 ^property[+].code = #updateDate
+* #A023248 ^property[+].code = #effectiveDate
 * #A023248 ^property[=].valueString = "2024-05"
 * #A023406 "東陽加味逍遙散濃縮錠"
 * #A023406 ^property[0].code = #status
 * #A023406 ^property[=].valueString = "新增"
-* #A023406 ^property[+].code = #updateDate
+* #A023406 ^property[+].code = #effectiveDate
 * #A023406 ^property[=].valueString = "2024-05"
 * #A023407 "東陽羌活勝濕湯濃縮錠"
 * #A023407 ^property[0].code = #status
 * #A023407 ^property[=].valueString = "新增"
-* #A023407 ^property[+].code = #updateDate
+* #A023407 ^property[+].code = #effectiveDate
 * #A023407 ^property[=].valueString = "2024-05"
 * #A023552 "勝昌藿香正氣散濃縮膜衣錠"
 * #A023552 ^property[0].code = #status
 * #A023552 ^property[=].valueString = "新增"
-* #A023552 ^property[+].code = #updateDate
+* #A023552 ^property[+].code = #effectiveDate
 * #A023552 ^property[=].valueString = "2024-05"
 * #A023633 "順天堂辛夷清肺湯濃縮顆粒"
 * #A023633 ^property[0].code = #status
 * #A023633 ^property[=].valueString = "新增"
-* #A023633 ^property[+].code = #updateDate
+* #A023633 ^property[+].code = #effectiveDate
 * #A023633 ^property[=].valueString = "2024-05"
 * #A023658 "東陽安中散濃縮錠"
 * #A023658 ^property[0].code = #status
 * #A023658 ^property[=].valueString = "新增"
-* #A023658 ^property[+].code = #updateDate
+* #A023658 ^property[+].code = #effectiveDate
 * #A023658 ^property[=].valueString = "2024-05"
 * #A023659 "東陽五積散濃縮錠"
 * #A023659 ^property[0].code = #status
 * #A023659 ^property[=].valueString = "新增"
-* #A023659 ^property[+].code = #updateDate
+* #A023659 ^property[+].code = #effectiveDate
 * #A023659 ^property[=].valueString = "2024-05"
 * #A023799 "順天堂辛夷清肺湯濃縮顆粒"
 * #A023799 ^property[0].code = #status
 * #A023799 ^property[=].valueString = "新增"
-* #A023799 ^property[+].code = #updateDate
+* #A023799 ^property[+].code = #effectiveDate
 * #A023799 ^property[=].valueString = "2024-05"
 * #A023800 "順天堂杏蘇飲(幼科)濃縮散"
 * #A023800 ^property[0].code = #status
 * #A023800 ^property[=].valueString = "新增"
-* #A023800 ^property[+].code = #updateDate
+* #A023800 ^property[+].code = #effectiveDate
 * #A023800 ^property[=].valueString = "2024-05"
 * #A024179 "順天堂杏蘇飲(幼科)濃縮顆粒"
 * #A024179 ^property[0].code = #status
 * #A024179 ^property[=].valueString = "新增"
-* #A024179 ^property[+].code = #updateDate
+* #A024179 ^property[+].code = #effectiveDate
 * #A024179 ^property[=].valueString = "2024-05"
 * #A024234 "東陽半夏厚朴湯濃縮錠"
 * #A024234 ^property[0].code = #status
 * #A024234 ^property[=].valueString = "新增"
-* #A024234 ^property[+].code = #updateDate
+* #A024234 ^property[+].code = #effectiveDate
 * #A024234 ^property[=].valueString = "2024-05"
 * #A024340 "復旦八味地黃丸濃縮錠"
 * #A024340 ^property[0].code = #status
 * #A024340 ^property[=].valueString = "新增"
-* #A024340 ^property[+].code = #updateDate
+* #A024340 ^property[+].code = #effectiveDate
 * #A024340 ^property[=].valueString = "2024-05"
 * #A024341 "復旦補中益氣湯濃縮錠"
 * #A024341 ^property[0].code = #status
 * #A024341 ^property[=].valueString = "新增"
-* #A024341 ^property[+].code = #updateDate
+* #A024341 ^property[+].code = #effectiveDate
 * #A024341 ^property[=].valueString = "2024-05"
 * #A024344 "東陽小青龍湯濃縮錠"
 * #A024344 ^property[0].code = #status
 * #A024344 ^property[=].valueString = "新增"
-* #A024344 ^property[+].code = #updateDate
+* #A024344 ^property[+].code = #effectiveDate
 * #A024344 ^property[=].valueString = "2024-05"
 * #A024345 "東陽玉屏風散濃縮散"
 * #A024345 ^property[0].code = #status
 * #A024345 ^property[=].valueString = "新增"
-* #A024345 ^property[+].code = #updateDate
+* #A024345 ^property[+].code = #effectiveDate
 * #A024345 ^property[=].valueString = "2024-05"
 * #A024428 "復旦歸脾湯濃縮顆粒"
 * #A024428 ^property[0].code = #status
 * #A024428 ^property[=].valueString = "新增"
-* #A024428 ^property[+].code = #updateDate
+* #A024428 ^property[+].code = #effectiveDate
 * #A024428 ^property[=].valueString = "2024-05"
 * #A024429 "復旦鈎藤散濃縮顆粒"
 * #A024429 ^property[0].code = #status
 * #A024429 ^property[=].valueString = "新增"
-* #A024429 ^property[+].code = #updateDate
+* #A024429 ^property[+].code = #effectiveDate
 * #A024429 ^property[=].valueString = "2024-05"
 * #A024539 "明通杞菊地黃丸濃縮細粒"
 * #A024539 ^property[0].code = #status
 * #A024539 ^property[=].valueString = "新增"
-* #A024539 ^property[+].code = #updateDate
+* #A024539 ^property[+].code = #effectiveDate
 * #A024539 ^property[=].valueString = "2024-05"
 * #A024575 "勝昌獨活寄生湯濃縮膜衣錠"
 * #A024575 ^property[0].code = #status
 * #A024575 ^property[=].valueString = "新增"
-* #A024575 ^property[+].code = #updateDate
+* #A024575 ^property[+].code = #effectiveDate
 * #A024575 ^property[=].valueString = "2024-05"
 * #A024576 "復旦感冒濃縮顆粒"
 * #A024576 ^property[0].code = #status
 * #A024576 ^property[=].valueString = "新增"
-* #A024576 ^property[+].code = #updateDate
+* #A024576 ^property[+].code = #effectiveDate
 * #A024576 ^property[=].valueString = "2024-05"
 * #A024687 "復旦上中下通用痛風丸濃縮顆粒"
 * #A024687 ^property[0].code = #status
 * #A024687 ^property[=].valueString = "新增"
-* #A024687 ^property[+].code = #updateDate
+* #A024687 ^property[+].code = #effectiveDate
 * #A024687 ^property[=].valueString = "2024-05"
 * #A024688 "復旦逍遙散濃縮顆粒"
 * #A024688 ^property[0].code = #status
 * #A024688 ^property[=].valueString = "新增"
-* #A024688 ^property[+].code = #updateDate
+* #A024688 ^property[+].code = #effectiveDate
 * #A024688 ^property[=].valueString = "2024-05"
 * #A025001 "復旦柏子養心丸濃縮顆粒"
 * #A025001 ^property[0].code = #status
 * #A025001 ^property[=].valueString = "新增"
-* #A025001 ^property[+].code = #updateDate
+* #A025001 ^property[+].code = #effectiveDate
 * #A025001 ^property[=].valueString = "2024-05"
 * #A025116 "明通玉泉丸濃縮丸"
 * #A025116 ^property[0].code = #status
 * #A025116 ^property[=].valueString = "新增"
-* #A025116 ^property[+].code = #updateDate
+* #A025116 ^property[+].code = #effectiveDate
 * #A025116 ^property[=].valueString = "2024-05"
 * #A025258 "順天堂還少丹濃縮顆粒"
 * #A025258 ^property[0].code = #status
 * #A025258 ^property[=].valueString = "新增"
-* #A025258 ^property[+].code = #updateDate
+* #A025258 ^property[+].code = #effectiveDate
 * #A025258 ^property[=].valueString = "2024-05"
 * #A025267 "復旦清肺湯濃縮顆粒"
 * #A025267 ^property[0].code = #status
 * #A025267 ^property[=].valueString = "新增"
-* #A025267 ^property[+].code = #updateDate
+* #A025267 ^property[+].code = #effectiveDate
 * #A025267 ^property[=].valueString = "2024-05"
 * #A025268 "復旦甘草瀉心湯濃縮顆粒"
 * #A025268 ^property[0].code = #status
 * #A025268 ^property[=].valueString = "新增"
-* #A025268 ^property[+].code = #updateDate
+* #A025268 ^property[+].code = #effectiveDate
 * #A025268 ^property[=].valueString = "2024-05"
 * #A025298 "復旦平胃散濃縮顆粒"
 * #A025298 ^property[0].code = #status
 * #A025298 ^property[=].valueString = "新增"
-* #A025298 ^property[+].code = #updateDate
+* #A025298 ^property[+].code = #effectiveDate
 * #A025298 ^property[=].valueString = "2024-05"
 * #A025299 "復旦芍藥甘草湯濃縮顆粒"
 * #A025299 ^property[0].code = #status
 * #A025299 ^property[=].valueString = "新增"
-* #A025299 ^property[+].code = #updateDate
+* #A025299 ^property[+].code = #effectiveDate
 * #A025299 ^property[=].valueString = "2024-05"
 * #A025389 "東陽抵當湯濃縮散"
 * #A025389 ^property[0].code = #status
 * #A025389 ^property[=].valueString = "新增"
-* #A025389 ^property[+].code = #updateDate
+* #A025389 ^property[+].code = #effectiveDate
 * #A025389 ^property[=].valueString = "2024-05"
 * #A025496 "復旦蒼耳散濃縮顆粒"
 * #A025496 ^property[0].code = #status
 * #A025496 ^property[=].valueString = "新增"
-* #A025496 ^property[+].code = #updateDate
+* #A025496 ^property[+].code = #effectiveDate
 * #A025496 ^property[=].valueString = "2024-05"
 * #A025508 "復旦小柴胡湯濃縮顆粒"
 * #A025508 ^property[0].code = #status
 * #A025508 ^property[=].valueString = "新增"
-* #A025508 ^property[+].code = #updateDate
+* #A025508 ^property[+].code = #effectiveDate
 * #A025508 ^property[=].valueString = "2024-05"
 * #A025599 "復旦龍膽瀉肝湯濃縮顆粒"
 * #A025599 ^property[0].code = #status
 * #A025599 ^property[=].valueString = "新增"
-* #A025599 ^property[+].code = #updateDate
+* #A025599 ^property[+].code = #effectiveDate
 * #A025599 ^property[=].valueString = "2024-05"
 * #A025600 "順天堂還少丹濃縮錠"
 * #A025600 ^property[0].code = #status
 * #A025600 ^property[=].valueString = "新增"
-* #A025600 ^property[+].code = #updateDate
+* #A025600 ^property[+].code = #effectiveDate
 * #A025600 ^property[=].valueString = "2024-05"
 * #A025752 "復旦荊防敗毒散濃縮顆粒"
 * #A025752 ^property[0].code = #status
 * #A025752 ^property[=].valueString = "新增"
-* #A025752 ^property[+].code = #updateDate
+* #A025752 ^property[+].code = #effectiveDate
 * #A025752 ^property[=].valueString = "2024-05"
 * #A025990 "東陽十神湯濃縮錠"
 * #A025990 ^property[0].code = #status
 * #A025990 ^property[=].valueString = "新增"
-* #A025990 ^property[+].code = #updateDate
+* #A025990 ^property[+].code = #effectiveDate
 * #A025990 ^property[=].valueString = "2024-05"
 * #A025991 "東陽金鎖固精丸濃縮錠"
 * #A025991 ^property[0].code = #status
 * #A025991 ^property[=].valueString = "新增"
-* #A025991 ^property[+].code = #updateDate
+* #A025991 ^property[+].code = #effectiveDate
 * #A025991 ^property[=].valueString = "2024-05"
 * #A025992 "東陽小柴胡湯濃縮錠"
 * #A025992 ^property[0].code = #status
 * #A025992 ^property[=].valueString = "新增"
-* #A025992 ^property[+].code = #updateDate
+* #A025992 ^property[+].code = #effectiveDate
 * #A025992 ^property[=].valueString = "2024-05"
 * #A026005 "順天堂天王補心丹濃縮散"
 * #A026005 ^property[0].code = #status
 * #A026005 ^property[=].valueString = "新增"
-* #A026005 ^property[+].code = #updateDate
+* #A026005 ^property[+].code = #effectiveDate
 * #A026005 ^property[=].valueString = "2024-05"
 * #A026181 "東陽上中下通用痛風丸濃縮散"
 * #A026181 ^property[0].code = #status
 * #A026181 ^property[=].valueString = "新增"
-* #A026181 ^property[+].code = #updateDate
+* #A026181 ^property[+].code = #effectiveDate
 * #A026181 ^property[=].valueString = "2024-05"
 * #A026182 "東陽三黃湯濃縮錠"
 * #A026182 ^property[0].code = #status
 * #A026182 ^property[=].valueString = "新增"
-* #A026182 ^property[+].code = #updateDate
+* #A026182 ^property[+].code = #effectiveDate
 * #A026182 ^property[=].valueString = "2024-05"
 * #A026183 "東陽補中益氣湯濃縮糖衣錠"
 * #A026183 ^property[0].code = #status
 * #A026183 ^property[=].valueString = "新增"
-* #A026183 ^property[+].code = #updateDate
+* #A026183 ^property[+].code = #effectiveDate
 * #A026183 ^property[=].valueString = "2024-05"
 * #A026479 "東陽歸脾湯濃縮錠"
 * #A026479 ^property[0].code = #status
 * #A026479 ^property[=].valueString = "新增"
-* #A026479 ^property[+].code = #updateDate
+* #A026479 ^property[+].code = #effectiveDate
 * #A026479 ^property[=].valueString = "2024-05"
 * #A026515 "順天堂參苓白朮散濃縮錠"
 * #A026515 ^property[0].code = #status
 * #A026515 ^property[=].valueString = "新增"
-* #A026515 ^property[+].code = #updateDate
+* #A026515 ^property[+].code = #effectiveDate
 * #A026515 ^property[=].valueString = "2024-05"
 * #A026516 "順天堂歸脾湯濃縮錠"
 * #A026516 ^property[0].code = #status
 * #A026516 ^property[=].valueString = "新增"
-* #A026516 ^property[+].code = #updateDate
+* #A026516 ^property[+].code = #effectiveDate
 * #A026516 ^property[=].valueString = "2024-05"
 * #A026580 "東陽保產無憂方濃縮錠"
 * #A026580 ^property[0].code = #status
 * #A026580 ^property[=].valueString = "新增"
-* #A026580 ^property[+].code = #updateDate
+* #A026580 ^property[+].code = #effectiveDate
 * #A026580 ^property[=].valueString = "2024-05"
 * #A026590 "東陽甘草瀉心湯濃縮散"
 * #A026590 ^property[0].code = #status
 * #A026590 ^property[=].valueString = "新增"
-* #A026590 ^property[+].code = #updateDate
+* #A026590 ^property[+].code = #effectiveDate
 * #A026590 ^property[=].valueString = "2024-05"
 * #A026592 "明通升麻葛根湯濃縮錠"
 * #A026592 ^property[0].code = #status
 * #A026592 ^property[=].valueString = "新增"
-* #A026592 ^property[+].code = #updateDate
+* #A026592 ^property[+].code = #effectiveDate
 * #A026592 ^property[=].valueString = "2024-05"
 * #A026623 "復旦鐵笛丸濃縮顆粒"
 * #A026623 ^property[0].code = #status
 * #A026623 ^property[=].valueString = "新增"
-* #A026623 ^property[+].code = #updateDate
+* #A026623 ^property[+].code = #effectiveDate
 * #A026623 ^property[=].valueString = "2024-05"
 * #A026625 "東陽十味敗毒湯濃縮散"
 * #A026625 ^property[0].code = #status
 * #A026625 ^property[=].valueString = "新增"
-* #A026625 ^property[+].code = #updateDate
+* #A026625 ^property[+].code = #effectiveDate
 * #A026625 ^property[=].valueString = "2024-05"
 * #A026666 "東陽八珍湯濃縮散"
 * #A026666 ^property[0].code = #status
 * #A026666 ^property[=].valueString = "新增"
-* #A026666 ^property[+].code = #updateDate
+* #A026666 ^property[+].code = #effectiveDate
 * #A026666 ^property[=].valueString = "2024-05"
 * #A026705 "東陽桑菊飲濃縮錠"
 * #A026705 ^property[0].code = #status
 * #A026705 ^property[=].valueString = "新增"
-* #A026705 ^property[+].code = #updateDate
+* #A026705 ^property[+].code = #effectiveDate
 * #A026705 ^property[=].valueString = "2024-05"
 * #A026777 "東陽杞菊地黃丸濃縮錠"
 * #A026777 ^property[0].code = #status
 * #A026777 ^property[=].valueString = "新增"
-* #A026777 ^property[+].code = #updateDate
+* #A026777 ^property[+].code = #effectiveDate
 * #A026777 ^property[=].valueString = "2024-05"
 * #A026987 "復旦疏經活血湯濃縮顆粒"
 * #A026987 ^property[0].code = #status
 * #A026987 ^property[=].valueString = "新增"
-* #A026987 ^property[+].code = #updateDate
+* #A026987 ^property[+].code = #effectiveDate
 * #A026987 ^property[=].valueString = "2024-05"
 * #A027023 "東陽小建中湯濃縮錠"
 * #A027023 ^property[0].code = #status
 * #A027023 ^property[=].valueString = "新增"
-* #A027023 ^property[+].code = #updateDate
+* #A027023 ^property[+].code = #effectiveDate
 * #A027023 ^property[=].valueString = "2024-05"
 * #A028383 "勝昌導水茯苓湯濃縮散"
 * #A028383 ^property[0].code = #status
 * #A028383 ^property[=].valueString = "新增"
-* #A028383 ^property[+].code = #updateDate
+* #A028383 ^property[+].code = #effectiveDate
 * #A028383 ^property[=].valueString = "2024-05"
 * #A028384 "勝昌治濁固本丸濃縮散"
 * #A028384 ^property[0].code = #status
 * #A028384 ^property[=].valueString = "新增"
-* #A028384 ^property[+].code = #updateDate
+* #A028384 ^property[+].code = #effectiveDate
 * #A028384 ^property[=].valueString = "2024-05"
 * #A028385 "勝昌逍遙散濃縮散"
 * #A028385 ^property[0].code = #status
 * #A028385 ^property[=].valueString = "新增"
-* #A028385 ^property[+].code = #updateDate
+* #A028385 ^property[+].code = #effectiveDate
 * #A028385 ^property[=].valueString = "2024-05"
 * #A028386 "勝昌止嗽濃縮散"
 * #A028386 ^property[0].code = #status
 * #A028386 ^property[=].valueString = "新增"
-* #A028386 ^property[+].code = #updateDate
+* #A028386 ^property[+].code = #effectiveDate
 * #A028386 ^property[=].valueString = "2024-05"
 * #A028387 "勝昌八珍湯濃縮散"
 * #A028387 ^property[0].code = #status
 * #A028387 ^property[=].valueString = "新增"
-* #A028387 ^property[+].code = #updateDate
+* #A028387 ^property[+].code = #effectiveDate
 * #A028387 ^property[=].valueString = "2024-05"
 * #A028388 "順天堂麥門冬湯濃縮顆粒"
 * #A028388 ^property[0].code = #status
 * #A028388 ^property[=].valueString = "新增"
-* #A028388 ^property[+].code = #updateDate
+* #A028388 ^property[+].code = #effectiveDate
 * #A028388 ^property[=].valueString = "2024-05"
 * #A028417 "勝昌涼膈散濃縮散"
 * #A028417 ^property[0].code = #status
 * #A028417 ^property[=].valueString = "新增"
-* #A028417 ^property[+].code = #updateDate
+* #A028417 ^property[+].code = #effectiveDate
 * #A028417 ^property[=].valueString = "2024-05"
 * #A028418 "勝昌九味羌活湯濃縮散"
 * #A028418 ^property[0].code = #status
 * #A028418 ^property[=].valueString = "新增"
-* #A028418 ^property[+].code = #updateDate
+* #A028418 ^property[+].code = #effectiveDate
 * #A028418 ^property[=].valueString = "2024-05"
 * #A028419 "勝昌八味帶下方濃縮散"
 * #A028419 ^property[0].code = #status
 * #A028419 ^property[=].valueString = "新增"
-* #A028419 ^property[+].code = #updateDate
+* #A028419 ^property[+].code = #effectiveDate
 * #A028419 ^property[=].valueString = "2024-05"
 * #A028420 "勝昌八正散濃縮散"
 * #A028420 ^property[0].code = #status
 * #A028420 ^property[=].valueString = "新增"
-* #A028420 ^property[+].code = #updateDate
+* #A028420 ^property[+].code = #effectiveDate
 * #A028420 ^property[=].valueString = "2024-05"
 * #A028421 "勝昌四物湯濃縮散"
 * #A028421 ^property[0].code = #status
 * #A028421 ^property[=].valueString = "新增"
-* #A028421 ^property[+].code = #updateDate
+* #A028421 ^property[+].code = #effectiveDate
 * #A028421 ^property[=].valueString = "2024-05"
 * #A028422 "勝昌參苓白朮散濃縮散"
 * #A028422 ^property[0].code = #status
 * #A028422 ^property[=].valueString = "新增"
-* #A028422 ^property[+].code = #updateDate
+* #A028422 ^property[+].code = #effectiveDate
 * #A028422 ^property[=].valueString = "2024-05"
 * #A028423 "勝昌清上防風湯濃縮散"
 * #A028423 ^property[0].code = #status
 * #A028423 ^property[=].valueString = "新增"
-* #A028423 ^property[+].code = #updateDate
+* #A028423 ^property[+].code = #effectiveDate
 * #A028423 ^property[=].valueString = "2024-05"
 * #A028424 "勝昌清心蓮子飲濃縮散"
 * #A028424 ^property[0].code = #status
 * #A028424 ^property[=].valueString = "新增"
-* #A028424 ^property[+].code = #updateDate
+* #A028424 ^property[+].code = #effectiveDate
 * #A028424 ^property[=].valueString = "2024-05"
 * #A028425 "勝昌女科柏子仁濃縮散"
 * #A028425 ^property[0].code = #status
 * #A028425 ^property[=].valueString = "新增"
-* #A028425 ^property[+].code = #updateDate
+* #A028425 ^property[+].code = #effectiveDate
 * #A028425 ^property[=].valueString = "2024-05"
 * #A028426 "勝昌五皮飲濃縮散"
 * #A028426 ^property[0].code = #status
 * #A028426 ^property[=].valueString = "新增"
-* #A028426 ^property[+].code = #updateDate
+* #A028426 ^property[+].code = #effectiveDate
 * #A028426 ^property[=].valueString = "2024-05"
 * #A028428 "勝昌麻黃杏仁薏苡甘草湯濃縮散"
 * #A028428 ^property[0].code = #status
 * #A028428 ^property[=].valueString = "新增"
-* #A028428 ^property[+].code = #updateDate
+* #A028428 ^property[+].code = #effectiveDate
 * #A028428 ^property[=].valueString = "2024-05"
 * #A028433 "勝昌苓桂朮甘湯濃縮散"
 * #A028433 ^property[0].code = #status
 * #A028433 ^property[=].valueString = "新增"
-* #A028433 ^property[+].code = #updateDate
+* #A028433 ^property[+].code = #effectiveDate
 * #A028433 ^property[=].valueString = "2024-05"
 * #A028434 "勝昌四逆湯濃縮顆粒"
 * #A028434 ^property[0].code = #status
 * #A028434 ^property[=].valueString = "新增"
-* #A028434 ^property[+].code = #updateDate
+* #A028434 ^property[+].code = #effectiveDate
 * #A028434 ^property[=].valueString = "2024-05"
 * #A028530 "復旦二陳湯濃縮散"
 * #A028530 ^property[0].code = #status
 * #A028530 ^property[=].valueString = "新增"
-* #A028530 ^property[+].code = #updateDate
+* #A028530 ^property[+].code = #effectiveDate
 * #A028530 ^property[=].valueString = "2024-05"
 * #A028531 "復旦桂枝湯濃縮散"
 * #A028531 ^property[0].code = #status
 * #A028531 ^property[=].valueString = "新增"
-* #A028531 ^property[+].code = #updateDate
+* #A028531 ^property[+].code = #effectiveDate
 * #A028531 ^property[=].valueString = "2024-05"
 * #A028629 "勝昌胃苓湯濃縮散"
 * #A028629 ^property[0].code = #status
 * #A028629 ^property[=].valueString = "新增"
-* #A028629 ^property[+].code = #updateDate
+* #A028629 ^property[+].code = #effectiveDate
 * #A028629 ^property[=].valueString = "2024-05"
 * #A028630 "勝昌柴葛解肌湯濃縮散"
 * #A028630 ^property[0].code = #status
 * #A028630 ^property[=].valueString = "新增"
-* #A028630 ^property[+].code = #updateDate
+* #A028630 ^property[+].code = #effectiveDate
 * #A028630 ^property[=].valueString = "2024-05"
 * #A028633 "勝昌甘露飲濃縮散"
 * #A028633 ^property[0].code = #status
 * #A028633 ^property[=].valueString = "新增"
-* #A028633 ^property[+].code = #updateDate
+* #A028633 ^property[+].code = #effectiveDate
 * #A028633 ^property[=].valueString = "2024-05"
 * #A028636 "勝昌導赤散濃縮散"
 * #A028636 ^property[0].code = #status
 * #A028636 ^property[=].valueString = "新增"
-* #A028636 ^property[+].code = #updateDate
+* #A028636 ^property[+].code = #effectiveDate
 * #A028636 ^property[=].valueString = "2024-05"
 * #A028637 "勝昌十全大補湯濃縮散"
 * #A028637 ^property[0].code = #status
 * #A028637 ^property[=].valueString = "新增"
-* #A028637 ^property[+].code = #updateDate
+* #A028637 ^property[+].code = #effectiveDate
 * #A028637 ^property[=].valueString = "2024-05"
 * #A028638 "勝昌大柴胡湯濃縮散"
 * #A028638 ^property[0].code = #status
 * #A028638 ^property[=].valueString = "新增"
-* #A028638 ^property[+].code = #updateDate
+* #A028638 ^property[+].code = #effectiveDate
 * #A028638 ^property[=].valueString = "2024-05"
 * #A028664 "勝昌五苓散濃縮散"
 * #A028664 ^property[0].code = #status
 * #A028664 ^property[=].valueString = "新增"
-* #A028664 ^property[+].code = #updateDate
+* #A028664 ^property[+].code = #effectiveDate
 * #A028664 ^property[=].valueString = "2024-05"
 * #A028715 "勝昌桂枝加龍骨牡蠣湯濃縮散"
 * #A028715 ^property[0].code = #status
 * #A028715 ^property[=].valueString = "新增"
-* #A028715 ^property[+].code = #updateDate
+* #A028715 ^property[+].code = #effectiveDate
 * #A028715 ^property[=].valueString = "2024-05"
 * #A028716 "勝昌排膿散濃縮散"
 * #A028716 ^property[0].code = #status
 * #A028716 ^property[=].valueString = "新增"
-* #A028716 ^property[+].code = #updateDate
+* #A028716 ^property[+].code = #effectiveDate
 * #A028716 ^property[=].valueString = "2024-05"
 * #A028717 "勝昌蒼耳散濃縮粉"
 * #A028717 ^property[0].code = #status
 * #A028717 ^property[=].valueString = "新增"
-* #A028717 ^property[+].code = #updateDate
+* #A028717 ^property[+].code = #effectiveDate
 * #A028717 ^property[=].valueString = "2024-05"
 * #A028719 "勝昌洗肝明目湯濃縮散"
 * #A028719 ^property[0].code = #status
 * #A028719 ^property[=].valueString = "新增"
-* #A028719 ^property[+].code = #updateDate
+* #A028719 ^property[+].code = #effectiveDate
 * #A028719 ^property[=].valueString = "2024-05"
 * #A028721 "勝昌六和湯濃縮散"
 * #A028721 ^property[0].code = #status
 * #A028721 ^property[=].valueString = "新增"
-* #A028721 ^property[+].code = #updateDate
+* #A028721 ^property[+].code = #effectiveDate
 * #A028721 ^property[=].valueString = "2024-05"
 * #A028724 "勝昌清肺飲濃縮顆粒"
 * #A028724 ^property[0].code = #status
 * #A028724 ^property[=].valueString = "新增"
-* #A028724 ^property[+].code = #updateDate
+* #A028724 ^property[+].code = #effectiveDate
 * #A028724 ^property[=].valueString = "2024-05"
 * #A028725 "順天堂八味地黃丸濃縮顆粒"
 * #A028725 ^property[0].code = #status
 * #A028725 ^property[=].valueString = "新增"
-* #A028725 ^property[+].code = #updateDate
+* #A028725 ^property[+].code = #effectiveDate
 * #A028725 ^property[=].valueString = "2024-05"
 * #A028726 "順天堂柴胡桂枝湯濃縮顆粒"
 * #A028726 ^property[0].code = #status
 * #A028726 ^property[=].valueString = "新增"
-* #A028726 ^property[+].code = #updateDate
+* #A028726 ^property[+].code = #effectiveDate
 * #A028726 ^property[=].valueString = "2024-05"
 * #A028727 "勝昌小青龍湯濃縮散"
 * #A028727 ^property[0].code = #status
 * #A028727 ^property[=].valueString = "新增"
-* #A028727 ^property[+].code = #updateDate
+* #A028727 ^property[+].code = #effectiveDate
 * #A028727 ^property[=].valueString = "2024-05"
 * #A028728 "勝昌補中益氣湯濃縮散"
 * #A028728 ^property[0].code = #status
 * #A028728 ^property[=].valueString = "新增"
-* #A028728 ^property[+].code = #updateDate
+* #A028728 ^property[+].code = #effectiveDate
 * #A028728 ^property[=].valueString = "2024-05"
 * #A028729 "勝昌保產無憂方濃縮散"
 * #A028729 ^property[0].code = #status
 * #A028729 ^property[=].valueString = "新增"
-* #A028729 ^property[+].code = #updateDate
+* #A028729 ^property[+].code = #effectiveDate
 * #A028729 ^property[=].valueString = "2024-05"
 * #A028730 "勝昌清暑益氣湯濃縮散"
 * #A028730 ^property[0].code = #status
 * #A028730 ^property[=].valueString = "新增"
-* #A028730 ^property[+].code = #updateDate
+* #A028730 ^property[+].code = #effectiveDate
 * #A028730 ^property[=].valueString = "2024-05"
 * #A028732 "勝昌安中散濃縮散"
 * #A028732 ^property[0].code = #status
 * #A028732 ^property[=].valueString = "新增"
-* #A028732 ^property[+].code = #updateDate
+* #A028732 ^property[+].code = #effectiveDate
 * #A028732 ^property[=].valueString = "2024-05"
 * #A028733 "勝昌抑肝散濃縮散"
 * #A028733 ^property[0].code = #status
 * #A028733 ^property[=].valueString = "新增"
-* #A028733 ^property[+].code = #updateDate
+* #A028733 ^property[+].code = #effectiveDate
 * #A028733 ^property[=].valueString = "2024-05"
 * #A028734 "勝昌葛根湯濃縮散"
 * #A028734 ^property[0].code = #status
 * #A028734 ^property[=].valueString = "新增"
-* #A028734 ^property[+].code = #updateDate
+* #A028734 ^property[+].code = #effectiveDate
 * #A028734 ^property[=].valueString = "2024-05"
 * #A028735 "勝昌寧嗽丸濃縮散"
 * #A028735 ^property[0].code = #status
 * #A028735 ^property[=].valueString = "新增"
-* #A028735 ^property[+].code = #updateDate
+* #A028735 ^property[+].code = #effectiveDate
 * #A028735 ^property[=].valueString = "2024-05"
 * #A028736 "勝昌真武湯濃縮散"
 * #A028736 ^property[0].code = #status
 * #A028736 ^property[=].valueString = "新增"
-* #A028736 ^property[+].code = #updateDate
+* #A028736 ^property[+].code = #effectiveDate
 * #A028736 ^property[=].valueString = "2024-05"
 * #A028737 "勝昌理中湯濃縮散"
 * #A028737 ^property[0].code = #status
 * #A028737 ^property[=].valueString = "新增"
-* #A028737 ^property[+].code = #updateDate
+* #A028737 ^property[+].code = #effectiveDate
 * #A028737 ^property[=].valueString = "2024-05"
 * #A028747 "勝昌柴胡桂枝湯濃縮散"
 * #A028747 ^property[0].code = #status
 * #A028747 ^property[=].valueString = "新增"
-* #A028747 ^property[+].code = #updateDate
+* #A028747 ^property[+].code = #effectiveDate
 * #A028747 ^property[=].valueString = "2024-05"
 * #A028748 "勝昌茯菟丹濃縮散"
 * #A028748 ^property[0].code = #status
 * #A028748 ^property[=].valueString = "新增"
-* #A028748 ^property[+].code = #updateDate
+* #A028748 ^property[+].code = #effectiveDate
 * #A028748 ^property[=].valueString = "2024-05"
 * #A028749 "勝昌大建中湯濃縮散"
 * #A028749 ^property[0].code = #status
 * #A028749 ^property[=].valueString = "新增"
-* #A028749 ^property[+].code = #updateDate
+* #A028749 ^property[+].code = #effectiveDate
 * #A028749 ^property[=].valueString = "2024-05"
 * #A028750 "勝昌香蘇散濃縮散"
 * #A028750 ^property[0].code = #status
 * #A028750 ^property[=].valueString = "新增"
-* #A028750 ^property[+].code = #updateDate
+* #A028750 ^property[+].code = #effectiveDate
 * #A028750 ^property[=].valueString = "2024-05"
 * #A028751 "勝昌十神湯濃縮散"
 * #A028751 ^property[0].code = #status
 * #A028751 ^property[=].valueString = "新增"
-* #A028751 ^property[+].code = #updateDate
+* #A028751 ^property[+].code = #effectiveDate
 * #A028751 ^property[=].valueString = "2024-05"
 * #A028816 "勝昌生化湯濃縮散"
 * #A028816 ^property[0].code = #status
 * #A028816 ^property[=].valueString = "新增"
-* #A028816 ^property[+].code = #updateDate
+* #A028816 ^property[+].code = #effectiveDate
 * #A028816 ^property[=].valueString = "2024-05"
 * #A028820 "勝昌金沸草散濃縮顆粒"
 * #A028820 ^property[0].code = #status
 * #A028820 ^property[=].valueString = "新增"
-* #A028820 ^property[+].code = #updateDate
+* #A028820 ^property[+].code = #effectiveDate
 * #A028820 ^property[=].valueString = "2024-05"
 * #A028821 "勝昌華蓋散濃縮散"
 * #A028821 ^property[0].code = #status
 * #A028821 ^property[=].valueString = "新增"
-* #A028821 ^property[+].code = #updateDate
+* #A028821 ^property[+].code = #effectiveDate
 * #A028821 ^property[=].valueString = "2024-05"
 * #A028822 "勝昌柴胡桂枝乾薑湯濃縮散"
 * #A028822 ^property[0].code = #status
 * #A028822 ^property[=].valueString = "新增"
-* #A028822 ^property[+].code = #updateDate
+* #A028822 ^property[+].code = #effectiveDate
 * #A028822 ^property[=].valueString = "2024-05"
 * #A028824 "勝昌人參養榮湯濃縮散"
 * #A028824 ^property[0].code = #status
 * #A028824 ^property[=].valueString = "新增"
-* #A028824 ^property[+].code = #updateDate
+* #A028824 ^property[+].code = #effectiveDate
 * #A028824 ^property[=].valueString = "2024-05"
 * #A028825 "勝昌歸脾湯濃縮散"
 * #A028825 ^property[0].code = #status
 * #A028825 ^property[=].valueString = "新增"
-* #A028825 ^property[+].code = #updateDate
+* #A028825 ^property[+].code = #effectiveDate
 * #A028825 ^property[=].valueString = "2024-05"
 * #A028826 "勝昌滋腎明目湯濃縮散"
 * #A028826 ^property[0].code = #status
 * #A028826 ^property[=].valueString = "新增"
-* #A028826 ^property[+].code = #updateDate
+* #A028826 ^property[+].code = #effectiveDate
 * #A028826 ^property[=].valueString = "2024-05"
 * #A028827 "勝昌分消湯濃縮散"
 * #A028827 ^property[0].code = #status
 * #A028827 ^property[=].valueString = "新增"
-* #A028827 ^property[+].code = #updateDate
+* #A028827 ^property[+].code = #effectiveDate
 * #A028827 ^property[=].valueString = "2024-05"
 * #A028828 "勝昌麻杏甘石湯濃縮散"
 * #A028828 ^property[0].code = #status
 * #A028828 ^property[=].valueString = "新增"
-* #A028828 ^property[+].code = #updateDate
+* #A028828 ^property[+].code = #effectiveDate
 * #A028828 ^property[=].valueString = "2024-05"
 * #A028829 "勝昌桃核承氣湯濃縮散"
 * #A028829 ^property[0].code = #status
 * #A028829 ^property[=].valueString = "新增"
-* #A028829 ^property[+].code = #updateDate
+* #A028829 ^property[+].code = #effectiveDate
 * #A028829 ^property[=].valueString = "2024-05"
 * #A028831 "勝昌加味逍遙散濃縮散"
 * #A028831 ^property[0].code = #status
 * #A028831 ^property[=].valueString = "新增"
-* #A028831 ^property[+].code = #updateDate
+* #A028831 ^property[+].code = #effectiveDate
 * #A028831 ^property[=].valueString = "2024-05"
 * #A028832 "勝昌藿香正氣散濃縮散"
 * #A028832 ^property[0].code = #status
 * #A028832 ^property[=].valueString = "新增"
-* #A028832 ^property[+].code = #updateDate
+* #A028832 ^property[+].code = #effectiveDate
 * #A028832 ^property[=].valueString = "2024-05"
 * #A028833 "勝昌當歸芍藥散濃縮散"
 * #A028833 ^property[0].code = #status
 * #A028833 ^property[=].valueString = "新增"
-* #A028833 ^property[+].code = #updateDate
+* #A028833 ^property[+].code = #effectiveDate
 * #A028833 ^property[=].valueString = "2024-05"
 * #A028836 "勝昌川芎茶調散濃縮散"
 * #A028836 ^property[0].code = #status
 * #A028836 ^property[=].valueString = "新增"
-* #A028836 ^property[+].code = #updateDate
+* #A028836 ^property[+].code = #effectiveDate
 * #A028836 ^property[=].valueString = "2024-05"
 * #A028838 "勝昌十味香薷飲濃縮散"
 * #A028838 ^property[0].code = #status
 * #A028838 ^property[=].valueString = "新增"
-* #A028838 ^property[+].code = #updateDate
+* #A028838 ^property[+].code = #effectiveDate
 * #A028838 ^property[=].valueString = "2024-05"
 * #A028842 "勝昌半夏厚朴湯濃縮散"
 * #A028842 ^property[0].code = #status
 * #A028842 ^property[=].valueString = "新增"
-* #A028842 ^property[+].code = #updateDate
+* #A028842 ^property[+].code = #effectiveDate
 * #A028842 ^property[=].valueString = "2024-05"
 * #A028843 "勝昌荊防敗毒散濃縮散"
 * #A028843 ^property[0].code = #status
 * #A028843 ^property[=].valueString = "新增"
-* #A028843 ^property[+].code = #updateDate
+* #A028843 ^property[+].code = #effectiveDate
 * #A028843 ^property[=].valueString = "2024-05"
 * #A028844 "勝昌辛夷散濃縮散"
 * #A028844 ^property[0].code = #status
 * #A028844 ^property[=].valueString = "新增"
-* #A028844 ^property[+].code = #updateDate
+* #A028844 ^property[+].code = #effectiveDate
 * #A028844 ^property[=].valueString = "2024-05"
 * #A028848 "勝昌溫膽湯濃縮散"
 * #A028848 ^property[0].code = #status
 * #A028848 ^property[=].valueString = "新增"
-* #A028848 ^property[+].code = #updateDate
+* #A028848 ^property[+].code = #effectiveDate
 * #A028848 ^property[=].valueString = "2024-05"
 * #A028849 "勝昌黃連上清丸濃縮散"
 * #A028849 ^property[0].code = #status
 * #A028849 ^property[=].valueString = "新增"
-* #A028849 ^property[+].code = #updateDate
+* #A028849 ^property[+].code = #effectiveDate
 * #A028849 ^property[=].valueString = "2024-05"
 * #A028851 "勝昌蘇子降氣湯濃縮散"
 * #A028851 ^property[0].code = #status
 * #A028851 ^property[=].valueString = "新增"
-* #A028851 ^property[+].code = #updateDate
+* #A028851 ^property[+].code = #effectiveDate
 * #A028851 ^property[=].valueString = "2024-05"
 * #A028852 "勝昌小柴胡湯濃縮散"
 * #A028852 ^property[0].code = #status
 * #A028852 ^property[=].valueString = "新增"
-* #A028852 ^property[+].code = #updateDate
+* #A028852 ^property[+].code = #effectiveDate
 * #A028852 ^property[=].valueString = "2024-05"
 * #A028857 "勝昌柴陷湯濃縮散"
 * #A028857 ^property[0].code = #status
 * #A028857 ^property[=].valueString = "新增"
-* #A028857 ^property[+].code = #updateDate
+* #A028857 ^property[+].code = #effectiveDate
 * #A028857 ^property[=].valueString = "2024-05"
 * #A028858 "勝昌香砂養胃湯濃縮散"
 * #A028858 ^property[0].code = #status
 * #A028858 ^property[=].valueString = "新增"
-* #A028858 ^property[+].code = #updateDate
+* #A028858 ^property[+].code = #effectiveDate
 * #A028858 ^property[=].valueString = "2024-05"
 * #A028859 "勝昌代赭旋覆湯濃縮散"
 * #A028859 ^property[0].code = #status
 * #A028859 ^property[=].valueString = "新增"
-* #A028859 ^property[+].code = #updateDate
+* #A028859 ^property[+].code = #effectiveDate
 * #A028859 ^property[=].valueString = "2024-05"
 * #A028860 "勝昌參蘇飲濃縮散"
 * #A028860 ^property[0].code = #status
 * #A028860 ^property[=].valueString = "新增"
-* #A028860 ^property[+].code = #updateDate
+* #A028860 ^property[+].code = #effectiveDate
 * #A028860 ^property[=].valueString = "2024-05"
 * #A028861 "勝昌平胃散濃縮散"
 * #A028861 ^property[0].code = #status
 * #A028861 ^property[=].valueString = "新增"
-* #A028861 ^property[+].code = #updateDate
+* #A028861 ^property[+].code = #effectiveDate
 * #A028861 ^property[=].valueString = "2024-05"
 * #A028866 "勝昌麥門冬湯濃縮散"
 * #A028866 ^property[0].code = #status
 * #A028866 ^property[=].valueString = "新增"
-* #A028866 ^property[+].code = #updateDate
+* #A028866 ^property[+].code = #effectiveDate
 * #A028866 ^property[=].valueString = "2024-05"
 * #A028867 "勝昌防風通聖散濃縮粉"
 * #A028867 ^property[0].code = #status
 * #A028867 ^property[=].valueString = "新增"
-* #A028867 ^property[+].code = #updateDate
+* #A028867 ^property[+].code = #effectiveDate
 * #A028867 ^property[=].valueString = "2024-05"
 * #A028868 "勝昌五積散濃縮散"
 * #A028868 ^property[0].code = #status
 * #A028868 ^property[=].valueString = "新增"
-* #A028868 ^property[+].code = #updateDate
+* #A028868 ^property[+].code = #effectiveDate
 * #A028868 ^property[=].valueString = "2024-05"
 * #A028869 "勝昌六味地黃丸濃縮散"
 * #A028869 ^property[0].code = #status
 * #A028869 ^property[=].valueString = "新增"
-* #A028869 ^property[+].code = #updateDate
+* #A028869 ^property[+].code = #effectiveDate
 * #A028869 ^property[=].valueString = "2024-05"
 * #A028873 "勝昌三黃瀉心湯濃縮散"
 * #A028873 ^property[0].code = #status
 * #A028873 ^property[=].valueString = "新增"
-* #A028873 ^property[+].code = #updateDate
+* #A028873 ^property[+].code = #effectiveDate
 * #A028873 ^property[=].valueString = "2024-05"
 * #A028874 "勝昌六君子湯濃縮散"
 * #A028874 ^property[0].code = #status
 * #A028874 ^property[=].valueString = "新增"
-* #A028874 ^property[+].code = #updateDate
+* #A028874 ^property[+].code = #effectiveDate
 * #A028874 ^property[=].valueString = "2024-05"
 * #A028876 "勝昌小建中湯濃縮散"
 * #A028876 ^property[0].code = #status
 * #A028876 ^property[=].valueString = "新增"
-* #A028876 ^property[+].code = #updateDate
+* #A028876 ^property[+].code = #effectiveDate
 * #A028876 ^property[=].valueString = "2024-05"
 * #A028879 "勝昌清胃散濃縮散"
 * #A028879 ^property[0].code = #status
 * #A028879 ^property[=].valueString = "新增"
-* #A028879 ^property[+].code = #updateDate
+* #A028879 ^property[+].code = #effectiveDate
 * #A028879 ^property[=].valueString = "2024-05"
 * #A028882 "勝昌桑菊飲濃縮散"
 * #A028882 ^property[0].code = #status
 * #A028882 ^property[=].valueString = "新增"
-* #A028882 ^property[+].code = #updateDate
+* #A028882 ^property[+].code = #effectiveDate
 * #A028882 ^property[=].valueString = "2024-05"
 * #A028883 "勝昌定喘湯濃縮散"
 * #A028883 ^property[0].code = #status
 * #A028883 ^property[=].valueString = "新增"
-* #A028883 ^property[+].code = #updateDate
+* #A028883 ^property[+].code = #effectiveDate
 * #A028883 ^property[=].valueString = "2024-05"
 * #A028884 "勝昌小續命湯濃縮散"
 * #A028884 ^property[0].code = #status
 * #A028884 ^property[=].valueString = "新增"
-* #A028884 ^property[+].code = #updateDate
+* #A028884 ^property[+].code = #effectiveDate
 * #A028884 ^property[=].valueString = "2024-05"
 * #A028885 "勝昌人參敗毒散濃縮散"
 * #A028885 ^property[0].code = #status
 * #A028885 ^property[=].valueString = "新增"
-* #A028885 ^property[+].code = #updateDate
+* #A028885 ^property[+].code = #effectiveDate
 * #A028885 ^property[=].valueString = "2024-05"
 * #A028888 "勝昌腎著湯濃縮散"
 * #A028888 ^property[0].code = #status
 * #A028888 ^property[=].valueString = "新增"
-* #A028888 ^property[+].code = #updateDate
+* #A028888 ^property[+].code = #effectiveDate
 * #A028888 ^property[=].valueString = "2024-05"
 * #A028889 "勝昌獨活寄生湯濃縮散"
 * #A028889 ^property[0].code = #status
 * #A028889 ^property[=].valueString = "新增"
-* #A028889 ^property[+].code = #updateDate
+* #A028889 ^property[+].code = #effectiveDate
 * #A028889 ^property[=].valueString = "2024-05"
 * #A028890 "勝昌豬苓湯濃縮散"
 * #A028890 ^property[0].code = #status
 * #A028890 ^property[=].valueString = "新增"
-* #A028890 ^property[+].code = #updateDate
+* #A028890 ^property[+].code = #effectiveDate
 * #A028890 ^property[=].valueString = "2024-05"
 * #A028891 "勝昌柴胡加龍骨牡蠣湯濃縮散"
 * #A028891 ^property[0].code = #status
 * #A028891 ^property[=].valueString = "新增"
-* #A028891 ^property[+].code = #updateDate
+* #A028891 ^property[+].code = #effectiveDate
 * #A028891 ^property[=].valueString = "2024-05"
 * #A028893 "勝昌黃連湯濃縮散"
 * #A028893 ^property[0].code = #status
 * #A028893 ^property[=].valueString = "新增"
-* #A028893 ^property[+].code = #updateDate
+* #A028893 ^property[+].code = #effectiveDate
 * #A028893 ^property[=].valueString = "2024-05"
 * #A028903 "勝昌葛根黃連黃芩湯濃縮散"
 * #A028903 ^property[0].code = #status
 * #A028903 ^property[=].valueString = "新增"
-* #A028903 ^property[+].code = #updateDate
+* #A028903 ^property[+].code = #effectiveDate
 * #A028903 ^property[=].valueString = "2024-05"
 * #A028909 "勝昌桂枝湯濃縮散"
 * #A028909 ^property[0].code = #status
 * #A028909 ^property[=].valueString = "新增"
-* #A028909 ^property[+].code = #updateDate
+* #A028909 ^property[+].code = #effectiveDate
 * #A028909 ^property[=].valueString = "2024-05"
 * #A028911 "勝昌四味香薷飲濃縮散"
 * #A028911 ^property[0].code = #status
 * #A028911 ^property[=].valueString = "新增"
-* #A028911 ^property[+].code = #updateDate
+* #A028911 ^property[+].code = #effectiveDate
 * #A028911 ^property[=].valueString = "2024-05"
 * #A028912 "勝昌乙字湯濃縮散"
 * #A028912 ^property[0].code = #status
 * #A028912 ^property[=].valueString = "新增"
-* #A028912 ^property[+].code = #updateDate
+* #A028912 ^property[+].code = #effectiveDate
 * #A028912 ^property[=].valueString = "2024-05"
 * #A028913 "勝昌芍藥甘草湯濃縮散"
 * #A028913 ^property[0].code = #status
 * #A028913 ^property[=].valueString = "新增"
-* #A028913 ^property[+].code = #updateDate
+* #A028913 ^property[+].code = #effectiveDate
 * #A028913 ^property[=].valueString = "2024-05"
 * #A028914 "勝昌香砂六君子湯濃縮散"
 * #A028914 ^property[0].code = #status
 * #A028914 ^property[=].valueString = "新增"
-* #A028914 ^property[+].code = #updateDate
+* #A028914 ^property[+].code = #effectiveDate
 * #A028914 ^property[=].valueString = "2024-05"
 * #A028915 "勝昌麻黃湯濃縮散"
 * #A028915 ^property[0].code = #status
 * #A028915 ^property[=].valueString = "新增"
-* #A028915 ^property[+].code = #updateDate
+* #A028915 ^property[+].code = #effectiveDate
 * #A028915 ^property[=].valueString = "2024-05"
 * #A028931 "復旦當歸四逆湯濃縮散"
 * #A028931 ^property[0].code = #status
 * #A028931 ^property[=].valueString = "新增"
-* #A028931 ^property[+].code = #updateDate
+* #A028931 ^property[+].code = #effectiveDate
 * #A028931 ^property[=].valueString = "2024-05"
 * #A028932 "復旦玉屏風散濃縮散"
 * #A028932 ^property[0].code = #status
 * #A028932 ^property[=].valueString = "新增"
-* #A028932 ^property[+].code = #updateDate
+* #A028932 ^property[+].code = #effectiveDate
 * #A028932 ^property[=].valueString = "2024-05"
 * #A029118 "順天堂四物湯濃縮顆粒"
 * #A029118 ^property[0].code = #status
 * #A029118 ^property[=].valueString = "新增"
-* #A029118 ^property[+].code = #updateDate
+* #A029118 ^property[+].code = #effectiveDate
 * #A029118 ^property[=].valueString = "2024-05"
 * #A029177 "復旦理中湯濃縮散"
 * #A029177 ^property[0].code = #status
 * #A029177 ^property[=].valueString = "新增"
-* #A029177 ^property[+].code = #updateDate
+* #A029177 ^property[+].code = #effectiveDate
 * #A029177 ^property[=].valueString = "2024-05"
 * #A029178 "復旦黃耆五物湯濃縮散"
 * #A029178 ^property[0].code = #status
 * #A029178 ^property[=].valueString = "新增"
-* #A029178 ^property[+].code = #updateDate
+* #A029178 ^property[+].code = #effectiveDate
 * #A029178 ^property[=].valueString = "2024-05"
 * #A029193 "順天堂逍遙散濃縮顆粒"
 * #A029193 ^property[0].code = #status
 * #A029193 ^property[=].valueString = "新增"
-* #A029193 ^property[+].code = #updateDate
+* #A029193 ^property[+].code = #effectiveDate
 * #A029193 ^property[=].valueString = "2024-05"
 * #A029303 "東陽甘麥大棗湯濃縮散"
 * #A029303 ^property[0].code = #status
 * #A029303 ^property[=].valueString = "新增"
-* #A029303 ^property[+].code = #updateDate
+* #A029303 ^property[+].code = #effectiveDate
 * #A029303 ^property[=].valueString = "2024-05"
 * #A029304 "東陽安中散濃縮散"
 * #A029304 ^property[0].code = #status
 * #A029304 ^property[=].valueString = "新增"
-* #A029304 ^property[+].code = #updateDate
+* #A029304 ^property[+].code = #effectiveDate
 * #A029304 ^property[=].valueString = "2024-05"
 * #A029305 "東陽紫菀湯濃縮散"
 * #A029305 ^property[0].code = #status
 * #A029305 ^property[=].valueString = "新增"
-* #A029305 ^property[+].code = #updateDate
+* #A029305 ^property[+].code = #effectiveDate
 * #A029305 ^property[=].valueString = "2024-05"
 * #A029306 "東陽金鎖固精丸濃縮顆粒"
 * #A029306 ^property[0].code = #status
 * #A029306 ^property[=].valueString = "新增"
-* #A029306 ^property[+].code = #updateDate
+* #A029306 ^property[+].code = #effectiveDate
 * #A029306 ^property[=].valueString = "2024-05"
 * #A029307 "東陽四物湯濃縮散"
 * #A029307 ^property[0].code = #status
 * #A029307 ^property[=].valueString = "新增"
-* #A029307 ^property[+].code = #updateDate
+* #A029307 ^property[+].code = #effectiveDate
 * #A029307 ^property[=].valueString = "2024-05"
 * #A029308 "漢聖麥門冬湯濃縮散"
 * #A029308 ^property[0].code = #status
 * #A029308 ^property[=].valueString = "新增"
-* #A029308 ^property[+].code = #updateDate
+* #A029308 ^property[+].code = #effectiveDate
 * #A029308 ^property[=].valueString = "2024-05"
 * #A029309 "漢聖香砂六君子湯濃縮散"
 * #A029309 ^property[0].code = #status
 * #A029309 ^property[=].valueString = "新增"
-* #A029309 ^property[+].code = #updateDate
+* #A029309 ^property[+].code = #effectiveDate
 * #A029309 ^property[=].valueString = "2024-05"
 * #A029310 "東陽蓮子清心飲濃縮散"
 * #A029310 ^property[0].code = #status
 * #A029310 ^property[=].valueString = "新增"
-* #A029310 ^property[+].code = #updateDate
+* #A029310 ^property[+].code = #effectiveDate
 * #A029310 ^property[=].valueString = "2024-05"
 * #A029311 "東陽芍藥湯濃縮散"
 * #A029311 ^property[0].code = #status
 * #A029311 ^property[=].valueString = "新增"
-* #A029311 ^property[+].code = #updateDate
+* #A029311 ^property[+].code = #effectiveDate
 * #A029311 ^property[=].valueString = "2024-05"
 * #A029346 "復旦白頭翁湯濃縮散"
 * #A029346 ^property[0].code = #status
 * #A029346 ^property[=].valueString = "新增"
-* #A029346 ^property[+].code = #updateDate
+* #A029346 ^property[+].code = #effectiveDate
 * #A029346 ^property[=].valueString = "2024-05"
 * #A029380 "勝昌歸耆建中湯濃縮顆粒"
 * #A029380 ^property[0].code = #status
 * #A029380 ^property[=].valueString = "新增"
-* #A029380 ^property[+].code = #updateDate
+* #A029380 ^property[+].code = #effectiveDate
 * #A029380 ^property[=].valueString = "2024-05"
 * #A029382 "勝昌溫清飲濃縮顆粒"
 * #A029382 ^property[0].code = #status
 * #A029382 ^property[=].valueString = "新增"
-* #A029382 ^property[+].code = #updateDate
+* #A029382 ^property[+].code = #effectiveDate
 * #A029382 ^property[=].valueString = "2024-05"
 * #A029384 "勝昌茵陳蒿湯濃縮散"
 * #A029384 ^property[0].code = #status
 * #A029384 ^property[=].valueString = "新增"
-* #A029384 ^property[+].code = #updateDate
+* #A029384 ^property[+].code = #effectiveDate
 * #A029384 ^property[=].valueString = "2024-05"
 * #A029386 "勝昌升麻葛根湯濃縮散"
 * #A029386 ^property[0].code = #status
 * #A029386 ^property[=].valueString = "新增"
-* #A029386 ^property[+].code = #updateDate
+* #A029386 ^property[+].code = #effectiveDate
 * #A029386 ^property[=].valueString = "2024-05"
 * #A029387 "勝昌萆薢分清飲濃縮散"
 * #A029387 ^property[0].code = #status
 * #A029387 ^property[=].valueString = "新增"
-* #A029387 ^property[+].code = #updateDate
+* #A029387 ^property[+].code = #effectiveDate
 * #A029387 ^property[=].valueString = "2024-05"
 * #A029388 "勝昌潤腸湯濃縮粉"
 * #A029388 ^property[0].code = #status
 * #A029388 ^property[=].valueString = "新增"
-* #A029388 ^property[+].code = #updateDate
+* #A029388 ^property[+].code = #effectiveDate
 * #A029388 ^property[=].valueString = "2024-05"
 * #A029389 "勝昌疏經活血湯濃縮散"
 * #A029389 ^property[0].code = #status
 * #A029389 ^property[=].valueString = "新增"
-* #A029389 ^property[+].code = #updateDate
+* #A029389 ^property[+].code = #effectiveDate
 * #A029389 ^property[=].valueString = "2024-05"
 * #A029390 "勝昌金水六君煎濃縮顆粒"
 * #A029390 ^property[0].code = #status
 * #A029390 ^property[=].valueString = "新增"
-* #A029390 ^property[+].code = #updateDate
+* #A029390 ^property[+].code = #effectiveDate
 * #A029390 ^property[=].valueString = "2024-05"
 * #A029391 "勝昌百合固金湯濃縮散"
 * #A029391 ^property[0].code = #status
 * #A029391 ^property[=].valueString = "新增"
-* #A029391 ^property[+].code = #updateDate
+* #A029391 ^property[+].code = #effectiveDate
 * #A029391 ^property[=].valueString = "2024-05"
 * #A029392 "勝昌苓甘薑味辛夏仁湯濃縮顆粒"
 * #A029392 ^property[0].code = #status
 * #A029392 ^property[=].valueString = "新增"
-* #A029392 ^property[+].code = #updateDate
+* #A029392 ^property[+].code = #effectiveDate
 * #A029392 ^property[=].valueString = "2024-05"
 * #A029393 "勝昌半夏瀉心湯濃縮散"
 * #A029393 ^property[0].code = #status
 * #A029393 ^property[=].valueString = "新增"
-* #A029393 ^property[+].code = #updateDate
+* #A029393 ^property[+].code = #effectiveDate
 * #A029393 ^property[=].valueString = "2024-05"
 * #A029394 "勝昌白頭翁湯濃縮散"
 * #A029394 ^property[0].code = #status
 * #A029394 ^property[=].valueString = "新增"
-* #A029394 ^property[+].code = #updateDate
+* #A029394 ^property[+].code = #effectiveDate
 * #A029394 ^property[=].valueString = "2024-05"
 * #A029395 "勝昌二陳湯濃縮散"
 * #A029395 ^property[0].code = #status
 * #A029395 ^property[=].valueString = "新增"
-* #A029395 ^property[+].code = #updateDate
+* #A029395 ^property[+].code = #effectiveDate
 * #A029395 ^property[=].valueString = "2024-05"
 * #A029396 "勝昌疏肝湯濃縮顆粒"
 * #A029396 ^property[0].code = #status
 * #A029396 ^property[=].valueString = "新增"
-* #A029396 ^property[+].code = #updateDate
+* #A029396 ^property[+].code = #effectiveDate
 * #A029396 ^property[=].valueString = "2024-05"
 * #A029398 "勝昌杏蘇散濃縮散"
 * #A029398 ^property[0].code = #status
 * #A029398 ^property[=].valueString = "新增"
-* #A029398 ^property[+].code = #updateDate
+* #A029398 ^property[+].code = #effectiveDate
 * #A029398 ^property[=].valueString = "2024-05"
 * #A029400 "勝昌白虎湯濃縮散"
 * #A029400 ^property[0].code = #status
 * #A029400 ^property[=].valueString = "新增"
-* #A029400 ^property[+].code = #updateDate
+* #A029400 ^property[+].code = #effectiveDate
 * #A029400 ^property[=].valueString = "2024-05"
 * #A029401 "勝昌秦艽鱉甲散濃縮散"
 * #A029401 ^property[0].code = #status
 * #A029401 ^property[=].valueString = "新增"
-* #A029401 ^property[+].code = #updateDate
+* #A029401 ^property[+].code = #effectiveDate
 * #A029401 ^property[=].valueString = "2024-05"
 * #A029402 "勝昌大青龍湯濃縮散"
 * #A029402 ^property[0].code = #status
 * #A029402 ^property[=].valueString = "新增"
-* #A029402 ^property[+].code = #updateDate
+* #A029402 ^property[+].code = #effectiveDate
 * #A029402 ^property[=].valueString = "2024-05"
 * #A029403 "勝昌溫經湯濃縮散"
 * #A029403 ^property[0].code = #status
 * #A029403 ^property[=].valueString = "新增"
-* #A029403 ^property[+].code = #updateDate
+* #A029403 ^property[+].code = #effectiveDate
 * #A029403 ^property[=].valueString = "2024-05"
 * #A029404 "勝昌當歸四逆湯濃縮散"
 * #A029404 ^property[0].code = #status
 * #A029404 ^property[=].valueString = "新增"
-* #A029404 ^property[+].code = #updateDate
+* #A029404 ^property[+].code = #effectiveDate
 * #A029404 ^property[=].valueString = "2024-05"
 * #A029493 "順天堂五苓散濃縮顆粒"
 * #A029493 ^property[0].code = #status
 * #A029493 ^property[=].valueString = "新增"
-* #A029493 ^property[+].code = #updateDate
+* #A029493 ^property[+].code = #effectiveDate
 * #A029493 ^property[=].valueString = "2024-05"
 * #A029603 "順天堂炙甘草湯濃縮顆粒"
 * #A029603 ^property[0].code = #status
 * #A029603 ^property[=].valueString = "新增"
-* #A029603 ^property[+].code = #updateDate
+* #A029603 ^property[+].code = #effectiveDate
 * #A029603 ^property[=].valueString = "2024-05"
 * #A029640 "順天堂辛夷散濃縮散"
 * #A029640 ^property[0].code = #status
 * #A029640 ^property[=].valueString = "新增"
-* #A029640 ^property[+].code = #updateDate
+* #A029640 ^property[+].code = #effectiveDate
 * #A029640 ^property[=].valueString = "2024-05"
 * #A029643 "順天堂百合固金湯濃縮顆粒"
 * #A029643 ^property[0].code = #status
 * #A029643 ^property[=].valueString = "新增"
-* #A029643 ^property[+].code = #updateDate
+* #A029643 ^property[+].code = #effectiveDate
 * #A029643 ^property[=].valueString = "2024-05"
 * #A029645 "順天堂平胃散濃縮顆粒"
 * #A029645 ^property[0].code = #status
 * #A029645 ^property[=].valueString = "新增"
-* #A029645 ^property[+].code = #updateDate
+* #A029645 ^property[+].code = #effectiveDate
 * #A029645 ^property[=].valueString = "2024-05"
 * #A029662 "順天堂當歸芍藥散濃縮顆粒"
 * #A029662 ^property[0].code = #status
 * #A029662 ^property[=].valueString = "新增"
-* #A029662 ^property[+].code = #updateDate
+* #A029662 ^property[+].code = #effectiveDate
 * #A029662 ^property[=].valueString = "2024-05"
 * #A029675 "順天堂當歸拈痛湯濃縮顆粒"
 * #A029675 ^property[0].code = #status
 * #A029675 ^property[=].valueString = "新增"
-* #A029675 ^property[+].code = #updateDate
+* #A029675 ^property[+].code = #effectiveDate
 * #A029675 ^property[=].valueString = "2024-05"
 * #A029677 "勝昌滋腎通耳湯濃縮散"
 * #A029677 ^property[0].code = #status
 * #A029677 ^property[=].valueString = "新增"
-* #A029677 ^property[+].code = #updateDate
+* #A029677 ^property[+].code = #effectiveDate
 * #A029677 ^property[=].valueString = "2024-05"
 * #A029678 "勝昌小半夏加茯苓湯濃縮散"
 * #A029678 ^property[0].code = #status
 * #A029678 ^property[=].valueString = "新增"
-* #A029678 ^property[+].code = #updateDate
+* #A029678 ^property[+].code = #effectiveDate
 * #A029678 ^property[=].valueString = "2024-05"
 * #A029679 "勝昌芎歸膠艾湯濃縮散"
 * #A029679 ^property[0].code = #status
 * #A029679 ^property[=].valueString = "新增"
-* #A029679 ^property[+].code = #updateDate
+* #A029679 ^property[+].code = #effectiveDate
 * #A029679 ^property[=].valueString = "2024-05"
 * #A029681 "勝昌大黃牡丹皮湯濃縮散"
 * #A029681 ^property[0].code = #status
 * #A029681 ^property[=].valueString = "新增"
-* #A029681 ^property[+].code = #updateDate
+* #A029681 ^property[+].code = #effectiveDate
 * #A029681 ^property[=].valueString = "2024-05"
 * #A029682 "勝昌大承氣湯濃縮散"
 * #A029682 ^property[0].code = #status
 * #A029682 ^property[=].valueString = "新增"
-* #A029682 ^property[+].code = #updateDate
+* #A029682 ^property[+].code = #effectiveDate
 * #A029682 ^property[=].valueString = "2024-05"
 * #A029683 "勝昌清燥救肺湯濃縮散"
 * #A029683 ^property[0].code = #status
 * #A029683 ^property[=].valueString = "新增"
-* #A029683 ^property[+].code = #updateDate
+* #A029683 ^property[+].code = #effectiveDate
 * #A029683 ^property[=].valueString = "2024-05"
 * #A029684 "勝昌十味敗毒湯濃縮散"
 * #A029684 ^property[0].code = #status
 * #A029684 ^property[=].valueString = "新增"
-* #A029684 ^property[+].code = #updateDate
+* #A029684 ^property[+].code = #effectiveDate
 * #A029684 ^property[=].valueString = "2024-05"
 * #A029685 "勝昌知柏地黃丸濃縮散"
 * #A029685 ^property[0].code = #status
 * #A029685 ^property[=].valueString = "新增"
-* #A029685 ^property[+].code = #updateDate
+* #A029685 ^property[+].code = #effectiveDate
 * #A029685 ^property[=].valueString = "2024-05"
 * #A029687 "勝昌黃連解毒湯濃縮散"
 * #A029687 ^property[0].code = #status
 * #A029687 ^property[=].valueString = "新增"
-* #A029687 ^property[+].code = #updateDate
+* #A029687 ^property[+].code = #effectiveDate
 * #A029687 ^property[=].valueString = "2024-05"
 * #A029689 "勝昌酸棗仁湯濃縮散"
 * #A029689 ^property[0].code = #status
 * #A029689 ^property[=].valueString = "新增"
-* #A029689 ^property[+].code = #updateDate
+* #A029689 ^property[+].code = #effectiveDate
 * #A029689 ^property[=].valueString = "2024-05"
 * #A029690 "勝昌厚朴溫中湯濃縮散"
 * #A029690 ^property[0].code = #status
 * #A029690 ^property[=].valueString = "新增"
-* #A029690 ^property[+].code = #updateDate
+* #A029690 ^property[+].code = #effectiveDate
 * #A029690 ^property[=].valueString = "2024-05"
 * #A029691 "勝昌銀翹散濃縮散"
 * #A029691 ^property[0].code = #status
 * #A029691 ^property[=].valueString = "新增"
-* #A029691 ^property[+].code = #updateDate
+* #A029691 ^property[+].code = #effectiveDate
 * #A029691 ^property[=].valueString = "2024-05"
 * #A029692 "勝昌瀉白散濃縮散"
 * #A029692 ^property[0].code = #status
 * #A029692 ^property[=].valueString = "新增"
-* #A029692 ^property[+].code = #updateDate
+* #A029692 ^property[+].code = #effectiveDate
 * #A029692 ^property[=].valueString = "2024-05"
 * #A029693 "勝昌?藤散濃縮散"
 * #A029693 ^property[0].code = #status
 * #A029693 ^property[=].valueString = "新增"
-* #A029693 ^property[+].code = #updateDate
+* #A029693 ^property[+].code = #effectiveDate
 * #A029693 ^property[=].valueString = "2024-05"
 * #A029695 "勝昌五淋散濃縮散"
 * #A029695 ^property[0].code = #status
 * #A029695 ^property[=].valueString = "新增"
-* #A029695 ^property[+].code = #updateDate
+* #A029695 ^property[+].code = #effectiveDate
 * #A029695 ^property[=].valueString = "2024-05"
 * #A029696 "勝昌四逆散濃縮散"
 * #A029696 ^property[0].code = #status
 * #A029696 ^property[=].valueString = "新增"
-* #A029696 ^property[+].code = #updateDate
+* #A029696 ^property[+].code = #effectiveDate
 * #A029696 ^property[=].valueString = "2024-05"
 * #A029818 "順天堂龍膽瀉肝湯濃縮顆粒"
 * #A029818 ^property[0].code = #status
 * #A029818 ^property[=].valueString = "新增"
-* #A029818 ^property[+].code = #updateDate
+* #A029818 ^property[+].code = #effectiveDate
 * #A029818 ^property[=].valueString = "2024-05"
 * #A029821 "勝昌愈帶丸濃縮散"
 * #A029821 ^property[0].code = #status
 * #A029821 ^property[=].valueString = "新增"
-* #A029821 ^property[+].code = #updateDate
+* #A029821 ^property[+].code = #effectiveDate
 * #A029821 ^property[=].valueString = "2024-05"
 * #A029822 "勝昌濟生腎氣丸濃縮散"
 * #A029822 ^property[0].code = #status
 * #A029822 ^property[=].valueString = "新增"
-* #A029822 ^property[+].code = #updateDate
+* #A029822 ^property[+].code = #effectiveDate
 * #A029822 ^property[=].valueString = "2024-05"
 * #A029964 "東陽九味羌活湯濃縮散"
 * #A029964 ^property[0].code = #status
 * #A029964 ^property[=].valueString = "新增"
-* #A029964 ^property[+].code = #updateDate
+* #A029964 ^property[+].code = #effectiveDate
 * #A029964 ^property[=].valueString = "2024-05"
 * #A029965 "東陽人參養榮湯濃縮散"
 * #A029965 ^property[0].code = #status
 * #A029965 ^property[=].valueString = "新增"
-* #A029965 ^property[+].code = #updateDate
+* #A029965 ^property[+].code = #effectiveDate
 * #A029965 ^property[=].valueString = "2024-05"
 * #A029966 "東陽平胃散濃縮散"
 * #A029966 ^property[0].code = #status
 * #A029966 ^property[=].valueString = "新增"
-* #A029966 ^property[+].code = #updateDate
+* #A029966 ^property[+].code = #effectiveDate
 * #A029966 ^property[=].valueString = "2024-05"
 * #A029967 "漢聖甘露飲濃縮散"
 * #A029967 ^property[0].code = #status
 * #A029967 ^property[=].valueString = "新增"
-* #A029967 ^property[+].code = #updateDate
+* #A029967 ^property[+].code = #effectiveDate
 * #A029967 ^property[=].valueString = "2024-05"
 * #A029968 "漢聖杏蘇散濃縮散"
 * #A029968 ^property[0].code = #status
 * #A029968 ^property[=].valueString = "新增"
-* #A029968 ^property[+].code = #updateDate
+* #A029968 ^property[+].code = #effectiveDate
 * #A029968 ^property[=].valueString = "2024-05"
 * #A029969 "漢聖歸脾湯濃縮散"
 * #A029969 ^property[0].code = #status
 * #A029969 ^property[=].valueString = "新增"
-* #A029969 ^property[+].code = #updateDate
+* #A029969 ^property[+].code = #effectiveDate
 * #A029969 ^property[=].valueString = "2024-05"
 * #A029970 "東陽半夏厚朴湯濃縮顆粒"
 * #A029970 ^property[0].code = #status
 * #A029970 ^property[=].valueString = "新增"
-* #A029970 ^property[+].code = #updateDate
+* #A029970 ^property[+].code = #effectiveDate
 * #A029970 ^property[=].valueString = "2024-05"
 * #A029971 "東陽百合固金湯濃縮顆粒"
 * #A029971 ^property[0].code = #status
 * #A029971 ^property[=].valueString = "新增"
-* #A029971 ^property[+].code = #updateDate
+* #A029971 ^property[+].code = #effectiveDate
 * #A029971 ^property[=].valueString = "2024-05"
 * #A029972 "東陽黃芩湯濃縮顆粒"
 * #A029972 ^property[0].code = #status
 * #A029972 ^property[=].valueString = "新增"
-* #A029972 ^property[+].code = #updateDate
+* #A029972 ^property[+].code = #effectiveDate
 * #A029972 ^property[=].valueString = "2024-05"
 * #A029973 "東陽歸脾湯濃縮顆粒"
 * #A029973 ^property[0].code = #status
 * #A029973 ^property[=].valueString = "新增"
-* #A029973 ^property[+].code = #updateDate
+* #A029973 ^property[+].code = #effectiveDate
 * #A029973 ^property[=].valueString = "2024-05"
 * #A029974 "漢聖獨活寄生湯濃縮散"
 * #A029974 ^property[0].code = #status
 * #A029974 ^property[=].valueString = "新增"
-* #A029974 ^property[+].code = #updateDate
+* #A029974 ^property[+].code = #effectiveDate
 * #A029974 ^property[=].valueString = "2024-05"
 * #A029975 "漢聖酸棗仁湯濃縮散"
 * #A029975 ^property[0].code = #status
 * #A029975 ^property[=].valueString = "新增"
-* #A029975 ^property[+].code = #updateDate
+* #A029975 ^property[+].code = #effectiveDate
 * #A029975 ^property[=].valueString = "2024-05"
 * #A029976 "漢聖疏經活血湯濃縮散"
 * #A029976 ^property[0].code = #status
 * #A029976 ^property[=].valueString = "新增"
-* #A029976 ^property[+].code = #updateDate
+* #A029976 ^property[+].code = #effectiveDate
 * #A029976 ^property[=].valueString = "2024-05"
 * #A029977 "東陽柴胡桂枝湯濃縮散"
 * #A029977 ^property[0].code = #status
 * #A029977 ^property[=].valueString = "新增"
-* #A029977 ^property[+].code = #updateDate
+* #A029977 ^property[+].code = #effectiveDate
 * #A029977 ^property[=].valueString = "2024-05"
 * #A029978 "東陽清胃散濃縮散"
 * #A029978 ^property[0].code = #status
 * #A029978 ^property[=].valueString = "新增"
-* #A029978 ^property[+].code = #updateDate
+* #A029978 ^property[+].code = #effectiveDate
 * #A029978 ^property[=].valueString = "2024-05"
 * #A029979 "東陽桂枝湯濃縮散"
 * #A029979 ^property[0].code = #status
 * #A029979 ^property[=].valueString = "新增"
-* #A029979 ^property[+].code = #updateDate
+* #A029979 ^property[+].code = #effectiveDate
 * #A029979 ^property[=].valueString = "2024-05"
 * #A029981 "東陽清上防風湯濃縮散"
 * #A029981 ^property[0].code = #status
 * #A029981 ^property[=].valueString = "新增"
-* #A029981 ^property[+].code = #updateDate
+* #A029981 ^property[+].code = #effectiveDate
 * #A029981 ^property[=].valueString = "2024-05"
 * #A029989 "順天堂黃連解毒湯濃縮顆粒"
 * #A029989 ^property[0].code = #status
 * #A029989 ^property[=].valueString = "新增"
-* #A029989 ^property[+].code = #updateDate
+* #A029989 ^property[+].code = #effectiveDate
 * #A029989 ^property[=].valueString = "2024-05"
 * #A029994 "順天堂六君子湯濃縮顆粒"
 * #A029994 ^property[0].code = #status
 * #A029994 ^property[=].valueString = "新增"
-* #A029994 ^property[+].code = #updateDate
+* #A029994 ^property[+].code = #effectiveDate
 * #A029994 ^property[=].valueString = "2024-05"
 * #A029995 "順天堂四君子湯濃縮顆粒"
 * #A029995 ^property[0].code = #status
 * #A029995 ^property[=].valueString = "新增"
-* #A029995 ^property[+].code = #updateDate
+* #A029995 ^property[+].code = #effectiveDate
 * #A029995 ^property[=].valueString = "2024-05"
 * #A029996 "順天堂十全大補湯濃縮散"
 * #A029996 ^property[0].code = #status
 * #A029996 ^property[=].valueString = "新增"
-* #A029996 ^property[+].code = #updateDate
+* #A029996 ^property[+].code = #effectiveDate
 * #A029996 ^property[=].valueString = "2024-05"
 * #A029998 "順天堂麻杏甘石湯濃縮顆粒"
 * #A029998 ^property[0].code = #status
 * #A029998 ^property[=].valueString = "新增"
-* #A029998 ^property[+].code = #updateDate
+* #A029998 ^property[+].code = #effectiveDate
 * #A029998 ^property[=].valueString = "2024-05"
 * #A029999 "順天堂小青龍湯濃縮顆粒"
 * #A029999 ^property[0].code = #status
 * #A029999 ^property[=].valueString = "新增"
-* #A029999 ^property[+].code = #updateDate
+* #A029999 ^property[+].code = #effectiveDate
 * #A029999 ^property[=].valueString = "2024-05"
 * #A030000 "順天堂小柴胡湯濃縮顆粒"
 * #A030000 ^property[0].code = #status
 * #A030000 ^property[=].valueString = "新增"
-* #A030000 ^property[+].code = #updateDate
+* #A030000 ^property[+].code = #effectiveDate
 * #A030000 ^property[=].valueString = "2024-05"
 * #A030002 "順天堂補中益氣湯濃縮顆粒"
 * #A030002 ^property[0].code = #status
 * #A030002 ^property[=].valueString = "新增"
-* #A030002 ^property[+].code = #updateDate
+* #A030002 ^property[+].code = #effectiveDate
 * #A030002 ^property[=].valueString = "2024-05"
 * #A030003 "順天堂麻杏甘石湯濃縮散"
 * #A030003 ^property[0].code = #status
 * #A030003 ^property[=].valueString = "新增"
-* #A030003 ^property[+].code = #updateDate
+* #A030003 ^property[+].code = #effectiveDate
 * #A030003 ^property[=].valueString = "2024-05"
 * #A030004 "順天堂消風散濃縮散"
 * #A030004 ^property[0].code = #status
 * #A030004 ^property[=].valueString = "新增"
-* #A030004 ^property[+].code = #updateDate
+* #A030004 ^property[+].code = #effectiveDate
 * #A030004 ^property[=].valueString = "2024-05"
 * #A030005 "順天堂消風散濃縮顆粒"
 * #A030005 ^property[0].code = #status
 * #A030005 ^property[=].valueString = "新增"
-* #A030005 ^property[+].code = #updateDate
+* #A030005 ^property[+].code = #effectiveDate
 * #A030005 ^property[=].valueString = "2024-05"
 * #A030006 "順天堂疏經活血湯濃縮顆粒"
 * #A030006 ^property[0].code = #status
 * #A030006 ^property[=].valueString = "新增"
-* #A030006 ^property[+].code = #updateDate
+* #A030006 ^property[+].code = #effectiveDate
 * #A030006 ^property[=].valueString = "2024-05"
 * #A030007 "順天堂疏經活血湯濃縮顆粒"
 * #A030007 ^property[0].code = #status
 * #A030007 ^property[=].valueString = "新增"
-* #A030007 ^property[+].code = #updateDate
+* #A030007 ^property[+].code = #effectiveDate
 * #A030007 ^property[=].valueString = "2024-05"
 * #A030008 "順天堂?藤散濃縮顆粒"
 * #A030008 ^property[0].code = #status
 * #A030008 ^property[=].valueString = "新增"
-* #A030008 ^property[+].code = #updateDate
+* #A030008 ^property[+].code = #effectiveDate
 * #A030008 ^property[=].valueString = "2024-05"
 * #A030010 "順天堂清心蓮子飲濃縮散"
 * #A030010 ^property[0].code = #status
 * #A030010 ^property[=].valueString = "新增"
-* #A030010 ^property[+].code = #updateDate
+* #A030010 ^property[+].code = #effectiveDate
 * #A030010 ^property[=].valueString = "2024-05"
 * #A030011 "順天堂神秘湯濃縮顆粒(辛庇湯)"
 * #A030011 ^property[0].code = #status
 * #A030011 ^property[=].valueString = "新增"
-* #A030011 ^property[+].code = #updateDate
+* #A030011 ^property[+].code = #effectiveDate
 * #A030011 ^property[=].valueString = "2024-05"
 * #A030012 "順天堂薏苡仁湯濃縮顆粒"
 * #A030012 ^property[0].code = #status
 * #A030012 ^property[=].valueString = "新增"
-* #A030012 ^property[+].code = #updateDate
+* #A030012 ^property[+].code = #effectiveDate
 * #A030012 ^property[=].valueString = "2024-05"
 * #A030013 "順天堂甘露飲濃縮顆粒"
 * #A030013 ^property[0].code = #status
 * #A030013 ^property[=].valueString = "新增"
-* #A030013 ^property[+].code = #updateDate
+* #A030013 ^property[+].code = #effectiveDate
 * #A030013 ^property[=].valueString = "2024-05"
 * #A030015 "順天堂藿香正氣散濃縮顆粒"
 * #A030015 ^property[0].code = #status
 * #A030015 ^property[=].valueString = "新增"
-* #A030015 ^property[+].code = #updateDate
+* #A030015 ^property[+].code = #effectiveDate
 * #A030015 ^property[=].valueString = "2024-05"
 * #A030016 "順天堂荊芥連翹湯濃縮散"
 * #A030016 ^property[0].code = #status
 * #A030016 ^property[=].valueString = "新增"
-* #A030016 ^property[+].code = #updateDate
+* #A030016 ^property[+].code = #effectiveDate
 * #A030016 ^property[=].valueString = "2024-05"
 * #A030017 "順天堂清上防風湯濃縮散"
 * #A030017 ^property[0].code = #status
 * #A030017 ^property[=].valueString = "新增"
-* #A030017 ^property[+].code = #updateDate
+* #A030017 ^property[+].code = #effectiveDate
 * #A030017 ^property[=].valueString = "2024-05"
 * #A030018 "順天堂防己黃耆湯濃縮散"
 * #A030018 ^property[0].code = #status
 * #A030018 ^property[=].valueString = "新增"
-* #A030018 ^property[+].code = #updateDate
+* #A030018 ^property[+].code = #effectiveDate
 * #A030018 ^property[=].valueString = "2024-05"
 * #A030021 "順天堂茵陳五苓散濃縮顆粒"
 * #A030021 ^property[0].code = #status
 * #A030021 ^property[=].valueString = "新增"
-* #A030021 ^property[+].code = #updateDate
+* #A030021 ^property[+].code = #effectiveDate
 * #A030021 ^property[=].valueString = "2024-05"
 * #A030022 "順天堂茵陳五苓散濃縮散"
 * #A030022 ^property[0].code = #status
 * #A030022 ^property[=].valueString = "新增"
-* #A030022 ^property[+].code = #updateDate
+* #A030022 ^property[+].code = #effectiveDate
 * #A030022 ^property[=].valueString = "2024-05"
 * #A030023 "順天堂華蓋散濃縮顆粒"
 * #A030023 ^property[0].code = #status
 * #A030023 ^property[=].valueString = "新增"
-* #A030023 ^property[+].code = #updateDate
+* #A030023 ^property[+].code = #effectiveDate
 * #A030023 ^property[=].valueString = "2024-05"
 * #A030024 "順天堂華蓋散濃縮散"
 * #A030024 ^property[0].code = #status
 * #A030024 ^property[=].valueString = "新增"
-* #A030024 ^property[+].code = #updateDate
+* #A030024 ^property[+].code = #effectiveDate
 * #A030024 ^property[=].valueString = "2024-05"
 * #A030027 "順天堂麻杏薏甘湯濃縮散"
 * #A030027 ^property[0].code = #status
 * #A030027 ^property[=].valueString = "新增"
-* #A030027 ^property[+].code = #updateDate
+* #A030027 ^property[+].code = #effectiveDate
 * #A030027 ^property[=].valueString = "2024-05"
 * #A030028 "順天堂二陳湯濃縮顆粒"
 * #A030028 ^property[0].code = #status
 * #A030028 ^property[=].valueString = "新增"
-* #A030028 ^property[+].code = #updateDate
+* #A030028 ^property[+].code = #effectiveDate
 * #A030028 ^property[=].valueString = "2024-05"
 * #A030029 "順天堂川芎茶調散濃縮散"
 * #A030029 ^property[0].code = #status
 * #A030029 ^property[=].valueString = "新增"
-* #A030029 ^property[+].code = #updateDate
+* #A030029 ^property[+].code = #effectiveDate
 * #A030029 ^property[=].valueString = "2024-05"
 * #A030030 "順天堂烏藥順氣散濃縮顆粒"
 * #A030030 ^property[0].code = #status
 * #A030030 ^property[=].valueString = "新增"
-* #A030030 ^property[+].code = #updateDate
+* #A030030 ^property[+].code = #effectiveDate
 * #A030030 ^property[=].valueString = "2024-05"
 * #A030031 "順天堂烏藥順氣散濃縮散"
 * #A030031 ^property[0].code = #status
 * #A030031 ^property[=].valueString = "新增"
-* #A030031 ^property[+].code = #updateDate
+* #A030031 ^property[+].code = #effectiveDate
 * #A030031 ^property[=].valueString = "2024-05"
 * #A030032 "順天堂八正散濃縮顆粒"
 * #A030032 ^property[0].code = #status
 * #A030032 ^property[=].valueString = "新增"
-* #A030032 ^property[+].code = #updateDate
+* #A030032 ^property[+].code = #effectiveDate
 * #A030032 ^property[=].valueString = "2024-05"
 * #A030033 "順天堂八正散濃縮散"
 * #A030033 ^property[0].code = #status
 * #A030033 ^property[=].valueString = "新增"
-* #A030033 ^property[+].code = #updateDate
+* #A030033 ^property[+].code = #effectiveDate
 * #A030033 ^property[=].valueString = "2024-05"
 * #A030034 "順天堂定喘湯濃縮散"
 * #A030034 ^property[0].code = #status
 * #A030034 ^property[=].valueString = "新增"
-* #A030034 ^property[+].code = #updateDate
+* #A030034 ^property[+].code = #effectiveDate
 * #A030034 ^property[=].valueString = "2024-05"
 * #A030035 "順天堂甘麥大棗湯濃縮顆粒"
 * #A030035 ^property[0].code = #status
 * #A030035 ^property[=].valueString = "新增"
-* #A030035 ^property[+].code = #updateDate
+* #A030035 ^property[+].code = #effectiveDate
 * #A030035 ^property[=].valueString = "2024-05"
 * #A030036 "順天堂甘麥大棗湯濃縮顆粒"
 * #A030036 ^property[0].code = #status
 * #A030036 ^property[=].valueString = "新增"
-* #A030036 ^property[+].code = #updateDate
+* #A030036 ^property[+].code = #effectiveDate
 * #A030036 ^property[=].valueString = "2024-05"
 * #A030037 "順天堂柴葛解肌湯濃縮顆粒"
 * #A030037 ^property[0].code = #status
 * #A030037 ^property[=].valueString = "新增"
-* #A030037 ^property[+].code = #updateDate
+* #A030037 ^property[+].code = #effectiveDate
 * #A030037 ^property[=].valueString = "2024-05"
 * #A030038 "順天堂柴葛解肌湯濃縮散"
 * #A030038 ^property[0].code = #status
 * #A030038 ^property[=].valueString = "新增"
-* #A030038 ^property[+].code = #updateDate
+* #A030038 ^property[+].code = #effectiveDate
 * #A030038 ^property[=].valueString = "2024-05"
 * #A030041 "順天堂參苓白朮散濃縮散"
 * #A030041 ^property[0].code = #status
 * #A030041 ^property[=].valueString = "新增"
-* #A030041 ^property[+].code = #updateDate
+* #A030041 ^property[+].code = #effectiveDate
 * #A030041 ^property[=].valueString = "2024-05"
 * #A030042 "順天堂參苓白朮散濃縮顆粒"
 * #A030042 ^property[0].code = #status
 * #A030042 ^property[=].valueString = "新增"
-* #A030042 ^property[+].code = #updateDate
+* #A030042 ^property[+].code = #effectiveDate
 * #A030042 ^property[=].valueString = "2024-05"
 * #A030043 "順天堂?藤散濃縮散"
 * #A030043 ^property[0].code = #status
 * #A030043 ^property[=].valueString = "新增"
-* #A030043 ^property[+].code = #updateDate
+* #A030043 ^property[+].code = #effectiveDate
 * #A030043 ^property[=].valueString = "2024-05"
 * #A030045 "順天堂炙甘草湯濃縮散"
 * #A030045 ^property[0].code = #status
 * #A030045 ^property[=].valueString = "新增"
-* #A030045 ^property[+].code = #updateDate
+* #A030045 ^property[+].code = #effectiveDate
 * #A030045 ^property[=].valueString = "2024-05"
 * #A030046 "順天堂川芎茶調散濃縮顆粒"
 * #A030046 ^property[0].code = #status
 * #A030046 ^property[=].valueString = "新增"
-* #A030046 ^property[+].code = #updateDate
+* #A030046 ^property[+].code = #effectiveDate
 * #A030046 ^property[=].valueString = "2024-05"
 * #A030048 "順天堂十神湯濃縮顆粒"
 * #A030048 ^property[0].code = #status
 * #A030048 ^property[=].valueString = "新增"
-* #A030048 ^property[+].code = #updateDate
+* #A030048 ^property[+].code = #effectiveDate
 * #A030048 ^property[=].valueString = "2024-05"
 * #A030049 "順天堂參蘇飲濃縮散"
 * #A030049 ^property[0].code = #status
 * #A030049 ^property[=].valueString = "新增"
-* #A030049 ^property[+].code = #updateDate
+* #A030049 ^property[+].code = #effectiveDate
 * #A030049 ^property[=].valueString = "2024-05"
 * #A030050 "順天堂蘇子降氣湯濃縮散"
 * #A030050 ^property[0].code = #status
 * #A030050 ^property[=].valueString = "新增"
-* #A030050 ^property[+].code = #updateDate
+* #A030050 ^property[+].code = #effectiveDate
 * #A030050 ^property[=].valueString = "2024-05"
 * #A030060 "東陽麻杏薏甘湯濃縮散"
 * #A030060 ^property[0].code = #status
 * #A030060 ^property[=].valueString = "新增"
-* #A030060 ^property[+].code = #updateDate
+* #A030060 ^property[+].code = #effectiveDate
 * #A030060 ^property[=].valueString = "2024-05"
 * #A030061 "東陽荊芥連翹湯濃縮散"
 * #A030061 ^property[0].code = #status
 * #A030061 ^property[=].valueString = "新增"
-* #A030061 ^property[+].code = #updateDate
+* #A030061 ^property[+].code = #effectiveDate
 * #A030061 ^property[=].valueString = "2024-05"
 * #A030062 "東陽茵陳蒿湯濃縮散"
 * #A030062 ^property[0].code = #status
 * #A030062 ^property[=].valueString = "新增"
-* #A030062 ^property[+].code = #updateDate
+* #A030062 ^property[+].code = #effectiveDate
 * #A030062 ^property[=].valueString = "2024-05"
 * #A030063 "東陽桂枝芍藥知母湯濃縮散"
 * #A030063 ^property[0].code = #status
 * #A030063 ^property[=].valueString = "新增"
-* #A030063 ^property[+].code = #updateDate
+* #A030063 ^property[+].code = #effectiveDate
 * #A030063 ^property[=].valueString = "2024-05"
 * #A030064 "東陽桂苓甘朮湯濃縮散"
 * #A030064 ^property[0].code = #status
 * #A030064 ^property[=].valueString = "新增"
-* #A030064 ^property[+].code = #updateDate
+* #A030064 ^property[+].code = #effectiveDate
 * #A030064 ^property[=].valueString = "2024-05"
 * #A030065 "東陽吳茱萸湯濃縮散"
 * #A030065 ^property[0].code = #status
 * #A030065 ^property[=].valueString = "新增"
-* #A030065 ^property[+].code = #updateDate
+* #A030065 ^property[+].code = #effectiveDate
 * #A030065 ^property[=].valueString = "2024-05"
 * #A030066 "東陽五淋散濃縮散"
 * #A030066 ^property[0].code = #status
 * #A030066 ^property[=].valueString = "新增"
-* #A030066 ^property[+].code = #updateDate
+* #A030066 ^property[+].code = #effectiveDate
 * #A030066 ^property[=].valueString = "2024-05"
 * #A030067 "東陽六和湯濃縮散"
 * #A030067 ^property[0].code = #status
 * #A030067 ^property[=].valueString = "新增"
-* #A030067 ^property[+].code = #updateDate
+* #A030067 ^property[+].code = #effectiveDate
 * #A030067 ^property[=].valueString = "2024-05"
 * #A030069 "東陽十味香薷飲濃縮散"
 * #A030069 ^property[0].code = #status
 * #A030069 ^property[=].valueString = "新增"
-* #A030069 ^property[+].code = #updateDate
+* #A030069 ^property[+].code = #effectiveDate
 * #A030069 ^property[=].valueString = "2024-05"
 * #A030070 "東陽藿香正氣散濃縮顆粒"
 * #A030070 ^property[0].code = #status
 * #A030070 ^property[=].valueString = "新增"
-* #A030070 ^property[+].code = #updateDate
+* #A030070 ^property[+].code = #effectiveDate
 * #A030070 ^property[=].valueString = "2024-05"
 * #A030071 "東陽豬苓湯濃縮顆粒"
 * #A030071 ^property[0].code = #status
 * #A030071 ^property[=].valueString = "新增"
-* #A030071 ^property[+].code = #updateDate
+* #A030071 ^property[+].code = #effectiveDate
 * #A030071 ^property[=].valueString = "2024-05"
 * #A030072 "東陽葛根黃連黃芩湯濃縮散"
 * #A030072 ^property[0].code = #status
 * #A030072 ^property[=].valueString = "新增"
-* #A030072 ^property[+].code = #updateDate
+* #A030072 ^property[+].code = #effectiveDate
 * #A030072 ^property[=].valueString = "2024-05"
 * #A030073 "東陽華蓋散濃縮散"
 * #A030073 ^property[0].code = #status
 * #A030073 ^property[=].valueString = "新增"
-* #A030073 ^property[+].code = #updateDate
+* #A030073 ^property[+].code = #effectiveDate
 * #A030073 ^property[=].valueString = "2024-05"
 * #A030074 "東陽溫膽湯濃縮散"
 * #A030074 ^property[0].code = #status
 * #A030074 ^property[=].valueString = "新增"
-* #A030074 ^property[+].code = #updateDate
+* #A030074 ^property[+].code = #effectiveDate
 * #A030074 ^property[=].valueString = "2024-05"
 * #A030077 "勝昌散腫潰堅湯濃縮散"
 * #A030077 ^property[0].code = #status
 * #A030077 ^property[=].valueString = "新增"
-* #A030077 ^property[+].code = #updateDate
+* #A030077 ^property[+].code = #effectiveDate
 * #A030077 ^property[=].valueString = "2024-05"
 * #A030078 "勝昌麻子仁丸濃縮散"
 * #A030078 ^property[0].code = #status
 * #A030078 ^property[=].valueString = "新增"
-* #A030078 ^property[+].code = #updateDate
+* #A030078 ^property[+].code = #effectiveDate
 * #A030078 ^property[=].valueString = "2024-05"
 * #A030079 "勝昌薏苡仁湯濃縮散"
 * #A030079 ^property[0].code = #status
 * #A030079 ^property[=].valueString = "新增"
-* #A030079 ^property[+].code = #updateDate
+* #A030079 ^property[+].code = #effectiveDate
 * #A030079 ^property[=].valueString = "2024-05"
 * #A030080 "勝昌調胃承氣湯濃縮散"
 * #A030080 ^property[0].code = #status
 * #A030080 ^property[=].valueString = "新增"
-* #A030080 ^property[+].code = #updateDate
+* #A030080 ^property[+].code = #effectiveDate
 * #A030080 ^property[=].valueString = "2024-05"
 * #A030081 "勝昌真人活命飲濃縮散(去穿山甲）"
 * #A030081 ^property[0].code = #status
 * #A030081 ^property[=].valueString = "新增"
-* #A030081 ^property[+].code = #updateDate
+* #A030081 ^property[+].code = #effectiveDate
 * #A030081 ^property[=].valueString = "2024-05"
 * #A030082 "勝昌益氣聰明湯濃縮散"
 * #A030082 ^property[0].code = #status
 * #A030082 ^property[=].valueString = "新增"
-* #A030082 ^property[+].code = #updateDate
+* #A030082 ^property[+].code = #effectiveDate
 * #A030082 ^property[=].valueString = "2024-05"
 * #A030084 "勝昌四君子湯濃縮散"
 * #A030084 ^property[0].code = #status
 * #A030084 ^property[=].valueString = "新增"
-* #A030084 ^property[+].code = #updateDate
+* #A030084 ^property[+].code = #effectiveDate
 * #A030084 ^property[=].valueString = "2024-05"
 * #A030086 "勝昌三黃石膏湯濃縮散"
 * #A030086 ^property[0].code = #status
 * #A030086 ^property[=].valueString = "新增"
-* #A030086 ^property[+].code = #updateDate
+* #A030086 ^property[+].code = #effectiveDate
 * #A030086 ^property[=].valueString = "2024-05"
 * #A030088 "勝昌養心湯濃縮散"
 * #A030088 ^property[0].code = #status
 * #A030088 ^property[=].valueString = "新增"
-* #A030088 ^property[+].code = #updateDate
+* #A030088 ^property[+].code = #effectiveDate
 * #A030088 ^property[=].valueString = "2024-05"
 * #A030089 "勝昌芍藥湯濃縮散"
 * #A030089 ^property[0].code = #status
 * #A030089 ^property[=].valueString = "新增"
-* #A030089 ^property[+].code = #updateDate
+* #A030089 ^property[+].code = #effectiveDate
 * #A030089 ^property[=].valueString = "2024-05"
 * #A030090 "勝昌甘麥大棗湯濃縮散"
 * #A030090 ^property[0].code = #status
 * #A030090 ^property[=].valueString = "新增"
-* #A030090 ^property[+].code = #updateDate
+* #A030090 ^property[+].code = #effectiveDate
 * #A030090 ^property[=].valueString = "2024-05"
 * #A030091 "勝昌越婢加朮湯濃縮散"
 * #A030091 ^property[0].code = #status
 * #A030091 ^property[=].valueString = "新增"
-* #A030091 ^property[+].code = #updateDate
+* #A030091 ^property[+].code = #effectiveDate
 * #A030091 ^property[=].valueString = "2024-05"
 * #A030092 "勝昌復元活血湯濃縮散(去穿山甲）"
 * #A030092 ^property[0].code = #status
 * #A030092 ^property[=].valueString = "新增"
-* #A030092 ^property[+].code = #updateDate
+* #A030092 ^property[+].code = #effectiveDate
 * #A030092 ^property[=].valueString = "2024-05"
 * #A030093 "勝昌續命湯濃縮散"
 * #A030093 ^property[0].code = #status
 * #A030093 ^property[=].valueString = "新增"
-* #A030093 ^property[+].code = #updateDate
+* #A030093 ^property[+].code = #effectiveDate
 * #A030093 ^property[=].valueString = "2024-05"
 * #A030094 "勝昌紫菀湯濃縮散"
 * #A030094 ^property[0].code = #status
 * #A030094 ^property[=].valueString = "新增"
-* #A030094 ^property[+].code = #updateDate
+* #A030094 ^property[+].code = #effectiveDate
 * #A030094 ^property[=].valueString = "2024-05"
 * #A030095 "勝昌吳茱萸湯濃縮散"
 * #A030095 ^property[0].code = #status
 * #A030095 ^property[=].valueString = "新增"
-* #A030095 ^property[+].code = #updateDate
+* #A030095 ^property[+].code = #effectiveDate
 * #A030095 ^property[=].valueString = "2024-05"
 * #A030096 "勝昌桂枝芍藥知母湯濃縮散"
 * #A030096 ^property[0].code = #status
 * #A030096 ^property[=].valueString = "新增"
-* #A030096 ^property[+].code = #updateDate
+* #A030096 ^property[+].code = #effectiveDate
 * #A030096 ^property[=].valueString = "2024-05"
 * #A030097 "勝昌半夏天麻白朮湯濃縮散"
 * #A030097 ^property[0].code = #status
 * #A030097 ^property[=].valueString = "新增"
-* #A030097 ^property[+].code = #updateDate
+* #A030097 ^property[+].code = #effectiveDate
 * #A030097 ^property[=].valueString = "2024-05"
 * #A030102 "順天堂竹葉石膏湯濃縮散"
 * #A030102 ^property[0].code = #status
 * #A030102 ^property[=].valueString = "新增"
-* #A030102 ^property[+].code = #updateDate
+* #A030102 ^property[+].code = #effectiveDate
 * #A030102 ^property[=].valueString = "2024-05"
 * #A030103 "順天堂銀翹散濃縮顆粒"
 * #A030103 ^property[0].code = #status
 * #A030103 ^property[=].valueString = "新增"
-* #A030103 ^property[+].code = #updateDate
+* #A030103 ^property[+].code = #effectiveDate
 * #A030103 ^property[=].valueString = "2024-05"
 * #A030104 "順天堂桂枝加龍骨牡蠣湯濃縮散"
 * #A030104 ^property[0].code = #status
 * #A030104 ^property[=].valueString = "新增"
-* #A030104 ^property[+].code = #updateDate
+* #A030104 ^property[+].code = #effectiveDate
 * #A030104 ^property[=].valueString = "2024-05"
 * #A030105 "順天堂滋腎明目湯濃縮散"
 * #A030105 ^property[0].code = #status
 * #A030105 ^property[=].valueString = "新增"
-* #A030105 ^property[+].code = #updateDate
+* #A030105 ^property[+].code = #effectiveDate
 * #A030105 ^property[=].valueString = "2024-05"
 * #A030106 "順天堂桑菊飲濃縮顆粒"
 * #A030106 ^property[0].code = #status
 * #A030106 ^property[=].valueString = "新增"
-* #A030106 ^property[+].code = #updateDate
+* #A030106 ^property[+].code = #effectiveDate
 * #A030106 ^property[=].valueString = "2024-05"
 * #A030107 "順天堂木香檳榔丸濃縮顆粒"
 * #A030107 ^property[0].code = #status
 * #A030107 ^property[=].valueString = "新增"
-* #A030107 ^property[+].code = #updateDate
+* #A030107 ^property[+].code = #effectiveDate
 * #A030107 ^property[=].valueString = "2024-05"
 * #A030108 "順天堂桂枝加芍藥湯濃縮散"
 * #A030108 ^property[0].code = #status
 * #A030108 ^property[=].valueString = "新增"
-* #A030108 ^property[+].code = #updateDate
+* #A030108 ^property[+].code = #effectiveDate
 * #A030108 ^property[=].valueString = "2024-05"
 * #A030110 "順天堂荊芥敗毒散濃縮散"
 * #A030110 ^property[0].code = #status
 * #A030110 ^property[=].valueString = "新增"
-* #A030110 ^property[+].code = #updateDate
+* #A030110 ^property[+].code = #effectiveDate
 * #A030110 ^property[=].valueString = "2024-05"
 * #A030111 "順天堂荊防敗毒散濃縮顆粒"
 * #A030111 ^property[0].code = #status
 * #A030111 ^property[=].valueString = "新增"
-* #A030111 ^property[+].code = #updateDate
+* #A030111 ^property[+].code = #effectiveDate
 * #A030111 ^property[=].valueString = "2024-05"
 * #A030112 "順天堂芍藥湯濃縮顆粒"
 * #A030112 ^property[0].code = #status
 * #A030112 ^property[=].valueString = "新增"
-* #A030112 ^property[+].code = #updateDate
+* #A030112 ^property[+].code = #effectiveDate
 * #A030112 ^property[=].valueString = "2024-05"
 * #A030113 "順天堂敗毒散濃縮顆粒"
 * #A030113 ^property[0].code = #status
 * #A030113 ^property[=].valueString = "新增"
-* #A030113 ^property[+].code = #updateDate
+* #A030113 ^property[+].code = #effectiveDate
 * #A030113 ^property[=].valueString = "2024-05"
 * #A030114 "順天堂柴胡桂枝乾薑湯濃縮散"
 * #A030114 ^property[0].code = #status
 * #A030114 ^property[=].valueString = "新增"
-* #A030114 ^property[+].code = #updateDate
+* #A030114 ^property[+].code = #effectiveDate
 * #A030114 ^property[=].valueString = "2024-05"
 * #A030116 "順天堂人參敗毒散濃縮顆粒"
 * #A030116 ^property[0].code = #status
 * #A030116 ^property[=].valueString = "新增"
-* #A030116 ^property[+].code = #updateDate
+* #A030116 ^property[+].code = #effectiveDate
 * #A030116 ^property[=].valueString = "2024-05"
 * #A030117 "順天堂竹葉石膏湯濃縮顆粒"
 * #A030117 ^property[0].code = #status
 * #A030117 ^property[=].valueString = "新增"
-* #A030117 ^property[+].code = #updateDate
+* #A030117 ^property[+].code = #effectiveDate
 * #A030117 ^property[=].valueString = "2024-05"
 * #A030126 "順天堂真人活命飲濃縮顆粒(去穿山甲)"
 * #A030126 ^property[0].code = #status
 * #A030126 ^property[=].valueString = "新增"
-* #A030126 ^property[+].code = #updateDate
+* #A030126 ^property[+].code = #effectiveDate
 * #A030126 ^property[=].valueString = "2024-05"
 * #A030130 "順天堂加味八仙湯濃縮散"
 * #A030130 ^property[0].code = #status
 * #A030130 ^property[=].valueString = "新增"
-* #A030130 ^property[+].code = #updateDate
+* #A030130 ^property[+].code = #effectiveDate
 * #A030130 ^property[=].valueString = "2024-05"
 * #A030132 "順天堂苓甘薑味辛夏仁湯濃縮散"
 * #A030132 ^property[0].code = #status
 * #A030132 ^property[=].valueString = "新增"
-* #A030132 ^property[+].code = #updateDate
+* #A030132 ^property[+].code = #effectiveDate
 * #A030132 ^property[=].valueString = "2024-05"
 * #A030134 "順天堂十六味流氣飲濃縮散"
 * #A030134 ^property[0].code = #status
 * #A030134 ^property[=].valueString = "新增"
-* #A030134 ^property[+].code = #updateDate
+* #A030134 ^property[+].code = #effectiveDate
 * #A030134 ^property[=].valueString = "2024-05"
 * #A030135 "順天堂六和湯濃縮顆粒"
 * #A030135 ^property[0].code = #status
 * #A030135 ^property[=].valueString = "新增"
-* #A030135 ^property[+].code = #updateDate
+* #A030135 ^property[+].code = #effectiveDate
 * #A030135 ^property[=].valueString = "2024-05"
 * #A030137 "順天堂養心湯濃縮顆粒"
 * #A030137 ^property[0].code = #status
 * #A030137 ^property[=].valueString = "新增"
-* #A030137 ^property[+].code = #updateDate
+* #A030137 ^property[+].code = #effectiveDate
 * #A030137 ^property[=].valueString = "2024-05"
 * #A030138 "順天堂導水茯苓湯濃縮散"
 * #A030138 ^property[0].code = #status
 * #A030138 ^property[=].valueString = "新增"
-* #A030138 ^property[+].code = #updateDate
+* #A030138 ^property[+].code = #effectiveDate
 * #A030138 ^property[=].valueString = "2024-05"
 * #A030139 "順天堂大承氣湯濃縮散"
 * #A030139 ^property[0].code = #status
 * #A030139 ^property[=].valueString = "新增"
-* #A030139 ^property[+].code = #updateDate
+* #A030139 ^property[+].code = #effectiveDate
 * #A030139 ^property[=].valueString = "2024-05"
 * #A030140 "順天堂導水茯苓湯濃縮顆粒"
 * #A030140 ^property[0].code = #status
 * #A030140 ^property[=].valueString = "新增"
-* #A030140 ^property[+].code = #updateDate
+* #A030140 ^property[+].code = #effectiveDate
 * #A030140 ^property[=].valueString = "2024-05"
 * #A030141 "順天堂木防己湯濃縮散"
 * #A030141 ^property[0].code = #status
 * #A030141 ^property[=].valueString = "新增"
-* #A030141 ^property[+].code = #updateDate
+* #A030141 ^property[+].code = #effectiveDate
 * #A030141 ^property[=].valueString = "2024-05"
 * #A030142 "順天堂二朮湯濃縮散"
 * #A030142 ^property[0].code = #status
 * #A030142 ^property[=].valueString = "新增"
-* #A030142 ^property[+].code = #updateDate
+* #A030142 ^property[+].code = #effectiveDate
 * #A030142 ^property[=].valueString = "2024-05"
 * #A030144 "順天堂小續命湯濃縮散"
 * #A030144 ^property[0].code = #status
 * #A030144 ^property[=].valueString = "新增"
-* #A030144 ^property[+].code = #updateDate
+* #A030144 ^property[+].code = #effectiveDate
 * #A030144 ^property[=].valueString = "2024-05"
 * #A030145 "順天堂散腫潰堅湯濃縮散"
 * #A030145 ^property[0].code = #status
 * #A030145 ^property[=].valueString = "新增"
-* #A030145 ^property[+].code = #updateDate
+* #A030145 ^property[+].code = #effectiveDate
 * #A030145 ^property[=].valueString = "2024-05"
 * #A030149 "順天堂葛根黃連黃芩湯濃縮顆粒"
 * #A030149 ^property[0].code = #status
 * #A030149 ^property[=].valueString = "新增"
-* #A030149 ^property[+].code = #updateDate
+* #A030149 ^property[+].code = #effectiveDate
 * #A030149 ^property[=].valueString = "2024-05"
 * #A030152 "順天堂女科柏子仁丸濃縮散"
 * #A030152 ^property[0].code = #status
 * #A030152 ^property[=].valueString = "新增"
-* #A030152 ^property[+].code = #updateDate
+* #A030152 ^property[+].code = #effectiveDate
 * #A030152 ^property[=].valueString = "2024-05"
 * #A030153 "順天堂女科柏子仁丸濃縮顆粒"
 * #A030153 ^property[0].code = #status
 * #A030153 ^property[=].valueString = "新增"
-* #A030153 ^property[+].code = #updateDate
+* #A030153 ^property[+].code = #effectiveDate
 * #A030153 ^property[=].valueString = "2024-05"
 * #A030154 "順天堂玉女煎濃縮散"
 * #A030154 ^property[0].code = #status
 * #A030154 ^property[=].valueString = "新增"
-* #A030154 ^property[+].code = #updateDate
+* #A030154 ^property[+].code = #effectiveDate
 * #A030154 ^property[=].valueString = "2024-05"
 * #A030155 "順天堂玉女煎濃縮顆粒"
 * #A030155 ^property[0].code = #status
 * #A030155 ^property[=].valueString = "新增"
-* #A030155 ^property[+].code = #updateDate
+* #A030155 ^property[+].code = #effectiveDate
 * #A030155 ^property[=].valueString = "2024-05"
 * #A030157 "順天堂人參敗毒散濃縮散"
 * #A030157 ^property[0].code = #status
 * #A030157 ^property[=].valueString = "新增"
-* #A030157 ^property[+].code = #updateDate
+* #A030157 ^property[+].code = #effectiveDate
 * #A030157 ^property[=].valueString = "2024-05"
 * #A030158 "順天堂柴陷湯濃縮顆粒"
 * #A030158 ^property[0].code = #status
 * #A030158 ^property[=].valueString = "新增"
-* #A030158 ^property[+].code = #updateDate
+* #A030158 ^property[+].code = #effectiveDate
 * #A030158 ^property[=].valueString = "2024-05"
 * #A030164 "順天堂麻子仁丸濃縮散"
 * #A030164 ^property[0].code = #status
 * #A030164 ^property[=].valueString = "新增"
-* #A030164 ^property[+].code = #updateDate
+* #A030164 ^property[+].code = #effectiveDate
 * #A030164 ^property[=].valueString = "2024-05"
 * #A030165 "順天堂麻子仁丸濃縮顆粒"
 * #A030165 ^property[0].code = #status
 * #A030165 ^property[=].valueString = "新增"
-* #A030165 ^property[+].code = #updateDate
+* #A030165 ^property[+].code = #effectiveDate
 * #A030165 ^property[=].valueString = "2024-05"
 * #A030166 "順天堂大青龍湯濃縮顆粒"
 * #A030166 ^property[0].code = #status
 * #A030166 ^property[=].valueString = "新增"
-* #A030166 ^property[+].code = #updateDate
+* #A030166 ^property[+].code = #effectiveDate
 * #A030166 ^property[=].valueString = "2024-05"
 * #A030167 "順天堂桂枝加龍骨牡蠣湯濃縮顆粒"
 * #A030167 ^property[0].code = #status
 * #A030167 ^property[=].valueString = "新增"
-* #A030167 ^property[+].code = #updateDate
+* #A030167 ^property[+].code = #effectiveDate
 * #A030167 ^property[=].valueString = "2024-05"
 * #A030169 "順天堂小承氣湯濃縮顆粒"
 * #A030169 ^property[0].code = #status
 * #A030169 ^property[=].valueString = "新增"
-* #A030169 ^property[+].code = #updateDate
+* #A030169 ^property[+].code = #effectiveDate
 * #A030169 ^property[=].valueString = "2024-05"
 * #A030170 "順天堂苓甘薑味辛夏仁湯濃縮顆粒"
 * #A030170 ^property[0].code = #status
 * #A030170 ^property[=].valueString = "新增"
-* #A030170 ^property[+].code = #updateDate
+* #A030170 ^property[+].code = #effectiveDate
 * #A030170 ^property[=].valueString = "2024-05"
 * #A030171 "順天堂定喘湯濃縮顆粒"
 * #A030171 ^property[0].code = #status
 * #A030171 ^property[=].valueString = "新增"
-* #A030171 ^property[+].code = #updateDate
+* #A030171 ^property[+].code = #effectiveDate
 * #A030171 ^property[=].valueString = "2024-05"
 * #A030172 "順天堂蘇子降氣湯濃縮顆粒"
 * #A030172 ^property[0].code = #status
 * #A030172 ^property[=].valueString = "新增"
-* #A030172 ^property[+].code = #updateDate
+* #A030172 ^property[+].code = #effectiveDate
 * #A030172 ^property[=].valueString = "2024-05"
 * #A030173 "順天堂溫清飲濃縮顆粒"
 * #A030173 ^property[0].code = #status
 * #A030173 ^property[=].valueString = "新增"
-* #A030173 ^property[+].code = #updateDate
+* #A030173 ^property[+].code = #effectiveDate
 * #A030173 ^property[=].valueString = "2024-05"
 * #A030174 "順天堂加味八仙湯濃縮顆粒"
 * #A030174 ^property[0].code = #status
 * #A030174 ^property[=].valueString = "新增"
-* #A030174 ^property[+].code = #updateDate
+* #A030174 ^property[+].code = #effectiveDate
 * #A030174 ^property[=].valueString = "2024-05"
 * #A030175 "順天堂神秘湯(辛庇湯)濃縮散"
 * #A030175 ^property[0].code = #status
 * #A030175 ^property[=].valueString = "新增"
-* #A030175 ^property[+].code = #updateDate
+* #A030175 ^property[+].code = #effectiveDate
 * #A030175 ^property[=].valueString = "2024-05"
 * #A030176 "順天堂八味地黃丸濃縮散"
 * #A030176 ^property[0].code = #status
 * #A030176 ^property[=].valueString = "新增"
-* #A030176 ^property[+].code = #updateDate
+* #A030176 ^property[+].code = #effectiveDate
 * #A030176 ^property[=].valueString = "2024-05"
 * #A030177 "順天堂甘露飲濃縮顆粒"
 * #A030177 ^property[0].code = #status
 * #A030177 ^property[=].valueString = "新增"
-* #A030177 ^property[+].code = #updateDate
+* #A030177 ^property[+].code = #effectiveDate
 * #A030177 ^property[=].valueString = "2024-05"
 * #A030178 "順天堂涼膈散濃縮散"
 * #A030178 ^property[0].code = #status
 * #A030178 ^property[=].valueString = "新增"
-* #A030178 ^property[+].code = #updateDate
+* #A030178 ^property[+].code = #effectiveDate
 * #A030178 ^property[=].valueString = "2024-05"
 * #A030179 "順天堂清心蓮子飲濃縮顆粒"
 * #A030179 ^property[0].code = #status
 * #A030179 ^property[=].valueString = "新增"
-* #A030179 ^property[+].code = #updateDate
+* #A030179 ^property[+].code = #effectiveDate
 * #A030179 ^property[=].valueString = "2024-05"
 * #A030180 "順天堂清涼飲濃縮顆粒"
 * #A030180 ^property[0].code = #status
 * #A030180 ^property[=].valueString = "新增"
-* #A030180 ^property[+].code = #updateDate
+* #A030180 ^property[+].code = #effectiveDate
 * #A030180 ^property[=].valueString = "2024-05"
 * #A030182 "順天堂排膿散濃縮顆粒"
 * #A030182 ^property[0].code = #status
 * #A030182 ^property[=].valueString = "新增"
-* #A030182 ^property[+].code = #updateDate
+* #A030182 ^property[+].code = #effectiveDate
 * #A030182 ^property[=].valueString = "2024-05"
 * #A030183 "順天堂桂枝湯濃縮顆粒"
 * #A030183 ^property[0].code = #status
 * #A030183 ^property[=].valueString = "新增"
-* #A030183 ^property[+].code = #updateDate
+* #A030183 ^property[+].code = #effectiveDate
 * #A030183 ^property[=].valueString = "2024-05"
 * #A030184 "順天堂桂枝湯濃縮散"
 * #A030184 ^property[0].code = #status
 * #A030184 ^property[=].valueString = "新增"
-* #A030184 ^property[+].code = #updateDate
+* #A030184 ^property[+].code = #effectiveDate
 * #A030184 ^property[=].valueString = "2024-05"
 * #A030185 "順天堂香砂六君子湯濃縮顆粒"
 * #A030185 ^property[0].code = #status
 * #A030185 ^property[=].valueString = "新增"
-* #A030185 ^property[+].code = #updateDate
+* #A030185 ^property[+].code = #effectiveDate
 * #A030185 ^property[=].valueString = "2024-05"
 * #A030187 "順天堂肥兒八珍糕濃縮散"
 * #A030187 ^property[0].code = #status
 * #A030187 ^property[=].valueString = "新增"
-* #A030187 ^property[+].code = #updateDate
+* #A030187 ^property[+].code = #effectiveDate
 * #A030187 ^property[=].valueString = "2024-05"
 * #A030188 "順天堂響聲破笛丸濃縮顆粒"
 * #A030188 ^property[0].code = #status
 * #A030188 ^property[=].valueString = "新增"
-* #A030188 ^property[+].code = #updateDate
+* #A030188 ^property[+].code = #effectiveDate
 * #A030188 ^property[=].valueString = "2024-05"
 * #A030190 "順天堂天王補心丹濃縮顆粒"
 * #A030190 ^property[0].code = #status
 * #A030190 ^property[=].valueString = "新增"
-* #A030190 ^property[+].code = #updateDate
+* #A030190 ^property[+].code = #effectiveDate
 * #A030190 ^property[=].valueString = "2024-05"
 * #A030193 "順天堂安中散濃縮顆粒"
 * #A030193 ^property[0].code = #status
 * #A030193 ^property[=].valueString = "新增"
-* #A030193 ^property[+].code = #updateDate
+* #A030193 ^property[+].code = #effectiveDate
 * #A030193 ^property[=].valueString = "2024-05"
 * #A030194 "順天堂香砂六君子湯濃縮散(增補萬病回春)"
 * #A030194 ^property[0].code = #status
 * #A030194 ^property[=].valueString = "新增"
-* #A030194 ^property[+].code = #updateDate
+* #A030194 ^property[+].code = #effectiveDate
 * #A030194 ^property[=].valueString = "2024-05"
 * #A030195 "順天堂麻杏薏甘湯濃縮顆粒"
 * #A030195 ^property[0].code = #status
 * #A030195 ^property[=].valueString = "新增"
-* #A030195 ^property[+].code = #updateDate
+* #A030195 ^property[+].code = #effectiveDate
 * #A030195 ^property[=].valueString = "2024-05"
 * #A030196 "順天堂荊芥連翹湯濃縮顆粒"
 * #A030196 ^property[0].code = #status
 * #A030196 ^property[=].valueString = "新增"
-* #A030196 ^property[+].code = #updateDate
+* #A030196 ^property[+].code = #effectiveDate
 * #A030196 ^property[=].valueString = "2024-05"
 * #A030197 "順天堂麻黃附子細辛湯濃縮顆粒"
 * #A030197 ^property[0].code = #status
 * #A030197 ^property[=].valueString = "新增"
-* #A030197 ^property[+].code = #updateDate
+* #A030197 ^property[+].code = #effectiveDate
 * #A030197 ^property[=].valueString = "2024-05"
 * #A030198 "順天堂排膿散濃縮散"
 * #A030198 ^property[0].code = #status
 * #A030198 ^property[=].valueString = "新增"
-* #A030198 ^property[+].code = #updateDate
+* #A030198 ^property[+].code = #effectiveDate
 * #A030198 ^property[=].valueString = "2024-05"
 * #A030199 "順天堂柴胡桂枝乾薑湯濃縮顆粒"
 * #A030199 ^property[0].code = #status
 * #A030199 ^property[=].valueString = "新增"
-* #A030199 ^property[+].code = #updateDate
+* #A030199 ^property[+].code = #effectiveDate
 * #A030199 ^property[=].valueString = "2024-05"
 * #A030205 "順天堂燈花敗毒散濃縮顆粒"
 * #A030205 ^property[0].code = #status
 * #A030205 ^property[=].valueString = "新增"
-* #A030205 ^property[+].code = #updateDate
+* #A030205 ^property[+].code = #effectiveDate
 * #A030205 ^property[=].valueString = "2024-05"
 * #A030208 "順天堂桂枝加芍藥湯濃縮顆粒"
 * #A030208 ^property[0].code = #status
 * #A030208 ^property[=].valueString = "新增"
-* #A030208 ^property[+].code = #updateDate
+* #A030208 ^property[+].code = #effectiveDate
 * #A030208 ^property[=].valueString = "2024-05"
 * #A030213 "順天堂半夏瀉心湯濃縮顆粒"
 * #A030213 ^property[0].code = #status
 * #A030213 ^property[=].valueString = "新增"
-* #A030213 ^property[+].code = #updateDate
+* #A030213 ^property[+].code = #effectiveDate
 * #A030213 ^property[=].valueString = "2024-05"
 * #A030214 "順天堂三黃瀉心湯濃縮顆粒"
 * #A030214 ^property[0].code = #status
 * #A030214 ^property[=].valueString = "新增"
-* #A030214 ^property[+].code = #updateDate
+* #A030214 ^property[+].code = #effectiveDate
 * #A030214 ^property[=].valueString = "2024-05"
 * #A030215 "順天堂十味香薷飲濃縮散"
 * #A030215 ^property[0].code = #status
 * #A030215 ^property[=].valueString = "新增"
-* #A030215 ^property[+].code = #updateDate
+* #A030215 ^property[+].code = #effectiveDate
 * #A030215 ^property[=].valueString = "2024-05"
 * #A030216 "順天堂散腫潰堅湯濃縮顆粒"
 * #A030216 ^property[0].code = #status
 * #A030216 ^property[=].valueString = "新增"
-* #A030216 ^property[+].code = #updateDate
+* #A030216 ^property[+].code = #effectiveDate
 * #A030216 ^property[=].valueString = "2024-05"
 * #A030217 "順天堂六味地黃丸濃縮顆粒"
 * #A030217 ^property[0].code = #status
 * #A030217 ^property[=].valueString = "新增"
-* #A030217 ^property[+].code = #updateDate
+* #A030217 ^property[+].code = #effectiveDate
 * #A030217 ^property[=].valueString = "2024-05"
 * #A030218 "順天堂黃連解毒湯濃縮散"
 * #A030218 ^property[0].code = #status
 * #A030218 ^property[=].valueString = "新增"
-* #A030218 ^property[+].code = #updateDate
+* #A030218 ^property[+].code = #effectiveDate
 * #A030218 ^property[=].valueString = "2024-05"
 * #A030219 "順天堂小青龍湯濃縮顆粒"
 * #A030219 ^property[0].code = #status
 * #A030219 ^property[=].valueString = "新增"
-* #A030219 ^property[+].code = #updateDate
+* #A030219 ^property[+].code = #effectiveDate
 * #A030219 ^property[=].valueString = "2024-05"
 * #A030221 "順天堂加味逍遙散濃縮散"
 * #A030221 ^property[0].code = #status
 * #A030221 ^property[=].valueString = "新增"
-* #A030221 ^property[+].code = #updateDate
+* #A030221 ^property[+].code = #effectiveDate
 * #A030221 ^property[=].valueString = "2024-05"
 * #A030222 "順天堂大柴胡湯濃縮顆粒"
 * #A030222 ^property[0].code = #status
 * #A030222 ^property[=].valueString = "新增"
-* #A030222 ^property[+].code = #updateDate
+* #A030222 ^property[+].code = #effectiveDate
 * #A030222 ^property[=].valueString = "2024-05"
 * #A030223 "順天堂葛根湯濃縮顆粒"
 * #A030223 ^property[0].code = #status
 * #A030223 ^property[=].valueString = "新增"
-* #A030223 ^property[+].code = #updateDate
+* #A030223 ^property[+].code = #effectiveDate
 * #A030223 ^property[=].valueString = "2024-05"
 * #A030224 "順天堂葛根湯濃縮散"
 * #A030224 ^property[0].code = #status
 * #A030224 ^property[=].valueString = "新增"
-* #A030224 ^property[+].code = #updateDate
+* #A030224 ^property[+].code = #effectiveDate
 * #A030224 ^property[=].valueString = "2024-05"
 * #A030225 "順天堂補中益氣湯濃縮散"
 * #A030225 ^property[0].code = #status
 * #A030225 ^property[=].valueString = "新增"
-* #A030225 ^property[+].code = #updateDate
+* #A030225 ^property[+].code = #effectiveDate
 * #A030225 ^property[=].valueString = "2024-05"
 * #A030226 "順天堂桂枝茯苓丸濃縮顆粒"
 * #A030226 ^property[0].code = #status
 * #A030226 ^property[=].valueString = "新增"
-* #A030226 ^property[+].code = #updateDate
+* #A030226 ^property[+].code = #effectiveDate
 * #A030226 ^property[=].valueString = "2024-05"
 * #A030227 "順天堂加味逍遙散濃縮顆粒"
 * #A030227 ^property[0].code = #status
 * #A030227 ^property[=].valueString = "新增"
-* #A030227 ^property[+].code = #updateDate
+* #A030227 ^property[+].code = #effectiveDate
 * #A030227 ^property[=].valueString = "2024-05"
 * #A030228 "順天堂芍藥甘草湯濃縮顆粒"
 * #A030228 ^property[0].code = #status
 * #A030228 ^property[=].valueString = "新增"
-* #A030228 ^property[+].code = #updateDate
+* #A030228 ^property[+].code = #effectiveDate
 * #A030228 ^property[=].valueString = "2024-05"
 * #A030230 "順天堂大黃牡丹皮湯濃縮顆粒"
 * #A030230 ^property[0].code = #status
 * #A030230 ^property[=].valueString = "新增"
-* #A030230 ^property[+].code = #updateDate
+* #A030230 ^property[+].code = #effectiveDate
 * #A030230 ^property[=].valueString = "2024-05"
 * #A030232 "順天堂平肝流氣飲濃縮散"
 * #A030232 ^property[0].code = #status
 * #A030232 ^property[=].valueString = "新增"
-* #A030232 ^property[+].code = #updateDate
+* #A030232 ^property[+].code = #effectiveDate
 * #A030232 ^property[=].valueString = "2024-05"
 * #A030235 "順天堂六味地黃丸濃縮散"
 * #A030235 ^property[0].code = #status
 * #A030235 ^property[=].valueString = "新增"
-* #A030235 ^property[+].code = #updateDate
+* #A030235 ^property[+].code = #effectiveDate
 * #A030235 ^property[=].valueString = "2024-05"
 * #A030236 "順天堂六君子湯濃縮散"
 * #A030236 ^property[0].code = #status
 * #A030236 ^property[=].valueString = "新增"
-* #A030236 ^property[+].code = #updateDate
+* #A030236 ^property[+].code = #effectiveDate
 * #A030236 ^property[=].valueString = "2024-05"
 * #A030238 "順天堂十味敗毒散濃縮顆粒"
 * #A030238 ^property[0].code = #status
 * #A030238 ^property[=].valueString = "新增"
-* #A030238 ^property[+].code = #updateDate
+* #A030238 ^property[+].code = #effectiveDate
 * #A030238 ^property[=].valueString = "2024-05"
 * #A030239 "順天堂茵陳蒿湯濃縮顆粒"
 * #A030239 ^property[0].code = #status
 * #A030239 ^property[=].valueString = "新增"
-* #A030239 ^property[+].code = #updateDate
+* #A030239 ^property[+].code = #effectiveDate
 * #A030239 ^property[=].valueString = "2024-05"
 * #A030240 "順天堂乙字湯濃縮顆粒"
 * #A030240 ^property[0].code = #status
 * #A030240 ^property[=].valueString = "新增"
-* #A030240 ^property[+].code = #updateDate
+* #A030240 ^property[+].code = #effectiveDate
 * #A030240 ^property[=].valueString = "2024-05"
 * #A030242 "順天堂茵陳蒿湯濃縮散"
 * #A030242 ^property[0].code = #status
 * #A030242 ^property[=].valueString = "新增"
-* #A030242 ^property[+].code = #updateDate
+* #A030242 ^property[+].code = #effectiveDate
 * #A030242 ^property[=].valueString = "2024-05"
 * #A030243 "順天堂麻黃湯濃縮顆粒"
 * #A030243 ^property[0].code = #status
 * #A030243 ^property[=].valueString = "新增"
-* #A030243 ^property[+].code = #updateDate
+* #A030243 ^property[+].code = #effectiveDate
 * #A030243 ^property[=].valueString = "2024-05"
 * #A030244 "順天堂麻黃湯濃縮散"
 * #A030244 ^property[0].code = #status
 * #A030244 ^property[=].valueString = "新增"
-* #A030244 ^property[+].code = #updateDate
+* #A030244 ^property[+].code = #effectiveDate
 * #A030244 ^property[=].valueString = "2024-05"
 * #A030245 "順天堂八珍湯濃縮顆粒"
 * #A030245 ^property[0].code = #status
 * #A030245 ^property[=].valueString = "新增"
-* #A030245 ^property[+].code = #updateDate
+* #A030245 ^property[+].code = #effectiveDate
 * #A030245 ^property[=].valueString = "2024-05"
 * #A030247 "順天堂金鎖固精丸濃縮顆粒"
 * #A030247 ^property[0].code = #status
 * #A030247 ^property[=].valueString = "新增"
-* #A030247 ^property[+].code = #updateDate
+* #A030247 ^property[+].code = #effectiveDate
 * #A030247 ^property[=].valueString = "2024-05"
 * #A030248 "順天堂人參養榮湯濃縮散"
 * #A030248 ^property[0].code = #status
 * #A030248 ^property[=].valueString = "新增"
-* #A030248 ^property[+].code = #updateDate
+* #A030248 ^property[+].code = #effectiveDate
 * #A030248 ^property[=].valueString = "2024-05"
 * #A030249 "順天堂生化湯濃縮顆粒"
 * #A030249 ^property[0].code = #status
 * #A030249 ^property[=].valueString = "新增"
-* #A030249 ^property[+].code = #updateDate
+* #A030249 ^property[+].code = #effectiveDate
 * #A030249 ^property[=].valueString = "2024-05"
 * #A030250 "順天堂九味羌活湯濃縮顆粒"
 * #A030250 ^property[0].code = #status
 * #A030250 ^property[=].valueString = "新增"
-* #A030250 ^property[+].code = #updateDate
+* #A030250 ^property[+].code = #effectiveDate
 * #A030250 ^property[=].valueString = "2024-05"
 * #A030251 "順天堂參蘇飲濃縮顆粒"
 * #A030251 ^property[0].code = #status
 * #A030251 ^property[=].valueString = "新增"
-* #A030251 ^property[+].code = #updateDate
+* #A030251 ^property[+].code = #effectiveDate
 * #A030251 ^property[=].valueString = "2024-05"
 * #A030252 "順天堂酸棗仁湯濃縮顆粒"
 * #A030252 ^property[0].code = #status
 * #A030252 ^property[=].valueString = "新增"
-* #A030252 ^property[+].code = #updateDate
+* #A030252 ^property[+].code = #effectiveDate
 * #A030252 ^property[=].valueString = "2024-05"
 * #A030253 "順天堂抑肝散濃縮顆粒"
 * #A030253 ^property[0].code = #status
 * #A030253 ^property[=].valueString = "新增"
-* #A030253 ^property[+].code = #updateDate
+* #A030253 ^property[+].code = #effectiveDate
 * #A030253 ^property[=].valueString = "2024-05"
 * #A030254 "順天堂二陳湯濃縮顆粒"
 * #A030254 ^property[0].code = #status
 * #A030254 ^property[=].valueString = "新增"
-* #A030254 ^property[+].code = #updateDate
+* #A030254 ^property[+].code = #effectiveDate
 * #A030254 ^property[=].valueString = "2024-05"
 * #A030255 "順天堂十味敗毒濃縮散"
 * #A030255 ^property[0].code = #status
 * #A030255 ^property[=].valueString = "新增"
-* #A030255 ^property[+].code = #updateDate
+* #A030255 ^property[+].code = #effectiveDate
 * #A030255 ^property[=].valueString = "2024-05"
 * #A030286 "東陽代赭旋覆湯濃縮散"
 * #A030286 ^property[0].code = #status
 * #A030286 ^property[=].valueString = "新增"
-* #A030286 ^property[+].code = #updateDate
+* #A030286 ^property[+].code = #effectiveDate
 * #A030286 ^property[=].valueString = "2024-05"
 * #A030287 "東陽麻黃湯濃縮散"
 * #A030287 ^property[0].code = #status
 * #A030287 ^property[=].valueString = "新增"
-* #A030287 ^property[+].code = #updateDate
+* #A030287 ^property[+].code = #effectiveDate
 * #A030287 ^property[=].valueString = "2024-05"
 * #A030288 "東陽茵陳五苓散濃縮散"
 * #A030288 ^property[0].code = #status
 * #A030288 ^property[=].valueString = "新增"
-* #A030288 ^property[+].code = #updateDate
+* #A030288 ^property[+].code = #effectiveDate
 * #A030288 ^property[=].valueString = "2024-05"
 * #A030289 "東陽白頭翁湯濃縮散"
 * #A030289 ^property[0].code = #status
 * #A030289 ^property[=].valueString = "新增"
-* #A030289 ^property[+].code = #updateDate
+* #A030289 ^property[+].code = #effectiveDate
 * #A030289 ^property[=].valueString = "2024-05"
 * #A030291 "東陽金沸草散濃縮散"
 * #A030291 ^property[0].code = #status
 * #A030291 ^property[=].valueString = "新增"
-* #A030291 ^property[+].code = #updateDate
+* #A030291 ^property[+].code = #effectiveDate
 * #A030291 ^property[=].valueString = "2024-05"
 * #A030292 "東陽香薷飲濃縮散"
 * #A030292 ^property[0].code = #status
 * #A030292 ^property[=].valueString = "新增"
-* #A030292 ^property[+].code = #updateDate
+* #A030292 ^property[+].code = #effectiveDate
 * #A030292 ^property[=].valueString = "2024-05"
 * #A030293 "東陽五苓散濃縮散"
 * #A030293 ^property[0].code = #status
 * #A030293 ^property[=].valueString = "新增"
-* #A030293 ^property[+].code = #updateDate
+* #A030293 ^property[+].code = #effectiveDate
 * #A030293 ^property[=].valueString = "2024-05"
 * #A030294 "東陽升麻葛根湯濃縮散"
 * #A030294 ^property[0].code = #status
 * #A030294 ^property[=].valueString = "新增"
-* #A030294 ^property[+].code = #updateDate
+* #A030294 ^property[+].code = #effectiveDate
 * #A030294 ^property[=].valueString = "2024-05"
 * #A030295 "東陽芍藥甘草湯濃縮顆粒"
 * #A030295 ^property[0].code = #status
 * #A030295 ^property[=].valueString = "新增"
-* #A030295 ^property[+].code = #updateDate
+* #A030295 ^property[+].code = #effectiveDate
 * #A030295 ^property[=].valueString = "2024-05"
 * #A030296 "東陽大柴胡湯濃縮顆粒"
 * #A030296 ^property[0].code = #status
 * #A030296 ^property[=].valueString = "新增"
-* #A030296 ^property[+].code = #updateDate
+* #A030296 ^property[+].code = #effectiveDate
 * #A030296 ^property[=].valueString = "2024-05"
 * #A030297 "東陽十神湯濃縮顆粒"
 * #A030297 ^property[0].code = #status
 * #A030297 ^property[=].valueString = "新增"
-* #A030297 ^property[+].code = #updateDate
+* #A030297 ^property[+].code = #effectiveDate
 * #A030297 ^property[=].valueString = "2024-05"
 * #A030298 "東陽導赤散濃縮散"
 * #A030298 ^property[0].code = #status
 * #A030298 ^property[=].valueString = "新增"
-* #A030298 ^property[+].code = #updateDate
+* #A030298 ^property[+].code = #effectiveDate
 * #A030298 ^property[=].valueString = "2024-05"
 * #A030299 "東陽蘇子降氣湯濃縮散"
 * #A030299 ^property[0].code = #status
 * #A030299 ^property[=].valueString = "新增"
-* #A030299 ^property[+].code = #updateDate
+* #A030299 ^property[+].code = #effectiveDate
 * #A030299 ^property[=].valueString = "2024-05"
 * #A030300 "東陽當歸四逆湯濃縮散"
 * #A030300 ^property[0].code = #status
 * #A030300 ^property[=].valueString = "新增"
-* #A030300 ^property[+].code = #updateDate
+* #A030300 ^property[+].code = #effectiveDate
 * #A030300 ^property[=].valueString = "2024-05"
 * #A030333 "東陽理中湯濃縮顆粒"
 * #A030333 ^property[0].code = #status
 * #A030333 ^property[=].valueString = "新增"
-* #A030333 ^property[+].code = #updateDate
+* #A030333 ^property[+].code = #effectiveDate
 * #A030333 ^property[=].valueString = "2024-05"
 * #A030368 "東陽桑菊飲濃縮顆粒"
 * #A030368 ^property[0].code = #status
 * #A030368 ^property[=].valueString = "新增"
-* #A030368 ^property[+].code = #updateDate
+* #A030368 ^property[+].code = #effectiveDate
 * #A030368 ^property[=].valueString = "2024-05"
 * #A030370 "東陽柴葛解肌湯濃縮顆粒"
 * #A030370 ^property[0].code = #status
 * #A030370 ^property[=].valueString = "新增"
-* #A030370 ^property[+].code = #updateDate
+* #A030370 ^property[+].code = #effectiveDate
 * #A030370 ^property[=].valueString = "2024-05"
 * #A030371 "東陽香蘇散濃縮顆粒"
 * #A030371 ^property[0].code = #status
 * #A030371 ^property[=].valueString = "新增"
-* #A030371 ^property[+].code = #updateDate
+* #A030371 ^property[+].code = #effectiveDate
 * #A030371 ^property[=].valueString = "2024-05"
 * #A030372 "東陽防己黃耆湯濃縮散"
 * #A030372 ^property[0].code = #status
 * #A030372 ^property[=].valueString = "新增"
-* #A030372 ^property[+].code = #updateDate
+* #A030372 ^property[+].code = #effectiveDate
 * #A030372 ^property[=].valueString = "2024-05"
 * #A030373 "東陽定喘湯濃縮散(加味)"
 * #A030373 ^property[0].code = #status
 * #A030373 ^property[=].valueString = "新增"
-* #A030373 ^property[+].code = #updateDate
+* #A030373 ^property[+].code = #effectiveDate
 * #A030373 ^property[=].valueString = "2024-05"
 * #A030374 "東陽清肺飲濃縮散"
 * #A030374 ^property[0].code = #status
 * #A030374 ^property[=].valueString = "新增"
-* #A030374 ^property[+].code = #updateDate
+* #A030374 ^property[+].code = #effectiveDate
 * #A030374 ^property[=].valueString = "2024-05"
 * #A030375 "東陽治濁固本丸濃縮顆粒"
 * #A030375 ^property[0].code = #status
 * #A030375 ^property[=].valueString = "新增"
-* #A030375 ^property[+].code = #updateDate
+* #A030375 ^property[+].code = #effectiveDate
 * #A030375 ^property[=].valueString = "2024-05"
 * #A030376 "東陽二陳湯濃縮散"
 * #A030376 ^property[0].code = #status
 * #A030376 ^property[=].valueString = "新增"
-* #A030376 ^property[+].code = #updateDate
+* #A030376 ^property[+].code = #effectiveDate
 * #A030376 ^property[=].valueString = "2024-05"
 * #A030378 "東陽小承氣湯濃縮散"
 * #A030378 ^property[0].code = #status
 * #A030378 ^property[=].valueString = "新增"
-* #A030378 ^property[+].code = #updateDate
+* #A030378 ^property[+].code = #effectiveDate
 * #A030378 ^property[=].valueString = "2024-05"
 * #A030379 "東陽四君子湯濃縮散"
 * #A030379 ^property[0].code = #status
 * #A030379 ^property[=].valueString = "新增"
-* #A030379 ^property[+].code = #updateDate
+* #A030379 ^property[+].code = #effectiveDate
 * #A030379 ^property[=].valueString = "2024-05"
 * #A030391 "東陽黃連解毒湯濃縮散"
 * #A030391 ^property[0].code = #status
 * #A030391 ^property[=].valueString = "新增"
-* #A030391 ^property[+].code = #updateDate
+* #A030391 ^property[+].code = #effectiveDate
 * #A030391 ^property[=].valueString = "2024-05"
 * #A030397 "順天堂小建中湯濃縮錠"
 * #A030397 ^property[0].code = #status
 * #A030397 ^property[=].valueString = "新增"
-* #A030397 ^property[+].code = #updateDate
+* #A030397 ^property[+].code = #effectiveDate
 * #A030397 ^property[=].valueString = "2024-05"
 * #A030398 "東陽參苓白朮散濃縮顆粒"
 * #A030398 ^property[0].code = #status
 * #A030398 ^property[=].valueString = "新增"
-* #A030398 ^property[+].code = #updateDate
+* #A030398 ^property[+].code = #effectiveDate
 * #A030398 ^property[=].valueString = "2024-05"
 * #A030399 "東陽甘露飲濃縮顆粒"
 * #A030399 ^property[0].code = #status
 * #A030399 ^property[=].valueString = "新增"
-* #A030399 ^property[+].code = #updateDate
+* #A030399 ^property[+].code = #effectiveDate
 * #A030399 ^property[=].valueString = "2024-05"
 * #A030400 "東陽瀉白散濃縮散"
 * #A030400 ^property[0].code = #status
 * #A030400 ^property[=].valueString = "新增"
-* #A030400 ^property[+].code = #updateDate
+* #A030400 ^property[+].code = #effectiveDate
 * #A030400 ^property[=].valueString = "2024-05"
 * #A030401 "東陽黃連湯濃縮散"
 * #A030401 ^property[0].code = #status
 * #A030401 ^property[=].valueString = "新增"
-* #A030401 ^property[+].code = #updateDate
+* #A030401 ^property[+].code = #effectiveDate
 * #A030401 ^property[=].valueString = "2024-05"
 * #A030402 "漢聖八味地黃丸濃縮散"
 * #A030402 ^property[0].code = #status
 * #A030402 ^property[=].valueString = "新增"
-* #A030402 ^property[+].code = #updateDate
+* #A030402 ^property[+].code = #effectiveDate
 * #A030402 ^property[=].valueString = "2024-05"
 * #A030469 "順天堂麻黃湯濃縮錠"
 * #A030469 ^property[0].code = #status
 * #A030469 ^property[=].valueString = "新增"
-* #A030469 ^property[+].code = #updateDate
+* #A030469 ^property[+].code = #effectiveDate
 * #A030469 ^property[=].valueString = "2024-05"
 * #A030470 "順天堂銀翹散濃縮錠"
 * #A030470 ^property[0].code = #status
 * #A030470 ^property[=].valueString = "新增"
-* #A030470 ^property[+].code = #updateDate
+* #A030470 ^property[+].code = #effectiveDate
 * #A030470 ^property[=].valueString = "2024-05"
 * #A030471 "順天堂安中散濃縮錠"
 * #A030471 ^property[0].code = #status
 * #A030471 ^property[=].valueString = "新增"
-* #A030471 ^property[+].code = #updateDate
+* #A030471 ^property[+].code = #effectiveDate
 * #A030471 ^property[=].valueString = "2024-05"
 * #A030472 "順天堂麻杏甘石湯濃縮錠"
 * #A030472 ^property[0].code = #status
 * #A030472 ^property[=].valueString = "新增"
-* #A030472 ^property[+].code = #updateDate
+* #A030472 ^property[+].code = #effectiveDate
 * #A030472 ^property[=].valueString = "2024-05"
 * #A030473 "順天堂歸脾湯濃縮顆粒"
 * #A030473 ^property[0].code = #status
 * #A030473 ^property[=].valueString = "新增"
-* #A030473 ^property[+].code = #updateDate
+* #A030473 ^property[+].code = #effectiveDate
 * #A030473 ^property[=].valueString = "2024-05"
 * #A030474 "順天堂歸脾湯濃縮顆粒"
 * #A030474 ^property[0].code = #status
 * #A030474 ^property[=].valueString = "新增"
-* #A030474 ^property[+].code = #updateDate
+* #A030474 ^property[+].code = #effectiveDate
 * #A030474 ^property[=].valueString = "2024-05"
 * #A030475 "順天堂八味地黃丸濃縮錠"
 * #A030475 ^property[0].code = #status
 * #A030475 ^property[=].valueString = "新增"
-* #A030475 ^property[+].code = #updateDate
+* #A030475 ^property[+].code = #effectiveDate
 * #A030475 ^property[=].valueString = "2024-05"
 * #A030476 "順天堂五苓散濃縮錠"
 * #A030476 ^property[0].code = #status
 * #A030476 ^property[=].valueString = "新增"
-* #A030476 ^property[+].code = #updateDate
+* #A030476 ^property[+].code = #effectiveDate
 * #A030476 ^property[=].valueString = "2024-05"
 * #A030477 "順天堂小柴胡湯濃縮錠"
 * #A030477 ^property[0].code = #status
 * #A030477 ^property[=].valueString = "新增"
-* #A030477 ^property[+].code = #updateDate
+* #A030477 ^property[+].code = #effectiveDate
 * #A030477 ^property[=].valueString = "2024-05"
 * #A030479 "順天堂乙字湯濃縮錠"
 * #A030479 ^property[0].code = #status
 * #A030479 ^property[=].valueString = "新增"
-* #A030479 ^property[+].code = #updateDate
+* #A030479 ^property[+].code = #effectiveDate
 * #A030479 ^property[=].valueString = "2024-05"
 * #A030480 "順天堂大柴胡湯濃縮錠"
 * #A030480 ^property[0].code = #status
 * #A030480 ^property[=].valueString = "新增"
-* #A030480 ^property[+].code = #updateDate
+* #A030480 ^property[+].code = #effectiveDate
 * #A030480 ^property[=].valueString = "2024-05"
 * #A030481 "順天堂葛根湯濃縮錠"
 * #A030481 ^property[0].code = #status
 * #A030481 ^property[=].valueString = "新增"
-* #A030481 ^property[+].code = #updateDate
+* #A030481 ^property[+].code = #effectiveDate
 * #A030481 ^property[=].valueString = "2024-05"
 * #A030482 "順天堂桂枝茯苓丸濃縮錠"
 * #A030482 ^property[0].code = #status
 * #A030482 ^property[=].valueString = "新增"
-* #A030482 ^property[+].code = #updateDate
+* #A030482 ^property[+].code = #effectiveDate
 * #A030482 ^property[=].valueString = "2024-05"
 * #A030483 "順天堂平胃散濃縮錠"
 * #A030483 ^property[0].code = #status
 * #A030483 ^property[=].valueString = "新增"
-* #A030483 ^property[+].code = #updateDate
+* #A030483 ^property[+].code = #effectiveDate
 * #A030483 ^property[=].valueString = "2024-05"
 * #A030484 "順天堂茵陳蒿湯濃縮錠"
 * #A030484 ^property[0].code = #status
 * #A030484 ^property[=].valueString = "新增"
-* #A030484 ^property[+].code = #updateDate
+* #A030484 ^property[+].code = #effectiveDate
 * #A030484 ^property[=].valueString = "2024-05"
 * #A030485 "順天堂小青龍湯濃縮錠"
 * #A030485 ^property[0].code = #status
 * #A030485 ^property[=].valueString = "新增"
-* #A030485 ^property[+].code = #updateDate
+* #A030485 ^property[+].code = #effectiveDate
 * #A030485 ^property[=].valueString = "2024-05"
 * #A030487 "順天堂黃連解毒湯濃縮錠"
 * #A030487 ^property[0].code = #status
 * #A030487 ^property[=].valueString = "新增"
-* #A030487 ^property[+].code = #updateDate
+* #A030487 ^property[+].code = #effectiveDate
 * #A030487 ^property[=].valueString = "2024-05"
 * #A030488 "順天堂桃核承氣湯濃縮錠"
 * #A030488 ^property[0].code = #status
 * #A030488 ^property[=].valueString = "新增"
-* #A030488 ^property[+].code = #updateDate
+* #A030488 ^property[+].code = #effectiveDate
 * #A030488 ^property[=].valueString = "2024-05"
 * #A030489 "順天堂十味敗毒散濃縮錠"
 * #A030489 ^property[0].code = #status
 * #A030489 ^property[=].valueString = "新增"
-* #A030489 ^property[+].code = #updateDate
+* #A030489 ^property[+].code = #effectiveDate
 * #A030489 ^property[=].valueString = "2024-05"
 * #A030491 "順天堂越婢加朮湯濃縮錠"
 * #A030491 ^property[0].code = #status
 * #A030491 ^property[=].valueString = "新增"
-* #A030491 ^property[+].code = #updateDate
+* #A030491 ^property[+].code = #effectiveDate
 * #A030491 ^property[=].valueString = "2024-05"
 * #A030492 "順天堂柴胡桂枝湯濃縮錠"
 * #A030492 ^property[0].code = #status
 * #A030492 ^property[=].valueString = "新增"
-* #A030492 ^property[+].code = #updateDate
+* #A030492 ^property[+].code = #effectiveDate
 * #A030492 ^property[=].valueString = "2024-05"
 * #A030493 "順天堂桑菊飲濃縮錠"
 * #A030493 ^property[0].code = #status
 * #A030493 ^property[=].valueString = "新增"
-* #A030493 ^property[+].code = #updateDate
+* #A030493 ^property[+].code = #effectiveDate
 * #A030493 ^property[=].valueString = "2024-05"
 * #A030494 "順天堂半夏瀉心湯濃縮錠"
 * #A030494 ^property[0].code = #status
 * #A030494 ^property[=].valueString = "新增"
-* #A030494 ^property[+].code = #updateDate
+* #A030494 ^property[+].code = #effectiveDate
 * #A030494 ^property[=].valueString = "2024-05"
 * #A030495 "順天堂半夏厚朴湯濃縮錠"
 * #A030495 ^property[0].code = #status
 * #A030495 ^property[=].valueString = "新增"
-* #A030495 ^property[+].code = #updateDate
+* #A030495 ^property[+].code = #effectiveDate
 * #A030495 ^property[=].valueString = "2024-05"
 * #A030496 "順天堂神秘湯濃縮錠(辛庇湯)"
 * #A030496 ^property[0].code = #status
 * #A030496 ^property[=].valueString = "新增"
-* #A030496 ^property[+].code = #updateDate
+* #A030496 ^property[+].code = #effectiveDate
 * #A030496 ^property[=].valueString = "2024-05"
 * #A030497 "順天堂苓桂朮甘湯濃縮錠"
 * #A030497 ^property[0].code = #status
 * #A030497 ^property[=].valueString = "新增"
-* #A030497 ^property[+].code = #updateDate
+* #A030497 ^property[+].code = #effectiveDate
 * #A030497 ^property[=].valueString = "2024-05"
 * #A030498 "順天堂厚朴溫中湯濃縮散"
 * #A030498 ^property[0].code = #status
 * #A030498 ^property[=].valueString = "新增"
-* #A030498 ^property[+].code = #updateDate
+* #A030498 ^property[+].code = #effectiveDate
 * #A030498 ^property[=].valueString = "2024-05"
 * #A030499 "順天堂柴胡加龍骨牡蠣湯濃縮錠"
 * #A030499 ^property[0].code = #status
 * #A030499 ^property[=].valueString = "新增"
-* #A030499 ^property[+].code = #updateDate
+* #A030499 ^property[+].code = #effectiveDate
 * #A030499 ^property[=].valueString = "2024-05"
 * #A030500 "順天堂十全大補湯濃縮錠"
 * #A030500 ^property[0].code = #status
 * #A030500 ^property[=].valueString = "新增"
-* #A030500 ^property[+].code = #updateDate
+* #A030500 ^property[+].code = #effectiveDate
 * #A030500 ^property[=].valueString = "2024-05"
 * #A030501 "順天堂六君子湯濃縮錠"
 * #A030501 ^property[0].code = #status
 * #A030501 ^property[=].valueString = "新增"
-* #A030501 ^property[+].code = #updateDate
+* #A030501 ^property[+].code = #effectiveDate
 * #A030501 ^property[=].valueString = "2024-05"
 * #A030502 "順天堂香蘇散濃縮錠"
 * #A030502 ^property[0].code = #status
 * #A030502 ^property[=].valueString = "新增"
-* #A030502 ^property[+].code = #updateDate
+* #A030502 ^property[+].code = #effectiveDate
 * #A030502 ^property[=].valueString = "2024-05"
 * #A030503 "順天堂麥門冬湯濃縮錠"
 * #A030503 ^property[0].code = #status
 * #A030503 ^property[=].valueString = "新增"
-* #A030503 ^property[+].code = #updateDate
+* #A030503 ^property[+].code = #effectiveDate
 * #A030503 ^property[=].valueString = "2024-05"
 * #A030504 "順天堂補中益氣湯濃縮錠"
 * #A030504 ^property[0].code = #status
 * #A030504 ^property[=].valueString = "新增"
-* #A030504 ^property[+].code = #updateDate
+* #A030504 ^property[+].code = #effectiveDate
 * #A030504 ^property[=].valueString = "2024-05"
 * #A030588 "順天堂越婢加朮湯濃縮顆粒"
 * #A030588 ^property[0].code = #status
 * #A030588 ^property[=].valueString = "新增"
-* #A030588 ^property[+].code = #updateDate
+* #A030588 ^property[+].code = #effectiveDate
 * #A030588 ^property[=].valueString = "2024-05"
 * #A030675 "順天堂黃連湯濃縮顆粒"
 * #A030675 ^property[0].code = #status
 * #A030675 ^property[=].valueString = "新增"
-* #A030675 ^property[+].code = #updateDate
+* #A030675 ^property[+].code = #effectiveDate
 * #A030675 ^property[=].valueString = "2024-05"
 * #A030676 "順天堂溫膽湯濃縮顆粒"
 * #A030676 ^property[0].code = #status
 * #A030676 ^property[=].valueString = "新增"
-* #A030676 ^property[+].code = #updateDate
+* #A030676 ^property[+].code = #effectiveDate
 * #A030676 ^property[=].valueString = "2024-05"
 * #A030677 "順天堂理中湯濃縮散"
 * #A030677 ^property[0].code = #status
 * #A030677 ^property[=].valueString = "新增"
-* #A030677 ^property[+].code = #updateDate
+* #A030677 ^property[+].code = #effectiveDate
 * #A030677 ^property[=].valueString = "2024-05"
 * #A030678 "順天堂理中湯濃縮顆粒"
 * #A030678 ^property[0].code = #status
 * #A030678 ^property[=].valueString = "新增"
-* #A030678 ^property[+].code = #updateDate
+* #A030678 ^property[+].code = #effectiveDate
 * #A030678 ^property[=].valueString = "2024-05"
 * #A030680 "順天堂五淋散濃縮散"
 * #A030680 ^property[0].code = #status
 * #A030680 ^property[=].valueString = "新增"
-* #A030680 ^property[+].code = #updateDate
+* #A030680 ^property[+].code = #effectiveDate
 * #A030680 ^property[=].valueString = "2024-05"
 * #A030795 "順天堂半夏白朮天麻湯濃縮顆粒"
 * #A030795 ^property[0].code = #status
 * #A030795 ^property[=].valueString = "新增"
-* #A030795 ^property[+].code = #updateDate
+* #A030795 ^property[+].code = #effectiveDate
 * #A030795 ^property[=].valueString = "2024-05"
 * #A030797 "順天堂杏蘇散濃縮散"
 * #A030797 ^property[0].code = #status
 * #A030797 ^property[=].valueString = "新增"
-* #A030797 ^property[+].code = #updateDate
+* #A030797 ^property[+].code = #effectiveDate
 * #A030797 ^property[=].valueString = "2024-05"
 * #A031122 "順天堂五淋散濃縮顆粒"
 * #A031122 ^property[0].code = #status
 * #A031122 ^property[=].valueString = "新增"
-* #A031122 ^property[+].code = #updateDate
+* #A031122 ^property[+].code = #effectiveDate
 * #A031122 ^property[=].valueString = "2024-05"
 * #A031152 "順天堂三黃錠(三黃瀉心湯濃縮錠)"
 * #A031152 ^property[0].code = #status
 * #A031152 ^property[=].valueString = "新增"
-* #A031152 ^property[+].code = #updateDate
+* #A031152 ^property[+].code = #effectiveDate
 * #A031152 ^property[=].valueString = "2024-05"
 * #A031256 "順天堂加味三黃錠"
 * #A031256 ^property[0].code = #status
 * #A031256 ^property[=].valueString = "新增"
-* #A031256 ^property[+].code = #updateDate
+* #A031256 ^property[+].code = #effectiveDate
 * #A031256 ^property[=].valueString = "2024-05"
 * #A031296 "順天堂龍膽瀉肝湯濃縮錠"
 * #A031296 ^property[0].code = #status
 * #A031296 ^property[=].valueString = "新增"
-* #A031296 ^property[+].code = #updateDate
+* #A031296 ^property[+].code = #effectiveDate
 * #A031296 ^property[=].valueString = "2024-05"
 * #A031297 "順天堂六味地黃丸濃縮錠"
 * #A031297 ^property[0].code = #status
 * #A031297 ^property[=].valueString = "新增"
-* #A031297 ^property[+].code = #updateDate
+* #A031297 ^property[+].code = #effectiveDate
 * #A031297 ^property[=].valueString = "2024-05"
 * #A031298 "順天堂天王補心丹濃縮錠"
 * #A031298 ^property[0].code = #status
 * #A031298 ^property[=].valueString = "新增"
-* #A031298 ^property[+].code = #updateDate
+* #A031298 ^property[+].code = #effectiveDate
 * #A031298 ^property[=].valueString = "2024-05"
 * #A032039 "順天堂清肺湯濃縮散"
 * #A032039 ^property[0].code = #status
 * #A032039 ^property[=].valueString = "新增"
-* #A032039 ^property[+].code = #updateDate
+* #A032039 ^property[+].code = #effectiveDate
 * #A032039 ^property[=].valueString = "2024-05"
 * #A037623 "勝昌定志丸濃縮散"
 * #A037623 ^property[0].code = #status
 * #A037623 ^property[=].valueString = "新增"
-* #A037623 ^property[+].code = #updateDate
+* #A037623 ^property[+].code = #effectiveDate
 * #A037623 ^property[=].valueString = "2024-05"
 * #A037711 "順天堂香蘇散濃縮散"
 * #A037711 ^property[0].code = #status
 * #A037711 ^property[=].valueString = "新增"
-* #A037711 ^property[+].code = #updateDate
+* #A037711 ^property[+].code = #effectiveDate
 * #A037711 ^property[=].valueString = "2024-05"
 * #A037723 "順天堂半夏厚朴湯濃縮顆粒"
 * #A037723 ^property[0].code = #status
 * #A037723 ^property[=].valueString = "新增"
-* #A037723 ^property[+].code = #updateDate
+* #A037723 ^property[+].code = #effectiveDate
 * #A037723 ^property[=].valueString = "2024-05"
 * #A037724 "順天堂普濟消毒飲濃縮散"
 * #A037724 ^property[0].code = #status
 * #A037724 ^property[=].valueString = "新增"
-* #A037724 ^property[+].code = #updateDate
+* #A037724 ^property[+].code = #effectiveDate
 * #A037724 ^property[=].valueString = "2024-05"
 * #A037726 "順天堂五積散濃縮散"
 * #A037726 ^property[0].code = #status
 * #A037726 ^property[=].valueString = "新增"
-* #A037726 ^property[+].code = #updateDate
+* #A037726 ^property[+].code = #effectiveDate
 * #A037726 ^property[=].valueString = "2024-05"
 * #A037728 "順天堂桃核承氣湯濃縮散"
 * #A037728 ^property[0].code = #status
 * #A037728 ^property[=].valueString = "新增"
-* #A037728 ^property[+].code = #updateDate
+* #A037728 ^property[+].code = #effectiveDate
 * #A037728 ^property[=].valueString = "2024-05"
 * #A037729 "順天堂薏苡仁湯濃縮錠"
 * #A037729 ^property[0].code = #status
 * #A037729 ^property[=].valueString = "新增"
-* #A037729 ^property[+].code = #updateDate
+* #A037729 ^property[+].code = #effectiveDate
 * #A037729 ^property[=].valueString = "2024-05"
 * #A037730 "順天堂四物湯濃縮散"
 * #A037730 ^property[0].code = #status
 * #A037730 ^property[=].valueString = "新增"
-* #A037730 ^property[+].code = #updateDate
+* #A037730 ^property[+].code = #effectiveDate
 * #A037730 ^property[=].valueString = "2024-05"
 * #A037731 "順天堂苓桂朮甘湯濃縮顆粒"
 * #A037731 ^property[0].code = #status
 * #A037731 ^property[=].valueString = "新增"
-* #A037731 ^property[+].code = #updateDate
+* #A037731 ^property[+].code = #effectiveDate
 * #A037731 ^property[=].valueString = "2024-05"
 * #A037737 "順天堂木防己湯濃縮顆粒"
 * #A037737 ^property[0].code = #status
 * #A037737 ^property[=].valueString = "新增"
-* #A037737 ^property[+].code = #updateDate
+* #A037737 ^property[+].code = #effectiveDate
 * #A037737 ^property[=].valueString = "2024-05"
 * #A037742 "順天堂十味香薷飲濃縮顆粒"
 * #A037742 ^property[0].code = #status
 * #A037742 ^property[=].valueString = "新增"
-* #A037742 ^property[+].code = #updateDate
+* #A037742 ^property[+].code = #effectiveDate
 * #A037742 ^property[=].valueString = "2024-05"
 * #A037743 "順天堂柴胡清肝湯濃縮顆粒"
 * #A037743 ^property[0].code = #status
 * #A037743 ^property[=].valueString = "新增"
-* #A037743 ^property[+].code = #updateDate
+* #A037743 ^property[+].code = #effectiveDate
 * #A037743 ^property[=].valueString = "2024-05"
 * #A037744 "順天堂五積散濃縮顆粒"
 * #A037744 ^property[0].code = #status
 * #A037744 ^property[=].valueString = "新增"
-* #A037744 ^property[+].code = #updateDate
+* #A037744 ^property[+].code = #effectiveDate
 * #A037744 ^property[=].valueString = "2024-05"
 * #A037745 "順天堂三黃瀉心湯濃縮顆粒"
 * #A037745 ^property[0].code = #status
 * #A037745 ^property[=].valueString = "新增"
-* #A037745 ^property[+].code = #updateDate
+* #A037745 ^property[+].code = #effectiveDate
 * #A037745 ^property[=].valueString = "2024-05"
 * #A037748 "順天堂小續命湯濃縮顆粒"
 * #A037748 ^property[0].code = #status
 * #A037748 ^property[=].valueString = "新增"
-* #A037748 ^property[+].code = #updateDate
+* #A037748 ^property[+].code = #effectiveDate
 * #A037748 ^property[=].valueString = "2024-05"
 * #A037749 "順天堂厚朴溫中湯濃縮顆粒"
 * #A037749 ^property[0].code = #status
 * #A037749 ^property[=].valueString = "新增"
-* #A037749 ^property[+].code = #updateDate
+* #A037749 ^property[+].code = #effectiveDate
 * #A037749 ^property[=].valueString = "2024-05"
 * #A037750 "順天堂二朮湯濃縮顆粒"
 * #A037750 ^property[0].code = #status
 * #A037750 ^property[=].valueString = "新增"
-* #A037750 ^property[+].code = #updateDate
+* #A037750 ^property[+].code = #effectiveDate
 * #A037750 ^property[=].valueString = "2024-05"
 * #A037751 "順天堂滋腎明目湯濃縮顆粒"
 * #A037751 ^property[0].code = #status
 * #A037751 ^property[=].valueString = "新增"
-* #A037751 ^property[+].code = #updateDate
+* #A037751 ^property[+].code = #effectiveDate
 * #A037751 ^property[=].valueString = "2024-05"
 * #A037752 "順天堂十全大補湯濃縮顆粒"
 * #A037752 ^property[0].code = #status
 * #A037752 ^property[=].valueString = "新增"
-* #A037752 ^property[+].code = #updateDate
+* #A037752 ^property[+].code = #effectiveDate
 * #A037752 ^property[=].valueString = "2024-05"
 * #A037753 "順天堂白頭翁湯濃縮顆粒"
 * #A037753 ^property[0].code = #status
 * #A037753 ^property[=].valueString = "新增"
-* #A037753 ^property[+].code = #updateDate
+* #A037753 ^property[+].code = #effectiveDate
 * #A037753 ^property[=].valueString = "2024-05"
 * #A037754 "順天堂白虎湯濃縮顆粒"
 * #A037754 ^property[0].code = #status
 * #A037754 ^property[=].valueString = "新增"
-* #A037754 ^property[+].code = #updateDate
+* #A037754 ^property[+].code = #effectiveDate
 * #A037754 ^property[=].valueString = "2024-05"
 * #A037755 "順天堂分消湯濃縮顆粒"
 * #A037755 ^property[0].code = #status
 * #A037755 ^property[=].valueString = "新增"
-* #A037755 ^property[+].code = #updateDate
+* #A037755 ^property[+].code = #effectiveDate
 * #A037755 ^property[=].valueString = "2024-05"
 * #A037756 "順天堂香蘇散濃縮顆粒"
 * #A037756 ^property[0].code = #status
 * #A037756 ^property[=].valueString = "新增"
-* #A037756 ^property[+].code = #updateDate
+* #A037756 ^property[+].code = #effectiveDate
 * #A037756 ^property[=].valueString = "2024-05"
 * #A037757 "順天堂十六味流氣飲濃縮顆粒"
 * #A037757 ^property[0].code = #status
 * #A037757 ^property[=].valueString = "新增"
-* #A037757 ^property[+].code = #updateDate
+* #A037757 ^property[+].code = #effectiveDate
 * #A037757 ^property[=].valueString = "2024-05"
 * #A037758 "順天堂白虎加人參湯濃縮顆粒"
 * #A037758 ^property[0].code = #status
 * #A037758 ^property[=].valueString = "新增"
-* #A037758 ^property[+].code = #updateDate
+* #A037758 ^property[+].code = #effectiveDate
 * #A037758 ^property[=].valueString = "2024-05"
 * #A037759 "順天堂逍遙散濃縮散"
 * #A037759 ^property[0].code = #status
 * #A037759 ^property[=].valueString = "新增"
-* #A037759 ^property[+].code = #updateDate
+* #A037759 ^property[+].code = #effectiveDate
 * #A037759 ^property[=].valueString = "2024-05"
 * #A037761 "順天堂柴胡加龍骨牡蠣湯濃縮顆粒"
 * #A037761 ^property[0].code = #status
 * #A037761 ^property[=].valueString = "新增"
-* #A037761 ^property[+].code = #updateDate
+* #A037761 ^property[+].code = #effectiveDate
 * #A037761 ^property[=].valueString = "2024-05"
 * #A037765 "順天堂蒼耳散濃縮顆粒"
 * #A037765 ^property[0].code = #status
 * #A037765 ^property[=].valueString = "新增"
-* #A037765 ^property[+].code = #updateDate
+* #A037765 ^property[+].code = #effectiveDate
 * #A037765 ^property[=].valueString = "2024-05"
 * #A037766 "順天堂治濁固本丸濃縮顆粒"
 * #A037766 ^property[0].code = #status
 * #A037766 ^property[=].valueString = "新增"
-* #A037766 ^property[+].code = #updateDate
+* #A037766 ^property[+].code = #effectiveDate
 * #A037766 ^property[=].valueString = "2024-05"
 * #A037767 "順天堂溫賦湯(真武湯)濃縮顆粒"
 * #A037767 ^property[0].code = #status
 * #A037767 ^property[=].valueString = "新增"
-* #A037767 ^property[+].code = #updateDate
+* #A037767 ^property[+].code = #effectiveDate
 * #A037767 ^property[=].valueString = "2024-05"
 * #A037768 "順天堂秦艽鱉甲散濃縮顆粒"
 * #A037768 ^property[0].code = #status
 * #A037768 ^property[=].valueString = "新增"
-* #A037768 ^property[+].code = #updateDate
+* #A037768 ^property[+].code = #effectiveDate
 * #A037768 ^property[=].valueString = "2024-05"
 * #A037769 "順天堂清胃散濃縮顆粒"
 * #A037769 ^property[0].code = #status
 * #A037769 ^property[=].valueString = "新增"
-* #A037769 ^property[+].code = #updateDate
+* #A037769 ^property[+].code = #effectiveDate
 * #A037769 ^property[=].valueString = "2024-05"
 * #A037770 "順天堂防風通聖散濃縮散"
 * #A037770 ^property[0].code = #status
 * #A037770 ^property[=].valueString = "新增"
-* #A037770 ^property[+].code = #updateDate
+* #A037770 ^property[+].code = #effectiveDate
 * #A037770 ^property[=].valueString = "2024-05"
 * #A037771 "順天堂黃芩湯濃縮顆粒"
 * #A037771 ^property[0].code = #status
 * #A037771 ^property[=].valueString = "新增"
-* #A037771 ^property[+].code = #updateDate
+* #A037771 ^property[+].code = #effectiveDate
 * #A037771 ^property[=].valueString = "2024-05"
 * #A037772 "順天堂大承氣湯濃縮顆粒"
 * #A037772 ^property[0].code = #status
 * #A037772 ^property[=].valueString = "新增"
-* #A037772 ^property[+].code = #updateDate
+* #A037772 ^property[+].code = #effectiveDate
 * #A037772 ^property[=].valueString = "2024-05"
 * #A037773 "順天堂大建中湯濃縮顆粒"
 * #A037773 ^property[0].code = #status
 * #A037773 ^property[=].valueString = "新增"
-* #A037773 ^property[+].code = #updateDate
+* #A037773 ^property[+].code = #effectiveDate
 * #A037773 ^property[=].valueString = "2024-05"
 * #A037774 "順天堂普濟消毒飲濃縮顆粒"
 * #A037774 ^property[0].code = #status
 * #A037774 ^property[=].valueString = "新增"
-* #A037774 ^property[+].code = #updateDate
+* #A037774 ^property[+].code = #effectiveDate
 * #A037774 ^property[=].valueString = "2024-05"
 * #A037776 "順天堂平肝流氣飲濃縮顆粒"
 * #A037776 ^property[0].code = #status
 * #A037776 ^property[=].valueString = "新增"
-* #A037776 ^property[+].code = #updateDate
+* #A037776 ^property[+].code = #effectiveDate
 * #A037776 ^property[=].valueString = "2024-05"
 * #A037778 "順天堂白虎湯濃縮散"
 * #A037778 ^property[0].code = #status
 * #A037778 ^property[=].valueString = "新增"
-* #A037778 ^property[+].code = #updateDate
+* #A037778 ^property[+].code = #effectiveDate
 * #A037778 ^property[=].valueString = "2024-05"
 * #A037781 "順天堂龍膽瀉肝湯濃縮顆粒"
 * #A037781 ^property[0].code = #status
 * #A037781 ^property[=].valueString = "新增"
-* #A037781 ^property[+].code = #updateDate
+* #A037781 ^property[+].code = #effectiveDate
 * #A037781 ^property[=].valueString = "2024-05"
 * #A037782 "順天堂人參養榮湯濃縮顆粒"
 * #A037782 ^property[0].code = #status
 * #A037782 ^property[=].valueString = "新增"
-* #A037782 ^property[+].code = #updateDate
+* #A037782 ^property[+].code = #effectiveDate
 * #A037782 ^property[=].valueString = "2024-05"
 * #A037826 "東陽清燥救肺湯濃縮錠"
 * #A037826 ^property[0].code = #status
 * #A037826 ^property[=].valueString = "新增"
-* #A037826 ^property[+].code = #updateDate
+* #A037826 ^property[+].code = #effectiveDate
 * #A037826 ^property[=].valueString = "2024-05"
 * #A038503 "勝昌天王補心丹濃縮散"
 * #A038503 ^property[0].code = #status
 * #A038503 ^property[=].valueString = "新增"
-* #A038503 ^property[+].code = #updateDate
+* #A038503 ^property[+].code = #effectiveDate
 * #A038503 ^property[=].valueString = "2024-05"
 * #A038795 "勝昌七味白朮散濃縮散"
 * #A038795 ^property[0].code = #status
 * #A038795 ^property[=].valueString = "新增"
-* #A038795 ^property[+].code = #updateDate
+* #A038795 ^property[+].code = #effectiveDate
 * #A038795 ^property[=].valueString = "2024-05"
 * #A038796 "勝昌當歸散濃縮散"
 * #A038796 ^property[0].code = #status
 * #A038796 ^property[=].valueString = "新增"
-* #A038796 ^property[+].code = #updateDate
+* #A038796 ^property[+].code = #effectiveDate
 * #A038796 ^property[=].valueString = "2024-05"
 * #A038797 "勝昌上中下通用痛風丸濃縮散"
 * #A038797 ^property[0].code = #status
 * #A038797 ^property[=].valueString = "新增"
-* #A038797 ^property[+].code = #updateDate
+* #A038797 ^property[+].code = #effectiveDate
 * #A038797 ^property[=].valueString = "2024-05"
 * #A038800 "勝昌香薷飲濃縮散"
 * #A038800 ^property[0].code = #status
 * #A038800 ^property[=].valueString = "新增"
-* #A038800 ^property[+].code = #updateDate
+* #A038800 ^property[+].code = #effectiveDate
 * #A038800 ^property[=].valueString = "2024-05"
 * #A038807 "勝昌三黃瀉心湯濃縮錠"
 * #A038807 ^property[0].code = #status
 * #A038807 ^property[=].valueString = "新增"
-* #A038807 ^property[+].code = #updateDate
+* #A038807 ^property[+].code = #effectiveDate
 * #A038807 ^property[=].valueString = "2024-05"
 * #A042051 "順天堂清暑益氣湯濃縮顆粒"
 * #A042051 ^property[0].code = #status
 * #A042051 ^property[=].valueString = "新增"
-* #A042051 ^property[+].code = #updateDate
+* #A042051 ^property[+].code = #effectiveDate
 * #A042051 ^property[=].valueString = "2024-05"
 * #A042867 "明通疏經活血湯濃縮錠"
 * #A042867 ^property[0].code = #status
 * #A042867 ^property[=].valueString = "新增"
-* #A042867 ^property[+].code = #updateDate
+* #A042867 ^property[+].code = #effectiveDate
 * #A042867 ^property[=].valueString = "2024-05"
 * #A042980 "仙豐白虎加人參湯濃縮細粒"
 * #A042980 ^property[0].code = #status
 * #A042980 ^property[=].valueString = "新增"
-* #A042980 ^property[+].code = #updateDate
+* #A042980 ^property[+].code = #effectiveDate
 * #A042980 ^property[=].valueString = "2024-05"
 * #A042981 "富田清上蠲痛湯濃縮錠"
 * #A042981 ^property[0].code = #status
 * #A042981 ^property[=].valueString = "新增"
-* #A042981 ^property[+].code = #updateDate
+* #A042981 ^property[+].code = #effectiveDate
 * #A042981 ^property[=].valueString = "2024-05"
 * #A042983 "富田玉屏風散濃縮錠"
 * #A042983 ^property[0].code = #status
 * #A042983 ^property[=].valueString = "新增"
-* #A042983 ^property[+].code = #updateDate
+* #A042983 ^property[+].code = #effectiveDate
 * #A042983 ^property[=].valueString = "2024-05"
 * #A042985 "正揚人參敗毒散濃縮細粒"
 * #A042985 ^property[0].code = #status
 * #A042985 ^property[=].valueString = "新增"
-* #A042985 ^property[+].code = #updateDate
+* #A042985 ^property[+].code = #effectiveDate
 * #A042985 ^property[=].valueString = "2024-05"
 * #A044646 "東陽復元活血湯(去穿山甲)濃縮細粒"
 * #A044646 ^property[0].code = #status
 * #A044646 ^property[=].valueString = "新增"
-* #A044646 ^property[+].code = #updateDate
+* #A044646 ^property[+].code = #effectiveDate
 * #A044646 ^property[=].valueString = "2024-05"
 * #A044692 "東陽散腫潰堅湯濃縮細粒"
 * #A044692 ^property[0].code = #status
 * #A044692 ^property[=].valueString = "新增"
-* #A044692 ^property[+].code = #updateDate
+* #A044692 ^property[+].code = #effectiveDate
 * #A044692 ^property[=].valueString = "2024-05"
 * #A045030 "順天堂小柴胡湯濃縮顆粒"
 * #A045030 ^property[0].code = #status
 * #A045030 ^property[=].valueString = "新增"
-* #A045030 ^property[+].code = #updateDate
+* #A045030 ^property[+].code = #effectiveDate
 * #A045030 ^property[=].valueString = "2024-05"
 * #A045194 "順天堂芍藥甘草湯濃縮顆粒"
 * #A045194 ^property[0].code = #status
 * #A045194 ^property[=].valueString = "新增"
-* #A045194 ^property[+].code = #updateDate
+* #A045194 ^property[+].code = #effectiveDate
 * #A045194 ^property[=].valueString = "2024-05"
 * #A045195 "順天堂半夏厚朴湯濃縮顆粒"
 * #A045195 ^property[0].code = #status
 * #A045195 ^property[=].valueString = "新增"
-* #A045195 ^property[+].code = #updateDate
+* #A045195 ^property[+].code = #effectiveDate
 * #A045195 ^property[=].valueString = "2024-05"
 * #A045196 "順天堂五苓散濃縮顆粒"
 * #A045196 ^property[0].code = #status
 * #A045196 ^property[=].valueString = "新增"
-* #A045196 ^property[+].code = #updateDate
+* #A045196 ^property[+].code = #effectiveDate
 * #A045196 ^property[=].valueString = "2024-05"
 * #A045197 "順天堂大柴胡湯濃縮顆粒"
 * #A045197 ^property[0].code = #status
 * #A045197 ^property[=].valueString = "新增"
-* #A045197 ^property[+].code = #updateDate
+* #A045197 ^property[+].code = #effectiveDate
 * #A045197 ^property[=].valueString = "2024-05"
 * #A045198 "順天堂十神湯濃縮顆粒"
 * #A045198 ^property[0].code = #status
 * #A045198 ^property[=].valueString = "新增"
-* #A045198 ^property[+].code = #updateDate
+* #A045198 ^property[+].code = #effectiveDate
 * #A045198 ^property[=].valueString = "2024-05"
 * #A045199 "順天堂小建中湯濃縮顆粒"
 * #A045199 ^property[0].code = #status
 * #A045199 ^property[=].valueString = "新增"
-* #A045199 ^property[+].code = #updateDate
+* #A045199 ^property[+].code = #effectiveDate
 * #A045199 ^property[=].valueString = "2024-05"
 * #A045424 "順天堂羌活勝濕湯濃縮顆粒"
 * #A045424 ^property[0].code = #status
 * #A045424 ^property[=].valueString = "新增"
-* #A045424 ^property[+].code = #updateDate
+* #A045424 ^property[+].code = #effectiveDate
 * #A045424 ^property[=].valueString = "2024-05"
 * #A045425 "順天堂柴胡桂枝湯濃縮顆粒"
 * #A045425 ^property[0].code = #status
 * #A045425 ^property[=].valueString = "新增"
-* #A045425 ^property[+].code = #updateDate
+* #A045425 ^property[+].code = #effectiveDate
 * #A045425 ^property[=].valueString = "2024-05"
 * #A045496 "順天堂四逆散濃縮顆粒"
 * #A045496 ^property[0].code = #status
 * #A045496 ^property[=].valueString = "新增"
-* #A045496 ^property[+].code = #updateDate
+* #A045496 ^property[+].code = #effectiveDate
 * #A045496 ^property[=].valueString = "2024-05"
 * #A045497 "順天堂當歸拈痛湯濃縮顆粒"
 * #A045497 ^property[0].code = #status
 * #A045497 ^property[=].valueString = "新增"
-* #A045497 ^property[+].code = #updateDate
+* #A045497 ^property[+].code = #effectiveDate
 * #A045497 ^property[=].valueString = "2024-05"
 * #A045533 "順天堂葛根黃芩黃連湯濃縮顆粒"
 * #A045533 ^property[0].code = #status
 * #A045533 ^property[=].valueString = "新增"
-* #A045533 ^property[+].code = #updateDate
+* #A045533 ^property[+].code = #effectiveDate
 * #A045533 ^property[=].valueString = "2024-05"
 * #A045534 "順天堂溫清飲濃縮顆粒"
 * #A045534 ^property[0].code = #status
 * #A045534 ^property[=].valueString = "新增"
-* #A045534 ^property[+].code = #updateDate
+* #A045534 ^property[+].code = #effectiveDate
 * #A045534 ^property[=].valueString = "2024-05"
 * #A045535 "順天堂柴陷湯濃縮顆粒"
 * #A045535 ^property[0].code = #status
 * #A045535 ^property[=].valueString = "新增"
-* #A045535 ^property[+].code = #updateDate
+* #A045535 ^property[+].code = #effectiveDate
 * #A045535 ^property[=].valueString = "2024-05"
 * #A045566 "順天堂溫膽湯濃縮顆粒"
 * #A045566 ^property[0].code = #status
 * #A045566 ^property[=].valueString = "新增"
-* #A045566 ^property[+].code = #updateDate
+* #A045566 ^property[+].code = #effectiveDate
 * #A045566 ^property[=].valueString = "2024-05"
 * #A045596 "順天堂薏苡仁湯濃縮顆粒"
 * #A045596 ^property[0].code = #status
 * #A045596 ^property[=].valueString = "新增"
-* #A045596 ^property[+].code = #updateDate
+* #A045596 ^property[+].code = #effectiveDate
 * #A045596 ^property[=].valueString = "2024-05"
 * #A045656 "順天堂柴胡加龍骨牡蠣湯濃縮顆粒"
 * #A045656 ^property[0].code = #status
 * #A045656 ^property[=].valueString = "新增"
-* #A045656 ^property[+].code = #updateDate
+* #A045656 ^property[+].code = #effectiveDate
 * #A045656 ^property[=].valueString = "2024-05"
 * #A045867 "順天堂平胃散濃縮顆粒"
 * #A045867 ^property[0].code = #status
 * #A045867 ^property[=].valueString = "新增"
-* #A045867 ^property[+].code = #updateDate
+* #A045867 ^property[+].code = #effectiveDate
 * #A045867 ^property[=].valueString = "2024-05"
 * #A045868 "順天堂當歸芍藥散濃縮顆粒"
 * #A045868 ^property[0].code = #status
 * #A045868 ^property[=].valueString = "新增"
-* #A045868 ^property[+].code = #updateDate
+* #A045868 ^property[+].code = #effectiveDate
 * #A045868 ^property[=].valueString = "2024-05"
 * #A045869 "順天堂抑肝散濃縮顆粒"
 * #A045869 ^property[0].code = #status
 * #A045869 ^property[=].valueString = "新增"
-* #A045869 ^property[+].code = #updateDate
+* #A045869 ^property[+].code = #effectiveDate
 * #A045869 ^property[=].valueString = "2024-05"
 * #A045929 "順天堂桂枝茯苓丸濃縮顆粒"
 * #A045929 ^property[0].code = #status
 * #A045929 ^property[=].valueString = "新增"
-* #A045929 ^property[+].code = #updateDate
+* #A045929 ^property[+].code = #effectiveDate
 * #A045929 ^property[=].valueString = "2024-05"
 * #A045935 "順天堂四逆湯濃縮顆粒"
 * #A045935 ^property[0].code = #status
 * #A045935 ^property[=].valueString = "新增"
-* #A045935 ^property[+].code = #updateDate
+* #A045935 ^property[+].code = #effectiveDate
 * #A045935 ^property[=].valueString = "2024-05"
 * #A046037 "順天堂響聲破笛丸濃縮顆粒"
 * #A046037 ^property[0].code = #status
 * #A046037 ^property[=].valueString = "新增"
-* #A046037 ^property[+].code = #updateDate
+* #A046037 ^property[+].code = #effectiveDate
 * #A046037 ^property[=].valueString = "2024-05"
 * #A046108 "順天堂安中散濃縮顆粒"
 * #A046108 ^property[0].code = #status
 * #A046108 ^property[=].valueString = "新增"
-* #A046108 ^property[+].code = #updateDate
+* #A046108 ^property[+].code = #effectiveDate
 * #A046108 ^property[=].valueString = "2024-05"
 * #A046109 "順天堂金鎖固精丸濃縮顆粒"
 * #A046109 ^property[0].code = #status
 * #A046109 ^property[=].valueString = "新增"
-* #A046109 ^property[+].code = #updateDate
+* #A046109 ^property[+].code = #effectiveDate
 * #A046109 ^property[=].valueString = "2024-05"
 * #A046110 "順天堂杏蘇散濃縮顆粒"
 * #A046110 ^property[0].code = #status
 * #A046110 ^property[=].valueString = "新增"
-* #A046110 ^property[+].code = #updateDate
+* #A046110 ^property[+].code = #effectiveDate
 * #A046110 ^property[=].valueString = "2024-05"
 * #A046211 "順天堂白虎加人參湯濃縮顆粒"
 * #A046211 ^property[0].code = #status
 * #A046211 ^property[=].valueString = "新增"
-* #A046211 ^property[+].code = #updateDate
+* #A046211 ^property[+].code = #effectiveDate
 * #A046211 ^property[=].valueString = "2024-05"
 * #A046213 "順天堂越婢加朮湯濃縮顆粒"
 * #A046213 ^property[0].code = #status
 * #A046213 ^property[=].valueString = "新增"
-* #A046213 ^property[+].code = #updateDate
+* #A046213 ^property[+].code = #effectiveDate
 * #A046213 ^property[=].valueString = "2024-05"
 * #A046231 "順天堂黃連湯濃縮顆粒"
 * #A046231 ^property[0].code = #status
 * #A046231 ^property[=].valueString = "新增"
-* #A046231 ^property[+].code = #updateDate
+* #A046231 ^property[+].code = #effectiveDate
 * #A046231 ^property[=].valueString = "2024-05"
 * #A046335 "順天堂清涼散濃縮顆粒"
 * #A046335 ^property[0].code = #status
 * #A046335 ^property[=].valueString = "新增"
-* #A046335 ^property[+].code = #updateDate
+* #A046335 ^property[+].code = #effectiveDate
 * #A046335 ^property[=].valueString = "2024-05"
 * #A046338 "順天堂大黃牡丹皮湯濃縮顆粒"
 * #A046338 ^property[0].code = #status
 * #A046338 ^property[=].valueString = "新增"
-* #A046338 ^property[+].code = #updateDate
+* #A046338 ^property[+].code = #effectiveDate
 * #A046338 ^property[=].valueString = "2024-05"
 * #A047604 "順天堂半夏瀉心湯濃縮顆粒"
 * #A047604 ^property[0].code = #status
 * #A047604 ^property[=].valueString = "新增"
-* #A047604 ^property[+].code = #updateDate
+* #A047604 ^property[+].code = #effectiveDate
 * #A047604 ^property[=].valueString = "2024-05"
 * #A047765 "東陽玉女煎濃縮細粒"
 * #A047765 ^property[0].code = #status
 * #A047765 ^property[=].valueString = "新增"
-* #A047765 ^property[+].code = #updateDate
+* #A047765 ^property[+].code = #effectiveDate
 * #A047765 ^property[=].valueString = "2024-05"
 * #A047770 "順天堂聖愈湯濃縮顆粒"
 * #A047770 ^property[0].code = #status
 * #A047770 ^property[=].valueString = "新增"
-* #A047770 ^property[+].code = #updateDate
+* #A047770 ^property[+].code = #effectiveDate
 * #A047770 ^property[=].valueString = "2024-05"
 * #A050199 "天明清上蠲痛湯濃縮細粒"
 * #A050199 ^property[0].code = #status
 * #A050199 ^property[=].valueString = "新增"
-* #A050199 ^property[+].code = #updateDate
+* #A050199 ^property[+].code = #effectiveDate
 * #A050199 ^property[=].valueString = "2024-05"
 * #A050200 "勸奉堂當歸補血湯濃縮細粒"
 * #A050200 ^property[0].code = #status
 * #A050200 ^property[=].valueString = "新增"
-* #A050200 ^property[+].code = #updateDate
+* #A050200 ^property[+].code = #effectiveDate
 * #A050200 ^property[=].valueString = "2024-05"
 * #A055623 "順天堂柴胡清肝湯濃縮顆粒"
 * #A055623 ^property[0].code = #status
 * #A055623 ^property[=].valueString = "新增"
-* #A055623 ^property[+].code = #updateDate
+* #A055623 ^property[+].code = #effectiveDate
 * #A055623 ^property[=].valueString = "2024-05"
 * #A055668 "順天堂蠲痹湯濃縮顆粒"
 * #A055668 ^property[0].code = #status
 * #A055668 ^property[=].valueString = "新增"
-* #A055668 ^property[+].code = #updateDate
+* #A055668 ^property[+].code = #effectiveDate
 * #A055668 ^property[=].valueString = "2024-05"
 * #A056171 "順天堂乙字湯濃縮顆粒"
 * #A056171 ^property[0].code = #status
 * #A056171 ^property[=].valueString = "新增"
-* #A056171 ^property[+].code = #updateDate
+* #A056171 ^property[+].code = #effectiveDate
 * #A056171 ^property[=].valueString = "2024-05"
 * #A056180 "順天堂還少丹濃縮顆粒"
 * #A056180 ^property[0].code = #status
 * #A056180 ^property[=].valueString = "新增"
-* #A056180 ^property[+].code = #updateDate
+* #A056180 ^property[+].code = #effectiveDate
 * #A056180 ^property[=].valueString = "2024-05"
 * #A056181 "順天堂苓桂朮甘湯濃縮顆粒"
 * #A056181 ^property[0].code = #status
 * #A056181 ^property[=].valueString = "新增"
-* #A056181 ^property[+].code = #updateDate
+* #A056181 ^property[+].code = #effectiveDate
 * #A056181 ^property[=].valueString = "2024-05"
 * #A056187 "順天堂真武湯濃縮顆粒"
 * #A056187 ^property[0].code = #status
 * #A056187 ^property[=].valueString = "新增"
-* #A056187 ^property[+].code = #updateDate
+* #A056187 ^property[+].code = #effectiveDate
 * #A056187 ^property[=].valueString = "2024-05"
 * #A056331 "順天堂半夏天麻白朮湯濃縮顆粒"
 * #A056331 ^property[0].code = #status
 * #A056331 ^property[=].valueString = "新增"
-* #A056331 ^property[+].code = #updateDate
+* #A056331 ^property[+].code = #effectiveDate
 * #A056331 ^property[=].valueString = "2024-05"
 * #A057064 "勝昌天王補心丹濃縮錠"
 * #A057064 ^property[0].code = #status
 * #A057064 ^property[=].valueString = "新增"
-* #A057064 ^property[+].code = #updateDate
+* #A057064 ^property[+].code = #effectiveDate
 * #A057064 ^property[=].valueString = "2024-05"
 * #A058708 "順天堂藿香正氣散濃縮顆粒"
 * #A058708 ^property[0].code = #status
 * #A058708 ^property[=].valueString = "新增"
-* #A058708 ^property[+].code = #updateDate
+* #A058708 ^property[+].code = #effectiveDate
 * #A058708 ^property[=].valueString = "2024-05"
 * #A029711 "正揚竹葉石膏湯濃縮散"
 * #A029711 ^property[0].code = #status
 * #A029711 ^property[=].valueString = "新增"
-* #A029711 ^property[+].code = #updateDate
+* #A029711 ^property[+].code = #effectiveDate
 * #A029711 ^property[=].valueString = "2024-05"
 * #A029712 "正揚響聲破笛丸濃縮散"
 * #A029712 ^property[0].code = #status
 * #A029712 ^property[=].valueString = "新增"
-* #A029712 ^property[+].code = #updateDate
+* #A029712 ^property[+].code = #effectiveDate
 * #A029712 ^property[=].valueString = "2024-05"
 * #A037625 "天一滋腎明目湯濃縮顆粒"
 * #A037625 ^property[0].code = #status
 * #A037625 ^property[=].valueString = "新增"
-* #A037625 ^property[+].code = #updateDate
+* #A037625 ^property[+].code = #effectiveDate
 * #A037625 ^property[=].valueString = "2024-05"
 * #A037626 "復旦黃耆建中湯濃縮細粒"
 * #A037626 ^property[0].code = #status
 * #A037626 ^property[=].valueString = "新增"
-* #A037626 ^property[+].code = #updateDate
+* #A037626 ^property[+].code = #effectiveDate
 * #A037626 ^property[=].valueString = "2024-05"
 * #A037629 "天一豬苓湯濃縮顆粒"
 * #A037629 ^property[0].code = #status
 * #A037629 ^property[=].valueString = "新增"
-* #A037629 ^property[+].code = #updateDate
+* #A037629 ^property[+].code = #effectiveDate
 * #A037629 ^property[=].valueString = "2024-05"
 * #A037630 "復旦小續命湯濃縮細粒"
 * #A037630 ^property[0].code = #status
 * #A037630 ^property[=].valueString = "新增"
-* #A037630 ^property[+].code = #updateDate
+* #A037630 ^property[+].code = #effectiveDate
 * #A037630 ^property[=].valueString = "2024-05"
 * #A037631 "生春滋陰降火湯濃縮細粒"
 * #A037631 ^property[0].code = #status
 * #A037631 ^property[=].valueString = "新增"
-* #A037631 ^property[+].code = #updateDate
+* #A037631 ^property[+].code = #effectiveDate
 * #A037631 ^property[=].valueString = "2024-05"
 * #A046293 "德山大秦艽湯濃縮細粒"
 * #A046293 ^property[0].code = #status
 * #A046293 ^property[=].valueString = "新增"
-* #A046293 ^property[+].code = #updateDate
+* #A046293 ^property[+].code = #effectiveDate
 * #A046293 ^property[=].valueString = "2024-05"
 * #A055864 "牛標蒼耳散濃縮顆粒"
 * #A055864 ^property[0].code = #status
 * #A055864 ^property[=].valueString = "新增"
-* #A055864 ^property[+].code = #updateDate
+* #A055864 ^property[+].code = #effectiveDate
 * #A055864 ^property[=].valueString = "2024-05"
 * #A056038 "勸奉堂涼膈散濃縮顆粒"
 * #A056038 ^property[0].code = #status
 * #A056038 ^property[=].valueString = "新增"
-* #A056038 ^property[+].code = #updateDate
+* #A056038 ^property[+].code = #effectiveDate
 * #A056038 ^property[=].valueString = "2024-05"
 * #A042989 "萬國補陰湯濃縮細粒"
 * #A042989 ^property[0].code = #status
 * #A042989 ^property[=].valueString = "新增"
-* #A042989 ^property[+].code = #updateDate
+* #A042989 ^property[+].code = #effectiveDate
 * #A042989 ^property[=].valueString = "2024-05"
 * #A037643 "科達分消湯濃縮細粒"
 * #A037643 ^property[0].code = #status
 * #A037643 ^property[=].valueString = "新增"
-* #A037643 ^property[+].code = #updateDate
+* #A037643 ^property[+].code = #effectiveDate
 * #A037643 ^property[=].valueString = "2024-05"
 * #A055863 "牛標金鎖固精丸濃縮顆粒"
 * #A055863 ^property[0].code = #status
 * #A055863 ^property[=].valueString = "新增"
-* #A055863 ^property[+].code = #updateDate
+* #A055863 ^property[+].code = #effectiveDate
 * #A055863 ^property[=].valueString = "2024-05"
 * #A056037 "勸奉堂辛夷散濃縮顆粒"
 * #A056037 ^property[0].code = #status
 * #A056037 ^property[=].valueString = "新增"
-* #A056037 ^property[+].code = #updateDate
+* #A056037 ^property[+].code = #effectiveDate
 * #A056037 ^property[=].valueString = "2024-05"
 * #A049325 "天一清咽利膈湯濃縮顆粒"
 * #A049325 ^property[0].code = #status
 * #A049325 ^property[=].valueString = "新增"
-* #A049325 ^property[+].code = #updateDate
+* #A049325 ^property[+].code = #effectiveDate
 * #A049325 ^property[=].valueString = "2024-05"
 * #A030938 "天明人參瀉肺湯濃縮散"
 * #A030938 ^property[0].code = #status
 * #A030938 ^property[=].valueString = "新增"
-* #A030938 ^property[+].code = #updateDate
+* #A030938 ^property[+].code = #effectiveDate
 * #A030938 ^property[=].valueString = "2024-05"
 * #A031039 "天一葛根治鼻湯濃縮顆粒（葛根湯加減味）"
 * #A031039 ^property[0].code = #status
 * #A031039 ^property[=].valueString = "新增"
-* #A031039 ^property[+].code = #updateDate
+* #A031039 ^property[+].code = #effectiveDate
 * #A031039 ^property[=].valueString = "2024-05"
 * #A049776 "優之堡防己黃耆湯濃縮顆粒"
 * #A049776 ^property[0].code = #status
 * #A049776 ^property[=].valueString = "新增"
-* #A049776 ^property[+].code = #updateDate
+* #A049776 ^property[+].code = #effectiveDate
 * #A049776 ^property[=].valueString = "2024-05"
 * #A049874 "優之堡補陽還五湯濃縮顆粒"
 * #A049874 ^property[0].code = #status
 * #A049874 ^property[=].valueString = "新增"
-* #A049874 ^property[+].code = #updateDate
+* #A049874 ^property[+].code = #effectiveDate
 * #A049874 ^property[=].valueString = "2024-05"
 * #A030040 "順天堂酸棗仁湯濃縮散"
 * #A030040 ^property[0].code = #status
 * #A030040 ^property[=].valueString = "新增"
-* #A030040 ^property[+].code = #updateDate
+* #A030040 ^property[+].code = #effectiveDate
 * #A030040 ^property[=].valueString = "2024-05"
 * #A030133 "順天堂清咽利膈湯濃縮散"
 * #A030133 ^property[0].code = #status
 * #A030133 ^property[=].valueString = "新增"
-* #A030133 ^property[+].code = #updateDate
+* #A030133 ^property[+].code = #effectiveDate
 * #A030133 ^property[=].valueString = "2024-05"
 * #A030168 "順天堂清咽利膈湯濃縮顆粒"
 * #A030168 ^property[0].code = #status
 * #A030168 ^property[=].valueString = "新增"
-* #A030168 ^property[+].code = #updateDate
+* #A030168 ^property[+].code = #effectiveDate
 * #A030168 ^property[=].valueString = "2024-05"
 * #A037727 "順天堂清鼻湯濃縮散"
 * #A037727 ^property[0].code = #status
 * #A037727 ^property[=].valueString = "新增"
-* #A037727 ^property[+].code = #updateDate
+* #A037727 ^property[+].code = #effectiveDate
 * #A037727 ^property[=].valueString = "2024-05"
 * #A037642 "天一香砂平胃散濃縮顆粒"
 * #A037642 ^property[0].code = #status
 * #A037642 ^property[=].valueString = "新增"
-* #A037642 ^property[+].code = #updateDate
+* #A037642 ^property[+].code = #effectiveDate
 * #A037642 ^property[=].valueString = "2024-05"
 * #A046517 "富田清鼻湯濃縮細粒"
 * #A046517 ^property[0].code = #status
 * #A046517 ^property[=].valueString = "新增"
-* #A046517 ^property[+].code = #updateDate
+* #A046517 ^property[+].code = #effectiveDate
 * #A046517 ^property[=].valueString = "2024-05"
 * #A046512 "順然清鼻湯濃縮細粒"
 * #A046512 ^property[0].code = #status
 * #A046512 ^property[=].valueString = "新增"
-* #A046512 ^property[+].code = #updateDate
+* #A046512 ^property[+].code = #effectiveDate
 * #A046512 ^property[=].valueString = "2024-05"
 * #A051542 "國科利膈湯-濃縮細粒"
 * #A051542 ^property[0].code = #status
 * #A051542 ^property[=].valueString = "新增"
-* #A051542 ^property[+].code = #updateDate
+* #A051542 ^property[+].code = #effectiveDate
 * #A051542 ^property[=].valueString = "2024-05"
 * #A052367 "優之堡柴胡清肝湯濃縮顆粒"
 * #A052367 ^property[0].code = #status
 * #A052367 ^property[=].valueString = "新增"
-* #A052367 ^property[+].code = #updateDate
+* #A052367 ^property[+].code = #effectiveDate
 * #A052367 ^property[=].valueString = "2024-05"
 * #A038895 "正揚清鼻湯-濃縮細粒"
 * #A038895 ^property[0].code = #status
 * #A038895 ^property[=].valueString = "新增"
-* #A038895 ^property[+].code = #updateDate
+* #A038895 ^property[+].code = #effectiveDate
 * #A038895 ^property[=].valueString = "2024-05"
 * #A043884 "正揚丁花敗毒散-濃縮細粒"
 * #A043884 ^property[0].code = #status
 * #A043884 ^property[=].valueString = "新增"
-* #A043884 ^property[+].code = #updateDate
+* #A043884 ^property[+].code = #effectiveDate
 * #A043884 ^property[=].valueString = "2024-05"
 * #A060087 "天一通竅活血湯濃縮顆粒（去麝香）"
 * #A060087 ^property[0].code = #status
 * #A060087 ^property[=].valueString = "新增"
-* #A060087 ^property[+].code = #updateDate
+* #A060087 ^property[+].code = #effectiveDate
 * #A060087 ^property[=].valueString = "2024-05"
 * #A060089 "莊松榮補中益氣湯濃縮細粒"
 * #A060089 ^property[0].code = #status
 * #A060089 ^property[=].valueString = "新增"
-* #A060089 ^property[+].code = #updateDate
+* #A060089 ^property[+].code = #effectiveDate
 * #A060089 ^property[=].valueString = "2024-05"
 * #A047794 "勸奉堂神授衛生湯濃縮錠(去穿山甲)"
 * #A047794 ^property[0].code = #status
 * #A047794 ^property[=].valueString = "新增"
-* #A047794 ^property[+].code = #updateDate
+* #A047794 ^property[+].code = #effectiveDate
 * #A047794 ^property[=].valueString = "2024-05"
 * #A060092 "莊松榮炙甘草湯濃縮細粒"
 * #A060092 ^property[0].code = #status
 * #A060092 ^property[=].valueString = "新增"
-* #A060092 ^property[+].code = #updateDate
+* #A060092 ^property[+].code = #effectiveDate
 * #A060092 ^property[=].valueString = "2024-05"
 * #A060096 "莊松榮生脈飲濃縮細粒"
 * #A060096 ^property[0].code = #status
 * #A060096 ^property[=].valueString = "新增"
-* #A060096 ^property[+].code = #updateDate
+* #A060096 ^property[+].code = #effectiveDate
 * #A060096 ^property[=].valueString = "2024-05"
 * #A060098 "莊松榮真人活命飲濃縮細粒(去穿山甲)"
 * #A060098 ^property[0].code = #status
 * #A060098 ^property[=].valueString = "新增"
-* #A060098 ^property[+].code = #updateDate
+* #A060098 ^property[+].code = #effectiveDate
 * #A060098 ^property[=].valueString = "2024-05"
 * #A060626 "天一清氣化痰丸濃縮顆粒"
 * #A060626 ^property[0].code = #status
 * #A060626 ^property[=].valueString = "新增"
-* #A060626 ^property[+].code = #updateDate
+* #A060626 ^property[+].code = #effectiveDate
 * #A060626 ^property[=].valueString = "2024-05"
 * #A060630 "莊松榮桂枝湯濃縮細粒"
 * #A060630 ^property[0].code = #status
 * #A060630 ^property[=].valueString = "新增"
-* #A060630 ^property[+].code = #updateDate
+* #A060630 ^property[+].code = #effectiveDate
 * #A060630 ^property[=].valueString = "2024-05"
 * #A060631 "莊松榮消風散濃縮細粒"
 * #A060631 ^property[0].code = #status
 * #A060631 ^property[=].valueString = "新增"
-* #A060631 ^property[+].code = #updateDate
+* #A060631 ^property[+].code = #effectiveDate
 * #A060631 ^property[=].valueString = "2024-05"
 * #A060633 "莊松榮天王補心丹濃縮細粒"
 * #A060633 ^property[0].code = #status
 * #A060633 ^property[=].valueString = "新增"
-* #A060633 ^property[+].code = #updateDate
+* #A060633 ^property[+].code = #effectiveDate
 * #A060633 ^property[=].valueString = "2024-05"
 * #A060646 "莊松榮蒼耳散濃縮細粒"
 * #A060646 ^property[0].code = #status
 * #A060646 ^property[=].valueString = "新增"
-* #A060646 ^property[+].code = #updateDate
+* #A060646 ^property[+].code = #effectiveDate
 * #A060646 ^property[=].valueString = "2024-05"
 * #A060648 "莊松榮桂枝茯苓丸濃縮細粒"
 * #A060648 ^property[0].code = #status
 * #A060648 ^property[=].valueString = "新增"
-* #A060648 ^property[+].code = #updateDate
+* #A060648 ^property[+].code = #effectiveDate
 * #A060648 ^property[=].valueString = "2024-05"
 * #A060650 "莊松榮歸脾湯濃縮細粒"
 * #A060650 ^property[0].code = #status
 * #A060650 ^property[=].valueString = "新增"
-* #A060650 ^property[+].code = #updateDate
+* #A060650 ^property[+].code = #effectiveDate
 * #A060650 ^property[=].valueString = "2024-05"
 * #A060653 "莊松榮半夏瀉心湯濃縮細粒"
 * #A060653 ^property[0].code = #status
 * #A060653 ^property[=].valueString = "新增"
-* #A060653 ^property[+].code = #updateDate
+* #A060653 ^property[+].code = #effectiveDate
 * #A060653 ^property[=].valueString = "2024-05"
 * #A060664 "勸奉堂真武湯濃縮細粒"
 * #A060664 ^property[0].code = #status
 * #A060664 ^property[=].valueString = "新增"
-* #A060664 ^property[+].code = #updateDate
+* #A060664 ^property[+].code = #effectiveDate
 * #A060664 ^property[=].valueString = "2024-05"
 * #A060666 "順天堂藿香正氣散濃縮散"
 * #A060666 ^property[0].code = #status
 * #A060666 ^property[=].valueString = "新增"
-* #A060666 ^property[+].code = #updateDate
+* #A060666 ^property[+].code = #effectiveDate
 * #A060666 ^property[=].valueString = "2024-05"
 * #A060668 "莊松榮五苓散濃縮細粒"
 * #A060668 ^property[0].code = #status
 * #A060668 ^property[=].valueString = "新增"
-* #A060668 ^property[+].code = #updateDate
+* #A060668 ^property[+].code = #effectiveDate
 * #A060668 ^property[=].valueString = "2024-05"
 * #A060669 "莊松榮柴胡加龍骨牡蠣湯濃縮細粒"
 * #A060669 ^property[0].code = #status
 * #A060669 ^property[=].valueString = "新增"
-* #A060669 ^property[+].code = #updateDate
+* #A060669 ^property[+].code = #effectiveDate
 * #A060669 ^property[=].valueString = "2024-05"
 * #A060671 "莊松榮溫經湯濃縮細粒"
 * #A060671 ^property[0].code = #status
 * #A060671 ^property[=].valueString = "新增"
-* #A060671 ^property[+].code = #updateDate
+* #A060671 ^property[+].code = #effectiveDate
 * #A060671 ^property[=].valueString = "2024-05"
 * #A060673 "勸奉堂四逆湯濃縮細粒"
 * #A060673 ^property[0].code = #status
 * #A060673 ^property[=].valueString = "新增"
-* #A060673 ^property[+].code = #updateDate
+* #A060673 ^property[+].code = #effectiveDate
 * #A060673 ^property[=].valueString = "2024-05"
 * #A060675 "莊松榮香砂六君子湯濃縮細粒"
 * #A060675 ^property[0].code = #status
 * #A060675 ^property[=].valueString = "新增"
-* #A060675 ^property[+].code = #updateDate
+* #A060675 ^property[+].code = #effectiveDate
 * #A060675 ^property[=].valueString = "2024-05"
 * #A060678 "莊松榮'參苓白朮散濃縮細粒"
 * #A060678 ^property[0].code = #status
 * #A060678 ^property[=].valueString = "新增"
-* #A060678 ^property[+].code = #updateDate
+* #A060678 ^property[+].code = #effectiveDate
 * #A060678 ^property[=].valueString = "2024-05"
 * #A060679 "順天堂補中益氣湯濃縮顆粒"
 * #A060679 ^property[0].code = #status
 * #A060679 ^property[=].valueString = "新增"
-* #A060679 ^property[+].code = #updateDate
+* #A060679 ^property[+].code = #effectiveDate
 * #A060679 ^property[=].valueString = "2024-05"
 * #A060684 "莊松榮麥門冬湯濃縮細粒"
 * #A060684 ^property[0].code = #status
 * #A060684 ^property[=].valueString = "新增"
-* #A060684 ^property[+].code = #updateDate
+* #A060684 ^property[+].code = #effectiveDate
 * #A060684 ^property[=].valueString = "2024-05"
 * #A060687 "莊松榮天王補心丹濃縮錠"
 * #A060687 ^property[0].code = #status
 * #A060687 ^property[=].valueString = "新增"
-* #A060687 ^property[+].code = #updateDate
+* #A060687 ^property[+].code = #effectiveDate
 * #A060687 ^property[=].valueString = "2024-05"
 * #A060697 "三才堂抑肝散濃縮細粒"
 * #A060697 ^property[0].code = #status
 * #A060697 ^property[=].valueString = "新增"
-* #A060697 ^property[+].code = #updateDate
+* #A060697 ^property[+].code = #effectiveDate
 * #A060697 ^property[=].valueString = "2024-05"
 * #A060698 "莊松榮消風散濃縮錠"
 * #A060698 ^property[0].code = #status
 * #A060698 ^property[=].valueString = "新增"
-* #A060698 ^property[+].code = #updateDate
+* #A060698 ^property[+].code = #effectiveDate
 * #A060698 ^property[=].valueString = "2024-05"
 * #A060705 "莊松榮麻子仁丸濃縮細粒"
 * #A060705 ^property[0].code = #status
 * #A060705 ^property[=].valueString = "新增"
-* #A060705 ^property[+].code = #updateDate
+* #A060705 ^property[+].code = #effectiveDate
 * #A060705 ^property[=].valueString = "2024-05"
 * #A060707 "順天堂甘露消毒丹濃縮散"
 * #A060707 ^property[0].code = #status
 * #A060707 ^property[=].valueString = "新增"
-* #A060707 ^property[+].code = #updateDate
+* #A060707 ^property[+].code = #effectiveDate
 * #A060707 ^property[=].valueString = "2024-05"
 * #A060708 "順天堂八珍湯濃縮散"
 * #A060708 ^property[0].code = #status
 * #A060708 ^property[=].valueString = "新增"
-* #A060708 ^property[+].code = #updateDate
+* #A060708 ^property[+].code = #effectiveDate
 * #A060708 ^property[=].valueString = "2024-05"
 * #A060710 "三才堂完帶湯濃縮細粒"
 * #A060710 ^property[0].code = #status
 * #A060710 ^property[=].valueString = "新增"
-* #A060710 ^property[+].code = #updateDate
+* #A060710 ^property[+].code = #effectiveDate
 * #A060710 ^property[=].valueString = "2024-05"
 * #A060711 "港香蘭大柴胡湯去大黃濃縮細粒"
 * #A060711 ^property[0].code = #status
 * #A060711 ^property[=].valueString = "新增"
-* #A060711 ^property[+].code = #updateDate
+* #A060711 ^property[+].code = #effectiveDate
 * #A060711 ^property[=].valueString = "2024-05"
 * #A060713 "順天堂柴胡桂枝湯濃縮散"
 * #A060713 ^property[0].code = #status
 * #A060713 ^property[=].valueString = "新增"
-* #A060713 ^property[+].code = #updateDate
+* #A060713 ^property[+].code = #effectiveDate
 * #A060713 ^property[=].valueString = "2024-05"
 * #A060715 "順天堂甘麥大棗湯濃縮散"
 * #A060715 ^property[0].code = #status
 * #A060715 ^property[=].valueString = "新增"
-* #A060715 ^property[+].code = #updateDate
+* #A060715 ^property[+].code = #effectiveDate
 * #A060715 ^property[=].valueString = "2024-05"
 * #A060724 "莊松榮辛夷散濃縮細粒"
 * #A060724 ^property[0].code = #status
 * #A060724 ^property[=].valueString = "新增"
-* #A060724 ^property[+].code = #updateDate
+* #A060724 ^property[+].code = #effectiveDate
 * #A060724 ^property[=].valueString = "2024-05"
 * #A060725 "莊松榮麥門冬湯濃縮錠"
 * #A060725 ^property[0].code = #status
 * #A060725 ^property[=].valueString = "新增"
-* #A060725 ^property[+].code = #updateDate
+* #A060725 ^property[+].code = #effectiveDate
 * #A060725 ^property[=].valueString = "2024-05"
 * #A060741 "順天堂桂枝茯苓丸濃縮散"
 * #A060741 ^property[0].code = #status
 * #A060741 ^property[=].valueString = "新增"
-* #A060741 ^property[+].code = #updateDate
+* #A060741 ^property[+].code = #effectiveDate
 * #A060741 ^property[=].valueString = "2024-05"
 * #A060748 "順天堂三黃瀉心湯濃縮散"
 * #A060748 ^property[0].code = #status
 * #A060748 ^property[=].valueString = "新增"
-* #A060748 ^property[+].code = #updateDate
+* #A060748 ^property[+].code = #effectiveDate
 * #A060748 ^property[=].valueString = "2024-05"
 * #A060754 "莊松榮生脈飲濃縮錠"
 * #A060754 ^property[0].code = #status
 * #A060754 ^property[=].valueString = "新增"
-* #A060754 ^property[+].code = #updateDate
+* #A060754 ^property[+].code = #effectiveDate
 * #A060754 ^property[=].valueString = "2024-05"
 * #A060753 "莊松榮五苓散濃縮錠"
 * #A060753 ^property[0].code = #status
 * #A060753 ^property[=].valueString = "新增"
-* #A060753 ^property[+].code = #updateDate
+* #A060753 ^property[+].code = #effectiveDate
 * #A060753 ^property[=].valueString = "2024-05"
 * #A060752 "莊松榮炙甘草湯濃縮錠"
 * #A060752 ^property[0].code = #status
 * #A060752 ^property[=].valueString = "新增"
-* #A060752 ^property[+].code = #updateDate
+* #A060752 ^property[+].code = #effectiveDate
 * #A060752 ^property[=].valueString = "2024-05"
 * #A060763 "莊松榮鉤藤散濃縮細粒"
 * #A060763 ^property[0].code = #status
 * #A060763 ^property[=].valueString = "新增"
-* #A060763 ^property[+].code = #updateDate
+* #A060763 ^property[+].code = #effectiveDate
 * #A060763 ^property[=].valueString = "2024-05"
 * #A060771 "莊松榮歸脾湯濃縮錠"
 * #A060771 ^property[0].code = #status
 * #A060771 ^property[=].valueString = "新增"
-* #A060771 ^property[+].code = #updateDate
+* #A060771 ^property[+].code = #effectiveDate
 * #A060771 ^property[=].valueString = "2024-05"
 * #A060772 "莊松榮參苓白朮散濃縮錠"
 * #A060772 ^property[0].code = #status
 * #A060772 ^property[=].valueString = "新增"
-* #A060772 ^property[+].code = #updateDate
+* #A060772 ^property[+].code = #effectiveDate
 * #A060772 ^property[=].valueString = "2024-05"
 * #A060764 "莊松榮桂枝加龍骨牡蠣湯濃縮細粒"
 * #A060764 ^property[0].code = #status
 * #A060764 ^property[=].valueString = "新增"
-* #A060764 ^property[+].code = #updateDate
+* #A060764 ^property[+].code = #effectiveDate
 * #A060764 ^property[=].valueString = "2024-05"
 * #A060767 "莊松榮白虎湯濃縮錠"
 * #A060767 ^property[0].code = #status
 * #A060767 ^property[=].valueString = "新增"
-* #A060767 ^property[+].code = #updateDate
+* #A060767 ^property[+].code = #effectiveDate
 * #A060767 ^property[=].valueString = "2024-05"
 * #A060775 "莊松榮蒼耳散濃縮錠"
 * #A060775 ^property[0].code = #status
 * #A060775 ^property[=].valueString = "新增"
-* #A060775 ^property[+].code = #updateDate
+* #A060775 ^property[+].code = #effectiveDate
 * #A060775 ^property[=].valueString = "2024-05"
 * #A060776 "莊松榮桂枝湯濃縮錠"
 * #A060776 ^property[0].code = #status
 * #A060776 ^property[=].valueString = "新增"
-* #A060776 ^property[+].code = #updateDate
+* #A060776 ^property[+].code = #effectiveDate
 * #A060776 ^property[=].valueString = "2024-05"
 * #A060777 "莊松榮柴胡疏肝湯濃縮錠"
 * #A060777 ^property[0].code = #status
 * #A060777 ^property[=].valueString = "新增"
-* #A060777 ^property[+].code = #updateDate
+* #A060777 ^property[+].code = #effectiveDate
 * #A060777 ^property[=].valueString = "2024-05"
 * #A060778 "勝昌半夏瀉心湯濃縮細粒"
 * #A060778 ^property[0].code = #status
 * #A060778 ^property[=].valueString = "新增"
-* #A060778 ^property[+].code = #updateDate
+* #A060778 ^property[+].code = #effectiveDate
 * #A060778 ^property[=].valueString = "2024-05"
 * #A060779 "莊松榮清肺湯濃縮細粒"
 * #A060779 ^property[0].code = #status
 * #A060779 ^property[=].valueString = "新增"
-* #A060779 ^property[+].code = #updateDate
+* #A060779 ^property[+].code = #effectiveDate
 * #A060779 ^property[=].valueString = "2024-05"
 * #A060781 "科達定喘湯濃縮細粒"
 * #A060781 ^property[0].code = #status
 * #A060781 ^property[=].valueString = "新增"
-* #A060781 ^property[+].code = #updateDate
+* #A060781 ^property[+].code = #effectiveDate
 * #A060781 ^property[=].valueString = "2024-05"
 * #A056563 "富田清空膏濃縮細粒"
 * #A056563 ^property[0].code = #status
 * #A056563 ^property[=].valueString = "新增"
-* #A056563 ^property[+].code = #updateDate
+* #A056563 ^property[+].code = #effectiveDate
 * #A056563 ^property[=].valueString = "2024-05"
 * #A060804 "順天堂黃耆五物湯濃縮散"
 * #A060804 ^property[0].code = #status
 * #A060804 ^property[=].valueString = "新增"
-* #A060804 ^property[+].code = #updateDate
+* #A060804 ^property[+].code = #effectiveDate
 * #A060804 ^property[=].valueString = "2024-05"
 * #A060816 "三才堂當歸六黃湯濃縮細粒"
 * #A060816 ^property[0].code = #status
 * #A060816 ^property[=].valueString = "新增"
-* #A060816 ^property[+].code = #updateDate
+* #A060816 ^property[+].code = #effectiveDate
 * #A060816 ^property[=].valueString = "2024-05"
 * #A045272 "正揚香砂平胃散-濃縮細粒"
 * #A045272 ^property[0].code = #status
 * #A045272 ^property[=].valueString = "新增"
-* #A045272 ^property[+].code = #updateDate
+* #A045272 ^property[+].code = #effectiveDate
 * #A045272 ^property[=].valueString = "2024-05"
 * #A060820 "莊松榮上中下通用痛風丸濃縮細粒"
 * #A060820 ^property[0].code = #status
 * #A060820 ^property[=].valueString = "新增"
-* #A060820 ^property[+].code = #updateDate
+* #A060820 ^property[+].code = #effectiveDate
 * #A060820 ^property[=].valueString = "2024-05"
 * #A061196 "順天堂養心湯濃縮散"
 * #A061196 ^property[0].code = #status
 * #A061196 ^property[=].valueString = "新增"
-* #A061196 ^property[+].code = #updateDate
+* #A061196 ^property[+].code = #effectiveDate
 * #A061196 ^property[=].valueString = "2024-05"
 * #A061197 "順天堂當歸拈痛湯濃縮散"
 * #A061197 ^property[0].code = #status
 * #A061197 ^property[=].valueString = "新增"
-* #A061197 ^property[+].code = #updateDate
+* #A061197 ^property[+].code = #effectiveDate
 * #A061197 ^property[=].valueString = "2024-05"
 * #A061198 "天明疏肝湯濃縮細粒"
 * #A061198 ^property[0].code = #status
 * #A061198 ^property[=].valueString = "新增"
-* #A061198 ^property[+].code = #updateDate
+* #A061198 ^property[+].code = #effectiveDate
 * #A061198 ^property[=].valueString = "2024-05"
 * #A061202 "三才堂龍膽瀉肝湯濃縮細粒"
 * #A061202 ^property[0].code = #status
 * #A061202 ^property[=].valueString = "新增"
-* #A061202 ^property[+].code = #updateDate
+* #A061202 ^property[+].code = #effectiveDate
 * #A061202 ^property[=].valueString = "2024-05"
 * #A0049443 "優之堡柴苓湯濃縮顆粒"
 * #A0049443 ^property[0].code = #status
 * #A0049443 ^property[=].valueString = "新增"
-* #A0049443 ^property[+].code = #updateDate
+* #A0049443 ^property[+].code = #effectiveDate
 * #A0049443 ^property[=].valueString = "2024-05"
 * #A061256 "順天堂真人活命飲濃縮散(去穿山甲)"
 * #A061256 ^property[0].code = #status
 * #A061256 ^property[=].valueString = "新增"
-* #A061256 ^property[+].code = #updateDate
+* #A061256 ^property[+].code = #effectiveDate
 * #A061256 ^property[=].valueString = "2024-05"*/
