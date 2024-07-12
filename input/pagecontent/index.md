@@ -20,6 +20,7 @@
 			<li><a href="CodeSystem-postal-code6-tw.html">臺灣中華郵政6碼郵遞區號</a>：2024-06-28的新版6碼郵遞區號代碼中有新增、刪除、修改部分代碼</li>    
 			<li><a href="CodeSystem-medication-fda-tw.html">臺灣食藥署藥品許可證</a>：2024-06-20的新版臺灣食藥署藥品許可證代碼中有新增、刪除、修改部分代碼</li>    
 			<li><a href="CodeSystem-medication-device-fda-tw.html">臺灣食藥署醫療器材許可證</a>：2024-06-06的新版臺灣食藥署醫療器材許可證代碼中有新增、刪除、修改部分代碼</li>    
+			<li><a href="CodeSystem-organization-identifier-tw.html">臺灣健保署醫事機構代碼</a>：2024-06-13的新版臺灣健保署醫事機構代碼代碼中有新增、刪除、修改部分代碼</li>    
 			</ol>
 		</li> 
     </ol>
@@ -358,7 +359,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.3</td>
+      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.2.3</td>
 			<td rowspan="18" style="vertical-align: middle;">衛生福利部智慧健康雲專案辦公室<br />
 			（Smart Health Cloud Project Mgmt. Office, Ministry of Health and Welfare）</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
@@ -372,7 +373,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.3</td>
+    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.2.3</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -392,7 +393,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.3</td>
+     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.2.3</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>
