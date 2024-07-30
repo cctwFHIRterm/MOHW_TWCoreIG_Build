@@ -28,6 +28,13 @@ Description: "臺灣健保署藥品使用頻率，參照至[健保署檔案譯�
 * ^copyright = "衛生福利部"
 * ^caseSensitive = true
 * ^content = #complete
+* #ONCE "單次給藥"
+* #ONCE ^property[0].code = #frequency
+* #ONCE ^property[=].valueString = "非每日常規使用頻率"
+* #ONCE ^property[+].code = #effectiveDate
+* #ONCE ^property[=].valueString = "2024-07"
+* #ONCE ^property[+].code = #status
+* #ONCE ^property[=].valueString = "新增"
 * #QW(x,y,z..) "每星期x,y,z…使用(x,y,z為一至六、日)"
 * #QW(x,y,z..) ^property[0].code = #frequency
 * #QW(x,y,z..) ^property[=].valueString = "非每日常規使用頻率"
@@ -280,6 +287,29 @@ Description: "臺灣健保署藥品使用頻率，參照至[健保署檔案譯�
 * #QxHPRN ^property[=].valueString = "2022-08"
 * #QxHPRN ^property[+].code = #status
 * #QxHPRN ^property[=].valueString = "新增"
+* #Q24H "每24小時使用1次"
+* #Q24H ^property[0].code = #frequency
+* #Q24H ^property[=].valueString = "PRN"
+* #Q24H ^property[+].code = #effectiveDate
+* #Q24H ^property[=].valueString = "2024-07"
+* #Q24H ^property[+].code = #status
+* #Q24H ^property[=].valueString = "新增"
+* #Q30H "每30小時使用1次"
+* #Q30H ^property[0].code = #frequency
+* #Q30H ^property[=].valueString = "PRN"
+* #Q30H ^property[+].code = #effectiveDate
+* #Q30H ^property[=].valueString = "2024-07"
+* #Q30H ^property[+].code = #status
+* #Q30H ^property[=].valueString = "新增"
+* #Q48H "每48小時使用1次"
+* #Q48H ^property[0].code = #frequency
+* #Q48H ^property[=].valueString = "PRN"
+* #Q48H ^property[+].code = #effectiveDate
+* #Q48H ^property[=].valueString = "2024-07"
+* #Q48H ^property[+].code = #status
+* #Q48H ^property[=].valueString = "新增"
+
+
 //列舉出全部的可能
 * #QW(1) "每週一使用"
 * #QW(1) ^property[0].code = #frequency
