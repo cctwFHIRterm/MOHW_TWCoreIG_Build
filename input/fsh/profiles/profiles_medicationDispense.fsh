@@ -2,7 +2,7 @@ Profile: TWCoreMedicationDispense
 Parent: MedicationDispense
 Id: MedicationDispense-twcore
 Title: "TW Core MedicationDispense"
-Description: "此臺灣核心-配藥或藥品調劑（TW Core MedicationDispense) Profile說明本IG如何進一步定義FHIR的MedicationDispense Resource以呈現配藥或藥品調劑的詳細資料。"
+Description: "此臺灣核心-配藥或藥品調劑（TW Core MedicationDispense） Profile說明本IG如何進一步定義FHIR的MedicationDispense Resource以呈現配藥或藥品調劑的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

@@ -2,7 +2,7 @@ Profile: TWCoreMedia
 Parent: Media
 Id: Media-twcore
 Title: "TW Core Media"
-Description: "此臺灣核心-多媒體(TW Core Media) Profile說明本IG如何進一步定義FHIR的Media Resource以呈現多媒體的詳細資料。"
+Description: "此臺灣核心-多媒體（TW Core Media） Profile說明本IG如何進一步定義FHIR的Media Resource以呈現多媒體的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

@@ -14,7 +14,7 @@ Description: "臺灣健保署健保中藥用藥品項值集。
 * include codes from system TWCHHerbMedicationNHI
 * ^text.status = #generated
 * ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
-<ul><li>Include all codes defined in <a href=\"https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw\">
+<ul><li>Include all codes defined in <a href=\"CodeSystem-nhi-medication-ch-herb-tw.html\">
 <code>https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/nhi-medication-ch-herb-tw</code></a>
 </li></ul>
 </div>"

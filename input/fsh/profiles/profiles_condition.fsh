@@ -8,7 +8,7 @@ Profile:        TWCoreCondition
 Parent:         Condition
 Id:             Condition-twcore
 Title:          "TW Core Condition"
-Description:    "此臺灣核心-病情、問題或診斷（TW Core Condition) Profile說明本IG如何進一步定義FHIR的Condition Resource以呈現有關病情、問題或診斷的詳細資料。
+Description:    "此臺灣核心-病情、問題或診斷（TW Core Condition） Profile說明本IG如何進一步定義FHIR的Condition Resource以呈現有關病情、問題或診斷的詳細資料。
 "
 * ^version = "0.2.3"
 * subject only Reference(TWCorePatient or Group)

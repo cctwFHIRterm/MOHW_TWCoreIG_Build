@@ -2,7 +2,7 @@ Profile: TWCoreImagingStudy
 Parent: ImagingStudy
 Id: ImagingStudy-twcore
 Title: "TW Core ImagingStudy"
-Description: "此臺灣核心-影像檢查（TW Core ImagingStudy) Profile說明本IG如何進一步定義FHIR的ImagingStudy Resource以呈現影像檢查的詳細資料。"
+Description: "此臺灣核心-影像檢查（TW Core ImagingStudy） Profile說明本IG如何進一步定義FHIR的ImagingStudy Resource以呈現影像檢查的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

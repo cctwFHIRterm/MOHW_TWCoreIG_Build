@@ -15,6 +15,9 @@
 #### Condition
 - [臺灣核心-病情、問題或診斷（TW Core Condition）](StructureDefinition-Condition-twcore.html) 
 
+#### Device
+- [<span class="bg-success">臺灣核心-植入式裝置（TW Core Implantable Device）</span>](StructureDefinition-Device-careExperiencePreference-twcore.html) 
+
 #### DiagnosticReport
 - [臺灣核心-診斷報告（TW Core DiagnosticReport）](StructureDefinition-DiagnosticReport-twcore.html) 
 
@@ -49,7 +52,11 @@
 - [臺灣核心-訊息表頭（TW Core MessageHeader）](StructureDefinition-MessageHeader-twcore.html) 
 
 #### Observation
-- [臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）](StructureDefinition-Observation-laboratoryResult-twcore.html) 
+- [<span class="bg-success">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</span>](StructureDefinition-Observation-simple-twcore.html) 
+- [<span class="bg-success">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</span>](StructureDefinition-Observation-averageBloodPressure-twcore.html) 
+- [<span class="bg-success">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</span>](StructureDefinition-Observation-careExperiencePreference-twcore.html) 
+- [<span class="bg-success">此臺灣核心-職業（TW Core Observation Occupation）</span>](StructureDefinition-Observation-occupation-twcore.html) 
+- [臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）](StructureDefinition-Observation-laboratoryResult-twcore.html) 
 - [臺灣核心-生命體徵（TW Core Observation Vital Signs）](StructureDefinition-Observation-vitalSigns-twcore.html) 
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
   - [臺灣核心-身體質量指數（TW Core Observation BMI）](StructureDefinition-Observation-bmi-twcore.html) 

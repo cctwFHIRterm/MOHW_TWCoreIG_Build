@@ -8,7 +8,7 @@ Usage: #example
 * type = http://terminology.hl7.org/CodeSystem/encounter-type#ADMS
 //* serviceType = http://terminology.hl7.org/CodeSystem/service-type#318 "Diabetes"
 //* serviceType.text = "糖尿病"
-* serviceType = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw#394589003 "Nephrology (qualifier value)"
+* serviceType = http://snomed.info/sct#394589003 "Nephrology (qualifier value)"
 * serviceType.text = "腎臟內科"
 * subject = Reference(Patient/pat-example)
 * participant.type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType#PPRF

@@ -71,8 +71,8 @@
 - [response (回應）](MessageHeader-mes-response-example.html)：依據臺灣核心-訊息表頭（TW Core MessageHeader）Profile呈現訊息表頭－response資料之範例
 
 ### Observation
-- [檢驗檢查資料-使用臺灣醫療服務給付項目-檢驗值集代碼](Observation-obs-lab-example.html)：依據臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）Profile呈現檢驗檢查資料之範例
-- [檢驗檢查資料-使用LOINC實驗室檢驗檢查代碼](Observation-obs-loinc-example.html)：依據臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）Profile呈現檢驗檢查資料之範例
+- [檢驗檢查資料-使用臺灣醫療服務給付項目-檢驗值集代碼](Observation-obs-lab-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)Profile呈現檢驗檢查資料之範例
+- [檢驗檢查資料-使用LOINC實驗室檢驗檢查代碼](Observation-obs-loinc-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)Profile呈現檢驗檢查資料之範例
 - [生命體徵資料-血壓](Observation-obs-bloodPressure-example.html)：依據臺灣核心-血壓（TW Core Observation Blood Pressure）Profile呈現血壓之範例
 - [生命體徵資料-身體質量指數](Observation-obs-bmi-example.html)：依據臺灣核心-身體質量指數（TW Core Observation BMI）Profile呈現身體質量指數之範例
 

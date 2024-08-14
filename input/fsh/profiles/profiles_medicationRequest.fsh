@@ -2,7 +2,7 @@ Profile: TWCoreMedicationRequest
 Parent: MedicationRequest
 Id: MedicationRequest-twcore
 Title: "TW Core MedicationRequest"
-Description: "此臺灣核心-藥品請求（TW Core MedicationRequest) Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。"
+Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。"
 
 * ^version = "0.2.3"
 * language ^example.label = "Value"

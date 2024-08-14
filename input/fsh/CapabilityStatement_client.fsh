@@ -1355,7 +1355,7 @@ Usage: #definition
 						<a href=\"#observation\">Observation</a>
 					</td>
 					<td>
-						<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）</a>
+						<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)</a>
 					</td>
 					<td>
 						<a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, <br />
@@ -2695,7 +2695,7 @@ Usage: #definition
 	<ul>
 		<li>預期的遵從度： <strong>建議應該（SHOULD）</strong>
 		</li>
-		<li>Profile： <a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-檢驗檢查（TW Core Observation Laboratory Result）</a>
+		<li>Profile： <a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)</a>
 		</li>
 		<li>支援的Profiles： <a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, <a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a>, <a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>
 		</li>

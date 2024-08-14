@@ -2,7 +2,7 @@ Profile: TWCoreComposition
 Parent: Composition
 Id: Composition-twcore
 Title: "TW Core Composition"
-Description: "此臺灣核心-臨床文件架構（TW Core Composition) Profile說明本IG如何進一步定義FHIR的Composition Resource以呈現臨床文件架構的詳細資料。"
+Description: "此臺灣核心-臨床文件架構（TW Core Composition） Profile說明本IG如何進一步定義FHIR的Composition Resource以呈現臨床文件架構的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

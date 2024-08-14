@@ -16,225 +16,227 @@ Description: "臺灣健保給藥途徑，[健保署檔案譯碼簿](https://www.
 * ^contact.telecom[=].value = "https://www.mohw.gov.tw/"
 * ^contact.telecom[+].system = #email
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"
-* ^property[0].code = #status
-* ^property[=].description = "狀態"
-* ^property[=].type = #string
-* ^property[+].code = #effectiveDate
+* ^property[0].code = #effectiveDate
 * ^property[=].description = "生效日期"
-* ^property[=].type = #string
+* ^property[=].type = #dateTime
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[+].code = #status
+* ^property[=].description = "狀態"
+* ^property[=].type = #code
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^copyright = "衛生福利部中央健康保險署"
 * ^caseSensitive = true
 * ^content = #complete
 * #AD "右耳"
 * #AD ^property[0].code = #effectiveDate
-* #AD ^property[=].valueString = "2022-08"
+* #AD ^property[=].valueDateTime = "2022-08"
 * #AD ^property[+].code = #status
-* #AD ^property[=].valueString = "新增"
+* #AD ^property[=].valueCode = #active
 * #AS "左耳"
 * #AS ^property[0].code = #effectiveDate
-* #AS ^property[=].valueString = "2022-08"
+* #AS ^property[=].valueDateTime = "2022-08"
 * #AS ^property[+].code = #status
-* #AS ^property[=].valueString = "新增"
+* #AS ^property[=].valueCode = #active
 * #AU "每耳"
 * #AU ^property[0].code = #effectiveDate
-* #AU ^property[=].valueString = "2022-08"
+* #AU ^property[=].valueDateTime = "2022-08"
 * #AU ^property[+].code = #status
-* #AU ^property[=].valueString = "新增"
+* #AU ^property[=].valueCode = #active
 * #ET "氣內切"
 * #ET ^property[0].code = #status
-* #ET ^property[=].valueString = "新增"
+* #ET ^property[=].valueCode = #active
 * #ET ^property[+].code = #effectiveDate
-* #ET ^property[=].valueString = "2022-08"
+* #ET ^property[=].valueDateTime = "2022-08"
 * #GAR "潄口用"
 * #GAR ^property[0].code = #status
-* #GAR ^property[=].valueString = "新增"
+* #GAR ^property[=].valueCode = #active
 * #GAR ^property[+].code = #effectiveDate
-* #GAR ^property[=].valueString = "2022-08"
+* #GAR ^property[=].valueDateTime = "2022-08"
 * #HD "皮下灌注"
 * #HD ^property[0].code = #status
-* #HD ^property[=].valueString = "新增"
+* #HD ^property[=].valueCode = #active
 * #HD ^property[+].code = #effectiveDate
-* #HD ^property[=].valueString = "2022-08"
+* #HD ^property[=].valueDateTime = "2022-08"
 * #IA "動脈注射"
 * #IA ^property[0].code = #status
-* #IA ^property[=].valueString = "新增"
+* #IA ^property[=].valueCode = #active
 * #IA ^property[+].code = #effectiveDate
-* #IA ^property[=].valueString = "2022-08"
+* #IA ^property[=].valueDateTime = "2022-08"
 * #ICV "腦室注射"
 * #ICV ^property[0].code = #status
-* #ICV ^property[=].valueString = "新增"
+* #ICV ^property[=].valueCode = #active
 * #ICV ^property[+].code = #effectiveDate
-* #ICV ^property[=].valueString = "2022-08"
+* #ICV ^property[=].valueDateTime = "2022-08"
 * #ID "皮內注射"
 * #ID ^property[0].code = #status
-* #ID ^property[=].valueString = "新增"
+* #ID ^property[=].valueCode = #active
 * #ID ^property[+].code = #effectiveDate
-* #ID ^property[=].valueString = "2022-08"
+* #ID ^property[=].valueDateTime = "2022-08"
 * #IE "脊髓硬膜內治射"
 * #IE ^property[0].code = #status
-* #IE ^property[=].valueString = "新增"
+* #IE ^property[=].valueCode = #active
 * #IE ^property[+].code = #effectiveDate
-* #IE ^property[=].valueString = "2022-08"
+* #IE ^property[=].valueDateTime = "2022-08"
 * #IM "肌肉注射"
 * #IM ^property[0].code = #status
-* #IM ^property[=].valueString = "新增"
+* #IM ^property[=].valueCode = #active
 * #IM ^property[+].code = #effectiveDate
-* #IM ^property[=].valueString = "2022-08"
+* #IM ^property[=].valueDateTime = "2022-08"
 * #IMP "植入"
 * #IMP ^property[0].code = #status
-* #IMP ^property[=].valueString = "新增"
+* #IMP ^property[=].valueCode = #active
 * #IMP ^property[+].code = #effectiveDate
-* #IMP ^property[=].valueString = "2022-08"
+* #IMP ^property[=].valueDateTime = "2022-08"
 * #INHL "吸入"
 * #INHL ^property[0].code = #status
-* #INHL ^property[=].valueString = "新增"
+* #INHL ^property[=].valueCode = #active
 * #INHL ^property[+].code = #effectiveDate
-* #INHL ^property[=].valueString = "2022-08"
+* #INHL ^property[=].valueDateTime = "2022-08"
 * #IP "腹腔注射"
 * #IP ^property[0].code = #status
-* #IP ^property[=].valueString = "新增"
+* #IP ^property[=].valueCode = #active
 * #IP ^property[+].code = #effectiveDate
-* #IP ^property[=].valueString = "2022-08"
+* #IP ^property[=].valueDateTime = "2022-08"
 * #IPLE "胸膜內注射"
 * #IPLE ^property[0].code = #status
-* #IPLE ^property[=].valueString = "新增"
+* #IPLE ^property[=].valueCode = #active
 * #IPLE ^property[+].code = #effectiveDate
-* #IPLE ^property[=].valueString = "2022-08"
+* #IPLE ^property[=].valueDateTime = "2022-08"
 * #IS "滑膜內注射"
 * #IS ^property[0].code = #status
-* #IS ^property[=].valueString = "新增"
+* #IS ^property[=].valueCode = #active
 * #IS ^property[+].code = #effectiveDate
-* #IS ^property[=].valueString = "2022-08"
+* #IS ^property[=].valueDateTime = "2022-08"
 * #IT "椎骨內注射"
 * #IT ^property[0].code = #status
-* #IT ^property[=].valueString = "新增"
+* #IT ^property[=].valueCode = #active
 * #IT ^property[+].code = #effectiveDate
-* #IT ^property[=].valueString = "2022-08"
+* #IT ^property[=].valueDateTime = "2022-08"
 * #IV "靜脈注射"
 * #IV ^property[0].code = #status
-* #IV ^property[=].valueString = "新增"
+* #IV ^property[=].valueCode = #active
 * #IV ^property[+].code = #effectiveDate
-* #IV ^property[=].valueString = "2022-08"
+* #IV ^property[=].valueDateTime = "2022-08"
 * #IVA "靜脈添加"
 * #IVA ^property[0].code = #status
-* #IVA ^property[=].valueString = "新增"
+* #IVA ^property[=].valueCode = #active
 * #IVA ^property[+].code = #effectiveDate
-* #IVA ^property[=].valueString = "2022-08"
+* #IVA ^property[=].valueDateTime = "2022-08"
 * #IVD "靜脈點滴滴入"
 * #IVD ^property[0].code = #status
-* #IVD ^property[=].valueString = "新增"
+* #IVD ^property[=].valueCode = #active
 * #IVD ^property[+].code = #effectiveDate
-* #IVD ^property[=].valueString = "2022-08"
+* #IVD ^property[=].valueDateTime = "2022-08"
 * #IVI "玻璃体內注射"
 * #IVI ^property[0].code = #status
-* #IVI ^property[=].valueString = "新增"
+* #IVI ^property[=].valueCode = #active
 * #IVI ^property[+].code = #effectiveDate
-* #IVI ^property[=].valueString = "2022-08"
+* #IVI ^property[=].valueDateTime = "2022-08"
 * #IVP "靜脈注入"
 * #IVP ^property[0].code = #status
-* #IVP ^property[=].valueString = "新增"
+* #IVP ^property[=].valueCode = #active
 * #IVP ^property[+].code = #effectiveDate
-* #IVP ^property[=].valueString = "2022-08"
+* #IVP ^property[=].valueDateTime = "2022-08"
 * #LA "局部麻醉"
 * #LA ^property[0].code = #status
-* #LA ^property[=].valueString = "新增"
+* #LA ^property[=].valueCode = #active
 * #LA ^property[+].code = #effectiveDate
-* #LA ^property[=].valueString = "2022-08"
+* #LA ^property[=].valueDateTime = "2022-08"
 * #LI "局部注射"
 * #LI ^property[0].code = #status
-* #LI ^property[=].valueString = "新增"
+* #LI ^property[=].valueCode = #active
 * #LI ^property[+].code = #effectiveDate
-* #LI ^property[=].valueString = "2022-08"
+* #LI ^property[=].valueDateTime = "2022-08"
 * #NA "鼻用"
 * #NA ^property[0].code = #status
-* #NA ^property[=].valueString = "新增"
+* #NA ^property[=].valueCode = #active
 * #NA ^property[+].code = #effectiveDate
-* #NA ^property[=].valueString = "2022-08"
+* #NA ^property[=].valueDateTime = "2022-08"
 * #OD "右眼"
 * #OD ^property[0].code = #status
-* #OD ^property[=].valueString = "新增"
+* #OD ^property[=].valueCode = #active
 * #OD ^property[+].code = #effectiveDate
-* #OD ^property[=].valueString = "2022-08"
+* #OD ^property[=].valueDateTime = "2022-08"
 * #ORO "口咽直接用藥(如噴劑、塗抹)"
 * #ORO ^property[0].code = #status
-* #ORO ^property[=].valueString = "新增"
+* #ORO ^property[=].valueCode = #active
 * #ORO ^property[+].code = #effectiveDate
-* #ORO ^property[=].valueString = "2022-08"
+* #ORO ^property[=].valueDateTime = "2022-08"
 * #OS "左眼"
 * #OS ^property[0].code = #status
-* #OS ^property[=].valueString = "新增"
+* #OS ^property[=].valueCode = #active
 * #OS ^property[+].code = #effectiveDate
-* #OS ^property[=].valueString = "2022-08"
+* #OS ^property[=].valueDateTime = "2022-08"
 * #OU "每眼"
 * #OU ^property[0].code = #status
-* #OU ^property[=].valueString = "新增"
+* #OU ^property[=].valueCode = #active
 * #OU ^property[+].code = #effectiveDate
-* #OU ^property[=].valueString = "2022-08"
+* #OU ^property[=].valueDateTime = "2022-08"
 * #PO "口服"
 * #PO ^property[0].code = #status
-* #PO ^property[=].valueString = "新增"
+* #PO ^property[=].valueCode = #active
 * #PO ^property[+].code = #effectiveDate
-* #PO ^property[=].valueString = "2022-08"
+* #PO ^property[=].valueDateTime = "2022-08"
 * #SC "皮下注射"
 * #SC ^property[0].code = #status
-* #SC ^property[=].valueString = "新增"
+* #SC ^property[=].valueCode = #active
 * #SC ^property[+].code = #effectiveDate
-* #SC ^property[=].valueString = "2022-08"
+* #SC ^property[=].valueDateTime = "2022-08"
 * #SCI "結膜下注射"
 * #SCI ^property[0].code = #status
-* #SCI ^property[=].valueString = "新增"
+* #SCI ^property[=].valueCode = #active
 * #SCI ^property[+].code = #effectiveDate
-* #SCI ^property[=].valueString = "2022-08"
+* #SCI ^property[=].valueDateTime = "2022-08"
 * #SKIN "皮膚用"
 * #SKIN ^property[0].code = #status
-* #SKIN ^property[=].valueString = "新增"
+* #SKIN ^property[=].valueCode = #active
 * #SKIN ^property[+].code = #effectiveDate
-* #SKIN ^property[=].valueString = "2022-08"
+* #SKIN ^property[=].valueDateTime = "2022-08"
 * #SL "舌下"
 * #SL ^property[0].code = #status
-* #SL ^property[=].valueString = "新增"
+* #SL ^property[=].valueCode = #active
 * #SL ^property[+].code = #effectiveDate
-* #SL ^property[=].valueString = "2022-08"
+* #SL ^property[=].valueDateTime = "2022-08"
 * #SPI "脊髓"
 * #SPI ^property[0].code = #status
-* #SPI ^property[=].valueString = "新增"
+* #SPI ^property[=].valueCode = #active
 * #SPI ^property[+].code = #effectiveDate
-* #SPI ^property[=].valueString = "2022-08"
+* #SPI ^property[=].valueDateTime = "2022-08"
 * #RECT "肛門用"
 * #RECT ^property[0].code = #status
-* #RECT ^property[=].valueString = "新增"
+* #RECT ^property[=].valueCode = #active
 * #RECT ^property[+].code = #effectiveDate
-* #RECT ^property[=].valueString = "2022-08"
+* #RECT ^property[=].valueDateTime = "2022-08"
 * #TOPI "局部塗擦(與LA易混淆)"
 * #TOPI ^property[0].code = #status
-* #TOPI ^property[=].valueString = "新增"
+* #TOPI ^property[=].valueCode = #active
 * #TOPI ^property[+].code = #effectiveDate
-* #TOPI ^property[=].valueString = "2022-08"
+* #TOPI ^property[=].valueDateTime = "2022-08"
 * #TPN "全靜脈營養劑"
 * #TPN ^property[0].code = #status
-* #TPN ^property[=].valueString = "新增"
+* #TPN ^property[=].valueCode = #active
 * #TPN ^property[+].code = #effectiveDate
-* #TPN ^property[=].valueString = "2022-08"
+* #TPN ^property[=].valueDateTime = "2022-08"
 * #VAG "陰道用"
 * #VAG ^property[0].code = #status
-* #VAG ^property[=].valueString = "新增"
+* #VAG ^property[=].valueCode = #active
 * #VAG ^property[+].code = #effectiveDate
-* #VAG ^property[=].valueString = "2022-08"
+* #VAG ^property[=].valueDateTime = "2022-08"
 * #IRRIG "沖洗(irrigation)"
 * #IRRIG ^property[0].code = #status
-* #IRRIG ^property[=].valueString = "新增"
+* #IRRIG ^property[=].valueCode = #active
 * #IRRIG ^property[+].code = #effectiveDate
-* #IRRIG ^property[=].valueString = "2022-08"
+* #IRRIG ^property[=].valueDateTime = "2022-08"
 * #EXT "外用"
 * #EXT ^property[0].code = #status
-* #EXT ^property[=].valueString = "新增"
+* #EXT ^property[=].valueCode = #active
 * #EXT ^property[+].code = #effectiveDate
-* #EXT ^property[=].valueString = "2022-08"
+* #EXT ^property[=].valueDateTime = "2022-08"
 * #XX "其他"
 * #XX ^property[0].code = #effectiveDate
-* #XX ^property[=].valueString = "2022-08"
+* #XX ^property[=].valueDateTime = "2022-08"
 * #XX ^property[+].code = #status
-* #XX ^property[=].valueString = "新增"
+* #XX ^property[=].valueCode = #active
 
 
 

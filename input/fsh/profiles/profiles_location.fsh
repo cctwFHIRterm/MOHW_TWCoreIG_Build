@@ -2,7 +2,7 @@ Profile: TWCoreLocation
 Parent:  Location
 Id:  Location-twcore
 Title: "TW Core  Location"
-Description: "此臺灣核心-地點（TW Core  Location) Profile說明本IG如何進一步定義FHIR的Location Resource以呈現地點的詳細資料。"
+Description: "此臺灣核心-地點（TW Core  Location） Profile說明本IG如何進一步定義FHIR的Location Resource以呈現地點的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

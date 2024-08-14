@@ -2,7 +2,7 @@ Profile: TWCoreAllergyIntolerance
 Parent: AllergyIntolerance
 Id: AllergyIntolerance-twcore
 Title: "TW Core AllergyIntolerance"
-Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance) Profile說明本IG如何進一步定義FHIR的AllergyIntolerance Resource以呈現過敏與不耐症的詳細資料。"
+Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance） Profile說明本IG如何進一步定義FHIR的AllergyIntolerance Resource以呈現過敏與不耐症的詳細資料。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

@@ -17,10 +17,12 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"
 * ^property[0].code = #effectiveDate
 * ^property[=].description = "生效日期"
-* ^property[=].type = #string
+* ^property[=].type = #dateTime
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
 * ^property[+].code = #status
 * ^property[=].description = "狀態"
-* ^property[=].type = #string
+* ^property[=].type = #code
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^copyright = "衛生福利部資訊處"
 * ^caseSensitive = true
 * ^content = #complete
@@ -28,13 +30,13 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * #GOI ^designation.language = #zh-TW
 * #GOI ^designation.value = "政府機關代號"
 * #GOI ^property[0].code = #effectiveDate
-* #GOI ^property[=].valueString = "2022-07"
+* #GOI ^property[=].valueDateTime = "2022-07"
 * #GOI ^property[+].code = #status
-* #GOI ^property[=].valueString = "新增"
+* #GOI ^property[=].valueCode = #active
 * #UBN "Unified Business number" "Unified Business number"
 * #UBN ^designation.language = #zh-TW
 * #UBN ^designation.value = "公司或企業統一編號"
 * #UBN ^property[0].code = #effectiveDate
-* #UBN ^property[=].valueString = "2022-07"
+* #UBN ^property[=].valueDateTime = "2022-07"
 * #UBN ^property[+].code = #status
-* #UBN ^property[=].valueString = "新增"
+* #UBN ^property[=].valueCode = #active

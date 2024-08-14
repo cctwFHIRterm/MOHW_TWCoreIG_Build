@@ -16,7 +16,7 @@ Description: "
 - 2024/5/29異動說明：postalCode.coding.code欄位的Card.改為1..1。  
 
 
-此臺灣核心-地址（TW Core Address) Profile說明本IG如何進一步定義FHIR的Address資料類型以呈現臺灣地址。  
+此臺灣核心-地址（TW Core Address） Profile說明本IG如何進一步定義FHIR的Address資料類型以呈現臺灣地址。  
 本Profile之擴充的資料項目（Extension）為參照[初診基本資料表](https://www.eck.org.tw/wp-content/uploads/2019/10/ECK_FIRSTVIEW_INFOR.pdf)之欄位與[中華郵政地址英譯寫法](https://www.post.gov.tw/post/internet/Postal/sz_a_e_ta1.jsp)，若貴機構有詳細地址資訊之需求，可依情況填選；若無需區分詳細地址資訊，可使用原生欄位`text`、`line`、`district`呈現。"
 * ^version = "0.2.3"
 * ^kind = #complex-type
@@ -27,12 +27,12 @@ Description: "
 * line ^short = "路/街"
 * line ^alias[0] = "路"
 * line ^alias[+] = "街"
-* city ^short = "鄉/鎮/市/區"
+* city ^short = "鄉/鎮/市/區，定義上與國際的等級一致。原文為：Name of city, town etc.。"
 * city ^alias[0] = "鄉"
 * city ^alias[+] = "鎮"
 * city ^alias[+] = "市"
 * city ^alias[+] = "區"
-* district ^short = "縣/市"
+* district ^short = "縣/市，定義上與國際的等級一致。原文為：District name (aka county)。"
 * district ^alias[0] = "縣"
 * district ^alias[=] = "市"
 * extension contains
@@ -80,7 +80,7 @@ Description: "
 * city ^definition = "市、鄉、鎮、村或其他社區或配送中心的名稱。"
 * district ^definition = "行政區域（縣）的名稱"
 * district ^comment = "區（district）有時被稱為縣（country），但在一些區域（regions），「縣（country）」被用來代替市（直轄市），所以縣名應該用市名來代替傳達。"
-* state ^short = "國家的子單位（縮寫也可以）"
+* state ^short = "國家的子單位（縮寫也可以）。原文為：Sub-unit of country (abbreviations ok)。"
 * state ^definition = "一個國家的子單位，在聯邦組織的國家中擁有有限的主權。如果代碼被普遍使用，可使用代碼（例如：美國2個字母的州代碼）。"
 * postalCode ^short = "郵遞區號"
 * postalCode ^definition = "指定一個由郵政服務定義的區域之郵遞區號"

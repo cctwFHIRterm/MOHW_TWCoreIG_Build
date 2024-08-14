@@ -2,7 +2,7 @@ Profile:        TWCoreEncounter
 Parent:         Encounter
 Id:             Encounter-twcore
 Title:          "TW Core Encounter"
-Description:    "此臺灣核心-就醫事件（TW Core Encounter) Profile說明本IG如何進一步定義FHIR的Encounter Resource以呈現就醫事件。"
+Description:    "此臺灣核心-就醫事件（TW Core Encounter） Profile說明本IG如何進一步定義FHIR的Encounter Resource以呈現就醫事件。"
 * ^version = "0.2.3"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"

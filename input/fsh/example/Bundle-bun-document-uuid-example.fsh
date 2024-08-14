@@ -115,7 +115,92 @@ Usage: #inline
 * contact.telecom.period.end = "2024-07-31"
 * communication.language = urn:ietf:bcp:47#zh-TW
 * managingOrganization = Reference(urn:uuid:c89f7cb5-8755-4848-b96a-a9fa34120588)
-
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+	<h3>
+		<b>病人基本資料-身分證字號</b>
+	</h3>
+	<blockquote>
+		<p>
+			<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx <b>[extension: <a href=\"StructureDefinition-identifier-suffix.html\">Identifier Suffix</a>]：</b>TWN） </span>
+			<br />
+			<b>身分證字號（official）</b>：A123456789 （http://www.moi.gov.tw）
+		</p>
+	</blockquote>
+	<blockquote>
+		<p>
+			<b>識別碼型別</b>：Medical record number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#MR） </span>
+			<br />
+			<b>病歷號（official）</b>：8862168 （https://www.tph.mohw.gov.tw）
+		</p>
+	</blockquote>
+	<p>
+		<b>病人的紀錄（active）</b>：使用中
+	</p>
+	<p>
+		<b>姓名（official）</b>：陳加玲 Chan, Chia Lin
+	</p>
+	<p>
+		<b>性別</b>：女性
+	</p>
+	<p>
+		<b>出生日期</b>：1990-01-01
+	</p>
+	<p>
+		<b>年齡[extension: <a href=\"StructureDefinition-person-age.html\">person-age</a>]</b>：32
+	</p>
+	<p>
+		<b>國籍[extension: <a href=\"http://hl7.org/fhir/StructureDefinition/patient-nationality\">patient-nationality</a>]</b>：<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://terminology.hl7.org/CodeSystem-ISO3166Part1.html\">ISO3166Part1</a>#TW） </span>
+	</p>
+	<p>
+		<b>聯絡方式</b>：Phone <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://hl7.org/fhir/R4/valueset-contact-point-system.html\">ContactPointSystem</a>#phone） </span>
+		<br />
+		<b>聯絡電話</b>：（Mobile）0911327999 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://build.fhir.org/codesystem-contact-point-use.html\">ContactPointUse</a>#mobile） </span>
+		<br />
+		<b>聯絡電話使用效期</b>：2022-07-31至2024-07-31
+	</p>
+	<p>
+		<b>聯絡地址</b>：(103)臺北市大同區大有里19鄰承德路三段52巷6弄210號2樓B室<br />
+		<b>  郵遞區號（postalCode） [extension: <a href=\"StructureDefinition-tw-postal-code.html\">tw-postal-code</a>] </b>： <a href=\"CodeSystem-postal-code3-tw.html\">103</a> <br />
+		<b>  縣/市（city）</b>：臺北市 <br />
+		<b>  鄉/鎮/市/區（district）</b>：大同區 <br />
+		<b>  村(里)（village） [extension: <a href=\"StructureDefinition-tw-village.html\">tw-village</a>] </b>：大有里 <br />
+		<b>  鄰（neighborhood） [extension: <a href=\"StructureDefinition-tw-neighborhood.html\">tw-neighborhood</a>] </b>：19鄰 <br />
+		<b>  路/街（line）</b>：承德路 <br />
+		<b>  段(section) [extension: <a href=\"StructureDefinition-tw-section.html\">tw-section</a>] </b>：三段 <br />
+		<b>  巷/衖（lane） [extension: <a href=\"StructureDefinition-tw-lane.html\">tw-lane</a>] </b>：52巷 <br />
+		<b>  弄（alley） [extension: <a href=\"StructureDefinition-tw-alley.html\">tw-alley</a>] </b>：6弄 <br />
+		<b>  號（number） [extension: <a href=\"StructureDefinition-tw-number.html\">tw-number</a>] </b>：210號 <br />
+		<b>  樓（floor） [extension: <a href=\"StructureDefinition-tw-floor.html\">tw-floor</a>] </b>：2樓 <br />
+		<b>  室（room） [extension: <a href=\"StructureDefinition-tw-room.html\">tw-room</a>] </b>：B室 <br />
+		<b>  國家（country）</b>：臺灣 <br />
+		<br />
+	</p>
+	<p>
+		<b>婚姻狀態</b>：unmarried <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus\">臺灣婚姻狀態值集</a>#U） </span>
+	</p>
+	<p>
+		<b>聯絡人（official）</b>：李立偉 Li, Li Wei <br />
+		<b>  關係</b>：father <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-RoleCode\">PatientRelationshipType</a>#FTH） </span>
+		<br />
+		<b>  聯絡方式</b>：Phone <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://hl7.org/fhir/R4/valueset-contact-point-system.html\">ContactPointSystem</a>#phone） </span>
+		<br />
+		<b>  聯絡電話</b>：（Mobile）0917159753 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://build.fhir.org/codesystem-contact-point-use.html\">ContactPointUse</a>#mobile） </span>
+		<br />
+		<b>  聯絡電話使用效期</b>：2022-07-31至2024-07-31
+	</p>
+	<p>
+		<b>向病人說明健康狀態時所使用的語言</b>：中文
+	</p>
+	<p>
+		<b>紀錄的保管機構</b>： <a href=\"Bundle-bun-document-uuid-example.html#urn-uuid-c89f7cb5-8755-4848-b96a-a9fa34120588\">Organization Inline-Organization-example</a> \"衛生福利部臺北醫院\"
+	</p>
+	<p>
+		<b>病人影像</b>： <a href=\"https://2.bp.blogspot.com/-v3yEwItkXKQ/VaMN_1Nx6TI/AAAAAAAAvhM/zDXN_eZw_UE/s800/youngwoman_42.png\">patient.png</a>
+		<br />
+		<img src=\"https://2.bp.blogspot.com/-v3yEwItkXKQ/VaMN_1Nx6TI/AAAAAAAAvhM/zDXN_eZw_UE/s800/youngwoman_42.png\" width=\"250px\" />
+	</p>
+</div>"
 
 Instance: Inline-Organization-example
 InstanceOf: TWCoreOrganization
@@ -170,7 +255,61 @@ Usage: #inline
 * photo.url = "doctor.png"
 * qualification.code = http://snomed.info/sct#394802001 "General medicine"
 * qualification.period.start = "2005-05-25"
-
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
+  <h3>
+    <b>醫師基本資料</b>
+  </h3>
+	<blockquote>
+		<p>
+			<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx） </span>
+			<br />
+			<b>身分證字號（official）</b>：D123456789 （http://www.moi.gov.tw）
+		</p>
+	</blockquote>
+	<blockquote>
+  <p>
+    <b>識別碼型別</b>：Medical License number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#MD） </span><br/>
+    <b>員工編號（official）</b>：KP00017 （https://www.tph.mohw.gov.tw/）
+  </p>
+	</blockquote>
+  <p>
+    <b>健康照護服務提供者的紀錄（active）</b>：使用中
+  </p>
+  <p>
+    <b>姓名（official）</b>：王依昇 Wang, Yi Sheng
+  </p>
+  <p>
+    <b>性別</b>：男性
+  </p>
+  <p>
+    <b>出生日期</b>：1980-11-11
+  </p>
+  <p>
+    <b>聯絡方式</b>：Phone<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://hl7.org/fhir/R4/valueset-contact-point-system.html\">ContactPointSystem</a>#phone） </span><br/>
+    <b>聯絡電話</b>：（Mobile）0993277826<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"https://build.fhir.org/codesystem-contact-point-use.html\">ContactPointUse</a>#mobile） </span><br/>
+    <b>聯絡電話使用效期</b>：2022-07-31至2024-07-31
+  </p>
+  <p>
+    <b>聯絡地址</b>：(330)桃園市桃園區五福五街31號 <br />
+    <b>  郵遞區號（postalCode）[extension: <a href=\"StructureDefinition-tw-postal-code.html\">tw-postal-code</a>]</b>：<a href=\"CodeSystem-postal-code3-tw.html\">330</a>
+    <br />
+    <b>  縣/市（district）</b>：桃園市 <br />
+    <b>  鄉/鎮/市/區（city）</b>：桃園區 <br />
+    <b>  路/街（line）</b>：五福五街 <br />
+    <b>  號（number）[extension: <a href=\"StructureDefinition-tw-number.html\">tw-number</a>]</b>：31號 <br />
+    <b>  國家（country）</b>：臺灣 <br />
+  </p>
+  <p>
+     <b>資格證書的型別</b>：西醫師 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://snomed.info/sct\">SNOMED CT</a>#394802001） </span><br/>
+     <b>資格證書的開始日期</b>：2005-05-25
+  </p>
+  <p>
+    <b>照護服務提供人員影像</b>： <a href=\"https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png\">doctor.png</a>
+    <br />
+    <img src=\"https://1.bp.blogspot.com/-6dSaKA-5r0c/UZSs9HLyutI/AAAAAAAATBc/lxpq2MB3_mc/s400/doctor.png\" width=\"250px\" />
+  </p>
+</div>"
 
 Instance: Inline-Composition-example
 InstanceOf: TWCoreComposition

@@ -4,7 +4,7 @@ Profile:        TWCoreProcedure
 Parent:         Procedure
 Id:             Procedure-twcore
 Title:          "TW Core Procedure"
-Description:    "此臺灣核心-處置或手術（TW Core Procedure) Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
+Description:    "此臺灣核心-處置或手術（TW Core Procedure） Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
 
 "
 * ^version = "0.2.3"

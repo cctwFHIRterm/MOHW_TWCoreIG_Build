@@ -2,7 +2,7 @@ Profile:        TWCoreObservationBMI
 Parent:         TWCoreObservationVitalSigns
 Id:             Observation-bmi-twcore
 Title:          "TW Core Observation BMI"
-Description:    "此臺灣核心-身體質量指數（TW Core Observation BMI) Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs) Profile以呈現身體質量指數。"
+Description:    "此臺灣核心-身體質量指數（TW Core Observation BMI） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現身體質量指數。"
 * ^version = "0.2.3"
 * code only CodeableConceptTW
 * code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#39156-5
