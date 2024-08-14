@@ -55,7 +55,7 @@
 - [<span class="bg-success">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</span>](StructureDefinition-Observation-simple-twcore.html) 
 - [<span class="bg-success">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</span>](StructureDefinition-Observation-averageBloodPressure-twcore.html) 
 - [<span class="bg-success">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</span>](StructureDefinition-Observation-careExperiencePreference-twcore.html) 
-- [<span class="bg-success">此臺灣核心-職業（TW Core Observation Occupation）</span>](StructureDefinition-Observation-occupation-twcore.html) 
+- [<span class="bg-success">臺灣核心-職業（TW Core Observation Occupation）</span>](StructureDefinition-Observation-occupation-twcore.html) 
 - [臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）](StructureDefinition-Observation-laboratoryResult-twcore.html) 
 - [臺灣核心-生命體徵（TW Core Observation Vital Signs）](StructureDefinition-Observation-vitalSigns-twcore.html) 
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
