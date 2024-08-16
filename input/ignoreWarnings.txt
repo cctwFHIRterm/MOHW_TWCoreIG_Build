@@ -214,12 +214,14 @@ INFORMATION: CodeSystem/medication-frequency-nhi-tw: CodeSystem.property[2]: Thi
 INFORMATION: CodeSystem/occupation-lia-roc-tw: CodeSystem.property[0]: This property has only a code ('OccupationClassification') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/occupation-lia-roc-tw: CodeSystem.property[1]: This property has only a code ('OccupationBreakdown') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/occupation-lia-roc-tw: CodeSystem.property[2]: This property has only a code ('NatureOfWork') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/organization-identifier-tw: CodeSystem.property[2]: This property has only a code ('address') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 
 # TW Core IG的ValueSet中代碼量太大，使得 HL7 validator 無法正常辨識，但TW Core IG的代碼仍是完整的，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: ValueSet/medcation-atc-tw: ValueSet.compose.include[0]: The value set include has too many codes to validate (3,242), so each individual code has not been checked
 INFORMATION: ValueSet/procedure-tw: ValueSet.compose.include[0]: The value set include has too many codes to validate (3,934), so each individual code has not been checked
 INFORMATION: ValueSet.where(id = 'procedure-tw'): The value set expansion is too large, and only a subset has been displayed
 INFORMATION: ValueSet.where(id = 'occupation-lia-roc-tw'): The value set expansion is too large, and only a subset has been displayed
+INFORMATION: ValueSet.where(id = 'loinc-observation-code'): The value set expansion is too large, and only a subset has been displayed
 
 # HL7 Publisher，針對包含了疑似HTML標籤的內容，會提醒有安全風險。但此為工具自動產生，實際內容也並無包含HTML標籤，不影響實際驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: StructureDefinition/MedicationDispense-twcore: StructureDefinition.snapshot.element[40].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

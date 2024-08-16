@@ -25,7 +25,7 @@
     `GET [base]/Observation?code={system|}[code]`
 
     例子：  
-      (1) GET [base]/Observation?code=https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw|85354-9
+      (1) GET [base]/Observation?code=http://loinc.org|85354-9
 
 
 4. **建議應該（SHOULD）** 支援透過查詢參數 **[`performer`](SearchParameter-Observation-performer.html)** 查詢所有Observation：    
@@ -52,7 +52,7 @@
       (1) GET [base]/Observation?subject=Patient/pat-example
 
 
-7. **建議應該（SHOULD）** 支援透過查詢參數 **[`subject`](SearchParameter-Observation-date.html)** 查詢所有Observation：  
+7. **建議應該（SHOULD）** 支援透過查詢參數 **[`date`](SearchParameter-Observation-date.html)** 查詢所有Observation：  
     ([如何透過date查詢](http://hl7.org/fhir/R4/search.html#date))  
     `GET [base]/Observation?date={gt|lt|ge|le}[date]`
 

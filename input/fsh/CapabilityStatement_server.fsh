@@ -208,6 +208,48 @@ Usage: #definition
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 
+* rest.resource[+].type = #Device
+* rest.resource[=].profile = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Device-twcore"
+* rest.resource[=].profile.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].profile.extension.valueCode = #SHOULD
+* rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #search-type
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #read
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #vread
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #create
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #update
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #SHOULD
+* rest.resource[=].interaction[=].code = #delete
+* rest.resource[=].interaction[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].interaction[=].extension.valueCode = #MAY
+* rest.resource[=].interaction[=].code = #patch
+* rest.resource[=].referencePolicy = #resolves
+* rest.resource[=].searchParam[0].name = "patient"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-patient"
+* rest.resource[=].searchParam[=].type = #reference
+* rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
+* rest.resource[=].searchParam[+].name = "type"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-type"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
+* rest.resource[=].searchParam[+].name = "status"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-status"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
+
 * rest.resource[+].type = #DiagnosticReport
 * rest.resource[=].profile = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/DiagnosticReport-twcore"
 * rest.resource[=].profile.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
@@ -748,6 +790,18 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-bmi-twcore"
 * rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-simple-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-averageBloodPressure-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-careExperiencePreference-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-occupation-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #search-type
@@ -781,7 +835,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 * rest.resource[=].searchParam[+].name = "code"
-* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-code"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-clinical-code"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
@@ -803,6 +857,16 @@ Usage: #definition
 * rest.resource[=].searchParam[+].name = "_id"
 * rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-id"
 * rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
+* rest.resource[=].searchParam[+].name = "_lastUpdated"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-lastupdated"
+* rest.resource[=].searchParam[=].type = #date
+* rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
+* rest.resource[=].searchParam[+].name = "patient"
+* rest.resource[=].searchParam[=].definition = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-patient"
+* rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].searchParam[=].extension.valueCode = #SHOULD
 
@@ -1152,7 +1216,7 @@ Usage: #definition
 	<h3 class=\"no_toc\" id=\"resource-details\">Resources或Profiles的RESTful功能</h3>
 	<ul>
 		<li>
-			<strong>共有二十二類Resources支援查詢，查詢參數如表列：</strong>
+			<strong>共有二十三類Resources支援查詢，查詢參數如表列：</strong>
 		</li>
 		<table class=\"grid\">
 			<thead>
@@ -1218,6 +1282,19 @@ Usage: #definition
 					</td>
 					<td>-</td>
 					<td>_id, clinical-status, code, subject, onset-date, abatement-date, severity</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>
+						<a href=\"#device\">Device</a>
+					</td>
+					<td>
+						<a href=\"StructureDefinition-Device-twcore.html\">臺灣核心-植入式裝置（TW Core Implantable Device） </a>
+					</td>
+					<td>-</td>
+					<td>patient, patient + type, patient + status</td>
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
@@ -1376,8 +1453,18 @@ Usage: #definition
 						<a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, <br />
 						<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a>, <br />
 						<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>
+						<a href=\"StructureDefinition-Observation-simple-twcore.html\">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</a>
+						<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a>
+						<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a>
+						<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a>
 					</td>
-					<td>_id, category, code, date, performer, status, subject</td>
+					<td>_id, category, code, date, performer, status, subject, <br />
+					patient + category, <br />
+					patient + code, <br />
+					patient + category + date, <br />
+					patient + category + status, <br />
+					patient + category + _lastUpdated, <br />
+					patient + code + date</td>
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
@@ -1773,6 +1860,74 @@ Usage: #definition
 					<td>token</td>
 					<td>
 						<code class=\"highlighter-rouge\">GET [base]/Condition?severity={system|}[code]</code>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</ul>
+	<h4 class=\"no_toc\" id=\"device\">Device</h4>
+	<ul>
+		<li>預期的遵從度： <strong>建議應該（SHOULD）</strong>
+		</li>
+		<li>Profile： <a href=\"StructureDefinition-Device-twcore.html\">臺灣核心-植入式裝置（TW Core Implantable Device） </a>
+		</li>
+		<li>
+			<a href=\"https://build.fhir.org/codesystem-reference-handling-policy.html#reference-handling-policy-resolves\">支援的參照政策（Reference policy）</a>： <code>resolves</code>，Server會嘗試將邏輯參照（logical reference）解析為文字參照，意即轉換Reference.identifier為Reference.reference（但如果解析失敗，Server仍然會接收這個resource，請參閱 <code>logical</code>）。
+		</li>
+		<li>Profile</li>
+		<ul>
+			<li>
+				<strong>建議應該（SHOULD）</strong>支援 <code>search-type</code>、 <code>read</code>、 <code>vread</code>、 <code>create</code>、 <code>update</code>、 <code>delete</code>
+			</li>
+			<li>
+				<strong>可能可以（MAY）</strong>支援 <code>patch</code>
+			</li>
+		</ul>
+		<li>查詢參數摘要</li>
+		<table class=\"grid\">
+			<thead>
+				<tr>
+					<th>遵從度</th>
+					<th>參數</th>
+					<th>類型</th>
+					<th>範例</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<strong>必須（SHALL）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Device-patient.html\">patient</a>
+					</td>
+					<td>reference</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Device?patient={Type/}[id]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>建議應該（SHOULD）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Device-patient.html\">patient</a> + <a href=\"SearchParameter-Device-type.html\">type</a>
+					</td>
+					<td>reference+token</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Device?patient={Type/}[id]&amp;type={system|}[code]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>建議應該（SHOULD）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Device-patient.html\">patient</a> + <a href=\"SearchParameter-Device-status.html\">status</a>
+					</td>
+					<td>reference+token</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Device?patient={Type/}[id]&amp;status=[code]</code>
 					</td>
 				</tr>
 			</tbody>
@@ -2711,7 +2866,12 @@ Usage: #definition
 		</li>
 		<li>Profile： <a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)</a>
 		</li>
-		<li>支援的Profiles： <a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, <a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a>, <a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>
+		<li>支援的Profiles： <a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, 
+			<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a>, <a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>, 
+			<a href=\"StructureDefinition-Observation-simple-twcore.html\">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</a>,
+			<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a>, 
+			<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a>, 
+			<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a>
 		</li>
 		<li>
 			<a href=\"https://build.fhir.org/codesystem-reference-handling-policy.html#reference-handling-policy-resolves\">支援的參照政策（Reference policy）</a>： <code>resolves</code>，Server會嘗試將邏輯參照（logical reference）解析為文字參照，意即轉換Reference.identifier為Reference.reference（但如果解析失敗，Server仍然會接收這個resource，請參閱 <code>logical</code>）。
@@ -2819,6 +2979,78 @@ Usage: #definition
 					<td>reference</td>
 					<td>
 						<code class=\"highlighter-rouge\">GET [base]/Observation?subject={Type/}[id]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>必須（SHALL）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-category.html\">category</a>
+					</td>
+					<td>reference+token</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;category={system|}[code]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>必須（SHALL）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-clinical-code.html\">code</a>
+					</td>
+					<td>reference+token</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;code={system|}[code]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>必須（SHALL）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-category.html\">category</a> + <a href=\"SearchParameter-Observation-date.html\">date</a>
+					</td>
+					<td>reference+token+date</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;category={system|}[code]&amp;date={gt|lt|ge|le}[date]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>建議應該（SHOULD）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-category.html\">category</a> + <a href=\"SearchParameter-Observation-status.html\">status</a>
+					</td>
+					<td>reference+token</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;category={system|}[code]&amp;status=[code]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>建議應該（SHOULD）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-category.html\">category</a> + <a href=\"SearchParameter-Observation-lastupdated.html\">_lastUpdated</a>
+					</td>
+					<td>reference+token+date</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;category={system|}[code]&amp;_lastUpdated={gt|lt|ge|le}[date]</code>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>建議應該（SHOULD）</strong>
+					</td>
+					<td>
+						<a href=\"SearchParameter-Observation-patient.html\">patient</a> + <a href=\"SearchParameter-Observation-clinical-code.html\">code</a> + <a href=\"SearchParameter-Observation-date.html\">date</a>
+					</td>
+					<td>reference+token+date</td>
+					<td>
+						<code class=\"highlighter-rouge\">GET [base]/Observation?patient={Type/}[id]&amp;code={system|}[code]&amp;date={gt|lt|ge|le}[date]</code>
 					</td>
 				</tr>
 			</tbody>

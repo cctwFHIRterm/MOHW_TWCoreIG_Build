@@ -1,6 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $loinctw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw
-
 ValueSet: LOINCDocumentType
 Id: loinc-type-doc-code
 Title: "LOINC Code Document Type值集"
@@ -10,4 +7,4 @@ Description: "LOINC Code Document Type值集。
 * ^version = "2.77"
 * ^copyright = "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"
 * ^experimental = false
-* include codes from system $loinctw where SCALE_TYP = "Doc"
+* include codes from system $loinc where SCALE_TYP = "Doc"

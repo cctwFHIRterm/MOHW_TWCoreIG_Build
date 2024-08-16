@@ -1,5 +1,5 @@
 Alias: $loinc = http://loinc.org
-Alias: $loinctw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw
+Alias: $loinctw = http://loinc.org
 ValueSet: TWVitalSigns
 Id: vital-signs-tw
 Title: "生命體徵值集"

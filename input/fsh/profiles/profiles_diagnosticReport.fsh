@@ -31,7 +31,7 @@ Description: "
     TW2021ICD10PCS 0..1 MS and
     TW2023ICD10PCS 0..1 MS
 * code.coding[LOINCObservationCode] from LOINCObservationCode (required)
-* code.coding[LOINCObservationCode].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw"
+* code.coding[LOINCObservationCode].system = "http://loinc.org"
 * code.coding[LOINCObservationCode].system MS
 * code.coding[LOINCObservationCode].code 1..1 MS
 * code.coding[TWLaboratoryCategory] from TWLaboratoryCategory (required)

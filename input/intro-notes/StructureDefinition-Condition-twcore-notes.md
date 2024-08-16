@@ -57,4 +57,4 @@
     `GET [base]/Condition?severity={system|}[code]`  
 
     例子：  
-      (1) GET [base]/Condition?severity=https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw|LA6752-5
+      (1) GET [base]/Condition?severity=http://loinc.org|LA6752-5

@@ -318,6 +318,23 @@ Usage: #definition
 * expression = "Observation.subject"
 * type = #reference
 
+Instance: Observation-patient
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Observation patient"
+Description: "檢驗檢查有關的對象(patient)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-patient"
+* name = "ObservationPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "檢驗檢查有關的對象(patient)"
+* code = #patient
+* base = #Observation
+* expression = "Observation.subject.where(resolve() is Patient)"
+* type = #reference
+
 Instance: Observation-date
 InstanceOf: SearchParameter
 Usage: #definition
@@ -331,6 +348,23 @@ Usage: #definition
 * code = #date
 * base = #Observation
 * expression = "Observation.effective"
+* type = #date
+
+Instance: Observation-lastupdated
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Observation lastupdated"
+Description: "檢驗檢查的最後更新日期（時間）(lastupdated)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Observation-lastupdated"
+* name = "ObservationLastUpdated"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "檢驗檢查的最後更新日期（時間）(lastupdated)"
+* code = #_lastUpdated
+* base = #Observation
+* expression = "Resource.meta.lastUpdated"
 * type = #date
 
 
@@ -1412,3 +1446,52 @@ Usage: #definition
 * base = #MessageHeader
 * expression = "MessageHeader.sender"
 * type = #reference
+
+//-------------------------Device-------------------------
+Instance: Device-patient
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Device patient"
+Description: "裝置的使用對象(patient)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-patient"
+* name = "DevicePatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "裝置的使用對象(patient)"
+* code = #patient
+* base = #Device
+* expression = "Device.patient"
+* type = #reference
+
+Instance: Device-type
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Device type"
+Description: "裝置的類型(type)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-type"
+* name = "DeviceType"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "裝置的類型(type)"
+* code = #type
+* base = #Device
+* expression = "Device.type"
+* type = #token
+
+Instance: Device-status
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Device status"
+Description: "裝置的狀態(status)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-status"
+* name = "DeviceStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "裝置的狀態(status)"
+* code = #status
+* base = #Device
+* expression = "Device.status"
+* type = #token

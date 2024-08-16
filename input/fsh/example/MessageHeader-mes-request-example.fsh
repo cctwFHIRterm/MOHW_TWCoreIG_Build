@@ -1,7 +1,7 @@
 Instance: mes-request-example
 InstanceOf: TWCoreMessageHeader
 Usage: #example
-* eventCoding = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#11502-2 "Laboratory report"
+* eventCoding = http://loinc.org#11502-2 "Laboratory report"
 * source.endpoint = "https://tpech.gov.taipei/"
 * focus[0].reference = "DiagnosticReport/dia-example"
 * focus[1].reference = "Patient/pat-example"
@@ -13,7 +13,7 @@ Usage: #example
 	</h3>
         
 	<p>
-		<b>訊息事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11502-2) </span>
+		<b>訊息事件代碼</b>: Laboratory report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11502-2) </span>
 	</p>
     <p>
 		<b>訊息發送來源</b>: https://tpech.gov.taipei/

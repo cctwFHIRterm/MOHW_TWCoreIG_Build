@@ -16,7 +16,7 @@
 - [臺灣核心-病情、問題或診斷（TW Core Condition）](StructureDefinition-Condition-twcore.html) 
 
 #### Device
-- [<span class="bg-success">臺灣核心-植入式裝置（TW Core Implantable Device）</span>](StructureDefinition-Device-careExperiencePreference-twcore.html) 
+- [<span class="bg-success">臺灣核心-植入式裝置（TW Core Implantable Device）</span>](StructureDefinition-Device-twcore.html) 
 
 #### DiagnosticReport
 - [臺灣核心-診斷報告（TW Core DiagnosticReport）](StructureDefinition-DiagnosticReport-twcore.html) 

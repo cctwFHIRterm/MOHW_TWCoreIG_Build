@@ -4,8 +4,8 @@ Instance: com-surgery-example
 InstanceOf: Composition
 Usage: #example
 * status = http://hl7.org/fhir/composition-status#final
-* type = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#11503-0 "Medical records"
-* category = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#11504-8 
+* type = http://loinc.org#11503-0 "Medical records"
+* category = http://loinc.org#11504-8 
 * subject = Reference(Patient/pat-example)
 * date = "2023-11-05T14:45:00Z"
 * author = Reference(Practitioner/pra-dr-example) "王依昇"
@@ -28,10 +28,10 @@ Usage: #example
 		<b>臨床狀態</b>：Final <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/composition-status\">CompositionStatus</a>#final) </span>
 	</p>
 	<p>
-		<b>種類</b>：Medical records <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11503-0) </span>
+		<b>種類</b>：Medical records <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11503-0) </span>
 	</p>
     <p>
-		<b>分類</b>：Surgical operation note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-loinc-tw.html\">LOINC</a>#11504-8) </span>
+		<b>分類</b>：Surgical operation note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://loinc.org\">LOINC</a>#11504-8) </span>
 	</p>
     <p>
 		<b>病人</b>：<a href=\"Patient-pat-example.html\">Patient/pat-example</a> \"陳加玲\"

@@ -20,7 +20,7 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
 * category[twcore].coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
 * category[twcore].coding.code = #social-history
 
-* code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#11341-5
+* code = http://loinc.org#11341-5
 * code ^short = "Occupation history"
 * code MS
 * code.text MS
@@ -43,7 +43,7 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
     LiaRocOccupation 0..1 MS and
     MolOccupation 0..1 MS
 * valueCodeableConcept.coding[LiaRocOccupation] from TWLIAROCOccupation (required)
-* valueCodeableConcept.coding[LiaRocOccupation].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw"
+* valueCodeableConcept.coding[LiaRocOccupation].system = "http://loinc.org"
 * valueCodeableConcept.coding[LiaRocOccupation].system MS
 * valueCodeableConcept.coding[LiaRocOccupation].code 1..1 MS
 * valueCodeableConcept.coding[MolOccupation] from TWMolOccupation (required)

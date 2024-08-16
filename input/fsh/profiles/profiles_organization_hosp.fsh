@@ -9,5 +9,6 @@ Description:    "此臺灣核心-醫事機構（TW Core Organization Hospital De
 * identifier.type 1..
 * identifier.type = http://terminology.hl7.org/CodeSystem/v2-0203#PRN
 * identifier.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/organization-identifier-tw"
+* identifier.value from TWOrganizationIdentifier
 
 * identifier.value ^short = "唯一值。例如：醫事機構代碼為0123456789"

@@ -21,7 +21,7 @@ Description:    "此臺灣核心-病人照護偏好註記（TW Core Observation 
 * category[twcore].coding.code 1..1 MS
 * category[twcore].coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/observation-category"
 * category[twcore].coding.code = #care-experience-preference
-* code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#95541-9
+* code = http://loinc.org#95541-9
 * code ^short = "Care experience preferences code"
 
 * category only CodeableConceptTW

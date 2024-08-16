@@ -30,6 +30,11 @@
 - [abatement-date](SearchParameter-Condition-abatement-date.html)
 - [severity](SearchParameter-Condition-severity.html)
 
+### Device
+- [patient](SearchParameter-Device-patient.html)
+- [type](SearchParameter-Device-type.html)
+- [status](SearchParameter-Device-status.html)
+
 ### DiagnosticReport
 - [_id](SearchParameter-DiagnosticReport-id.html)
 - [status](SearchParameter-DiagnosticReport-status.html)
@@ -107,6 +112,8 @@
 - [performer](SearchParameter-Observation-performer.html)
 - [status](SearchParameter-Observation-status.html)
 - [subject](SearchParameter-Observation-subject.html)
+- [patient](SearchParameter-Observation-patient.html)
+- [_lastUpdated](SearchParameter-Observation-lastupdated.html)
 
 ### Organization 
 - [_id](SearchParameter-Organization-id.html)

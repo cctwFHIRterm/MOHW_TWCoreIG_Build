@@ -1471,6 +1471,46 @@
 			<description value="檢體的病人(subject)"/>
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Observation-patient"/>
+			</reference>
+			<name value="Observation patient"/>
+			<description value="檢驗檢查有關的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Observation-lastupdated"/>
+			</reference>
+			<name value="Observation lastupdated"/>
+			<description value="檢驗檢查的最後更新日期（時間）(lastupdated)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Device-patient"/>
+			</reference>
+			<name value="Device patient"/>
+			<description value="裝置的使用對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Device-type"/>
+			</reference>
+			<name value="Device type"/>
+			<description value="裝置的類型(type)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Device-status"/>
+			</reference>
+			<name value="Device status"/>
+			<description value="裝置的狀態(status)"/>
+		</resource>
+
 		<page>
 			<nameUrl value="toc.html"/>
 			<title value="目錄"/>

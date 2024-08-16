@@ -9,8 +9,6 @@
 			<ol>
 			<li><a href="CodeSystem-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM</a></li>   
 			<li><a href="CodeSystem-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS</a></li>   
-			<li><a href="CodeSystem-loinc-tw.html">LOINC</a></li>   
-			<li><a href="CodeSystem-sct-tw.html">SNOMED CT Code</a></li>   			
 			</ol>
 		</li> 
 		<li>修改<a href="terminologies.html">代碼系統(CodeSystem)</a>：
@@ -19,8 +17,7 @@
 			<li>將所有代碼系統的Property - 生效日期(updateDate)改為生效日期(effectiveDate)</li>     
 			<li><a href="CodeSystem-postal-code6-tw.html">臺灣中華郵政6碼郵遞區號</a>：2024-06-28的新版6碼郵遞區號代碼中有新增、刪除、修改部分代碼</li>    
 			<li><a href="CodeSystem-medication-fda-tw.html">臺灣食藥署藥品許可證</a>：2024-06-20的新版臺灣食藥署藥品許可證代碼中有新增、刪除、修改部分代碼</li>    
-			<li><a href="CodeSystem-medication-device-fda-tw.html">臺灣食藥署醫療器材許可證</a>：2024-06-06的新版臺灣食藥署醫療器材許可證代碼中有新增、刪除、修改部分代碼</li>    
-			<li><a href="CodeSystem-organization-identifier-tw.html">臺灣健保署醫事機構代碼</a>：2024-06-13的新版臺灣健保署醫事機構代碼代碼中有新增、刪除、修改部分代碼</li>    
+			<li><a href="CodeSystem-medication-device-fda-tw.html">臺灣食藥署醫療器材許可證</a>：2024-06-06的新版臺灣食藥署醫療器材許可證代碼中有新增、刪除、修改部分代碼</li>        
 			</ol>
 		</li> 
     </ol>

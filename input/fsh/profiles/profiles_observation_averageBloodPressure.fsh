@@ -21,7 +21,7 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * category[VSCat].coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
 * category[VSCat].coding.code 1..1 MS
 * category[VSCat].coding.code = #vital-signs
-* code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#96607-7
+* code = http://loinc.org#96607-7
 * code ^short = "血壓"
 * effective[x] 1..1
 * effective[x] only dateTime or Period
@@ -66,7 +66,7 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
     Number 0..1 MS
 * component[Systolic] ^short = "平均收縮壓"
 * component[Systolic].code 1..1 MS
-* component[Systolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#96608-5
+* component[Systolic].code = http://loinc.org#96608-5
 * component[Systolic].code ^short = "Systolic Average Blood Pressure Code"
 * component[Systolic].value[x] only Quantity
 * component[Systolic].valueQuantity only Quantity
@@ -81,7 +81,7 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * component[Systolic].valueQuantity.code = #mm[Hg]
 * component[Diastolic] ^short = "平均舒張壓"
 * component[Diastolic].code 1..1 MS
-* component[Diastolic].code = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw#96609-3
+* component[Diastolic].code = http://loinc.org#96609-3
 * component[Diastolic].code ^short = "Diastolic Average Blood Pressure Code"
 * component[Diastolic].value[x] only Quantity
 * component[Diastolic].valueQuantity only Quantity

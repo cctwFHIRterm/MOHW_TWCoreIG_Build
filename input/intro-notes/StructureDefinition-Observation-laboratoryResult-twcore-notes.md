@@ -25,7 +25,7 @@
     `GET [base]/Observation?code={system|}[code]`
 
     例子：  
-      (1) GET [base]/Observation?code=https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw|10449-7
+      (1) GET [base]/Observation?code=http://loinc.org|10449-7
 
 
 4. **建議應該（SHOULD）** 支援透過查詢參數 **[`performer`](SearchParameter-Observation-performer.html)** 查詢所有Observation：        
@@ -52,7 +52,7 @@
       (1) GET [base]/Observation?subject=Patient/pat-example
 
 
-7. **建議應該（SHOULD）** 支援透過查詢參數 **[`subject`](SearchParameter-Observation-date.html)** 查詢所有Observation：  
+7. **建議應該（SHOULD）** 支援透過查詢參數 **[`date`](SearchParameter-Observation-date.html)** 查詢所有Observation：  
     ([如何透過date查詢](http://hl7.org/fhir/R4/search.html#date))  
     `GET [base]/Observation?date={gt|lt|ge|le}[date]`
 
@@ -154,7 +154,7 @@ DiagnosticReport 直接關聯到一個醫令（ServiceRequest）。<code>Diagnos
   "code": {
     "coding": [
       {
-        "system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+        "system": "http://loinc.org",
         "code": "XXX-XXXX",
         "display": "Complete blood count (CBC) panel"
       }
@@ -208,7 +208,7 @@ DiagnosticReport 直接關聯到一個醫令（ServiceRequest）。<code>Diagnos
   "code": {
     "coding": [
       {
-        "system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+        "system": "http://loinc.org",
         "code": "39156-5",
         "display": "Body Mass Index (BMI) [Ratio]"
       }
@@ -293,7 +293,7 @@ LOINC 代碼 43304-5 Chlamydia trachomatis rRNA [Presence] in Specimen by NAA wi
         "code": {
             "coding": [
                 {
-                    "system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+                    "system": "http://loinc.org",
                     "code": "74076-1",
                     "display": "Medication or substance involved"
                 }
@@ -303,7 +303,7 @@ LOINC 代碼 43304-5 Chlamydia trachomatis rRNA [Presence] in Specimen by NAA wi
         "valueCodeableConcept": {
             "coding": [
                 {
-                    "system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+                    "system": "http://loinc.org",
                     "code": " LA20343-2",
                     "display": "Other substance: PLEASE SPECIFY"
                 }
@@ -377,7 +377,7 @@ FHIR 檢驗檢查包括兩個關鍵資料項目：
 "code": {
 	"coding": [
 		{
-			"system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+			"system": "http://loinc.org",
 			"code": "6689-4",
 			"display": "Glucose [Mass/​volume] in Blood --2 hours post meal"
 		}
@@ -396,12 +396,12 @@ FHIR 檢驗檢查包括兩個關鍵資料項目：
 "code": {
 	"coding": [
 		{
-			"system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+			"system": "http://loinc.org",
 			"code": "59408-5",
 			"display": "Oxygen saturation in Arterial blood by Pulse oximetry"
 		},
 		{
-			"system": "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/loinc-tw",
+			"system": "http://loinc.org",
 			"code": "20564-1",
 			"display": "Oxygen saturation in Blood"
 		}
