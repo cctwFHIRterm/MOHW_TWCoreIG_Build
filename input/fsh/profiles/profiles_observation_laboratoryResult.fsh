@@ -9,11 +9,11 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 * ^version = "0.2.3"
 //* status and category and category.coding and category.coding.code and category.coding.system and category.text and text MS
 * status and category MS
-* category ^slicing.discriminator.type = #pattern
-* category ^slicing.discriminator.path = "$this"
-* category ^slicing.rules = #open
-* category contains ObservationCategoryCodes 0..1 MS
-* category[ObservationCategoryCodes] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
+//* category ^slicing.discriminator.type = #pattern
+//* category ^slicing.discriminator.path = "$this"
+//* category ^slicing.rules = #open
+* category contains twcore 0..1 MS
+* category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code 1..1 MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
