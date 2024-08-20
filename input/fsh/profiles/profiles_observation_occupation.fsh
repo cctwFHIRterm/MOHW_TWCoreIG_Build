@@ -27,7 +27,7 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
 * code only CodeableConceptTW
 * code ^binding.strength = #preferred
 * component.code only CodeableConceptTW
-* subject MS
+* subject 1.. MS
 * subject only Reference(TWCorePatient)
 
 * effective[x] only Period
