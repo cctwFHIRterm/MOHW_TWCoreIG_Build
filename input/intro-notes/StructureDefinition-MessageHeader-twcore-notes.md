@@ -1,6 +1,6 @@
 {% include quickstart-note.md %}
 
-#### 必須支援以下查詢參數： 
+#### 建議應該支援以下查詢參數： 
 
 1. **建議應該（SHOULD）** 支援透過查詢參數 **[`_id`](SearchParameter-MessageHeader-id.html)** 查詢所有MessageHeader：                
     ([如何透過token查詢](http://hl7.org/fhir/R4/search.html#token))   
