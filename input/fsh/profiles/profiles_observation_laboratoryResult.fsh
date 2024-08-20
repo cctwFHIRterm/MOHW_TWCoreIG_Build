@@ -2,7 +2,7 @@
 Alias: $ResultsLabObservationUvIps = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
 
 Profile:        TWCoreObservationLaboratoryResult
-Parent:         Observation
+Parent:         TWCoreObservationClinicalResult
 Id:             Observation-laboratoryResult-twcore
 Title:          "TW Core Observation Laboratory Result"
 Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現檢驗檢查資料。"
@@ -15,7 +15,6 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 * category contains ObservationCategoryCodes 0..1 MS
 * category[ObservationCategoryCodes] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code 1..1 MS
-* code from LOINCObservationCode (example)
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open

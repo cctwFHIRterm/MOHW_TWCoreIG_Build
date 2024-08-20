@@ -802,6 +802,15 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-occupation-twcore"
 * rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-clinical-result-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-intent-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
+* rest.resource[=].supportedProfile[+] = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-status-twcore"
+* rest.resource[=].supportedProfile[=].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[=].supportedProfile[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #search-type
@@ -1452,11 +1461,15 @@ Usage: #definition
 					<td>	
 						<a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a>, <br />
 						<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a>, <br />
-						<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>
-						<a href=\"StructureDefinition-Observation-simple-twcore.html\">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</a>
-						<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a>
-						<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a>
-						<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a>
+						<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a>, <br />
+						<a href=\"StructureDefinition-Observation-simple-twcore.html\">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</a>, <br />
+						<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a>, <br />
+						<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a>, <br />
+						<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a>, <br />
+						<a href=\"StructureDefinition-Observation-clinical-result-twcore.html\">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）</a>, <br />
+						<a href=\"StructureDefinition-Observation-pregnancy-intent-twcore.html\">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</a>, <br />				
+						<a href=\"StructureDefinition-Observation-pregnancy-status-twcore.html\">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</a>, <br />	
+						<a href=\"StructureDefinition-Observation-screening-assessment-twcore.html\">臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment）</a>			
 					</td>
 					<td>_id, category, code, date, performer, status, subject, <br />
 					patient + category, <br />
@@ -2872,6 +2885,9 @@ Usage: #definition
 			<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a>, 
 			<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a>, 
 			<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a>
+			<a href=\"StructureDefinition-Observation-clinical-result-twcore.html\">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）</a>
+			<a href=\"StructureDefinition-Observation-pregnancy-intent-twcore.html\">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</a>				
+			<a href=\"StructureDefinition-Observation-pregnancy-status-twcore.html\">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</a>		
 		</li>
 		<li>
 			<a href=\"https://build.fhir.org/codesystem-reference-handling-policy.html#reference-handling-policy-resolves\">支援的參照政策（Reference policy）</a>： <code>resolves</code>，Server會嘗試將邏輯參照（logical reference）解析為文字參照，意即轉換Reference.identifier為Reference.reference（但如果解析失敗，Server仍然會接收這個resource，請參閱 <code>logical</code>）。

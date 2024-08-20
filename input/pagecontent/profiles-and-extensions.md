@@ -52,11 +52,15 @@
 - [臺灣核心-訊息表頭（TW Core MessageHeader）](StructureDefinition-MessageHeader-twcore.html) 
 
 #### Observation
-- [<span class="bg-success">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</span>](StructureDefinition-Observation-simple-twcore.html) 
 - [<span class="bg-success">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</span>](StructureDefinition-Observation-averageBloodPressure-twcore.html) 
 - [<span class="bg-success">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</span>](StructureDefinition-Observation-careExperiencePreference-twcore.html) 
+- [<span class="bg-success">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）</span>](StructureDefinition-Observation-clinical-result-twcore.html) 
+  - [臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）](StructureDefinition-Observation-laboratoryResult-twcore.html) 
 - [<span class="bg-success">臺灣核心-職業（TW Core Observation Occupation）</span>](StructureDefinition-Observation-occupation-twcore.html) 
-- [臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）](StructureDefinition-Observation-laboratoryResult-twcore.html) 
+- [<span class="bg-success">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</span>](StructureDefinition-Observation-pregnancy-intent-twcore.html) 
+- [<span class="bg-success">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</span>](StructureDefinition-Observation-pregnancy-status-twcore.html) 
+- [<span class="bg-success">臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment）</span>](StructureDefinition-Observation-screening-assessment-twcore.html) 
+- [<span class="bg-success">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</span>](StructureDefinition-Observation-simple-twcore.html) 
 - [臺灣核心-生命體徵（TW Core Observation Vital Signs）](StructureDefinition-Observation-vitalSigns-twcore.html) 
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
   - [臺灣核心-身體質量指數（TW Core Observation BMI）](StructureDefinition-Observation-bmi-twcore.html) 
@@ -78,6 +82,9 @@
 
 #### Procedure
 - [臺灣核心-處置或手術（TW Core Procedure）](StructureDefinition-Procedure-twcore.html) 
+
+#### RelatedPerson
+- [<span class="bg-success">臺灣核心-相關人士（TW Core RelatedPerson）</span>](StructureDefinition-RelatedPerson-twcore.html) 
 
 #### Specimen
 - [臺灣核心-檢體（TW Core Specimen）](StructureDefinition-Specimen-twcore.html) 
