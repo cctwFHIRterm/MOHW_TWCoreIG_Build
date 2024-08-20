@@ -1,6 +1,6 @@
 {% include quickstart-note.md %}
 
-#### 建議應該支援以下查詢參數：
+#### 必須支援以下查詢參數：
 
 1. **必須（SHALL）** 支援透過查詢參數 **[`patient`](SearchParameter-Observation-patient.html)** 及 **[`category`](SearchParameter-Observation-category.html)** 查詢所有Observation：               
     ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))    
@@ -28,6 +28,8 @@
 
     例子：  
       (1) GET [base]/Observation?patient=Patient/pat-example&category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs&date=ge2020-01-01T00:00:00Z
+
+#### 建議應該支援以下查詢參數：
 
 
 4. **建議應該（SHOULD）** 支援透過查詢參數 **[`patient`](SearchParameter-Observation-patient.html)** 、 **[`category`](SearchParameter-Observation-category.html)** 及 **[`status`](SearchParameter-Observation-status.html)** 查詢所有Observation：               

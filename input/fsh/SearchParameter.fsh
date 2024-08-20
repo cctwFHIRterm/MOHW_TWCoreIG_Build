@@ -1495,3 +1495,50 @@ Description: "裝置的狀態(status)"
 * base = #Device
 * expression = "Device.status"
 * type = #token
+
+//-------------------------RelatedPerson-------------------------
+Instance: RelatedPerson-id
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-id"
+* name = "RelatedPersonID"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "相關人士的邏輯性ID"
+* code = #_id
+* base = #RelatedPerson
+* expression = "RelatedPerson.id"
+* type = #token
+
+Instance: RelatedPerson-patient
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "RelatedPerson patient"
+Description: "相關人士的使用對象(patient)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-patient"
+* name = "RelatedPersonPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "與該相關人士有關係的病人(patient)"
+* code = #patient
+* base = #RelatedPerson
+* expression = "RelatedPerson.patient"
+* type = #reference
+
+Instance: RelatedPerson-name
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "RelatedPerson name"
+Description: "相關人士的類型(name)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-name"
+* name = "RelatedPersonname"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "相關人士的姓名(name)，該查詢可能與 HumanName 中的任何字串匹配，包括完整的中文姓名(text)、英文姓(family)、英文名(given)、姓名前面的頭銜(prefix)、姓名後面的稱謂(suffix)。"
+* code = #name
+* base = #RelatedPerson
+* expression = "RelatedPerson.name"
+* type = #string

@@ -1511,6 +1511,30 @@
 			<description value="裝置的狀態(status)"/>
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="SearchParameter/RelatedPerson-id"/>
+			</reference>
+			<name value="RelatedPerson ID"/>
+			<description value="相關人士的邏輯性ID"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/RelatedPerson-patient"/>
+			</reference>
+			<name value="RelatedPerson patient"/>
+			<description value="與該相關人士有關係的病人(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/RelatedPerson-name"/>
+			</reference>
+			<name value="RelatedPerson name"/>
+			<description value="相關人士的姓名(name)，該查詢可能與 HumanName 中的任何字串匹配，包括完整的中文姓名(text)、英文姓(family)、英文名(given)、姓名前面的頭銜(prefix)、姓名後面的稱謂(suffix)。"/>
+		</resource>
+
 		<page>
 			<nameUrl value="toc.html"/>
 			<title value="目錄"/>

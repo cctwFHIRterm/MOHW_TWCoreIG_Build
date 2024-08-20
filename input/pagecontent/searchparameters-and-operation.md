@@ -145,6 +145,11 @@
 - [subject](SearchParameter-Procedure-subject.html)
 - [date](SearchParameter-Procedure-date.html)
 
+### RelatedPerson
+- [_id](SearchParameter-RelatedPerson-id.html)
+- [patient](SearchParameter-RelatedPerson-patient.html)
+- [name](SearchParameter-RelatedPerson-name.html)
+
 ### Specimen
 - [_id](SearchParameter-Specimen-id.html)
 - [status](SearchParameter-Specimen-status.html)
