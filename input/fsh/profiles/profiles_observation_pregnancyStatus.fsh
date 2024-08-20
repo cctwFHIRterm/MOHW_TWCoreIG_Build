@@ -21,7 +21,7 @@ Description: "此臺灣核心-妊娠狀態（TW Core Observation Pregnancy Statu
 * category[twcore].coding.code = #social-history
 * code MS
 * code only CodeableConceptTW
-* code = http://loinc.org#82810-3 "Pregnancy status"
+* code = http://loinc.org#82810-3
 * code ^short = "Pregnancy Status"
 * subject 1.. MS
 * subject only Reference(TWCorePatient)

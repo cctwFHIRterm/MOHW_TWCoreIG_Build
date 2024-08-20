@@ -21,7 +21,7 @@ Description: "此臺灣核心-妊娠計畫（TW Core Observation Pregnancy Inten
 * category[twcore].coding.code = #social-history
 * code MS
 * code only CodeableConceptTW
-* code = http://loinc.org#86645-9 "Pregnancy Intent"
+* code = http://loinc.org#86645-9
 * code ^short = "Pregnancy Intent"
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
