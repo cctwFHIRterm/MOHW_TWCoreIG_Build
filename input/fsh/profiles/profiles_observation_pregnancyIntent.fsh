@@ -28,5 +28,5 @@ Description: "此臺灣核心-妊娠計畫（TW Core Observation Pregnancy Inten
 * effectiveDateTime 1.. MS
 * valueCodeableConcept 1.. MS
 * valueCodeableConcept only CodeableConceptTW
-* valueCodeableConcept from PregnancyStatusCodeSCT (extensible)
+* valueCodeableConcept from PregnancyStatusCodeSCT (preferred)
 * valueCodeableConcept ^short = "Coded Responses from Pregnancy Intent Value Set"

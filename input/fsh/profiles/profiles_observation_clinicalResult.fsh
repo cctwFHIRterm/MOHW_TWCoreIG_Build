@@ -18,7 +18,7 @@ Description:    "此臺灣核心-臨床檢驗檢查（TW Core Observation Clinic
 * code from LOINCCodes (extensible)
 * code.text MS
 * subject 1.. MS 
-* subject only Reference(TWCorePatient or TWCoreLocation)
+* subject only Reference(TWCorePatient or TWCoreLocation or Group or Device)
 * encounter MS
 * encounter only Reference(TWCoreEncounter)
 * effective[x] MS

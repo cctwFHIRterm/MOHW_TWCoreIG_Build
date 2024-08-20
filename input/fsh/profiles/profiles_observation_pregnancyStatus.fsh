@@ -28,5 +28,5 @@ Description: "此臺灣核心-妊娠狀態（TW Core Observation Pregnancy Statu
 * effectiveDateTime 1.. MS
 * valueCodeableConcept 1.. MS
 * valueCodeableConcept only CodeableConceptTW
-* valueCodeableConcept from PregnancyStatusCodeSCT (extensible)
+* valueCodeableConcept from PregnancyStatusCodeSCT (preferred)
 * valueCodeableConcept ^short = "Coded Responses from Pregnancy Status Value Set"
