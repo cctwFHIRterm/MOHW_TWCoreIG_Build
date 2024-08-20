@@ -5,7 +5,7 @@ Title:          "TW Core Observation Average Blood Pressure"
 Description:    "此臺灣核心-平均血壓（TW Core Observation Average Blood Pressure） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現平均血壓資料。"
 * ^version = "0.2.3"
 * status MS
-* category MS
+* category 1.. MS
 * category only CodeableConceptTW
 * category ^slicing.discriminator[0].type = #value
 * category ^slicing.discriminator[=].path = "coding.code"
@@ -24,10 +24,11 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * code = http://loinc.org#96607-7
 * code ^short = "血壓"
 * effective[x] 1..1
-* effective[x] only dateTime or Period
+* effective[x] only dateTime
 * effective[x] MS
-* effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* effective[x] ^type.extension.valueBoolean = true
+* effective[x] ^type[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
+* effective[x] ^type[=].code = #Period
+* effective[x] ^type[=].extension.valueBoolean = true
 
 * category only CodeableConceptTW
 * code only CodeableConceptTW
@@ -39,11 +40,7 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * performer MS
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
 
-* effective[x] 1..1
-* effective[x] only dateTime or Period
-* effective[x] MS
-* effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* effective[x] ^type.extension.valueBoolean = true
+
 * value[x] ..0
 * component MS
 * component obeys tw-core-2

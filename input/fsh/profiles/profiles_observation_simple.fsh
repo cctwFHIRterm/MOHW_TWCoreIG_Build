@@ -5,7 +5,7 @@ Title:          "TW Core Simple Observation"
 Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現通用檢驗檢查資料。"
 * ^version = "0.2.3"
 * status MS
-* category MS
+* category 1.. MS
 * category only CodeableConceptTW
 * category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "$this"
@@ -19,7 +19,7 @@ Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation
 * code only CodeableConceptTW
 * code ^binding.strength = #preferred
 * component.code only CodeableConceptTW
-* subject MS
+* subject 1.. MS
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * subject ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * subject ^type[=].targetProfile[=].extension.valueBoolean = true
