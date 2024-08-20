@@ -28,4 +28,3 @@ Description:    "此臺灣核心-臨床檢驗檢查（TW Core Observation Clinic
 * value[x] ^type[=].extension.valueBoolean = true
 * dataAbsentReason MS
 * dataAbsentReason only CodeableConceptTW
-* performer MS

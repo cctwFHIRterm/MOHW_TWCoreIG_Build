@@ -19,7 +19,7 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
 * code MS
 * code only CodeableConceptTW
 * code from LOINCSurveyCode (preferred)
-* subject MS
+* subject 1.. MS
 * subject only Reference(TWCorePatient or TWCoreLocation)
 * effective[x] MS
 * effective[x] only dateTime or Period or Timing or instant
@@ -39,8 +39,8 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
 * dataAbsentReason only CodeableConceptTW
 * hasMember MS 
 * hasMember only Reference(TWCoreObservationScreeningAssessment or QuestionnaireResponse or MolecularSequence)
-* hasMember ^type[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* hasMember ^type[=].extension.valueBoolean = true
+* derivedFrom ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
+* derivedFrom ^type[=].targetProfile[=].extension.valueBoolean = true
 * derivedFrom MS
 * derivedFrom only Reference(TWCoreObservationScreeningAssessment or QuestionnaireResponse or TWCoreDocumentReference)
 * derivedFrom ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
