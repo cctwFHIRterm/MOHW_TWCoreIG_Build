@@ -6,6 +6,13 @@ Description:    "此臺灣核心-臨床檢驗檢查（TW Core Observation Clinic
 * ^version = "0.2.3"
 * status MS
 * category 1.. MS
+* category only CodeableConceptTW
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open
+* category contains twcore 0..* MS
+* category[twcore] from TWObservationClinicalResultCategory
+* category[twcore] ^binding.description = "此slice綁定的值集之綁定強度雖為最高強度「要求使用(Requird)」，但因slice之特性，其不會限制僅能填此值集中的代碼，故在實作時也可使用其他值集的代碼。"
 * code MS
 * code only CodeableConceptTW
 * code from LOINCCodes (extensible)

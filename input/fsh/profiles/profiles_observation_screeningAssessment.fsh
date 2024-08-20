@@ -15,7 +15,7 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
     twcore 0..* MS
 * category[survey] = http://terminology.hl7.org/CodeSystem/observation-category#survey
 * category[survey] ^requirements = "Used for filtering if the observation is an assessment or screening."
-* category[twcore] from TWObservationCategory (required)
+* category[twcore] from TWObservationScreeningAssessmentCategory (required)
 * code MS
 * code only CodeableConceptTW
 * code from LOINCSurveyCode (preferred)

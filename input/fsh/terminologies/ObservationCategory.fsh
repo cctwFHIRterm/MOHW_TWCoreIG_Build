@@ -65,4 +65,31 @@ Description: "臺灣衛福部資訊處Observation類型值集"
 * ^version = "0.1.2"
 * ^experimental = false
 * include codes from system TWObservationCategory
-* include codes from system ObservationCategoryCodes
+* include codes from system http://terminology.hl7.org/CodeSystem/observation-category
+
+
+ValueSet: TWObservationScreeningAssessmentCategory
+Id: observation-screening-assessment-category
+Title: "臺灣衛福部資訊處Observation Screening Assessment類型值集"
+Description: "臺灣衛福部資訊處Observation Screening Assessment類型值集"
+* ^date = "2024-08-31"
+* ^version = "0.1.2"
+* ^experimental = false
+* include codes from system TWObservationCategory
+
+
+Alias: $ClinicalResult = http://terminology.hl7.org/CodeSystem/observation-category
+ValueSet: TWObservationClinicalResultCategory
+Id: observation-clinical-result-category
+Title: "臺灣衛福部資訊處Observation Clinical Result類型值集"
+Description: "臺灣衛福部資訊處Observation Clinical Result類型值集"
+* ^date = "2024-08-31"
+* ^version = "0.1.2"
+* ^experimental = false
+* $ClinicalResult#laboratory
+* $ClinicalResult#exam
+* $ClinicalResult#therapy
+* $ClinicalResult#imaging
+* $ClinicalResult#procedure
+* $ClinicalResult#vital-signs
+* $ClinicalResult#activityco
