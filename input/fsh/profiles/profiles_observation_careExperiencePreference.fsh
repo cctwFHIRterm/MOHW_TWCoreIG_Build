@@ -31,9 +31,9 @@ Description:    "此臺灣核心-病人照護偏好註記（TW Core Observation 
 * code.text MS
 * subject MS
 * subject only Reference(TWCorePatient)
-* performer MS
+/* performer MS
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
-
+*/
 * effective[x] 1..1
 * effective[x] only dateTime or Period or Timing or instant
 * effective[x] MS

@@ -24,11 +24,14 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * code = http://loinc.org#96607-7
 * code ^short = "血壓"
 * effective[x] 1..1
-* effective[x] only dateTime
+//* effective[x] only dateTime
 * effective[x] MS
 * effective[x] ^type[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * effective[x] ^type[=].code = #Period
 * effective[x] ^type[=].extension.valueBoolean = true
+* effective[x] ^type[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
+* effective[x] ^type[=].code = #dateTime
+* effective[x] ^type[=].extension.valueBoolean = false
 
 * category only CodeableConceptTW
 * code only CodeableConceptTW
@@ -37,8 +40,8 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * code.text MS
 * subject MS
 * subject only Reference(TWCorePatient)
-* performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
+/** performer MS
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)*/
 
 
 * value[x] ..0

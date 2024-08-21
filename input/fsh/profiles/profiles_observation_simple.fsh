@@ -1,4 +1,4 @@
-Profile:        TWCoreObservation
+Profile:        TWCoreObservationSimple
 Parent:         Observation
 Id:             Observation-simple-twcore
 Title:          "TW Core Simple Observation"
@@ -15,16 +15,15 @@ Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation
 * category[twcore] ^binding.description = "此slice綁定的值集之綁定強度雖為最高強度「要求使用(Requird)」，但因slice之特性，其不會限制僅能填此值集中的代碼，故在實作時也可使用其他值集的代碼。"
 
 * code MS
-* code.text MS
 * code only CodeableConceptTW
 * code ^binding.strength = #preferred
-* component.code only CodeableConceptTW
+//* component.code only CodeableConceptTW
 * subject 1.. MS
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * subject ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * subject ^type[=].targetProfile[=].extension.valueBoolean = true
 * performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam or TWCoreRelatedPerson)
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period or Timing or instant

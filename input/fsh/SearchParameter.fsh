@@ -1515,7 +1515,7 @@ Instance: RelatedPerson-patient
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "RelatedPerson patient"
-Description: "相關人士的使用對象(patient)"
+Description: "與該相關人士有關係的病人(patient)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-patient"
 * name = "RelatedPersonPatient"
 * status = #active
@@ -1542,3 +1542,20 @@ Description: "相關人士的類型(name)"
 * base = #RelatedPerson
 * expression = "RelatedPerson.name"
 * type = #string
+
+//-------------------------Coverage-------------------------
+Instance: Coverage-patient
+InstanceOf: SearchParameter
+Usage: #definition
+Title: "Coverage patient"
+Description: "保險的對象(patient)"
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Coverage-patient"
+* name = "CoveragePatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "保險的對象(patient)"
+* code = #patient
+* base = #Coverage
+* expression = "Coverage.patient"
+* type = #reference

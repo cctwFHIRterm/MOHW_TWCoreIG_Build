@@ -33,7 +33,7 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
 * effective[x] only Period
 * effective[x] MS
 * value[x] only CodeableConceptTW
-* valueCodeableConcept MS
+* valueCodeableConcept 1.. MS
 * valueCodeableConcept ^short = "職業代碼或文字"
 * valueCodeableConcept from TWLIAROCOccupation (preferred)
 * valueCodeableConcept.coding ^slicing.discriminator.type = #pattern
