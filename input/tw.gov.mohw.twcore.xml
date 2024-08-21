@@ -1588,6 +1588,38 @@
 			<description value="保險的對象(patient)"/>
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CarePlan-patient"/>
+			</reference>
+			<name value="CarePlan patient"/>
+			<description value="照護計畫的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CarePlan-category"/>
+			</reference>
+			<name value="CarePlan category"/>
+			<description value="照護計畫的類別(category)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CarePlan-date"/>
+			</reference>
+			<name value="CarePlan date"/>
+			<description value="照護計畫的期間(period)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CarePlan-status"/>
+			</reference>
+			<name value="CarePlan status"/>
+			<description value="照護計畫的狀態(status)"/>
+		</resource>
+
 		<page>
 			<nameUrl value="toc.html"/>
 			<title value="目錄"/>

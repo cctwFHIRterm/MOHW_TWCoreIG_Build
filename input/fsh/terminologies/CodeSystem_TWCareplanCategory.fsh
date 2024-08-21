@@ -1,7 +1,7 @@
 CodeSystem: TWCarePlanCategoryExtensionCodes
 Id: careplan-category-tw
-Title: "臺灣衛福部資訊處照護計畫分類"
-Description: "臺灣衛福部資訊處照護計畫分類"
+Title: "臺灣衛福部資訊處照護計畫類別"
+Description: "臺灣衛福部資訊處照護計畫類別"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/careplan-category-tw"
 * ^version = "0.2.3"
 * ^status = #active

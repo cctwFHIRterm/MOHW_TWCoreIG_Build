@@ -1451,8 +1451,6 @@ Usage: #definition
 Instance: Device-patient
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "Device patient"
-Description: "裝置的使用對象(patient)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-patient"
 * name = "DevicePatient"
 * status = #active
@@ -1467,8 +1465,6 @@ Description: "裝置的使用對象(patient)"
 Instance: Device-type
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "Device type"
-Description: "裝置的類型(type)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-type"
 * name = "DeviceType"
 * status = #active
@@ -1483,8 +1479,6 @@ Description: "裝置的類型(type)"
 Instance: Device-status
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "Device status"
-Description: "裝置的狀態(status)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Device-status"
 * name = "DeviceStatus"
 * status = #active
@@ -1514,8 +1508,6 @@ Usage: #definition
 Instance: RelatedPerson-patient
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "RelatedPerson patient"
-Description: "與該相關人士有關係的病人(patient)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-patient"
 * name = "RelatedPersonPatient"
 * status = #active
@@ -1530,8 +1522,6 @@ Description: "與該相關人士有關係的病人(patient)"
 Instance: RelatedPerson-name
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "RelatedPerson name"
-Description: "相關人士的類型(name)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/RelatedPerson-name"
 * name = "RelatedPersonname"
 * status = #active
@@ -1547,8 +1537,6 @@ Description: "相關人士的類型(name)"
 Instance: Coverage-patient
 InstanceOf: SearchParameter
 Usage: #definition
-Title: "Coverage patient"
-Description: "保險的對象(patient)"
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Coverage-patient"
 * name = "CoveragePatient"
 * status = #active
@@ -1559,3 +1547,89 @@ Description: "保險的對象(patient)"
 * base = #Coverage
 * expression = "Coverage.beneficiary"
 * type = #reference
+
+//-------------------------CarePlan-------------------------
+Instance: CarePlan-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-patient"
+* name = "CarePlanPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "照護計畫的對象(patient)"
+* code = #patient
+* base = #CarePlan
+* expression = "CarePlan.subject.where(resolve() is Patient)"
+* type = #reference
+
+Instance: CarePlan-category
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-category"
+* name = "CarePlanCategory"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "照護計畫的類別(category)"
+* code = #category
+* base = #CarePlan
+* expression = "CarePlan.category"
+* type = #token
+
+Instance: CarePlan-date
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-date"
+* name = "CarePlanDate"
+* status = #active
+* version = "0.2.3"
+* date = "2022-08-31"
+* publisher = "HL7 International"
+* description = "照護計畫的期間(period)"
+* code = #date
+* base = #CarePlan
+* expression = "CarePlan.period"
+* type = #date
+* comparator[0] = #eq
+* comparator[+] = #ne
+* comparator[+] = #gt
+* comparator[+] = #ge
+* comparator[+] = #lt
+* comparator[+] = #le
+* comparator[+] = #sa
+* comparator[+] = #eb
+* comparator[+] = #ap
+* comparator[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+
+Instance: CarePlan-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CarePlan-status"
+* name = "CarePlanStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "照護計畫的狀態(status)"
+* code = #status
+* base = #CarePlan
+* expression = "CarePlan.status"
+* type = #token
