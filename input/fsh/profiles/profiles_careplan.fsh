@@ -1,74 +1,40 @@
-Profile:        TWCoreCoverage
-Parent:         Coverage
-Id:             Coverage-twcore
-Title:          "TW Core Coverage"
-Description:    "此臺灣核心-保險（TW Core Coverage） Profile說明本IG如何進一步定義FHIR的Coverage Resource以呈現保險資料。"
+Profile:        TWCoreCarePlan
+Parent:         CarePlan
+Id:             CarePlan-twcore
+Title:          "TW Core CarePlan"
+Description:    "此臺灣核心-照護計畫（TW Core CarePlan） Profile說明本IG如何進一步定義FHIR的CarePlan Resource以呈現照護計畫資料。"
 * ^version = "0.2.3"
-* obeys tw-core-3
-* identifier MS
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "type"
-* identifier ^slicing.rules = #open
-* identifier ^short = "Member ID and other identifiers"
-* identifier contains memberid 0..1 MS
-* identifier[memberid] ^short = "Member ID"
-* identifier[memberid] ^condition = "tw-core-3"
-* identifier[memberid].type 1.. MS
-* identifier[memberid].type = http://terminology.hl7.org/CodeSystem/v2-0203#MB
-* identifier[memberid].type ^short = "Member Number identifier type"
+* text MS
+* text ^short = "CarePlan Resource之內容摘要以供人閱讀"
+* text.status MS
+* text.status from TWNarrativeStatus
+* text.status ^short = "generated | additional"
+* text.status ^binding.description = "Constrained value set of narrative statuses."
+* text.div MS
+* text.div ^short = "Limited xhtml content"
 * status MS
-* status ^comment = "The `Coverage.status` alone does not indicate whether an individual's coverage is terminated or that the individual is not covered. The `Coverage.period` needs to be considered as well."
-* type MS
-* type from http://hl7.org/fhir/ValueSet/coverage-type (extensible)
-* subscriberId MS
-* subscriberId ^comment = "The identifier assigned by the Payer on the subscriber's ID card"
-* subscriberId ^condition = "tw-core-3"
-* beneficiary only Reference(TWCorePatient)
-* beneficiary MS
-* beneficiary ^comment = "Identifier for a member assigned by the Payer."
-* relationship 1.. MS
-//* relationship from $subscriber-relationship (extensible)
-* relationship ^comment = "Relationship of the member to the person insured (subscriber)"
-* period MS
-* period ^comment = "Date that the contract became effective and Date that the contract was terminated or coverage changed."
-* payor ..1 MS
-* payor only Reference(TWCoreOrganization or TWCorePatient or TWCoreRelatedPerson)
-* payor ^comment = "Issuer of the Policy"
-* payor ^type.targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* payor ^type.targetProfile[=].extension.valueBoolean = true
-* payor ^type.targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* payor ^type.targetProfile[=].extension.valueBoolean = false
-* payor ^type.targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
-* payor ^type.targetProfile[=].extension.valueBoolean = false
-* class MS
-* class ^slicing.discriminator.type = #pattern
-* class ^slicing.discriminator.path = "type"
-* class ^slicing.description = "Slice based on value pattern"
-* class ^slicing.ordered = false
-* class ^slicing.rules = #open
-* class contains
-    group 0..1 MS and
-    plan 0..1 MS
-* class[group] ^short = "Group"
-* class[group].type = http://terminology.hl7.org/CodeSystem/coverage-class#group
-* class[group].value MS
-* class[group].value ^short = "Group Number"
-* class[group].value ^comment = "Employer account identifier"
-* class[group].name MS
-* class[group].name ^short = "Group Name"
-* class[group].name ^comment = "Name of the Employer Account (135)"
-* class[plan] ^short = "Plan"
-* class[plan].type = http://terminology.hl7.org/CodeSystem/coverage-class#plan
-* class[plan].value MS
-* class[plan].value ^short = "Plan Number"
-* class[plan].value ^comment = "Business concept used by a health plan to describe its benefit offerings"
-* class[plan].name MS
-* class[plan].name ^short = "Plan Name"
-* class[plan].name ^comment = "Name of the health plan benefit offering assigned to the Plan Identifier"
+* status from RequestStatus (required)
+* status ^requirements = "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record."
+* status ^binding.description = "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record."
+* intent MS
+* intent from CarePlanIntent (required)
+* intent ^binding.description = "Codes indicating the degree of authority/intentionality associated with a care plan"
+* category MS
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open
+* category ^definition = "Type of plan."
+* category ^requirements = "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g., \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc."
+* category contains AssessPlan 1..1 MS
+* category[AssessPlan] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/careplan-category-tw#assess-plan
+* category[AssessPlan] ^definition = "Type of plan."
+* category[AssessPlan] ^requirements = "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g., \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc."
+* subject only Reference(TWCorePatient or Group)
+* subject MS
+* subject ^definition = "Who care plan is for."
+* subject ^requirements = "Identifies the patient or group whose intended care is described by the plan."
+* subject ^type.targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
+* subject ^type.targetProfile[=].extension.valueBoolean = true
+* subject ^type.targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
+* subject ^type.targetProfile[=].extension.valueBoolean = false
 
-
-Invariant: tw-core-3
-Description: "Member Id in Coverage.identifier or Coverage.subscriberId SHALL be present"
-* severity = #error
-* expression = "identifier.type.coding.where(system='http://terminology.hl7.org/CodeSystem/v2-0203' and code='MB').exists() or subscriberId.exists()"
-* xpath = "f:identifier or f:subscriberId"
