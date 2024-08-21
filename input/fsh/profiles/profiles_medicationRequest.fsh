@@ -8,7 +8,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and intent and category and subject and encounter and requester and dosageInstruction and dosageInstruction.text and dosageInstruction.route and medication[x] and dosageInstruction.timing and reasonReference and identifier and authoredOn and note and dispenseRequest and dispenseRequest.validityPeriod and dispenseRequest.numberOfRepeatsAllowed and dispenseRequest.expectedSupplyDuration MS
-* reported[x] only boolean or Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or RelatedPerson or TWCoreOrganization)
+* reported[x] only boolean or Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreRelatedPerson or TWCoreOrganization)
 * medication[x] only CodeableConceptTW or Reference(TWCoreMedication)
 * medicationReference only Reference(TWCoreMedication)
 * medicationCodeableConcept.coding ^slicing.discriminator.type = #pattern
@@ -31,8 +31,8 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 
 * subject only Reference(TWCorePatient or Group)
 * encounter only Reference(TWCoreEncounter)
-* requester only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or RelatedPerson or Device)
-* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or RelatedPerson or CareTeam)
+* requester only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or TWCoreRelatedPerson or Device)
+* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or TWCoreRelatedPerson or CareTeam)
 * recorder only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult)
 * basedOn only Reference(CarePlan or TWCoreMedicationRequest or ServiceRequest or ImmunizationRecommendation)	

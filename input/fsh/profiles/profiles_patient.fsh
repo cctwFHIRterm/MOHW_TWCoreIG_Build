@@ -193,7 +193,7 @@ Description:    "
 * generalPractitioner only Reference(TWCoreOrganization  or TWCorePractitioner or TWCorePractitionerRole)
 * managingOrganization MS
 * managingOrganization only Reference(TWCoreOrganization)
-* link.other only Reference(TWCorePatient  or RelatedPerson)
+* link.other only Reference(TWCorePatient  or TWCoreRelatedPerson)
 
 * . ^short = "接受健康照護服務的個人或動物之資訊"
 * . ^definition = "關於接受照護或其他健康相關服務的個人或動物的人口統計學和其他行政資訊。"

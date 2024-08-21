@@ -17,7 +17,7 @@ Description: "此臺灣核心-配藥或藥品調劑（TW Core MedicationDispense
 * subject 1..
 * subject only Reference(TWCorePatient or Group)
 * partOf only Reference(TWCoreProcedure)
-* performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or RelatedPerson)
+* performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or TWCoreRelatedPerson)
 * context only Reference(TWCoreEncounter)
 * authorizingPrescription only Reference(TWCoreMedicationRequest)
 * receiver only Reference(TWCorePatient or TWCorePractitioner)

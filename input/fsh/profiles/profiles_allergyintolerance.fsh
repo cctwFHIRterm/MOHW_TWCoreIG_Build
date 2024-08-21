@@ -9,8 +9,8 @@ Description: "此臺灣核心-過敏或不耐症（TW Core AllergyIntolerance）
 * clinicalStatus and verificationStatus and code and patient and reaction and reaction.manifestation and recordedDate and recorder and note MS
 * patient only Reference(TWCorePatient)
 * encounter only Reference(TWCoreEncounter)
-* recorder only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or RelatedPerson)
-* asserter only Reference(TWCorePatient or RelatedPerson or TWCorePractitioner or TWCorePractitionerRole)
+* recorder only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or TWCoreRelatedPerson)
+* asserter only Reference(TWCorePatient or TWCoreRelatedPerson or TWCorePractitioner or TWCorePractitionerRole)
 * clinicalStatus only CodeableConceptTW 
 * verificationStatus only CodeableConceptTW 
 * code only CodeableConceptTW 

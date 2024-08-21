@@ -14,7 +14,7 @@ Description: "此臺灣核心-多媒體（TW Core Media） Profile說明本IG如
 * reasonCode only CodeableConceptTW
 * subject only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or Group or Device or TWCoreSpecimen or TWCoreLocation)
 * encounter only Reference(TWCoreEncounter)
-* operator only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam or TWCorePatient or  Device or RelatedPerson)
+* operator only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam or TWCorePatient or  Device or TWCoreRelatedPerson)
 * type from MediaType (extensible)
 * view from http://hl7.org/fhir/ValueSet/media-view (extensible)
 * reasonCode from http://hl7.org/fhir/ValueSet/procedure-reason (extensible)

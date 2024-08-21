@@ -20,7 +20,7 @@ Description: "此臺灣核心-用藥聲明（TW Core  MedicationStatement） Pro
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreObservationLaboratoryResult)
 * subject only Reference(TWCorePatient or Group)
 * context only Reference(TWCoreEncounter or EpisodeOfCare)
-* informationSource only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or RelatedPerson or TWCoreOrganization)
+* informationSource only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreRelatedPerson or TWCoreOrganization)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult or TWCoreDiagnosticReport)
 * medicationCodeableConcept.coding ^slicing.discriminator.type = #pattern
 * medicationCodeableConcept.coding ^slicing.discriminator.path = "$this"

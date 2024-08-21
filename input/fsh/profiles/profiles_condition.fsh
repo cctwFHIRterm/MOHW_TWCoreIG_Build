@@ -16,8 +16,8 @@ Description:    "此臺灣核心-病情、問題或診斷（TW Core Condition）
 * bodySite MS
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
-* recorder only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or RelatedPerson)
-* asserter only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or RelatedPerson)
+* recorder only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or TWCoreRelatedPerson)
+* asserter only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCorePatient or TWCoreRelatedPerson)
 * stage.assessment only Reference(ClinicalImpression or TWCoreDiagnosticReport or TWCoreObservationLaboratoryResult or TWCoreObservationVitalSigns)
 
 * clinicalStatus only CodeableConceptTW

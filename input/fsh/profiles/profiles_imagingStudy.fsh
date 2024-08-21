@@ -28,8 +28,8 @@ Description: "此臺灣核心-影像檢查（TW Core ImagingStudy） Profile說�
 * procedureReference only Reference(TWCoreProcedure)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult or Media or TWCoreDiagnosticReport or DocumentReference)
 * series.specimen only Reference(TWCoreSpecimen)
-//* series.performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreOrganizationGovt or TWCoreOrganizationHosp or TWCoreOrganizationCo or CareTeam or TWCorePatient or Device or RelatedPerson)
-* series.performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam or TWCorePatient or Device or RelatedPerson)
+//* series.performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreOrganizationGovt or TWCoreOrganizationHosp or TWCoreOrganizationCo or CareTeam or TWCorePatient or Device or TWCoreRelatedPerson)
+* series.performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam or TWCorePatient or Device or TWCoreRelatedPerson)
 
 * series.bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 * series.laterality from http://hl7.org/fhir/ValueSet/bodysite-laterality (extensible)

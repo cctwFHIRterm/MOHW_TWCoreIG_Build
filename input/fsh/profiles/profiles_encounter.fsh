@@ -32,7 +32,7 @@ Description:    "此臺灣核心-就醫事件（TW Core Encounter） Profile說�
 
 * subject only Reference(TWCorePatient or Group)
 * participant and participant.type and participant.period and participant.individual MS
-* participant.individual only Reference(TWCorePractitioner or TWCorePractitionerRole or RelatedPerson)
+* participant.individual only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreRelatedPerson)
 * reasonReference only Reference(TWCoreCondition or TWCoreProcedure or TWCoreObservationLaboratoryResult or ImmunizationRecommendation)
 * diagnosis.condition only Reference(TWCoreCondition or TWCoreProcedure)
 * hospitalization.dischargeDisposition MS

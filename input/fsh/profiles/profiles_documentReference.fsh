@@ -14,7 +14,7 @@ Description: "此臺灣核心-文件參照（TW Core DocumentReference） Profil
 * context.event only CodeableConceptTW 
 * context.practiceSetting only CodeableConceptTW 
 * subject only Reference(TWCorePatient or TWCorePractitioner or Group or Device)
-* author only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or Device or TWCorePatient or RelatedPerson)
+* author only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or Device or TWCorePatient or TWCoreRelatedPerson)
 * authenticator only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization)
 * custodian only Reference(TWCoreOrganization)
 * relatesTo.target only Reference(TWCoreDocumentReference)
