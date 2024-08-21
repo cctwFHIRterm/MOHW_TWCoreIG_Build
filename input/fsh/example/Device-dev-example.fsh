@@ -1,7 +1,5 @@
 Instance: dev-example
 InstanceOf: TWCoreImplantableDevice
-Title: "植入式裝置"
-Description: "依據臺灣核心-植入式裝置(TW Core Simple Observation) Profile呈現植入式裝置之範例"
 Usage: #example
 * udiCarrier.deviceIdentifier = "09504000059118"
 * udiCarrier.carrierHRF = "(01)09504000059118(17)141120(10)7654321D(21)10987654d321"

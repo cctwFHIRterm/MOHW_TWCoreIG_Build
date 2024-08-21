@@ -43,7 +43,7 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
     LiaRocOccupation 0..1 MS and
     MolOccupation 0..1 MS
 * valueCodeableConcept.coding[LiaRocOccupation] from TWLIAROCOccupation (required)
-* valueCodeableConcept.coding[LiaRocOccupation].system = "http://loinc.org"
+* valueCodeableConcept.coding[LiaRocOccupation].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/occupation-lia-roc-tw"
 * valueCodeableConcept.coding[LiaRocOccupation].system MS
 * valueCodeableConcept.coding[LiaRocOccupation].code 1..1 MS
 * valueCodeableConcept.coding[MolOccupation] from TWMolOccupation (required)

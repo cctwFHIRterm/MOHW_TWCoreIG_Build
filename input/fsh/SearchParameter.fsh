@@ -1557,5 +1557,5 @@ Description: "保險的對象(patient)"
 * description = "保險的對象(patient)"
 * code = #patient
 * base = #Coverage
-* expression = "Coverage.patient"
+* expression = "Coverage.beneficiary"
 * type = #reference

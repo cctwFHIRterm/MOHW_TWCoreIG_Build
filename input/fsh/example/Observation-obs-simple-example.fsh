@@ -1,7 +1,5 @@
 Instance: obs-simple-example
 InstanceOf: TWCoreObservationSimple
-Title: "調查資料-通用檢驗檢查"
-Description: "依據臺灣核心-通用檢驗檢查(TW Core Simple Observation) Profile呈現通用檢驗檢查之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey "Survey"

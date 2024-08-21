@@ -126,7 +126,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 * intent ^short = "proposal | plan | order | original-order | reflex-order | filler-order | instance-order | option"
 * intent ^binding.description = "應填入所綁定值集中的其中一個代碼"
 * intent ^definition = "請求是提案、計畫、還是原始醫令？"
-* intent ^comment = "預期服務請求者的型別將在MedicationRequest的不同階段受到限制。例如：提案可由病人（Patient）、相關人員（relatedPerson）、健康照護服務提供者（Practitioner）或設備（Device）建立。照護計畫可由健康照護服務提供者、病人、相關人員和設備建立。原始醫令只能由健康照護服務提供者建立。
+* intent ^comment = "預期服務請求者的型別將在MedicationRequest的不同階段受到限制。例如：提案可由病人（Patient）、相關人士（relatedPerson）、健康照護服務提供者（Practitioner）或設備（Device）建立。照護計畫可由健康照護服務提供者、病人、相關人士和設備建立。原始醫令只能由健康照護服務提供者建立。
  
 實例醫令（an instance-order）是請求或醫令的實例，可用於填充給藥紀錄。
  

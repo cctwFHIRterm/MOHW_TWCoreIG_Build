@@ -61,7 +61,7 @@ Composition resource 在 FHIR 中用於將臨床和行政內容組織成多個�
   <tr>
     <td><code class=" highlighter-rouge language-plaintext">final</code></td>
     <td>最終的</td>
-    <td>這版本的 composition 已經被相關人員完整地完成並進行了驗證，且不打算進行進一步的修改或添加。如果有任何後續的更新，將會在該 composition 的新版本中進行。</td>
+    <td>這版本的 composition 已經被相關人士完整地完成並進行了驗證，且不打算進行進一步的修改或添加。如果有任何後續的更新，將會在該 composition 的新版本中進行。</td>
   </tr>
   <tr>
     <td><code class=" highlighter-rouge language-plaintext">amended</code></td>

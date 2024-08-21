@@ -1,7 +1,5 @@
 Instance: obs-careExp-example
 InstanceOf: TWCoreObservationCareExperiencePreference
-Title: "病人照護偏好註記"
-Description: "依據臺灣核心-病人照護偏好註記(TW Core Observation Care Experience Preference) Profile呈現病人照護偏好註記之範例"
 Usage: #example
 * status = #final
 * category = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/observation-category#care-experience-preference "Care experience preference"

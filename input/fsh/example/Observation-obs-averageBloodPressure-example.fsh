@@ -1,7 +1,5 @@
 Instance: obs-averageBloodPressure-example
 InstanceOf: TWCoreObservationAverageBloodPressure
-Title: "生命體徵資料-平均血壓"
-Description: "依據臺灣核心-平均血壓(TW Core Observation Average Blood Pressure) Profile呈現平均血壓之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"

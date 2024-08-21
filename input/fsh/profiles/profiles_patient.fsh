@@ -817,7 +817,7 @@ pat-cnt-2or3-char：如果有國家名，則必須（SHALL）從[ISO Country Alp
 * contact.period ^definition = "與此病人有關的聯絡人或機構的有效聯絡期"
 * communication ^short = "向病人說明健康狀態時所使用的語言"
 * communication ^definition = "可用於與病人溝通其健康狀況的語言。"
-* communication ^requirements = "如果病人不會說當地語言，可能需要翻譯，因此，對於病人和其他相關人員來說，所講的語言和熟練程度都是需要記錄的重要內容。"
+* communication ^requirements = "如果病人不會說當地語言，可能需要翻譯，因此，對於病人和其他相關人士來說，所講的語言和熟練程度都是需要記錄的重要內容。"
 * communication ^comment = "如果沒有指定語言，這意味著預設使用當地語言。如果你需要多種模式的熟練程度，那麼你需要多個Patient.Communication關聯。對於動物來說，語言不是相關的欄位，應該不存在於實例中。如果病人不講預設的當地語言，那麼可以使用 「（Interpreter Required Standard）需要口譯員」來明確聲明需要口譯員。"
 
 /*

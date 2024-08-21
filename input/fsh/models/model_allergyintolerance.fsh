@@ -12,7 +12,7 @@ Description: "臺灣核心-過敏或不耐症(TW Core AllergyIntolerance) 之資
 * recorder 0..1 BackboneElement "誰記錄了過敏或不耐受。" "誰記錄了過敏或不耐受。"
 * recorder.practitioner 0..1  Practitioner "某健康照護服務提供者紀錄了這個過敏或不耐受。" "某健康照護服務提供者紀錄了這個過敏或不耐受。"
 * recorder.practitionerRole 0..1  PractitionerRole "某健康照護服務角色紀錄了這個過敏或不耐受。" "某健康照護服務角色紀錄了這個過敏或不耐受。"
-* recorder.RelatedPerson 0..1  RelatedPerson "某相關人員紀錄了這個過敏或不耐受。" "某相關人員紀錄了這個過敏或不耐受。"
+* recorder.RelatedPerson 0..1  RelatedPerson "某相關人士紀錄了這個過敏或不耐受。" "某相關人士紀錄了這個過敏或不耐受。"
 * note 0..* Annotation "其他欄位中沒有記錄的額外文字陳述。" "其他欄位中沒有記錄的額外文字陳述。"*/
 
 Mapping: TWAllergyIntolerance

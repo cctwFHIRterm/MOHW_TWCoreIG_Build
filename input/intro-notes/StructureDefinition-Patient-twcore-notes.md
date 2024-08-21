@@ -282,7 +282,7 @@ GET /Patient/001?_revinclude=Linkage:item
 
 ### Patient.contact vs. RelatedPerson 
 
-在 Patient resource 中，contact 資料項目被專門設計來儲存聯絡人的細節。因此，這些資訊總是伴隨著 Patient resource 一同被傳遞，而且這些聯絡人資訊並不能直接被其他 resources 作為參照的目標。這就意味著，如果在其他 resources 中（像是 CarePlan.participant、Encounter.participant、DocumentReference.author、Appointment.participant）需要參照到病人的相關人員，那麼我們就必須要使用 RelatedPerson resource 來實現這一點。
+在 Patient resource 中，contact 資料項目被專門設計來儲存聯絡人的細節。因此，這些資訊總是伴隨著 Patient resource 一同被傳遞，而且這些聯絡人資訊並不能直接被其他 resources 作為參照的目標。這就意味著，如果在其他 resources 中（像是 CarePlan.participant、Encounter.participant、DocumentReference.author、Appointment.participant）需要參照到病人的相關人士，那麼我們就必須要使用 RelatedPerson resource 來實現這一點。
 
 此外，這些紀錄並不是用來記錄病人的主要照護提供者的資訊。相對地，這種類型的資訊應該被儲存在 Patient.generalPractitioner 資料項目中。這樣的安排確保了資訊的清晰劃分，使得病人的聯絡人資訊和照護提供者資訊各自存放在最合適的位置，從而方便了資訊的查詢和使用。
 

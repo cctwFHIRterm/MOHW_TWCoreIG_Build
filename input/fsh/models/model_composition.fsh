@@ -21,7 +21,7 @@ Description: "臺灣核心-臨床文件架構(TW Core Composition) 之資料模�
 * author.organization 0..*  Organization "某機構創建這個臨床文件架構。" "某機構創建這個臨床文件架構。"
 * author.patient 0..*  Patient "某病人創建這個臨床文件架構。" "某病人創建這個臨床文件架構。"
 * author.device 0..*  Device "某設備創建這個臨床文件架構。" "某設備創建這個臨床文件架構。"
-* author.relatedPerson 0..*  RelatedPerson "某相關人員創建這個臨床文件架構。" "某相關人員創建這個臨床文件架構。"
+* author.relatedPerson 0..*  RelatedPerson "某相關人士創建這個臨床文件架構。" "某相關人士創建這個臨床文件架構。"
 * title 1..1 string "人類可讀的名稱/標題。" "人類可讀的名稱/標題。"
 * attester 0..* BackboneElement "證明臨床文件架構的準確性。" "證明臨床文件架構的準確性。"
 * custodian 0..1 Organization "維護臨床文件架構的機構。" "維護臨床文件架構的機構。" 

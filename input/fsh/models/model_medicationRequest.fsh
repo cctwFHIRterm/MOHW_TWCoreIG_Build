@@ -23,7 +23,7 @@ Description: "臺灣核心-藥品請求(TW Core MedicationRequest) 之資料模�
 * requester.practitionerRole 0..1 PractitionerRole "提出藥品請求的某健康照護服務角色。" "提出藥品請求的某健康照護服務角色。"
 * requester.organization 0..1 Organization "提出藥品請求的某機構。" "提出藥品請求的某機構。"
 * requester.patient 0..1 Patient "提出藥品請求的某病人。" "提出藥品請求的某病人。"
-* requester.relatedPerson 0..1 RelatedPerson "提出藥品請求的某相關人員。" "提出藥品請求的某相關人員。"
+* requester.relatedPerson 0..1 RelatedPerson "提出藥品請求的某相關人士。" "提出藥品請求的某相關人士。"
 * requester.device 0..1 Device "提出藥品請求的某設備。" "提出藥品請求的某設備。"
 //* reasonReference[x] 0..* Condition or Observation "開立處方的原因。" "開立處方的原因。"
 * reasonReference 0..* BackboneElement "開立處方的原因。" "開立處方的原因。"
