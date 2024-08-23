@@ -4,6 +4,7 @@ Id: Observation-screening-assessment-twcore
 Title: "TW Core Observation Screening Assessment"
 Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現健康狀態篩檢與評估資料。"
 * ^version = "0.2.3"
+* . obeys tw-core-2
 * status MS
 * category MS
 * category only CodeableConceptTW
@@ -28,6 +29,7 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
 * effective[x] ^type.extension.valueBoolean = true
 * performer MS
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam or TWCoreRelatedPerson)
+* value[x] obeys tw-core-3
 * value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
 * value[x] MS
 * value[x] ^type[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
