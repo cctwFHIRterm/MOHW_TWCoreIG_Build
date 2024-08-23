@@ -390,7 +390,7 @@ Description:    "tifier:residentNumber欄位的identifier.system改為 = http://
 * identifier[medicalLicenseNumber].type.text ^definition = "輸入資料的使用者所見／所選／所說的人類可讀文字表述，和（或）其代表使用者的預期含義。"
 * identifier[medicalLicenseNumber].type.text ^requirements = "專門術語中的代碼並不總是能捕捉人類使用的細微差別的正確意義，或者根本就沒有合適的代碼；這些情況下，文字表述被用來捕捉來源的全部意義。"
 * identifier[medicalLicenseNumber].type.text ^comment = "很多時候，此文字表述與其中一個代碼的顯示名稱相同。"
-* identifier[medicalLicenseNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace），可至 [twTerminology](https://twcore.mohw.gov.tw/ts/namingsystem.jsp?status=active&amp;type=0) 申請或查詢命名系統。"
+* identifier[medicalLicenseNumber].system ^short = "身份識別碼（identifier）的命名空間（namespace），可至 [twTerminology](https://fhir.mohw.gov.tw/ts/namingsystem.jsp?status=active&amp;type=0) 申請或查詢命名系統。"
 * identifier[medicalLicenseNumber].system ^definition = "建立值的命名空間－即一個描述一組值的唯一URL"
 * identifier[medicalLicenseNumber].system ^requirements = "有許多識別碼的集合。為了進行兩個識別碼的對應，我們需要知道我們處理的是哪一組。系統指明了一個特定的唯一識別碼集。"
 * identifier[medicalLicenseNumber].system ^comment = "Identifier.system總是區分大小寫"

@@ -60,10 +60,18 @@
 - [<span class="bg-success">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</span>](StructureDefinition-Observation-pregnancy-intent-twcore.html) 
 - [<span class="bg-success">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</span>](StructureDefinition-Observation-pregnancy-status-twcore.html) 
 - [<span class="bg-success">臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment）</span>](StructureDefinition-Observation-screening-assessment-twcore.html) 
+- [<span class="bg-success">臺灣核心-性傾向（TW Core Observation Sexual Orientation）</span>](StructureDefinition-Observation-sexual-orientation-twcore.html) 
 - [<span class="bg-success">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</span>](StructureDefinition-Observation-simple-twcore.html) 
+- [<span class="bg-success">臺灣核心-吸菸狀態（TW Core Smoking Status Observation）</span>](StructureDefinition-Observation-smoking-status-twcore.html) 
+- [<span class="bg-success">臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）</span>](StructureDefinition-Observation-treatment-intervention-preference-twcore.html) 
 - [臺灣核心-生命體徵（TW Core Observation Vital Signs）](StructureDefinition-Observation-vitalSigns-twcore.html) 
+  - [<span class="bg-success">臺灣核心-兒童及青少年生長身體質量指數（TW Core Pediatric BMI for Age Observation）</span>](StructureDefinition-Observation-pediatric-bmi-age-twcore.html) 
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
   - [臺灣核心-身體質量指數（TW Core Observation BMI）](StructureDefinition-Observation-bmi-twcore.html) 
+  - [<span class="bg-success">臺灣核心-身高（TW Core Observation Body Height）</span>](StructureDefinition-Observation-body-height-twcore.html) 
+  - [<span class="bg-success">臺灣核心-體溫（TW Core Observation Body Temperature）</span>](StructureDefinition-Observation-body-temperature-twcore.html) 
+  - [<span class="bg-success">臺灣核心-體重（TW Core Observation Body Weight）</span>](StructureDefinition-Observation-body-weight-twcore.html) 
+  - [<span class="bg-success">臺灣核心-頭圍（TW Core Observation Head Circumference）</span>](StructureDefinition-Observation-head-circumference-twcore.html) 
 
 #### Organization
 - [臺灣核心-機構（TW Core Organization）](StructureDefinition-Organization-twcore.html) 

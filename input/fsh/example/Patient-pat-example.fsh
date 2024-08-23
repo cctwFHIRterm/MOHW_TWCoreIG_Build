@@ -38,8 +38,8 @@ Usage: #example
 * extension[=].extension.url = "code"
 * extension[=].extension.valueCodeableConcept = urn:iso:std:iso:3166#TW
 * address.country = "TW"
-* address.district = "大同區"
-* address.city = "臺北市"
+* address.district = "臺北市"
+* address.city = "大同區"
 * address.line = "承德路"
 * address.extension[0].url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-section"
 * address.extension[=].valueString = "三段"
@@ -127,8 +127,8 @@ Usage: #example
 	<p>
 		<b>聯絡地址</b>：(103)臺北市大同區大有里19鄰承德路三段52巷6弄210號2樓B室<br />
 		<b>  郵遞區號（postalCode） [extension: <a href=\"StructureDefinition-tw-postal-code.html\">tw-postal-code</a>] </b>： <a href=\"CodeSystem-postal-code3-tw.html\">103</a> <br />
-		<b>  縣/市（city）</b>：臺北市 <br />
-		<b>  鄉/鎮/市/區（district）</b>：大同區 <br />
+		<b>  縣/市（district）</b>：臺北市 <br />
+		<b>  鄉/鎮/市/區（city）</b>：大同區 <br />
 		<b>  村(里)（village） [extension: <a href=\"StructureDefinition-tw-village.html\">tw-village</a>] </b>：大有里 <br />
 		<b>  鄰（neighborhood） [extension: <a href=\"StructureDefinition-tw-neighborhood.html\">tw-neighborhood</a>] </b>：19鄰 <br />
 		<b>  路/街（line）</b>：承德路 <br />
