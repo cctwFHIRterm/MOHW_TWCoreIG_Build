@@ -46,7 +46,7 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 
 * value[x] ..0
 * component MS
-* component obeys tw-core-2
+//* component obeys tw-core-2
 * component ^short = "Average systolic and diastolic blood pressure and other qualifiers."
 * component.value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
 * component.value[x] MS
@@ -101,8 +101,3 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * component[Number].valueQuantity only Quantity
 * component[Number].valueQuantity MS
 * component[Number].valueQuantity.value 1..1 MS
-
-Invariant: tw-core-2
-Description: "If there is no value a data absent reason must be present"
-* severity = #error
-* expression = "value.exists() or dataAbsentReason.exists()"

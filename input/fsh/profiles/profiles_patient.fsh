@@ -114,7 +114,7 @@ Description:    "
     usual 0..1 MS and
     temp 0..1 MS and
     anonymous 0..1 MS
-* name[official] obeys tw-core-1
+//* name[official] obeys tw-core-1
 * name[official].use MS
 * name[official].use = #official
 * name[official].text MS
@@ -129,7 +129,7 @@ Description:    "
 * name[official].given ^example.label = "General"
 * name[official].given ^example.valueString = "Chia-Lin"
 * name[official].given ^condition = "tw-core-1"
-* name[usual] obeys tw-core-1
+//* name[usual] obeys tw-core-1
 * name[usual].use MS
 * name[usual].use = #usual
 * name[usual].text MS
@@ -868,8 +868,3 @@ pat-cnt-2or3-char：如果有國家名，則必須（SHALL）從[ISO Country Alp
 * link.type ^binding.description = "連結的型別；應填入所綁定值集中的其中一個代碼。"
 * link.type ^definition = "這個Patient resource與另一個Patient resource之間的連結型別"
 
-Invariant:   tw-core-1
-Description: "Patient.name.text or Patient.name.family or both SHALL be present"
-Expression:  "text.exists() or family.exists()"
-Severity:    #error
-XPath:       "f:text or f:given"
