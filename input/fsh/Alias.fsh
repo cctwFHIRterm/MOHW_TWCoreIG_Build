@@ -42,4 +42,8 @@ Description: "For Observation.code 401201003|Cigarette pack-years or 782516008|N
 * severity = #warning
 * expression = "code.coding.where(code in '401201003'|'782516008').exists() implies value.is(Quantity)"
 
-
+Invariant: tw-core-9
+Description: "Member Id in Coverage.identifier or Coverage.subscriberId SHALL be present"
+* severity = #error
+* expression = "identifier.type.coding.where(system='http://terminology.hl7.org/CodeSystem/v2-0203' and code='MB').exists() or subscriberId.exists()"
+* xpath = "f:identifier or f:subscriberId"

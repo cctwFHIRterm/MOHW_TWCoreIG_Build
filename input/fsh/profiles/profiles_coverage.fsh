@@ -4,7 +4,7 @@ Id:             Coverage-twcore
 Title:          "TW Core Coverage"
 Description:    "此臺灣核心-保險（TW Core Coverage） Profile說明本IG如何進一步定義FHIR的Coverage Resource以呈現保險資料。"
 * ^version = "0.2.3"
-* obeys tw-core-3
+* . obeys tw-core-9
 * identifier MS
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "type"
@@ -67,8 +67,3 @@ Description:    "此臺灣核心-保險（TW Core Coverage） Profile說明本IG
 * class[plan].name ^comment = "Name of the health plan benefit offering assigned to the Plan Identifier"
 
 
-Invariant: tw-core-3
-Description: "Member Id in Coverage.identifier or Coverage.subscriberId SHALL be present"
-* severity = #error
-* expression = "identifier.type.coding.where(system='http://terminology.hl7.org/CodeSystem/v2-0203' and code='MB').exists() or subscriberId.exists()"
-* xpath = "f:identifier or f:subscriberId"

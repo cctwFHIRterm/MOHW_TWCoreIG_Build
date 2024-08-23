@@ -1,4 +1,4 @@
-Profile:        TWCoreBodyTemperature
+Profile:        TWCoreObservationBodyTemperature
 Parent:         TWCoreObservationVitalSigns
 Id:             Observation-body-temperature-twcore
 Title:          "TW Core Observation Body Temperature"
