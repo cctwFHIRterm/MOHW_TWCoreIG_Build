@@ -2,7 +2,7 @@ Profile:        TWCoreObservationTreatmentInterventionPreference
 Parent:         Observation
 Id:             Observation-treatment-intervention-preference-twcore
 Title:          "TW Core Observation Treatment Intervention Preference"
-Description:    "此臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference） Profile說明本IG如何進一步定義FHIR的Observation Profile以呈現病人治療偏好註記。"
+Description:    "此臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference） Profile說明本IG如何進一步定義FHIR的Observation Profile以呈現病人治療偏好註記資料。"
 * ^version = "0.2.3"
 * status MS
 * category MS

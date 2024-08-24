@@ -1,13 +1,13 @@
-Profile:        TWCoreObservationHeartRate
+Profile:        TWCoreObservationRespiratoryRate
 Parent:         TWCoreObservationVitalSigns
-Id:             Observation-heart-rate-twcore
-Title:          "TW Core Observation Heart Rate"
-Description:    "此臺灣核心-心率（TW Core Observation Heart Rate） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現心率資料。"
+Id:             Observation-respiratory-rate-twcore
+Title:          "TW Core Observation Respiratory Rate "
+Description:    "此臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現呼吸速率資料。"
 * ^version = "0.2.3"
 * code only CodeableConceptTW
-* code = http://loinc.org#8867-4
+* code = http://loinc.org#9279-1
 * code MS
-* code ^short = "Heart Rate"
+* code ^short = "Respiratory rate"
 * valueQuantity 0..1 MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.value only decimal

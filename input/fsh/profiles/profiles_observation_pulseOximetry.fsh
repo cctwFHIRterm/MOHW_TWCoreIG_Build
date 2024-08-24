@@ -2,7 +2,7 @@ Profile:        TWCoreObservationPulseOximetry
 Parent:         TWCoreObservationVitalSigns
 Id:             Observation-pulse-oximetry-twcore
 Title:          "TW Core Observation Pulse Oximetry"
-Description:    "此臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現脈搏血氧飽和度。"
+Description:    "此臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現脈搏血氧飽和度資料。"
 * ^version = "0.2.3"
 * code only CodeableConceptTW
 * code MS
