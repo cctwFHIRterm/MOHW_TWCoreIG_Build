@@ -23,9 +23,9 @@ Description: "SNOMED CT + HL7 NullFlavor 性傾向值集。"
 * ^version = "0.2.3"
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
 * ^experimental = false
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept descendent-of #365980008
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept is-a #722499006
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept is-a #699009004
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept is-a #16090371000119103
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept = "16090771000119104"
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/731000124108/version/20240301 where concept is-a #275105001
+* include codes from system http://snomed.info/sct where concept descendent-of #365980008
+* include codes from system http://snomed.info/sct where concept is-a #722499006
+* include codes from system http://snomed.info/sct where concept is-a #699009004
+* include codes from system http://snomed.info/sct where concept is-a #16090371000119103
+* include codes from system http://snomed.info/sct where concept = "16090771000119104"
+* include codes from system http://snomed.info/sct where concept is-a #275105001

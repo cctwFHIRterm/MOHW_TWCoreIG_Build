@@ -29,6 +29,7 @@ Description:    "此臺灣核心-病人治療偏好註記（TW Core Observation 
 * effective[x] only dateTime or Period or Timing or instant
 * effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * effective[x] ^type.extension.valueBoolean = true
+* value[x] MS
 * value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
 * value[x] ^type[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * value[x] ^type[=].extension.valueBoolean = true
