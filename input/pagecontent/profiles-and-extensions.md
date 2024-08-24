@@ -72,6 +72,8 @@
   - [<span class="bg-success">臺灣核心-體溫（TW Core Observation Body Temperature）</span>](StructureDefinition-Observation-body-temperature-twcore.html) 
   - [<span class="bg-success">臺灣核心-體重（TW Core Observation Body Weight）</span>](StructureDefinition-Observation-body-weight-twcore.html) 
   - [<span class="bg-success">臺灣核心-頭圍（TW Core Observation Head Circumference）</span>](StructureDefinition-Observation-head-circumference-twcore.html) 
+  - [<span class="bg-success">臺灣核心-心率（TW Core Observation Heart Rate）</span>](StructureDefinition-Observation-heart-rate-twcore.html) 
+  - [<span class="bg-success">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</span>](StructureDefinition-Observation-pulse-oximetry-twcore.html) 
 
 #### Organization
 - [臺灣核心-機構（TW Core Organization）](StructureDefinition-Organization-twcore.html) 
