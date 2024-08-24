@@ -1,11 +1,9 @@
-//Patient.name[official]、Patient.ame[usual]
 Invariant:   tw-core-1
 Description: "Patient.name.text or Patient.name.family or both SHALL be present"
 Expression:  "text.exists() or family.exists()"
 Severity:    #error
 XPath:       "f:text or f:given"
 
-//Observation Average Blood Pressure.component
 Invariant: tw-core-2
 Description: "If there is no value a data absent reason must be present"
 * severity = #error
