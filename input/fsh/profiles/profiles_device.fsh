@@ -5,7 +5,7 @@ Title:          "TW Core Implantable Device"
 Description:    "此臺灣核心-植入式裝置（TW Core Implantable Device） Profile說明本IG如何進一步定義FHIR的Device Resource以呈現植入式裝置資料。"
 * ^version = "0.2.3"
 * identifier MS 
-* identifier ^short = "建議填寫院內碼。"
+* identifier ^short = "許可證字號或機構內部醫療器材代碼等，可用以唯一識別該醫療器材的代碼。"
 * udiCarrier ..1 MS
 //* udiCarrier ^comment = "Some devices may not have UDI information (for example. historical data or patient reported data)."
 * udiCarrier.deviceIdentifier 1.. MS
@@ -13,8 +13,8 @@ Description:    "此臺灣核心-植入式裝置（TW Core Implantable Device）
 * udiCarrier.carrierHRF MS
 * udiCarrier.carrierHRF ^alias[0] = "UDI"
 * udiCarrier.carrierHRF ^alias[+] = "Barcode String"
-* manufactureDate MS
-* manufactureDate ^short = "製造商"
+* manufacturer MS
+* manufacturer ^short = "製造商"
 * expirationDate MS
 * expirationDate ^short = "有效期限"
 * lotNumber MS
