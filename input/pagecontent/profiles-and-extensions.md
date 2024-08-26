@@ -69,13 +69,14 @@
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
   - [臺灣核心-身體質量指數（TW Core Observation BMI）](StructureDefinition-Observation-bmi-twcore.html) 
   - [<span class="bg-success">臺灣核心-身高（TW Core Observation Body Height）</span>](StructureDefinition-Observation-body-height-twcore.html) 
-  - [<span class="bg-success">臺灣核心-體溫（TW Core Observation Body Temperature）</span>](StructureDefinition-Observation-body-temperature-twcore.html) 
+  
+  <!-- - [<span class="bg-success">臺灣核心-體溫（TW Core Observation Body Temperature）</span>](StructureDefinition-Observation-body-temperature-twcore.html) 
   - [<span class="bg-success">臺灣核心-體重（TW Core Observation Body Weight）</span>](StructureDefinition-Observation-body-weight-twcore.html) 
   - [<span class="bg-success">臺灣核心-頭圍（TW Core Observation Head Circumference）</span>](StructureDefinition-Observation-head-circumference-twcore.html) 
   - [<span class="bg-success">臺灣核心-心率（TW Core Observation Heart Rate）</span>](StructureDefinition-Observation-heart-rate-twcore.html) 
   - [<span class="bg-success">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</span>](StructureDefinition-Observation-pulse-oximetry-twcore.html) 
   - [<span class="bg-success">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</span>](StructureDefinition-Observation-respiratory-rate-twcore.html) 
-  - [<span class="bg-success">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</span>](StructureDefinition-Observation-pediatric-head-circumference-twcore.html) 
+  - [<span class="bg-success">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</span>](StructureDefinition-Observation-pediatric-head-circumference-twcore.html) -->
 
 #### Organization
 - [臺灣核心-機構（TW Core Organization）](StructureDefinition-Organization-twcore.html) 
