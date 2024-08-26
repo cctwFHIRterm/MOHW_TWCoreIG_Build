@@ -26,3 +26,4 @@ Description:    "此臺灣核心-植入式裝置（TW Core Implantable Device）
 * patient only Reference(TWCorePatient)
 * owner only Reference(TWCoreOrganization)
 * location only Reference(TWCoreLocation)
+* parent only Reference(TWCoreImplantableDevice)
