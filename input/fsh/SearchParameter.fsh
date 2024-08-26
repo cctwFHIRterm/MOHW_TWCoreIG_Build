@@ -1633,3 +1633,48 @@ Usage: #definition
 * base = #CarePlan
 * expression = "CarePlan.status"
 * type = #token
+
+//-------------------------CareTeam-------------------------
+Instance: CareTeam-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-patient"
+* name = "CareTeamPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "照護團隊的對象(patient)"
+* code = #patient
+* base = #CareTeam
+* expression = "CareTeam.subject.where(resolve() is Patient)"
+* type = #reference
+
+Instance: CareTeam-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-status"
+* name = "CareTeamStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "照護團隊的狀態(status)"
+* code = #status
+* base = #CareTeam
+* expression = "CareTeam.status"
+* type = #token
+
+Instance: CareTeam-role
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/CareTeam-role"
+* name = "CareTeamRole"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "照護團隊的角色(role)"
+* code = #role
+* base = #CareTeam
+* expression = "CareTeam.participant.role"
+* type = #token

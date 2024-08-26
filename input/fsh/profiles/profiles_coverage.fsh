@@ -2,7 +2,7 @@ Profile:        TWCoreCoverage
 Parent:         Coverage
 Id:             Coverage-twcore
 Title:          "TW Core Coverage"
-Description:    "此臺灣核心-保險（TW Core Coverage） Profile說明本IG如何進一步定義FHIR的Coverage Resource以呈現保險資料。"
+Description:    "此臺灣核心-給付範圍（TW Core Coverage） Profile說明本IG如何進一步定義FHIR的Coverage Resource以呈現給付範圍資料。"
 * ^version = "0.2.3"
 * . obeys tw-core-9
 * identifier MS

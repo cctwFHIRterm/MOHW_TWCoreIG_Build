@@ -1620,6 +1620,30 @@
 			<description value="照護計畫的狀態(status)"/>
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CareTeam-patient"/>
+			</reference>
+			<name value="CareTeam patient"/>
+			<description value="照護團隊的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CareTeam-status"/>
+			</reference>
+			<name value="CareTeam status"/>
+			<description value="照護團隊的狀態(status)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/CareTeam-role"/>
+			</reference>
+			<name value="CareTeam role"/>
+			<description value="照護團隊的角色(role)"/>
+		</resource>
+
 		<page>
 			<nameUrl value="toc.html"/>
 			<title value="目錄"/>
