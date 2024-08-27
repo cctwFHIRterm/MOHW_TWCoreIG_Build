@@ -1678,3 +1678,90 @@ Usage: #definition
 * base = #CareTeam
 * expression = "CareTeam.participant.role"
 * type = #token
+
+//-------------------------Goal-------------------------
+Instance: Goal-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-patient"
+* name = "GoalPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "目標的對象(patient)"
+* code = #patient
+* base = #Goal
+* expression = "Goal.subject.where(resolve() is Patient)"
+* type = #reference
+
+Instance: Goal-lifecycle-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-lifecycle-status"
+* name = "GoalStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "目標在其整個生命週期中的狀態(lifecycle-status)"
+* code = #lifecycle-status
+* base = #Goal
+* expression = "Goal.lifecycleStatus"
+* type = #token
+
+Instance: Goal-target-date
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-target-date"
+* name = "GoalTargetDate"
+* status = #active
+* version = "0.2.3"
+* date = "2022-08-31"
+* publisher = "HL7 International"
+* description = "目標的預計達成時間(target.dueDate)"
+* code = #target-date
+* base = #Goal
+* expression = "(Goal.target.due as date)"
+* type = #date
+* comparator[0] = #eq
+* comparator[+] = #ne
+* comparator[+] = #gt
+* comparator[+] = #ge
+* comparator[+] = #lt
+* comparator[+] = #le
+* comparator[+] = #sa
+* comparator[+] = #eb
+* comparator[+] = #ap
+* comparator[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+
+Instance: Goal-description
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-description"
+* name = "GoalDescription"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "描述目標的代碼或文字(description)"
+* code = #description
+* base = #Goal
+* expression = "Goal.description"
+* type = #token

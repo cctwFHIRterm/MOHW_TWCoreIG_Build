@@ -55,15 +55,15 @@ Description: "
 * code.coding[TW2023ICD10PCS] ^short = "此為臺灣健保署2023年中文版ICD-10-PCS，可免費使用，可依情境選用此代碼。"
 * code.coding[TW2023ICD10PCS] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 
-* basedOn only Reference(CarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* basedOn only Reference(TWCoreCareTeam or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
 * subject 1..
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * encounter only Reference(TWCoreEncounter)
 * effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * effective[x] ^type.extension.valueBoolean = true
-* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreCareTeam)
 * performer MS
-* resultsInterpreter only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or CareTeam)
+* resultsInterpreter only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreCareTeam)
 * result only Reference(TWCoreObservationLaboratoryResult)
 * result MS
 * conclusion MS

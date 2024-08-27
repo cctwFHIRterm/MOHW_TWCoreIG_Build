@@ -16,7 +16,7 @@ Description: "此臺灣核心-用藥聲明（TW Core  MedicationStatement） Pro
 * medication[x] only CodeableConceptTW or Reference(TWCoreMedication)
 * reasonCode only CodeableConceptTW
 * medicationReference only Reference(TWCoreMedication)
-* basedOn only Reference(TWCoreMedicationRequest or CarePlan or ServiceRequest)
+* basedOn only Reference(TWCoreMedicationRequest or TWCoreCarePlan or ServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreObservationLaboratoryResult)
 * subject only Reference(TWCorePatient or Group)
 * context only Reference(TWCoreEncounter or EpisodeOfCare)

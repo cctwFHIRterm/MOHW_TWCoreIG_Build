@@ -23,10 +23,24 @@ Description: "此臺灣核心-吸菸狀態（TW Core Observation Smoking Status�
 * category[twcore].coding.code = #social-history
 * code MS
 * code only CodeableConceptTW
-* code from SmokingStatusTypeCode (preferred)
+* code from SmokingStatusTypeCode (extensible)
+* code ^condition[0] = "tw-core-7"
+* code ^condition[+] = "tw-core-8"
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
 * effective[x] 1.. MS
+* effective[x] only dateTime or Period
 * value[x] 1.. MS
-* valueCodeableConcept from SmokingStatusComprehensiveCode (preferred)
-* valueQuantity from UnitsOfMeasureCaseSensitive (preferred)
+* value[x] ^condition[0] = "tw-core-7"
+* value[x] ^condition[+] = "tw-core-8"
+* valueQuantity 0..1 MS
+* valueCodeableConcept 0..1 MS
+* valueQuantity from UnitsOfMeasureCaseSensitive (required)
+* valueCodeableConcept from SmokingStatusComprehensiveCode (extensible)
+* encounter only Reference(TWCoreEncounter)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* specimen only Reference(TWCoreSpecimen)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationSimple or MolecularSequence)
+* hasMember only Reference(TWCoreObservationSimple or QuestionnaireResponse or MolecularSequence)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

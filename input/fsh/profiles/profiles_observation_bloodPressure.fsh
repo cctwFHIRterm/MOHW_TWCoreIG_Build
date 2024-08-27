@@ -52,3 +52,4 @@ Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure） 
 * component[Diastolic].valueQuantity.code = #mm[Hg] (exactly)
 * bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 * method from http://hl7.org/fhir/ValueSet/observation-methods (extensible)
+

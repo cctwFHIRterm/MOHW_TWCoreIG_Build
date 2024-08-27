@@ -30,3 +30,10 @@ Description: "此臺灣核心-妊娠狀態（TW Core Observation Pregnancy Statu
 * valueCodeableConcept only CodeableConceptTW
 * valueCodeableConcept from PregnancyStatusCodeSCT (preferred)
 * valueCodeableConcept ^short = "Coded Responses from Pregnancy Status Value Set"
+* encounter only Reference(TWCoreEncounter)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* specimen only Reference(TWCoreSpecimen)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationSimple or MolecularSequence)
+* hasMember only Reference(TWCoreObservationSimple or QuestionnaireResponse or MolecularSequence)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

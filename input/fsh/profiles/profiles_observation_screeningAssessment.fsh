@@ -28,7 +28,7 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
 * effective[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * effective[x] ^type.extension.valueBoolean = true
 * performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam or TWCoreRelatedPerson)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam or TWCoreRelatedPerson)
 * value[x] obeys tw-core-5
 * value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
 * value[x] MS

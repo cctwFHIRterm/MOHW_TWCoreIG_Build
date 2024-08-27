@@ -32,7 +32,7 @@ Description:    "此臺灣核心-病人照護偏好註記（TW Core Observation 
 * subject MS
 * subject only Reference(TWCorePatient)
 /* performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
 */
 * effective[x] 1..1
 * effective[x] only dateTime or Period or Timing or instant

@@ -32,10 +32,10 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 * subject only Reference(TWCorePatient or Group)
 * encounter only Reference(TWCoreEncounter)
 * requester only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or TWCoreRelatedPerson or Device)
-* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or TWCoreRelatedPerson or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or TWCoreRelatedPerson or TWCoreCareTeam)
 * recorder only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult)
-* basedOn only Reference(CarePlan or TWCoreMedicationRequest or ServiceRequest or ImmunizationRecommendation)	
+* basedOn only Reference(TWCoreCareTeam or TWCoreMedicationRequest or ServiceRequest or ImmunizationRecommendation)	
 /* dosageInstruction.route.coding ^slicing.discriminator.type = #pattern
 * dosageInstruction.route.coding ^slicing.discriminator.path = "$this"
 * dosageInstruction.route.coding ^slicing.rules = #open

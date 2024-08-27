@@ -23,7 +23,7 @@ Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation
 * subject ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * subject ^type[=].targetProfile[=].extension.valueBoolean = true
 * performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam or TWCoreRelatedPerson)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam or TWCoreRelatedPerson)
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period or Timing or instant
@@ -41,3 +41,9 @@ Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation
 * value[x] ^type[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * value[x] ^type[=].extension.valueBoolean = true
 * derivedFrom only Reference(Observation or TWCoreDocumentReference or QuestionnaireResponse or TWCoreImagingStudy or TWCoreMedia or MolecularSequence)
+* encounter only Reference(TWCoreEncounter)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* specimen only Reference(TWCoreSpecimen)
+* hasMember only Reference(TWCoreObservationSimple or QuestionnaireResponse or MolecularSequence)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

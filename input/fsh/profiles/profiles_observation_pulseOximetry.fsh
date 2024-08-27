@@ -69,3 +69,10 @@ Description:    "此臺灣核心-脈搏血氧飽和度（TW Core Observation Pul
 * component[Concentration].valueQuantity.code 1..1 MS
 * component[Concentration].valueQuantity.code only code
 * component[Concentration].valueQuantity.code = #% (exactly)
+* encounter only Reference(TWCoreEncounter)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* specimen only Reference(TWCoreSpecimen)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationSimple or MolecularSequence)
+* hasMember only Reference(TWCoreObservationSimple or QuestionnaireResponse or MolecularSequence)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

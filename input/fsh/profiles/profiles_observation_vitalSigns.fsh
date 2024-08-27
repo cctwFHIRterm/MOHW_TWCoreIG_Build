@@ -41,7 +41,7 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs�
 * effective[x] ^type.extension.valueBoolean = true
 //* value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
 * performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
 * value[x] MS
 * value[x] from http://hl7.org/fhir/ValueSet/ucum-vitals-common (extensible)
 

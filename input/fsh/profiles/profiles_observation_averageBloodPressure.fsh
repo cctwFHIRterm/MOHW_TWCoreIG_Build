@@ -40,8 +40,6 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * code.text MS
 * subject MS
 * subject only Reference(TWCorePatient)
-/** performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)*/
 
 
 * value[x] ..0

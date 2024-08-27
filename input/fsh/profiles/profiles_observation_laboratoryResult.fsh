@@ -64,7 +64,7 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 * hasMember only Reference(TWCoreObservationLaboratoryResult or QuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationLaboratoryResult or MolecularSequence)
 * performer MS
-* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or CareTeam)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
 * specimen only Reference(TWCoreSpecimen)
 * effective[x] 1..1
 * effective[x] MS
