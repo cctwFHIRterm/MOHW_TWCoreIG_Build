@@ -59,7 +59,7 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(CarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
 * hasMember only Reference(TWCoreObservationLaboratoryResult or QuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationLaboratoryResult or MolecularSequence)
