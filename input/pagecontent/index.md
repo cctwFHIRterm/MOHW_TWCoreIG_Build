@@ -349,8 +349,6 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
-				<br />
-				<a href="mailto:102116007@ntunhs.edu.tw">102116007@ntunhs.edu.tw</a>
 			</td>
 			</tr>
 			<tr>

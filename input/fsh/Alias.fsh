@@ -44,3 +44,11 @@ Description: "Member Id in Coverage.identifier or Coverage.subscriberId SHALL be
 * severity = #error
 * expression = "identifier.type.coding.where(system='http://terminology.hl7.org/CodeSystem/v2-0203' and code='MB').exists() or subscriberId.exists()"
 * xpath = "f:identifier or f:subscriberId"
+
+Invariant: tw-core-10
+Description: "SHOULD have a translation to the NDC value set"
+* severity = #warning
+* expression = "vaccineCode.coding.where(system='http://hl7.org/fhir/sid/cvx').exists() implies vaccineCode.coding.where(system='http://hl7.org/fhir/sid/ndc').exists()"
+* xpath = "(exists(f:vaccineCode/f:coding/f:system[@value='http://hl7.org/fhir/sid/ndc']) and exists(f:vaccineCode/f:coding/f:system[@value='http://hl7.org/fhir/sid/cvx'])) or exists(f:vaccineCode/f:coding/f:system[@value='http://hl7.org/fhir/sid/cvx'])not()"
+* extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice"
+* extension[0].valueBoolean = true
