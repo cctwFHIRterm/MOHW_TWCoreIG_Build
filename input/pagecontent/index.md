@@ -333,7 +333,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
       		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.2.3</td>
-			<td rowspan="18" style="vertical-align: middle;">衛生福利部資訊處</td>
+			<td rowspan="19" style="vertical-align: middle;">衛生福利部資訊處</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
 			<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
 			（Department of Health Care Management, National Taipei University of Nursing and Health Sciences）</td>
@@ -490,8 +490,6 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
       		<td style="vertical-align: middle;">v0.1.1</td>
-			<td style="vertical-align: middle;">MI-TW臺灣醫學資訊聯測<br />
-			（Medical Informatics Taiwan Connectathon, MI-TW Connectathon）</td>
 			<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 			<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
 			<td style="vertical-align: middle;">
