@@ -1698,7 +1698,7 @@ Instance: Goal-lifecycle-status
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Goal-lifecycle-status"
-* name = "GoalStatus"
+* name = "GoalLifecycleStatus"
 * status = #active
 * version = "0.2.3"
 * date = "2024-08-31"
