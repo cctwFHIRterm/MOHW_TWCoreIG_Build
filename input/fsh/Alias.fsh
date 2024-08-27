@@ -34,7 +34,6 @@ Description: "Observation.code 72166-2|Tobacco smoking status or 11367-0|History
 * severity = #error
 * expression = "code.coding.where(code in '72166-2'|'11367-0').exists() implies value.is(CodeableConcept)"
 
-
 Invariant: tw-core-8
 Description: "For Observation.code 401201003|Cigarette pack-years or 782516008|Number of calculated smoking pack years SHOULD use valueQuantity。"
 * severity = #warning
