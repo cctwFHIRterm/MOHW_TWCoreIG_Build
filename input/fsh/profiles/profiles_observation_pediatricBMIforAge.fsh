@@ -20,8 +20,8 @@ Description:    "此臺灣核心-兒童及青少年身體質量指數（TW Core 
 * valueQuantity.code only code
 * valueQuantity.code = #% (exactly)
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
-* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
 * hasMember only Reference(TWCoreObservationVitalSigns or QuestionnaireResponse or MolecularSequence)

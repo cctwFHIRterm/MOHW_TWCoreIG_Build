@@ -42,8 +42,8 @@ Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation
 * value[x] ^type[=].extension.valueBoolean = true
 * derivedFrom only Reference(Observation or TWCoreDocumentReference or QuestionnaireResponse or TWCoreImagingStudy or TWCoreMedia or MolecularSequence)
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
-* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
 * hasMember only Reference(TWCoreObservationSimple or QuestionnaireResponse or MolecularSequence)
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

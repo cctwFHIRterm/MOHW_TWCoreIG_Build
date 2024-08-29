@@ -35,7 +35,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 * performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or Device or TWCoreRelatedPerson or TWCoreCareTeam)
 * recorder only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult)
-* basedOn only Reference(TWCoreCarePlan  or TWCoreMedicationRequest or ServiceRequest or ImmunizationRecommendation)	
+* basedOn only Reference(TWCoreCarePlan  or TWCoreMedicationRequest or TWCoreServiceRequest or ImmunizationRecommendation)	
 /* dosageInstruction.route.coding ^slicing.discriminator.type = #pattern
 * dosageInstruction.route.coding ^slicing.discriminator.path = "$this"
 * dosageInstruction.route.coding ^slicing.rules = #open

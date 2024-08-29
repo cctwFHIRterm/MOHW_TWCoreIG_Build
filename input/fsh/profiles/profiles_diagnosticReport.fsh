@@ -55,7 +55,7 @@ Description: "
 * code.coding[TW2023ICD10PCS] ^short = "此為臺灣健保署2023年中文版ICD-10-PCS，可免費使用，可依情境選用此代碼。"
 * code.coding[TW2023ICD10PCS] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 
-* basedOn only Reference(TWCoreCarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
+* basedOn only Reference(TWCoreCarePlan or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
 * subject 1..
 * subject only Reference(TWCorePatient or Group or Device or TWCoreLocation)
 * encounter only Reference(TWCoreEncounter)

@@ -20,8 +20,8 @@ Description:    "此臺灣核心-心率（TW Core Observation Heart Rate） Prof
 * valueQuantity.code only code
 * valueQuantity.code = #/min (exactly)
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or ServiceRequest)
-* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or Immunization or TWCoreImagingStudy)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
 * hasMember only Reference(TWCoreObservationVitalSigns or QuestionnaireResponse or MolecularSequence)
