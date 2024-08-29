@@ -1765,3 +1765,75 @@ Usage: #definition
 * base = #Goal
 * expression = "Goal.description"
 * type = #token
+
+//-------------------------Immunization-------------------------
+Instance: Immunization-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-patient"
+* name = "ImmunizationPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "疫苗接種的對象(patient)"
+* code = #patient
+* base = #Immunization
+* expression = "Immunization.patient"
+* type = #reference
+
+Instance: Immunization-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-status"
+* name = "ImmunizationStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "疫苗接種的狀態(status)"
+* code = #status
+* base = #Immunization
+* expression = "Immunization.status"
+* type = #token
+
+Instance: Immunization-date
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Immunization-date"
+* name = "ImmunizationDate"
+* status = #active
+* version = "0.2.3"
+* date = "2022-08-31"
+* publisher = "HL7 International"
+* description = "疫苗接種的時間(occurrence)"
+* code = #date
+* base = #Immunization
+* expression = "Immunization.occurrence"
+* type = #date
+* comparator[0] = #eq
+* comparator[+] = #ne
+* comparator[+] = #gt
+* comparator[+] = #ge
+* comparator[+] = #lt
+* comparator[+] = #le
+* comparator[+] = #sa
+* comparator[+] = #eb
+* comparator[+] = #ap
+* comparator[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY

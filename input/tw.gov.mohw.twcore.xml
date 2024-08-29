@@ -1676,6 +1676,30 @@
 			<description value="描述目標的代碼或文字(description)"/>
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Immunization-patient"/>
+			</reference>
+			<name value="Goal patient"/>
+			<description value="疫苗接種的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Immunization-date"/>
+			</reference>
+			<name value="Goal date"/>
+			<description value="疫苗接種的時間(occurrence)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/Immunization-status"/>
+			</reference>
+			<name value="Goal status"/>
+			<description value="疫苗接種的狀態(status)"/>
+		</resource>
+
 		<page>
 			<nameUrl value="toc.html"/>
 			<title value="目錄"/>
