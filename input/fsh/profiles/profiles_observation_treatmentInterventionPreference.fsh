@@ -17,7 +17,7 @@ Description:    "此臺灣核心-病人治療偏好註記（TW Core Observation 
 * category[twcore].coding 1..* MS
 * category[twcore].coding.system 1..1 MS
 * category[twcore].coding.code 1..1 MS
-* category[twcore].coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/observation-category"
+* category[twcore].coding.system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/category-code-tw"
 * category[twcore].coding.code = #treatment-intervention-preference
 * code MS
 * code only CodeableConceptTW

@@ -1837,3 +1837,224 @@ Usage: #definition
 * comparator[=].extension.valueCode = #MAY
 * comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * comparator[=].extension.valueCode = #MAY
+
+
+
+//-------------------------ServiceRequest-------------------------
+Instance: ServiceRequest-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-patient"
+* name = "ServiceRequestPatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "服務請求的對象(patient)"
+* code = #patient
+* base = #ServiceRequest
+* expression = "ServiceRequest.subject.where(resolve() is Patient)"
+* type = #reference
+
+Instance: ServiceRequest-id
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-id"
+* name = "ServiceRequestID"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "服務請求的邏輯性ID"
+* code = #_id
+* base = #ServiceRequest
+* expression = "ServiceRequest.id"
+* type = #token
+
+
+Instance: ServiceRequest-category
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-category"
+* name = "ServiceRequestCategory"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "服務請求的類別(category)"
+* code = #category
+* base = #ServiceRequest
+* expression = "ServiceRequest.category"
+* type = #token
+
+Instance: ServiceRequest-code
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-code"
+* name = "ServiceRequestCode"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "服務請求項目(code)"
+* code = #code
+* base = #ServiceRequest
+* expression = "ServiceRequest.code"
+* type = #token
+
+Instance: ServiceRequest-authored
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-authored"
+* name = "ServiceRequestAuthored"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "服務請求的簽署請求日期(authored)"
+* code = #authored
+* base = #ServiceRequest
+* expression = "ServiceRequest.authoredOn"
+* type = #date
+* comparator[0] = #eq
+* comparator[+] = #ne
+* comparator[+] = #gt
+* comparator[+] = #ge
+* comparator[+] = #lt
+* comparator[+] = #le
+* comparator[+] = #sa
+* comparator[+] = #eb
+* comparator[+] = #ap
+* comparator[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+
+Instance: ServiceRequest-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/ServiceRequest-status"
+* name = "ServiceRequestStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "服務請求的狀態(status)"
+* code = #status
+* base = #ServiceRequest
+* expression = "ServiceRequest.status"
+* type = #token
+
+
+
+//-------------------------QuestionnaireResponse-------------------------
+Instance: QuestionnaireResponse-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-patient"
+* name = "QuestionnaireResponsePatient"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "問卷答覆記錄的對象(patient)"
+* code = #patient
+* base = #QuestionnaireResponse
+* expression = "QuestionnaireResponse.subject.where(resolve() is Patient)"
+* type = #reference
+
+Instance: QuestionnaireResponse-id
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-id"
+* name = "QuestionnaireResponseID"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "問卷答覆記錄的邏輯性ID"
+* code = #_id
+* base = #QuestionnaireResponse
+* expression = "QuestionnaireResponse.id"
+* type = #token
+
+Instance: QuestionnaireResponse-status
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-status"
+* name = "QuestionnaireResponseStatus"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "問卷答覆記錄的狀態(status)"
+* code = #status
+* base = #QuestionnaireResponse
+* expression = "QuestionnaireResponse.status"
+* type = #token
+
+Instance: QuestionnaireResponse-authored
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-authored"
+* name = "QuestionnaireResponseAuthored"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* publisher = "HL7 International"
+* description = "問卷答覆記錄的最終更新日期(authored)"
+* code = #authored
+* base = #QuestionnaireResponse
+* expression = "QuestionnaireResponse.authoredOn"
+* type = #date
+* comparator[0] = #eq
+* comparator[+] = #ne
+* comparator[+] = #gt
+* comparator[+] = #ge
+* comparator[+] = #lt
+* comparator[+] = #le
+* comparator[+] = #sa
+* comparator[+] = #eb
+* comparator[+] = #ap
+* comparator[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #SHALL
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+* comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* comparator[=].extension.valueCode = #MAY
+
+Instance: QuestionnaireResponse-questionnaire
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/QuestionnaireResponse-questionnaire"
+* name = "QuestionnaireResponseQuestionnaire"
+* status = #active
+* version = "0.2.3"
+* date = "2024-08-31"
+* description = "問卷答覆記錄的答案(questionnaire)"
+* code = #questionnaire
+* base = #QuestionnaireResponse
+* expression = "QuestionnaireResponse.questionnaire"
+* type = #reference

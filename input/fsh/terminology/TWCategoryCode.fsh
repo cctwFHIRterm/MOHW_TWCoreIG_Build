@@ -1,11 +1,11 @@
-CodeSystem: TWObservationCategory
-Id: observation-category
-Title: "臺灣衛福部資訊處Observation類型"
-Description: "臺灣衛福部資訊處Observation類型，  
+CodeSystem: TWCategoryCode
+Id: category-code-tw
+Title: "臺灣衛福部資訊處類型代碼"
+Description: "臺灣衛福部資訊處類型代碼， 
 代碼出版日期：2024-08-31；資料所屬單位：衛生福利部資訊處。  
 "
 
-* ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/observation-category"
+* ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/category-code-tw"
 * ^version = "2024-08-31"
 * ^status = #active
 * ^experimental = false
@@ -57,14 +57,14 @@ Description: "臺灣衛福部資訊處Observation類型，
 * #care-experience-preference ^property[+].code = #status
 * #care-experience-preference ^property[=].valueCode = #active
 
-ValueSet: TWObservationCategory
-Id: observation-category
-Title: "臺灣衛福部資訊處Observation類型值集"
-Description: "臺灣衛福部資訊處Observation類型值集"
+ValueSet: TWCategoryCode
+Id: category-code-tw
+Title: "臺灣衛福部資訊處類型代碼值集"
+Description: "臺灣衛福部資訊處類型代碼值集"
 * ^date = "2024-08-31"
 * ^version = "0.2.3"
 * ^experimental = false
-* include codes from system TWObservationCategory
+* include codes from system TWCategoryCode
 * include codes from system http://terminology.hl7.org/CodeSystem/observation-category
 
 
@@ -75,7 +75,7 @@ Description: "臺灣衛福部資訊處Observation Screening Assessment類型值�
 * ^date = "2024-08-31"
 * ^version = "0.2.3"
 * ^experimental = false
-* include codes from system TWObservationCategory
+* include codes from system TWCategoryCode
 
 
 Alias: $ClinicalResult = http://terminology.hl7.org/CodeSystem/observation-category
