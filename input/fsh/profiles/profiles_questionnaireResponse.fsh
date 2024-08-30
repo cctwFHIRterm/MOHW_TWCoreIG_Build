@@ -2,7 +2,7 @@ Profile:        TWCoreQuestionnaireResponse
 Parent:         SDCQuestionnaireResponse
 Id:             questionnaireResponse-twcore
 Title:          "TW Core QuestionnaireResponse "
-Description:    "此臺灣核心-問卷答覆記錄（TW Core QuestionnaireResponse） Profile說明本IG如何進一步定義FHIR的QuestionnaireResponse  Resource以呈現問卷答覆記錄資料。"
+Description:    "此臺灣核心-問卷答覆記錄（TW Core QuestionnaireResponse）Profile說明本IG如何進一步定義FHIR的QuestionnaireResponse  Resource以呈現問卷答覆記錄資料。"
 * ^version = "0.2.3"
 * status MS
 * subject 1.. MS
@@ -24,6 +24,7 @@ Description:    "此臺灣核心-問卷答覆記錄（TW Core QuestionnaireRespo
 * item.answer.value[x] ^type[=].extension.valueBoolean = true
 * item.answer.item MS
 * item.item MS
+
 * basedOn only Reference(TWCoreCarePlan or TWCoreServiceRequest)
 * partOf only Reference(TWCoreObservationClinicalResult or TWCoreProcedure)
 * encounter only Reference(TWCoreEncounter)
