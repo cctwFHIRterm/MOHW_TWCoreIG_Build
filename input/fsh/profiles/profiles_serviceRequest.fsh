@@ -37,7 +37,8 @@ Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profil
 * subject ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * subject ^type[=].targetProfile[=].extension.valueBoolean = true
 * encounter only Reference(TWCoreEncounter)
-* occurrence[x] only dateTime or Period or dateTime or Timing
+* occurrence[x] MS
+* occurrence[x] only Period or dateTime or Timing
 * occurrence[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * occurrence[x] ^type.extension.valueBoolean = true
 * authoredOn MS

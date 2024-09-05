@@ -27,5 +27,5 @@ Description: "SNOMED CT + HL7 NullFlavor 性傾向值集。"
 * include codes from system http://snomed.info/sct where concept is-a #722499006
 * include codes from system http://snomed.info/sct where concept is-a #699009004
 * include codes from system http://snomed.info/sct where concept is-a #16090371000119103
-* include codes from system http://snomed.info/sct where concept = "16090771000119104"
 * include codes from system http://snomed.info/sct where concept is-a #275105001
+* http://snomed.info/sct#16090771000119104

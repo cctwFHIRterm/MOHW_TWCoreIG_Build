@@ -13,6 +13,7 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 //* category ^slicing.discriminator.path = "$this"
 //* category ^slicing.rules = #open
 //* category contains twcore 1..1 MS
+* category[twcore] 1..1
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code 1..1 MS
 * code.coding ^slicing.discriminator.type = #pattern

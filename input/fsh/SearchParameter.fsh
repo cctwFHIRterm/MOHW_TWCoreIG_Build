@@ -1721,7 +1721,7 @@ Usage: #definition
 * description = "目標的預計達成時間(target.dueDate)"
 * code = #target-date
 * base = #Goal
-* expression = "(Goal.target.due as date)"
+* expression = "(Goal.target.due.ofType(date))"
 * type = #date
 * comparator[0] = #eq
 * comparator[+] = #ne
@@ -1838,8 +1838,6 @@ Usage: #definition
 * comparator[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * comparator[=].extension.valueCode = #MAY
 
-
-
 //-------------------------ServiceRequest-------------------------
 Instance: ServiceRequest-patient
 InstanceOf: SearchParameter
@@ -1909,7 +1907,7 @@ Usage: #definition
 * version = "0.2.3"
 * date = "2024-08-31"
 * publisher = "HL7 International"
-* description = "服務請求的簽署請求日期(authored)"
+* description = "簽署服務請求的日(authored)"
 * code = #authored
 * base = #ServiceRequest
 * expression = "ServiceRequest.authoredOn"
@@ -1957,8 +1955,6 @@ Usage: #definition
 * expression = "ServiceRequest.status"
 * type = #token
 
-
-
 //-------------------------QuestionnaireResponse-------------------------
 Instance: QuestionnaireResponse-patient
 InstanceOf: SearchParameter
@@ -1968,7 +1964,7 @@ Usage: #definition
 * status = #active
 * version = "0.2.3"
 * date = "2024-08-31"
-* description = "問卷答覆記錄的對象(patient)"
+* description = "問卷題目回覆的對象(patient)"
 * code = #patient
 * base = #QuestionnaireResponse
 * expression = "QuestionnaireResponse.subject.where(resolve() is Patient)"
@@ -1982,7 +1978,7 @@ Usage: #definition
 * status = #active
 * version = "0.2.3"
 * date = "2024-08-31"
-* description = "問卷答覆記錄的邏輯性ID"
+* description = "問卷題目回覆的邏輯性ID"
 * code = #_id
 * base = #QuestionnaireResponse
 * expression = "QuestionnaireResponse.id"
@@ -1997,7 +1993,7 @@ Usage: #definition
 * version = "0.2.3"
 * date = "2024-08-31"
 * publisher = "HL7 International"
-* description = "問卷答覆記錄的狀態(status)"
+* description = "問卷題目回覆的狀態(status)"
 * code = #status
 * base = #QuestionnaireResponse
 * expression = "QuestionnaireResponse.status"
@@ -2012,10 +2008,10 @@ Usage: #definition
 * version = "0.2.3"
 * date = "2024-08-31"
 * publisher = "HL7 International"
-* description = "問卷答覆記錄的最終更新日期(authored)"
+* description = "問卷題目回覆的日期(authored)"
 * code = #authored
 * base = #QuestionnaireResponse
-* expression = "QuestionnaireResponse.authoredOn"
+* expression = "QuestionnaireResponse.authored"
 * type = #date
 * comparator[0] = #eq
 * comparator[+] = #ne
@@ -2053,7 +2049,7 @@ Usage: #definition
 * status = #active
 * version = "0.2.3"
 * date = "2024-08-31"
-* description = "問卷答覆記錄的答案(questionnaire)"
+* description = "問卷題目回覆的問卷(questionnaire)"
 * code = #questionnaire
 * base = #QuestionnaireResponse
 * expression = "QuestionnaireResponse.questionnaire"

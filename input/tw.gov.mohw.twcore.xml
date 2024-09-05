@@ -1685,7 +1685,7 @@
 			<reference>
 				<reference value="SearchParameter/Immunization-patient"/>
 			</reference>
-			<name value="Goal patient"/>
+			<name value="Immunization patient"/>
 			<description value="疫苗接種的對象(patient)"/>
 		</resource>
 
@@ -1693,7 +1693,7 @@
 			<reference>
 				<reference value="SearchParameter/Immunization-date"/>
 			</reference>
-			<name value="Goal date"/>
+			<name value="Immunization date"/>
 			<description value="疫苗接種的時間(occurrence)"/>
 		</resource>
 
@@ -1701,8 +1701,96 @@
 			<reference>
 				<reference value="SearchParameter/Immunization-status"/>
 			</reference>
-			<name value="Goal status"/>
+			<name value="Immunization status"/>
 			<description value="疫苗接種的狀態(status)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-patient"/>
+			</reference>
+			<name value="ServiceRequest patient"/>
+			<description value="服務請求的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-id"/>
+			</reference>
+			<name value="ServiceRequest id"/>
+			<description value="服務請求的邏輯性ID"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-category"/>
+			</reference>
+			<name value="ServiceRequest category"/>
+			<description value="服務請求的類別(category)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-code"/>
+			</reference>
+			<name value="ServiceRequest code"/>
+			<description value="服務請求項目(code)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-authored"/>
+			</reference>
+			<name value="ServiceRequest authored"/>
+			<description value="簽署服務請求的日期(authored)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/ServiceRequest-status"/>
+			</reference>
+			<name value="ServiceRequest status"/>
+			<description value="服務請求的狀態(status)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/QuestionnaireResponse-patient"/>
+			</reference>
+			<name value="QuestionnaireResponse patient"/>
+			<description value="問卷題目回覆的對象(patient)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/QuestionnaireResponse-id"/>
+			</reference>
+			<name value="QuestionnaireResponse id"/>
+			<description value="問卷題目回覆的邏輯性ID"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/QuestionnaireResponse-status"/>
+			</reference>
+			<name value="QuestionnaireResponse status"/>
+			<description value="問卷題目回覆的狀態(status)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/QuestionnaireResponse-authored"/>
+			</reference>
+			<name value="QuestionnaireResponse authored"/>
+			<description value="問卷題目回覆的日期(authored)"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="SearchParameter/QuestionnaireResponse-questionnaire"/>
+			</reference>
+			<name value="QuestionnaireResponse questionnaire"/>
+			<description value="問卷題目回覆的問卷(questionnaire)"/>
 		</resource>
 
 		<page>
