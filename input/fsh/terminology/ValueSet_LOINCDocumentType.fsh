@@ -7,4 +7,5 @@ Description: "LOINC Code Document Type值集。
 * ^version = "2.77"
 * ^copyright = "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"
 * ^experimental = false
-* include codes from system $loinc where SCALE_TYP = "Doc"
+//* include codes from system $loinc where SCALE_TYP = "Doc"
+* include codes from system $loinc where SCALE_TYP = "LP32888-7"

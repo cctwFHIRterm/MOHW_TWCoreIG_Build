@@ -682,6 +682,51 @@
 
 		<resource>
 			<reference>
+				<reference value="Observation/obs-pregnancy-intent-example"/>
+			</reference>
+			<name value="妊娠計畫"/>	
+			<description value="依據臺灣核心-妊娠計畫(TW Core Observation Pregnancy Intent) Profile呈現妊娠計畫之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-intent-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-pregnancy-status-example"/>
+			</reference>
+			<name value="妊娠狀態"/>	
+			<description value="依據臺灣核心-妊娠狀態(TW Core Observation Pregnancy Status) Profile呈現妊娠狀態之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pregnancy-status-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-screening-assessment-example"/>
+			</reference>
+			<name value="健康狀態篩檢與評估"/>	
+			<description value="依據臺灣核心-健康狀態篩檢與評估(TW Core Observation Screening Assessment) Profile呈現健康狀態篩檢與評估之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-screening-assessment-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-sexual-orientation-example"/>
+			</reference>
+			<name value="性傾向"/>	
+			<description value="依據臺灣核心-性傾向(TW Core Observation Sexual Orientation)呈現性傾向之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-sexual-orientation-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="RelatedPerson/rel-per-example"/>
+			</reference>
+			<name value="相關人士"/>	
+			<description value="依據臺灣核心-相關人士(TW Core RelatedPerson)呈現相關人士之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/RelatedPerson-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Organization-twcore"/>
 			</reference>
 			<exampleBoolean value="false"/>

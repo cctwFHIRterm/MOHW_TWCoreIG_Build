@@ -10,4 +10,4 @@ Description: "LOINC篩檢與評估值集。
 
 * include codes from system $loinc where CLASSTYPE = "Clinical class"
 * include codes from system $loinc where CLASSTYPE = "Surveys"
-* include codes from system $loinc where CLASS = "PANEL.NEONAT"
+* include codes from system $loinc where CLASS = "LP62408-7"
