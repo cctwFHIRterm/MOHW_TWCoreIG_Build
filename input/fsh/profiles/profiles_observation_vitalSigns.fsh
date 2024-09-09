@@ -24,7 +24,7 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs�
 * category[VSCat].coding.code only code
 * category[VSCat].coding.code = #vital-signs (exactly)
 * code MS
-* code from TWVitalSigns
+* code from TWVitalSigns (extensible)
 * code.text 0..1 MS
 * subject only Reference(TWCorePatient)
 * subject MS
@@ -49,7 +49,7 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs�
 * value[x] ^type.extension.valueBoolean = true
 * component MS
 * component.code MS
-* component.code from TWVitalSigns
+* component.code from TWVitalSigns (extensible)
 //* component.valueQuantity ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 //* component.valueQuantity ^type.extension.valueBoolean = true
 //* component.value[x] only Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period
