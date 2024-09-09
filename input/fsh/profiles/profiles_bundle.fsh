@@ -3,7 +3,7 @@ Parent: Bundle
 Id: Bundle-twcore
 Title: "TW Core Bundle"
 Description: "此臺灣核心-資料交換基本單位（TW Core Bundle） Profile說明本IG如何進一步定義FHIR的Bundle Resource以呈現資料交換基本單位的詳細資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and timestamp MS 

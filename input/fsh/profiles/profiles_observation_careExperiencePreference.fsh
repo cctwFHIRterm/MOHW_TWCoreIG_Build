@@ -4,7 +4,7 @@ Id:             Observation-careExperiencePreference-twcore
 Title:          "TW Core Observation Care Experience Preference"
 Description:    "此臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現照護經驗偏好資料。  
 (可填寫文字或代碼等說明)"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * status MS
 * category MS
 * category only CodeableConceptTW

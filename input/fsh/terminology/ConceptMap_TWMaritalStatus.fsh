@@ -21,7 +21,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2023-08-25"
-* version = "0.2.3"
+* version = "0.3.0"
 * name = "TWMaritalStatus"
 * title = "臺灣戶政司婚姻狀態代碼對應HL7 MaritalStatus"
 * description = "此對應表為臺灣戶政司婚姻狀態代碼對應至國際標準碼HL7 MaritalStatus，供實作者於撰寫程式以自動化對應或轉代碼時使用。"

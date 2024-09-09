@@ -9,7 +9,7 @@ Description: "
 3. code欄位加上「臺灣健保署2021年中文版ICD-10-PCS值集」的Slices，因實務專案會有此需求。  
 
 此臺灣核心-診斷報告（TW Core DiagnosticReport） Profile說明本IG如何進一步定義FHIR的DiagnosticReport Resource以呈現診斷報告。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and category and code and subject and effective[x] and issued MS

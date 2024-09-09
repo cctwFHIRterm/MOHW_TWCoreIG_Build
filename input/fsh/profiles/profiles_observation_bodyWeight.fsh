@@ -3,7 +3,7 @@ Parent:         TWCoreObservationVitalSigns
 Id:             Observation-body-weight-twcore
 Title:          "TW Core Observation Body Weight"
 Description:    "此臺灣核心-體重（TW Core Observation Body Weight） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現體重資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * code only CodeableConceptTW
 * code = http://loinc.org#29463-7
 * code MS

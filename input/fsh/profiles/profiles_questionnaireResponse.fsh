@@ -3,7 +3,7 @@ Parent:         SDCQuestionnaireResponse
 Id:             questionnaireResponse-twcore
 Title:          "TW Core QuestionnaireResponse"
 Description:    "此臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）Profile說明本IG如何進一步定義FHIR的QuestionnaireResponse  Resource以呈現問卷題目回覆資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * status MS
 * subject 1.. MS
 * subject only Reference(TWCorePatient)

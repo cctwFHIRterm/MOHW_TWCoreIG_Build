@@ -3,7 +3,7 @@ Parent:         http://hl7.org/fhir/StructureDefinition/vitalsigns
 Id:             Observation-vitalSigns-twcore
 Title:          "TW Core Observation Vital Signs"
 Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile說明本IG如何進一步定義FHIR的Vital Signs Profile以呈現生命體徵資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * status MS
 * category ..* MS
 * category only CodeableConceptTW

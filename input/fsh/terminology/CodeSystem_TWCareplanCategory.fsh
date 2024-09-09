@@ -3,7 +3,7 @@ Id: careplan-category-tw
 Title: "臺灣衛福部資訊處照護計畫類別"
 Description: "臺灣衛福部資訊處照護計畫類別"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/careplan-category-tw"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * ^status = #active
 * ^experimental = false
 * ^date = "2024-08-31"

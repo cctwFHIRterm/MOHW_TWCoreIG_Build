@@ -2,7 +2,7 @@ Logical: TWMediaModel
 Id: TWMedia
 Title: "臺灣核心-多媒體(TW Core Media) 之資料模型"
 Description: "臺灣核心-多媒體(TW Core Media) 之資料模型"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 //* subject[x] 0..1 Patient or Practitioner or PractitionerRole or Group or Device or Specimen or Location "多媒體的對象。" "多媒體的對象。"
 * subject 0..1 BackboneElement "多媒體的對象。" "多媒體的對象。"
 * subject.patient 0..1 Patient "多媒體的某病人。" "多媒體的某病人。"

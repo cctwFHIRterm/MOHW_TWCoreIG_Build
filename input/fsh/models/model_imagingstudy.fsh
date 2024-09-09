@@ -2,7 +2,7 @@ Logical: TWImagingStudyModel
 Id: TWImagingStudy
 Title: "臺灣核心-影像檢查(TW Core ImagingStudy) 之資料模型"
 Description: "臺灣核心-影像檢查(TW Core ImagingStudy) 之資料模型"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * identifier 0..* Identifier "整個影像檢查的識別碼。" "整個影像檢查的識別碼。"
 * modality 0..* Coding "如果是實際的照影儀器，所有系列的儀器。" "如果是實際的照影儀器，所有系列的儀器。"
 //* subject[x] 1..1 Patient or Device or Group "影像檢查的對象。" "影像檢查的對象。"

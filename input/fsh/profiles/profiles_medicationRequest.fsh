@@ -4,7 +4,7 @@ Id: MedicationRequest-twcore
 Title: "TW Core MedicationRequest"
 Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。"
 
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and intent and category and subject and encounter and requester and dosageInstruction and dosageInstruction.text and dosageInstruction.route and medication[x] and dosageInstruction.timing and reasonReference and identifier and authoredOn and note and dispenseRequest and dispenseRequest.validityPeriod and dispenseRequest.numberOfRepeatsAllowed and dispenseRequest.expectedSupplyDuration MS

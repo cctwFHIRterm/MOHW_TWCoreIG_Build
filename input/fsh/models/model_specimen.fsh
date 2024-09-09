@@ -2,7 +2,7 @@ Logical: TWSpecimenModel
 Id: TWSpecimen
 Title: "臺灣核心-檢體(TW Core Specimen) 之資料模型"
 Description: "臺灣核心-檢體(TW Core Specimen) 之資料模型"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * identifier 0..* Identifier "檢體的外部識別碼。" "檢體的外部識別碼。"
 * type 0..1	CodeableConcept "檢體的類型。" "檢體的類型。"
 //* subject[x] 1..1 Patient or Group or Device or Substance or Location "這可能來自病人、某個地點（例如環境樣本的來源），或是對某種物質或裝置的採樣。" "這可能來自病人、某個地點（例如環境樣本的來源），或是對某種物質或裝置的採樣。"

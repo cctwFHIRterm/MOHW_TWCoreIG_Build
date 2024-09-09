@@ -3,7 +3,7 @@ Id: tw-section
 Title: "TW Section"
 Description: "臺灣地址欄位-段"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-section"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

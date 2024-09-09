@@ -6,7 +6,7 @@ Parent:         TWCoreObservationClinicalResult
 Id:             Observation-laboratoryResult-twcore
 Title:          "TW Core Observation Laboratory Result"
 Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現檢驗檢查資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 //* status and category and category.coding and category.coding.code and category.coding.system and category.text and text MS
 * status and category MS
 //* category ^slicing.discriminator.type = #pattern

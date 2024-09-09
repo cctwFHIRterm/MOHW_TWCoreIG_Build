@@ -3,7 +3,7 @@ Parent:         CareTeam
 Id:             CareTeam-twcore
 Title:          "TW Core CareTeam"
 Description:    "此臺灣核心-照護團隊（TW Core CareTeam） Profile說明本IG如何進一步定義FHIR的CareTeam Resource以呈現照護團隊資料。"
-* ^version = "0.2.3"
+* ^version = "0.3.0"
 * status MS
 * subject 1.. MS
 * subject only Reference(TWCorePatient or Group)

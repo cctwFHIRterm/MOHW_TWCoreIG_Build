@@ -6,7 +6,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-05"
-* version = "0.2.3"
+* version = "0.3.0"
 * name = "TWHealthDepartmentNHI"
 * title = "臺灣健保署就醫科別代碼對應SNOMED CT"
 * description = "此對應表為臺灣健保署就醫科別代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
