@@ -718,6 +718,69 @@
 
 		<resource>
 			<reference>
+				<reference value="Observation/obs-head-circumference-example"/>
+			</reference>
+			<name value="生命體徵資料-頭圍"/>	
+			<description value="依據臺灣核心-頭圍(TW Core Observation Head Circumference)呈現頭圍之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-head-circumference-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-heart-rate-example"/>
+			</reference>
+			<name value="生命體徵資料-心率"/>	
+			<description value="依據臺灣核心-心率(TW Core Observation Heart Rate)呈現心率之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-heart-rate-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-height-example"/>
+			</reference>
+			<name value="生命體徵資料-身高"/>	
+			<description value="依據臺灣核心-身高(TW Core Observation Body Height)呈現身高之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-height-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-pediatric-bmi-age-example"/>
+			</reference>
+			<name value="生命體徵資料-兒童及青少年身體質量指數"/>	
+			<description value="依據臺灣核心-兒童及青少年身體質量指數(TW Core Pediatric BMI for Age Observation)呈現兒童及青少年身體質量指數之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pediatric-bmi-age-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-pulse-oximetry-example"/>
+			</reference>
+			<name value="生命體徵資料-脈搏血氧飽和度"/>	
+			<description value="依據臺灣核心-脈搏血氧飽和度(TW Core Observation Pulse Oximetry)呈現脈搏血氧飽和度之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pulse-oximetry-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-temperature-example"/>
+			</reference>
+			<name value="生命體徵資料-體溫"/>	
+			<description value="依據臺灣核心-體溫(TW Core Observation Body Temperature)呈現體溫之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-temperature-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/obs-weight-example"/>
+			</reference>
+			<name value="生命體徵資料-體重"/>	
+			<description value="依據臺灣核心-體重(TW Core Observation Body Weight)呈現體重之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-body-weight-twcore"/>
+		</resource>
+
+		<resource>
+			<reference>
 				<reference value="RelatedPerson/rel-per-example"/>
 			</reference>
 			<name value="相關人士"/>	
