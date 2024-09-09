@@ -51,4 +51,4 @@ Description:    "此臺灣核心-照護計畫（TW Core CarePlan） Profile說�
 * activity.detail.reasonReference only Reference(TWCoreCondition or TWCoreObservationClinicalResult or TWCoreDiagnosticReport or TWCoreDocumentReference)
 * activity.detail.location only Reference(TWCoreLocation)
 * activity.detail.performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreRelatedPerson or TWCorePatient or TWCoreCareTeam or  HealthcareService or TWCoreImplantableDevice)
-* activity.detail.location.productReference only Reference(TWCoreMedication or Substance)
+* activity.detail.productReference only Reference(TWCoreMedication or Substance)
