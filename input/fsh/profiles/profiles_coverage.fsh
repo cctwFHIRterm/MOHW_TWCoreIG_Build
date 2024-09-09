@@ -67,3 +67,6 @@ Description:    "此臺灣核心-給付範圍（TW Core Coverage） Profile說�
 * class[plan].name ^comment = "Name of the health plan benefit offering assigned to the Plan Identifier"
 
 
+* identifier[memberid].assigner only Reference(TWCoreOrganization)
+* policyHolder only Reference(TWCorePatient or TWCoreRelatedPerson or TWCoreOrganization)
+* subscriber only Reference(TWCorePatient or TWCoreRelatedPerson)

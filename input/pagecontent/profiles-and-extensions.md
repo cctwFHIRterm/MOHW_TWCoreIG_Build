@@ -9,11 +9,20 @@
   - [臺灣核心-資料交換基本單位-文件（TW Core Bundle Document）](StructureDefinition-Bundle-document-twcore.html) 
   - [臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message）](StructureDefinition-Bundle-message-twcore.html) 
 
+#### CarePlan
+- [<span class="bg-success">臺灣核心-照護計畫（TW Core CarePlan）</span>](StructureDefinition-CarePlan-twcore.html) 
+
+#### CareTeam
+- [<span class="bg-success">臺灣核心-照護團隊（TW Core CareTeam）</span>](StructureDefinition-CareTeam-twcore.html) 
+
 #### Composition
 - [臺灣核心-臨床文件架構（TW Core Composition）](StructureDefinition-Composition-twcore.html) 
 
 #### Condition
 - [臺灣核心-病情、問題或診斷（TW Core Condition）](StructureDefinition-Condition-twcore.html) 
+
+#### Coverage
+- [<span class="bg-success">臺灣核心-給付範圍（TW Core Coverage）</span>](StructureDefinition-Coverage-twcore.html) 
 
 #### Device
 - [<span class="bg-success">臺灣核心-植入式裝置（TW Core Implantable Device）</span>](StructureDefinition-Device-twcore.html) 
@@ -74,10 +83,8 @@
   - [<span class="bg-success">臺灣核心-頭圍（TW Core Observation Head Circumference）</span>](StructureDefinition-Observation-head-circumference-twcore.html) 
   - [<span class="bg-success">臺灣核心-心率（TW Core Observation Heart Rate）</span>](StructureDefinition-Observation-heart-rate-twcore.html) 
   - [<span class="bg-success">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</span>](StructureDefinition-Observation-pulse-oximetry-twcore.html) 
-  
-
-  <!--   - [<span class="bg-success">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</span>](StructureDefinition-Observation-respiratory-rate-twcore.html) 
-  - [<span class="bg-success">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</span>](StructureDefinition-Observation-pediatric-head-circumference-twcore.html) -->
+  - [<span class="bg-success">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</span>](StructureDefinition-Observation-respiratory-rate-twcore.html) 
+  - [<span class="bg-success">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</span>](StructureDefinition-Observation-pediatric-head-circumference-twcore.html)
 
 #### Organization
 - [臺灣核心-機構（TW Core Organization）](StructureDefinition-Organization-twcore.html) 

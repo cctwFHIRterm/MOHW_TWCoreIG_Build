@@ -38,3 +38,17 @@ Description:    "此臺灣核心-照護計畫（TW Core CarePlan） Profile說�
 * subject ^type.targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * subject ^type.targetProfile[=].extension.valueBoolean = false
 
+* basedOn only Reference(TWCoreCarePlan)
+* replaces only Reference(TWCoreCarePlan)
+* partOf only Reference(TWCoreCarePlan)
+* encounter only Reference(TWCoreEncounter)
+* author only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreDevice or TWCoreRelatedPerson or TWCoreOrganization or TWCoreCareTeam)
+* contributor only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreDevice or TWCoreRelatedPerson or TWCoreOrganization or TWCoreCareTeam)
+* careTeam only Reference(TWCoreCareTeam)
+* addresses only Reference(TWCoreCondition)
+* activity.reference only Reference(Appointment or CommunicationRequest or DeviceRequest or TWCoreMedicationRequest or NutritionOrder or Task or ServiceRequest or VisionPrescription or RequestGroup)
+* activity.detail.instantiatesCanonical only Reference(PlanDefinition or ActivityDefinition or Questionnaire or Measure or OperationDefinition)
+* activity.detail.reasonReference only Reference(TWCoreCondition or TWCoreObservationClinicalResult or TWCoreDiagnosticReport or TWCoreDocumentReference)
+* activity.detail.location only Reference(TWCoreLocation)
+* activity.detail.location only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreRelatedPerson or TWCorePatient or TWCoreCareTeam or  HealthcareService or TWCoreDevice)
+* activity.detail.location.productReference only Reference(TWCoreMedication or Substance)

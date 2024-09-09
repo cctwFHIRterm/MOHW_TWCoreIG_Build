@@ -28,3 +28,8 @@ Description:    "此臺灣核心-照護團隊（TW Core CareTeam） Profile說�
 * participant.member ^type.targetProfile[=].extension.valueBoolean = false
 * participant.member ^type.targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * participant.member ^type.targetProfile[=].extension.valueBoolean = true
+
+* encounter only Reference(TWCoreEncounter)
+* participant.onBehalfOf only Reference(TWCoreOrganization)
+* reasonReference only Reference(TWCoreCondition)
+* managingOrganization only Reference(TWCoreOrganization)
