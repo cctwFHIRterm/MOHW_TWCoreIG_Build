@@ -125,6 +125,8 @@ Description:    "tifier:residentNumber欄位的identifier.system改為 = http://
 * photo MS
 * qualification.code from TWHealthProfessionalSCT (extensible)
 * identifier.type only CodeableConceptTW
+* identifier.system 1..1
+* identifier.value 1..1
 * qualification.code only CodeableConceptTW
 * communication only CodeableConceptTW
 

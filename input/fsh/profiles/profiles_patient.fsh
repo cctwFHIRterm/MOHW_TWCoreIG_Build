@@ -19,6 +19,9 @@ Description:    "
 * extension[nationality] ^short = "病人所屬國籍"
 
 * identifier 1..* MS
+* identifier.type only CodeableConceptTW
+* identifier.system 1..1
+* identifier.value 1..1
 //* identifier ^slicing.discriminator.type = #pattern
 //* identifier ^slicing.discriminator.path = "type"
 * identifier ^slicing.discriminator[0].type = #value
