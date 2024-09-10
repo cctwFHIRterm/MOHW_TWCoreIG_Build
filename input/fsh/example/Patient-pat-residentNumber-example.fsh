@@ -27,7 +27,7 @@ Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 	<h3>
-		<b>病人基本資料-居留證號碼</b>
+		<b>病人基本資料-居留證號碼及病歷號</b>
 	</h3>
 	<blockquote>
 		<p>
