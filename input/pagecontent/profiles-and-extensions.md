@@ -36,8 +36,15 @@
 #### Encounter
 - [臺灣核心-就醫事件（TW Core Encounter）](StructureDefinition-Encounter-twcore.html) 
 
+<!-- #### Goal
+- [<span class="bg-success">臺灣核心-目標（TW Core Goal）</span>](StructureDefinition-Goal-twcore.html) -->
+
 #### ImagingStudy
 - [臺灣核心-影像檢查（TW Core ImagingStudy）](StructureDefinition-ImagingStudy-twcore.html) 
+
+<!-- #### Immunization
+- [<span class="bg-success">臺灣核心-疫苗接種（TW Core Immunization）</span>](StructureDefinition-Immunization-twcore.html) -->
+
 
 #### Location
 - [臺灣核心-地點（TW Core Location) ](StructureDefinition-Location-twcore.html) 
@@ -104,8 +111,21 @@
 #### Procedure
 - [臺灣核心-處置或手術（TW Core Procedure）](StructureDefinition-Procedure-twcore.html) 
 
+<!-- 
+#### Provenance
+- [<span class="bg-success">臺灣核心-出處（TW Core Provenance）</span>](StructureDefinition-Provenance-twcore.html)
+
+
+#### QuestionnaireResponse
+- [<span class="bg-success">臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）</span>](StructureDefinition-QuestionnaireResponse-twcore.html) -->
+
+
 #### RelatedPerson
 - [<span class="bg-success">臺灣核心-相關人士（TW Core RelatedPerson）</span>](StructureDefinition-RelatedPerson-twcore.html) 
+
+<!-- #### ServiceRequest
+- [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-serviceRequest-twcore.html) -->
+
 
 #### Specimen
 - [臺灣核心-檢體（TW Core Specimen）](StructureDefinition-Specimen-twcore.html) 
@@ -121,7 +141,7 @@
 -------
 
 ### Extensions
-以下[Extensions]({{site.data.fhir.path}}extensibility.html)已定義為臺灣核心實作指引（TW Core IG)的一部分。
+以下[Extensions]({{site.data.fhir.path}}extensibility.html)已定義為臺灣核心實作指引（TW Core IG）的一部分。
 - [識別碼後綴詞（Identifier Suffix）](StructureDefinition-identifier-suffix.html)
 - [年齡（Person Age）](StructureDefinition-person-age.html)
 - [臺灣郵遞區號（TW Postal code）](StructureDefinition-tw-postal-code.html)
@@ -133,3 +153,4 @@
 - [臺灣地址欄位-號（TW Number）](StructureDefinition-tw-number.html)
 - [臺灣地址欄位-樓（TW Floor）](StructureDefinition-tw-floor.html)
 - [臺灣地址欄位-室（TW Room）](StructureDefinition-tw-room.html)
+<!-- - [<span class="bg-success">Questionnaire Url</span>](StructureDefinition-questionnaire-url.html) -->

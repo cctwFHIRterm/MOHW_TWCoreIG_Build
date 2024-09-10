@@ -1,9 +1,15 @@
+Alias: $questionnaire-uri = https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/questionnaire-url
+
 Profile:        TWCoreQuestionnaireResponse
 Parent:         SDCQuestionnaireResponse
-Id:             questionnaireResponse-twcore
+Id:             QuestionnaireResponse-twcore
 Title:          "TW Core QuestionnaireResponse"
 Description:    "此臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）Profile說明本IG如何進一步定義FHIR的QuestionnaireResponse  Resource以呈現問卷題目回覆資料。"
 * ^version = "0.3.0"
+
+* questionnaire MS
+* questionnaire.extension contains $questionnaire-uri named url 0..1 MS
+
 * status MS
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
