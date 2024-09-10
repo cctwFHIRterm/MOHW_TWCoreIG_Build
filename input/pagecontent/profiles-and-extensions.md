@@ -115,17 +115,14 @@
 #### Provenance
 - [<span class="bg-success">臺灣核心-出處（TW Core Provenance）</span>](StructureDefinition-Provenance-twcore.html)
 
-
 #### QuestionnaireResponse
 - [<span class="bg-success">臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）</span>](StructureDefinition-QuestionnaireResponse-twcore.html) -->
-
 
 #### RelatedPerson
 - [<span class="bg-success">臺灣核心-相關人士（TW Core RelatedPerson）</span>](StructureDefinition-RelatedPerson-twcore.html) 
 
 <!-- #### ServiceRequest
 - [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-serviceRequest-twcore.html) -->
-
 
 #### Specimen
 - [臺灣核心-檢體（TW Core Specimen）](StructureDefinition-Specimen-twcore.html) 
