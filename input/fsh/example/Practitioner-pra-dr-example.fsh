@@ -54,7 +54,7 @@ Usage: #example
 	<blockquote>
   <p>
     <b>識別碼型別</b>：Medical License number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#MD） </span><br/>
-    <b>員工編號（official）</b>：KP00017 （https://www.tph.mohw.gov.tw/）
+    <b>員工編號（official）</b>：KP00017 （https://www.tph.mohw.gov.tw）
   </p>
 	</blockquote>
   <p>

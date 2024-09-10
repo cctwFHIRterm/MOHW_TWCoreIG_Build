@@ -540,7 +540,7 @@
 			<reference>
 				<reference value="Patient/pat-example"/>
 			</reference>
-			<name value="病人基本資料-身分證字號"/>	
+			<name value="病人基本資料-身分證字號及病歷號"/>	
 			<description value="依據臺灣核心-病人(TW Core Patient) Profile呈現病人基本資料之範例"/>
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"/>
 	</resource>
@@ -549,7 +549,7 @@
 			<reference>
 				<reference value="Patient/pat-residentNumber-example"/>
 			</reference>
-			<name value="病人基本資料-居留證號碼"/>	
+			<name value="病人基本資料-居留證號碼及病歷號"/>	
 			<description value="依據臺灣核心-病人(TW Core Patient) Profile呈現病人基本資料之範例"/>
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Patient-twcore"/>
 	</resource>

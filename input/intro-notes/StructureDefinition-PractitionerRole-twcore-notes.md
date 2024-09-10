@@ -16,7 +16,7 @@
     `GET [base]/PractitionerRole?identifier={system|}[code]`
 
     例子：  
-      (1) GET [base]/PractitionerRole?identifier=https://www.tph.mohw.gov.tw/|KP00017
+      (1) GET [base]/PractitionerRole?identifier=https://www.tph.mohw.gov.tw|KP00017
 
 
 3. **建議應該（SHOULD）** 支援透過查詢參數 **[`specialty`](SearchParameter-PractitionerRole-specialty.html)** 查詢所有PractitionerRole：             

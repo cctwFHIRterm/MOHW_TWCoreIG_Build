@@ -23,7 +23,7 @@
     `GET [base]/Specimen?identifier={system|}[code]`
 
     例子：  
-      (1) GET [base]/Specimen?identifier=https://www.tph.mohw.gov.tw/|1a3f5b7d-9e2c-4f6a-8c1e-0b2d4e6f8a9c
+      (1) GET [base]/Specimen?identifier=https://www.tph.mohw.gov.tw|1a3f5b7d-9e2c-4f6a-8c1e-0b2d4e6f8a9c
 
 4. **建議應該（SHOULD）** 支援透過查詢參數 **[`subject`](SearchParameter-Specimen-subject.html)** 查詢所有Specimen：  
     ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))  

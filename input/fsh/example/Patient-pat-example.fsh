@@ -15,7 +15,7 @@ Usage: #example
 * identifier[medicalRecord].use = #official
 * identifier[medicalRecord].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier[medicalRecord].type.coding.code = #MR
-* identifier[medicalRecord].system = "https://www.tph.mohw.gov.tw/"
+* identifier[medicalRecord].system = "https://www.tph.mohw.gov.tw"
 * identifier[medicalRecord].value = "8862168"
 * active = true
 * name.use = #official
