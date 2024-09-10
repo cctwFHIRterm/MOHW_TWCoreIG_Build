@@ -1,3 +1,8 @@
+Invariant: id-card-number
+Description: "身分證號共十碼，首碼以英文字母代表直轄市、縣（市）別，第二碼至第十碼為數字碼。"
+Expression: "value.matches('^[A-Za-z][0-9]{9}$')"
+Severity: #error
+
 Invariant:   tw-core-1
 Description: "Patient.name.text or Patient.name.family or both SHALL be present"
 Expression:  "text.exists() or family.exists()"

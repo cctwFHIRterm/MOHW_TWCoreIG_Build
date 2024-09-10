@@ -49,6 +49,7 @@ Description:    "tifier:residentNumber欄位的identifier.system改為 = http://
 * identifier[idCardNumber].type.coding.code MS
 * identifier[idCardNumber].type.coding.system MS
 * identifier[idCardNumber].type.coding.display MS
+* identifier[idCardNumber] obeys id-card-number
 * identifier[passportNumber].system 1.. MS
 * identifier[passportNumber].system = "http://www.boca.gov.tw"
 * identifier[passportNumber].use MS
