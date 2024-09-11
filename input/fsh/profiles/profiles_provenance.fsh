@@ -42,6 +42,8 @@ Description:    "此臺灣核心-出處（TW Core Provenance） Profile說明本
 * agent.onBehalfOf only Reference(TWCoreOrganization)
 * agent.onBehalfOf MS
 
+* location only Reference(TWCoreLocation)
+
 Invariant: provenance-1
 Description: "onBehalfOf SHALL be present when Provenance.agent.who is a Practitioner or Device"
 * severity = #error

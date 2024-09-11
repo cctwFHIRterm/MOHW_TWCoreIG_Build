@@ -23,3 +23,9 @@ Description:    "此臺灣核心-疫苗接種（TW Core Immunization） Profile�
 * primarySource MS
 * location only Reference(TWCoreLocation)
 * location MS
+
+* manufacturer only Reference(TWCoreOrganization)
+* performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization)
+* reasonReference only Reference(TWCoreCondition or TWCoreObservationClinicalResult or TWCoreDiagnosticReport)
+* reaction.detail only Reference(TWCoreObservationClinicalResult)
+* protocolApplied.authority only Reference(TWCoreOrganization)

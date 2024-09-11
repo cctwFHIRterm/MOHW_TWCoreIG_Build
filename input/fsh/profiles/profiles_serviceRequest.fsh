@@ -54,10 +54,3 @@ Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profil
 * replaces only Reference(TWCoreServiceRequest)
 * insurance only Reference(TWCoreCoverage or ClaimResponse)
 * specimen only Reference(TWCoreSpecimen)
-* orderDetail only CodeableConceptTW
-* asNeededCodeableConcept only CodeableConceptTW
-* performerType only CodeableConceptTW
-* locationCode only CodeableConceptTW
-* reasonCode only CodeableConceptTW
-* bodySite only CodeableConceptTW
-* locationCode only CodeableConceptTW

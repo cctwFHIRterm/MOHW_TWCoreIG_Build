@@ -24,3 +24,7 @@ Description:    "此臺灣核心-目標（TW Core Goal） Profile說明本IG如�
 * target.due[x] MS
 * target.due[x] ^type.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * target.due[x] ^type.extension.valueBoolean = true
+
+* expressedBy only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreRelatedPerson)
+* addresses only Reference(TWCoreCondition or TWCoreObservationClinicalResult or TWCoreMedicationStatement or NutritionOrder or TWCoreServiceRequest or RiskAssessment)
+* outcomeReference only Reference(TWCoreObservationClinicalResult)
