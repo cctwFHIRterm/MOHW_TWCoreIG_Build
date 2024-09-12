@@ -2,7 +2,7 @@ Alias: $loinc = http://loinc.org
 ValueSet: SmokingStatusTypeCode
 Id: smoking-status-type-code
 Title: "SNOMED CT + LOINC 吸菸狀態種類向值集"
-Description: "SNOMED CT + HL7 NullFlavor 性傾向值集。"  
+Description: "SNOMED CT + LOINC 吸菸狀態種類向值集。"  
 * ^version = "0.3.0"
 * ^copyright = "(1)This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
 
