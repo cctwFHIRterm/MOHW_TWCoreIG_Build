@@ -44,7 +44,7 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 <div class="bg-warning"><p><b>若是第一次執行，須自行新增「.fhir」資料夾及其項下的「packages」資料夾。</b></p></div>
 <img src="validates/2.png" alt="Downloading the Pacakge" style="display: block;margin-left: auto;margin-right: auto;width: 80%;margin-bottom: 15px;" class="figure-img img-responsive img-rounded center-block"/>
 <div style="clear:both;"></div>
-
+</div>
 
 
 #### Step 3：下載validator_cli.jar檔
