@@ -62,9 +62,9 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 
 <div style="padding-left: 10px;"> 
 <p>如果您的手邊已經有一個依據TW Core IG實作的JSON檔，你可以使用你的實例檔案，如果你沒有這樣的檔案，則可以下載如下圖所示的TW Core IG的「病人基本資料」範例。如下圖所示，請於TW Core IG網站上，找到範例檔頁面中的「<a href="Patient-pat-example.json">病人基本資料</a>」，點選「JSON」頁籤中的「Download」，若沒有自動下載，請按右鍵，選擇「另存新檔...」。（此處以Patient Profile的範例為例）</p>
-<img class="figure-img img-responsive img-rounded center-block" src="validatess/4-1.png" alt="病人基本資料" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/>
+<img class="figure-img img-responsive img-rounded center-block" src="validates/4-1.png" alt="病人基本資料" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/>
 <div style="clear:both;"></div>
-<img class="figure-img img-responsive img-rounded center-block" src="validatess/4-2.png" alt="病人基本資料JSON檔" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/> 
+<img class="figure-img img-responsive img-rounded center-block" src="validates/4-2.png" alt="病人基本資料JSON檔" style="display: block;margin-left: auto;margin-right: auto;width: 80%;"/> 
 <div style="clear:both;"></div>
 </div>
 
