@@ -67,6 +67,7 @@ INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[8]: This element doe
 INFORMATION: Bundle/bun-document-example: Bundle.entry[6].resource/*MedicationRequest/med-req-cod-example*/.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
 INFORMATION: MedicationRequest/med-req-cod-example: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
 INFORMATION: MedicationRequest/med-req-ref-example: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+INFORMATION: CarePlan/careplan-example: CarePlan.text.status: Reference to draft CodeSystem http://hl7.org/fhir/narrative-status|4.0.1
 
 # 使用預設的 HL7 CodeSystem，但 HL7 validator 無法辨識CodeSystem，此屬於HL7 validator 程式本身問題，非IG 設計問題，此提示訊息不影響實作與實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: MedicationRequest/med-req-cod-example: MedicationRequest.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
