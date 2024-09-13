@@ -1,7 +1,7 @@
 ValueSet: TWCHHerbMedicationNHI
 Id: nhi-medication-ch-herb-tw
-Title: "臺灣健保署健保中藥用藥品項值集"
-Description: "臺灣健保署健保中藥用藥品項值集。
+Title: "臺灣健保署中藥用藥品項值集"
+Description: "臺灣健保署中藥用藥品項值集。
 資料所屬單位：衛生福利部中央健康保險署。
 
 
