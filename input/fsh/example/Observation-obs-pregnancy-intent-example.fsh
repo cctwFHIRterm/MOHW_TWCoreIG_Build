@@ -10,5 +10,5 @@ Usage: #example
 * effectiveDateTime = "2022-09-23T22:39:43Z"
 /** valueCodeableConcept = http://snomed.info/sct#454381000124105 "Finding related to pregnancy intention (finding)"
 * valueCodeableConcept.text = "Pregnant"*/
-* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK
+* valueCodeableConcept = LOINC#LA26438-4 "Yes, I want to become pregnant"
 * performer.reference = "Organization/org-hosp-example"

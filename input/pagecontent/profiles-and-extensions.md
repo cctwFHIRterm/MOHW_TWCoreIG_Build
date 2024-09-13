@@ -122,7 +122,7 @@
 - [<span class="bg-success">臺灣核心-相關人士（TW Core RelatedPerson）</span>](StructureDefinition-RelatedPerson-twcore.html) 
 
 <!-- #### ServiceRequest
-- [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-serviceRequest-twcore.html) -->
+- [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-ServiceRequest-twcore.html) -->
 
 #### Specimen
 - [臺灣核心-檢體（TW Core Specimen）](StructureDefinition-Specimen-twcore.html) 

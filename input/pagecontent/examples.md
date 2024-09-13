@@ -13,12 +13,23 @@
 - [Message request（傳送）](Bundle-bun-message-request-example.html)：依據臺灣核心-資料交換基本單位-訊息傳送（TW Core Bundle Message）Profile呈現資料交換基本單位 type=message request之範例
 - [Message response（回應）](Bundle-bun-message-response-example.html)：依據臺灣核心-資料交換基本單位-訊息傳送（TW Core Bundle Message）Profile呈現資料交換基本單位 type=message response之範例
 
+### CarePlan
+- [照護計畫](CarePlan-careplan-example.html)：依據臺灣核心-照護計畫（TW Core CarePlan）Profile呈現照護計畫之範例
+
+### CareTeam
+- [照護團隊](CareTeam-careteam-example.html)：依據臺灣核心-照護團隊（TW Core CareTeam）Profile呈現照護團隊之範例
+
 ### Composition
 - [陳加玲的病摘](Composition-com-example.html)：依據臺灣核心-臨床文件架構（TW Core Composition）Profile呈現陳加玲的病摘之範例
 - [手術摘要報告](Composition-com-surgery-example.html)：依據臺灣核心-臨床文件架構（TW Core Composition）Profile呈現手術摘要報告之範例
 
 ### Condition
 - [病情、問題或診斷的詳細資料](Condition-con-example.html)：依據臺灣核心-病情、問題或診斷（TW Core Condition）Profile呈現病情、問題或診斷之範例
+
+### Coverage
+
+### Device
+- [植入式裝置](Device-dev-example.html)：依據臺灣核心-植入式裝置（TW Core Simple Observation）Profile呈現植入式裝置之範例
 
 ### DiagnosticReport
 - [診斷報告](DiagnosticReport-dia-example.html)：依據臺灣核心-診斷報告（TW Core DiagnosticReport）Profile呈現診斷報告之範例
@@ -30,12 +41,16 @@
 ### Encounter
 - [就醫的詳細資料](Encounter-enc-example.html)：依據臺灣核心-就醫事件（TW Core Encounter）Profile呈現就醫之範例
 
+### Goal
+
 ### ImagingStudy
 - [腹部超音波](ImagingStudy-img-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現腹部超音波之範例
 - [胸椎電腦斷層掃描](ImagingStudy-img-ct-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現胸椎電腦斷層掃描之範例
 - [雙側乳房磁振造影](ImagingStudy-img-mr-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現雙側乳房磁振造影之範例
 - [Positron emission tomography](ImagingStudy-img-pet-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現Slide Microscopy之範例
 - [Slide Microscopy](ImagingStudy-img-sm-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現Positron emission tomography之範例
+
+### Immunization
 
 ### Location
 - [衛生福利部臺北醫院耳鼻喉科](Location-loc-ent-example.html)：依據臺灣核心-地點（TW Core Location）Profile呈現衛生福利部臺北醫院耳鼻喉科之範例
@@ -71,10 +86,31 @@
 - [response (回應）](MessageHeader-mes-response-example.html)：依據臺灣核心-訊息表頭（TW Core MessageHeader）Profile呈現訊息表頭－response資料之範例
 
 ### Observation
-- [檢驗檢查資料-使用臺灣醫療服務給付項目-檢驗值集代碼](Observation-obs-lab-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)Profile呈現檢驗檢查資料之範例
-- [檢驗檢查資料-使用LOINC實驗室檢驗檢查代碼](Observation-obs-loinc-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result)Profile呈現檢驗檢查資料之範例
+- [平均血壓](Observation-obs-averageBloodPressure-example.html)：依據臺灣核心-平均血壓(TW Core Observation Average Blood Pressure) Profile呈現平均血壓之範例
+- [病人照護偏好註記](Observation-obs-careExp-example.html)：依據臺灣核心-病人照護偏好註記(TW Core Observation Care Experience Preference) Profile呈現病人照護偏好註記之範例
+- 臨床檢驗檢查：依據臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）Profile呈現臨床檢驗檢查之範例
+- [實驗室檢驗檢查-使用臺灣醫療服務給付項目-檢驗值集代碼](Observation-obs-lab-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile呈現檢驗檢查之範例
+- [實驗室檢驗檢查-使用LOINC實驗室檢驗檢查代碼](Observation-obs-loinc-example.html)：依據臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile呈現檢驗檢查之範例
+- [職業](Observation-obs-occupation-example.html)：依據臺灣核心-職業(TW Core Simple Observation) Profile呈現職業之範例
+- [妊娠計畫](Observation-obs-pregnancy-intent-example.html)：依據臺灣核心-妊娠計畫(TW Core Observation Pregnancy Intent) Profile呈現妊娠計畫之範例
+- [妊娠狀態](Observation-obs-pregnancy-status-example.html)：依據臺灣核心-妊娠狀態(TW Core Observation Pregnancy Status) Profile呈現妊娠狀態之範例
+- [健康狀態篩檢與評估](Observation-obs-screening-assessment-example.html)：依據臺灣核心-健康狀態篩檢與評估(TW Core Observation Screening Assessment) Profile呈現健康狀態篩檢與評估之範例
+- [性傾向](Observation-obs-sexual-orientation-example.html)：依據臺灣核心-性傾向(TW Core Observation Sexual Orientation)呈現性傾向之範例
+- [通用檢驗檢查](Observation-obs-simple-example.html)：依據臺灣核心-通用檢驗檢查(TW Core Simple Observation) Profile呈現通用檢驗檢查之範例
+- 吸菸狀態：依據臺灣核心-吸菸狀態（TW Core Smoking Status Observation）Profile呈現吸菸狀態之範例
+- 病人治療偏好註記：依據臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）Profile呈現病人治療偏好註記之範例
+- [生命體徵資料-兒童及青少年身體質量指數](Observation-obs-pediatric-bmi-age-example.html)：依據臺灣核心-兒童及青少年身體質量指數(TW Core Pediatric BMI for Age Observation)呈現兒童及青少年身體質量指數之範例
 - [生命體徵資料-血壓](Observation-obs-bloodPressure-example.html)：依據臺灣核心-血壓（TW Core Observation Blood Pressure）Profile呈現血壓之範例
 - [生命體徵資料-身體質量指數](Observation-obs-bmi-example.html)：依據臺灣核心-身體質量指數（TW Core Observation BMI）Profile呈現身體質量指數之範例
+- [生命體徵資料-身高](Observation-obs-height-example.html)：依據臺灣核心-身高(TW Core Observation Body Height)呈現身高之範例
+- [生命體徵資料-體溫](Observation-obs-temperature-example.html)：依據臺灣核心-體溫(TW Core Observation Body Temperature)呈現體溫之範例
+- [生命體徵資料-體重](Observation-obs-weight-example.html)：依據臺灣核心-體重(TW Core Observation Body Weight)呈現體重之範例
+- [生命體徵資料-頭圍](Observation-obs-head-circumference-example.html)：依據臺灣核心-頭圍(TW Core Observation Head Circumference)呈現頭圍之範例
+- [生命體徵資料-心率](Observation-obs-heart-rate-example.html)：依據臺灣核心-心率(TW Core Observation Heart Rate)呈現心率之範例
+- [生命體徵資料-脈搏血氧飽和度](Observation-obs-pulse-oximetry-example.html)：依據臺灣核心-脈搏血氧飽和度(TW Core Observation Pulse Oximetry)呈現脈搏血氧飽和度之範例
+- 呼吸速率：依據臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）Profile呈現呼吸速率之範例
+- 兒童頭圍百分位數：依據臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）Profile呈現兒童頭圍百分位數之範例
+
 
 ### Organization 
 - [機構基本資料](Organization-org-example.html)：依據臺灣核心-機構（TW Core Organization）Profile呈現機構基本資料之範例
@@ -83,8 +119,9 @@
 - [公司行號基本資料](Organization-org-co-example.html)：依據臺灣核心-公司行號（TW Core Organization Insurance Company）Profile呈現公司行號基本資料之範例
 
 ### Patient 
-- [病人基本資料-身分證字號](Patient-pat-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人基本資料之範例
-- [病人基本資料-居留證號碼](Patient-pat-residentNumber-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人基本資料之範例
+- [病人基本資料-身分證字號及病歷號](Patient-pat-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人身分證字號及病歷號之範例
+- [病人基本資料-居留證號碼及病歷號](Patient-pat-residentNumber-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人居留證號碼及病歷號之範例
+- [病人(兒童)基本資料-身分證字號及病歷號](Patient-pat-child-example.html)：依據臺灣核心-病人（TW Core Patient）Profile呈現病人(兒童)身分證字號及病歷號之範例
 
 ### Practitioner
 - [醫師](Practitioner-pra-dr-example.html)：依據臺灣核心-健康照護服務提供者（TW Core Practitioner）Profile呈現醫師基本資料之範例
@@ -101,6 +138,14 @@
 ### Procedure
 - [子宮超音波](Procedure-pro-example.html)：依據臺灣核心-處置或手術（TW Core Procedure）Profile呈現子宮超音波之範例
 - [闌尾切除](Procedure-pro-appendectomy-example.html)：依據臺灣核心-處置或手術（TW Core Procedure）Profile呈現闌尾切除之範例
+
+### Provenance
+
+### QuestionnaireResponse
+
+### RelatedPerson
+
+### ServiceRequest
 
 ### Specimen
 - [血液檢體](Specimen-spe-blood-example.html)：依據臺灣核心-檢體（TW Core Specimen）Profile呈現血液檢體之範例

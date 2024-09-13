@@ -1,6 +1,6 @@
 Profile:        TWCoreServiceRequest
 Parent:         ServiceRequest
-Id:             serviceRequest-twcore
+Id:             ServiceRequest-twcore
 Title:          "TW Core ServiceRequest"
 Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profile說明本IG如何進一步定義FHIR的ServiceRequest Resource以呈現服務請求資料。"
 * ^version = "0.3.0"
