@@ -3,7 +3,7 @@ InstanceOf: TWCoreCareTeam
 Usage: #example
 * status = #active
 * subject = Reference(Patient/pat-example)
-* participant[0].role = http://snomed.info/sct#394802001 "General medicine"
+* participant[0].role = http://snomed.info/sct#21450003 "Neuropsychiatrist"
 * participant[=].member = Reference(Practitioner/pra-dr-example)
 * participant[+].role = http://snomed.info/sct#224535009 "Registered nurse"
 * participant[=].member = Reference(Practitioner/pra-nurse-example)
