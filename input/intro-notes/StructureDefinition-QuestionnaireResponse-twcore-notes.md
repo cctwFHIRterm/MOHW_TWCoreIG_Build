@@ -44,7 +44,7 @@
 
 
 
-2. **建議應該（SHOULD）** 支援透過查詢參數 **[`patient`](SearchParameter-QuestionnaireResponse-patient.html)** 及 **[`questionnaire`](SearchParameter-QuestionnaireResponse-questionnaire.html)** 查詢所有QuestionnaireResponse：              
+3. **建議應該（SHOULD）** 支援透過查詢參數 **[`patient`](SearchParameter-QuestionnaireResponse-patient.html)** 及 **[`questionnaire`](SearchParameter-QuestionnaireResponse-questionnaire.html)** 查詢所有QuestionnaireResponse：              
     ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))      
 
     `GET [base]/QuestionnaireResponse?patient={Type/}[id]&questionnaire={Type/}[id]`
