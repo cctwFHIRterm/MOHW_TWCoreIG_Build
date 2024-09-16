@@ -1693,8 +1693,8 @@ Usage: #definition
                     <td>
 						<a href=\"StructureDefinition-Bundle-twcore.html\">	臺灣核心-資料交換基本單位（TW Core Bundle）</a><br />
 						<em>支援的Profiles：</em><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Bundle-document-twcore.html\">臺灣核心-資料交換基本單位-文件 （TW Core Bundle Document）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Bundle-message-twcore.html\">臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message）</a>
+						<a href=\"StructureDefinition-Bundle-document-twcore.html\">臺灣核心-資料交換基本單位-文件 （TW Core Bundle Document）</a><br />
+						<a href=\"StructureDefinition-Bundle-message-twcore.html\">臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message）</a>
 					</td>
                     <td class=\"text-center\">⚪</td>
                     <td class=\"text-center\">✓</td>
@@ -1993,7 +1993,7 @@ Usage: #definition
 							Observation Care Experience Preference）</a><br />
 						<a href=\"StructureDefinition-Observation-clinical-result-twcore.html\">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical
 							Result）</a><br />
-						\u00a0<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation
+						<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation
 							Laboratory Result）</a><br />
 						<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation
 							Occupation）</a><br />
@@ -2012,27 +2012,27 @@ Usage: #definition
 							Observation Treatment Intervention Preference）</a><br />
 						<a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital
 							Signs）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-pediatric-bmi-age-twcore.html\">臺灣核心-兒童及青少年身體質量指數（TW Core
+						<a href=\"StructureDefinition-Observation-pediatric-bmi-age-twcore.html\">臺灣核心-兒童及青少年身體質量指數（TW Core
 							Pediatric BMI for Age Observation）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation
+						<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation
 							Blood Pressure）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation
+						<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation
 							BMI）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-height-twcore.html\">臺灣核心-身高（TW Core Observation Body
+						<a href=\"StructureDefinition-Observation-body-height-twcore.html\">臺灣核心-身高（TW Core Observation Body
 							Height）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-temperature-twcore.html\">臺灣核心-體溫（TW Core Observation
+						<a href=\"StructureDefinition-Observation-body-temperature-twcore.html\">臺灣核心-體溫（TW Core Observation
 							Body Temperature）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-weight-twcore.html\">臺灣核心-體重（TW Core Observation Body
+						<a href=\"StructureDefinition-Observation-body-weight-twcore.html\">臺灣核心-體重（TW Core Observation Body
 							Weight）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-head-circumference-twcore.html\">臺灣核心-頭圍（TW Core
+						<a href=\"StructureDefinition-Observation-head-circumference-twcore.html\">臺灣核心-頭圍（TW Core
 							Observation Head Circumference）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-heart-rate-twcore.html\">臺灣核心-心率（TW Core Observation Heart
+						<a href=\"StructureDefinition-Observation-heart-rate-twcore.html\">臺灣核心-心率（TW Core Observation Heart
 							Rate）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-pulse-oximetry-twcore.html\">臺灣核心-脈搏血氧飽和度（TW Core
+						<a href=\"StructureDefinition-Observation-pulse-oximetry-twcore.html\">臺灣核心-脈搏血氧飽和度（TW Core
 							Observation Pulse Oximetry）</a><br />
-						\u00a0\u00a0<a href=\"StructureDefinition-Observation-respiratory-rate-twcore.html\">臺灣核心-呼吸速率（TW Core
+						<a href=\"StructureDefinition-Observation-respiratory-rate-twcore.html\">臺灣核心-呼吸速率（TW Core
 							Observation Respiratory Rate）</a><br />
-						\u00a0\u00a0<a
+						<a
 							href=\"StructureDefinition-Observation-pediatric-head-circumference-twcore.html\">臺灣核心-兒童頭圍百分位數（TW Core
 							Observation Pediatric Head Occipital Frontal Circumference Percentile）</a>
 					</td>
@@ -2055,9 +2055,9 @@ Usage: #definition
                 <tr>
                     <td><a href=\"#Organization1-23\">Organization</a></td>
                     <td><a href=\"StructureDefinition-Organization-twcore.html\">臺灣核心-機構（TW Core Organization）</a><br /><em>支援的Profiles：</em><br />
-					\u00a0\u00a0<a href=\"StructureDefinition-Organization-govt-twcore.html\">臺灣核心-政府機構（TW Core Organization Government）</a><br />
-					\u00a0\u00a0<a href=\"StructureDefinition-Organization-hosp-twcore.html\">臺灣核心-醫事機構（TW Core Organization Hospital Department）</a><br />
-					\u00a0\u00a0<a href=\"StructureDefinition-Organization-co-twcore.html\">臺灣核心-公司行號（TW Core Organization Company）</a>
+					<a href=\"StructureDefinition-Organization-govt-twcore.html\">臺灣核心-政府機構（TW Core Organization Government）</a><br />
+					<a href=\"StructureDefinition-Organization-hosp-twcore.html\">臺灣核心-醫事機構（TW Core Organization Hospital Department）</a><br />
+					<a href=\"StructureDefinition-Organization-co-twcore.html\">臺灣核心-公司行號（TW Core Organization Company）</a>
                     </td>
                     <td class=\"text-center\">⚪</td>
                     <td class=\"text-center\">✓</td>
@@ -4010,7 +4010,7 @@ Usage: #definition
 							<a href=\"StructureDefinition-Observation-averageBloodPressure-twcore.html\">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a><br />
 							<a href=\"StructureDefinition-Observation-careExperiencePreference-twcore.html\">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a><br />
 							<a href=\"StructureDefinition-Observation-clinical-result-twcore.html\">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）</a><br />
+							<a href=\"StructureDefinition-Observation-laboratoryResult-twcore.html\">臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）</a><br />
 							<a href=\"StructureDefinition-Observation-occupation-twcore.html\">臺灣核心-職業（TW Core Observation Occupation）</a><br />
 							<a href=\"StructureDefinition-Observation-pregnancy-intent-twcore.html\">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</a><br />
 							<a href=\"StructureDefinition-Observation-pregnancy-status-twcore.html\">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</a><br />
@@ -4020,17 +4020,17 @@ Usage: #definition
 							<a href=\"StructureDefinition-Observation-smoking-status-twcore.html\">臺灣核心-吸菸狀態（TW Core Smoking Status Observation）</a><br />
 							<a href=\"StructureDefinition-Observation-treatment-intervention-preference-twcore.html\">臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）</a><br />
 							<a href=\"StructureDefinition-Observation-vitalSigns-twcore.html\">臺灣核心-生命體徵（TW Core Observation Vital Signs）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-pediatric-bmi-age-twcore.html\">臺灣核心-兒童及青少年身體質量指數（TW Core Pediatric BMI for Age Observation）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-height-twcore.html\">臺灣核心-身高（TW Core Observation Body Height）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-temperature-twcore.html\">臺灣核心-體溫（TW Core Observation Body Temperature）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-body-weight-twcore.html\">臺灣核心-體重（TW Core Observation Body Weight）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-head-circumference-twcore.html\">臺灣核心-頭圍（TW Core Observation Head Circumference）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-heart-rate-twcore.html\">臺灣核心-心率（TW Core Observation Heart Rate）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-pulse-oximetry-twcore.html\">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-respiratory-rate-twcore.html\">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</a><br />
-							\u00a0\u00a0<a href=\"StructureDefinition-Observation-pediatric-head-circumference-twcore.html\">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</a>
+							<a href=\"StructureDefinition-Observation-pediatric-bmi-age-twcore.html\">臺灣核心-兒童及青少年身體質量指數（TW Core Pediatric BMI for Age Observation）</a><br />
+							<a href=\"StructureDefinition-Observation-bloodPressure-twcore.html\">臺灣核心-血壓（TW Core Observation Blood Pressure）</a><br />
+							<a href=\"StructureDefinition-Observation-bmi-twcore.html\">臺灣核心-身體質量指數（TW Core Observation BMI）</a><br />
+							<a href=\"StructureDefinition-Observation-body-height-twcore.html\">臺灣核心-身高（TW Core Observation Body Height）</a><br />
+							<a href=\"StructureDefinition-Observation-body-temperature-twcore.html\">臺灣核心-體溫（TW Core Observation Body Temperature）</a><br />
+							<a href=\"StructureDefinition-Observation-body-weight-twcore.html\">臺灣核心-體重（TW Core Observation Body Weight）</a><br />
+							<a href=\"StructureDefinition-Observation-head-circumference-twcore.html\">臺灣核心-頭圍（TW Core Observation Head Circumference）</a><br />
+							<a href=\"StructureDefinition-Observation-heart-rate-twcore.html\">臺灣核心-心率（TW Core Observation Heart Rate）</a><br />
+							<a href=\"StructureDefinition-Observation-pulse-oximetry-twcore.html\">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</a><br />
+							<a href=\"StructureDefinition-Observation-respiratory-rate-twcore.html\">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</a><br />
+							<a href=\"StructureDefinition-Observation-pediatric-head-circumference-twcore.html\">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</a>
 						</p>
                     </div>
                 </div>
