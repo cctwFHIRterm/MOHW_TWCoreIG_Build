@@ -36,14 +36,14 @@
 #### Encounter
 - [臺灣核心-就醫事件（TW Core Encounter）](StructureDefinition-Encounter-twcore.html) 
 
-<!-- #### Goal
-- [<span class="bg-success">臺灣核心-目標（TW Core Goal）</span>](StructureDefinition-Goal-twcore.html) -->
+#### Goal
+- [<span class="bg-success">臺灣核心-目標（TW Core Goal）</span>](StructureDefinition-Goal-twcore.html)
 
 #### ImagingStudy
 - [臺灣核心-影像檢查（TW Core ImagingStudy）](StructureDefinition-ImagingStudy-twcore.html) 
 
-<!-- #### Immunization
-- [<span class="bg-success">臺灣核心-疫苗接種（TW Core Immunization）</span>](StructureDefinition-Immunization-twcore.html) -->
+#### Immunization
+- [<span class="bg-success">臺灣核心-疫苗接種（TW Core Immunization）</span>](StructureDefinition-Immunization-twcore.html)
 
 
 #### Location
@@ -111,18 +111,17 @@
 #### Procedure
 - [臺灣核心-處置或手術（TW Core Procedure）](StructureDefinition-Procedure-twcore.html) 
 
-<!-- 
 #### Provenance
 - [<span class="bg-success">臺灣核心-出處（TW Core Provenance）</span>](StructureDefinition-Provenance-twcore.html)
 
 #### QuestionnaireResponse
-- [<span class="bg-success">臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）</span>](StructureDefinition-QuestionnaireResponse-twcore.html) -->
+- [<span class="bg-success">臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）</span>](StructureDefinition-QuestionnaireResponse-twcore.html) 
 
 #### RelatedPerson
 - [<span class="bg-success">臺灣核心-相關人士（TW Core RelatedPerson）</span>](StructureDefinition-RelatedPerson-twcore.html) 
 
-<!-- #### ServiceRequest
-- [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-ServiceRequest-twcore.html) -->
+#### ServiceRequest
+- [<span class="bg-success">臺灣核心-服務請求（TW Core ServiceRequest）</span>](StructureDefinition-ServiceRequest-twcore.html)
 
 #### Specimen
 - [臺灣核心-檢體（TW Core Specimen）](StructureDefinition-Specimen-twcore.html) 
@@ -150,4 +149,4 @@
 - [臺灣地址欄位-號（TW Number）](StructureDefinition-tw-number.html)
 - [臺灣地址欄位-樓（TW Floor）](StructureDefinition-tw-floor.html)
 - [臺灣地址欄位-室（TW Room）](StructureDefinition-tw-room.html)
-<!-- - [<span class="bg-success">Questionnaire Url</span>](StructureDefinition-questionnaire-url.html) -->
+- [<span class="bg-success">Questionnaire Url</span>](StructureDefinition-questionnaire-url.html)
