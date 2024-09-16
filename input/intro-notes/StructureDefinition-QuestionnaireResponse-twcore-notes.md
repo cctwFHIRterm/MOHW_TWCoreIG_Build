@@ -9,8 +9,8 @@
     `GET [base]/QuestionnaireResponse/[id]`
 
     例子：  
-      (1) GET [base]/QuestionnaireResponse?_id=ser-example  
-      (2) GET [base]/QuestionnaireResponse/ser-example
+      (1) GET [base]/QuestionnaireResponse?_id=que-res-example  
+      (2) GET [base]/QuestionnaireResponse/que-res-example
 
 
 2. **必須（SHALL）** 支援透過查詢參數 **[`patient`](SearchParameter-QuestionnaireResponse-patient.html)** 查詢所有QuestionnaireResponse：               
