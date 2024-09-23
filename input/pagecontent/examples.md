@@ -97,8 +97,8 @@
 - [健康狀態篩檢與評估](Observation-obs-screening-assessment-example.html)：依據臺灣核心-健康狀態篩檢與評估(TW Core Observation Screening Assessment) Profile呈現健康狀態篩檢與評估之範例
 - [性傾向](Observation-obs-sexual-orientation-example.html)：依據臺灣核心-性傾向(TW Core Observation Sexual Orientation)呈現性傾向之範例
 - [通用檢驗檢查](Observation-obs-simple-example.html)：依據臺灣核心-通用檢驗檢查(TW Core Simple Observation) Profile呈現通用檢驗檢查之範例
-- 吸菸狀態：依據臺灣核心-吸菸狀態（TW Core Smoking Status Observation）Profile呈現吸菸狀態之範例
-- 病人治療偏好註記：依據臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）Profile呈現病人治療偏好註記之範例
+- [吸菸狀態](Observation-obs-smoking-status-example.html)：依據臺灣核心-吸菸狀態（TW Core Smoking Status Observation）Profile呈現吸菸狀態之範例
+- [病人治療偏好註記](Observation-obs-treatment-intervention-preference-example.html)：依據臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）Profile呈現病人治療偏好註記之範例
 - [生命體徵資料-兒童及青少年身體質量指數](Observation-obs-pediatric-bmi-age-example.html)：依據臺灣核心-兒童及青少年身體質量指數(TW Core Pediatric BMI for Age Observation)呈現兒童及青少年身體質量指數之範例
 - [生命體徵資料-血壓](Observation-obs-bloodPressure-example.html)：依據臺灣核心-血壓（TW Core Observation Blood Pressure）Profile呈現血壓之範例
 - [生命體徵資料-身體質量指數](Observation-obs-bmi-example.html)：依據臺灣核心-身體質量指數（TW Core Observation BMI）Profile呈現身體質量指數之範例
@@ -108,8 +108,9 @@
 - [生命體徵資料-頭圍](Observation-obs-head-circumference-example.html)：依據臺灣核心-頭圍(TW Core Observation Head Circumference)呈現頭圍之範例
 - [生命體徵資料-心率](Observation-obs-heart-rate-example.html)：依據臺灣核心-心率(TW Core Observation Heart Rate)呈現心率之範例
 - [生命體徵資料-脈搏血氧飽和度](Observation-obs-pulse-oximetry-example.html)：依據臺灣核心-脈搏血氧飽和度(TW Core Observation Pulse Oximetry)呈現脈搏血氧飽和度之範例
-- 呼吸速率：依據臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）Profile呈現呼吸速率之範例
-- 兒童頭圍百分位數：依據臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）Profile呈現兒童頭圍百分位數之範例
+- [生命體徵資料-呼吸速率](Observation-obs-respiratory-rate-example.html)：依據臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）Profile呈現呼吸速率之範例
+
+- 生命體徵資料-兒童頭圍百分位數：依據臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）Profile呈現兒童頭圍百分位數之範例
 
 
 ### Organization 
@@ -144,6 +145,8 @@
 ### QuestionnaireResponse
 
 ### RelatedPerson
+
+- [相關人士](RelatedPerson-rel-example.html)：依據臺灣核心-相關人士（TW Core RelatedPerson）Profile呈相關人士之範例
 
 ### ServiceRequest
 
