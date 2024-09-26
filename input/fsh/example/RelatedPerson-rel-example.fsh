@@ -2,7 +2,7 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $postal-code3-tw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/postal-code3-tw
 
 Instance: rel-example
-InstanceOf: RelatedPerson
+InstanceOf: TWCoreRelatedPerson
 Usage: #example
 * active = true
 * patient = Reference(Patient/pat-example)

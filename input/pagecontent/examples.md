@@ -109,7 +109,6 @@
 - [生命體徵資料-心率](Observation-obs-heart-rate-example.html)：依據臺灣核心-心率(TW Core Observation Heart Rate)呈現心率之範例
 - [生命體徵資料-脈搏血氧飽和度](Observation-obs-pulse-oximetry-example.html)：依據臺灣核心-脈搏血氧飽和度(TW Core Observation Pulse Oximetry)呈現脈搏血氧飽和度之範例
 - [生命體徵資料-呼吸速率](Observation-obs-respiratory-rate-example.html)：依據臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）Profile呈現呼吸速率之範例
-
 - [生命體徵資料-兒童頭圍百分位數](Observation-obs-ofc-percentile-example.html)：依據臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）Profile呈現兒童頭圍百分位數之範例
 
 

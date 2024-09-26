@@ -7,7 +7,7 @@ Usage: #example
 * status = #completed
 * subject = Reference(Patient/pat-example)
 * authored = "2023-08-14T20:40:49.675Z"
-* author = Reference(Practitioner/practitioner-1)
+* author = Reference(Practitioner/practitioner-dr)
 * author.type = "Practitioner"
 * item[0].linkId = "/68517-2"
 * item[=].text = "How many times in the past year have you have X or more drinks in a day?"
