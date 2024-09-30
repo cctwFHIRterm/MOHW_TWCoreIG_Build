@@ -1,7 +1,7 @@
 ValueSet: TWMedicationNHI
 Id: medication-nhi-tw
-Title: "臺灣健保署健保用藥品項代碼值集"
-Description: "臺灣健保署健保用藥品項代碼值集。
+Title: "臺灣健保署用藥品項代碼值集"
+Description: "臺灣健保署用藥品項代碼值集
 資料所屬單位：衛生福利部中央健康保險署。
 
 

@@ -9,7 +9,7 @@
 
     例子：  
       (1) GET [base]/RelatedPerson?_id=rel-per-example  
-      (2) GET [base]/RelatedPerson/rel-per-example
+      (2) GET [base]/RelatedPerson/rel-example
 
 #### 建議應該支援以下查詢參數：
 

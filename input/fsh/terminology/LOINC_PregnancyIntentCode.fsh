@@ -1,10 +1,10 @@
 Alias: $NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
-ValueSet: PregnancyIntentCodeSCT
-Id: snomed-pregnancy-intent-code
+ValueSet: LOINCPregnancyIntentCode
+Id: loinc-pregnancy-intent-code
 Title: "臺灣妊娠計畫值集"
 Description: "臺灣妊娠計畫值集。"  
 * ^version = "0.3.0"
-* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
+* ^copyright = "This content LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"
 * ^experimental = false
 
 /* SNOMED_CT#454381000124105

@@ -2054,3 +2054,34 @@ Usage: #definition
 * base = #QuestionnaireResponse
 * expression = "QuestionnaireResponse.questionnaire"
 * type = #reference
+
+
+//-------------------------Provenance-------------------------
+Instance: Provenance-patient
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Provenance-patient"
+* name = "ProvenancePatient"
+* status = #active
+* version = "0.3.0"
+* date = "2024-08-31"
+* description = "出處的對象(patient)"
+* code = #patient
+* base = #Provenance
+* expression = "Provenance.target.where(resolve() is Patient)"
+* type = #reference
+
+Instance: Provenance-id
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://twcore.mohw.gov.tw/ig/twcore/SearchParameter/Provenance-id"
+* name = "ProvenanceID"
+* status = #active
+* version = "0.3.0"
+* date = "2024-08-31"
+* description = "出處的邏輯性ID"
+* code = #_id
+* base = #Provenance
+* expression = "Provenance.id"
+* type = #token
+

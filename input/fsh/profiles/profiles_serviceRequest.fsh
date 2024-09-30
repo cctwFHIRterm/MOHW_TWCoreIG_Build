@@ -16,6 +16,7 @@ Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profil
 * category[twcore] ^binding.description = "此slice綁定的值集之綁定強度雖為最高強度「要求使用(Requird)」，但因slice之特性，其不會限制僅能填此值集中的代碼，故在實作時也可使用其他值集的代碼。"
 * code 1..1 MS
 * code only CodeableConceptTW
+* code from $sct-procedures (required)
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open

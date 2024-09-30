@@ -40,7 +40,7 @@ INFORMATION: ConceptMap/medication-path-tw: ConceptMap.group[0].target: Target C
 INFORMATION: ConceptMap/medical-consultation-department-nhi-tw: ConceptMap.group[0].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
 INFORMATION: ConceptMap/medical-treatment-department-nhi-tw: ConceptMap.group[0].target: Target Code System http://snomed.info/sct is only supported on the terminology server, so the target codes are not validated for performance reasons
 
-# HL7 Validator中的程式語法錯誤，造成已定義的Bundle、Encounter、MedicationDispense、MedicationStatement、Organization Profiles無法被正常驗證驗證，此提示訊息不影響實作與實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
+# HL7 Validator中的程式語法錯誤，造成已定義的Bundle、Encounter、MedicationDispense、MedicationStatement、Organization、Provenance Profiles無法被正常驗證驗證，此提示訊息不影響實作與實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: Bundle/bun-document-example: Bundle.entry[1]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-example: Bundle.entry[2]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-example: Bundle.entry[3]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -62,6 +62,7 @@ INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[5]: This element doe
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[7]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[8]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Bundle-document-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Provenance/pov-example: Provenance.agent[0]: This element does not match any known slice defined in the profile https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Provenance-twcore|0.3.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # HL7 Publisher，找不到 HL7 的CodeSystem API 服務，此屬於國際標準CodeSystem問題，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: Bundle/bun-document-example: Bundle.entry[6].resource/*MedicationRequest/med-req-cod-example*/.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
@@ -77,6 +78,7 @@ INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*Medicat
 INFORMATION: Bundle/bun-document-uuid-example: Bundle.entry[6].resource/*MedicationRequest/Inline-MedicationRequest-example*/.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
 INFORMATION: StructureDefinition/Provenance-twcore: StructureDefinition.snapshot.element[34].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/provenance-participant-type|4.0.1
 INFORMATION: StructureDefinition/Provenance-twcore: StructureDefinition.differential.element[10].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/provenance-participant-type|4.0.1
+INFORMATION: Provenance/pov-example: Provenance.agent[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/provenance-participant-type|4.0.1
 
 # HL7 Publisher，針對有property的CodeSystem，會提醒property沒有URI，希望實作者與IG設計者留意此設定需求，此提示訊息不影響實際代碼驗證。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: CodeSystem/postal-code3-tw: CodeSystem.property[0]: This property has only a code ('city') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
@@ -130,11 +132,52 @@ INFORMATION: MedicationDispense/med-dis-injection-example: MedicationDispense.su
 INFORMATION: MedicationDispense/med-dis-ref-example: MedicationDispense.type.coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
 INFORMATION: MedicationDispense/med-dis-ref-example: MedicationDispense.substitution.type.coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
 INFORMATION: MedicationDispense/med-dis-ref-example: MedicationDispense.substitution.reason[0].coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
-INFORMATION: RelatedPerson/rel-per-example: RelatedPerson.relationship[0].coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
+INFORMATION: RelatedPerson/rel-example: RelatedPerson.relationship[0].coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
+INFORMATION: RelatedPerson/rel-example: RelatedPerson.relationship[0].coding[0].display: NO_VALID_DISPLAY_FOUND_LANG_NONE_other
 %Wrong Display Name%
 
 # The following content is inherited from the base standard and cannot be changed
 WARNING: StructureDefinition/CarePlan-twcore: StructureDefinition.snapshot.element[9].comment: The markdown contains content that appears to be an embedded HTML tag starting at 'Th'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 
+# In this example, representing the concept clearly with a human readable annotations {pack-years} is not misleading. It clearly illustrates how to use the Observation with the code and is a clinical need that outweighs the concerns about using the annotation.
+WARNING: Observation/obs-smoking-status-example: Observation.value.ofType(Quantity): UCUM Codes that contain human readable annotations like {pack-years} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked
+
+
 # 待補範例
 The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/questionnaire-url'): The Implementation Guide contains no examples for this extension
+
+# Observatio中的performer為選填，但HL7 FHIR建議填寫，此警告訊息不影響實作與實際代碼驗證。（WARNING後方的 藍色字樣(1uses) 是指WARNING在此範例中有被使用到）
+WARNING: Observation/obs-ofc-percentile-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/obs-respiratory-rate-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/obs-smoking-status-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+
+# HL7 Publisher 中的程式語法問題所造成的LOINC Code Display無法正常辨識。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
+INFORMATION: Observation/obs-head-circumference-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#9843-4 for language(s) 'zh-Hant-TW'. The display is 'Head Occipital-frontal circumference' the default language display
+INFORMATION: Observation/obs-height-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8302-2 for language(s) 'zh-Hant-TW'. The display is 'Body height' the default language display
+INFORMATION: Observation/obs-ofc-percentile-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8289-1 for language(s) 'zh-Hant-TW'. The display is 'Head Occipital-frontal circumference Percentile' the default language display
+INFORMATION: Observation/obs-pediatric-bmi-age-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#59576-9 for language(s) 'zh-Hant-TW'. The display is 'Body mass index (BMI) [Percentile] Per age and sex' the default language display
+INFORMATION: Observation/obs-pregnancy-intent-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#86645-9 for language(s) 'zh-Hant-TW'. The display is 'Pregnancy intention in the next year - Reported' the default language display
+INFORMATION: Observation/obs-pregnancy-intent-example: Observation.value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#LA26438-4 for language(s) 'zh-Hant-TW'. The display is 'Yes, I want to become pregnant' the default language display
+INFORMATION: Observation/obs-pregnancy-status-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#82810-3 for language(s) 'zh-Hant-TW'. The display is 'Pregnancy status' the default language display
+INFORMATION: Observation/obs-pulse-oximetry-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#59408-5 for language(s) 'zh-Hant-TW'. The display is 'Oxygen saturation in Arterial blood by Pulse oximetry' the default language display
+INFORMATION: Observation/obs-pulse-oximetry-example: Observation.code.coding[1].display: There are no valid display names found for the code http://loinc.org#2708-6 for language(s) 'zh-Hant-TW'. The display is 'Oxygen saturation in Arterial blood' the default language display
+INFORMATION: Observation/obs-pulse-oximetry-example: Observation.component[0].code.coding[0].display: There are no valid display names found for the code http://loinc.org#3151-8 for language(s) 'zh-Hant-TW'. The display is 'Inhaled oxygen flow rate' the default language display
+INFORMATION: Observation/obs-pulse-oximetry-example: Observation.component[1].code.coding[0].display: There are no valid display names found for the code http://loinc.org#3150-0 for language(s) 'zh-Hant-TW'. The display is 'Inhaled oxygen concentration' the default language display
+INFORMATION: Observation/obs-respiratory-rate-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#9279-1 for language(s) 'zh-Hant-TW'. The display is 'Respiratory rate' the default language display
+INFORMATION: Observation/obs-screening-assessment-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#32401-2 for language(s) 'zh-Hant-TW'. The display is '10 minute Apgar Color' the default language display
+INFORMATION: Observation/obs-screening-assessment-example: Observation.value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#LA6724-4 for language(s) 'zh-Hant-TW'. The display is 'Good color all over' the default language display
+INFORMATION: Observation/obs-temperature-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'zh-Hant-TW'. The display is 'Body temperature' the default language display
+INFORMATION: Observation/obs-treatment-intervention-preference-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#75773-2 for language(s) 'zh-Hant-TW'. The display is 'Goals, preferences, and priorities for medical treatment [Reported]' the default language display
+INFORMATION: QuestionnaireResponse/qr-example: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#LA15694-5 for language(s) 'zh-Hant-TW'. The display is '1 or 2' the default language display
+INFORMATION: QuestionnaireResponse/qr-example: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#LA6270-8 for language(s) 'zh-Hant-TW'. The display is 'Never' the default language display
+WARNING: QuestionnaireResponse/qr-example: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding): There are no valid display names found for the code http://loinc.org#LA15694-5 for language(s) 'zh-Hant-TW'. The display is '1 or 2' the default language display (for 'http://loinc.org#LA15694-5')
+WARNING: QuestionnaireResponse/qr-example: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): There are no valid display names found for the code http://loinc.org#LA6270-8 for language(s) 'zh-Hant-TW'. The display is 'Never' the default language display (for 'http://loinc.org#LA6270-8')
+WARNING: QuestionnaireResponse/qr-example: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/AUDIT-C.html' could not be resolved, so no validation can be performed against the base questionnaire
+
+
+# The following comment is understood and acknowledged. In some cases it inherits binding from core and A change request to correct this has been applied to the base FHIR ver 4.3.0 (“Release 4B”) to clarify the binding applies to the Quantity data type. Will need to slice value[x] in futur
+WARNING: StructureDefinition/ImagingStudy-twcore: StructureDefinition.differential.element[41].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ImagingStudy-twcore: StructureDefinition.snapshot.element[53].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function' which is experimental, but this structure is not labeled as experimental
+
+

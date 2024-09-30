@@ -4,7 +4,7 @@ Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * category.text = "生命體徵"
-* code = http://loinc.org#8867-4 "Heart Rate"
+* code = http://loinc.org#8867-4
 * code.text = "心率"
 * subject = Reference(Patient/pat-example)
 * effectiveDateTime = "1999-07-02"
