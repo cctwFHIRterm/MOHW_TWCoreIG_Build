@@ -3,7 +3,7 @@ Alias: $loinc = http://loinc.org
 Instance: qr-example
 InstanceOf: TWCoreQuestionnaireResponse
 Usage: #example
-* questionnaire = "https://hl7.org/fhir/us/core/Questionnaire/AUDIT-C"
+* questionnaire = "http://hl7.org/fhir/us/core/Questionnaire/AUDIT-C"
 * status = #completed
 * subject = Reference(Patient/pat-example)
 * authored = "2023-08-14T20:40:49.675Z"
