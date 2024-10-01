@@ -84,6 +84,7 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 
 ##### Windows
 
+
 <p>請開啟「命令提示字元」，將檔案路徑指向至Step 5檔案所放至之目錄。</p>
 <li>方式①：在資料夾的檔案路徑顯示列中直接輸入「cmd」並按Enter鍵。</li>
 <li>方式②：打開命令提示字元，輸入「cd &lt;檔案所放至之目錄&gt;」將檔案路徑指向所指定目錄。</li>
@@ -95,6 +96,7 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 
 
 ##### MacOS
+
 
 <p>請開啟「終端機(terminal)」，將檔案路徑指向至Step 5檔案所放至之目錄。</p>
 <li>方式①：按滑鼠右鍵，點選「服務」中的「新增位於檔案夾位置的終端機視窗」。</li>

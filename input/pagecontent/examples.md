@@ -27,6 +27,9 @@
 - [病情、問題或診斷的詳細資料](Condition-con-example.html)：依據臺灣核心-病情、問題或診斷（TW Core Condition）Profile呈現病情、問題或診斷之範例
 
 ### Coverage
+- [給付範圍](Coverage-coverage-example.html)：依據臺灣核心-給付範圍（TW Core Coverage）Profile呈現給付範圍之範例
+
+
 
 ### Device
 - [植入式裝置](Device-dev-example.html)：依據臺灣核心-植入式裝置（TW Core Simple Observation）Profile呈現植入式裝置之範例
@@ -42,6 +45,7 @@
 - [就醫的詳細資料](Encounter-enc-example.html)：依據臺灣核心-就醫事件（TW Core Encounter）Profile呈現就醫之範例
 
 ### Goal
+- [目標](Goal-goa-example.html)：依據臺灣核心-目標（TW Core Goal）Profile呈現目標之範例
 
 ### ImagingStudy
 - [腹部超音波](ImagingStudy-img-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現腹部超音波之範例
@@ -51,6 +55,8 @@
 - [Slide Microscopy](ImagingStudy-img-sm-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現Positron emission tomography之範例
 
 ### Immunization
+- [疫苗接種](Immunization-imm-example.html)：依據臺灣核心-疫苗接種（TW Core Immunization）rofile呈現疫苗接種之範例
+
 
 ### Location
 - [衛生福利部臺北醫院耳鼻喉科](Location-loc-ent-example.html)：依據臺灣核心-地點（TW Core Location）Profile呈現衛生福利部臺北醫院耳鼻喉科之範例

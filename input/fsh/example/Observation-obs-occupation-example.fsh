@@ -8,5 +8,5 @@ Usage: #example
 * effectivePeriod.start = "2015-04-24"
 * performer.reference = "Practitioner/pra-nurse-example"
 * valueCodeableConcept = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/occupation-lia-roc-tw#10010021 "一般護理人員(護士、護理師)"
-* component.code = http://loinc.org#86188-0 "History of Occupation Industry"
+* component.code = http://loinc.org#86188-0 "History of Occupation industry"
 * component.valueCodeableConcept = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/industry-dgbas-tw#861 "醫院"
