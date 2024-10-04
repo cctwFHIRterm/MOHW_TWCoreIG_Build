@@ -30,7 +30,6 @@
 - [給付範圍](Coverage-coverage-example.html)：依據臺灣核心-給付範圍（TW Core Coverage）Profile呈現給付範圍之範例
 
 
-
 ### Device
 - [植入式裝置](Device-dev-example.html)：依據臺灣核心-植入式裝置（TW Core Simple Observation）Profile呈現植入式裝置之範例
 
@@ -55,7 +54,7 @@
 - [Slide Microscopy](ImagingStudy-img-sm-example.html)：依據臺灣核心-影像檢查（TW Core ImagingStudy）Profile呈現Positron emission tomography之範例
 
 ### Immunization
-- [疫苗接種](Immunization-imm-example.html)：依據臺灣核心-疫苗接種（TW Core Immunization）rofile呈現疫苗接種之範例
+- [疫苗接種](Immunization-imm-example.html)：依據臺灣核心-疫苗接種（TW Core Immunization）Profile呈現疫苗接種之範例
 
 
 ### Location

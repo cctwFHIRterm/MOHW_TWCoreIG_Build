@@ -145,7 +145,6 @@
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Composition-twcore"/>
 	</resource>
 
-
 	<resource>
 			<reference>
 				<reference value="Condition/con-example"/>
@@ -154,7 +153,25 @@
 			<description value="依據臺灣核心-病情、問題或診斷(TW Core Condition) Profile呈現病情、問題或診斷之範例"/>
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Condition-twcore"/>
 	</resource>
+
+	<resource>
+			<reference>
+				<reference value="Coverage/coverage-example"/>
+			</reference>
+			<name value="給付範圍"/>	
+			<description value="依據臺灣核心-給付範圍（TW Core Coverage）Profile呈現給付範圍之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Coverage-twcore"/>
+	</resource>
 		
+	<resource>
+			<reference>
+				<reference value="Immunization/imm-example"/>
+			</reference>
+			<name value="疫苗接種"/>	
+			<description value="依據臺灣核心-疫苗接種（TW Core Immunization）Profile呈現疫苗接種之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Immunization-twcore"/>
+	</resource>
+
 	<resource>
 			<reference>
 				<reference value="DiagnosticReport/dia-example"/>
@@ -189,6 +206,15 @@
 			<name value="就醫資料"/>	
 			<description value="依據臺灣核心-就醫事件(TW Core Encounter) Profile呈現就醫之範例"/>
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Encounter-twcore"/>
+	</resource>
+
+	<resource>
+			<reference>
+				<reference value="Goal/goa-example"/>
+			</reference>
+			<name value="目標"/>	
+			<description value="依據臺灣核心-目標（TW Core Goal）Profile呈現目標之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Goal-twcore"/>
 	</resource>
 
 	<resource>
