@@ -596,7 +596,7 @@
 
 	<resource>
 		<reference>
-			<reference value="Observation/pediatric-weight-height-example"/>
+			<reference value="Observation/obs-pediatric-weight-height-example"/>
 		</reference>
 		<name value="生命體徵資料-兒童體重與身高比"/>	
 		<description value="依據臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation）呈現兒童體重與身高比之範例"/>
