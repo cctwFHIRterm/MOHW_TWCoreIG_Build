@@ -106,7 +106,7 @@
 - [病人治療偏好註記](Observation-obs-treatment-intervention-preference-example.html)：依據臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）Profile呈現病人治療偏好註記之範例
 - [生命體徵資料-兒童及青少年身體質量指數](Observation-obs-pediatric-bmi-age-example.html)：依據臺灣核心-兒童及青少年身體質量指數(TW Core Pediatric BMI for Age Observation)呈現兒童及青少年身體質量指數之範例
 
-- [生命體徵資料-兒童體重與身高比](Observation-pediatric-weight-height-example.html)：依據臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation）呈現兒童體重與身高比之範例
+- [生命體徵資料-兒童體重與身高比](Observation-obs-pediatric-weight-height-example.html)：依據臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation）呈現兒童體重與身高比之範例
 - [生命體徵資料-血壓](Observation-obs-bloodPressure-example.html)：依據臺灣核心-血壓（TW Core Observation Blood Pressure）Profile呈現血壓之範例
 - [生命體徵資料-身體質量指數](Observation-obs-bmi-example.html)：依據臺灣核心-身體質量指數（TW Core Observation BMI）Profile呈現身體質量指數之範例
 - [生命體徵資料-身高](Observation-obs-height-example.html)：依據臺灣核心-身高(TW Core Observation Body Height)呈現身高之範例
