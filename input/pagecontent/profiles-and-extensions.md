@@ -82,6 +82,7 @@
 - [<span class="bg-success">臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）</span>](StructureDefinition-Observation-treatment-intervention-preference-twcore.html) 
 - [臺灣核心-生命體徵（TW Core Observation Vital Signs）](StructureDefinition-Observation-vitalSigns-twcore.html) 
   - [<span class="bg-success">臺灣核心-兒童及青少年身體質量指數（TW Core Pediatric BMI for Age Observation）</span>](StructureDefinition-Observation-pediatric-bmi-age-twcore.html) 
+  - [<span class="bg-success">臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation）</span>](StructureDefinition-Observation-pediatric-weight-height-twcore.html) 
   - [臺灣核心-血壓（TW Core Observation Blood Pressure）](StructureDefinition-Observation-bloodPressure-twcore.html) 
   - [臺灣核心-身體質量指數（TW Core Observation BMI）](StructureDefinition-Observation-bmi-twcore.html) 
   - [<span class="bg-success">臺灣核心-身高（TW Core Observation Body Height）</span>](StructureDefinition-Observation-body-height-twcore.html) 

@@ -41,11 +41,11 @@ Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation 
 * dataAbsentReason MS 
 * dataAbsentReason only CodeableConceptTW
 * hasMember MS 
-* hasMember only Reference(TWCoreObservationScreeningAssessment or QuestionnaireResponse or MolecularSequence)
+* hasMember only Reference(TWCoreObservationScreeningAssessment or TWCoreQuestionnaireResponse or MolecularSequence)
 * derivedFrom ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * derivedFrom ^type[=].targetProfile[=].extension.valueBoolean = true
 * derivedFrom MS
-* derivedFrom only Reference(TWCoreObservationScreeningAssessment or QuestionnaireResponse or TWCoreDocumentReference or  ImagingStudy or Media or MolecularSequence)
+* derivedFrom only Reference(TWCoreObservationScreeningAssessment or TWCoreQuestionnaireResponse or TWCoreDocumentReference or  ImagingStudy or Media or MolecularSequence)
 * derivedFrom ^type[0].targetProfile[0].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"
 * derivedFrom ^type[=].targetProfile[=].extension.valueBoolean = true
 * derivedFrom ^type[=].targetProfile[+].extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support"

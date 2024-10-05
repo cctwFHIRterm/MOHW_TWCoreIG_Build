@@ -194,6 +194,7 @@ WARNING: StructureDefinition.where(url = 'https://twcore.mohw.gov.tw/ig/twcore/S
 WARNING: Observation/obs-ofc-percentile-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/obs-respiratory-rate-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/obs-smoking-status-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/obs-pediatric-weight-height-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
 
 # HL7 Publisher 中的程式語法問題所造成的LOINC Code Display無法正常辨識。（INFORMATION後方的 藍色字樣(1uses) 是指INFORMATION在此Profile中有被使用到）
 INFORMATION: Observation/obs-head-circumference-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#9843-4 for language(s) 'zh-Hant-TW'. The display is 'Head Occipital-frontal circumference' the default language display
@@ -262,6 +263,8 @@ INFORMATION: QuestionnaireResponse/qr-example: QuestionnaireResponse.item[2].ans
 INFORMATION: StructureDefinition/Observation-sexual-orientation-twcore: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#76690-7 for language(s) 'zh-TW'. The display is 'Sexual orientation' the default language display
 INFORMATION: StructureDefinition/Observation-sexual-orientation-twcore: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#76690-7 for language(s) 'zh-TW'. The display is 'Sexual orientation' the default language display
 INFORMATION: Observation/obs-occupation-example: Observation.component[0].code.coding[0].display: There are no valid display names found for the code http://loinc.org#86188-0 for language(s) 'zh-Hant-TW'. The display is 'History of Occupation industry' the default language display
+INFORMATION: Observation/obs-pediatric-weight-height-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#77606-2 for language(s) 'zh-Hant-TW'. The display is 'Weight-for-length Per age and sex' the default language display
+
 
 # HL7 Publisher 中的程式語法問題所造成的LOINC Code Display無法正常辨識。（WARNING後方的 藍色字樣(1uses) 是指WARNING在此範例中有被使用到）
 WARNING: Bundle/bun-message-response-example: Bundle.entry[0].resource/*MessageHeader/mes-response-example*/.event.ofType(Coding): There are no valid display names found for the code http://loinc.org#11502-2 for language(s) 'zh-TW'. The display is 'Laboratory report' the default language display (for 'http://loinc.org#11502-2')
@@ -279,7 +282,6 @@ WARNING: QuestionnaireResponse/qr-example: QuestionnaireResponse: The questionna
 # The following comment is understood and acknowledged. In some cases it inherits binding from core and A change request to correct this has been applied to the base FHIR ver 4.3.0 (“Release 4B”) to clarify the binding applies to the Quantity data type. Will need to slice value[x] in futur
 WARNING: StructureDefinition/ImagingStudy-twcore: StructureDefinition.differential.element[41].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/ImagingStudy-twcore: StructureDefinition.snapshot.element[53].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function' which is experimental, but this structure is not labeled as experimental
-
 
 
 

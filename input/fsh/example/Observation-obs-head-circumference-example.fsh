@@ -6,7 +6,7 @@ Usage: #example
 * category.text = "生命體徵"
 * code = http://loinc.org#9843-4 "Head Occipital-frontal circumference"
 * code.text = "頭圍"
-* subject = Reference(Patient/pat-example)
+* subject = Reference(Patient/pat-child-example)
 * effectiveDateTime = "2020-11-18T16:19:31+08:00"
 * valueQuantity = 56.2 'cm' "cm"
 * performer.reference = "Organization/org-hosp-example"

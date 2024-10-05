@@ -149,11 +149,6 @@ Usage: #definition
 * group.element[=].target.code = #394810000
 * group.element[=].target.display = "Rheumatology"
 * group.element[=].target.equivalence = #equal
-* group.element[+].code = #AF
-* group.element[=].display = "血液腫瘤科"
-* group.element[=].target.code = #23981000087108
-* group.element[=].target.display = "Pediatric hematology oncology specialty"
-* group.element[=].target.equivalence = #equal
 * group.element[+].code = #AG
 * group.element[=].display = "內分泌科"
 * group.element[=].target.code = #394583002
@@ -219,3 +214,8 @@ Usage: #definition
 * group.element[=].target.code = #408465003
 * group.element[=].target.display = "Oral and maxillofacial surgery"
 * group.element[=].target.equivalence = #equal
+/* group.element[+].code = #AF
+* group.element[=].display = "血液腫瘤科"
+* group.element[=].target.code = #23981000087108
+* group.element[=].target.display = "Pediatric hematology oncology specialty"
+* group.element[=].target.equivalence = #equal*/

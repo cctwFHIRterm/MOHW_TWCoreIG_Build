@@ -24,7 +24,7 @@
     ([如何透過reference查詢](http://hl7.org/fhir/R4/search.html#reference))    
     ([如何透過token查詢](http://hl7.org/fhir/R4/search.html#token))  
     ([如何透過date查詢](http://hl7.org/fhir/R4/search.html#date))  
-    `GET [base]/Observation?patient={Type/}[id]&category=http://terminology.hl7.org/CodeSystem/observation-category|survey&date={gt|lt|ge|le}[date]{&date={gt|lt|ge|le}[date]&...}`
+    `GET [base]/Observation?patient={Type/}[id]&category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs&date={gt|lt|ge|le}[date]{&date={gt|lt|ge|le}[date]&...}`
 
     例子：  
       (1) GET [base]/Observation?patient=Patient/pat-example&category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs&date=ge2020-01-01T00:00:00Z

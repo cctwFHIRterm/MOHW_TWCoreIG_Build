@@ -42,6 +42,6 @@ Description:    "此臺灣核心-臨床檢驗檢查（TW Core Observation Clinic
 * basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
-* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or QuestionnaireResponse or Observation or MolecularSequence)
-* hasMember only Reference(Observation or QuestionnaireResponse or MolecularSequence)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or Observation or MolecularSequence)
+* hasMember only Reference(Observation or TWCoreQuestionnaireResponse or MolecularSequence)
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)

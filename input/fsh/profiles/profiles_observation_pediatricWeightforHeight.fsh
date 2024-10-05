@@ -1,13 +1,13 @@
-Profile:        TWCorebservationHeadCircumference
+Profile:        TWCoreObservationPediatricWeightforHeight
 Parent:         TWCoreObservationVitalSigns
-Id:             Observation-head-circumference-twcore
-Title:          "TW Core Observation Head Circumference"
-Description:    "此臺灣核心-頭圍（TW Core Observation Head Circumference） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現頭圍資料。"
+Id:             Observation-pediatric-weight-height-twcore
+Title:          "TW Core Pediatric Weight for Height Observation"
+Description:    "此臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現兒童兒童體重與身高比資料。"
 * ^version = "0.3.0"
 * code only CodeableConceptTW
-* code = http://loinc.org#9843-4
+* code = http://loinc.org#77606-2
 * code MS
-* code ^short = "Head Occipital-frontal circumference"
+* code ^short = "Body mass index (BMI) [Percentile] Per age and sex"
 * valueQuantity 0..1 MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.value only decimal
@@ -18,11 +18,13 @@ Description:    "此臺灣核心-頭圍（TW Core Observation Head Circumference
 * valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * valueQuantity.code 1..1 MS
 * valueQuantity.code only code
-* valueQuantity.code from BodyLengthUnits (required)
-* encounter only Reference(TWCoreEncounter)
+* valueQuantity.code = #% (exactly)
+
 * basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
-* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
+* device only Reference(TWCoreImplantableDevice or DeviceMetric)
 * hasMember only Reference(TWCoreObservationVitalSigns or TWCoreQuestionnaireResponse or MolecularSequence)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
+* encounter only Reference(TWCoreEncounter)
