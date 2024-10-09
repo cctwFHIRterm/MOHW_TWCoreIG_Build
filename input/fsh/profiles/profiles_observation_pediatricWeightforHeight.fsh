@@ -2,12 +2,12 @@ Profile:        TWCoreObservationPediatricWeightforHeight
 Parent:         TWCoreObservationVitalSigns
 Id:             Observation-pediatric-weight-height-twcore
 Title:          "TW Core Pediatric Weight for Height Observation"
-Description:    "此臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現兒童兒童體重與身高比資料。"
+Description:    "此臺灣核心-兒童生長曲線（TW Core Pediatric Weight for Height Observation）Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現兒童生長曲線資料。"
 * ^version = "0.3.0"
 * code only CodeableConceptTW
 * code = http://loinc.org#77606-2
 * code MS
-* code ^short = "Body mass index (BMI) [Percentile] Per age and sex"
+* code ^short = "Weight-for-length Per age and sex"
 * valueQuantity 0..1 MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.value only decimal

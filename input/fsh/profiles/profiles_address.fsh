@@ -13,11 +13,7 @@ Profile: TWCoreAddress
 Parent: Address
 Id: Address-twcore
 Title: "TW Core Address"
-Description: "
-- 2024/5/29異動說明：postalCode.coding.code欄位的Card.改為1..1。  
-
-
-此臺灣核心-地址（TW Core Address） Profile說明本IG如何進一步定義FHIR的Address資料類型以呈現臺灣地址。  
+Description: "此臺灣核心-地址（TW Core Address） Profile說明本IG如何進一步定義FHIR的Address資料類型以呈現臺灣地址。  
 本Profile之擴充的資料項目（Extension）為參照[初診基本資料表](https://www.eck.org.tw/wp-content/uploads/2019/10/ECK_FIRSTVIEW_INFOR.pdf)之欄位與[中華郵政地址英譯寫法](https://www.post.gov.tw/post/internet/Postal/sz_a_e_ta1.jsp)，若貴機構有詳細地址資訊之需求，可依情況填選；若無需區分詳細地址資訊，可使用原生欄位`text`、`line`、`district`呈現。"
 * ^version = "0.3.0"
 * ^kind = #complex-type

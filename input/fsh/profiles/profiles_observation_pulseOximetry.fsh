@@ -6,20 +6,22 @@ Description:    "此臺灣核心-脈搏血氧飽和度（TW Core Observation Pul
 * ^version = "0.3.0"
 * code only CodeableConceptTW
 * code MS
+* code ^short = "Oxygen Saturation by Pulse Oximetry"
 * code.coding only CodingTW
 * code.coding MS
+* code.coding 1..*
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    PulseOx 1..1 MS and
-    O2Sat 1..1 MS
+    PulseOx 1..1 MS and 
+    OxygenSatCode 1..1 MS 
+* code.coding[OxygenSatCode] only CodingTW
+* code.coding[OxygenSatCode] = http://loinc.org#2708-6
+* code.coding[OxygenSatCode] ^short = "Oxygen saturation in Arterial blood"
 * code.coding[PulseOx] only CodingTW
 * code.coding[PulseOx] = http://loinc.org#59408-5
 * code.coding[PulseOx] ^short = "Oxygen saturation in Arterial blood by Pulse oximetry"
-* code.coding[O2Sat] only CodingTW
-* code.coding[O2Sat] = http://loinc.org#2708-6
-* code.coding[O2Sat] ^short = "Oxygen saturation in Arterial blood"
 * valueQuantity 0..1 MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.value only decimal

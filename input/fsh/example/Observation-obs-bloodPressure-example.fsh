@@ -8,10 +8,10 @@ Usage: #example
 * subject.reference = "Patient/pat-example"
 * effectiveDateTime = "2022-07-31"
 * performer = Reference(Practitioner/pra-dr-example)
-* component[Systolic].code = http://loinc.org#8480-6 "Systolic blood pressure"
-* component[Systolic].valueQuantity = 110 'mm[Hg]' "mmHg"
-* component[Diastolic].code = http://loinc.org#8462-4 "Diastolic blood pressure"
-* component[Diastolic].valueQuantity = 56 'mm[Hg]' "mmHg"
+* component[SystolicBP].code = http://loinc.org#8480-6 "Systolic blood pressure"
+* component[SystolicBP].valueQuantity = 110 'mm[Hg]' "mmHg"
+* component[DiastolicBP].code = http://loinc.org#8462-4 "Diastolic blood pressure"
+* component[DiastolicBP].valueQuantity = 56 'mm[Hg]' "mmHg"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
   <h3>

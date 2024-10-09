@@ -80,9 +80,12 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 
 #### Step 6：驗證檔案是否符合Profiles格式
 
+##### Windows
+
+
 <div style="padding-left: 10px;"> 
 
-##### Windows
+
 
 
 <p>請開啟「命令提示字元」，將檔案路徑指向至Step 5檔案所放至之目錄。</p>

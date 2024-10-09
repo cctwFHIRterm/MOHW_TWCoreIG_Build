@@ -358,10 +358,10 @@ Usage: #inline
 * subject = Reference(urn:uuid:38bc075a-2e1d-4f8c-b623-4d15770d9844)
 * effectiveDateTime = "2022-07-31"
 * performer = Reference(urn:uuid:0511b38b-2841-473c-9843-4d04c0c9c30e)
-* component[Systolic].code = http://loinc.org#8480-6 "Systolic blood pressure"
-* component[Systolic].valueQuantity = 110 'mm[Hg]' "mmHg"
-* component[Diastolic].code = http://loinc.org#8462-4 "Diastolic blood pressure"
-* component[Diastolic].valueQuantity = 56 'mm[Hg]' "mmHg"
+* component[SystolicBP].code = http://loinc.org#8480-6 "Systolic blood pressure"
+* component[SystolicBP].valueQuantity = 110 'mm[Hg]' "mmHg"
+* component[DiastolicBP].code = http://loinc.org#8462-4 "Diastolic blood pressure"
+* component[DiastolicBP].valueQuantity = 56 'mm[Hg]' "mmHg"
 
 
 Instance: Inline-MedicationRequest-example

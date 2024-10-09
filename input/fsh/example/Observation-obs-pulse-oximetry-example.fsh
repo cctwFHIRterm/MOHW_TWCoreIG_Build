@@ -6,7 +6,7 @@ Usage: #example
 * category.text = "生命體徵"
 
 * code.coding[PulseOx] = http://loinc.org#59408-5 "Oxygen saturation in Arterial blood by Pulse oximetry"
-* code.coding[O2Sat] = http://loinc.org#2708-6 "Oxygen saturation in Arterial blood"
+* code.coding[OxygenSatCode] = http://loinc.org#2708-6 "Oxygen saturation in Arterial blood"
 * code.text = "脈搏血氧飽和度"
 * subject = Reference(Patient/pat-example)
 * effectiveDateTime = "2022-07-31"

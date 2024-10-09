@@ -1,7 +1,7 @@
 CodeSystem: TWLIAROCOccupation
 Id: occupation-lia-roc-tw
-Title: "臺灣地區傷害保險個人職業分類表"
-Description: """臺灣地區傷害保險個人職業分類表，參照至[中華民國人壽保險商業同業公會](https://www.lia-roc.org.tw/)
+Title: "臺灣壽險公會傷害保險個人職業分類表"
+Description: """臺灣壽險公會傷害保險個人職業分類表，參照至[中華民國人壽保險商業同業公會](https://www.lia-roc.org.tw/)
 代碼出版日期：2023-06-01；資料所屬單位：中華民國人壽保險商業同業公會。
 
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*"""
@@ -12116,8 +12116,8 @@ Description: """臺灣地區傷害保險個人職業分類表，參照至[中華
 
 ValueSet: TWLIAROCOccupation
 Id: occupation-lia-roc-tw
-Title: "臺灣地區傷害保險個人職業分類表值集"
-Description: "臺灣地區傷害保險個人職業分類表值集"
+Title: "臺灣壽險公會傷害保險個人職業分類表值集"
+Description: "臺灣壽險公會傷害保險個人職業分類表值集"
 * ^date = "2023-06-01"
 * ^version = "2023-06-01"
 * ^experimental = false

@@ -3,8 +3,8 @@ Alias: $scttw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw
 
 ValueSet: TWMedicalDepartmentSCT
 Id: medical-department-sct-tw
-Title: "SNOMED CT科別值集"
-Description: "SNOMED CT科別值集。"
+Title: "對應至 SNOMED CT之就醫科別 + 診療科別值集"
+Description: "對應至 SNOMED CT之就醫科別 + 診療科別值集。"
 * ^experimental = false
 * ^date = "2024-05-27"
 * ^version = "0.3.0"

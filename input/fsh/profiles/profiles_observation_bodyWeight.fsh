@@ -1,14 +1,15 @@
 Profile:        TWCoreBodyWeight
-Parent:         TWCoreObservationVitalSigns
+Parent:         http://hl7.org/fhir/StructureDefinition/bodyweight
 Id:             Observation-body-weight-twcore
 Title:          "TW Core Observation Body Weight"
 Description:    "此臺灣核心-體重（TW Core Observation Body Weight） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現體重資料。"
 * ^version = "0.3.0"
 * code only CodeableConceptTW
-* code = http://loinc.org#29463-7
-* code MS
+//* code = http://loinc.org#29463-7
+//* code MS
+* code.coding 1..1
 * code ^short = "Body Weight"
-* valueQuantity 0..1 MS
+/* valueQuantity 0..1 MS
 * valueQuantity.value 1..1 MS
 * valueQuantity.value only decimal
 * valueQuantity.unit 1..1 MS
@@ -18,7 +19,7 @@ Description:    "此臺灣核心-體重（TW Core Observation Body Weight） Pro
 * valueQuantity.system = "http://unitsofmeasure.org" (exactly)
 * valueQuantity.code 1..1 MS
 * valueQuantity.code only code
-* valueQuantity.code from BodyWeightUnits (required)
+* valueQuantity.code from BodyWeightUnits (required)*/
 * encounter only Reference(TWCoreEncounter)
 * basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)

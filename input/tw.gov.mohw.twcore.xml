@@ -39,11 +39,6 @@
 		<packageId value="hl7.fhir.uv.sdc"/>
 		<version value="3.0.0"/>
 	</dependsOn>
-	<dependsOn>
-		<uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
-		<packageId value="hl7.fhir.us.core"/>
-		<version value="7.0.0"/>
-	</dependsOn>
 	<definition>
 
 	<resource>
@@ -162,7 +157,16 @@
 			<description value="依據臺灣核心-給付範圍（TW Core Coverage）Profile呈現給付範圍之範例"/>
 			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Coverage-twcore"/>
 	</resource>
-		
+
+	<resource>
+			<reference>
+				<reference value="Observation/obs-clinical-result-example"/>
+			</reference>
+			<name value="臨床檢驗檢查"/>	
+			<description value="依據臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）Profile呈現臨床檢驗檢查之範例"/>
+			<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-clinical-result-twcore"/>
+	</resource>
+
 	<resource>
 			<reference>
 				<reference value="Immunization/imm-example"/>
@@ -598,8 +602,8 @@
 		<reference>
 			<reference value="Observation/obs-pediatric-weight-height-example"/>
 		</reference>
-		<name value="生命體徵資料-兒童體重與身高比"/>	
-		<description value="依據臺灣核心-兒童體重與身高比（TW Core Pediatric Weight for Height Observation）呈現兒童體重與身高比之範例"/>
+		<name value="生命體徵資料-兒童生長曲線"/>	
+		<description value="依據臺灣核心-兒童生長曲線（TW Core Pediatric Weight for Height Observation）呈現兒童生長曲線之範例"/>
 		<exampleCanonical value="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/Observation-pediatric-weight-height-twcore"/>
 	</resource>
 
