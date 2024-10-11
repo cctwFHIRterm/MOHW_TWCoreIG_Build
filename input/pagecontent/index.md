@@ -1,5 +1,79 @@
 
-
+<div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
+因考量實作需求，於2024/10/11異動以下內容：
+	<ol>  
+	   <li>
+		新增31個 Resources Profiles
+		 <ol>
+			<li><a href="StructureDefinition-CarePlan-twcore.html">臺灣核心-照護計畫（TW Core CarePlan）</a></li>
+			<li><a href="StructureDefinition-CareTeam-twcore.html">臺灣核心-照護團隊（TW Core CareTeam）</a></li>
+			<li><a href="StructureDefinition-Coverage-twcore.html">臺灣核心-給付範圍（TW Core Coverage）</a></li> 
+			<li><a href="StructureDefinition-Device-twcore.html">臺灣核心-植入式裝置（TW Core Implantable Device）</a></li>      
+			<li><a href="StructureDefinition-Goal-twcore.html">臺灣核心-目標（TW Core Goal）</a></li>           
+			<li><a href="StructureDefinition-Immunization-twcore.html">臺灣核心-疫苗接種（TW Core Immunization）</a></li>        
+			<li><a href="StructureDefinition-Observation-averageBloodPressure-twcore.html">臺灣核心-平均血壓（TW Core Observation Average Blood Pressure）</a></li>   
+			<li><a href="StructureDefinition-Observation-careExperiencePreference-twcore.html">臺灣核心-病人照護偏好註記（TW Core Observation Care Experience Preference）</a></li>   
+			<li><a href="StructureDefinition-Observation-clinical-result-twcore.html">臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result）</a></li>  
+			<li><a href="StructureDefinition-Observation-occupation-twcore.html">臺灣核心-職業（TW Core Observation Occupation）</a></li>  
+			<li><a href="StructureDefinition-Observation-pregnancy-intent-twcore.html">臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent）</a></li>  
+			<li><a href="StructureDefinition-Observation-pregnancy-status-twcore.html">臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status）</a></li>  
+			<li><a href="StructureDefinition-Observation-screening-assessment-twcore.html">臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment）</a></li>  
+			<li><a href="StructureDefinition-Observation-sexual-orientation-twcore.html">臺灣核心-性傾向（TW Core Observation Sexual Orientation）</a></li>  
+			<li><a href="StructureDefinition-Observation-simple-twcore.html">臺灣核心-通用檢驗檢查（TW Core Simple Observation）</a></li>  
+			<li><a href="StructureDefinition-Observation-smoking-status-twcore.html">臺灣核心-吸菸狀態（TW Core Smoking Status Observation）</a></li>  
+			<li><a href="StructureDefinition-Observation-treatment-intervention-preference-twcore.html">臺灣核心-病人治療偏好註記（TW Core Observation Treatment Intervention Preference）</a></li>  
+			<li><a href="StructureDefinition-Observation-pediatric-bmi-age-twcore.html">臺灣核心-兒童及青少年身體質量指數（TW Core Pediatric BMI for Age Observation）</a></li>  
+			<li><a href="StructureDefinition-Observation-pediatric-weight-height-twcore.html">臺灣核心-兒童生長曲線（TW Core Pediatric Weight for Height Observation）</a></li>  
+			<li><a href="StructureDefinition-Observation-body-height-twcore.html">臺灣核心-身高（TW Core Observation Body Height）</a></li>  
+			<li><a href="StructureDefinition-Observation-body-temperature-twcore.html">臺灣核心-體溫（TW Core Observation Body Temperature）</a></li>  
+			 <li><a href="StructureDefinition-Observation-body-weight-twcore.html">臺灣核心-體重（TW Core Observation Body Weight）</a></li>     
+			 <li><a href="StructureDefinition-Observation-head-circumference-twcore.html">臺灣核心-頭圍（TW Core Observation Head Circumference）</a></li>        
+			 <li><a href="StructureDefinition-Observation-heart-rate-twcore.html">臺灣核心-心率（TW Core Observation Heart Rate）</a></li>     
+			 <li><a href="StructureDefinition-Observation-pulse-oximetry-twcore.html">臺灣核心-脈搏血氧飽和度（TW Core Observation Pulse Oximetry）</a></li>     
+			 <li><a href="StructureDefinition-Observation-respiratory-rate-twcore.html">臺灣核心-呼吸速率（TW Core Observation Respiratory Rate）</a></li>   
+			 <li><a href="StructureDefinition-Observation-pediatric-head-circumference-twcore.html">臺灣核心-兒童頭圍百分位數（TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile）</a></li>   
+			 <li><a href="StructureDefinition-Provenance-twcore.html">臺灣核心-出處（TW Core Provenance）</a></li>   
+			 <li><a href="StructureDefinition-QuestionnaireResponse-twcore.html">臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）</a></li>   
+			<li><a href="StructureDefinition-RelatedPerson-twcore.html">臺灣核心-相關人士（TW Core RelatedPerson）</a></li>   
+			<li><a href="StructureDefinition-ServiceRequest-twcore.html">臺灣核心-服務請求（TW Core ServiceRequest）</a></li>   
+		</li>
+	</ol>
+	<li>修改<a href="StructureDefinition-Medication-twcore.html">Resource Profile: 臺灣核心-藥品（TW Core Medication）</a>：manufacturer欄位修改Reference至「<a href="StructureDefinition-Organization-twcore.html">臺灣核心-機構（TW Core Organization）</a>」，以利實務專案使用。</li>
+	<li>修改<a href="StructureDefinition-Organization-twcore.html">Resource Profile: 臺灣核心-機構（TW Core Organization）</a>：identifier欄位改為非必填，因有些實務專案並非必填。</li>
+	<li>修改<a href="StructureDefinition-Organization-hosp-twcore.html">Resource Profile: 臺灣核心-醫事機構（TW Core Organization Hospital Department）</a>：type欄位改為非必填，因有些實務專案並非必填。</li>
+	<li>修改<a href="StructureDefinition-Patient-twcore.html">Resource Profile: 臺灣核心-病人（TW Core Patient）</a>：identifier:passportNumber欄位的identifier.system改為 <code>http://hl7.org/fhir/sid/passport-TWN</code> </li>
+	<li>修改<a href="StructureDefinition-Practitioner-twcore.html">Resource Profile: 臺灣核心-健康照護服務提供者（TW Core Practitioner）</a>：identifier:passportNumber欄位的identifier.system改為 <code>http://hl7.org/fhir/sid/passport-TWN</code> </li>
+	<li>新增以下<a href="terminologies.html">專門術語</a>：
+		<ol>
+			<li><a href="ValueSet-loinc-type-doc-code.html"> LOINC Code Document Type值集</a>與<a href="Codesystem-loinc-type-doc-code.html"> LOINC Code Document Type</a>，並在<a href="StructureDefinition-Composition-twcore.html">Composition.type</a>綁定此值集。</li>          
+		   <li><a href="ValueSet-loinc-document-classcodes.html"> LOINC Document Class值集</a>與<a href="Codesystem-loinc-document-classcodes.html">LOINC Document Class</a>，並在<a href="StructureDefinition-Composition-twcore.html">Composition.category</a>綁定此值集。</li>
+			<li><a href="ValueSet-loinc-doc-section-code.html"> LOINC Code Document Section值集</a>與<a href="Codesystem-loinc-doc-section-code.html">LOINC Code Document Section</a>，並在<a href="StructureDefinition-Composition-twcore.html">Composition.section.code</a>綁定此值集。</li>
+			<li><a href="ValueSet-loinc-survey-codes.html"> LOINC篩檢與評估值集</a>與<a href="Codesystem-loinc-survey-codes.html">LOINC篩檢與評估</a>。</li>
+			<li><a href="ValueSet-snomed-sexual-orientation-code.html"> SNOMED CT + HL7 NullFlavor性傾向值集</a>與<a href="Codesystem-snomed-sexual-orientation-code.html">性傾向代碼</a>。</li>
+			<li><a href="ValueSet-smoking-status-type-code.html"> SNOMED CT + LOINC吸菸狀態種類值集</a>與<a href="Codesystem-smoking-status-type-code.html">吸菸狀態種類</a>。</li>
+			<li><a href="ValueSet-smoking-status-comprehensive-code.html">SNOMED CT 吸菸狀態綜合評估值集</a>與<a href="Codesystem-smoking-status-comprehensive-code.html">吸菸狀態綜合評估</a>。</li>
+			<li><a href="ValueSet-medical-consultation-department-tw.html">無法對應至 SNOMED CT之臺灣健保署就醫科別值集</a>與<a href="Codesystem-medical-consultation-department-tw.html">臺灣健保署就醫科別</a>並在<a href="StructureDefinition-Encounter-twcore.html">Encounter.serviceType</a>、<a href="StructureDefinition-PractitionerRole-twcore.html">PractitionerRole.specialty</a>中增加slice綁定此代碼。</li>
+			<li><a href="ValueSet-medical-treatment-department-tw.html">無法對應至 SNOMED CT之臺灣健保署診療科別值集</a>與<a href="Codesystem-medical-treatment-department-tw.html">臺灣健保署診療科別</a>，並在<a href="StructureDefinition-Encounter-twcore.html">Encounter.serviceType</a>、<a href="StructureDefinition-PractitionerRole-twcore.html">PractitionerRole.specialty</a>中增加slice綁定此值集。</li>
+			<li><a href="ValueSet-provenance-participant-type-hl7-tw.html">HL7 Provenance participant type + 臺灣衛福部資訊處 Provenance 參與類型</a>與<a href="Codesystem-provenance-participant-type-hl7-tw.html">Provenance參與類型</a>。</li>
+			<li><a href="ValueSet-identifier-type-tw.html">IdentifierType + 臺灣衛福部資訊處識別碼類型值集</a>與<a href="Codesystem-identifier-type-tw.html">識別碼類型</a>。</li>
+			<li><a href="ValueSet-occupation-lia-roc-tw.html">臺灣壽險公會傷害保險個人職業分類表值集</a>與<a href="Codesystem-occupation-lia-roc-tw.html">職業分類</a>。</li>
+			<li><a href="ValueSet-occupation-mol-tw.html">中華民國勞動部職業標準分類值集</a>與<a href="Codesystem-occupation-mol-tw.html">職業標準分類</a>。</li>
+			<li><a href="ValueSet-industry-dgbas-tw.html">行政院主計總處行業分類值集</a>與<a href="Codesystem-industry-dgbas-tw.html">行業分類</a>。</li>
+			<li><a href="ValueSet-snomed-pregnancy-status-code.html">臺灣妊娠狀態值集</a>與<a href="Codesystem-snomed-pregnancy-status-code.html">妊娠狀態</a>。</li>
+			<li><a href="ValueSet-loinc-pregnancy-intent-code.html">臺灣妊娠計畫值集</a>與<a href="Codesystem-loinc-pregnancy-intent-code.html">妊娠計畫</a>。</li>
+			<li><a href="ValueSet-category-code-tw.html">臺灣衛福部資訊處類型代碼值集</a>與<a href="Codesystem-category-code-tw.html">類型代碼</a>。</li>
+			<li><a href="ValueSet-narrative-status.html">臺灣衛福部資訊處 Narrative 狀態值集</a>與<a href="Codesystem-narrative-status.html">Narrative 狀態</a>。</li>
+			<li><a href="ValueSet-observation-clinical-result-category.html">臺灣衛福部資訊處 Observation Clinical Result 類型值集</a>與<a href="Codesystem-observation-clinical-result-category.html">Clinical Result 類型</a>。</li>
+			<li><a href="ValueSet-observation-screening-assessment-category.html">臺灣衛福部資訊處 Observation Screening Assessment 類型值集</a>與<a href="Codesystem-observation-screening-assessment-category.html">Screening Assessment 類型</a>。</li>
+			<li><a href="ValueSet-serviceRequest-category.html">臺灣衛福部資訊處 ServiceRequest 類型值集</a>與<a href="Codesystem-serviceRequest-category.html">ServiceRequest 類型</a>。</li>
+			<li><a href="ValueSet-icd-10-cm-2023-tw.html">臺灣健保署 2023 年中文版 ICD-10-CM值集</a>與<a href="Codesystem-icd-10-cm-2023-tw.html">ICD-10-CM</a>並在<a href="StructureDefinition-Condition-twcore.html">Condition.code</a>中增加slice綁定此代碼。</li>
+			<li><a href="ValueSet-icd-10-pcs-2023-tw.html">臺灣健保署 2023 年中文版 ICD-10-PCS值集</a>與<a href="Codesystem-icd-10-pcs-2023-tw.html">ICD-10-PCS</a>並在<a href="StructureDefinition-DiagnosticReport-twcore.html">DiagnosticReport.code</a>、<a href="StructureDefinition-ImagingStudy-twcore.html">ImagingStudy.procedureCode</a>、<a href="StructureDefinition-Procedure-twcore.html">Procedure.code</a>、<a href="StructureDefinition-ServiceRequest-twcore.html">ServiceRequest.code</a>中增加slice綁定此值集。</li>
+			<li><a href="ValueSet-nhi-medication-ch-herb-tw.html">臺灣健保署中藥用藥品項值集</a>與<a href="Codesystem-nhi-medication-ch-herb-tw.html">中藥用藥品項</a>，並在<a href="StructureDefinition-Medication-twcore.html">Medication.code</a>、<a href="StructureDefinition-MedicationDispense-twcore.html">MedicationDispense.medicationCodeableConcept</a>、<a href="StructureDefinition-MedicationRequest-twcore.html">MedicationRequest.medicationCodeableConcept</a>、<a href="StructureDefinition-MedicationStatement-twcore.html">MedicationStatement.medicationCodeableConcept</a>中增加slice綁定此值集。</li>
+		</ol>  
+	</li>
+	</ol>
+	請留意這些異動，以避免影響您的實作。
+</div>
 
 ### 介紹
 

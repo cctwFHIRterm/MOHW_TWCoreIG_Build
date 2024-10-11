@@ -190,7 +190,7 @@ Description:    "
 * contact.telecom.value 1..1 MS
 * contact.telecom.use MS
 * contact.period MS
-* contact.address only 
+* contact.address only AddressTW
 * contact.organization only Reference(TWCoreOrganization)
 * communication MS
 * communication.language only CodeableConceptTW
