@@ -120,7 +120,7 @@ Description:    "tifier:residentNumber欄位的identifier.system改為 = http://
 * telecom.value 1..1 MS
 * telecom.use MS
 * telecom.period MS
-* address only TWCoreAddress
+* address only AddressTW
 * gender MS
 * birthDate MS
 * photo MS

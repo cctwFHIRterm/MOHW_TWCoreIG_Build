@@ -8,7 +8,7 @@ Title:          "TW Core Patient"
 Description:    "
 此臺灣核心-病人（TW Core Patient） Profile說明本IG如何進一步定義FHIR的Patient Resource以呈現基本資料。"
 * ^version = "0.3.0"
-* address only TWCoreAddress
+* address only AddressTW
 * address MS
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
@@ -190,7 +190,7 @@ Description:    "
 * contact.telecom.value 1..1 MS
 * contact.telecom.use MS
 * contact.period MS
-* contact.address only TWCoreAddress
+* contact.address only 
 * contact.organization only Reference(TWCoreOrganization)
 * communication MS
 * communication.language only CodeableConceptTW

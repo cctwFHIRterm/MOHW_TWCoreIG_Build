@@ -133,7 +133,7 @@
 ### Data Types之Profiles
 - [TW Coding](StructureDefinition-Coding-tw.html)
 - [TW CodeableConcept](StructureDefinition-CodeableConcept-tw.html)
-- [臺灣核心-地址（TW Core Address）](StructureDefinition-Address-twcore.html)
+- [臺灣核心-地址（TW Core Address）](StructureDefinition-Address-tw.html)
 
 -------
 

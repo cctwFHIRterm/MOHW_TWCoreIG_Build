@@ -9,7 +9,7 @@ Description: "此臺灣核心-地點（TW Core  Location） Profile說明本IG�
 * status and name and telecom and telecom.system and telecom.value and telecom.use and telecom.period and address and managingOrganization MS
 * name 1..
 * type only CodeableConceptTW 
-* address only TWCoreAddress
+* address only AddressTW
 * physicalType only CodeableConceptTW 
 * managingOrganization only Reference(TWCoreOrganization)
 * partOf only Reference(TWCoreLocation)

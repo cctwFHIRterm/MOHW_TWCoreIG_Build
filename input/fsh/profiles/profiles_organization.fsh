@@ -16,14 +16,14 @@ Description:    "
 * identifier.system MS
 * identifier.use and identifier.type MS
 * identifier.value MS
-* address only TWCoreAddress
+* address only AddressTW
 * telecom MS
 * telecom.system MS
 * telecom.value MS
 * active MS
 * identifier.assigner only Reference(TWCoreOrganization)
 * partOf only Reference(TWCoreOrganization)
-* contact.address only TWCoreAddress
+* contact.address only AddressTW
 * identifier.type only CodeableConceptTW
 * type only CodeableConceptTW
 * contact.purpose only CodeableConceptTW

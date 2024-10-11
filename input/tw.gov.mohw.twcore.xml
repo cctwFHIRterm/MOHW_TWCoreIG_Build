@@ -931,7 +931,7 @@
 		
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Address-twcore"/>
+				<reference value="StructureDefinition/Address-tw"/>
 			</reference>
 			<exampleBoolean value="false"/>
 		</resource>
