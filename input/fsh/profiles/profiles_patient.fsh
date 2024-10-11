@@ -60,7 +60,7 @@ Description:    "
 * identifier[idCardNumber] obeys id-card-number
 
 * identifier[passportNumber].system 1.. MS
-* identifier[passportNumber].system = "http://www.boca.gov.tw"
+* identifier[passportNumber].system = "http://hl7.org/fhir/sid/passport-TWN"
 * identifier[passportNumber].use MS
 * identifier[passportNumber].use = #official
 * identifier[passportNumber].type only CodeableConceptTW

@@ -2,7 +2,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $sct = http://snomed.info/sct
 
 Instance: obs-smoking-status-example
-InstanceOf: TWCoreObservationSmokingStatusObservation
+InstanceOf: TWCoreObservationSmokingStatus
 Usage: #example
 * status = #final
 * category[twcore] = $observation-category#social-history "Social History"

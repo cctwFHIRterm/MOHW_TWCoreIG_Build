@@ -1,4 +1,4 @@
-Profile:        TWCorebservationPediatricHeadOccipitalFrontalCircumferencePercentile
+Profile:        TWCoreObservationPediatricHeadOccipitalFrontalCircumferencePercentile
 Parent:         TWCoreObservationVitalSigns
 Id:             Observation-pediatric-head-circumference-twcore
 Title:          "TW Core Observation Pediatric Head Occipital Frontal Circumference Percentile"

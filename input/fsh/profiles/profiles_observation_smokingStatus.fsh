@@ -1,4 +1,4 @@
-Profile: TWCoreObservationSmokingStatusObservation
+Profile: TWCoreObservationSmokingStatus
 Parent: Observation
 Id: Observation-smoking-status-twcore
 Title: "TW Core Observation Smoking Status"

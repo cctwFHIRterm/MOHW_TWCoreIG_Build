@@ -2,7 +2,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $loinc = http://loinc.org
 
 Instance: obs-ofc-percentile-example
-InstanceOf: TWCorebservationPediatricHeadOccipitalFrontalCircumferencePercentile
+InstanceOf: TWCoreObservationPediatricHeadOccipitalFrontalCircumferencePercentile
 Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"

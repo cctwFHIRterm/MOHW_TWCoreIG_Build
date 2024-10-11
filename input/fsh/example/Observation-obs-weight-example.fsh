@@ -1,5 +1,5 @@
 Instance: obs-weight-example
-InstanceOf: TWCoreBodyWeight
+InstanceOf: TWCoreObservationBodyWeight
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"

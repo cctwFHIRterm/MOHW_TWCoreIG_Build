@@ -175,8 +175,10 @@ INFORMATION: Observation/obs-screening-assessment-example: Observation.code.codi
 INFORMATION: Observation/obs-screening-assessment-example: Observation.value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://loinc.org#LA6724-4 for language(s) 'zh-Hant-TW'. The display is 'Good color all over' the default language display
 INFORMATION: Observation/obs-temperature-example: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'zh-Hant-TW'. The display is 'Body temperature' the default language display
 
-
-
+# HL7 Publisher 中的程式語法問題所造成的範例id重複，但已確認並無範例出現重複的id（WARNING後方的 藍色字樣(1uses) 是指WARNING在此範例中有被使用到）
+WARNING: /Users/annalee/Documents/GitHub/MOHW_TWCoreIG_Build/output/Bundle-bun-document-example.html: The html source has duplicate anchor Ids: Composition_com-example
+WARNING: /Users/annalee/Documents/GitHub/MOHW_TWCoreIG_Build/output/Bundle-bun-document-uuid-example.html: The html source has duplicate anchor Ids: Composition_Inline-Com,Inline-Com,Inline-Com-en-US,Patient_Inline-Patient-example,hcInline-Com
+WARNING: /Users/annalee/Documents/GitHub/MOHW_TWCoreIG_Build/output/Bundle-bun-document-uuid-example.html: The html source has duplicate anchor Ids: Composition_Inline-Composition-example,Inline-Composition-example,Inline-Composition-example-en-US,Patient_Inline-Patient-example,hcInline-Composition-example
 
 # The following comment is understood and acknowledged. In some cases it inherits binding from core and A change request to correct this has been applied to the base FHIR ver 4.3.0 (“Release 4B”) to clarify the binding applies to the Quantity data type. Will need to slice value[x] in futur
 WARNING: StructureDefinition/ImagingStudy-twcore: StructureDefinition.differential.element[41].binding: The definition for the element 'ImagingStudy.series.performer.function' binds to the value set 'http://hl7.org/fhir/ValueSet/series-performer-function' which is experimental, but this structure is not labeled as experimental

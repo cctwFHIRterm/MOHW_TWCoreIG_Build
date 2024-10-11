@@ -1,5 +1,5 @@
 Instance: obs-head-circumference-example
-InstanceOf: TWCorebservationHeadCircumference
+InstanceOf: TWCoreObservationHeadCircumference
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"

@@ -1,4 +1,4 @@
-Profile:        TWCorebservationHeadCircumference
+Profile:        TWCoreObservationHeadCircumference
 Parent:         http://hl7.org/fhir/StructureDefinition/headcircum
 Id:             Observation-head-circumference-twcore
 Title:          "TW Core Observation Head Circumference"

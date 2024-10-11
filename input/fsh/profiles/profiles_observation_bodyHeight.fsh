@@ -1,4 +1,4 @@
-Profile:        TWCoreBodyHeight
+Profile:        TWCoreObservationBodyHeight
 Parent:         http://hl7.org/fhir/StructureDefinition/bodyheight
 Id:             Observation-body-height-twcore
 Title:          "TW Core Observation Body Height"
