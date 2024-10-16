@@ -2,10 +2,10 @@ Alias: $TWMedicationPath = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medic
 
 ValueSet: TWMedicationPathSCT
 Id: medication-path-sct-tw
-Title: "SNOMED CT + 臺灣衛福部統計處給藥途徑值集"
-Description: "SNOMED CT + 臺灣衛福部統計處給藥途徑值集。
+Title: "SNOMED CT + 臺灣健保署給藥途徑值集"
+Description: "SNOMED CT + 臺灣健保署給藥途徑值集。
 
-此值集優先採用國際標準碼，國際標準碼未能表述之概念，則以普遍被使用的臺灣衛福部統計處給藥途徑代碼表述，請實作者留意。"
+此值集優先採用國際標準碼，國際標準碼未能表述之概念，則以普遍被使用的臺灣健保署給藥途徑代碼表述，請實作者留意。"
 * ^date = "2024-01-16"
 * ^version = "0.3.0"
 * ^copyright = "衛生福利部"

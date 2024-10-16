@@ -25,6 +25,6 @@ Description: "臺灣衛福部資訊處照護計畫類別"
 * ^content = #complete
 * #assess-plan "Assessment and Plan of Treatment" "The clinical conclusions and assumptions that guide the patient's treatment and the clinical activities formulated for a patient."
 * #assess-plan ^property[0].code = #effectiveDate
-* #assess-plan ^property[=].valueDateTime = "2024-08"
+* #assess-plan ^property[=].valueDateTime = "2024-08-31"
 * #assess-plan ^property[+].code = #status
 * #assess-plan ^property[=].valueCode = #active

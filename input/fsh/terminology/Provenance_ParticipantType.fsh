@@ -25,7 +25,7 @@ Description: "臺灣衛福部資訊處Provenance參與類型。"
 * ^content = #complete
 * #transmitter "Transmitter" "The entity that provided the copy to your system."
 * #transmitter ^property[0].code = #effectiveDate
-* #transmitter ^property[=].valueDateTime = "2024-08"
+* #transmitter ^property[=].valueDateTime = "2024-08-31"
 * #transmitter ^property[+].code = #status
 * #transmitter ^property[=].valueCode = #active
 

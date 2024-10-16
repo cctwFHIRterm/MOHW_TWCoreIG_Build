@@ -30,13 +30,13 @@ Description: "臺灣衛福部資訊處識別碼類型，
 * #GOI ^designation.language = #zh-TW
 * #GOI ^designation.value = "政府機關代號"
 * #GOI ^property[0].code = #effectiveDate
-* #GOI ^property[=].valueDateTime = "2022-07"
+* #GOI ^property[=].valueDateTime = "2022-07-31"
 * #GOI ^property[+].code = #status
 * #GOI ^property[=].valueCode = #active
 * #UBN "Unified Business number" "Unified Business number"
 * #UBN ^designation.language = #zh-TW
 * #UBN ^designation.value = "公司或企業統一編號"
 * #UBN ^property[0].code = #effectiveDate
-* #UBN ^property[=].valueDateTime = "2022-07"
+* #UBN ^property[=].valueDateTime = "2022-07-31"
 * #UBN ^property[+].code = #status
 * #UBN ^property[=].valueCode = #active

@@ -29,57 +29,57 @@ Description: "臺灣健保署診療科別，參照至[健保署檔案譯碼簿](
 * ^content = #complete
 * #00 "不分科"
 * #00 ^property[0].code = #effectiveDate
-* #00 ^property[=].valueDateTime = "2024-05"
+* #00 ^property[=].valueDateTime = "2024-05-27"
 * #00 ^property[+].code = #status
 * #00 ^property[=].valueCode = #active
 * #01 "家醫科"
 * #01 ^property[0].code = #effectiveDate
-* #01 ^property[=].valueDateTime = "2024-05"
+* #01 ^property[=].valueDateTime = "2024-05-27"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
 * #02 "內科"
 * #02 ^property[0].code = #effectiveDate
-* #02 ^property[=].valueDateTime = "2024-05"
+* #02 ^property[=].valueDateTime = "2024-05-27"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
 * #03 "外科"
 * #03 ^property[0].code = #effectiveDate
-* #03 ^property[=].valueDateTime = "2024-05"
+* #03 ^property[=].valueDateTime = "2024-05-27"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
 * #04 "兒科"
 * #04 ^property[0].code = #effectiveDate
-* #04 ^property[=].valueDateTime = "2024-05"
+* #04 ^property[=].valueDateTime = "2024-05-27"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
 * #05 "婦產科"
 * #05 ^property[0].code = #effectiveDate
-* #05 ^property[=].valueDateTime = "2024-05"
+* #05 ^property[=].valueDateTime = "2024-05-27"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
 * #06 "骨科"
 * #06 ^property[0].code = #effectiveDate
-* #06 ^property[=].valueDateTime = "2024-05"
+* #06 ^property[=].valueDateTime = "2024-05-27"
 * #06 ^property[+].code = #status
 * #06 ^property[=].valueCode = #active
 * #07 "神經外科"
 * #07 ^property[0].code = #effectiveDate
-* #07 ^property[=].valueDateTime = "2024-05"
+* #07 ^property[=].valueDateTime = "2024-05-27"
 * #07 ^property[+].code = #status
 * #07 ^property[=].valueCode = #active
 * #08 "泌尿科"
 * #08 ^property[0].code = #effectiveDate
-* #08 ^property[=].valueDateTime = "2024-05"
+* #08 ^property[=].valueDateTime = "2024-05-27"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
 * #09 "耳鼻喉科"
 * #09 ^property[0].code = #effectiveDate
-* #09 ^property[=].valueDateTime = "2024-05"
+* #09 ^property[=].valueDateTime = "2024-05-27"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
 * #10 "眼科"
 * #10 ^property[0].code = #effectiveDate
-* #10 ^property[=].valueDateTime = "2024-05"
+* #10 ^property[=].valueDateTime = "2024-05-27"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
 * #11 "皮膚科"
@@ -144,12 +144,12 @@ Description: "臺灣健保署診療科別，參照至[健保署檔案譯碼簿](
 * #42 ^property[=].valueCode = #active
 * #43 "牙周病科"
 * #43 ^property[0].code = #effectiveDate
-* #43 ^property[=].valueDateTime = "2024-05"
+* #43 ^property[=].valueDateTime = "2024-05-27"
 * #43 ^property[+].code = #status
 * #43 ^property[=].valueCode = #active
 * #44 "贋復補綴牙科"
 * #44 ^property[0].code = #effectiveDate
-* #44 ^property[=].valueDateTime = "2024-05"
+* #44 ^property[=].valueDateTime = "2024-05-27"
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
 * #45 "齒顎矯正科"
@@ -209,7 +209,7 @@ Description: "臺灣健保署診療科別，參照至[健保署檔案譯碼簿](
 * #83 ^property[=].valueCode = #active
 * #84 "核子醫學科"
 * #84 ^property[0].code = #effectiveDate
-* #84 ^property[=].valueDateTime = "2024-05"
+* #84 ^property[=].valueDateTime = "2024-05-27"
 * #84 ^property[+].code = #status
 * #84 ^property[=].valueCode = #active
 * #85 "放射腫瘤科"

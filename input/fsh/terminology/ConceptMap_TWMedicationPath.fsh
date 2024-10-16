@@ -1,15 +1,15 @@
 Instance: medication-path-tw
 InstanceOf: ConceptMap
-Title: "臺灣衛福部統計處給藥途徑代碼對應SNOMED CT"
-//Description :  "臺灣衛福部統計處給藥途徑代碼對應SNOMED CT，概念對應出版日期：2024-01-16；資料所屬單位：衛生福利部。"
+Title: "臺灣健保署給藥途徑代碼對應SNOMED CT"
+//Description :  "臺灣健保署給藥途徑代碼對應SNOMED CT，概念對應出版日期：2024-01-16；資料所屬單位：衛生福利部。"
 Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-16"
 * version = "0.3.0"
 * name = "TWMedicationPath"
-* title = "臺灣衛福部統計處給藥途徑代碼對應SNOMED CT"
-* description = "此對應表為臺灣衛福部統計處給藥途徑代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
+* title = "臺灣健保署給藥途徑代碼對應SNOMED CT"
+* description = "此對應表為臺灣健保署給藥途徑代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"
 * sourceUri = "https://twcore.mohw.gov.tw/ig/twcore/ValueSet/medication-path-tw"
 * targetUri = "http://hl7.org/fhir/ValueSet/route-codes"
 * group[0].source = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-path-tw"
