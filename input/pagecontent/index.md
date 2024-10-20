@@ -85,33 +85,85 @@
 </ol>
 </div>
 
-### 版本繼承的考量
-
-<div style="padding-left: 10px;">
-<p>有沒有要繼承新版看各自專案的需求，沒有一定要跟上最新版本 Core IG，可視各版本異動說明確認是否影響專案欄位或值集範圍決定是否繼承最新版IG。但基於標準化及促進資料可互通，仍非常鼓勵大家繼承最新版 Core IG，以確保規格與全國一致。</p>
-<p>2024年五月起配合衛生福利部電子病歷標準發展工作小組及健保署申報相關代碼異動作業，預計每年正式更版一至二次，其餘微幅修改將使用持續<a href="https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build/index.html" target="_blank">建置版本修改</a>，需請IG設計師留意此一異動對所設計IG之影響。</p>
-</div>
-
 ### 背景
 
 <div style="padding-left: 10px;">
-<p>TW Core IG由衛生福利部2022年3月招標之「111年度智慧健康雲專案辦公室營運案專案」經費支應下建置，TW Core IG註冊於<a href="http://fhir.org/guides/registry/" target="_blank">國際平臺</a>及衛生福利部之<a href="https://twcore.mohw.gov.tw/twregistry/#/data" target="_blank">IG管理平臺</a>以供查找與參考。</p>
-<p>鑑於FHIR R5還在投票階段，故此版本TW Core IG以FHIR R4.0.1為基礎，並同時參考其他國家作法規劃TW Core IG網站。為使制訂之IG符合臺灣的實作需求，TW Core IG內容將在未來的版本中持續更新，各版本亦將附有版本異動說明。所有經進一步定義的Resources或Profiles，皆稱為Profiles，各Profiles依據其可被在地實際採用的程度與不再修改的程度，將標記其「成熟度（Maturity Level）」，被稱之為FMM（根據眾所周知的CMM级別）。FMM等級（level）可被實作者用来判斷一個規範文件的進階程度，也就是穩定度。以下是已被定義的FMM等級，實務上會視情況調整以符合定義：</p>
+<p>TW Core IG由衛生福利部(以下簡稱衛福部)資訊處2022年3月招標之「111年度智慧健康雲專案辦公室營運案專案」經費支應下建置，TW Core IG註冊於<a href="http://fhir.org/guides/registry/" target="_blank">國際平臺</a>及衛生福利部資訊處之<a href="https://twcore.mohw.gov.tw/twregistry/#/data" target="_blank">IG管理平臺</a>以供查找與參考。</p>
+<p>鑑於TW Core IG設計之初，FHIR R5處於投票階段、國際應用多採用 R4 、以及R5相關配套工具尚未成熟，故TW Core IG的設計主要以FHIR R4.0.1 為基礎，並同時參考其他國家作法以規劃TW Core IG 網站。為使制訂之IG符合臺灣的實作需求，TW Core IG 內容將在未來的版本中持續更新，各版本亦將附有版本異動說明。</p></div>
+
+
+### 衛福部資訊處在TW Core IG的角色與發展主責
+
+<div style="padding-left: 10px;">衛福部資訊處作為台灣醫療及健康照護資訊標準化的主要推動單位，在TW Core IG的制定和發展中扮演了核心角色，主要包括：
+	<ul>
+	<li><strong><span>領導 TW Core IG 的標準制定</span></strong><span>：積極協調其所屬機關、平行機構、醫療機構、學術單位及相關專業組織，以確保 TW Core IG 能夠滿足台灣的醫療服務、健康照護、公共衛生、臨床研究等領域資訊交換的核心資料需求，並與國際標準（如 FHIR及相關配套專門術語標準）接軌。</span></li>
+	<li><strong><span>監督國際標準專門術語之維護與運作</span></strong><span>：負責監督國際標準專門術語（如 SNOMED CT、LOINC 等）的維護與更新，確保這些術語在 TW Core IG 的應用中保持一致性與準確性，並且與國際標準的變動同步發展，以促進台灣醫療資訊體系的國際接軌。</span></li>
+	<li><strong><span>納入資訊安全相關規範於TW Core IG</span></strong><span>：積極將各種交易的稽核日誌(audit logs)、</span><a href="https://http://hl7.org/fhir/R4/security.html#http" target="_blank" rel="noopener"><span>FHIR通訊安全（Communications Security）</span></a><span>、</span><a href="http://www.hl7.org/fhir/smart-app-launch/history.cfml" target="_blank" rel="noopener"><span>SMART App執行框架（launch framework）</span></a><span>納入TW Core IG的資訊安全性規範，以提升台灣醫療機構在智慧型應用程式和跨機構數據共享中的應用能力，從而支持更安全且一致的健康資訊交換，強化互通性和資料整合。</span></li>
+	<li><strong><span>推廣 TW Core IG 於實務專案的應用</span></strong><span>：致力於推動相關補助計畫，提供可公用的標準技術工具、並鼓勵醫療機構及相關機構採用及繼承 TW Core IG，實現台灣醫療資料的高度互通與共享，以增進資料使用效率及醫療品質。</span></li>
+	</ul>
+	<p><span>衛福部資訊處的長期任務：</span></p>
+	<ul>
+	<li><strong><span>持續更新與維護</span></strong><span>：根據國內外醫療需求、技術進步及國際標準的變化，定期更新TW Core IG及相關國際標準專門術語，並適時納入必要的規範，以確保 TW Core 標準不僅符合當前醫療資訊技術的發展，亦能滿足未來醫療服務的需求。</span></li>
+	<li><strong><span>推廣與應用</span></strong><span>：協助全台醫療機構及相關單位採用並遵循 TW Core 標準，以確保這些標準被廣泛應用於臨床與公共衛生資料的傳輸與共享，促進台灣醫療資訊的整體應用效率。</span></li>
+	<li><strong><span>促進全台醫療資訊的可互通性</span></strong><span>：持續強化台灣醫療資訊的標準化，確保醫療資料能在不同機構間無縫共享，以提升醫療服務品質。</span></li>
+	</ul>
+</div>
+
+
+### 繼承TW Core IG版本的考量
+
+<div style="padding-left: 10px;">
+	<p>關於實務專案型FHIR IG是否需要繼承最新版本TW Core IG或者要等<a href="https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build/index.html" target="_blank">TW Core IG持續建置版本 (CI-build) </a>正式定版後作繼承？通常，各專案可依據各自專案的需求決定，但 IG 設計師需審慎評估，以決定是否繼承最新版TW Core IG：
+	<br>(1) 須留意TW Core IG的CI-build版本是否影響專案資料欄位或值集範圍設計，建議可預先在設計階段納入CI-build的設計概念及內容，待CI-Build發布新版時可直接繼承，以減少更新繼承對規格設計造成影響、
+	<br>(2) 須評估專案型IG是否需要<a href="https://emr.mohw.gov.tw/myemr/Html/EmrInfo#emrinfo_0" target="_blank">申請註冊</a>於衛生福利部資訊處 <a href="https://twcore.mohw.gov.tw/twregistry/#/data" target="_blank">IG 管理平臺</a>以供各界參閱以及讓您的專案IG出現於國際HL7提供的線上免費驗證工具 (<a href="https://validator.fhir.org/" target="_blank">https://validator.fhir.org/</a>) 中的IG驗證清單中，增加驗證的方便性。若要申請註冊且無特殊理由下，則建議使用審查期間最新版之TW Core IG版本。</p>
+	<p>不論如何，基於全國健康照護資料標準化及促進資料可互通，<b>「強力建議」</b>實務專案型IG 繼承最新版TW Core IG，以確保您的IG規格與全國一致，亦可避免後續人工檢核專案IG與TW Core IG是否一致之工作量。</p>
+	<p>2024年5月起依據衛生福利部資訊處電子病歷標準發展工作小組決議，預計每年正式更版一至二次，由於資料標準化是一個持續演進的過程，TW Core IG 亦會持續接受各界意見並評估適用性後放修改於<a href="https://build.fhir.org/ig/cctwFHIRterm/MOHW_TWCoreIG_Build/index.html" target="_blank">TW Core IG持續建置版本 (CI-build) </a>，經確認後才會更新為正式版本，需請 IG 設計師 留意此一異動對您所設計IG之影響。</p>
+</div>
+
+
+### TW Core Profiles的成熟度（Maturity Level）
+
+<div  style="padding-left: 10px;">
+
+所有經進一步定義的 Resources 或 Profiles，皆稱為 Profiles，各 Profiles 依據其可被在地實際採用的程度與不再修改的程度，將標記其「成熟度」，被稱之為FMM（根據眾所周知的CMM级別）。FMM等級（level）可被實作者用来判斷一個規範文件的進階程度，也就是穩定度。以下是已被定義的FMM等級，實務上會視情況調整以符合定義：</p>
+
 <p><strong>DRAFT 0</strong> 此Resource或Profile（規範文件） 已被發佈於目前的建置，這個等級意即草稿。</p>
 <p><strong>FMM 1</strong> 滿足DRAFT 0條件，而且此規範文件在建置的過程沒有任何的警語，負責的工作小組已指明他們認為這份規範文件基本上已完成並可供實作使用。</p>
 <p><strong>FMM 2</strong> 滿足FMM 1條件，而且此規範文件已被測試，並成功支援至少三套獨立系統之間的可互操作性（意即至少有三套系統實作此規範成功地互通資料），這些系統利用大部分的規範文件（例如至少80%的核心資料），使用基於此規範文件的至少一個聲明範圍的半真實資料及情境（例如在聯測）。這些互操作結果要求被報告及被工作小組接受。</p>
 <p><strong>FMM 3</strong> 滿足FMM 2條件，而且此規範文件已被工作小组驗證應遵從的《<a href="https://confluence.hl7.org/display/FHIR/Conformance+QA+Criteria">Conformance Resource Quality Guidelines</a>》；已經通過一輪正式投票；至少有10位來自至少3家機構不同的實作者提出意見，並造成至少一項實質性的改變。</p>
-<p><strong>FMM 4</strong> 滿足FMM 3條件，而且此規範文件已正式出版（例如：FHIR實作指引），並已實際應用於多個雛型專案。同時，負責的工作小組同意此規範文件足夠穩定，在後續的非向下相容（non-backward compatible）的異動中需與實作者協商與諮詢。</p>
+<p><strong>FMM 4</strong> 滿足FMM 3條件，而且此規範文件已正式出版（例如：FHIR IG v1.0.0），並已實際應用於多個雛型專案。同時，負責的工作小組同意此規範文件足夠穩定，在後續的非向下相容（non-backward compatible）的異動中需與實作者協商與諮詢。</p>
 <p><strong>FMM 5</strong> 滿足FMM 4條件，而且此規範文件於在FMM 1以上等級（意即：試用等級）的兩個正式出版品發佈週期中出版，並已實際應用於至少五套獨立的產品系統。</p>
-<p><strong>Normative（規範）</strong> 此規範文件已被認定為穩定。</p>
+<p><strong>Normative（規範）</strong> 此規範文件已被認定為穩定，不再作修改。</p>
 
-<p>TW Core IG 中所有Profiles的FMM等級如下：
-
-
-<li>0.1.1版之10個 Profiles 屬 FMM 2：Condition、DiagnosticReport、Encounter、Medication、MedicationRequest、Observation、Organization、Patient、Practitioner、Procedure。</li>
-
-<li>0.2.0版 新增之12個 Profiles 屬 FMM 1：AllergyIntolerance、Bundle、Composition、ImagingStudy、DocumentReference、Location、Media、MedicationDispense、MedicationStatement、MessageHeader、Specimen、PractitionerRole。</li>
-</p>
+<p>本版本TW Core IG 中所有Profiles的FMM等級如下：</p>
+<div  style="padding-left: 10px;">
+<table class="grid">
+<thead>
+  <tr>
+	<th style="width:5%">成熟度</th>
+	<th style="width:90%">TW Core Profiles名稱</th>
+	<th style="width:5%">數量</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+	<td><span style="font-weight:bold">FMM1</span></td>
+	<td>BundleDocument、CarePlan、CareTeam、Coverage、ImplantableDevice、Goal、Immunization、MedicationStatement、ObservationAverageBloodPressure、ObservationCareExperiencePreference、ObservationClinicalResult、ObservationOccupation、ObservationPregnancyIntent、ObservationPregnancyStatus、ObservationScreeningAssessment、ObservationSexualOrientation、ObservationSimple、ObservationSmokingStatus、ObservationBloodPressure、ObservationBMI、ObservationTreatmentInterventionPrference、ObservationPediatricBMIforAge、ObservationPediatricWeightforHeight、ObservationBodyTemperature、ObservationBodyWeight、ObservationHeadCircumference、ObservationHeartRate、ObservationPulseOximetry、ObservationRespiratoryRate、ObservationPediatricHeadOccipitalFrontalCircumferencePercentile、OrganizationGovt、OrganizationHosp、OrganizationCo、PractitionerRole、Procedure、Provenance、QuestionnaireResponse、RelatedPerson、ServiceRequest、Specimen</td>
+	<td>40</td>
+  </tr>
+  <tr>
+	<td><span style="font-weight:bold">FMM2</span></td>
+	<td>AllergyIntolerance、BundleMessage、DocumentReference、ImagingStudy、Location、MedicationDispense</td>
+	<td>6</td>
+  </tr>
+  <tr>
+	<td><span style="font-weight:bold">FMM3</span></td>
+	<td>Bundle、Composition、Condition、DiagnosticReport、Encounter、Media、Medication、MedicationRequest、ObservationLaboratoryResult、ObservationVitalSigns、Organization、Patient、Practitioner、Specimen、CodingTW、CodeableConceptTW、AddressTW</td>
+	<td>17</td>
+  </tr>
+</tbody>
+</table>
+</div>
 </div>
 
 ### 如何閱讀這個實作指引（IG）
@@ -135,15 +187,15 @@
 		<li><strong><a href="models.html">邏輯模型</a>
 			</strong>：TW Core IG的所有邏輯模型（Logical Models），各邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用本IG的哪個Profiles的哪個資料項目（element）。
 		</li>
-    	<li><strong><a href="profiles-and-extensions.html">FHIR Profiles及Extensions</a></strong>：
-        	<ul>
-          		<li>TW Core IG的所有Profiles之定義與範例及Extensions。</li>
-          		<li>各資料項目不同實作強制程度的Terminology。</li>
-          		<li>各資料項目的限制（Constraints）。</li>
-          		<li>查詢依據TW Core IG實作之FHIR Server的特定Profiles時，可使用的查詢參數。</li>
-          		<li>有哪些Profiles具有查詢參數以及Server必須支援哪些必要的查詢參數功能。</li>
-        	</ul>
-      	</li>
+		<li><strong><a href="profiles-and-extensions.html">FHIR Profiles及Extensions</a></strong>：
+			<ul>
+				<li>TW Core IG的所有Profiles之定義與範例及Extensions。</li>
+				<li>各資料項目不同實作強制程度的Terminology。</li>
+				<li>各資料項目的限制（Constraints）。</li>
+				<li>查詢依據TW Core IG實作之FHIR Server的特定Profiles時，可使用的查詢參數。</li>
+				<li>有哪些Profiles具有查詢參數以及Server必須支援哪些必要的查詢參數功能。</li>
+			</ul>
+		</li>
 		<li><strong><a href="terminologies.html">專門術語</a>
 			</strong>：TW Core IG網站所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets），內容主要依據全國專門術語服務平臺（TW terminology services）建置。
 		</li>
@@ -167,56 +219,56 @@
 <table class="grid">
 <thead>
   <tr>
-    <th style="width:10%">英文名</th>
-    <th style="width:10%">中文名</th>
-    <th style="width:80%">說明</th>
+	<th style="width:10%">英文名</th>
+	<th style="width:10%">中文名</th>
+	<th style="width:80%">說明</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td><span style="font-weight:bold">Name</span></td>
-    <td>名稱</td>
-    <td>resource的資料項目名稱（意即XML元素名稱；JSON或RDF屬性名稱）。有些名稱末端為[x]，圖示為<img class="figure-img img-responsive img-rounded center-block" src="icon_choice.gif" alt="multipleBirth[x]範例" />，意即可以選擇適用的資料類型表述該資料項目內容值,故需依據資料類型填入適當的內容值，例如Patient.multipleBirth[x]。<br/>
+	<td><span style="font-weight:bold">Name</span></td>
+	<td>名稱</td>
+	<td>resource的資料項目名稱（意即XML元素名稱；JSON或RDF屬性名稱）。有些名稱末端為[x]，圖示為<img class="figure-img img-responsive img-rounded center-block" src="icon_choice.gif" alt="multipleBirth[x]範例" />，意即可以選擇適用的資料類型表述該資料項目內容值,故需依據資料類型填入適當的內容值，例如Patient.multipleBirth[x]。<br/>
 	<img class="figure-img img-responsive img-rounded center-block" src="index/multipleX.png" alt="multipleBirth[x]範例" width="250px"/>
 	<br/>如果系統只知病人是否多胞胎，則資料項目名稱為multipleBirthBoolean，內容值為「true」；如果系統中有病人多胞胎之出生順序為第2序位，則資料項目名稱為multipleBirthInteger，內容值為「2」。更多符號說明，請參閱<a href="http://hl7.org/fhir/R4/formats.html#table" target="_blank"><span style="color:#905">FHIR官網相關說明</span></a>。</td>
   </tr>
   <tr>
-    <td rowspan="5"><span style="font-weight:bold">Flags</span></td>
-    <td>標記</td>
-    <td>一組有關影響實作者如何操作資料項目的資訊，範例如下。</td>
+	<td rowspan="5"><span style="font-weight:bold">Flags</span></td>
+	<td>標記</td>
+	<td>一組有關影響實作者如何操作資料項目的資訊，範例如下。</td>
   </tr>
   <tr>
-    <td><img class="figure-img img-responsive img-rounded center-block" src="index/MustSupport.png" alt="A MustSupport image"/></td>
-    <td>必須支援（MustSupport），表示用戶端（Client）所傳送之資料項目，伺服端（Server）必須有能力接收並儲存此資料項目。繼承使用時可再依據專案需求，對MS做出延伸定義，但必須於應用說明說明其延伸定義的具體說明。詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport" target="_blank"><span style="color:#905">MustSupport</span></a>。</td>
+	<td><img class="figure-img img-responsive img-rounded center-block" src="index/MustSupport.png" alt="A MustSupport image"/></td>
+	<td>必須支援（MustSupport），表示用戶端（Client）所傳送之資料項目，伺服端（Server）必須有能力接收並儲存此資料項目。繼承使用時可再依據專案需求，對MS做出延伸定義，但必須於應用說明說明其延伸定義的具體說明。詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport" target="_blank"><span style="color:#905">MustSupport</span></a>。</td>
   </tr>
   <tr>
-    <td><img class="figure-img img-responsive img-rounded center-block" src="index/modifier.png" alt="A modifier image"/></td>
-    <td>表示此資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#isModifier" target="_blank"><span style="color:#905">Modifier</span></a>。</td>
+	<td><img class="figure-img img-responsive img-rounded center-block" src="index/modifier.png" alt="A modifier image"/></td>
+	<td>表示此資料項目可能會完全修正或改變其他資料項目的意涵，需特別留意。詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#isModifier" target="_blank"><span style="color:#905">Modifier</span></a>。</td>
   </tr>
   <tr>
-    <td><img class="figure-img img-responsive img-rounded center-block" src="index/summary.png" alt="A summary searches image"/></td>
-    <td>表示此資料項目為摘要的一部分，詳可參閱<a href="http://hl7.org/fhir/R4/search.html#summary" target="_blank"><span style="color:#905">Summary searches</span></a>。</td>
+	<td><img class="figure-img img-responsive img-rounded center-block" src="index/summary.png" alt="A summary searches image"/></td>
+	<td>表示此資料項目為摘要的一部分，詳可參閱<a href="http://hl7.org/fhir/R4/search.html#summary" target="_blank"><span style="color:#905">Summary searches</span></a>。</td>
   </tr>
   <tr>
-    <td><img class="figure-img img-responsive img-rounded center-block" src="index/constraints.png" alt="A contraint image"/></td>
-    <td>表示此資料項目受規範設定的限制（constraints）影響，例如：Patient.name的限制為「name.text（完整中文姓名）」或name.family（英文姓）或者兩者必須填寫」，詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#constraints" target="_blank"><span style="color:#905">Constraints</span></a>。
+	<td><img class="figure-img img-responsive img-rounded center-block" src="index/constraints.png" alt="A contraint image"/></td>
+	<td>表示此資料項目受規範設定的限制（constraints）影響，例如：Patient.name的限制為「name.text（完整中文姓名）」或name.family（英文姓）或者兩者必須填寫」，詳可參閱<a href="http://hl7.org/fhir/R4/conformance-rules.html#constraints" target="_blank"><span style="color:#905">Constraints</span></a>。
 	<br/>
 	<img class="figure-img img-responsive img-rounded center-block" src="index/constraints_example1.png" alt="constraints" width="600px" /></td>
   </tr>
   <tr>
-    <td><span style="font-weight:bold">Card.</span></td>
-    <td>基數</td>
-    <td>此資料項目允許出現在這個resource的最小至最大次數，意即例如某一資料項目的基數若為0..1，表示可不填寫或至多填入1筆；若為1..1，表示必須（只能）填入1筆；若為0..*，表示可不填寫或填入多筆（不限筆數）；若為1..*，表示至少要填入1筆或填入多筆（不限筆數）。</td>
+	<td><span style="font-weight:bold">Card.</span></td>
+	<td>基數</td>
+	<td>此資料項目允許出現在這個resource的最小至最大次數，意即例如某一資料項目的基數若為0..1，表示可不填寫或至多填入1筆；若為1..1，表示必須（只能）填入1筆；若為0..*，表示可不填寫或填入多筆（不限筆數）；若為1..*，表示至少要填入1筆或填入多筆（不限筆數）。</td>
   </tr>
   <tr>
-    <td><span style="font-weight:bold">Type</span></td>
-    <td>資料型別</td>
-    <td>資料項目的資料型別（可超連結至該型別的定義），例如：boolean、integer、dateTime等。</td>
+	<td><span style="font-weight:bold">Type</span></td>
+	<td>資料型別</td>
+	<td>資料項目的資料型別（可超連結至該型別的定義），例如：boolean、integer、dateTime等。</td>
   </tr>
   <tr>
-    <td><span style="font-weight:bold">Description &amp;Constraints</span></td>
-    <td>描述與限制</td>
-    <td>此資料項目的描述及詳細的限制。尤其編碼的資料項目可使用何種代碼填寫，如果有特定需要綁定的的代碼，則會以<span style="font-weight:bold">Binding</span>陳述。</td>
+	<td><span style="font-weight:bold">Description &amp;Constraints</span></td>
+	<td>描述與限制</td>
+	<td>此資料項目的描述及詳細的限制。尤其編碼的資料項目可使用何種代碼填寫，如果有特定需要綁定的的代碼，則會以<span style="font-weight:bold">Binding</span>陳述。</td>
   </tr>
 </tbody>
 </table>
@@ -236,33 +288,33 @@
 <div  style="padding-left: 10px;">
 <table class="grid">
   <thead>
-    <tr>
-      <th>英文名</th>
-      <th>中文名</th>
-      <th>說明</th>
-    </tr>
+	<tr>
+	  <th>英文名</th>
+	  <th>中文名</th>
+	  <th>說明</th>
+	</tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Required</td>
-      <td>要求使用</td>
-      <td>應填入值集中的其中一個代碼</td>
-    </tr>
-    <tr>
-      <td>Extensible</td>
-      <td>可擴充</td>
-      <td>應填入值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。</td>
-    </tr>
-    <tr>
-      <td>Preferred</td>
-      <td>鼓勵使用</td>
-      <td>鼓勵使用值集中的代碼，但不強制一定要使用此值集，你也可使用其他值集的代碼或單純以文字表示。</td>
-    </tr>
-    <tr>
-      <td>Example</td>
-      <td>範例</td>
-      <td>可參考值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。</td>
-    </tr>
+	<tr>
+	  <td>Required</td>
+	  <td>要求使用</td>
+	  <td>應填入值集中的其中一個代碼</td>
+	</tr>
+	<tr>
+	  <td>Extensible</td>
+	  <td>可擴充</td>
+	  <td>應填入值集中適合的代碼，確定無適合的代碼才可以使用其他值集的代碼來表示。</td>
+	</tr>
+	<tr>
+	  <td>Preferred</td>
+	  <td>鼓勵使用</td>
+	  <td>鼓勵使用值集中的代碼，但不強制一定要使用此值集，你也可使用其他值集的代碼或單純以文字表示。</td>
+	</tr>
+	<tr>
+	  <td>Example</td>
+	  <td>範例</td>
+	  <td>可參考值集，但此值集只是針對這個欄位的一個可能值的範例，不預期也不鼓勵使用者一定要使用此值集的代碼。</td>
+	</tr>
   </tbody>
 </table>
 如下圖所示，telecom.system應使用ContactPointSystem代碼表（或稱代碼系統）中的其中一個代碼，telecom.use及gender也都有應該搭配使用的代碼表，否則以此IG驗證格式時會出現錯誤訊息。 <br/>
@@ -308,11 +360,11 @@
 IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交換標準工作小組</b>」決定，minor及patch可由相關工作小組討論後作調整：</p>
 <table class="grid">
 	<thead>
-    <tr>
-      <th>版本</th>
-      <th>定義</th>
-      <th>可能時機</th>
-    </tr>
+	<tr>
+	  <th>版本</th>
+	  <th>定義</th>
+	  <th>可能時機</th>
+	</tr>
   </thead>
 	<tbody>
 		<tr>
@@ -396,7 +448,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<thead>
 		<tr class="header">
 			<th style="width:10%; vertical-align: middle;">角色</th>
-      <th style="width:10%; vertical-align: middle;">貢獻版次</th>
+	  <th style="width:10%; vertical-align: middle;">貢獻版次</th>
 			<th style="width:25%; vertical-align: middle;">機構名稱</th>
 			<th style="width:15%; vertical-align: middle;">姓名</th>
 			<th style="width:30%; vertical-align: middle;">所屬單位</th>
@@ -406,7 +458,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
 			<td rowspan="19" style="vertical-align: middle;">衛生福利部資訊處</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
 			<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
@@ -419,7 +471,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-    		<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -427,7 +479,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
 			<td style="vertical-align: middle;">林伃瑤（Yu-Yao Lin）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">a28485251@gmail.com</a>
@@ -437,7 +489,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-     		 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>
@@ -447,7 +499,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">歐陽渝（Yang-Yu Ou）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ouyangyu0326@gmail.com">ouyangyu0326@gmail.com</a>
@@ -455,7 +507,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
 			<td style="vertical-align: middle;">連中岳（Chung-Yueh Lien）</td>
 			<td rowspan="9" style="vertical-align: middle;">國立臺北護理健康大學－資訊管理系<br />
 			（Department of Information Management, National Taipei University of Nursing and Health Sciences）</td>
@@ -465,7 +517,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">徐建業（Chien-Yeh Hsu）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:cyhsu@ntunhs.edu.tw">cyhsu@ntunhs.edu.tw</a>
@@ -473,7 +525,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">陳欣怡（Hsin-Yi Chen）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:c86976@gmail.com">c86976@gmail.com</a>
@@ -481,7 +533,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">郭俐君（Li-Chun Kuo）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:lily220487@gmail.com">lily220487@gmail.com</a>
@@ -489,23 +541,23 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">丁子芸（Tzu-Yun Ting）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:aewqoo832456@gmail.com">aewqoo832456@gmail.com</a>
 			</td>
 			</tr>
-   			<tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
+			<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">陳杏宜（Hsin-Yi Chen）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:aewqoo832456@gmail.com">bii901231@gmail.com</a>
 			</td>
 			</tr>
-    		<tr>
+			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
+			<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">蔡姍紜（Shan-Yun Tsai）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:aewqoo832456@gmail.com">appletsai319@gmail.com</a>
@@ -513,7 +565,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 				<td style="vertical-align: middle;">貢獻者</td>
-		  	<td style="vertical-align: middle;">v0.2.0</td>
+			<td style="vertical-align: middle;">v0.2.0</td>
 				<td style="vertical-align: middle;">黃睿駿（Hrui-Jun Huang）</td>
 				<td style="vertical-align: middle;">
 					<a href="mailto:aewqoo832456@gmail.com">a27114171@gmail.com</a>
@@ -522,7 +574,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 		<tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">李祥豪（Siang-Hao Lee）</td>
 			<td style="vertical-align: middle;">康統醫學科技股份有限公司（KENKONE）</td>
 			<td style="vertical-align: middle;">
@@ -531,7 +583,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0</td>
 			<td style="vertical-align: middle;">李修安（Hsiu-An Lee）</td>
 			<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所<br />
 			（National Health Research Institutes - The National Institute of Cancer Research）</td>
@@ -541,7 +593,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
+			<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">劉貞沂（Zhen-Yi Liu）</td>
 			<td style="vertical-align: middle;">國家衛生研究院 - 癌症研究所 <br />
 				（National Health Research Institutes - The National Institute of Cancer Research）</td>
@@ -551,7 +603,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.2.0</td>
+			<td style="vertical-align: middle;">v0.2.0</td>
 			<td style="vertical-align: middle;">燕洛嫺（Luo-Xian Yan）</td>
 			<td style="vertical-align: middle;">社團法人台灣醫學資訊學會<br />
 				（Taiwan Association for Medical Information）</td>
@@ -561,7 +613,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">貢獻者</td>
-      		<td style="vertical-align: middle;">v0.1.1</td>
+			<td style="vertical-align: middle;">v0.1.1</td>
 			<td style="vertical-align: middle;">楊宇凡（Lorex L. Yang）</td>
 			<td style="vertical-align: middle;">矽塔資訊服務有限公司（Sitatech）</td>
 			<td style="vertical-align: middle;">
