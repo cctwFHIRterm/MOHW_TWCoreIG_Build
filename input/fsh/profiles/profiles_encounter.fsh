@@ -24,9 +24,9 @@ Description:    "此臺灣核心-就醫事件（TW Core Encounter） Profile說�
     TWMedicalConsultationDepartment 0..1 MS and
     TWMedicalTreatmentDepartment 0..1 MS
 * serviceType.coding[TWMedicalConsultationDepartment] from TWMedicalConsultationDepartment (required)
-* serviceType.coding[TWMedicalConsultationDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-tw"
+* serviceType.coding[TWMedicalConsultationDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw"
 * serviceType.coding[TWMedicalTreatmentDepartment] from TWMedicalTreatmentDepartment (required)
-* serviceType.coding[TWMedicalTreatmentDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-tw"
+* serviceType.coding[TWMedicalTreatmentDepartment].system = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw"
 * serviceType.coding[TWMedicalDepartmentSCT] from TWMedicalDepartmentSCT (required)
 * serviceType.coding[TWMedicalDepartmentSCT].system = "http://snomed.info/sct"
 
