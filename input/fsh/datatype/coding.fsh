@@ -3,7 +3,7 @@ Parent: Coding
 Id: Coding-tw
 Title: "TW Coding"
 Description: "此臺灣Coding Profile說明本IG如何進一步定義FHIR的Coding資料類型以呈現Coding  [[*FMM1*](http://build.fhir.org/versions.html#maturity)]"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * system MS
 * code MS
 * display MS

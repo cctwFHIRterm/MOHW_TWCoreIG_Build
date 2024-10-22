@@ -3,7 +3,7 @@ Parent: Medication
 Id: Medication-twcore
 Title: "TW Core Medication"
 Description: "此臺灣核心-藥品（TW Core Medication） Profile說明本IG如何進一步定義FHIR的Medication Resource以呈現藥品的詳細資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * manufacturer only Reference(TWCoreOrganization)

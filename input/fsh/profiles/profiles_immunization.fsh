@@ -3,7 +3,7 @@ Parent:         Immunization
 Id:             Immunization-twcore
 Title:          "TW Core Immunization"
 Description:    "此臺灣核心-疫苗接種（TW Core Immunization） Profile說明本IG如何進一步定義FHIR的Immunization Resource以呈現疫苗接種資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * obeys tw-core-10
 * . ^mustSupport = false
 * status MS

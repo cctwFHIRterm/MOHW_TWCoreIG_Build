@@ -3,7 +3,7 @@ Parent: Observation
 Id: Observation-pregnancy-intent-twcore
 Title: "TW Core Observation Pregnancy Intent"
 Description: "此臺灣核心-妊娠計畫（TW Core Observation Pregnancy Intent） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現妊娠計畫資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * status MS
 * category MS
 * category only CodeableConceptTW

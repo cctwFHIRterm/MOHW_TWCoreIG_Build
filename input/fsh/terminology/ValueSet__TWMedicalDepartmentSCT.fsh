@@ -7,7 +7,7 @@ Title: "對應至 SNOMED CT之就醫科別 + 診療科別值集"
 Description: "對應至 SNOMED CT之就醫科別 + 診療科別值集。"
 * ^experimental = false
 * ^date = "2024-05-27"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 
 * SNOMED_CT#419772000
 * SNOMED_CT#419192003

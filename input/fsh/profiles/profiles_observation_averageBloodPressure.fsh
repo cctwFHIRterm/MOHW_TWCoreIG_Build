@@ -3,7 +3,7 @@ Parent:         Observation
 Id:             Observation-averageBloodPressure-twcore
 Title:          "TW Core Observation Average Blood Pressure"
 Description:    "此臺灣核心-平均血壓（TW Core Observation Average Blood Pressure） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現平均血壓資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * status MS
 * category 1.. MS
 * category only CodeableConceptTW

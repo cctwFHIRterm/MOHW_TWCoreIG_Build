@@ -425,17 +425,32 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 		<tr>
 			<td>● label可以是任何字串，然而典型的標籤是：</td>
 		</tr>
-		<tr>
+	<tr>
 			<td>  ○ 「<b>snapshotN</b>」：由於聯測（connectathon）、投票相依性或其他原因，標準規範的凍結版本。</td>
 		</tr>
 		<tr>
 			<td>  ○ 「<b>ballotN</b>」：在投票過程中使用的凍結版本。</td>
 		</tr>
 		<tr>
-			<td>  ○ 「<b>draftN</b>」：為非投票審查或QA而發佈的凍結版本。</td>
+			<td>  ○ 「<b>draftN</b>」：指的是一個為非投票審查或者為了品質保證（QA）目的發佈的凍結版本。</td>
 		</tr>
 		<tr>
-			<td>  ○ 「<b>cibuild</b>」：一個 「特殊」的版本標籤，指的是一個非穩定的版本，隨著每次提交而改變。</td>
+			<td>  ○ 「<b>ci-build</b>」：一個 「特殊」的版本標籤，指的是一個非穩定的版本，隨著每次提交而改變。</td>
+		</tr>
+		<tr>
+			<td>  ○ 「<b>qa-preview</b>」：用於非投票反饋的凍結快照。</td>
+		</tr>
+		<tr>
+			<td>  ○ 「<b>trial-use</b>」：具有「試用」狀態的正式發佈。</td>
+		</tr>
+		<tr>
+			<td>  ○ 「<b>release</b>」：正式發佈版本。</td>
+		</tr>
+		<tr>
+			<td>  ○ 「<b>update</b>」：具有試用狀態且未經投票的 STU 更新。</td>
+		</tr>
+		<tr>
+			<td>  ○ 「<b>normative+trial-use</b>」：同時包含試用與正式內容的混合發佈。</td>
 		</tr>
 	</tbody>
 </table>
@@ -458,7 +473,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
 			<td rowspan="19" style="vertical-align: middle;">衛生福利部資訊處</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
 			<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
@@ -471,7 +486,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -489,7 +504,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0</td>
+			 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>

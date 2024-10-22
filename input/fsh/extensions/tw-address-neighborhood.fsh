@@ -3,7 +3,7 @@ Id: tw-neighborhood
 Title: "TW Neighborhood"
 Description: "臺灣地址欄位-鄰"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-neighborhood"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

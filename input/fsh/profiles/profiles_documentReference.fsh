@@ -3,7 +3,7 @@ Parent: DocumentReference
 Id: DocumentReference-twcore
 Title: "TW Core DocumentReference"
 Description: "此臺灣核心-文件參照（TW Core DocumentReference） Profile說明本IG如何進一步定義FHIR的DocumentReference Resource以呈現文件參照的詳細資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * masterIdentifier and status and type and category and subject and content and date and author MS

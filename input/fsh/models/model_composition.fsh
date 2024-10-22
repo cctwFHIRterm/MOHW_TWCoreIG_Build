@@ -2,7 +2,7 @@ Logical: TWCompositionModel
 Id: TWComposition
 Title: "臺灣核心-臨床文件架構(TW Core Composition) 之資料模型"
 Description: "臺灣核心-臨床文件架構(TW Core Composition) 之資料模型"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * identifier 0..1 Identifier "不分版本的臨床文件架構(Composition)識別碼。" "不分版本的臨床文件架構(臨床文件架構)識別碼。"
 * status 1..1 code "臨床文件架構的工作流程/臨床狀態。" "臨床文件架構的工作流程/臨床狀態。"
 * type 1..1 CodeableConcept "臨床文件架構的種類(如果可能請使用LOINC)。" "臨床文件架構的種類(如果可能請使用LOINC)。"

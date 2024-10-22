@@ -3,7 +3,7 @@ Parent:         TWCoreOrganization
 Id:             Organization-co-twcore
 Title:          "TW Core Organization Company"
 Description:    "此臺灣核心-公司行號（TW Core Organization Company） Profile說明本IG如何進一步定義臺灣核心-機構（TW Core Organization） Profile以呈現機構基本資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * type 1..
 * type = http://terminology.hl7.org/CodeSystem/organization-type#bus
 * identifier.type 1..

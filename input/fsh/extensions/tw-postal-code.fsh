@@ -3,7 +3,7 @@ Id: tw-postal-code
 Title: "TW Postal code"
 Description: "臺灣郵遞區號"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-postal-code"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address.postalCode"

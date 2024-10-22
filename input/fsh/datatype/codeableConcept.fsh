@@ -3,7 +3,7 @@ Parent: CodeableConcept
 Id: CodeableConcept-tw
 Title: "TW CodeableConcept"
 Description: "此臺灣CodeableConcept Profile說明本IG如何進一步定義FHIR的CodeableConcept資料類型以呈現CodeableConcept  [[*FMM1*](http://build.fhir.org/versions.html#maturity)]"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * coding only CodingTW
 * coding MS
 * text MS

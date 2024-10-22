@@ -5,7 +5,7 @@ Title:          "TW Core Practitioner"
 Description:    "tifier:residentNumber欄位的identifier.system改為 = http://www.immigration.gov.tw。  
 
 此臺灣核心-健康照護服務提供者（TW Core Practitioner） Profile說明本IG如何進一步定義FHIR的Practitioner Resource以呈現健康照護服務提供者基本資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * communication ^example.label = "Value"

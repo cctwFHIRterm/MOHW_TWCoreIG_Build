@@ -1,7 +1,7 @@
 ValueSet: OrderableDrugForm
 Id: v3-orderableDrugForm
-Title: "藥品劑型值集"
-Description: "藥品劑型值集   
+Title: "HL7 OrderableDrugForm藥品劑型值集"
+Description: "HL7 OrderableDrugForm藥品劑型值集。   
 資料所屬單位：Health Level 7"
 * ^date = "2019-03-20"
 * ^version = "2.1.0"

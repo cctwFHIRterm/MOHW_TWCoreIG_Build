@@ -3,7 +3,7 @@ Parent: Observation
 Id: Observation-smoking-status-twcore
 Title: "TW Core Observation Smoking Status"
 Description: "此臺灣核心-吸菸狀態（TW Core Observation Smoking Status） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現吸菸狀態資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * . obeys tw-core-7
 * . obeys tw-core-8
 * status MS

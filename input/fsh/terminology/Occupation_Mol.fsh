@@ -1,6 +1,6 @@
 CodeSystem: TWMolOccupation
 Id: occupation-mol-tw
-Title: "中華民國勞動部職業標準分類"
+Title: "臺灣勞動部職業標準分類"
 Description: """臺灣勞動部職業標準分類，參照至[中華民國勞動部](https://www.mol.gov.tw/1607/2458/2510/)的[職業標準分類(第6次修訂)](https://statdb.mol.gov.tw/html/svy12/1236menu.htm)
 代碼出版日期：2010-05-01；資料所屬單位：中華民國勞動部。
 
@@ -2800,8 +2800,8 @@ Description: """臺灣勞動部職業標準分類，參照至[中華民國勞動
 
 ValueSet: TWMolOccupation
 Id: occupation-mol-tw
-Title: "中華民國勞動部職業標準分類值集"
-Description: "中華民國勞動部職業標準分類值集"
+Title: "臺灣勞動部職業標準分類值集"
+Description: "臺灣勞動部職業標準分類值集"
 * ^date = "2010-05-01"
 * ^version = "2010-05-01"
 * ^experimental = false

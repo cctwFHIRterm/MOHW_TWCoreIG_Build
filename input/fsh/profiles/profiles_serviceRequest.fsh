@@ -3,7 +3,7 @@ Parent:         ServiceRequest
 Id:             ServiceRequest-twcore
 Title:          "TW Core ServiceRequest"
 Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profile說明本IG如何進一步定義FHIR的ServiceRequest Resource以呈現服務請求資料。"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * status MS
 * intent MS
 * category MS
@@ -15,8 +15,8 @@ Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profil
 * category[twcore] from TWServiceRequestCategory
 * category[twcore] ^binding.description = "此slice綁定的值集之綁定強度雖為最高強度「要求使用(Requird)」，但因slice之特性，其不會限制僅能填此值集中的代碼，故在實作時也可使用其他值集的代碼。"
 * code 1..1 MS
-* code ^binding.description = "此資料項目實作者可視實務專案需求只綁定以下slices中的任一值集。"
 * code only CodeableConceptTW
+* code ^binding.description = "此資料項目實作者可視實務專案需求只綁定以下slices中的任一值集。"
 //* code from $sct-procedures (required)
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"

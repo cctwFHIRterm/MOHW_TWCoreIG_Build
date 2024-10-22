@@ -4,7 +4,7 @@ Id: serviceRequest-category
 Title: "臺灣衛福部資訊處ServiceRequest類型值集"
 Description: "臺灣衛福部資訊處ServiceRequest類型值集"
 * ^date = "2024-08-31"
-* ^version = "0.3.0"
+* ^version = "0.3.1"
 * ^experimental = false
 * include codes from system TWCategoryCode
 * SNOMED_CT#386053000
