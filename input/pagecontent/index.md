@@ -56,7 +56,7 @@
 			<li><a href="ValueSet-provenance-participant-type-hl7-tw.html">HL7 Provenance participant type + 臺灣衛福部資訊處 Provenance 參與類型</a>。</li>
 			<li><a href="ValueSet-identifier-type-tw.html">IdentifierType + 臺灣衛福部資訊處識別碼類型值集</a>。</li>
 			<li><a href="ValueSet-occupation-lia-roc-tw.html">臺灣壽險公會傷害保險個人職業分類表值集</a>。</li>
-			<li><a href="ValueSet-occupation-mol-tw.html">中華民國勞動部職業標準分類值集</a>。</li>
+			<li><a href="ValueSet-occupation-mol-tw.html">臺灣勞動部職業標準分類值集</a>。</li>
 			<li><a href="ValueSet-industry-dgbas-tw.html">行政院主計總處行業分類值集</a>。</li>
 			<li><a href="ValueSet-snomed-pregnancy-status-code.html">臺灣妊娠狀態值集</a>。</li>
 			<li><a href="ValueSet-loinc-pregnancy-intent-code.html">臺灣妊娠計畫值集</a>。</li>
@@ -415,9 +415,9 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			<td>● 只要minor版本改變，patch就會被重置為0例如：4.0.1代表對4.0.0版本的第一次技術性修正 。</td>
 		</tr>
 		<tr>
-			<td rowspan="7">label</td>
+			<td rowspan="12">label</td>
 			<td>版本末端有一個標籤，代表一個正在建立的標準規範的 「工作 」版本，並正在建立到指定的發行版本；例如，5.0.0-ballot1、5.0.0-snapshot2等。</td>
-			<td rowspan="7">目前仍持續在修訂與新增TW Core IG內容，故label為cibuild。</td>
+			<td rowspan="12">目前仍持續在修訂與新增TW Core IG內容，故label為cibuild。</td>
 		</tr>
 		<tr>
 			<td>● 標籤前端的序號表示在投票、審查結束後的「預期」版本序號。</td>
