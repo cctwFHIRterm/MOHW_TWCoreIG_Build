@@ -4,7 +4,10 @@ Alias: $scttw = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/sct-tw
 ValueSet: TWMedicalDepartmentSCT
 Id: medical-department-sct-tw
 Title: "對應至 SNOMED CT之就醫科別 + 診療科別值集"
-Description: "對應至 SNOMED CT之就醫科別 + 診療科別值集。"
+Description: "因就醫科別與診療科別對應到之國際標準碼 SNOMED CT有共通代碼，因此本值集將兩者的對應代碼整合於同一值集中。  
+
+為便於使用者更清晰地辨識是哪些代碼對應到國際標準碼，請參照下列[就醫科別](ValueSet-medical-department-sct-tw.html#就醫科別對應表)與[診療科別](ValueSet-medical-department-sct-tw.html#診療科別對應表)各自的對應表格，以填入相應的代碼。
+"
 * ^experimental = false
 * ^date = "2024-05-27"
 * ^version = "0.3.1"

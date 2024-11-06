@@ -30,7 +30,7 @@ Usage: #definition
 * group.element[=].target.display = "Surgery-general"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #04
-* group.element[=].display = "小兒科"
+* group.element[=].display = "兒科"
 * group.element[=].target.code = #24251000087109
 * group.element[=].target.display = "General pediatric specialty"
 * group.element[=].target.equivalence = #equal
@@ -99,7 +99,7 @@ Usage: #definition
 * group.element[=].target.code = #394821009
 * group.element[=].target.display = "Occupational medicine"
 * group.element[=].target.equivalence = #equal
-* group.element[0].code = #2B
+* group.element[=].code = #2B
 * group.element[=].display = "洗腎科"
 * group.element[=].target.code = #394589003
 * group.element[=].target.display = "Nephrology"
