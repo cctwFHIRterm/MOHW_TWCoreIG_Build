@@ -6,7 +6,7 @@ Id: medical-department-sct-tw
 Title: "對應至 SNOMED CT之就醫科別 + 診療科別值集"
 Description: "因就醫科別與診療科別對應到之國際標準碼 SNOMED CT有共通代碼，因此本值集將兩者的對應代碼整合於同一值集中。  
 
-另為便於使用者更清晰地辨識「[就醫科別](ValueSet-medical-department-sct-tw.html#就醫科別對應表)及「[診療科別](ValueSet-medical-department-sct-tw.html#診療科別對應表)」的各別完整值集範圍，請參閱以下兩個表格，代碼使用原則為：若想表達的語意有國際代碼可表述，便採用國際代碼；若無對應的國際代碼可表述，則採用健保署編訂的代碼。
+另為便於使用者更清晰地辨識「[就醫科別](ValueSet-medical-department-sct-tw.html#就醫科別對應表)」及「[診療科別](ValueSet-medical-department-sct-tw.html#診療科別對應表)」的各別完整值集範圍，請參閱以下兩個表格，代碼使用原則為：若想表達的語意有國際代碼可表述，便採用國際代碼；若無對應的國際代碼可表述，則採用健保署編訂的代碼。
 
 "
 * ^experimental = false
