@@ -11,7 +11,7 @@
 - [RxNorm藥品代碼值集](ValueSet-medication-rxnorm-tw.html)
 - [HL7 OrderableDrugForm藥品劑型值集](ValueSet-v3-orderableDrugForm.html)
 - [SNOMED CT診斷代碼值集](ValueSet-condition-code-sct-tw.html)
-- [對應至 SNOMED CT之就醫科別及診療科別值集](ValueSet-medical-department-sct-tw.html)
+- [對應至 SNOMED CT之就醫科別 + 診療科別值集](ValueSet-medical-department-sct-tw.html)
 - [SNOMED CT + HL7 NullFlavor性傾向值集](ValueSet-snomed-sexual-orientation-code.html)
 - [SNOMED CT + HL7 NullFlavor妊娠狀態值集](ValueSet-snomed-pregnancy-status-code.html)
 - [SNOMED CT + LOINC吸菸狀態種類向值集](ValueSet-smoking-status-type-code.html)
