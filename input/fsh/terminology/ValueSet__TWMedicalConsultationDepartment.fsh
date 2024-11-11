@@ -19,7 +19,7 @@ Description: "無法對應至SNOMED CT之臺灣健保署就醫科別值集。
 * $TWMedicalConsultationDepartmentNHI#HA "脊椎骨科"
 * $TWMedicalConsultationDepartmentNHI#TB "肺結核"
 * $TWMedicalConsultationDepartmentNHI#AF "血液腫瘤科"
-
+* $TWMedicalConsultationDepartmentNHI#2B "洗腎科"
 /* SNOMED_CT#419772000 "Family practice"
 * SNOMED_CT#419192003 "Internal medicine"
 * SNOMED_CT#394609007 "Surgery-general"

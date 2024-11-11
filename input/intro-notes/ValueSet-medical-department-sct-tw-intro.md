@@ -123,6 +123,12 @@
     <td>https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw</td>
   </tr>
   <tr>
+    <td>2B</td>
+    <td>洗腎科</td>
+    <td>2B</td>
+    <td>https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-consultation-department-nhi-tw</td>
+  </tr>
+  <tr>
     <td>40</td>
     <td>牙科</td>
     <td>722163006</td>
@@ -429,8 +435,8 @@
   <tr>
     <td>2B</td>
     <td>洗腎科</td>
-    <td>394589003</td>
-    <td>http://snomed.info/sct</td>
+    <td>2B</td>
+    <td>https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medical-treatment-department-nhi-tw</td>
   </tr>
   <tr>
     <td>40</td>

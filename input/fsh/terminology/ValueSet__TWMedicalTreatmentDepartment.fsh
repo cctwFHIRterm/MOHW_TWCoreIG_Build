@@ -19,6 +19,8 @@ Description: "無法對應至SNOMED CT之臺灣健保署診療科別值集。
 * $TWMedicalTreatmentDepartmentNHI#51 "特殊需求者口腔醫學科"
 * $TWMedicalTreatmentDepartmentNHI#60 "中醫一般科"
 * $TWMedicalTreatmentDepartmentNHI#86 "放射診斷科"
+* $TWMedicalTreatmentDepartmentNHI#2B "洗腎科"
+
 /* SNOMED_CT#419772000 "Family practice"
 * SNOMED_CT#419192003 "Internal medicine"
 * SNOMED_CT#394609007 "Surgery-general"
