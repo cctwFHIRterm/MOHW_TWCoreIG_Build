@@ -262,8 +262,8 @@
   </tr>
   <tr>
 	<td><span style="font-weight:bold">Type</span></td>
-	<td>資料型別</td>
-	<td>資料項目的資料型別（可超連結至該型別的定義），例如：boolean、integer、dateTime等。</td>
+	<td>資料類型</td>
+	<td>資料項目的資料類型（可超連結至該型別的定義），例如：boolean、integer、dateTime等。</td>
   </tr>
   <tr>
 	<td><span style="font-weight:bold">Description &amp;Constraints</span></td>
