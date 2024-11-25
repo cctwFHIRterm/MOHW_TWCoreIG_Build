@@ -268,7 +268,7 @@
   <tr>
 	<td><span style="font-weight:bold">Description &amp;Constraints</span></td>
 	<td>描述與限制</td>
-	<td>此資料項目的描述及詳細的限制。尤其編碼的資料項目可使用何種代碼填寫，如果有特定需要綁定的的代碼，則會以<span style="font-weight:bold">Binding</span>陳述。</td>
+	<td>此資料項目的描述及詳細的限制。尤其編碼的資料項目可使用何種代碼填寫，如果有特定需要綁定的代碼，則會以<span style="font-weight:bold">Binding</span>陳述。</td>
   </tr>
 </tbody>
 </table>
