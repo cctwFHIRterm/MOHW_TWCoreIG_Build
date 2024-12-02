@@ -2101,6 +2101,11 @@
 				<generation value="markdown"/>
 			</page>
 			<page>
+				<nameUrl value="twcdi.html"/>
+				<title value="TWCDI"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
 				<nameUrl value="validates.html"/>
 				<title value="驗證教學"/>
 				<generation value="markdown"/>
