@@ -9,10 +9,10 @@ Usage: #example
 * entry[0].fullUrl = "https://twcore.mohw.gov.tw/ig/twcore/Patient/pat-example"
 * entry[0].resource = pat-example
 * entry[0].request.method = #PUT
-* entry[0].request.url = "pat-example"
+* entry[0].request.url = "Patient/pat-example"
 
 * entry[1].fullUrl = "https://twcore.mohw.gov.tw/ig/twcore/Medication/med-example"
 * entry[1].resource = med-example
 * entry[1].request.method = #PUT
-* entry[1].request.url = "med-example"
+* entry[1].request.url = "Medication/med-example"
 
