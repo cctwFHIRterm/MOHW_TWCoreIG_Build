@@ -1,5 +1,11 @@
 <div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
-因實務需求，工研院次世代數位醫療平台專案辦公室於2024/12/2新增<a href="twcdi.html">TWCDI</a>內容說明。
+因考量實作需求，於2024/12/10異動以下內容：
+<ol>  
+	<li>因實務需求，工研院次世代數位醫療平台專案辦公室新增<a href="twcdi.html">TWCDI</a>內容說明。</li>
+  	<li>更新代碼系統<a href="CodeSystem-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM</a>，並新增property："USE" 表「代碼有效/無效」以利專案使用。</li>
+	<li>更新代碼系統<a href="CodeSystem-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS</a>，並新增property："USE" 表「代碼有效/無效」以利專案使用。</li>
+</ol>
+請留意這些異動，以避免影響您的實作。
 </div>
 
 
@@ -401,7 +407,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 	<tbody>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1、v0.3.2</td>
 			<td rowspan="19" style="vertical-align: middle;">衛生福利部資訊處</td>
 			<td style="vertical-align: middle;">李麗惠（Li-Hui Lee）</td>
 			<td rowspan="5" style="vertical-align: middle;">國立臺北護理健康大學－健康事業管理系<br />
@@ -414,7 +420,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
+			<td style="vertical-align: middle;">v0.1.1、v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1、v0.3.2</td>
 			<td style="vertical-align: middle;">曾鈺珈（Yu-Jia Tseng）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:yujia151645@gmail.com">yujia151645@gmail.com</a>
@@ -432,12 +438,10 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 			</tr>
 			<tr>
 			<td style="vertical-align: middle;">作者</td>
-			 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1</td>
+			 <td style="vertical-align: middle;">v0.2.0、v0.2.1、v0.2.2、v0.3.0、v0.3.1、v0.3.2</td>
 			<td style="vertical-align: middle;">李奇安（Chi-An Lee）</td>
 			<td style="vertical-align: middle;">
 				<a href="mailto:ec460520@gmail.com">ec460520@gmail.com</a>
-				<br />
-				<a href="mailto:072114216@ntunhs.edu.tw">072114216@ntunhs.edu.tw</a>
 			</td>
 			</tr>
 			<tr>
