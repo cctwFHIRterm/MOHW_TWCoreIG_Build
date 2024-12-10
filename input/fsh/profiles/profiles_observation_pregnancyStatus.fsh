@@ -3,7 +3,7 @@ Parent: Observation
 Id: Observation-pregnancy-status-twcore
 Title: "TW Core Observation Pregnancy Status"
 Description: "此臺灣核心-妊娠狀態（TW Core Observation Pregnancy Status） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現妊娠狀態資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * category MS
 * category only CodeableConceptTW

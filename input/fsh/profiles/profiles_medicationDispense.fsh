@@ -3,7 +3,7 @@ Parent: MedicationDispense
 Id: MedicationDispense-twcore
 Title: "TW Core MedicationDispense"
 Description: "此臺灣核心-配藥或藥品調劑（TW Core MedicationDispense） Profile說明本IG如何進一步定義FHIR的MedicationDispense Resource以呈現配藥或藥品調劑的詳細資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and status and category and medication[x] and subject and context and performer and performer.actor and authorizingPrescription and type and  quantity and whenHandedOver and dosageInstruction and dosageInstruction.text and dosageInstruction.timing and dosageInstruction.doseAndRate and dosageInstruction.doseAndRate.dose[x] and daysSupply and dosageInstruction.sequence and dosageInstruction.patientInstruction and dosageInstruction.route and dosageInstruction.doseAndRate.rate[x] MS 
@@ -24,6 +24,8 @@ Description: "此臺灣核心-配藥或藥品調劑（TW Core MedicationDispense
 * substitution.responsibleParty only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * medication[x] only CodeableConceptTW or Reference(TWCoreMedication)
 * medicationReference only Reference(TWCoreMedication)
+* destination only Reference(TWCoreLocation)
+* eventHistory only Reference(TWCoreProvenance)
 * medicationCodeableConcept.coding ^slicing.discriminator.type = #pattern
 * medicationCodeableConcept.coding ^slicing.discriminator.path = "$this"
 * medicationCodeableConcept.coding ^slicing.rules = #open

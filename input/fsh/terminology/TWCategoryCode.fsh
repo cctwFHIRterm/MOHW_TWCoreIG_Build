@@ -62,7 +62,7 @@ Id: category-code-tw
 Title: "臺灣衛福部資訊處類型代碼值集"
 Description: "臺灣衛福部資訊處類型代碼值集"
 * ^date = "2024-08-31"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 * ^experimental = false
 * include codes from system TWCategoryCode
 * include codes from system http://terminology.hl7.org/CodeSystem/observation-category
@@ -73,7 +73,7 @@ Id: observation-screening-assessment-category
 Title: "臺灣衛福部資訊處Observation Screening Assessment類型值集"
 Description: "臺灣衛福部資訊處Observation Screening Assessment類型值集"
 * ^date = "2024-08-31"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 * ^experimental = false
 * include codes from system TWCategoryCode
 
@@ -84,7 +84,7 @@ Id: observation-clinical-result-category
 Title: "臺灣衛福部資訊處Observation Clinical Result類型值集"
 Description: "臺灣衛福部資訊處Observation Clinical Result類型值集"
 * ^date = "2024-08-31"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 * ^experimental = false
 * $ClinicalResult#laboratory
 * $ClinicalResult#exam

@@ -8,7 +8,7 @@ Description: "無法對應至SNOMED CT之臺灣健保署就醫科別值集。
 "
 * ^experimental = false
 * ^date = "2024-05-27"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 * $TWMedicalConsultationDepartmentNHI#00 "不分科"
 * $TWMedicalConsultationDepartmentNHI#2A "結核科"
 * $TWMedicalConsultationDepartmentNHI#2B "洗腎科"

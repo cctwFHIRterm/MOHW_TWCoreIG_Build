@@ -3,7 +3,7 @@ Parent:         Goal
 Id:             Goal-twcore
 Title:          "TW Core Goal"
 Description:    "此臺灣核心-目標（TW Core Goal） Profile說明本IG如何進一步定義FHIR的Goal Resource以呈現目標資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * lifecycleStatus MS
 * description MS
 * description from http://hl7.org/fhir/ValueSet/clinical-findings (extensible)

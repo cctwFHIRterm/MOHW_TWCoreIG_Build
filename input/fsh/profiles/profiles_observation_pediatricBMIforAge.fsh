@@ -3,7 +3,7 @@ Parent:         TWCoreObservationVitalSigns
 Id:             Observation-pediatric-bmi-age-twcore
 Title:          "TW Core Pediatric BMI for Age Observation"
 Description:    "此臺灣核心-兒童及青少年身體質量指數（TW Core Pediatric BMI for Age Observation） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現兒童及青少年身體質量指數資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * code only CodeableConceptTW
 * code = http://loinc.org#59576-9
 * code MS

@@ -7,7 +7,7 @@ Id:             Patient-twcore
 Title:          "TW Core Patient"
 Description:    "
 此臺灣核心-病人（TW Core Patient） Profile說明本IG如何進一步定義FHIR的Patient Resource以呈現基本資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * address only AddressTW
 * address MS
 * language ^example.label = "Value"
@@ -110,6 +110,8 @@ Description:    "
 * identifier[idCardNumber].assigner only Reference(TWCoreOrganization)
 * identifier[passportNumber].assigner only Reference(TWCoreOrganization)
 * identifier[residentNumber].assigner only Reference(TWCoreOrganization)
+* identifier.assigner only Reference(TWCoreOrganization)
+
 * active MS
 * name ^slicing.discriminator.type = #pattern
 * name ^slicing.discriminator.path = "use"

@@ -7,7 +7,7 @@ Description: "SNOMED CT + 臺灣醫事司醫事人員類別值集。
 此值集優先採用國際標準碼，國際標準碼未能表述之概念則以普遍被使用的臺灣醫事司醫事人員類別標準碼表述，請實作者留意。"
 * ^experimental = false
 * ^date = "2022-01-28"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 //* include codes from system TWHealthProfessional
 * include codes from system SNOMED_CT where concept is-a #223366009
 * SNOMED_CT#394802001

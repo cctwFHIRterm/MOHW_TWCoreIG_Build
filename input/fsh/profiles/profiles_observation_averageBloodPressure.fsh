@@ -3,7 +3,7 @@ Parent:         Observation
 Id:             Observation-averageBloodPressure-twcore
 Title:          "TW Core Observation Average Blood Pressure"
 Description:    "此臺灣核心-平均血壓（TW Core Observation Average Blood Pressure） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現平均血壓資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * category 1.. MS
 * category only CodeableConceptTW
@@ -99,3 +99,11 @@ Description:    "此臺灣核心-平均血壓（TW Core Observation Average Bloo
 * component[Number].valueQuantity only Quantity
 * component[Number].valueQuantity MS
 * component[Number].valueQuantity.value 1..1 MS
+
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
+* encounter only Reference(TWCoreEncounter)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
+* specimen only Reference(TWCoreSpecimen)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
+* hasMember only Reference(TWCoreObservationVitalSigns or TWCoreQuestionnaireResponse or MolecularSequence)

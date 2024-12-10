@@ -3,7 +3,7 @@ Parent:         Observation
 Id:             Observation-occupation-twcore
 Title:          "TW Core Observation Occupation"
 Description:    "此臺灣核心-職業（TW Core Observation Occupation） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現職業資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * category MS
 * category only CodeableConceptTW
@@ -29,6 +29,9 @@ Description:    "此臺灣核心-職業（TW Core Observation Occupation） Prof
 * component.code only CodeableConceptTW
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
+* encounter only Reference(TWCoreEncounter)
+* performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
+* specimen only Reference(TWCoreSpecimen)
 
 * effective[x] only Period
 * effective[x] MS

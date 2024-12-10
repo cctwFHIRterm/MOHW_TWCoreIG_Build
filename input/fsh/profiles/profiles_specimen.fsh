@@ -3,13 +3,14 @@ Parent: Specimen
 Id: Specimen-twcore
 Title: "TW Core Specimen"
 Description: "此臺灣核心-檢體（TW Core Specimen） Profile說明本IG如何進一步定義FHIR的Specimen Resource以呈現檢體的詳細資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and type and subject MS
 * subject 1..
 * subject only Reference(TWCorePatient or Group or Device or Substance or TWCoreLocation)
 * parent only Reference(TWCoreSpecimen)
+* request only Reference(TWCoreServiceRequest)
 * collection.collector only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * collection.method from FHIRSpecimenCollectionMethod (extensible)
 * type from http://terminology.hl7.org/ValueSet/v2-0487 (extensible)

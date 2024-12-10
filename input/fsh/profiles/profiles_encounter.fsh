@@ -3,7 +3,7 @@ Parent:         Encounter
 Id:             Encounter-twcore
 Title:          "TW Core Encounter"
 Description:    "此臺灣核心-就醫事件（TW Core Encounter） Profile說明本IG如何進一步定義FHIR的Encounter Resource以呈現就醫事件。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * identifier and identifier.system and identifier.value and period and reasonCode MS
@@ -43,6 +43,7 @@ Description:    "此臺灣核心-就醫事件（TW Core Encounter） Profile說�
 * serviceProvider MS
 * serviceProvider only Reference(TWCoreOrganization)
 * partOf only Reference(TWCoreEncounter)
+* basedOn only Reference(TWCoreServiceRequest)
 
 * identifier.type only CodeableConceptTW
 * class only CodingTW

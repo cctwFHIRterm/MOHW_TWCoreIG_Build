@@ -7,7 +7,7 @@ Title:          "TW Core Procedure"
 Description:    "此臺灣核心-處置或手術（TW Core Procedure） Profile說明本IG如何進一步定義FHIR的Procedure Resource以呈現處置或手術基本資料。
 
 "
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and subject and performed[x] and asserter and  bodySite MS
@@ -19,9 +19,12 @@ Description:    "此臺灣核心-處置或手術（TW Core Procedure） Profile�
 * asserter only Reference(TWCorePatient or TWCoreRelatedPerson or TWCorePractitioner or TWCorePractitionerRole)
 * performer.actor only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCorePatient or TWCoreRelatedPerson or Device)
 * performer.onBehalfOf only Reference(TWCoreOrganization)
-* reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult or TWCoreProcedure or DiagnosticReport or DocumentReference)
+* reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult or TWCoreProcedure or TWCoreDiagnosticReport or TWCoreDocumentReference)
 * complicationDetail only Reference(TWCoreCondition)
 * location only Reference(TWCoreLocation)
+* basedOn only Reference(TWCoreCarePlan or TWCoreServiceRequest)
+* report only Reference(TWCoreDiagnosticReport or TWCoreDocumentReference or TWCoreComposition)
+* usedReference only Reference(Device or TWCoreMedication or Substance)
 * code 1..1 MS
 * code.text 0..1 MS
 * code.coding ^slicing.discriminator.type = #pattern

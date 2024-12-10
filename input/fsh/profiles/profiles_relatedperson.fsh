@@ -3,7 +3,7 @@ Parent:         RelatedPerson
 Id:             RelatedPerson-twcore
 Title:          "TW Core RelatedPerson"
 Description:    "此臺灣核心-相關人士（TW Core RelatedPerson） Profile說明本IG如何進一步定義FHIR的RelatedPerson Resource以呈現相關人士資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * active 1.. MS
 * patient only Reference(TWCorePatient)
 * patient MS

@@ -2,7 +2,7 @@ Logical: TWEncounterModel
 Id: TWEncounter
 Title: "臺灣核心-就醫事件(TW Core Encounter) 之資料模型"
 Description: "臺灣核心-就醫事件(TW Core Encounter) 之資料模型"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 //* text 0..1 Narrative "內容摘要以供人閱讀" "內容摘要以供人閱讀"
 * identifier 0..* Identifier "就醫事件的識別碼。" "就醫事件的識別碼。"
 * status 1..1 code "就醫現況。" "就醫現況。"

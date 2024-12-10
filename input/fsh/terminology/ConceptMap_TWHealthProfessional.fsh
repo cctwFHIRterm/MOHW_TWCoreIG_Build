@@ -6,7 +6,7 @@ Usage: #definition
 * experimental = false
 * status = #active
 * date = "2024-01-05"
-* version = "0.3.1"
+* version = "0.3.0"
 * name = "TWHealthProfessional"
 * title = "臺灣醫事司醫事人員類別代碼對應SNOMED CT及臺灣醫事司醫事人員類別"
 * description = "此對應表為臺灣醫事司醫事人員類別代碼對應至國際標準碼SNOMED CT，供實作者於撰寫程式以自動化對應或轉代碼時使用。"

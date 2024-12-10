@@ -3,7 +3,7 @@ Parent:         CarePlan
 Id:             CarePlan-twcore
 Title:          "TW Core CarePlan"
 Description:    "此臺灣核心-照護計畫（TW Core CarePlan） Profile說明本IG如何進一步定義FHIR的CarePlan Resource以呈現照護計畫資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * text MS
 * text ^short = "CarePlan Resource之內容摘要以供人閱讀"
 * text.status MS

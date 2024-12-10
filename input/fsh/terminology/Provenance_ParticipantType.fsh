@@ -34,7 +34,7 @@ Id: provenance-participant-type-hl7-tw
 Title: "HL7 Provenance participant type + 臺灣衛福部資訊處Provenance參與類型"
 Description: "HL7 Provenance participant type + 臺灣衛福部資訊處Provenance參與類型"
 * ^date = "2024-08-31"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 * ^experimental = false
 * include codes from system TWProvenancePaticipantType
 * include codes from system http://terminology.hl7.org/CodeSystem/provenance-participant-type|4.0.1

@@ -3,7 +3,7 @@ Id: tw-number
 Title: "TW Number"
 Description: "臺灣地址欄位-號"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/tw-number"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * ^status = #active
 * ^context.type = #element
 * ^context.expression = "Address"

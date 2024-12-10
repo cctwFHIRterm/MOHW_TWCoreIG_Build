@@ -3,7 +3,7 @@ Parent:         http://hl7.org/fhir/StructureDefinition/vitalsigns
 Id:             Observation-vitalSigns-twcore
 Title:          "TW Core Observation Vital Signs"
 Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile說明本IG如何進一步定義FHIR的Vital Signs Profile以呈現生命體徵資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * category ..* MS
 * category only CodeableConceptTW
@@ -29,7 +29,7 @@ Description:    "此臺灣核心-生命體徵（TW Core Observation Vital Signs�
 * subject only Reference(TWCorePatient)
 * subject MS
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(CarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
 * partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * specimen only Reference(TWCoreSpecimen)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)

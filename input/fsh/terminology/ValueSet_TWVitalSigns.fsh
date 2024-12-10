@@ -6,7 +6,7 @@ Title: "LOINC生命體徵值集"
 Description: "LOINC生命體徵值集。"
 * ^experimental = false
 * ^date = "2022-08-31"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 //* $loinc#39156-5
 //* include codes from valueset VitalSigns
 

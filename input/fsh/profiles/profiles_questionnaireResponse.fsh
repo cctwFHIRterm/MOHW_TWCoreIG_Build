@@ -5,7 +5,7 @@ Parent:         SDCQuestionnaireResponse
 Id:             QuestionnaireResponse-twcore
 Title:          "TW Core QuestionnaireResponse"
 Description:    "此臺灣核心-問卷題目回覆（TW Core QuestionnaireResponse）Profile說明本IG如何進一步定義FHIR的QuestionnaireResponse  Resource以呈現問卷題目回覆資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 
 * questionnaire MS
 * questionnaire.extension contains $questionnaire-uri named url 0..1 MS
@@ -34,4 +34,4 @@ Description:    "此臺灣核心-問卷題目回覆（TW Core QuestionnaireRespo
 * basedOn only Reference(TWCoreCarePlan or TWCoreServiceRequest)
 * partOf only Reference(TWCoreObservationClinicalResult or TWCoreProcedure)
 * encounter only Reference(TWCoreEncounter)
-* source only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or RelatedPerson)
+* source only Reference(TWCorePatient or TWCorePractitioner or TWCorePractitionerRole or TWCoreRelatedPerson)

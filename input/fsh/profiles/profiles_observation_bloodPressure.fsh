@@ -3,7 +3,7 @@ Parent:         http://hl7.org/fhir/StructureDefinition/bp
 Id:             Observation-bloodPressure-twcore
 Title:          "TW Core Observation Blood Pressure"
 Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現血壓資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * code only CodeableConceptTW
 //* code = http://loinc.org#85354-9
 //* code MS
@@ -59,4 +59,8 @@ Description:    "此臺灣核心-血壓（TW Core Observation Blood Pressure） 
 * component[Diastolic].valueQuantity.code = #mm[Hg] (exactly)*/
 * bodySite from http://hl7.org/fhir/ValueSet/body-site (extensible)
 * method from http://hl7.org/fhir/ValueSet/observation-methods (extensible)
-
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
+* subject only Reference(TWCorePatient)
+* hasMember only Reference(TWCoreQuestionnaireResponse or MolecularSequence or TWCoreObservationVitalSigns)
+* derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)

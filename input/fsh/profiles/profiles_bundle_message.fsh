@@ -3,7 +3,7 @@ Parent: TWCoreBundle
 Id: Bundle-message-twcore
 Title: "TW Core Bundle Message"
 Description: "此臺灣核心-資料交換基本單位-訊息（TW Core Bundle Message） Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位(TW Core Bundle） Profile以呈現 Bundle Message 的詳細資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * type = #message

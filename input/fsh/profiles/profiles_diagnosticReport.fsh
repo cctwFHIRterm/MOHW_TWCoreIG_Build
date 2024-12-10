@@ -3,7 +3,7 @@ Parent: DiagnosticReport
 Id: DiagnosticReport-twcore
 Title: "TW Core DiagnosticReport"
 Description: "此臺灣核心-診斷報告（TW Core DiagnosticReport） Profile說明本IG如何進一步定義FHIR的DiagnosticReport Resource以呈現診斷報告。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and category and code and subject and effective[x] and issued MS

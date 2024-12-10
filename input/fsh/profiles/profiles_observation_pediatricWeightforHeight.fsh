@@ -3,7 +3,7 @@ Parent:         TWCoreObservationVitalSigns
 Id:             Observation-pediatric-weight-height-twcore
 Title:          "TW Core Pediatric Weight for Height Observation"
 Description:    "此臺灣核心-兒童生長曲線（TW Core Pediatric Weight for Height Observation）Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現兒童生長曲線資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * code only CodeableConceptTW
 * code = http://loinc.org#77606-2
 * code MS

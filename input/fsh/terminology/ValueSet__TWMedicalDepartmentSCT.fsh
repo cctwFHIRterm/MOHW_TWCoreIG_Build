@@ -11,7 +11,7 @@ Description: "因就醫科別與診療科別對應到之國際標準碼 SNOMED C
 "
 * ^experimental = false
 * ^date = "2024-05-27"
-* ^version = "0.3.1"
+* ^version = "0.3.0"
 
 * SNOMED_CT#419772000
 * SNOMED_CT#419192003

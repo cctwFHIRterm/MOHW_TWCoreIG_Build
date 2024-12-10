@@ -3,7 +3,7 @@ Parent:         Observation
 Id:             Observation-simple-twcore
 Title:          "TW Core Simple Observation"
 Description:    "此臺灣核心-通用檢驗檢查（TW Core Simple Observation） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現通用檢驗檢查資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * category 1.. MS
 * category only CodeableConceptTW

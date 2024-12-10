@@ -6,7 +6,7 @@ Parent:         TWCoreObservationClinicalResult
 Id:             Observation-laboratoryResult-twcore
 Title:          "TW Core Observation Laboratory Result"
 Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現檢驗檢查資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 //* status and category and category.coding and category.coding.code and category.coding.system and category.text and text MS
 * status and category MS
 //* category ^slicing.discriminator.type = #pattern
@@ -55,13 +55,11 @@ Description:    "此臺灣核心-實驗室檢驗檢查（TW Core Observation Lab
 * component.code.coding[LOINCObservationCode] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
 * component.code.coding[TWLaboratoryCategory] ^short = "此為中央健康保險署(NHI)維護之醫療服務給付項目相關代碼，主要針對申報使用，更新頻率相對頻繁，可免費使用，可依情境選用此代碼。"
 * component.code.coding[TWLaboratoryCategory] ^binding.description = "應填入所綁定值集中的其中一個代碼。"
-
-
+* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
+* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * subject 1.. MS
 * subject only Reference(TWCorePatient)
 * encounter only Reference(TWCoreEncounter)
-* basedOn only Reference(TWCoreCarePlan or DeviceRequest or ImmunizationRecommendation or TWCoreMedicationRequest or NutritionOrder or TWCoreServiceRequest)
-* partOf only Reference(MedicationAdministration or TWCoreMedicationDispense or TWCoreMedicationStatement or TWCoreProcedure or TWCoreImmunization or TWCoreImagingStudy)
 * hasMember only Reference(TWCoreObservationLaboratoryResult or TWCoreQuestionnaireResponse or MolecularSequence)
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationLaboratoryResult or MolecularSequence)
 * performer MS

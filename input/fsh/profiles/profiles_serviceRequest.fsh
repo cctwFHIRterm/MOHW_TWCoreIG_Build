@@ -3,7 +3,7 @@ Parent:         ServiceRequest
 Id:             ServiceRequest-twcore
 Title:          "TW Core ServiceRequest"
 Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profile說明本IG如何進一步定義FHIR的ServiceRequest Resource以呈現服務請求資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * status MS
 * intent MS
 * category MS
@@ -56,3 +56,4 @@ Description:    "此臺灣核心-服務請求（TW Core ServiceRequest） Profil
 * replaces only Reference(TWCoreServiceRequest)
 * insurance only Reference(TWCoreCoverage or ClaimResponse)
 * specimen only Reference(TWCoreSpecimen)
+* performer only Reference(TWCorePractitioner or TWCorePractitionerRole or TWCoreOrganization or TWCoreCareTeam or HealthcareService or TWCorePatient or  Device or TWCoreRelatedPerson)

@@ -3,7 +3,7 @@ Parent:         Observation
 Id:             Observation-clinical-result-twcore
 Title:          "TW Core Observation Clinical Result"
 Description:    "此臺灣核心-臨床檢驗檢查（TW Core Observation Clinical Result） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現臨床檢驗檢查資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * . obeys tw-core-4
 * status MS
 * category 1.. MS

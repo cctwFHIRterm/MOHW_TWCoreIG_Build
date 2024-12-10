@@ -14,7 +14,7 @@ Id: Address-tw
 Title: "TW Core Address"
 Description: "此臺灣核心-地址（TW Core Address） Profile說明本IG如何進一步定義FHIR的Address資料類型以呈現臺灣地址。  
 本Profile之擴充的資料項目（Extension）為參照[初診基本資料表](https://www.eck.org.tw/wp-content/uploads/2019/10/ECK_FIRSTVIEW_INFOR.pdf)之欄位與[中華郵政地址英譯寫法](https://www.post.gov.tw/post/internet/Postal/sz_a_e_ta1.jsp)，若貴機構有詳細地址資訊之需求，可依情況填選；若無需區分詳細地址資訊，可使用原生欄位`text`、`line`、`district`呈現。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * ^kind = #complex-type
 * use and type and postalCode and line and city and district and country MS
 * postalCode.extension contains $tw-postal-code named PostalCode 0..1 MS

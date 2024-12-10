@@ -3,7 +3,7 @@ Parent:         http://hl7.org/fhir/StructureDefinition/bodyweight
 Id:             Observation-body-weight-twcore
 Title:          "TW Core Observation Body Weight"
 Description:    "此臺灣核心-體重（TW Core Observation Body Weight） Profile說明本IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs） Profile以呈現體重資料。"
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * code only CodeableConceptTW
 //* code = http://loinc.org#29463-7
 //* code MS
@@ -27,3 +27,4 @@ Description:    "此臺灣核心-體重（TW Core Observation Body Weight） Pro
 * derivedFrom only Reference(TWCoreDocumentReference or TWCoreImagingStudy or TWCoreMedia or TWCoreQuestionnaireResponse or TWCoreObservationVitalSigns or MolecularSequence)
 * hasMember only Reference(TWCoreObservationVitalSigns or TWCoreQuestionnaireResponse or MolecularSequence)
 * performer only Reference(TWCorePractitioner or TWCoreOrganization or TWCorePatient or TWCorePractitionerRole or TWCoreCareTeam)
+* subject only Reference(TWCorePatient)

@@ -4,7 +4,7 @@ Id: MedicationRequest-twcore
 Title: "TW Core MedicationRequest"
 Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profile說明本IG如何進一步定義FHIR的MedicationRequest Resource以呈現藥品請求的詳細資料。"
 
-* ^version = "0.3.1"
+* ^version = "0.3.2"
 * language ^example.label = "Value"
 * language ^example.valueString = "zh-TW"
 * status and intent and category and subject and encounter and requester and dosageInstruction and dosageInstruction.text and dosageInstruction.route and medication[x] and dosageInstruction.timing and reasonReference and identifier and authoredOn and note and dispenseRequest and dispenseRequest.validityPeriod and dispenseRequest.numberOfRepeatsAllowed and dispenseRequest.expectedSupplyDuration MS
@@ -36,6 +36,7 @@ Description: "此臺灣核心-藥品請求（TW Core MedicationRequest） Profil
 * recorder only Reference(TWCorePractitioner or TWCorePractitionerRole)
 * reasonReference only Reference(TWCoreCondition or TWCoreObservationLaboratoryResult)
 * basedOn only Reference(TWCoreCarePlan  or TWCoreMedicationRequest or TWCoreServiceRequest or ImmunizationRecommendation)	
+* eventHistory only Reference(TWCoreProvenance)
 /* dosageInstruction.route.coding ^slicing.discriminator.type = #pattern
 * dosageInstruction.route.coding ^slicing.discriminator.path = "$this"
 * dosageInstruction.route.coding ^slicing.rules = #open
