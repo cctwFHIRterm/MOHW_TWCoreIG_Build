@@ -6,7 +6,7 @@ Description: "臺灣健保署2023年中文版ICD-10-PCS，參照至[國際疾病
 
 *因原始資料無代碼版本資訊，故使用其法規「公布日期」作為版本資訊。*
 
-因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－臺灣健保署2023年中文版ICD-10-PCS](https://fhir.mohw.gov.tw/ts/codesystemRead.jsp?id=icd-10-pcs-2023-tw&version=2024-11-18&metaId=1&status=active&codeStatus=use&show=Y)查閱
+因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－代碼系統(Code System)](https://fhir.mohw.gov.tw/ts/codesystem.jsp)查閱
 
 "
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-pcs-2023-tw"
@@ -31,7 +31,6 @@ Description: "臺灣健保署2023年中文版ICD-10-PCS，參照至[國際疾病
 * ^property[=].description = "狀態"
 * ^property[=].type = #code
 * ^property[+].code = #USE
-* ^property[=].uri = ""
 * ^property[=].description = "代碼有效/無效"
 * ^property[=].type = #string
 * #0016070 "開放性腦室至鼻咽繞道術，使用自體組織替代物"

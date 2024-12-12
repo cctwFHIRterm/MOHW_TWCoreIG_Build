@@ -6,10 +6,10 @@ Description: "臺灣健保署2023年中文版ICD-10-CM，參照至[國際疾病�
 
 *因原始資料無代碼版本資訊，故使用其法規「公布日期」作為版本資訊。*
 
-因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－臺灣健保署2023年中文版ICD-10-CM](https://fhir.mohw.gov.tw/ts/codesystemRead.jsp?id=icd-10-cm-2023-tw&version=2024-11-18&metaId=1&status=active&codeStatus=use&show=Y)查閱
+因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處(本頁、XML、JSON、TTL)僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺－代碼系統(Code System)](https://fhir.mohw.gov.tw/ts/codesystem.jsp)查閱
 
 "
-
+* ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw"
 * ^version = "2024-11-18"
 * ^status = #active
 * ^experimental = false
