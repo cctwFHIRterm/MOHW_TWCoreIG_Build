@@ -1,4 +1,6 @@
-這頁列出本IG必須及可能需要使用的所有專門術語(terminology)
+這頁列出本IG必須及可能需要使用的所有專門術語(terminology)。
+
+因以下專門術語中，部分代碼系統與值集量較大，會使載入頁面時間較長，為方便使用者瀏覽僅擷取部分代碼，完整代碼可至[全國專門術語服務平臺](https://fhir.mohw.gov.tw/ts/index.jsp)查詢。
 
 ### 值集(ValueSets)
 - [LOINC Code Document Section值集](ValueSet-loinc-doc-section-code.html)

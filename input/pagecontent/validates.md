@@ -114,7 +114,10 @@ body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !impor
 <p>請於「命令提示字元」依序輸入以下語法：<br/>
 　1. FHIR提供的驗證程式－<b style="color: red;">紅色①</b>『<code>java -jar validator_cli.jar</code>』<br/>
 　2. 要驗證的Profile實例(即JSON檔)－<b style="color: #4D82B8;">藍色②</b>『<code>Patient-pat-example.json</code>』(即為您於Step5所放置於C:\的JSON檔案名稱)<br/>
-　3. 驗證的IG及其版本號－<b style="color: #E78E46;">橘色③</b>『<code>-version 4.0 -ig tw.gov.mohw.twcore</code>』，鍵入Enter，即可查看驗證結果<br />
+　3. FHIR版本號與驗證的IG－<b style="color: #E78E46;">橘色③</b>『<code>-version 4.0 -ig tw.gov.mohw.twcore</code>』，鍵入Enter，即可查看驗證結果<br />
+  <div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
+  若驗證時有指定版本的需求，可於驗證IG的Package Number後加上版本號，如：tw.gov.mohw.twcore#0.3.2。
+  </div>
 　<b style="color: red;">①</b>、<b style="color: #4D82B8;">②</b>、<b style="color: #E78E46;">③</b>之間需有空格，完整語法即：<code>java -jar validator_cli.jar Patient-pat-example.json -version 4.0 -ig tw.gov.mohw.twcore</code></p>
   <img src="validates/6-3.png" alt="validates" style="display: block;margin-left: auto;margin-right: auto;width: 80%;margin-bottom: 15px;" class="figure-img img-responsive img-rounded center-block"/>
   <div style="clear:both;"></div>
