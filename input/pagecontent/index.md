@@ -346,6 +346,7 @@ IG的實作亦遵循此規則，其中的major異動將由「<b>電子病歷交�
 </div>
 
 #### 作者
+
 <div style="padding-left: 10px;">
 <p>李麗惠（Li-Hui Lee）、曾鈺珈（Yu-Jia Tseng）、李奇安（Chi-An Lee）、林伃瑤（Yu-Yao Lin）</p>
 </div>
