@@ -6,7 +6,7 @@ Description: "
 
 識別碼後綴詞"
 * ^url = "https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition/identifier-suffix"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * ^status = #active
 * ^context[0].type = #element
 * ^context[=].expression = "Patient.identifier.type.coding.code"

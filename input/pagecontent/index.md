@@ -1,10 +1,7 @@
 <div class="bg-warning" style="ol { counter-reset: item } li { display: block } li:before { content: counters（item, ">
-因考量實作需求，於2024/12/12異動以下內容：
+因考量實作需求，於2025/05/05異動以下內容：
 <ol>  
-	<li>因實務需求，工研院次世代數位醫療平台專案辦公室新增<a href="twcdi.html">TWCDI</a>內容說明。</li>
-  	<li>更新代碼系統<a href="CodeSystem-icd-10-cm-2023-tw.html">臺灣健保署2023年中文版ICD-10-CM</a>，並新增property："USE" 表「代碼有效/無效」以利專案使用。</li>
-	<li>更新代碼系統<a href="CodeSystem-icd-10-pcs-2023-tw.html">臺灣健保署2023年中文版ICD-10-PCS</a>，並新增property："USE" 表「代碼有效/無效」以利專案使用。</li>
-	<li>更新代碼系統<a href="CodeSystem-medical-service-payment-tw.html">臺灣健保署醫療服務給付項目</a>，以利專案使用。</li>
+	<li>更新代碼系統<a href="CodeSystem-medication-nhi-tw.html">臺灣健保署用藥品項</a>，以利專案使用。</li>
 </ol>
 請留意這些異動，以避免影響您的實作。
 </div>

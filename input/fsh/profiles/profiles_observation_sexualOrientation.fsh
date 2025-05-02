@@ -3,7 +3,7 @@ Parent: Observation
 Id: Observation-sexual-orientation-twcore
 Title: "TW Core Observation Sexual Orientation"
 Description: "此臺灣核心-性傾向（TW Core Observation Sexual Orientation） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現性傾向資料。"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * . obeys tw-core-4
 * status MS
 * code MS

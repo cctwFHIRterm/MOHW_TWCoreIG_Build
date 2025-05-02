@@ -2,7 +2,7 @@ Logical: TWObservationModel
 Id: TWObservation
 Title: "臺灣核心-檢驗檢查(TW Core Observation) 之資料模型"
 Description: "臺灣核心-檢驗檢查(TW Core Observation) 之資料模型"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * resultStatus 1..1 code "檢驗檢查結果之狀態。" "檢驗檢查結果之狀態。"
 * category 0..* CodeableConcept "檢驗檢查的類別。" "檢驗檢查的類別。"
 * observationCode 1..1 CodeableConcept "檢驗檢查代碼，此代碼通常是用來識別所進行的檢驗檢查是哪一項，例如身高、體重、血壓等。" "檢驗檢查代碼，此代碼通常是用來識別所進行的檢驗檢查是哪一項，例如身高、體重、血壓等。"

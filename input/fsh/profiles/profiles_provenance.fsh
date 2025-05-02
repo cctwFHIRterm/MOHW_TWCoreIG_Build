@@ -3,7 +3,7 @@ Parent:         Provenance
 Id:             Provenance-twcore
 Title:          "TW Core Provenance"
 Description:    "此臺灣核心-出處（TW Core Provenance） Profile說明本IG如何進一步定義FHIR的Provenance Resource以呈現出處資料。"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * target MS
 * target.reference MS
 * recorded MS

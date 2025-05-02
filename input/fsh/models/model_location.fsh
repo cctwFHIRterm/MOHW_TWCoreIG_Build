@@ -2,7 +2,7 @@ Logical: TWLocationModel
 Id: TWLocation
 Title: "臺灣核心-地點(TW Core Location) 之資料模型"
 Description: "臺灣核心-地點(TW Core Location) 之資料模型"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * status 0..1 code "地點的狀態，指示該地點是否仍在使用中。" "地點的狀態，指示該地點是否仍在使用中。"
 * name 1..1 string "地點的名稱。" "地點的名稱。"
 * telecom 0..* ContactPoint "地點的聯絡細節。" "地點的聯絡細節。"

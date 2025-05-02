@@ -7,7 +7,7 @@ Id:             Patient-twcore
 Title:          "TW Core Patient"
 Description:    "
 此臺灣核心-病人（TW Core Patient） Profile說明本IG如何進一步定義FHIR的Patient Resource以呈現基本資料。"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * address only AddressTW
 * address MS
 * language ^example.label = "Value"

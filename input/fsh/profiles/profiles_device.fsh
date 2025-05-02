@@ -3,7 +3,7 @@ Parent:         Device
 Id:             Device-twcore
 Title:          "TW Core Implantable Device"
 Description:    "此臺灣核心-植入式裝置（TW Core Implantable Device） Profile說明本IG如何進一步定義FHIR的Device Resource以呈現植入式裝置資料。"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * identifier MS 
 * udiCarrier ..1 MS
 //* udiCarrier ^comment = "Some devices may not have UDI information (for example. historical data or patient reported data)."

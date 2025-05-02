@@ -2,7 +2,7 @@ Instance: CapabilityStatementTWCoreClient
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://twcore.mohw.gov.tw/ig/twcore/CapabilityStatement/CapabilityStatementTWCoreClient"
-* version = "0.3.2"
+* version = "0.3.3"
 * name = "CapabilityStatementTWCoreClient"
 * title = "臺灣核心-用戶端（TW Core Client）"
 * status = #active
@@ -1606,7 +1606,7 @@ Usage: #definition
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
     <h2 id=\"title\">臺灣核心-用戶端（TW Core Client）</h2>
     <ul>
-        <li>實作指引版本：0.3.2</li>
+        <li>實作指引版本：0.3.3</li>
         <li>FHIR版本：4.0.1</li>
         <li>支援格式：<code>json</code>, <code>xml</code></li>
         <li>發佈日：2024-08-31</li>

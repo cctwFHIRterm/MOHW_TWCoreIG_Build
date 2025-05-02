@@ -3,7 +3,7 @@ Parent: Observation
 Id: Observation-screening-assessment-twcore
 Title: "TW Core Observation Screening Assessment"
 Description: "此臺灣核心-健康狀態篩檢與評估（TW Core Observation Screening Assessment） Profile說明本IG如何進一步定義FHIR的Observation Resource以呈現健康狀態篩檢與評估資料。"
-* ^version = "0.3.2"
+* ^version = "0.3.3"
 * . obeys tw-core-4
 * status MS
 * category MS
