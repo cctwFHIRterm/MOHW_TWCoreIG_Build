@@ -8,14 +8,11 @@ Description: """臺灣健保署用藥品項代碼，參照自[健保用藥品項
 *因原始資料無代碼版本資訊，故使用其「更新日期」作為版本資訊。*  
 
 因代碼量較大會使載入頁面時間較長，為方便使用者瀏覽，此處僅擷取部分代碼，完整代碼可至完整代碼可至[全國專門術語服務平臺－代碼系統(Code System)](https://fhir.mohw.gov.tw/ts/codesystem.jsp)查閱"""
-* ^status = #active
-* ^date = "2025-04-30"
-* ^copyright = "衛生福利部中央健康保險署"
-* ^caseSensitive = true
-* ^experimental = false
+* ^url = "https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/medication-nhi-tw"
 * ^version = "2025-04-30"
-* ^content = #complete
-* ^count = 44828
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-04-30"
 * ^contact.name = "衛生福利部"
 * ^contact.telecom[0].system = #email
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"
@@ -29,6 +26,9 @@ Description: """臺灣健保署用藥品項代碼，參照自[健保用藥品項
 * ^property[=].description = "生效日期"
 * ^property[=].type = #dateTime
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^copyright = "衛生福利部中央健康保險署"
+* ^caseSensitive = true
+* ^content = #complete
 * #A000015421 "YEN KUANG EYE DROPS"
 * #A000015421 ^property[0].code = #status
 * #A000015421 ^property[=].valueCode = #active
@@ -199,3 +199,8 @@ Description: """臺灣健保署用藥品項代碼，參照自[健保用藥品項
 * #A000173100 ^property[=].valueCode = #active
 * #A000173100 ^property[+].code = #effectiveDate
 * #A000173100 ^property[=].valueDateTime = "2018-06-24"
+* #A003092100 "ASPIRIN TABLETS 500MG"
+* #A003092100 ^property[0].code = #effectiveDate
+* #A003092100 ^property[=].valueDateTime = "2018-06-24"
+* #A003092100 ^property[+].code = #status
+* #A003092100 ^property[=].valueCode = #active
