@@ -7,7 +7,7 @@ Usage: #example
 * status = #active
 * category.coding = http://terminology.hl7.org/CodeSystem/medication-statement-category#outpatient "outpatient"
 * category.text = "門診" 
-* medicationCodeableConcept = $medication-nhi-tw#A003092100 "ASPIRIN TABLETS 500MG \"S.Y.\""
+* medicationCodeableConcept = $medication-nhi-tw#A003092100 "ASPIRIN TABLETS 500MG"
 * medicationCodeableConcept.text = "阿司匹林"
 * subject = Reference(Patient/pat-example)
 * effectiveDateTime = "2023-11-05T08:00:00+08:00"

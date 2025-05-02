@@ -14,7 +14,6 @@ Description: """臺灣健保署中藥用藥品項，參照自[中藥用藥品項
 * ^experimental = false
 * ^version = "2024-05-31"
 * ^content = #complete
-* ^count = 10603
 * ^contact.name = "衛生福利部"
 * ^contact.telecom[0].system = #email
 * ^contact.telecom[=].value = "CCYU@mohw.gov.tw"

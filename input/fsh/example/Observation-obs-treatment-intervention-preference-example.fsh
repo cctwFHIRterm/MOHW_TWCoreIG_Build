@@ -7,7 +7,7 @@ Usage: #example
 * status = #final
 * category = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/category-code-tw#treatment-intervention-preference "Treatment Intervention preference"
 * category.text = "Treatment Intervention Preference"
-* code = $loinc#75773-2 "Goals, preferences, and priorities for medical treatment [Reported]"
+* code = $loinc#75773-2
 * code.text = "preferences for medical treatment"
 * subject = Reference(Patient/pat-example) 
 * effectiveDateTime = "2023-08-30"
